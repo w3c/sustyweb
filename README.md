@@ -8,4 +8,4 @@ If you would like a quick introduction to both our group and our specification, 
 
 If you would like to contribute feedback, create a [new issue](https://github.com/w3c/sustyweb/issues) with your recommendations. If filing issues in GitHub is not feasible, email our open discussion group [public-sustyweb@w3.org](public-sustyweb@w3.org) ([comment archive](https://lists.w3.org/Archives/Public/public-sustyweb/)).
 
-To learn more about our group, it's goals, and our progress, check our our [wiki](https://www.w3.org/community/sustyweb/wiki/Main_Page), and [frequently asked questions](https://www.w3.org/community/sustyweb/wiki/Frequently_Asked_Questions) page.
+To learn more about our group, its goals, and our progress, check our our [wiki](https://www.w3.org/community/sustyweb/wiki/Main_Page), and [frequently asked questions](https://www.w3.org/community/sustyweb/wiki/Frequently_Asked_Questions) page.
