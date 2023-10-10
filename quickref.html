@@ -1,0 +1,2536 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="generator" content="ReSpec 34.1.8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+dfn{cursor:pointer}
+.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
+.dfn-panel:not(.docked)>.caret{position:absolute;top:-9px}
+.dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;top:0}
+.dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1}
+.dfn-panel *{margin:0}
+.dfn-panel b{display:block;color:#000;margin-top:.25em}
+.dfn-panel ul a[href]{color:#333}
+.dfn-panel>div{display:flex}
+.dfn-panel a.self-link{font-weight:700;margin-right:auto}
+.dfn-panel .marker{padding:.1em;margin-left:.5em;border-radius:.2em;text-align:center;white-space:nowrap;font-size:90%;color:#040b1c}
+.dfn-panel .marker.dfn-exported{background:#d1edfd;box-shadow:0 0 0 .125em #1ca5f940}
+.dfn-panel .marker.idl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
+.dfn-panel a:not(:hover){text-decoration:none!important;border-bottom:none!important}
+.dfn-panel a[href]:hover{border-bottom-width:1px}
+.dfn-panel ul{padding:0}
+.dfn-panel li{margin-left:1em}
+.dfn-panel.docked{position:fixed;left:.5em;top:unset;bottom:2em;margin:0 auto;max-width:calc(100vw - .75em * 2 - .5em - .2em * 2);max-height:30vh;overflow:auto}
+</style>
+		
+		
+<title>Quick Reference for Web Sustainability Guidelines (WSG) 1.0</title>
+		
+		
+		
+<style>
+
+			table { border-collapse: collapse; border-spacing: 0; }
+			table tr { border: black solid 1px; padding: 0.5em 0.25em; }
+			.highlight { background-color: #fffe65; }
+		
+</style>
+	
+<style id="respec-mainstyle">
+@keyframes pop{
+0%{transform:scale(1,1)}
+25%{transform:scale(1.25,1.25);opacity:.75}
+100%{transform:scale(1,1)}
+}
+:is(h1,h2,h3,h4,h5,h6,a) abbr{border:none}
+dfn{font-weight:700}
+a.internalDFN{color:inherit;border-bottom:1px solid #99c;text-decoration:none}
+a.externalDFN{color:inherit;border-bottom:1px dotted #ccc;text-decoration:none}
+a.bibref{text-decoration:none}
+.respec-offending-element:target{animation:pop .25s ease-in-out 0s 1}
+.respec-offending-element,a[href].respec-offending-element{text-decoration:red wavy underline}
+@supports not (text-decoration:red wavy underline){
+.respec-offending-element:not(pre){display:inline-block}
+.respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}
+}
+#references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
+cite .bibref{font-style:normal}
+a[href].orcid{padding-left:4px;padding-right:4px}
+a[href].orcid>svg{margin-bottom:-2px}
+.toc a,.tof a{text-decoration:none}
+a .figno,a .secno{color:#000}
+ol.tof,ul.tof{list-style:none outside none}
+.caption{margin-top:.5em;font-style:italic}
+table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}
+.simple th{background:#005a9c;color:#fff;padding:3px 5px;text-align:left}
+.simple th a{color:#fff;padding:3px 5px;text-align:left}
+.simple th[scope=row]{background:inherit;color:inherit;border-top:1px solid #ddd}
+.simple td{padding:3px 10px;border-top:1px solid #ddd}
+.simple tr:nth-child(even){background:#f0f6ff}
+.section dd>p:first-child{margin-top:0}
+.section dd>p:last-child{margin-bottom:0}
+.section dd{margin-bottom:1em}
+.section dl.attrs dd,.section dl.eldef dd{margin-bottom:0}
+#issue-summary>ul{column-count:2}
+#issue-summary li{list-style:none;display:inline-block}
+details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
+details.respec-tests-details>*{padding-right:2em}
+details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin solid #cad3e2;border-radius:.3em;background-color:#fff;padding-bottom:.5em}
+details.respec-tests-details[open]>summary{border-bottom:thin solid #cad3e2;padding-left:1em;margin-bottom:1em;line-height:2em}
+details.respec-tests-details>ul{width:100%;margin-top:-.3em}
+details.respec-tests-details>li{padding-left:1em}
+.self-link:hover{opacity:1;text-decoration:none;background-color:transparent}
+aside.example .marker>a.self-link{color:inherit}
+.header-wrapper{display:flex;align-items:baseline}
+:is(h2,h3,h4,h5,h6):not(#toc>h2,#abstract>h2,#sotd>h2,.head>h2){position:relative;left:-.5em}
+:is(h2,h3,h4,h5,h6):not(#toch2)+a.self-link{color:inherit;order:-1;position:relative;left:-1.1em;font-size:1rem;opacity:.5}
+:is(h2,h3,h4,h5,h6)+a.self-link::before{content:"§";text-decoration:none;color:var(--heading-text)}
+:is(h2,h3)+a.self-link{top:-.2em}
+:is(h4,h5,h6)+a.self-link::before{color:#000}
+@media (max-width:767px){
+dd{margin-left:0}
+}
+@media print{
+.removeOnSave{display:none}
+}
+</style>
+<meta name="description" content="This document provides a quick reference to the Web Sustainability Guidelines (WSG) 1.0 specification. The content is laid out in a table, with Success Criteria, Impact, Effort, and GRI ratings noted for each guideline. Checkboxes are provided for those individuals or groups wishing to work through the list (note your progress will not be saved), and a print-friendly version is also available to audit your work as part of an exercise.">
+<style>
+var{position:relative;cursor:pointer}
+var[data-type]::after,var[data-type]::before{position:absolute;left:50%;top:-6px;opacity:0;transition:opacity .4s;pointer-events:none}
+var[data-type]::before{content:"";transform:translateX(-50%);border-width:4px 6px 0 6px;border-style:solid;border-color:transparent;border-top-color:#000}
+var[data-type]::after{content:attr(data-type);transform:translateX(-50%) translateY(-100%);background:#000;text-align:center;font-family:"Dank Mono","Fira Code",monospace;font-style:normal;padding:6px;border-radius:3px;color:#daca88;text-indent:0;font-weight:400}
+var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
+</style>
+<script id="initialUserConfig" type="application/json">{
+  "editors": [
+    {
+      "name": "Alexander Dawson",
+      "url": "https://alexanderdawson.com/",
+      "w3cid": 49702
+    },
+    {
+      "name": "Tim Frick",
+      "url": "https://mightybytes.com/",
+      "company": "Mightybytes",
+      "w3cid": 62394
+    }
+  ],
+  "edDraftURI": "https://w3c.github.io/sustyweb/quickref.html",
+  "github": "https://github.com/w3c/sustyweb/",
+  "group": "sustyweb",
+  "latestVersion": "https://w3c.github.io/sustyweb/quickref.html",
+  "specStatus": "CG-DRAFT",
+  "publishISODate": "2023-10-10T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 10 October 2023"
+}</script>
+<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
+	<body class="h-entry informative"><div class="head">
+    
+    <h1 id="title" class="title">Quick Reference for Web Sustainability Guidelines (WSG) 1.0</h1> 
+    <p id="w3c-state">
+      <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
+      <time class="dt-published" datetime="2023-10-10">10 October 2023</time>
+    </p>
+    <dl>
+      
+      <dt>Latest published version:</dt><dd>
+              <a href="https://w3c.github.io/sustyweb/quickref.html">https://w3c.github.io/sustyweb/quickref.html</a>
+            </dd>
+      <dt>Latest editor's draft:</dt><dd><a href="https://w3c.github.io/sustyweb/quickref.html">https://w3c.github.io/sustyweb/quickref.html</a></dd>
+      
+      
+      
+      
+      <dt>Editors:</dt><dd class="editor p-author h-card vcard" data-editor-id="49702">
+    <a class="u-url url p-name fn" href="https://alexanderdawson.com/">Alexander Dawson</a>
+  </dd><dd class="editor p-author h-card vcard" data-editor-id="62394">
+    <a class="u-url url p-name fn" href="https://mightybytes.com/">Tim Frick</a> (<span class="p-org org h-org">Mightybytes</span>)
+  </dd>
+      
+      
+      <dt>Feedback:</dt><dd>
+        <a href="https://github.com/w3c/sustyweb/">GitHub w3c/sustyweb</a>
+        (<a href="https://github.com/w3c/sustyweb/pulls/">pull requests</a>,
+        <a href="https://github.com/w3c/sustyweb/issues/new/choose">new issue</a>,
+        <a href="https://github.com/w3c/sustyweb/issues/">open issues</a>)
+      </dd>
+      
+    </dl>
+    
+    <p class="copyright">
+          <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+          ©
+          2023
+          
+          the Contributors to the Quick Reference for Web Sustainability Guidelines (WSG) 1.0
+          Specification, published by the
+          <a href="https://www.w3.org/groups/cg/sustyweb">Sustainable Web Design Community Group</a> under the
+          <a href="https://www.w3.org/community/about/agreements/cla/">W3C Community Contributor License Agreement (CLA)</a>. A human-readable
+                <a href="https://www.w3.org/community/about/agreements/cla-deed/">summary</a>
+                is available.
+              
+        </p>
+    <hr title="Separator for header">
+  </div>
+		<section id="abstract" class="introductory"><h2>Abstract</h2> 
+			<p>This document provides a quick reference to the <a href="https://w3c.github.io/sustyweb/">Web Sustainability Guidelines</a> (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 specification. The content is laid out in a table, with Success Criteria, Impact, Effort, and GRI ratings noted for each guideline. Checkboxes are provided for those individuals or groups wishing to work through the list (note your progress will not be saved), and a <a href="https://w3c.github.io/sustyweb/checklist.pdf">print-friendly</a> version is also available to audit your work as part of an exercise.</p>
+		</section>
+		<section id="sotd" class="override introductory"></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Abstract</a></li><li class="tocline"><a class="tocxref" href="#user-experience-design"><bdi class="secno">1. </bdi>User-Experience Design</a></li><li class="tocline"><a class="tocxref" href="#web-development"><bdi class="secno">2. </bdi>Web Development</a></li><li class="tocline"><a class="tocxref" href="#hosting-infrastructure-and-systems"><bdi class="secno">3. </bdi>Hosting, Infrastructure and Systems</a></li><li class="tocline"><a class="tocxref" href="#business-strategy-and-product-management"><bdi class="secno">4. </bdi>Business Strategy and Product Management</a></li></ol></nav> 
+		<section id="user-experience-design"><div class="header-wrapper"><h2 id="x1-user-experience-design"><bdi class="secno">1. </bdi>User-Experience Design</h2><a class="self-link" href="#user-experience-design" aria-label="Permalink for Section 1."></a></div> 
+			
+			<table>
+				<tbody>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#undertake-systemic-impacts-mapping">2.1</a></td>
+						<td colspan="5">Undertake Systemic Impacts Mapping</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.1a"></td><td colspan="5"><label for="2.1a">List the negative external variables and identify where your product's sustainable impact can be diminished (systemic design).</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs">2.2</a></td>
+						<td colspan="5">Assess and Research Visitor Needs</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.2a"></td><td colspan="5"><label for="2.2a">Primary and secondary target visitors are identified, and their needs are defined through quantitative or qualitative research, testing, or analytics, ensuring your visitors and affected communities remain a close part of the research and testing process.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.2b"></td><td colspan="5"><label for="2.2b">Potential visitor constraints like the device age, operating system version, browser, and connection speeds are considered when designing user-experiences.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.2c"></td><td colspan="5"><label for="2.2c">The team has researched and identified whether a technical, material, or human constraint might require an adapted version of the product or service that reduces barriers or improves access to content.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.2d"></td><td colspan="5"><label for="2.2d">In the user-research, identify with your visitors if some barriers should be removed (pain points or dark / deceptive design patterns).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.2e"></td><td colspan="5"><label for="2.2e">When undertaking research, identifying needs, or conducting iterative design work, ensure that all stakeholders including your visitors have an equitable role in the decision-making process.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#research-non-visitor-s-needs">2.3</a></td>
+						<td colspan="5">Research Non-Visitor's Needs</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.3a"></td><td colspan="5"><label for="2.3a">Consider and work with non-users and other stakeholders who might be passively impacted by a digital product or service, such as neighbors accepting parcels, traffic jams due to deliveries, etc. Research their needs and understand how they might be affected.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#consider-sustainability-in-early-ideation">2.4</a></td>
+						<td colspan="5">Consider Sustainability in Early Ideation</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.4a"></td><td colspan="5"><label for="2.4a">Utilize wireframes, and rapid prototyping to quickly build consensus, reduce risk, and lower the number of resources needed to build features.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.4b"></td><td colspan="5"><label for="2.4b">Involve your users within the iteration and design process using participatory design, and when conducting user-testing reach out to your community to help improve your product by allowing them to apply their knowledge and experience to your product or service.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#account-for-stakeholder-issues">2.5</a></td>
+						<td colspan="5">Account for Stakeholder Issues</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.5a"></td><td colspan="5"><label for="2.5a">In the brainstorming process, consider all stakeholders using a human-centered approach.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.5b"></td><td colspan="5"><label for="2.5b">In the brainstorming process, take the planetary needs and ecological boundaries into account.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6</a></td>
+						<td colspan="5">Create a Frictionless Lightweight Experience by Default</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.6a"></td><td colspan="5"><label for="2.6a">Prioritize performance optimization as a product or service's default approach.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.6b"></td><td colspan="5"><label for="2.6b">The path taken to access the service (the initial contact with the website or service) should be as efficient and as simple as possible (time required to complete an action displayed, reducing too much choice, ensuring visitors know what's required at the start of a complex set of steps, etc).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.6c"></td><td colspan="5"><label for="2.6c">Make your user-journey (when browsing an accessed website or service) as smooth as possible. User-research is key, as is building on established design patterns which people already understand.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.6d"></td><td colspan="5"><label for="2.6d">Visitors can complete tasks without distractions or non-essential features getting in the way.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.6e"></td><td colspan="5"><label for="2.6e">Visitors see only information that is relevant to their experience, without non-essential information being displayed on the screen.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.6f"></td><td colspan="5"><label for="2.6f">Ensure that actionable information such as pop-up or modal windows can only be initiated by the visitor.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#avoid-unnecessary-or-an-overabundance-of-assets">2.7</a></td>
+						<td colspan="5">Avoid Unnecessary or an Overabundance of Assets</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.7a"></td><td colspan="5"><label for="2.7a">Decorative design is used only when it improves the user-experience, and unnecessary assets or ones that fail to benefit the visitor or sustainability are removed (or rendered optional and disabled by default).</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#ensure-navigation-and-way-finding-are-well-structured">2.8</a></td>
+						<td colspan="5">Ensure Navigation and Way-Finding Are Well-Structured</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.8a"></td><td colspan="5"><label for="2.8a">Provide an accessible, easy-to-use navigation menu with search features that help visitors easily find what they need.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.8b"></td><td colspan="5"><label for="2.8b">Implement an efficient (human-readable) sitemap that is organized and regularly updated helps search engines better index website content, which helps visitors more quickly find what they are looking for.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.8c"></td><td colspan="5"><label for="2.8c">Provide a way for visitors to find out about new content and services.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention">2.9</a></td>
+						<td colspan="5">Respect the Visitor's Attention</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.9a"></td><td colspan="5"><label for="2.9a">Respect a visitor's attention by allowing them to easily control how (and when) they receive information.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.9b"></td><td colspan="5"><label for="2.9b">Prioritize features that don't distract people or unnecessarily lengthen the time they spend using the product or service.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.9c"></td><td colspan="5"><label for="2.9c">Avoid using infinite scroll or related attention-keeping tactics.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-recognized-design-patterns">2.10</a></td>
+						<td colspan="5">Use Recognized Design Patterns</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.10a"></td><td colspan="5"><label for="2.10a">Provide only essential components visible at the time they are needed. Where appropriate, interfaces should deploy visual styles (patterns) that are easily recognized and used.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#avoid-manipulative-patterns">2.11</a></td>
+						<td colspan="5">Avoid Manipulative Patterns</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.11a"></td><td colspan="5"><label for="2.11a">Avoid what are commonly known as dark patterns, deceptive design, or unethical coding techniques, which manipulate visitors into taking actions not necessarily in their best interest (anti-right click, no-copy, requiring an account to purchase, etc).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.11b"></td><td colspan="5"><label for="2.11b">Advertisements and sponsorships are both ethical and clearly identified with the product or service, only presenting them when they provide real economic and ethical value and don't diminish a visitor's experience.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.11c"></td><td colspan="5"><label for="2.11c">Remove unused and unconsented page tracking.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#document-and-share-project-outputs">2.12</a></td>
+						<td colspan="5">Document and Share Project Outputs</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.12a"></td><td colspan="5"><label for="2.12a">The deliverables output, including documentation, are used upstream of the project and produced in ways that will allow it to be reused in subsequent projects.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.12b"></td><td colspan="5"><label for="2.12b">Design functionality and technical specifications are documented so that deliverables are comprehensible by the project team and transferable to the development team.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-a-design-system-to-prioritize-interface-consistency">2.13</a></td>
+						<td colspan="5">Use a Design System To Prioritize Interface Consistency</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.13a"></td><td colspan="5"><label for="2.13a">Employ a design system based on web standards and recognizable patterns to mutualize interface components and provide a consistent experience for visitors.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#write-with-purpose-in-an-accessible-easy-to-understand-format">2.14</a></td>
+						<td colspan="5">Write With Purpose, in an Accessible, Easy To Understand Format</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.14a"></td><td colspan="5"><label for="2.14a">Write clearly using plain, inclusive language delivered at an easy-to-understand reading level considering accessibility and internationalization inclusions as required (for example, dyslexia).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.14b"></td><td colspan="5"><label for="2.14b">Deliver content formatted in ways that support how people read online, including a clear document structure, visual hierarchy, headings, bulleted lists, line spacing, and so on.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.14c"></td><td colspan="5"><label for="2.14c">Prioritize SEO at early design stages and throughout a product or service's lifecycle to improve content findability.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-image-assets">2.15</a></td>
+						<td colspan="5">Take a More Sustainable Approach to Image Assets</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.15a"></td><td colspan="5"><label for="2.15a">Assess the need for images considering the quantity, format, and size necessary for implementation.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.15b"></td><td colspan="5"><label for="2.15b">Resize, optimize and compress each image (outside the browser), offering different sizes (for each image) for different screen resolutions.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.15c"></td><td colspan="5"><label for="2.15c">Provide Lazy Loading to ensure image assets only loads when they are required.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.15d"></td><td colspan="5"><label for="2.15d">Let the visitor select the display size, and provide the option to deactivate images.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.15e"></td><td colspan="5"><label for="2.15e">Set up a media management and use policy to reduce the overall impact of images, with criteria for media compression and file formats.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-media-assets">2.16</a></td>
+						<td colspan="5">Take a More Sustainable Approach to Media Assets</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.16a"></td><td colspan="5"><label for="2.16a">Assess the need for video or sound usage (including only when they add visitor value), and ban non-informative media (background media) including autoplaying functionality.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.16b"></td><td colspan="5"><label for="2.16b">Choose the right media to display by compressing according to the visitor's requirements, selecting the appropriate format, ensuring it works across browsers, and avoiding embedded player plugins.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.16c"></td><td colspan="5"><label for="2.16c">Increase visitor awareness and control by informing them of the length, format, and weight of the media; allowing media deactivation, and giving a choice of resolutions; all while providing alternative resolutions and formats.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.16d"></td><td colspan="5"><label for="2.16d">Set up a media management and use policy to reduce the overall impact of audio and video, with criteria for media compression and file formats.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-animation">2.17</a></td>
+						<td colspan="5">Take a More Sustainable Approach to Animation</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.17a"></td><td colspan="5"><label for="2.17a">Use animation only when it adds value to a visitor's experience, and not for decorative elements.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.17b"></td><td colspan="5"><label for="2.17b">Progressively display an appropriate quantity of animation so as not to overburden the visitor or diminish expected device behavior.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.17c"></td><td colspan="5"><label for="2.17c">Allow visitors to start, stop, pause or otherwise control animated content.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-typefaces">2.18</a></td>
+						<td colspan="5">Take a More Sustainable Approach to Typefaces</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.18a"></td><td colspan="5"><label for="2.18a">Use standard system-level (web-safe / pre-installed) fonts as much as possible.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.18b"></td><td colspan="5"><label for="2.18b">Ensure the number of fonts, and the variants within typefaces (such as weight and characters) are limited within a project, using the most performant file format available.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#provide-suitable-alternatives-to-web-assets">2.19</a></td>
+						<td colspan="5">Provide Suitable Alternatives to Web Assets</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.19a"></td><td colspan="5"><label for="2.19a">All proprietary file formats (such as PDF) should also be offered in HTML for accessibility and to ensure future availability</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.19b"></td><td colspan="5"><label for="2.19b">All custom typefaces (using font-display) should be subsetted and offered as part of a font stack with a system font as a backup.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.19c"></td><td colspan="5"><label for="2.19c">All images should provide meaningful alternative text for screen reader users (or when images fail to load) accessibility.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.19d"></td><td colspan="5"><label for="2.19d">Audio should provide text transcripts of conversations as an alternative to playing the media.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.19e"></td><td colspan="5"><label for="2.19e">Video should provide text transcripts (at minimum), subtitles (using WebVTT), and for accessibility best practice, offer closed captions and sign language options.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms">2.20</a></td>
+						<td colspan="5">Provide Accessible, Usable, Minimal Web Forms</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.20a"></td><td colspan="5"><label for="2.20a">Assess the need for forms and reduce form content to the bare minimum necessary to meet the visitor's needs and the organization's business goals. Clearly communicate why a form is necessary, what its value proposition is, how many steps it will take to complete, and what an organization will do with collected data (informed consent).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.20b"></td><td colspan="5"><label for="2.20b">Avoid auto-completion / auto-suggest if it would prove unhelpful (to conserve bandwidth) whilst allowing autofill for ease of repeat entry (including the use of helpful tooling such as password managers).</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#support-non-graphic-ways-to-interact-with-content">2.21</a></td>
+						<td colspan="5">Support Non-Graphic Ways To Interact With Content</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.21a"></td><td colspan="5"><label for="2.21a">Support speech browsing and other non-graphical ways to interact with content that provide alternatives to a visual interface.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#give-useful-notifications-to-improve-the-visitor-s-journey">2.22</a></td>
+						<td colspan="5">Give Useful Notifications To Improve The Visitor's Journey</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.22a"></td><td colspan="5"><label for="2.22a">Remove non-essential notifications while justifying and reducing the practice of e-mailing or text messaging to what is strictly necessary. Useful notifications (such as alerts for new content) should be used with care and restraint.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.22b"></td><td colspan="5"><label for="2.22b">Let the visitor control notifications (for example through the browser, SMS, or by email) and adjust messaging preferences, and the option to unsubscribe, logout, and close an account should be available and visible.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.22c"></td><td colspan="5"><label for="2.22c">Help visitors manage expectations by clearly explaining the result of a potential input through helpful prompts and messages that explain errors, next steps, and so on.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#reduce-the-impact-of-downloadable-or-physical-documents">2.23</a></td>
+						<td colspan="5">Reduce the Impact of Downloadable or Physical Documents</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.23a"></td><td colspan="5"><label for="2.23a">Design documents to limit the printing impact. If the production of paper documents is essential, it should be designed to limit its impact to the lowest possible. Create a CSS Print stylesheet and test it with different types of content. Ensure PDF printing is encouraged over paper-based storage.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.23b"></td><td colspan="5"><label for="2.23b">Offer optimized, compressed documents in a variety of accessible file formats.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.23c"></td><td colspan="5"><label for="2.23c">Clearly display the document name, a summary, the file size, and the format, allowing the visitor a choice if possible of both the format, and the language (if not the same as the web page). Furthermore, be sure to avoid embedding the document within Web pages (provide a direct link to download or view within the browser instead).</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#create-a-stakeholder-focused-testing-prototyping-policy">2.24</a></td>
+						<td colspan="5">Create a Stakeholder-Focused Testing &amp; Prototyping Policy</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.24a"></td><td colspan="5"><label for="2.24a">The organization has outlined processes it uses to prototype and test new features, product ideas, and user-interface components when applicable with real users who represent various stakeholder perspectives, including people with slow connection, with disabilities, with difficulties using digital services and so on.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.24b"></td><td colspan="5"><label for="2.24b">The organization has appropriately resourced these processes to support its long-term product viability.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.24c"></td><td colspan="5"><label for="2.24c">The organization has training materials to onboard new product team members to these practices.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.24d"></td><td colspan="5"><label for="2.24d">The organization regularly conducts extensive testing and user interviews to validate whether the released features are meeting both business goals and visitor needs.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#conduct-regular-audits-regression-and-non-regression-tests">2.25</a></td>
+						<td colspan="5">Conduct Regular Audits, Regression, and Non-Regression Tests</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.25a"></td><td colspan="5"><label for="2.25a">Check your codebase for bugs, identify any performance issues, and account for accessibility or security problems at either monthly or quarterly timeframes (depending on your scheduling allowance).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.25b"></td><td colspan="5"><label for="2.25b">Non-regression tests are implemented for all important functionality.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.25c"></td><td colspan="5"><label for="2.25c">Incorporate regression testing into each release cycle to ensure that new features don't introduce bugs or otherwise conflict with existing software functionality.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#analyze-the-performance-of-the-visitor-journey">2.26</a></td>
+						<td colspan="5">Analyze The Performance Of The Visitor Journey</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.26a"></td><td colspan="5"><label for="2.26a">Only collect the data required to provide a streamlined and effective user-journey, put policies in place to ensure strict adherence, and comply with relevant accessibility policies and privacy laws, such as the General Data Protection Regulation (GDPR).</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#incorporate-value-testing-into-each-major-release-cycle">2.27</a></td>
+						<td colspan="5">Incorporate Value Testing Into Each Major Release-Cycle</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.27a"></td><td colspan="5"><label for="2.27a">Consider visitor feedback and monitor adoption and churn rates of product or service features, incorporating insights into future releases.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#incorporate-usability-testing-into-each-minor-release-cycle">2.28</a></td>
+						<td colspan="5">Incorporate Usability Testing Into Each Minor Release-Cycle</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.28a"></td><td colspan="5"><label for="2.28a">Incorporate usability testing into product cycles and measure the impact of these tests for future releases.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#incorporate-compatibility-testing-into-each-release-cycle">2.29</a></td>
+						<td colspan="5">Incorporate Compatibility Testing Into Each Release-Cycle</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.29a"></td><td colspan="5"><label for="2.29a">Establish a policy for compatibility with obsolete devices and software versions, listing the supported devices brands, operating systems, and browsers (including versions).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.29b"></td><td colspan="5"><label for="2.29b">Avoid planned obsolescence in software updates, striving to maintain compatibility for as long as possible and clearly communicating whether an update is evolutionary (large updates that can significantly reduce performance) or corrective (smaller updates that fix bugs or improve security).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.29c"></td><td colspan="5"><label for="2.29c">Regularly test the product or service with weak connections, old browsers, and on devices older than five years to ensure compatibility.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.29d"></td><td colspan="5"><label for="2.29d">Prototype your interfaces using mobile-first methods to ensure progressive enhancement, content prioritization, and improved accessibility.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.29e"></td><td colspan="5"><label for="2.29e">Consider whether a PWA will be more sustainable and compatible over a native mobile application.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section id="web-development"><div class="header-wrapper"><h2 id="x2-web-development"><bdi class="secno">2. </bdi>Web Development</h2><a class="self-link" href="#web-development" aria-label="Permalink for Section 2."></a></div> 
+			
+			<table>
+				<tbody>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#identify-relevant-technical-indicators">3.1</a></td>
+						<td colspan="5">Identify Relevant Technical Indicators</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.1a"></td><td colspan="5"><label for="3.1a">Set performance goals which impact the environment and performance of the service, for example HTTP requests, or the amount of DOM elements which need to be rendered.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#minify-your-html-css-and-javascript">3.2</a></td>
+						<td colspan="5">Minify Your HTML, CSS, and JavaScript</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.2a"></td><td colspan="5"><label for="3.2a">All source code is minified upon compilation (including inline code).</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-code-splitting-within-projects">3.3</a></td>
+						<td colspan="5">Use Code-Splitting Within Projects</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.3a"></td><td colspan="5"><label for="3.3a">Breakdown bandwidth-heavy components into segments that can be loaded as required.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#apply-tree-shaking-to-code">3.4</a></td>
+						<td colspan="5">Apply Tree Shaking To Code</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.4a"></td><td colspan="5"><label for="3.4a">Identify and eliminate unused and dead code within CSS and JavaScript.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#ensure-your-solutions-are-accessible">3.5</a></td>
+						<td colspan="5">Ensure Your Solutions Are Accessible</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.5a"></td><td colspan="5"><label for="3.5a">Your website or application must conform to WCAG (at the necessary level), plus extend beyond to obey relevant laws and meet additional visitor accessibility requirements. Building inclusively means that people with permanent, temporary or situational disabilities will be able to more quickly find what they are looking for, and not have to spend extra time searching for a way to use your product or service.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.5b"></td><td colspan="5"><label for="3.5b">Enhance your website or application with Accessible Rich Internet Applications (ARIA) ONLY if applicable or necessary, and accessibility enhancing features when useful or beneficial.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.5c"></td><td colspan="5"><label for="3.5c">Deploy solutions which fight against electronic inequalities in products and services.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.5d"></td><td colspan="5"><label for="3.5d">To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#avoid-code-duplication">3.6</a></td>
+						<td colspan="5">Avoid Code Duplication</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.6a"></td><td colspan="5"><label for="3.6a">Don't be afraid to remove or simplify (through rewriting for performance) your code to focus on essential features and have a cleaner, less redundant product (and codebase).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.6b"></td><td colspan="5"><label for="3.6b">Improve (iterate) an existing creation rather than constantly redeveloping and redesigning products from scratch (duplication of coding effort) if possible to reduce visitor learning burden and developer impact.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.6c"></td><td colspan="5"><label for="3.6c">Within CSS and JavaScript, use methodologies (like BEM) and systems like DRY and WET to optimize the arrangement and output of your source code.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#rigorously-assess-third-party-services">3.7</a></td>
+						<td colspan="5">Rigorously Assess Third-Party Services</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.7a"></td><td colspan="5"><label for="3.7a">Assess third-party services (including plugins, widgets, feeds, maps, carousels, etc) as early in the ideation or creation process as possible and use as few as possible to reduce the product or service's overall ecological impact, including Scope 3 emissions.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.7b"></td><td colspan="5"><label for="3.7b">Third-party content (including plugins, widgets, feeds, maps, carousels, etc) should be placed behind a click-to-load delay screen (using the "import on interaction" pattern), while alternatives to automated solutions such as chatbots should be offered.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.7c"></td><td colspan="5"><label for="3.7c">Large CSS libraries and JavaScript frameworks should only be used if a more performant alternative which achieves the same goal cannot be used instead.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.7d"></td><td colspan="5"><label for="3.7d">Prioritize self-hosted content over embedded content from third-party services.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.7e"></td><td colspan="5"><label for="3.7e">Create your own clickable icons and widgets, rather than relying on third-party services to host or allow embedding within your product or service.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-html-elements-correctly">3.8</a></td>
+						<td colspan="5">Use HTML Elements Correctly</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.8a"></td><td colspan="5"><label for="3.8a">Ensure content is marked up semantically using the right HTML element for the right job.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.8b"></td><td colspan="5"><label for="3.8b">Consider removing optional HTML tags (which aren't required for rendering), attribute quotes, or attributes that are set to their default value.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.8c"></td><td colspan="5"><label for="3.8c">Avoid using non-standard elements or attributes.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.8d"></td><td colspan="5"><label for="3.8d">Only use custom elements or Web Components if you cannot utilize native HTML elements or if you need tightly regulated control over the implementation of design system components.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#resolve-render-blocking-content">3.9</a></td>
+						<td colspan="5">Resolve Render Blocking Content</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.9a"></td><td colspan="5"><label for="3.9a">All external assets should be deferred or set to async (unless required) to avoid FOUC (Flash Of Unstyled Content).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.9b"></td><td colspan="5"><label for="3.9b">If external resources are required on load, ensure their priorities (delivery route) are set correctly.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#provide-code-based-way-finding-mechanisms">3.10</a></td>
+						<td colspan="5">Provide Code-Based Way-Finding Mechanisms</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.10a"></td><td colspan="5"><label for="3.10a">Optimize your metadata and microdata for search engines and social media.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.10b"></td><td colspan="5"><label for="3.10b">Assist search engines, while blocking any ill-intentioned robots and scripts.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.10c"></td><td colspan="5"><label for="3.10c">Offer accessibility and usability aids to find content, such as skip links and signposts.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input">3.11</a></td>
+						<td colspan="5">Validate Form Errors and External Input</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.11a"></td><td colspan="5"><label for="3.11a">Errors should be identified through live validation as well as upon submission.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.11b"></td><td colspan="5"><label for="3.11b">Required elements should be clearly identified and labeled (for the benefit of voice tools such as screen readers and virtual assistants), and optional elements (if unnecessary) removed.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.11c"></td><td colspan="5"><label for="3.11c">Always allow the pasting of content (including passwords) from external sources.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-metadata-correctly">3.12</a></td>
+						<td colspan="5">Use Metadata Correctly</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.12a"></td><td colspan="5"><label for="3.12a">Include the required title element, plus any optional HTML head elements (such as link).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.12b"></td><td colspan="5"><label for="3.12b">Include necessary meta tag references that search engines and social networks recognize, using a recognized name scheme such as Dublin Core Metadata Initiative (DCMI), Friend Of A Friend (FOAF), or RDFa.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.12c"></td><td colspan="5"><label for="3.12c">Embed Microdata, Structured Data (Schema), or Microformats within your pages.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#adapt-to-user-preferences">3.13</a></td>
+						<td colspan="5">Adapt to User Preferences</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.13a"></td><td colspan="5"><label for="3.13a">Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, and prefers-reduced-motion CSS preference queries if they will benefit your website or application. Also consider the print &amp; scripting CSS media queries if they will improve the sustainability of your website.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14</a></td>
+						<td colspan="5">Develop a Mobile-First Layout</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.14a"></td><td colspan="5"><label for="3.14a">Allow a website or app to work on mobile devices primarily (testing with various connection speeds), expanding to accommodate larger displays thereafter (mobile-first). It is much more effective to do the hard work to ensure that it works well on a mobile device and then scale it up to larger interfaces.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.14b"></td><td colspan="5"><label for="3.14b">Utilize progressive enhancement and responsive web design to ensure that your work accommodates a device's capabilities, different screen sizes, and will not fail if it meets an unsupported technology.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.14c"></td><td colspan="5"><label for="3.14c">Consider supporting other indirect methods of interaction such as voice (speech), code (QR, etc), reader view (browser, application, or RSS), or connected-technology (watch, appliance, transport, etc).</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-beneficial-javascript-and-its-api-s">3.15</a></td>
+						<td colspan="5">Use Beneficial JavaScript and Its API's</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.15a"></td><td colspan="5"><label for="3.15a">Improve sustainability through accessible and performant code implementations.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.15b"></td><td colspan="5"><label for="3.15b">When using an API, make sure you only call it when necessary. On the other side, make sure no unrequired data is sent by the API.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#ensure-your-scripts-are-secure">3.16</a></td>
+						<td colspan="5">Ensure Your Scripts Are Secure</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.16a"></td><td colspan="5"><label for="3.16a">Check the code for vulnerabilities, exploits, header issues, and code injection.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#manage-dependencies-appropriately">3.17</a></td>
+						<td colspan="5">Manage Dependencies Appropriately</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.17a"></td><td colspan="5"><label for="3.17a">Prevent developers from downloading and installing JavaScript libraries to run locally (client-side) when they are not needed by checking for unused dependencies and uninstalling those that aren't needed and removing them from your package.json file.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.17b"></td><td colspan="5"><label for="3.17b">Reduce the amount of JavaScript that has to be downloaded and parsed by the browser by only using libraries where necessary. Consider whether you can use a native JavaScript API instead. Check the package size using a tool like Bundlephobia, and whether individual modules can be installed and imported rather than the whole library.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.17c"></td><td colspan="5"><label for="3.17c">Regularly check dependencies and keep them up-to-date.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#include-files-that-are-automatically-expected">3.18</a></td>
+						<td colspan="5">Include Files That Are Automatically Expected</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.18a"></td><td colspan="5"><label for="3.18a">Take advantage of the favicon.ico, robots.txt, opensearch.xml, site.webmanifest, and sitemap.xml documents.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-plaintext-formats-when-appropriate">3.19</a></td>
+						<td colspan="5">Use Plaintext Formats When Appropriate</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.19a"></td><td colspan="5"><label for="3.19a">Utilize standards such as ads.txt, carbon.txt, humans.txt, security.txt and robots.txt.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#avoid-using-deprecated-or-proprietary-code">3.20</a></td>
+						<td colspan="5">Avoid Using Deprecated or Proprietary Code</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.20a"></td><td colspan="5"><label for="3.20a">Upgrading or avoiding deprecated formats is important, the only exception being if consumer support demands maintaining older standards to provide a functional product.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.20b"></td><td colspan="5"><label for="3.20b">Don't use an older standard if a newer recommendation will do the same job as or more effectively.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#align-technical-requirements-with-sustainability-goals">3.21</a></td>
+						<td colspan="5">Align Technical Requirements With Sustainability Goals</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.21a"></td><td colspan="5"><label for="3.21a">List (and choose carefully) the requirements of the product or service. A simpler technological implementation may use more human resources, but could have a smaller footprint. A prebuilt solution may use more system resources (and thereby produce more emissions upon render) but have a faster build-time (emitting less carbon during development).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.21b"></td><td colspan="5"><label for="3.21b">As a general rule, coding from scratch is the best-performing methodology (though if an existing solution is actively maintained, it may be better optimized than what you could produce). Therefore, prefer native components and file systems to a WYSIWYG editor or heavy framework, and be considerate of the impact of third-party solutions.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.21c"></td><td colspan="5"><label for="3.21c">If you do decide to use a code generation tool, consider using a Static Site Generator in preference to a bulky content management system. Because SSG's often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.21d"></td><td colspan="5"><label for="3.21d">Plugins, extensions, and themes have been carefully reviewed and selected to maximize interoperability, accessibility, and performance. They are regularly audited over time to ensure continued compatibility.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.21e"></td><td colspan="5"><label for="3.21e">Make sure all the components of the user-interface are the subject of special attention in terms of its sustainability impact, while respecting accessibility and the performance of such components.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-the-latest-stable-language-version">3.22</a></td>
+						<td colspan="5">Use the Latest Stable Language Version</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.22a"></td><td colspan="5"><label for="3.22a">Use the latest build of your chosen syntax language and its coupled framework.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#take-advantage-of-native-features">3.23</a></td>
+						<td colspan="5">Take Advantage of Native Features</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.23a"></td><td colspan="5"><label for="3.23a">Use native functions, API's and features over writing your own.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#run-fewer-simpler-queries-as-possible">3.24</a></td>
+						<td colspan="5">Run Fewer, Simpler Queries As Possible</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="3.24a"></td><td colspan="5"><label for="3.24a">If you need information that is stored in a database, and you require it more than once in your code, access the database only once, and store the data in a variable for subsequent processing.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section id="hosting-infrastructure-and-systems"><div class="header-wrapper"><h2 id="x3-hosting-infrastructure-and-systems"><bdi class="secno">3. </bdi>Hosting, Infrastructure and Systems</h2><a class="self-link" href="#hosting-infrastructure-and-systems" aria-label="Permalink for Section 3."></a></div> 
+			
+			<table>
+				<tbody>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#choose-a-sustainable-hosting-provider">4.1</a></td>
+						<td colspan="5">Choose a Sustainable Hosting Provider</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.1a"></td><td colspan="5"><label for="4.1a">To assess the environmental impacts of hosting and detect overconsumption, some indicators should be monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators could be used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (PUE), Water Usage Effectiveness (WUE), and Carbon Usage Effectiveness (CUE). They could be displayed to visitors for transparency and monitoring reasons.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.1b"></td><td colspan="5"><label for="4.1b">Manage equipment responsibly by keeping them as long as possible, using them as efficiently as possible, making sure they are certified, and purchasing long-lifespan products.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.1c"></td><td colspan="5"><label for="4.1c">Recover, recycle, and upcycle waste including equipment.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.1d"></td><td colspan="5"><label for="4.1d">Electricity comes entirely from sources with the lowest possible carbon intensity (ideally generated by wind or solar rather than from non-renewable sources). For example, Renewable Energy Credits (RECs) can help verify the source, or, ideally, prove that electricity comes directly from renewable sources.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.1e"></td><td colspan="5"><label for="4.1e">Compensate remaining emissions, keeping in mind that the priority should be to avoid then reduce them and only compensate for them if they cannot be avoided. Carbon credits may not be sustainable, therefore the effectiveness of an offset solution must be verified, shown to be both environmentally viable and sustainable, and part of a longer-term strategy to eliminate emissions entirely from a chain, benefitting the wider ecosystem.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#optimize-browser-caching">4.2</a></td>
+						<td colspan="5">Optimize Browser Caching</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.2a"></td><td colspan="5"><label for="4.2a">If using a CMS, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control HTTP header.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.2b"></td><td colspan="5"><label for="4.2b">Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (API's), or cookies (if necessary) to reduce friction in the user-journey. For example, through the use of a PWA (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>High</td><td>Medium</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#compress-your-files">4.3</a></td>
+						<td colspan="5">Compress Your Files</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.3a"></td><td colspan="5"><label for="4.3a">If using a CMS, install an applicable plugin to enable on-the-fly server-side compression, such as Brotli or GZIP. Otherwise, use the provided server configuration files to include and tweak the performance-related features to the requirements.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.3b"></td><td colspan="5"><label for="4.3b">Compress your various images, fonts, audio, and video; by reducing the quality and offering different resolutions / dimensions (sizes) before uploading to a server or content management system.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-error-pages-and-redirects-carefully">4.4</a></td>
+						<td colspan="5">Use Error Pages and Redirects Carefully</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.4a"></td><td colspan="5"><label for="4.4a">Maintain sites by ensuring links are correct, and if errors occur, provide suitable way-finding within optimized pages for each error type to ensure resources can be identified to help a visitor complete the task they started.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.4b"></td><td colspan="5"><label for="4.4b">Redirect websites, subdomains, and pages only when necessary. Proactively seek broken or outdated links and fix them. A redirect or search will often help reduce the number of pages a visitor needs to load.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#limit-usage-of-additional-environments">4.5</a></td>
+						<td colspan="5">Limit Usage of Additional Environments</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.5a"></td><td colspan="5"><label for="4.5a">Ensure no unused environment is available, balancing the cost of deploying an environment with the cost of keeping it online while unused.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#automate-to-fit-the-needs">4.6</a></td>
+						<td colspan="5">Automate To Fit the Needs</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.6a"></td><td colspan="5"><label for="4.6a">Every recurring task, such as deployment, testing, or compilation, can be run automatically, as is recommended by continuous integration / continuous delivery best practices.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.6b"></td><td colspan="5"><label for="4.6b">To reduce wasted processing cycles, every automated task is only run when needed.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.6c"></td><td colspan="5"><label for="4.6c">Use automated scaling infrastructure to automatically increase the capacity of the web server and implement buffering / throttling to respond to visitor demand.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.6d"></td><td colspan="5"><label for="4.6d">Web browsing from bots has been steadily increasing in recent years. As such, it is a growing concern for security, performance, and sustainability. Use security tools that automatically block bad actors and minimize bad behavior. This results in substantially less load on the server, fewer logs, less data, less effect due to compromise, and more. The result of compromised websites is a large increase in HTTP, email, and other traffic as malicious code attempts to infiltrate other resources and exfiltrate data. Compromised websites are typically identified by anomalous patterned behavior.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#maintain-a-relevant-refresh-frequency">4.7</a></td>
+						<td colspan="5">Maintain a Relevant Refresh Frequency</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.7a"></td><td colspan="5"><label for="4.7a">The frequency for refresh (of both the cache, locally stored data, and the page) is defined depending on visitor needs.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#be-mindful-of-duplicate-data">4.8</a></td>
+						<td colspan="5">Be Mindful of Duplicate Data</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.8a"></td><td colspan="5"><label for="4.8a">Backups of system and user data are both incremental and secure.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#enable-asynchronous-processing-and-communication">4.9</a></td>
+						<td colspan="5">Enable Asynchronous Processing and Communication</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.9a"></td><td colspan="5"><label for="4.9a">By default, non-critical processes and communications are batched and launched only when carbon-intensity is under a given threshold.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.9b"></td><td colspan="5"><label for="4.9b">Ensure the communication protocols are relevant to the visitor's needs and data transferred. Avoid using insecure protocols (HTTP, FTP), and prioritize more efficient and privacy-aware data routes for visitors (HTTPS, SSH).</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#consider-cdn-s-and-edge-caching">4.10</a></td>
+						<td colspan="5">Consider CDN's and Edge Caching</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.10a"></td><td colspan="5"><label for="4.10a">When building for a globally distributed audience, use a CDN to store and serve simple read-only, pre-generated resources in a fast and efficient manner. Although they definitely can increase performance, it is also another layer of infrastructure which needs to be considered for sustainability.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.10b"></td><td colspan="5"><label for="4.10b">Check the CDN to verify that it provides a commitment to sustainability.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.10c"></td><td colspan="5"><label for="4.10c">Choose a hosting provider with servers located close to the visitor.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.10d"></td><td colspan="5"><label for="4.10d">Avoid using the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (CORS), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect JSON or other static assets.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Medium</td><td>Low</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-the-lowest-infrastructure-tier-meeting-business-requirements">4.11</a></td>
+						<td colspan="5">Use the Lowest Infrastructure Tier Meeting Business Requirements</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.11a"></td><td colspan="5"><label for="4.11a">Select infrastructure elements with the lowest requirements tier, meeting your service-level agreements. Avoid over-provisioning multi-datacenter, multi-zone, or distributed deployments if standalone instances meet the requirements. Also avoid provisioning infrastructure that will be under-utilized by provisioning for established average loads, ensuring reasonable resource utilization and autoscaling occurs as needed. Avoid provisioning for peak loads.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs">4.12</a></td>
+						<td colspan="5">Store Data According to Visitor Needs</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.12a"></td><td colspan="5"><label for="4.12a">Remove unnecessary and redundant data from your servers, whether it is single-use (dark data) or abandoned.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.12b"></td><td colspan="5"><label for="4.12b">Create data with an expiration date. Excess data is a form of technical debt, and routinely cleaning up old data needs to be normalized.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.12c"></td><td colspan="5"><label for="4.12c">Use a data classification / tagging policy to make it easier to find, handle, and remove.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.12d"></td><td colspan="5"><label for="4.12d">Store data only when it is difficult to recreate.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.12e"></td><td colspan="5"><label for="4.12e">Optimize log collection, storage (off-site), and rotation; scheduling during low-activity hours and using carbon-neutral backup providers.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.12f"></td><td colspan="5"><label for="4.12f">Enable storage compression both on the fly (Brotli or GZIP) and with long-term assets made available for download.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section id="business-strategy-and-product-management"><div class="header-wrapper"><h2 id="x4-business-strategy-and-product-management"><bdi class="secno">4. </bdi>Business Strategy and Product Management</h2><a class="self-link" href="#business-strategy-and-product-management" aria-label="Permalink for Section 4."></a></div> 
+			
+			<table>
+				<tbody>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#have-an-ethical-and-sustainability-product-strategy">5.1</a></td>
+						<td colspan="5">Have an Ethical and Sustainability Product Strategy</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.1a"></td><td colspan="5"><label for="5.1a">The organization has published a publicly available Code of Ethics, Product Guidelines, Sustainability, or ESG Statement that includes language specific to digital products, services, policies, and programs.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.1b"></td><td colspan="5"><label for="5.1b">List achievements, features, compliance, and anything beyond the scope of these guidelines and publish it in a sustainability section of your product or service.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.1c"></td><td colspan="5"><label for="5.1c">The organization can show how it effectively governs implemented digital sustainability, climate policies, and related ESG practices over time.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.1d"></td><td colspan="5"><label for="5.1d">The organization has training decks and workshops it uses to onboard new team members on how it implements more sustainable product strategies.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.1e"></td><td colspan="5"><label for="5.1e">Raise awareness with your visitor's by documenting your methodology, through impact storytelling, documentation, and helping individuals make more informed decisions.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.1f"></td><td colspan="5"><label for="5.1f">The organization can show how it powers digital products and services with renewable energy.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#assign-a-sustainability-representative">5.2</a></td>
+						<td colspan="5">Assign a Sustainability Representative</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.2a"></td><td colspan="5"><label for="5.2a">Choose and assign an ecological referee (with specific digital expertise) for the product or service within your organization.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#raise-awareness-and-inform">5.3</a></td>
+						<td colspan="5">Raise Awareness and Inform</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.3a"></td><td colspan="5"><label for="5.3a">Make sure that all project stakeholders, including product teams, colleagues, and organizational decision-makers (managers and clients) are informed about and trained in your business's use of sustainable technology.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.3b"></td><td colspan="5"><label for="5.3b">Encourages stakeholders to actively reduce their environmental impact by providing resources on sustainable design, practices, and concepts.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#communicate-the-ecological-impact-of-user-choices">5.4</a></td>
+						<td colspan="5">Communicate the Ecological Impact of User Choices</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.4a"></td><td colspan="5"><label for="5.4a">Clearly communicate the ecological implications of visitor choices and allow visitors to configure settings based on those choices.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#estimate-a-product-or-service-s-environmental-impact">5.5</a></td>
+						<td colspan="5">Estimate a Product or Service's Environmental Impact</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.5a"></td><td colspan="5"><label for="5.5a">Conduct a full life-cycle Analysis based on the functional unit defined in Guideline 5.15.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.5b"></td><td colspan="5"><label for="5.5b">Estimate the environmental impact of your or your competitor's current service to inform decision-making (as a potential target goal).</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#define-clear-organizational-sustainability-goals-and-metrics">5.6</a></td>
+						<td colspan="5">Define Clear Organizational Sustainability Goals and Metrics</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.6a"></td><td colspan="5"><label for="5.6a">The organization has defined and published a clear set of sustainability goals. It publicly communicates how it will meet these goals, including which performance metrics are important to help the organization and its various stakeholders thrive.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#verify-your-efforts-using-established-third-party-business-certifications">5.7</a></td>
+						<td colspan="5">Verify Your Efforts Using Established Third-Party Business Certifications</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.7a"></td><td colspan="5"><label for="5.7a">The organization has achieved one or more business sustainability certifications and incorporated operational policies and practices to support them.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.7b"></td><td colspan="5"><label for="5.7b">The organization maintains its certification through evolving policies and practices over time.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#implement-sustainability-onboarding-guidelines">5.8</a></td>
+						<td colspan="5">Implement Sustainability Onboarding Guidelines</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.8a"></td><td colspan="5"><label for="5.8a">The organization has dedicated training manuals, workshops, and materials that outline the ESG policies and practices it follows and how to implement them. While managing and maintaining these materials over time, adapting them as new policies and practices arise.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.8b"></td><td colspan="5"><label for="5.8b">The organization incentivizes leadership, teams, and stakeholders to make progress toward the goals outlined in their training, including time for sustainability activities, recognition for completion, and so on.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.8c"></td><td colspan="5"><label for="5.8c">The organization anticipates and maps potential negative external variables on the service, and acts to minimize their overall impact.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#support-mandatory-disclosures-and-reporting">5.9</a></td>
+						<td colspan="5">Support Mandatory Disclosures and Reporting</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.9a"></td><td colspan="5"><label for="5.9a">The organization has created and published policies and practices for disclosing the social and environmental impacts of its products, services, policies, and programs in line with existing reporting standards such as GRI Performance, SASB, etc.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.9b"></td><td colspan="5"><label for="5.9b">The organization produces a publicly available impact report outlining its progress against previous reports on social and environmental goals at least once per year.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.9c"></td><td colspan="5"><label for="5.9c">The organization publicly and transparently follows existing or emerging environmental standards and legislative policy that promotes mandatory disclosures and reporting for emissions. This is done alongside other social and environmental criteria in its impact reporting, maintaining these practices over time for future reports.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.9d"></td><td colspan="5"><label for="5.9d">The organization clearly identifies how it reduces its environmental impact, avoiding double accounting, greenwashing, excluded data, or other manipulative techniques.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#create-one-or-more-impact-business-models">5.10</a></td>
+						<td colspan="5">Create One or More Impact Business Models</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.10a"></td><td colspan="5"><label for="5.10a">The organization has completed (and operationalized) a Theory of Change process with requisite documentation to identify the impact it hopes to create, how it will generate revenue, shared, or added value from these activities, how it will measure results based on desired outcomes; or in the case of launched projects, is generating revenue, actively tracking and measuring progress against any desired outcomes.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#follow-a-product-management-and-maintenance-strategy">5.11</a></td>
+						<td colspan="5">Follow a Product Management and Maintenance Strategy</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.11a"></td><td colspan="5"><label for="5.11a">The organization has documented policies outlining how it approaches product management and maintenance.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.11b"></td><td colspan="5"><label for="5.11b">The organization has maintenance / security plans in place for all the digital products and services it manages.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.11c"></td><td colspan="5"><label for="5.11c">The organization appropriately resources products over time via staffing and budgeting to support refactoring code, addressing technical debt, new product features, ongoing testing, and product or service maintenance plans to continue supporting its customers, visitors, and other stakeholders.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.11d"></td><td colspan="5"><label for="5.11d">The organization incorporates carbon and resource measurement into maintenance programs and can show measurable improvement over time.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#implement-continuous-improvement-procedures">5.12</a></td>
+						<td colspan="5">Implement Continuous Improvement Procedures</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.12a"></td><td colspan="5"><label for="5.12a">The organization has created policies and practices to enable continuous improvement and has resourced the organization appropriately to support these efforts over time.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.12b"></td><td colspan="5"><label for="5.12b">Agile sprints and update frequency must go through a review process to ensure project teams have enough time to conduct user-research, identify technical debt, and produce quality output.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.12c"></td><td colspan="5"><label for="5.12c">Use (and show a track record of) continuous improvement (iteration) to analyze your website or application while also addressing the by-products and potential consequences of ongoing experimentation, such as technical debt, product performance, emissions, and related issues. Limiting analytics to only necessary features to aid with decision-making, encouraging visitor feedback, and comparing performance against business goals and visitor needs.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.12d"></td><td colspan="5"><label for="5.12d">Justify and prioritize the retention of existing features, the creation of new functionality, and the decommission or elimination of unused functionality and unvisited pages through the product's life-cycle.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.12e"></td><td colspan="5"><label for="5.12e">Provide corrective security and policy updates during the product or service lifecycle, while distinguishing these updates from more extensive evolutionary updates.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.12f"></td><td colspan="5"><label for="5.12f">Develop sustainable product and data strategies along with appropriate training techniques that help your team (managers, colleagues, etc) build capacity and learn new skills to manage and maintain products and services over time.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#document-future-updates-and-evolutions">5.13</a></td>
+						<td colspan="5">Document Future Updates and Evolutions</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.13a"></td><td colspan="5"><label for="5.13a">The user-experience considers possible changes to the product or service such as adding, updating, or removing features.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#establish-if-a-digital-product-or-service-is-necessary">5.14</a></td>
+						<td colspan="5">Establish if a Digital Product or Service Is Necessary</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.14a"></td><td colspan="5"><label for="5.14a">Review and identify whether your product or service aligns with one of the U.N. (SDG's).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.14b"></td><td colspan="5"><label for="5.14b">Evaluate the desirability, feasibility, and viability of the digital product or service they wish to create to ascertain whether it is necessary.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.14c"></td><td colspan="5"><label for="5.14c">Determine that no existing digital product or service offers the same value. They have conducted analysis to understand whether a new product or service is necessary.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.14d"></td><td colspan="5"><label for="5.14d">Consider any obstacles to using a product or service, such as accessibility, equality, technical, or territorial.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Low</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#determine-the-functional-unit">5.15</a></td>
+						<td colspan="5">Determine the Functional Unit</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.15a"></td><td colspan="5"><label for="5.15a">Consider and conduct a life-cycle Assessment (LCA) to define the requirements of your product's function throughout its lifecycle.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#create-a-supplier-standards-of-practice">5.16</a></td>
+						<td colspan="5">Create a Supplier Standards of Practice</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.16a"></td><td colspan="5"><label for="5.16a">The organization has created specific policies to vet potential partners in its supply chain based on ESG principles.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.16b"></td><td colspan="5"><label for="5.16b">The organization has partnered with suppliers to create, track, and measure collective impact on issues that impact their stakeholders.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.16c"></td><td colspan="5"><label for="5.16c">The organization promotes its partnerships in a publicly available place, along with information on how the partnership creates a collective impact.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#share-economic-benefits">5.17</a></td>
+						<td colspan="5">Share Economic Benefits</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.17a"></td><td colspan="5"><label for="5.17a">The organization publicly commits to paying employees, contractors, and other stakeholders a living wage.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.17b"></td><td colspan="5"><label for="5.17b">The organization has policies and practices in place to incentivize stakeholders, such as workers and contractors, to meet its impact goals.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.17c"></td><td colspan="5"><label for="5.17c">The organization provides benefits to employees in accordance with its resources, including, where relevant, healthcare, retirement planning, flex time, profit sharing, and so on.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.17d"></td><td colspan="5"><label for="5.17d">The organization advocates for responsible legislation that supports employment rights, transparency, and accountability related to sharing economic benefits.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#share-decision-making-power-with-appropriate-stakeholders">5.18</a></td>
+						<td colspan="5">Share Decision-Making Power With Appropriate Stakeholders</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.18a"></td><td colspan="5"><label for="5.18a">Ensure that the project team's goals are aligned with key business objectives, and project stakeholders (for example, project managers) have the power and autonomy to make key decisions on the organization's behalf.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-justice-equity-diversity-inclusion-jedi-practices">5.19</a></td>
+						<td colspan="5">Use Justice, Equity, Diversity, Inclusion (JEDI) Practices</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.19a"></td><td colspan="5"><label for="5.19a">The organization has documented its commitment to JEDI practices with clear policies on how it prioritizes marginalized or otherwise underserved communities, including Black, Indigenous, People of Color, LGBTQIA+, Women, Disabled, Veterans, Seniors, and so on.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.19b"></td><td colspan="5"><label for="5.19b">The organization has an accessibility policy for digital products and services and can show this via a verified accessible website, application, product, or service.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.19c"></td><td colspan="5"><label for="5.19c">The organization has JEDI-related training materials and schedules ongoing workshops related to how this topic manifests itself in digital products and services (algorithmic bias, digital divide, gig economy work, mis / disinformation, etc).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.19d"></td><td colspan="5"><label for="5.19d">The organization can show measurable JEDI improvement over time in its hiring, leadership, and operations.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.19e"></td><td colspan="5"><label for="5.19e">The organization advocates for responsible legislation relating to JEDI practices, especially as related to digital products and services.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#promote-responsible-data-practices">5.20</a></td>
+						<td colspan="5">Promote Responsible Data Practices</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.20a"></td><td colspan="5"><label for="5.20a">The organization has a public-facing privacy policy in place and supports existing privacy laws such as the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and so on. This policy must be both accessible for all visitors, including those with accessibility and reading comprehension needs, and abide by plain English best practices to avoid jargon, technical language, and legalese.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.20b"></td><td colspan="5"><label for="5.20b">The organization can show measurable progress over time on how it respects data privacy and ownership, including a visitor's "right-to-be-forgotten" and provides the ability to export data.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.20c"></td><td colspan="5"><label for="5.20c">The organization supports new and emerging legislation related to data privacy, data sustainability, and responsible data practices.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#implement-appropriate-data-management-procedures">5.21</a></td>
+						<td colspan="5">Implement Appropriate Data Management Procedures</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.21a"></td><td colspan="5"><label for="5.21a">Outdated or otherwise expired product content and data are archived and deleted via automated expiration dates and scheduled product audits. Create an archiving schedule with a lighter version of the old searchable content available.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.21b"></td><td colspan="5"><label for="5.21b">Enable users to control, manage, and delete their data, subscriptions, and accounts.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Low</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Low</td><td>Low</td><td>Low</td><td>Low</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#promote-responsible-emerging-technology-practices">5.22</a></td>
+						<td colspan="5">Promote Responsible Emerging Technology Practices</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.22a"></td><td colspan="5"><label for="5.22a">The organization has public-facing policies in place for emerging technologies.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.22b"></td><td colspan="5"><label for="5.22b">The organization can show how it up-skills workers as new technologies and practices potentially disrupt its business model.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.22c"></td><td colspan="5"><label for="5.22c">The organization supports responsible legislation related to automation and emerging technologies.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#include-responsible-financial-policies">5.23</a></td>
+						<td colspan="5">Include Responsible Financial Policies</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.23a"></td><td colspan="5"><label for="5.23a">The organization has divested from fossil fuels and moved its banking, sponsorship, and other affiliations to more responsible partners.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.23b"></td><td colspan="5"><label for="5.23b">The organization engages in flexible financing and responsible budgeting for its digital products and services to accommodate long-term care and maintenance.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#include-organizational-philanthropy-policies">5.24</a></td>
+						<td colspan="5">Include Organizational Philanthropy Policies</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.24a"></td><td colspan="5"><label for="5.24a">The organization has a clear corporate giving policy and creates philanthropic partnerships with strategically aligned organizations.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.24b"></td><td colspan="5"><label for="5.24b">The organization engages in free or volunteer projects, which help its team learn new tools and tactics, while also helping charities and non-profit organizations build capacity.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#plan-for-a-digital-product-or-service-s-care-and-end-of-life">5.25</a></td>
+						<td colspan="5">Plan for a Digital Product or Service's Care and End-of-Life</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.25a"></td><td colspan="5"><label for="5.25a">Establish clear, documented end-of-life guidelines that include data disposal, archiving, file deletion, and so on.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#include-e-waste-right-to-repair-and-recycling-policies">5.26</a></td>
+						<td colspan="5">Include E-Waste, Right-To-Repair, and Recycling Policies</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.26a"></td><td colspan="5"><label for="5.26a">The organization has specific policies in place to recycle e-waste and repair owned technology products whenever possible.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.26b"></td><td colspan="5"><label for="5.26b">The organization has formed relationships with local partners for e-waste recycling and repair.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.26c"></td><td colspan="5"><label for="5.26c">The organization buys refurbished equipment whenever possible.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#define-performance-and-environmental-budgets">5.27</a></td>
+						<td colspan="5">Define Performance and Environmental Budgets</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.27a"></td><td colspan="5"><label for="5.27a">The product team has defined, baselined, and documented a clear sustainability and environmental budget criteria that covers the page, user-journey, and digital service levels and metrics (such as a CO2.js score) that are approved by relevant product stakeholders.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.27b"></td><td colspan="5"><label for="5.27b">Use tools such as a performance budget to determine the maximum size (goals) your app or website can weigh to reduce the data transfer and HTTP request impact (using metrics like Google Lighthouse).</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.27c"></td><td colspan="5"><label for="5.27c">The product team can measurably show how much the budgeting process improved performance and reduced emissions.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.27d"></td><td colspan="5"><label for="5.27d">The product team invests in resources to build capacity and maintain the budgets over time.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>Medium</td><td>Medium</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
+					</tr>
+					<tr class="highlight">
+						<td><a href="https://w3c.github.io/sustyweb/#use-open-source-tools">5.28</a></td>
+						<td colspan="5">Use Open Source Tools</td>
+					</tr>
+					<tr>
+						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.28a"></td><td colspan="5"><label for="5.28a">The organization has a clear open source policy in place that outlines how it uses open source tools and the practices it supports surrounding open source development.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.28b"></td><td colspan="5"><label for="5.28b">The organization has a track record of collaboration and community-building around open source principles.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.28c"></td><td colspan="5"><label for="5.28c">The organization regularly contributes to open source community-based projects.</label></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>Impact &amp; Effort</strong></td>
+						<td>High</td><td>High</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td></td><td><strong>GRI</strong></td>
+						<td>High</td><td>High</td><td>High</td><td>High</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	
+<p role="navigation" id="back-to-top">
+    <a href="#title"><abbr title="Back to Top">↑</abbr></a>
+  </p><script id="respec-dfn-panel">(() => {
+// @ts-check
+if (document.respec) {
+  document.respec.ready.then(setupPanel);
+} else {
+  setupPanel();
+}
+
+function setupPanel() {
+  const listener = panelListener();
+  document.body.addEventListener("keydown", listener);
+  document.body.addEventListener("click", listener);
+}
+
+function panelListener() {
+  /** @type {HTMLElement} */
+  let panel = null;
+  return event => {
+    const { target, type } = event;
+
+    if (!(target instanceof HTMLElement)) return;
+
+    // For keys, we only care about Enter key to activate the panel
+    // otherwise it's activated via a click.
+    if (type === "keydown" && event.key !== "Enter") return;
+
+    const action = deriveAction(event);
+
+    switch (action) {
+      case "show": {
+        hidePanel(panel);
+        /** @type {HTMLElement} */
+        const dfn = target.closest("dfn, .index-term");
+        panel = document.getElementById(`dfn-panel-for-${dfn.id}`);
+        const coords = deriveCoordinates(event);
+        displayPanel(dfn, panel, coords);
+        break;
+      }
+      case "dock": {
+        panel.style.left = null;
+        panel.style.top = null;
+        panel.classList.add("docked");
+        break;
+      }
+      case "hide": {
+        hidePanel(panel);
+        panel = null;
+        break;
+      }
+    }
+  };
+}
+
+/**
+ * @param {MouseEvent|KeyboardEvent} event
+ */
+function deriveCoordinates(event) {
+  const target = /** @type HTMLElement */ (event.target);
+
+  // We prevent synthetic AT clicks from putting
+  // the dialog in a weird place. The AT events sometimes
+  // lack coordinates, so they have clientX/Y = 0
+  const rect = target.getBoundingClientRect();
+  if (
+    event instanceof MouseEvent &&
+    event.clientX >= rect.left &&
+    event.clientY >= rect.top
+  ) {
+    // The event probably happened inside the bounding rect...
+    return { x: event.clientX, y: event.clientY };
+  }
+
+  // Offset to the middle of the element
+  const x = rect.x + rect.width / 2;
+  // Placed at the bottom of the element
+  const y = rect.y + rect.height;
+  return { x, y };
+}
+
+/**
+ * @param {Event} event
+ */
+function deriveAction(event) {
+  const target = /** @type {HTMLElement} */ (event.target);
+  const hitALink = !!target.closest("a");
+  if (target.closest("dfn:not([data-cite]), .index-term")) {
+    return hitALink ? "none" : "show";
+  }
+  if (target.closest(".dfn-panel")) {
+    if (hitALink) {
+      return target.classList.contains("self-link") ? "hide" : "dock";
+    }
+    const panel = target.closest(".dfn-panel");
+    return panel.classList.contains("docked") ? "hide" : "none";
+  }
+  if (document.querySelector(".dfn-panel:not([hidden])")) {
+    return "hide";
+  }
+  return "none";
+}
+
+/**
+ * @param {HTMLElement} dfn
+ * @param {HTMLElement} panel
+ * @param {{ x: number, y: number }} clickPosition
+ */
+function displayPanel(dfn, panel, { x, y }) {
+  panel.hidden = false;
+  // distance (px) between edge of panel and the pointing triangle (caret)
+  const MARGIN = 20;
+
+  const dfnRects = dfn.getClientRects();
+  // Find the `top` offset when the `dfn` can be spread across multiple lines
+  let closestTop = 0;
+  let minDiff = Infinity;
+  for (const rect of dfnRects) {
+    const { top, bottom } = rect;
+    const diffFromClickY = Math.abs((top + bottom) / 2 - y);
+    if (diffFromClickY < minDiff) {
+      minDiff = diffFromClickY;
+      closestTop = top;
+    }
+  }
+
+  const top = window.scrollY + closestTop + dfnRects[0].height;
+  const left = x - MARGIN;
+  panel.style.left = `${left}px`;
+  panel.style.top = `${top}px`;
+
+  // Find if the panel is flowing out of the window
+  const panelRect = panel.getBoundingClientRect();
+  const SCREEN_WIDTH = Math.min(window.innerWidth, window.screen.width);
+  if (panelRect.right > SCREEN_WIDTH) {
+    const newLeft = Math.max(MARGIN, x + MARGIN - panelRect.width);
+    const newCaretOffset = left - newLeft;
+    panel.style.left = `${newLeft}px`;
+    /** @type {HTMLElement} */
+    const caret = panel.querySelector(".caret");
+    caret.style.left = `${newCaretOffset}px`;
+  }
+
+  // As it's a dialog, we trap focus.
+  // TODO: when <dialog> becomes a implemented, we should really
+  // use that.
+  trapFocus(panel, dfn);
+}
+
+/**
+ * @param {HTMLElement} panel
+ * @param {HTMLElement} dfn
+ * @returns
+ */
+function trapFocus(panel, dfn) {
+  /** @type NodeListOf<HTMLAnchorElement> elements */
+  const anchors = panel.querySelectorAll("a[href]");
+  // No need to trap focus
+  if (!anchors.length) return;
+
+  // Move focus to first anchor element
+  const first = anchors.item(0);
+  first.focus();
+
+  const trapListener = createTrapListener(anchors, panel, dfn);
+  panel.addEventListener("keydown", trapListener);
+
+  // Hiding the panel releases the trap
+  const mo = new MutationObserver(records => {
+    const [record] = records;
+    const target = /** @type HTMLElement */ (record.target);
+    if (target.hidden) {
+      panel.removeEventListener("keydown", trapListener);
+      mo.disconnect();
+    }
+  });
+  mo.observe(panel, { attributes: true, attributeFilter: ["hidden"] });
+}
+
+/**
+ *
+ * @param {NodeListOf<HTMLAnchorElement>} anchors
+ * @param {HTMLElement} panel
+ * @param {HTMLElement} dfn
+ * @returns
+ */
+function createTrapListener(anchors, panel, dfn) {
+  const lastIndex = anchors.length - 1;
+  let currentIndex = 0;
+  return event => {
+    switch (event.key) {
+      // Hitting "Tab" traps us in a nice loop around elements.
+      case "Tab": {
+        event.preventDefault();
+        currentIndex += event.shiftKey ? -1 : +1;
+        if (currentIndex < 0) {
+          currentIndex = lastIndex;
+        } else if (currentIndex > lastIndex) {
+          currentIndex = 0;
+        }
+        anchors.item(currentIndex).focus();
+        break;
+      }
+
+      // Hitting "Enter" on an anchor releases the trap.
+      case "Enter":
+        hidePanel(panel);
+        break;
+
+      // Hitting "Escape" returns focus to dfn.
+      case "Escape":
+        hidePanel(panel);
+        dfn.focus();
+        return;
+    }
+  };
+}
+
+/** @param {HTMLElement} panel */
+function hidePanel(panel) {
+  if (!panel) return;
+  panel.hidden = true;
+  panel.classList.remove("docked");
+}
+})()</script><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
