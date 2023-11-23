@@ -14,21 +14,21 @@ The structure of the repository has been created to ensure ease of maintenance. 
 
 ```
 
-/wg/charter.html						- 			- Working Group Draft Charter
-/drafts/checklist.pages					- 			- PDF Checklist (Source)
-/drafts/glance.html						- 			- At-A-Glance (Source)
-/drafts/guidelines.json					- 			- WSG JSON API (Source)
-/drafts/index.html						- 			- WSG Specification (Source)
-/drafts/intro.html						- 			- Introduction (Source)
-/drafts/quickref.html					- 			- Quick Reference (Source)
+/wg/charter.html			-  	    - Working Group Draft Charter
+/drafts/checklist.pages			-  	    - PDF Checklist (Source)
+/drafts/glance.html			-  	    - At-A-Glance (Source)
+/drafts/guidelines.json			-  	    - WSG JSON API (Source)
+/drafts/index.html			-  	    - WSG Specification (Source)
+/drafts/intro.html			-  	    - Introduction (Source)
+/drafts/quickref.html			-  	    - Quick Reference (Source)
 
-checklist.pdf							- READ ONLY - PDF Checklist (Public)
-glance.html								- READ ONLY - At-A-Glance (Public)
-guidelines.json							- READ ONLY - WSG JSON API (Public)
-index.html								- READ ONLY - WSG Specification (Public)
-intro.html								- READ ONLY - Introduction (Public)
-quickref.html							- READ ONLY - Quick Reference (Public)
-TPAC_Slides.pdf							- READ ONLY - W3C TPAC Slides
+checklist.pdf				- READ ONLY - PDF Checklist (Public)
+glance.html				- READ ONLY - At-A-Glance (Public)
+guidelines.json				- READ ONLY - WSG JSON API (Public)
+index.html				- READ ONLY - WSG Specification (Public)
+intro.html				- READ ONLY - Introduction (Public)
+quickref.html				- READ ONLY - Quick Reference (Public)
+TPAC_Slides.pdf				- READ ONLY - W3C TPAC Slides
 Web_Sustainability_GRI_Impact_est.ipynb	- READ ONLY - GRI Impact Calculator
 ```
 
