@@ -14,13 +14,13 @@ The structure of the repository has been created to ensure ease of maintenance. 
 
 ```
 
-/wg/charter.html			-  	    - Working Group Draft Charter
-/drafts/checklist.pages			-  	    - PDF Checklist (Source)
-/drafts/glance.html			-  	    - At-A-Glance (Source)
-/drafts/guidelines.json			-  	    - WSG JSON API (Source)
-/drafts/index.html			-  	    - WSG Specification (Source)
-/drafts/intro.html			-  	    - Introduction (Source)
-/drafts/quickref.html			-  	    - Quick Reference (Source)
+/wg/charter.html			- Working Group Draft Charter
+/drafts/checklist.pages			- PDF Checklist (Source)
+/drafts/glance.html			- At-A-Glance (Source)
+/drafts/guidelines.json			- WSG JSON API (Source)
+/drafts/index.html			- WSG Specification (Source)
+/drafts/intro.html			- Introduction (Source)
+/drafts/quickref.html			- Quick Reference (Source)
 
 checklist.pdf				- READ ONLY - PDF Checklist (Public)
 glance.html				- READ ONLY - At-A-Glance (Public)
