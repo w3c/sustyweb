@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 34.1.8">
+<meta name="generator" content="ReSpec 34.2.2">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 dfn{cursor:pointer}
@@ -94,7 +94,7 @@ dd{margin-left:0}
 .removeOnSave{display:none}
 }
 </style>
-<meta name="description" content="This document provides a quick reference to the Web Sustainability Guidelines (WSG) 1.0 specification. The content is laid out in a table, with Success Criteria, Impact, Effort, and GRI ratings noted for each guideline. Checkboxes are provided for those individuals or groups wishing to work through the list (note your progress will not be saved), and a print-friendly version is also available to audit your work as part of an exercise.">
+<meta name="description" content="This document provides a quick reference to the Web Sustainability Guidelines (WSG) 1.0 specification. The content is laid out in a table, with Success Criteria, Impact, Effort, and GRI ratings noted for each guideline. Checkboxes are provided for those individuals or groups wishing to work through the list (note your progress will not be saved), and a print-friendly (PDF) version is also available to audit your work as part of an exercise.">
 <style>
 var{position:relative;cursor:pointer}
 var[data-type]::after,var[data-type]::before{position:absolute;left:50%;top:-6px;opacity:0;transition:opacity .4s;pointer-events:none}
@@ -121,8 +121,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "group": "sustyweb",
   "latestVersion": "https://w3c.github.io/sustyweb/quickref.html",
   "specStatus": "CG-DRAFT",
-  "publishISODate": "2023-10-10T00:00:00.000Z",
-  "generatedSubtitle": "Draft Community Group Report 10 October 2023"
+  "publishISODate": "2023-11-14T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 14 November 2023"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
 	<body class="h-entry informative"><div class="head">
@@ -130,7 +130,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <h1 id="title" class="title">Quick Reference for Web Sustainability Guidelines (WSG) 1.0</h1> 
     <p id="w3c-state">
       <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
-      <time class="dt-published" datetime="2023-10-10">10 October 2023</time>
+      <time class="dt-published" datetime="2023-11-14">14 November 2023</time>
     </p>
     <dl>
       
@@ -159,7 +159,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     </dl>
     
     <p class="copyright">
-          <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+          <a href="https://www.w3.org/policies/#copyright">Copyright</a>
           ©
           2023
           
@@ -174,7 +174,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <hr title="Separator for header">
   </div>
 		<section id="abstract" class="introductory"><h2>Abstract</h2> 
-			<p>This document provides a quick reference to the <a href="https://w3c.github.io/sustyweb/">Web Sustainability Guidelines</a> (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 specification. The content is laid out in a table, with Success Criteria, Impact, Effort, and GRI ratings noted for each guideline. Checkboxes are provided for those individuals or groups wishing to work through the list (note your progress will not be saved), and a <a href="https://w3c.github.io/sustyweb/checklist.pdf">print-friendly</a> version is also available to audit your work as part of an exercise.</p>
+			<p>This document provides a quick reference to the <a href="https://w3c.github.io/sustyweb/">Web Sustainability Guidelines</a> (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 specification. The content is laid out in a table, with Success Criteria, Impact, Effort, and GRI ratings noted for each guideline. Checkboxes are provided for those individuals or groups wishing to work through the list (note your progress will not be saved), and a <a href="https://w3c.github.io/sustyweb/checklist.pdf">print-friendly</a> (PDF) version is also available to audit your work as part of an exercise.</p>
 		</section>
 		<section id="sotd" class="override introductory"></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Abstract</a></li><li class="tocline"><a class="tocxref" href="#user-experience-design"><bdi class="secno">1. </bdi>User-Experience Design</a></li><li class="tocline"><a class="tocxref" href="#web-development"><bdi class="secno">2. </bdi>Web Development</a></li><li class="tocline"><a class="tocxref" href="#hosting-infrastructure-and-systems"><bdi class="secno">3. </bdi>Hosting, Infrastructure and Systems</a></li><li class="tocline"><a class="tocxref" href="#business-strategy-and-product-management"><bdi class="secno">4. </bdi>Business Strategy and Product Management</a></li></ol></nav> 
 		<section id="user-experience-design"><div class="header-wrapper"><h2 id="x1-user-experience-design"><bdi class="secno">1. </bdi>User-Experience Design</h2><a class="self-link" href="#user-experience-design" aria-label="Permalink for Section 1."></a></div> 
@@ -537,10 +537,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="2.16b"></td><td colspan="5"><label for="2.16b">Choose the right media to display by compressing according to the visitor's requirements, selecting the appropriate format, ensuring it works across browsers, and avoiding embedded player plugins.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="2.16c"></td><td colspan="5"><label for="2.16c">Increase visitor awareness and control by informing them of the length, format, and weight of the media; allowing media deactivation, and giving a choice of resolutions; all while providing alternative resolutions and formats.</label></td>
+						<td><input type="checkbox" id="2.16c"></td><td colspan="5"><label for="2.16c">Media requiring a lot of data to be downloaded on the client side (including the media itself) must be loaded via a facade (a non-functional, static, representational element).</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="2.16d"></td><td colspan="5"><label for="2.16d">Set up a media management and use policy to reduce the overall impact of audio and video, with criteria for media compression and file formats.</label></td>
+						<td><input type="checkbox" id="2.16d"></td><td colspan="5"><label for="2.16d">Increase visitor awareness and control by informing them of the length, format, and weight of the media; allowing media deactivation, and giving a choice of resolutions; all while providing alternative resolutions and formats.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.16e"></td><td colspan="5"><label for="2.16e">Set up a media management and use policy to reduce the overall impact of audio and video, with criteria for media compression and file formats.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>
@@ -665,8 +668,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td>Medium</td><td>Low</td><td>Medium</td><td>Low</td>
 					</tr>
 					<tr class="highlight">
-						<td><a href="https://w3c.github.io/sustyweb/#give-useful-notifications-to-improve-the-visitor-s-journey">2.22</a></td>
-						<td colspan="5">Give Useful Notifications To Improve The Visitor's Journey</td>
+						<td><a href="https://w3c.github.io/sustyweb/#provide-useful-notifications-to-improve-the-visitor-s-journey">2.22</a></td>
+						<td colspan="5">Provide Useful Notifications To Improve The Visitor's Journey</td>
 					</tr>
 					<tr>
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
@@ -702,7 +705,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="2.23b"></td><td colspan="5"><label for="2.23b">Offer optimized, compressed documents in a variety of accessible file formats.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="2.23c"></td><td colspan="5"><label for="2.23c">Clearly display the document name, a summary, the file size, and the format, allowing the visitor a choice if possible of both the format, and the language (if not the same as the web page). Furthermore, be sure to avoid embedding the document within Web pages (provide a direct link to download or view within the browser instead).</label></td>
+						<td><input type="checkbox" id="2.23c"></td><td colspan="5"><label for="2.23c">If a document is likely to be re-used, generate the document once on the server-side (preferably on a cookie-free domain) rather than forcing the effort to be duplicated.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="2.23d"></td><td colspan="5"><label for="2.23d">Clearly display the document name, a summary, the file size, and the format, allowing the visitor a choice if possible of both the format, and the language (if not the same as the web page). Furthermore, be sure to avoid embedding the document within Web pages (provide a direct link to download or view within the browser instead).</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>
@@ -943,9 +949,6 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="3.5c"></td><td colspan="5"><label for="3.5c">Deploy solutions which fight against electronic inequalities in products and services.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="3.5d"></td><td colspan="5"><label for="3.5d">To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques.</label></td>
-					</tr>
-					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>
 						<td>High</td><td>Medium</td><td></td><td></td>
 					</tr>
@@ -1159,6 +1162,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="3.14b"></td><td colspan="5"><label for="3.14b">Utilize progressive enhancement and responsive web design to ensure that your work accommodates a device's capabilities, different screen sizes, and will not fail if it meets an unsupported technology.</label></td>
 					</tr>
 					<tr>
+						<td><input type="checkbox" id="3.5d"></td><td colspan="5"><label for="3.5d">To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques.</label></td>
+					</tr>
+					<tr>
 						<td><input type="checkbox" id="3.14c"></td><td colspan="5"><label for="3.14c">Consider supporting other indirect methods of interaction such as voice (speech), code (QR, etc), reader view (browser, application, or RSS), or connected-technology (watch, appliance, transport, etc).</label></td>
 					</tr>
 					<tr>
@@ -1171,7 +1177,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</tr>
 					<tr class="highlight">
 						<td><a href="https://w3c.github.io/sustyweb/#use-beneficial-javascript-and-its-api-s">3.15</a></td>
-						<td colspan="5">Use Beneficial JavaScript and Its API's</td>
+						<td colspan="5">Use Beneficial JavaScript and Its APIs</td>
 					</tr>
 					<tr>
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
@@ -1303,7 +1309,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="3.21b"></td><td colspan="5"><label for="3.21b">As a general rule, coding from scratch is the best-performing methodology (though if an existing solution is actively maintained, it may be better optimized than what you could produce). Therefore, prefer native components and file systems to a WYSIWYG editor or heavy framework, and be considerate of the impact of third-party solutions.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="3.21c"></td><td colspan="5"><label for="3.21c">If you do decide to use a code generation tool, consider using a Static Site Generator in preference to a bulky content management system. Because SSG's often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries.</label></td>
+						<td><input type="checkbox" id="3.21c"></td><td colspan="5"><label for="3.21c">If you do decide to use a code generation tool, consider using a Static Site Generator in preference to a bulky content management system. Because SSGs often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries.</label></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="3.21d"></td><td colspan="5"><label for="3.21d">Plugins, extensions, and themes have been carefully reviewed and selected to maximize interoperability, accessibility, and performance. They are regularly audited over time to ensure continued compatibility.</label></td>
@@ -1345,7 +1351,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="3.23a"></td><td colspan="5"><label for="3.23a">Use native functions, API's and features over writing your own.</label></td>
+						<td><input type="checkbox" id="3.23a"></td><td colspan="5"><label for="3.23a">Use native functions, APIs and features over writing your own.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>
@@ -1421,7 +1427,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="4.2a"></td><td colspan="5"><label for="4.2a">If using a CMS, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control HTTP header.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="4.2b"></td><td colspan="5"><label for="4.2b">Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (API's), or cookies (if necessary) to reduce friction in the user-journey. For example, through the use of a PWA (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility.</label></td>
+						<td><input type="checkbox" id="4.2b"></td><td colspan="5"><label for="4.2b">Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (APIs), or cookies (if necessary) to reduce friction in the user-journey. For example, through the use of a PWA (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>
@@ -1577,7 +1583,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</tr>
 					<tr class="highlight">
 						<td><a href="https://w3c.github.io/sustyweb/#consider-cdn-s-and-edge-caching">4.10</a></td>
-						<td colspan="5">Consider CDN's and Edge Caching</td>
+						<td colspan="5">Consider CDNs and Edge Caching</td>
 					</tr>
 					<tr>
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
@@ -1965,7 +1971,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="5.14a"></td><td colspan="5"><label for="5.14a">Review and identify whether your product or service aligns with one of the U.N. (SDG's).</label></td>
+						<td><input type="checkbox" id="5.14a"></td><td colspan="5"><label for="5.14a">Review and identify whether your product or service aligns with one of the U.N. (SDGs).</label></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="5.14b"></td><td colspan="5"><label for="5.14b">Evaluate the desirability, feasibility, and viability of the digital product or service they wish to create to ascertain whether it is necessary.</label></td>
@@ -2148,13 +2154,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</tr>
 					<tr class="highlight">
 						<td><a href="https://w3c.github.io/sustyweb/#promote-responsible-emerging-technology-practices">5.22</a></td>
-						<td colspan="5">Promote Responsible Emerging Technology Practices</td>
+						<td colspan="5">Promote and Implement Responsible Emerging Technology Practices</td>
 					</tr>
 					<tr>
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="5.22a"></td><td colspan="5"><label for="5.22a">The organization has public-facing policies in place for emerging technologies.</label></td>
+						<td><input type="checkbox" id="5.22a"></td><td colspan="5"><label for="5.22a">The organization has public-facing policies in place for emerging technologies, and all such technologies are ethically sourced, screened, validated, and implemented in a non-discriminatory, responsible manner.</label></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="5.22b"></td><td colspan="5"><label for="5.22b">The organization can show how it up-skills workers as new technologies and practices potentially disrupt its business model.</label></td>
