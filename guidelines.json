@@ -1,6 +1,8 @@
 {
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
+	"edition": "Third Draft",
+	"lastModified": "2023-11-23",
 	"category": [
 		{
 			"id": "1",
@@ -9,9 +11,11 @@
 		{
 			"id": "2",
 			"name": "User-Experience Design",
+			"shortName": "UX Design",
 			"guidelines": [
 				{
 					"id": "1",
+					"url": "https://w3c.github.io/sustyweb/#undertake-systemic-impacts-mapping",
 					"guideline": "Undertake Systemic Impacts Mapping",
 					"description": "There are many variables which can impact the user-experience, and a bunch of these can impact how sustainable your website will be. Attempting to identify where you can make a difference to the visitor and give them a more sustainable experience will be beneficial.",
 					"criteria": [
@@ -47,18 +51,25 @@
 						{
 							"[AFNOR] Spec 5.1.6 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Are my third parties green?": "https://aremythirdpartiesgreen.com/",
+							"ATOS Ecobranding Report (PDF)": "https://atos.net/wp-content/uploads/2021/07/atos-ecobranding-report.pdf",
 							"Digital Eco-Design: Assess and measure": "https://eco-conception.designersethiques.org/guide/en/content/2-evaluate.html",
 							"[GR491] 7-3047 - Systemic Approach": "https://gr491.isit-europe.org/en/crit.php?id=7-3047-uxui-starting-a-project-without-taking-into-account",
 							"IBM Design For Sustainability (PDF)": "https://www.ibm.com/design/practices/design-for-sustainability/",
+							"Learn Performance": "https://web.dev/learn/performance",
+							"Nachhaltige Websites? (German)": "https://www.websiteboosting.com/magazin/75/nachhaltige-websites-wie-wir-alle-mehr-fuer-die-umwelt-tun-koennen.html",
 							"Planet Centric Design": "https://planetcentricdesign.com/",
+							"Opquast Web Quality Assurance Checklist (PDF)": "https://checklists.opquast.com/en/web-quality-assurance/download/",
 							"Scope 3 Emissions in Your Digital Supply Chain": "https://www.mightybytes.com/blog/scope-3-emissions-in-your-digital-supply-chain/",
-							"Variables of Web Sustainability (PDF)": "https://websitesustainability.com/cache/files/variables.pdf"
+							"The Fog of Enactment": "https://www.thegreenwebfoundation.org/publications/report-fog-of-enactment/",
+							"Variables of Web Sustainability (PDF)": "https://websitesustainability.com/cache/files/variables.pdf",
+							"Why your internet habits are not as clean as you think": "https://www.bbc.com/future/article/20200305-why-your-internet-habits-are-not-as-clean-as-you-think"
 						}
 					],
 					"tags": ["Social Equity", "Accessibility", "Ideation", "Research", "Compatibility", "Performance", "Hardware", "Software", "Networking", "Reporting"]
 				},
 				{
 					"id": "2",
+					"url": "https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs",
 					"guideline": "Assess and Research Visitor Needs",
 					"description": "When creating a product or service, identifying your target audience through user-research, analytics, data collected using ethical anonymous methods, or feedback from and with visitors is important in being able to create a customized service for and with them which is tailor-made for their specific preferences, adapted for any needs they may have, and particularly useful in helping a website or application evolve its service to meet sustainability targets.",
 					"criteria": [
@@ -129,6 +140,7 @@
 							"Precisely specify the need": "http://www.ecometer.org/rules/precisely-specify-the-need.html",
 							"[RGESN] (French) 1.2 - User Targets": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.2/",
 							"[RGESN] (French) 1.4 - Hardware Profiles": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.4/",
+							"Shaping Europe's digital future": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/shaping-europes-digital-future_en",
 							"Six Dark Patterns to Avoid On Your Website": "https://www.mightybytes.com/blog/6-dark-patterns-to-avoid-on-your-website/",
 							"The UX Cookbook": "https://theuxcookbook.com/",
 							"UX: Best Practices For Developers": "https://blog.openreplay.com/ux-best-practices-for-developers/"
@@ -138,6 +150,7 @@
 				},
 				{
 					"id": "3",
+					"url": "https://w3c.github.io/sustyweb/#research-non-visitor-s-needs",
 					"guideline": "Research Non-Visitor's Needs",
 					"description": "If you provide physical goods or services, you may also have to account for the sustainability impact of delivery services. This can often be tricky, but courier companies may provide useful tooling to help you identify emissions data for routing.",
 					"criteria": [
@@ -171,6 +184,7 @@
 					],
 					"resources": [
 						{
+							"Digitalisation and Energy": "https://www.iea.org/reports/digitalisation-and-energy",
 							"Foundations of Humane Technology": "https://www.humanetech.com/course",
 							"IBM Design For Sustainability (PDF)": "https://www.ibm.com/design/practices/design-for-sustainability/",
 							"Stakeholder Mapping": "https://www.mightybytes.com/blog/stakeholder-mapping/",
@@ -183,6 +197,7 @@
 				},
 				{
 					"id": "4",
+					"url": "https://w3c.github.io/sustyweb/#consider-sustainability-in-early-ideation",
 					"guideline": "Consider Sustainability in Early Ideation",
 					"description": "While some things require the use of electricity, during the early ideation phase you could consider wireframing or rapid prototyping (using paper) among other offline tools to reduce energy consumption. Even the electronic versions of these may have a lower carbon cost than committing to building a full-blown experience for each idea.",
 					"criteria": [
@@ -214,7 +229,7 @@
 					],
 					"example": [
 						{
-							"content": "A website wireframe [example](https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/old-blog-uploads/versions/samuel-student-wireframe---x----972-715x---.png) from CareerFoundry."
+							"content": "A website wireframe [example](https://cdn-proxy.slickplan.com/wp-content/uploads/2019/03/hand-drawn-wireframe-1024x683.jpeg) from SlickPlan."
 						}
 					],
 					"resources": [
@@ -222,6 +237,7 @@
 							"An introduction to radical participatory design": "https://www.cambridge.org/core/journals/design-science/article/an-introduction-to-radical-participatory-design-decolonising-participatory-design-processes/63F70ECC408844D3CD6C1A5AC7D35F4D",
 							"How Wireframes and Rapid Prototypes Improve Digital Projects": "https://www.mightybytes.com/blog/wireframes-and-prototypes-for-websites/",
 							"Importance of Wireframing & Prototyping in Web Design": "https://www.loop-digital.co.uk/the-importance-of-wireframing-prototyping-in-web-design/",
+							"L'idéation au service de l'éco-conception #1 : La méthode C.O.E.U.R. (French)": "https://www.lunaweb.fr/actualites/blog/atelier-ideation-eco-conception/",
 							"Rapid prototyping can be key to creating more sustainable products": "https://www.imeche.org/news/news-article/rapid-prototyping-can-be-key-to-creating-more-sustainable-products",
 							"Sustainable UX design": "https://blog.adobe.com/en/publish/2021/09/24/sustainable-ux-design-what-is-it-and-how-can-it-benefit-your-organization",
 							"The Design Process": "https://sustainabilityguide.eu/methods/the-design-process/"
@@ -231,6 +247,7 @@
 				},
 				{
 					"id": "5",
+					"url": "https://w3c.github.io/sustyweb/#account-for-stakeholder-issues",
 					"guideline": "Account for Stakeholder Issues",
 					"description": "Brainstorming allows you to flush out ideas before you commit to pursuing a path. Being considerate of not just your visitors but other individuals who may be affected by your product or service (including non-humans, like the environment!) is a useful practical exercise as it may influence your decisions in how you scope your project.",
 					"criteria": [
@@ -248,7 +265,7 @@
 					"benefits": [
 						{
 							"Environmental": "By helping key project stakeholders better understand the ecological impact of a potential digital product or service, its environmental impact can be identified and reduced throughout its life-cycle.",
-							"Social Equity": "For other potentially marginalized groups, such as those who speak different languages, live in low bandwidth areas, use older devices, have other barriers to accessing information, and so on, accounting for their needs early in the process will reduce the need for costly redesigns to accompany their requirements later on due to demand (or producing specialist alternative sites to cope with their functionality).",
+							"Social Equity": "For other potentially marginalized groups, such as those who speak different languages, live in low-bandwidth areas, use older devices, have other barriers to accessing information, and so on, accounting for their needs early in the process will reduce the need for costly redesigns to accompany their requirements later on due to demand (or producing specialist alternative sites to cope with their functionality).",
 							"Accessibility": "By understanding the accessibility communities' requirements in the early stages of a digital project, inclusive design can be prioritized throughout the product or service life-cycle, which will lead to efficiency savings in developer time (due to not having to retrofit accessibility) and fewer emissions from the patching process."
 						}
 					],
@@ -279,6 +296,7 @@
 				},
 				{
 					"id": "6",
+					"url": "https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default",
 					"guideline": "Create a Frictionless Lightweight Experience by Default",
 					"description": "When providing the option to download, save, print, or access anything online, defaulting to the most lightweight, least featureful version will reduce emissions through passive browsing; with non-essential information removed from the screen either to be shown when it's required or eliminated.",
 					"criteria": [
@@ -356,7 +374,7 @@
 							"OpQuast 33 - Product availability is indicated before final validation of the order.": "https://checklists.opquast.com/en/web-quality-assurance/product-availability-is-shown-before-final-order-placement",
 							"OpQuast 84 - The user is alerted at the beginning of a complex process to the nature of the required data and document.": "https://checklists.opquast.com/en/web-quality-assurance/the-user-is-alerted-at-the-beginning-of-a-complex-process-to-the-nature-of-the-data-required",
 							"OpQuast 149 - Navigating the website does not open any pop-up windows.": "https://checklists.opquast.com/en/web-quality-assurance/navigating-the-website-does-not-open-any-pop-up-windows",
-							"Paradox of Choice: Why Less is More in UX Design": "https://www.getfeedback.com/resources/ux/paradox-choice-less-ux-design/",
+							"Paradox of Choice: Why Less is More in UX Design": "https://asu.getfeedback.com/resources/ux/paradox-choice-less-ux-design/",
 							"Patterns": "https://web.dev/patterns/",
 							"Patterns.dev": "https://www.patterns.dev/",
 							"Remove non-essential features": "http://www.ecometer.org/rules/remove-non-essential-features.html",
@@ -373,8 +391,9 @@
 				},
 				{
 					"id": "7",
+					"url": "https://w3c.github.io/sustyweb/#avoid-unnecessary-or-an-overabundance-of-assets",
 					"guideline": "Avoid Unnecessary or an Overabundance of Assets",
-					"description": "It's great to have a pretty looking website or application, but to ensure a sustainable design, it's important to avoid cluttering up the interface with too many visuals (which aren't necessary to the content). Keeping a clean design will reduce data transfer, and thereby emissions.",
+					"description": "It's great to have a pretty looking website or application, but to ensure a sustainable design, it's important to avoid cluttering up the interface with too many visuals (which aren't necessary to the content). Keeping a clean design will reduce website rendering, and thereby emissions.",
 					"criteria": [
 						{
 							"title": "Decorative Design",
@@ -385,7 +404,7 @@
 					"effort": "Medium",
 					"benefits": [
 						{
-							"Environmental": "Using fewer typefaces will reduce the page size and use less resources rendering the new font on the visitor's machine for that page's instance (saving energy).",
+							"Environmental": "Using fewer typefaces will reduce the page size and use less resources rendering the new font on the visitor's machine for that page's instance (saving DOM rendering cycles).",
 							"Social Equity": "Bloat costs bandwidth, slimming down the web matters to remain inclusive.",
 							"Accessibility": "Decorative design can be intrusive (if marked up incorrectly) or distracting.",
 							"Performance": "HTTP requests can be reduced both with fewer fonts and by creating CSS / SVG sprites if the images are unlikely to change.",
@@ -403,12 +422,12 @@
 					"example": [
 						{
 							"code": "@font-face {\r\n\tfont-family: \"Trickster\";\r\n\tsrc: local(\"Trickster\"),\r\n\t\turl(\"trickster-COLRv1.otf\") format(\"opentype\") tech(color-COLRv1), url(\"trickster-outline.otf\")\r\n\t\tformat(\"opentype\"), url(\"trickster-outline.woff\") format(\"woff\");\r\n}",
-							"content": "[@font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)."
+							"content": "This is an example of an external web asset (a custom typeface). Too many of these can be detrimental to the performance of a website or application due to their need to be rendered (through CPU cycles) to the screen on every element in which they are used, which is bad news for sustainability! [@font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)."
 						}
 					],
 					"resources": [
 						{
-							"Best practices for fonts": "https://web.dev/font-best-practices/#use-fewer-web-fonts",
+							"Best practices for fonts": "https://web.dev/articles/font-best-practices#use-fewer-web-fonts",
 							"Decorative Images": "https://www.w3.org/WAI/tutorials/images/decorative/",
 							"Implementing image sprites in CSS": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS",
 							"Less Data Doesn't Mean a Lesser Experience": "https://timkadlec.com/remembers/2019-08-30-less-data-doesnt-mean-a-lesser-experience/",
@@ -421,13 +440,14 @@
 							"Simplify Your UX Through Reduction": "https://www.uxmatters.com/mt/archives/2015/07/simplify-your-ux-through-reduction.php",
 							"The modern web on a slow connection": "https://danluu.com/web-bloat/",
 							"The Website Obesity Crisis": "https://webdirections.org/blog/the-website-obesity-crisis/",
-							"Use fewer web fonts": "https://web.dev/font-best-practices/#use-fewer-web-fonts"
+							"Use fewer web fonts": "https://web.dev/articles/font-best-practices#use-fewer-web-fonts"
 						}
 					],
 					"tags": ["UI", "Usability", "Assets", "Performance"]
 				},
 				{
 					"id": "8",
+					"url": "https://w3c.github.io/sustyweb/#ensure-navigation-and-way-finding-are-well-structured",
 					"guideline": "Ensure Navigation and Way-Finding Are Well-Structured",
 					"description": "Information architecture is a central part of the Web development process, and how you structure a website ensures that people can way-find your content easily. Having appropriately marked-up links within your product or service allows visitors, search engines and social networks to identify key information quickly.",
 					"criteria": [
@@ -487,6 +507,7 @@
 				},
 				{
 					"id": "9",
+					"url": "https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention",
 					"guideline": "Respect the Visitor's Attention",
 					"description": "Time is precious, wasting a visitor's will cause frustration and lead to abandonment or resentment. Additionally, the more time a visitor spends in front of a screen, the more energy they utilize. As such, throwing stuff in front of the visitor vying for their attention might sound like good business (even though we know due to banner blindness it rarely works), but it mostly damages the environment and dissuades the visitor.",
 					"criteria": [
@@ -543,6 +564,7 @@
 							"Laws Of UX": "https://lawsofux.com/",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
 							"Planet Centric Design": "https://planetcentricdesign.com/",
+							"Psychology of Design": "https://growth.design/psychology",
 							"[RGESN] (French) 4.3 - Infinate Scrolling": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.3/",
 							"Society Centered Design": "https://societycentered.design/",
 							"Social sustainability": "https://sustainabilityguide.eu/sustainability/social-sustainability/",
@@ -553,6 +575,7 @@
 				},
 				{
 					"id": "10",
+					"url": "https://w3c.github.io/sustyweb/#use-recognized-design-patterns",
 					"guideline": "Use Recognized Design Patterns",
 					"description": "Visitors can identify patterns fairly easily, and they like browsing websites and apps and feeling as if they know what they are dealing with. As such, focusing your efforts on producing a product or service that is clean and has key components in easy-to-recognize locations (and visuals) will allow faster user-experiences and fewer emissions.",
 					"criteria": [
@@ -603,6 +626,7 @@
 				},
 				{
 					"id": "11",
+					"url": "https://w3c.github.io/sustyweb/#avoid-manipulative-patterns",
 					"guideline": "Avoid Manipulative Patterns",
 					"description": "Manipulating the visitor into doing things you want them to is a short-term gain, long-term loss tactic tool. It's ethically bad, unsustainable, and should be avoided at all costs.",
 					"criteria": [
@@ -628,7 +652,7 @@
 							"Accessibility": "Dark and deceptive design patterns often intentionally block or hide access to information, which especially undermines the experience of people with disabilities who use assistive technologies. By avoiding them, you will give those with accessibility needs justification to trust your brand. Furthermore, avoiding poor implementations such as overlays will prevent making any existing situations worse.",
 							"Performance": "Interference with the user-interface (such as removing the ability to copy text) causes friction and forces the visitor to spend more time on the page to work around the barrier put in place. This uses additional energy as they try to find a solution onsite, elsewhere, or give up entirely. Using ethical, non-disruptive coding practices will speed up interactions within your website.",
 							"Economic": "Ethical websites incentivize customers to whitelist your website on ad-blockers.",
-							"Conversion": "Avoiding dark and deceptive patterns will likely result in fewer complaints. A classic example of this is the use of CAPTCHA's which can disrupt the visitor, cause accessibility issues, and reduce the legitimate use of your product or service."
+							"Conversion": "Avoiding dark and deceptive patterns will likely result in fewer complaints. A classic example of this is the use of CAPTCHAs which can disrupt the visitor, cause accessibility issues, and reduce the legitimate use of your product or service."
 						}
 					],
 					"GRI": [
@@ -665,7 +689,7 @@
 							"Humane By Design": "https://humanebydesign.com/principles",
 							"Is GDPR Good for the Environment?": "https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/",
 							"Just normal web things": "https://heather-buchel.com/blog/2023/07/just-normal-web-things/",
-							"Learn Privacy": "https://web.dev/introducing-learn-privacy/",
+							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy",
 							"Ledger of Harms": "https://ledger.humanetech.com/",
 							"OpQuast 8 - Advertisements and sponsored content are identified as such.": "https://checklists.opquast.com/en/web-quality-assurance/advertisements-and-sponsored-content-are-identified-as-such",
 							"Overlay Fact Sheet": "https://overlayfactsheet.com/",
@@ -683,6 +707,7 @@
 				},
 				{
 					"id": "12",
+					"url": "https://w3c.github.io/sustyweb/#document-and-share-project-outputs",
 					"guideline": "Document and Share Project Outputs",
 					"description": "Everything produced by designers, developers, writers and those involved with a project should be in an open format, well maintained, and curated in a common format (so everyone is working from the same model).",
 					"criteria": [
@@ -699,11 +724,9 @@
 					"effort": "High",
 					"benefits": [
 						{
-							"Environmental": "Design systems that incorporate environmental criteria can help to scale digital sustainability across the enterprise, and reduce redundancy within code, resulting in collectively reduced energy use and impact.",
-							"Accessibility": "Building design features with accessibility baked in by default reduces the time for implementation and decreases the potential that your audience will have issues while browsing.",
-							"Performance": "Standardized elements across a product or service improves overall performance by reducing the time developers code (recreating the same thing). This will inherently reduce emissions considerably through the building of sustainable patterns.",
-							"Economic": "Familiar-looking websites which can be browsed with ease are likely to suffer lower bounce rates (where visitors just give up) due to the ease of transition (unlike a unique-looking website which can make navigation increasingly complex).",
-							"Conversion": "User-interface consistency improves visitor trust as individuals will recognize familiar components within your design and know how to utilize them, and this can improve conversion rates as it will lower the rates of abandonment."
+							"Environmental": "Deliverables that are used in common, easy-to-understand formats will take less computer time to learn and adapt to the environment. As such, less energy will be spent trying to manage a project with emissions savings as a consequence.",
+							"Economic": "Well-documented projects that can be implemented with ease are likely to have fewer ongoing costs due to a lower need for maintenance.",
+							"Conversion": "Using an open format, to which anyone can contribute, will have a lower barrier to entry as there will likely be no cost involved in participation. Therefore it will encourage more individuals to play an active role in your project's future."
 						}
 					],
 					"GRI": [
@@ -733,6 +756,7 @@
 				},
 				{
 					"id": "13",
+					"url": "https://w3c.github.io/sustyweb/#use-a-design-system-to-prioritize-interface-consistency",
 					"guideline": "Use a Design System To Prioritize Interface Consistency",
 					"description": "Design systems allow common components and patterns to be formalized and managed within a website or application. By using such a tool, designers and developers can avoid reinventing existing tooling and thereby reduce wasted time (and emissions).",
 					"criteria": [
@@ -745,12 +769,12 @@
 					"effort": "Medium",
 					"benefits": [
 						{
-							"Environmental": "Consistent interfaces that employ web standards require less energy and resources across the product ecosystem, as they are usually tightly optimized.",
-							"Social Equity": "A design system with standardized, lightweight components will improve access to information for people in low-bandwidth areas, on older devices, and so on. Design systems also will reduce the chance of biases which could affect such groups being introduced.",
-							"Accessibility": "A design system with accessible components will improve access to information for people with disabilities.",
-							"Performance": "Design Systems are built using standardized components which reduce the churn of repeat coding, thereby reducing developer coding turnarounds and, as a byproduct, improves performance and reduces emissions during the process.",
-							"Economic": "Because of their use of standardized components and their avoidance of redundancy, design systems reduce costs as the development time may be reduced (even accounting for the maintenance time involved in having one).",
-							"Conversion": "Design Systems encourage using recognizable components throughout a design, which will help visitors identify and utilize the product or service successfully. As such, this will reduce complaints and annoyance, which can help increase customer retention."
+							"Environmental": "Consistent interfaces that employ web standards require less energy and resources across the product ecosystem, as they are usually tightly optimized. Also, design systems that incorporate environmental criteria can help to scale digital sustainability across the enterprise and reduce redundancy within code, resulting in collectively reduced energy use and impact.",
+							"Social Equity": "A design system with standardized, lightweight components will improve access to information for people in low-bandwidth areas, on older devices, and so on. Also, design systems will reduce the chance of biases that could affect such groups being introduced.",
+							"Accessibility": "A design system with accessible components will improve access to information for people with disabilities. Building design features with accessibility baked in by default reduces the time for implementation and decreases the potential that your audience will have issues while browsing.",
+							"Performance": "Design Systems are built using standardized components that reduce the churn of repeat coding, thereby reducing developer coding turnarounds and, as a byproduct, improve performance and reduce emissions during the process. This will inherently reduce emissions considerably through the building of sustainable patterns.",
+							"Economic": "Because of their use of standardized components and their avoidance of redundancy, design systems reduce costs as the development time may be reduced (even accounting for the maintenance time involved in having one). Also, familiar-looking websites that can be browsed with ease are likely to suffer lower bounce rates (where visitors just give up) due to the ease of transition (unlike a unique-looking website which can make navigation increasingly complex).",
+							"Conversion": "Design Systems encourage using recognizable components throughout a design, which will help visitors identify and utilize the product or service successfully. As such, this will reduce complaints and annoyance, which can help increase customer retention. Also, user-interface consistency improves visitor trust as individuals will recognize familiar components within your design and know how to utilize them, and this can improve conversion rates as it will lower the rates of abandonment."
 						}
 					],
 					"GRI": [
@@ -790,6 +814,7 @@
 				},
 				{
 					"id": "14",
+					"url": "https://w3c.github.io/sustyweb/#write-with-purpose-in-an-accessible-easy-to-understand-format",
 					"guideline": "Write With Purpose, in an Accessible, Easy To Understand Format",
 					"description": "Everyone should be able to understand what you've written without wasting time staring at a screen or jumping from page-to-page looking for answers, whether they have accessibility requirements or not. This also means avoiding using technical language (without explanations) and including enough information to help direct people (and search engines) from page to page.",
 					"criteria": [
@@ -849,6 +874,7 @@
 							"HTML: HyperText Markup Language": "https://developer.mozilla.org/en-US/docs/Web/HTML",
 							"Page Structure Tutorial": "https://www.w3.org/WAI/tutorials/page-structure/",
 							"Plain Language Writing — An Essential Part Of Accessibility": "https://www.forbes.com/sites/andrewpulrang/2020/10/22/plain-language-writing---an-essential-part-of-accessibility/",
+							"Readability Scoring System": "https://readabilityformulas.com/readability-scoring-system.php",
 							"Stop Writing Web Copy That Over Explains Everything": "https://www.mightybytes.com/blog/stop-writing-web-copy-that-over-explains/",
 							"Sustainable SEO: How to focus on a lasting SEO strategy": "https://yoast.com/sustainable-seo/",
 							"The digital butterfly effect: Sustainable websites and SEO": "https://www.the-future-of-commerce.com/2022/03/01/sustainable-websites/",
@@ -861,8 +887,9 @@
 				},
 				{
 					"id": "15",
+					"url": "https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-image-assets",
 					"guideline": "Take a More Sustainable Approach to Image Assets",
-					"description": "Of all the data which comprises the largest over-the-wire transfer rates within the average website or application, images are usually those which are responsible due to their quantity and usefulness. As such, doing all you can to reduce their size and unnecessary loading will be beneficial for reducing emissions.",
+					"description": "Of all the data which comprises the largest over-the-wire transfer rates within the average website or application, images are usually those which are responsible due to their quantity and usefulness. As such, doing all you can to reduce their size and unnecessary loading will be beneficial for sustainability.",
 					"criteria": [
 						{
 							"title": "Need For Images",
@@ -889,10 +916,10 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Image assets often make up the largest part of a web page's overall size. Compressing and delivering them in lightweight formats that improve the user-experience can significantly reduce a page's environmental emissions.",
+							"Environmental": "Image assets often make up the largest part of a web page's overall size. Compressing and delivering them in lightweight formats that improve the user-experience can often reduce the hardware burden on older devices. This in turn can reduce overall consumer e-waste in reducing forced upgrade cycles.",
 							"Social Equity": "Lightweight images work better for visitors in low-bandwidth areas and on older devices, as long as the device can support the formats used.",
 							"Accessibility": "Delivering images in ways that are meaningful to visitors improves access to information.",
-							"Performance": "By optimizing your images, you can significantly speed up your website in terms of HTTP requests, data transfer, and even in some cases the physical rendering effort - all of which have an impact on a visitor's energy usage and in turn their emissions.",
+							"Performance": "By optimizing your images, you can significantly speed up your website in terms of HTTP requests, data transfer, and even in some cases the physical rendering effort - all of which have an impact on a visitor's user-experience and speed of access.",
 							"Economic": "Visitor's with data caps will benefit from optimized resources as they will be able to consume more content, and hosts of content will endure smaller bills due to a lower overhead."
 						}
 					],
@@ -916,7 +943,7 @@
 							"Avoid using bitmap images for the interface": "http://www.ecometer.org/rules/avoid-using-bitmap-for-the-interface.html",
 							"Digital Eco-Design: Images": "https://eco-conception.designersethiques.org/guide/en/content/5-1-images.html",
 							"Dithering Images": "https://www.greendesign.io/dithering-images",
-							"Fast load times: Optimize Your Images": "https://web.dev/fast/#optimize-your-images",
+							"Fast load times: Optimize Your Images": "https://web.dev/explore/fast#optimize-your-images",
 							"Favor CSS over images": "http://www.ecometer.org/rules/favor-css-over-images.html",
 							"Focus Mode": "https://www.greendesign.io/focus-mode",
 							"[GR491] 2-4008 - Image Compression": "https://gr491.isit-europe.org/en/crit.php?id=2-4008-contents-the-transmission-of-compressed-data-is-essential",
@@ -942,7 +969,7 @@
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
 							"Image Carbon": "https://www.imagecarbon.com/",
 							"Lazy loading": "https://en.wikipedia.org/wiki/Lazy_loading",
-							"Learn Images": "https://web.dev/learn-images/",
+							"Learn Images": "https://web.dev/blog/learn-images",
 							"Modern way of serving images": "https://kurtextrem.de/posts/modern-way-of-img",
 							"OpQuast 114 - Thumbnails and previews are not larger images resized on the client side.": "https://checklists.opquast.com/en/web-quality-assurance/thumbnails-and-previews-are-not-larger-images-resized-on-the-client-side",
 							"Resize images outside the browser": "http://www.ecometer.org/rules/dont-resize-image-in-browser.html",
@@ -963,8 +990,9 @@
 				},
 				{
 					"id": "16",
+					"url": "https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-media-assets",
 					"guideline": "Take a More Sustainable Approach to Media Assets",
-					"description": "Video and audio-heavy websites are often those which can have the highest emissions costs in terms of data transfer, storage usage, and carbon intensity for viewers who have to process the media with their devices to watch them (draining batteries). Optimizing such assets as much as possible is critical for a sustainable product or service.",
+					"description": "Video and audio-heavy websites are often those which can have significant sustainability costs in terms of storage and carbon intensity for viewers who have to process the media with their devices to watch them (draining batteries). Optimizing such assets as much as possible is critical for a sustainable product or service.",
 					"criteria": [
 						{
 							"title": "Need For Media",
@@ -973,6 +1001,10 @@
 						{
 							"title": "Optimize Media",
 							"description": "Choose the right media to display by compressing according to the visitor's requirements, selecting the appropriate format, ensuring it works across browsers, and avoiding embedded player plugins."
+						},
+						{
+							"title": "Lazy Loading",
+							"description": "Media requiring a lot of data to be downloaded on the client side (including the media itself) must be loaded via a facade (a non-functional, static, representational element)."
 						},
 						{
 							"title": "Labels And Choice",
@@ -987,7 +1019,7 @@
 					"effort": "Medium",
 					"benefits": [
 						{
-							"Environmental": "Media assets like audio and video have large file sizes. Compressing and delivering them in lightweight formats that improve the user-experience will significantly reduce a page's environmental impact through reducing wasted bandwidth, among other things.",
+							"Environmental": "Media assets like audio and video can be very resource-hungry. Reducing battery draining events such as loading high-effort content until the moment it is required can have savings in terms of pure processing and displaying of the media.",
 							"Social Equity": "Providing alternatives to bandwidth-hungry media will assist those unable to benefit due to their environment.",
 							"Accessibility": "Delivering media assets in ways that convey information in an easy-to-read manner both visually and contextually (even if people are unable to for example see), will allow a wider audience to gain from your content.",
 							"Performance": "Catering your experience to the device, situation, and environment of the visitor will reduce wasted bandwidth (for example, sending a lower resolution for less capable devices). As such, the data savings will translate into a performance boost for those taking advantage of the reduced capabilities.",
@@ -1014,6 +1046,8 @@
 							"Adapt sounds to the listening environment": "http://www.ecometer.org/rules/adapt-sounds-to-the-environment.html",
 							"Adapt videos to the viewing environment": "http://www.ecometer.org/rules/adapt-videos-to-the-environment.html",
 							"[AFNOR] Spec 5.4.4 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
+							"Ditch 4K video and new tech to fight climate change": "https://www.bbc.co.uk/news/technology-55164410",
+							"Factcheck: What is the carbon footprint of streaming video on Netflix?": "https://www.carbonbrief.org/factcheck-what-is-the-carbon-footprint-of-streaming-video-on-netflix/",
 							"[GR491] 3-4028 - Meaningful Videos": "https://gr491.isit-europe.org/en/crit.php?id=3-4028-contents-video-streams-are-one-of-the-elements",
 							"[GR491] 3-4029 - Video Avoidance": "https://gr491.isit-europe.org/en/crit.php?id=3-4029-contents-in-digital-service-uses-video-streams-are",
 							"[GR491] 7-5050 - Formats and Sizes": "https://gr491.isit-europe.org/en/crit.php?id=7-5050-frontend-front-end-operations-may-require-file-transfers-between",
@@ -1024,8 +1058,11 @@
 							"GreenIT (French) 112 - Adapter les sons aux contextes d'écoute": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_112_fr.md",
 							"GreenIT (French) 114 - Adapter les vidéos aux contextes de visualisation": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_114_fr.md",
 							"GreenIT (French) 4003 - Éviter la lecture et le chargement automatique des vidéos et des sons": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_4003_fr.md",
+							"Green Production Guide": "https://greenproductionguide.com/",
+							"Greening of Streaming": "https://www.greeningofstreaming.org/",
 							"How can we design sustainably?": "https://medium.com/@sandra.pallier/how-can-we-design-sustainably-3be7530a0f5b",
 							"How to Compress a Video File without Losing Quality": "https://www.youtube.com/watch?v=sgmE1T8A4UY",
+							"Lazy load third-party resources with facades": "https://developer.chrome.com/en/docs/lighthouse/performance/third-party-facades/",
 							"Making Audio and Video Media Accessible": "https://www.w3.org/WAI/media/av/",
 							"OpQuast 116 - Each audio and video content is accompanied by a text transcription.": "https://checklists.opquast.com/en/web-quality-assurance/all-audio-and-video-content-is-accompanied-by-a-text-transcription",
 							"OpQuast 118 - The length of video and audio content is indicated.": "https://checklists.opquast.com/en/web-quality-assurance/the-length-of-video-and-audio-content-is-displayed",
@@ -1040,16 +1077,20 @@
 							"[RGESN] (French) 5.4 - Video Compression": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/5.4/",
 							"[RGESN] (French) 5.5 - Audio Format": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/5.5/",
 							"[RGESN] (French) 5.6 - Audio Compression": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/5.6/",
+							"The carbon footprint of streaming video: fact-checking the headlines": "https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines",
 							"UI Tools": "https://designsustainably.eu/uitools/",
 							"Video - an Environmental Monster?": "https://www.linkedin.com/pulse/video-environmental-monster-joe-jones/",
+							"We finally know how bad for the environment your Netflix habit is": "https://www.wired.co.uk/article/netflix-carbon-footprint",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
-							"Why Web Designers Need To Think About Sustainable Web Design": "https://www.forbes.com/sites/forbesbusinesscouncil/2022/09/01/why-web-designers-need-to-think-about-sustainable-web-design/"
+							"Why Web Designers Need To Think About Sustainable Web Design": "https://www.forbes.com/sites/forbesbusinesscouncil/2022/09/01/why-web-designers-need-to-think-about-sustainable-web-design/",
+							"Zoom Emissions": "https://www.utilitybidder.co.uk/business-electricity/zoom-emissions/"
 						}
 					],
 					"tags": ["Content", "UI", "Usability", "Assets", "HTML", "Performance", "Software"]
 				},
 				{
 					"id": "17",
+					"url": "https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-animation",
 					"guideline": "Take a More Sustainable Approach to Animation",
 					"description": "Animation can be both CPU and GPU intensive and have implications for accessibility. While visually appealing and useful in certain situations, care and attention should be taken when considering the use of a high emissions' technology.",
 					"criteria": [
@@ -1088,11 +1129,12 @@
 					"example": [
 						{
 							"code": "@media (prefers-reduced-motion: reduce) {\r\n\tbody *,\r\n\tbody *::before,\r\n\tbody *::after {\r\n\t\tanimation-delay: -1ms !important;\r\n\t\tanimation-duration: 1ms !important;\r\n\t\tanimation-iteration-count: 1 !important;\r\n\t\tbackground-attachment: initial !important;\r\n\t\ttransition-duration: 1ms !important;\r\n\t\ttransition-delay: -1ms !important;\r\n\t\tscroll-behavior: auto !important;\r\n\t}\r\n}",
-							"content": "[Prefers-reduced-motion: Sometimes less movement is more](https://web.dev/prefers-reduced-motion/)."
+							"content": "[Prefers-reduced-motion: Sometimes less movement is more](https://web.dev/articles/prefers-reduced-motion)."
 						}
 					],
 					"resources": [
 						{
+							"Climate Change Implications of Gaming Products and Services (PDF)": "https://openresearch.surrey.ac.uk/discovery/delivery/44SUR_INST:ResearchRepository/99512335802346#13140594990002346",
 							"Equations relating total annual energy consumption and chips energy efficiency": "https://www.researchgate.net/publication/371938289_Equations_relating_total_annual_energy_consumption_and_chips_energy_efficiency",
 							"Digital Eco-Design: Animation": "https://eco-conception.designersethiques.org/guide/en/content/5-3-animation.html",
 							"Digital Eco-Design: Interaction": "https://eco-conception.designersethiques.org/guide/en/content/5-7-interaction.html",
@@ -1117,6 +1159,7 @@
 				},
 				{
 					"id": "18",
+					"url": "https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-typefaces",
 					"guideline": "Take a More Sustainable Approach to Typefaces",
 					"description": "Since the advent of the modern web, the ability to include embedded fonts and provide a more customized experience has seen their use explode. They aren't always the most performant option (which poses emissions hazards) and come with a few issues such as Flash Of Unstyled Content (FOUC) / Flash Of Unstyled Text (FOUT) which should be addressed.",
 					"criteria": [
@@ -1133,7 +1176,7 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Reducing the number of fonts being loaded will reduce the amount of rendering which occurs, potentially reduce the reliance on third-party resources, and as fonts are separate from the page, it will reduce bandwidth costs - all of which have a carbon impact.",
+							"Environmental": "Reducing the number of fonts being loaded will reduce the amount of rendering that occurs, all of which have a carbon impact (as the physical rendering of non-system typefaces graphically onto every element of the DOM will have an energy commitment).",
 							"Social Equity": "System-level (Web Safe) fonts work across the widest range of devices and platforms, which improves access to information for those who may have tightly regulated browsing habits or limited availability.",
 							"Performance": "By providing Web fonts which are optimized but optional, visitors can experience the product or service with a level of speed versus aesthetic they feel comfortable with.",
 							"Economic": "While pretty, custom typefaces are entirely optional on the Web and, as such, the bandwidth they consume (and the emissions this produces) are unnecessary. This added cost can be eliminated, but the benefit such fonts give in readability or personality for a website or application is worth considering."
@@ -1155,7 +1198,7 @@
 					],
 					"resources": [
 						{
-							"Best practices for fonts": "https://web.dev/font-best-practices/",
+							"Best practices for fonts": "https://web.dev/articles/font-best-practices",
 							"Digital Eco-Design: Fonts": "https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html",
 							"Font style matcher": "https://meowni.ca/font-style-matcher/",
 							"[GR491] 2-4015 - Font Limits": "https://gr491.isit-europe.org/en/crit.php?id=2-4015-contents-each-font-is-encoded-in-a-file",
@@ -1164,7 +1207,7 @@
 							"GreenIT (French) 029 - Favoriser les polices standards": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_029_fr.md",
 							"How can we design sustainably?": "https://medium.com/@sandra.pallier/how-can-we-design-sustainably-3be7530a0f5b",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
-							"Reduce web font size": "https://web.dev/reduce-webfont-size/",
+							"Reduce web font size": "https://web.dev/articles/reduce-webfont-size",
 							"[RGESN] (French) 4.10 - System Fonts": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.10/",
 							"The performance cost of custom web fonts, and how to solve it": "https://www.wholegraindigital.com/blog/performant-web-fonts/",
 							"Use standard typefaces": "http://www.ecometer.org/rules/use-standard-typefaces.html",
@@ -1178,8 +1221,9 @@
 				},
 				{
 					"id": "19",
+					"url": "https://w3c.github.io/sustyweb/#provide-suitable-alternatives-to-web-assets",
 					"guideline": "Provide Suitable Alternatives to Web Assets",
-					"description": "Media, images, fonts, and documents enrich the Internet. The problem is that people may not want to watch a video, listen to an audio file, look at an image, or use a specific application. By providing alternative formats to anything you embed, you ensure the widest possible audience can benefit from it (and reduced carbon output will occur as alternative text uses far less data than its rich media alternative).",
+					"description": "Media, images, fonts, and documents enrich the Internet. The problem is that people may not want to watch a video, listen to an audio file, look at an image, or use a specific application. By providing alternative formats to anything you embed, you ensure the widest possible audience can benefit from it (and reduced carbon output will occur as alternative text will induce less consumer hardware thrashing than its rich media alternative).",
 					"criteria": [
 						{
 							"title": "Open Formats",
@@ -1206,7 +1250,7 @@
 					"effort": "Medium",
 					"benefits": [
 						{
-							"Environmental": "Offering low-energy alternatives to media formats reduces the amount of bandwidth required for visitors to find the information they require.",
+							"Environmental": "Offering low-impact alternatives to media formats reduces the amount of battery draining hardware processing required for visitors to find the information they require.",
 							"Social Equity": "Not every visitor will be in a situation where they can watch a video or listen to audio; therefore it makes sense to have a plaintext alternative.",
 							"Accessibility": "Certain accessibility issues can prevent media from being consumed, as such it's important to offer different ways of viewing a site's content.",
 							"Performance": "Reducing the interactivity of a website doesn't mean a lesser experience, it can help visitors access what they need quicker.",
@@ -1237,7 +1281,7 @@
 							"Digital Eco-Design: Downloadable documents": "https://eco-conception.designersethiques.org/guide/en/content/5-8-downloadable-documents.html",
 							"Digital Eco-Design: Fonts": "https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html",
 							"Digital Eco-Design: Video and sound": "https://eco-conception.designersethiques.org/guide/en/content/5-2-video.html",
-							"Fast Load Times: Optimize WebFonts": "https://web.dev/fast/#optimize-webfonts",
+							"Fast Load Times: Optimize WebFonts": "https://web.dev/explore/fast#optimize-webfonts",
 							"[GR491] 2-4012 - Image Alternatives": "https://gr491.isit-europe.org/en/crit.php?id=2-4012-contents-accessibility-assistants-must-be-able-to-use",
 							"[GR491] 3-4034 - Audio Alternatives": "https://gr491.isit-europe.org/en/crit.php?id=3-4034-contents-access-to-sound-is-difficult-if-not",
 							"[GR491] 9-5064 - Image Text Replacement": "https://gr491.isit-europe.org/en/crit.php?id=9-5064-frontend-accessibility-assistants-must-be-able-to-use",
@@ -1259,6 +1303,7 @@
 				},
 				{
 					"id": "20",
+					"url": "https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms",
 					"guideline": "Provide Accessible, Usable, Minimal Web Forms",
 					"description": "It's understandable that businesses want to know more about their customers, but a key part of sustainability is being ethical towards visitors and as such, the right to privacy is considered paramount. Don't demand information when it's not required and not only will this help visitors complete transactions quicker (reducing emissions), it will help with legal compliance such as GDPR.",
 					"criteria": [
@@ -1315,6 +1360,7 @@
 				},
 				{
 					"id": "21",
+					"url": "https://w3c.github.io/sustyweb/#support-non-graphic-ways-to-interact-with-content",
 					"guideline": "Support Non-Graphic Ways To Interact With Content",
 					"description": "Certain visitors such as those with visual disabilities or speech agents (like Amazon Alexa) may rely on an experience without the graphical part of an interface. As such, they potentially may use less data or may have a different carbon impact on the Web.",
 					"criteria": [
@@ -1359,7 +1405,8 @@
 				},
 				{
 					"id": "22",
-					"guideline": "Give Useful Notifications To Improve The Visitor's Journey",
+					"url": "https://w3c.github.io/sustyweb/#give-useful-notifications-to-improve-the-visitor-s-journey",
+					"guideline": "Provide Useful Notifications To Improve The Visitor's Journey",
 					"description": "Notifications whether through the browser or messaging can be potentially useful, but only used in moderation. Spam and the lack of control are contributing sources of Internet emissions and as such, businesses should aim to reduce such actions.",
 					"criteria": [
 						{
@@ -1401,6 +1448,7 @@
 					"resources": [
 						{
 							"Biased By Design": "https://biasedbydesign.com/",
+							"Carbon Footprint of Email Spam Report (PDF)": "https://twosidesna.org/wp-content/uploads/sites/16/2018/05/McAfee_and_ICF_The_Carbon_Footprint_of_Email_Spam_Report_2009.pdf",
 							"Creating Error Messages": "https://uxdesign.cc/creating-error-messages-best-practice-in-ux-design-cda3be0f5e16",
 							"Designing Better Error Messages UX": "https://www.smashingmagazine.com/2022/08/error-messages-ux-design/",
 							"Digital Eco-Design: Interactions": "https://eco-conception.designersethiques.org/guide/en/content/5-7-interaction.html",
@@ -1412,7 +1460,6 @@
 							"GreenIT (French) 111 - Limiter la taille des e-mails envoyés": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_111_fr.md",
 							"How To Design Notifications For Better UX": "https://uxplanet.org/how-to-design-notifications-for-better-ux-6fb0711be54d",
 							"Humane By Design": "https://humanebydesign.com/principles",
-							"Le cas des notifications (PDF) (French)": "https://attention.designersethiques.org/documents/2020-memoire-leopoldine-mennessier.pdf",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
 							"Privacy UX: Better Notifications And Permission Requests": "https://www.smashingmagazine.com/2019/04/privacy-better-notifications-ux-permission-requests/",
 							"[RGESN] (French) 4.17 - Notification Necessity": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.17/",
@@ -1423,6 +1470,7 @@
 				},
 				{
 					"id": "23",
+					"url": "https://w3c.github.io/sustyweb/#reduce-the-impact-of-downloadable-or-physical-documents",
 					"guideline": "Reduce the Impact of Downloadable or Physical Documents",
 					"description": "Printing or downloading documents can both be a net benefit and a net cost in terms of sustainability as it can reduce repeat requests to websites, but the act of printing (especially when unoptimized) wastes valuable ink and paper.",
 					"criteria": [
@@ -1435,6 +1483,10 @@
 							"description": "Offer optimized, compressed documents in a variety of accessible file formats."
 						},
 						{
+							"title": "Optimize Delivery",
+							"description": "If a document is likely to be re-used, generate the document once on the server-side (preferably on a cookie-free domain) rather than forcing the effort to be duplicated."
+						},
+						{
 							"title": "Labels And Choice",
 							"description": "Clearly display the document name, a summary, the file size, and the format, allowing the visitor a choice if possible of both the format, and the language (if not the same as the web page). Furthermore, be sure to avoid embedding the document within Web pages (provide a direct link to download or view within the browser instead)."
 						}
@@ -1445,7 +1497,7 @@
 						{
 							"Environmental": "Reducing the need to print documents or by providing a printing StyleSheet will remove the emissions from wasted paper and ink.",
 							"Accessibility": "Providing a range of inclusively designed downloadable documents in a variety of formats which the visitor can choose between can benefit those with accessibility needs as they can choose the best fitting download for their device.",
-							"Performance": "Compressing or otherwise optimizing documents improves performance, which will remove emissions from potentially wasted data traffic."
+							"Performance": "Compressing or otherwise optimizing documents will allow them to be downloaded faster by the consumer, which helps visitors avoid having to wait to view uniquely formatted offline files."
 						}
 					],
 					"GRI": [
@@ -1495,6 +1547,7 @@
 				},
 				{
 					"id": "24",
+					"url": "https://w3c.github.io/sustyweb/#create-a-stakeholder-focused-testing-prototyping-policy",
 					"guideline": "Create a Stakeholder-Focused Testing & Prototyping Policy",
 					"description": "The organization has policies and practices in place to incorporate stakeholder-focused testing and prototyping into its product development cycles.",
 					"criteria": [
@@ -1558,13 +1611,14 @@
 							"Web Accessibility": "https://www.udacity.com/course/web-accessibility--ud891",
 							"Web Accessibility Checklist": "https://www.webaccessibilitychecklist.com/",
 							"Website Accessibility: 25 Statistics that Prove It Matters": "https://blog.hubspot.com/website/accessibility-statistics",
-							"Why does speed matter?": "https://web.dev/why-speed-matters/"
+							"Why does speed matter?": "https://web.dev/learn/performance/why-speed-matters"
 						}
 					],
 					"tags": ["Social Equity", "Accessibility", "UI", "Ideation", "Research", "Education", "Usability", "Governance"]
 				},
 				{
 					"id": "25",
+					"url": "https://w3c.github.io/sustyweb/#conduct-regular-audits-regression-and-non-regression-tests",
 					"guideline": "Conduct Regular Audits, Regression, and Non-Regression Tests",
 					"description": "Products and services at any stage of a project can suffer bugs or issues which need to be resolved. Fixing these regressions also generates additional development and environmental costs. By resolving such issues, you can reduce the chances of a visitor giving up on a session and thereby reduce the amount of wasted energy your website emits overall.",
 					"criteria": [
@@ -1615,27 +1669,32 @@
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
 							"Inclusive Design Principles": "https://inclusivedesignprinciples.org/",
 							"Learn Accessibility": "https://web.dev/learn/accessibility/",
-							"Measuring Web Performance in 2023: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance",
+							"Learn Performance": "https://web.dev/learn/performance",
+							"Measure & Improve Your Site's Footprint with Carbon Control from Catchpoint WebPageTest": "https://blog.webpagetest.org/posts/carbon-control/",
+							"Measuring Web Performance in 2023: The Definitive Guide": "https://requestmetrics.github.io/web-performance/measure-web-performance/",
 							"OWASP Web Application Security Testing Checklist": "https://github.com/0xRadi/OWASP-Web-Checklist",
+							"Power profiling with the Firefox Profiler": "https://archive.fosdem.org/2023/schedule/event/energy_power_profiling_firefox/",
 							"Regression testing": "https://en.wikipedia.org/wiki/Regression_testing",
 							"Regression Testing: A Detailed Guide": "https://www.browserstack.com/guide/regression-testing",
 							"Software and Data Integrity Failures": "https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/",
 							"Software regression testing": "https://www.rainforestqa.com/blog/software-regression-testing",
 							"The Basics of Web Application Security": "https://martinfowler.com/articles/web-security-basics.html",
-							"The Simple and Complete Guide on Non-Regression Testing": "https://www.testgrid.io/blog/non-regression-testing/",
+							"The Simple and Complete Guide on Non-Regression Testing": "https://testgrid.io/blog/non-regression-testing/",
 							"Top 10 Web Application Security Risks": "https://owasp.org/www-project-top-ten/",
 							"W3C Web Content Accessibility Guidelines": "https://www.w3.org/TR/WCAG22/",
 							"Web performance": "https://developer.mozilla.org/en-US/docs/Web/Performance",
 							"Web security": "https://developer.mozilla.org/en-US/docs/Web/Security",
-							"Why does speed matter?": "https://web.dev/why-speed-matters/"
+							"WebPageTest": "https://www.webpagetest.org/",
+							"Why does speed matter?": "https://web.dev/learn/performance/why-speed-matters"
 						}
 					],
 					"tags": ["Social Equity", "Accessibility", "UI", "Research", "Usability", "Compatibility", "Performance", "Security", "Privacy", "Reporting", "KPIs"]
 				},
 				{
 					"id": "26",
+					"url": "https://w3c.github.io/sustyweb/#analyze-the-performance-of-the-visitor-journey",
 					"guideline": "Analyze the Performance of the Visitor Journey",
-					"description": "Try to ethically measure how efficient a visitor's experience is, by doing so you might be able to reduce any issues they may have encountered previously and reduce the energy burden of loading unnecessary pages.",
+					"description": "Try to ethically measure how efficient a visitor's experience is, by doing so you might be able to reduce any issues they may have encountered previously and reduce the burden of loading unnecessary pages.",
 					"criteria": [
 						{
 							"title": "Measurement And Compliance",
@@ -1646,7 +1705,7 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Reduced data transfer can correlate to reduced energy use and emissions, as server resources will be conserved.",
+							"Environmental": "Alongside the device longevity which inherently comes with having a performant product or service, it can also help you meet the social aspect of ESG targets.",
 							"Performance": "Faster pages that load less data improve performance, as there will be less for rendering engines within browsers to process. Additionally, as the pages are smaller, they will reach the visitor quicker based on their connection speed.",
 							"Economic": "Less data stored and transferred also reduces costs for those hosting content and those who own websites and applications.",
 							"Conversion": "Page load speed can measurably improve conversion rates, as visitors will be less likely to abandon a product or service if the content appears instantaneously."
@@ -1663,7 +1722,7 @@
 					"example": [
 						{
 							"code": "<link rel=\"prefetch\" href=\"\/articles\/\" as=\"document\">",
-							"content": "[Prefetch resources to speed up future navigations](https://web.dev/link-prefetch/)."
+							"content": "[Prefetch resources to speed up future navigations](https://web.dev/articles/link-prefetch)."
 						}
 					],
 					"resources": [
@@ -1676,6 +1735,7 @@
 				},
 				{
 					"id": "27",
+					"url": "https://w3c.github.io/sustyweb/#incorporate-value-testing-into-each-major-release-cycle",
 					"guideline": "Incorporate Value Testing Into Each Major Release-Cycle",
 					"description": "Occasionally, you may find that features you have developed for a product or service have little to no active users or could be better implemented to bring better value. Undertaking research to identify redundancy allows you to optimize your codebase (and reduce emissions).",
 					"criteria": [
@@ -1721,6 +1781,7 @@
 				},
 				{
 					"id": "28",
+					"url": "https://w3c.github.io/sustyweb/#incorporate-usability-testing-into-each-minor-release-cycle",
 					"guideline": "Incorporate Usability Testing Into Each Minor Release-Cycle",
 					"description": "Researching a product or service and how it is used over time allows you to iterate and ensure the features and functionality being offered match how user-needs change over time. Doing so will help you reduce code redundancy further and reduce emissions through optimization.",
 					"criteria": [
@@ -1769,6 +1830,7 @@
 				},
 				{
 					"id": "29",
+					"url": "https://w3c.github.io/sustyweb/#incorporate-compatibility-testing-into-each-release-cycle",
 					"guideline": "Incorporate Compatibility Testing Into Each Release-Cycle",
 					"description": "Compatibility is a critical part of the sustainability mindset and should be prioritized through all products and services. If individuals wish to use older devices (or cannot upgrade due to cost), or do not wish to upgrade as frequently, it will reduce the amount of e-waste which enters the system. If something doesn't work, it's also likely to result in visitors suffering a wasted effort or are refused access to your service (and thereby emitting further emissions).",
 					"criteria": [
@@ -1789,7 +1851,7 @@
 							"description": "Prototype your interfaces using mobile-first methods to ensure progressive enhancement, content prioritization, and improved accessibility."
 						},
 						{
-							"title": "Progressive Web Application's (PWA)'s",
+							"title": "Progressive Web Applications (PWAs)",
 							"description": "Consider whether a PWA will be more sustainable and compatible over a native mobile application."
 						}
 					],
@@ -1825,6 +1887,7 @@
 							"BrowserStack": "https://www.browserstack.com/live",
 							"Building a resilient frontend using progressive enhancement": "https://www.gov.uk/service-manual/technology/using-progressive-enhancement",
 							"Can I Stop?": "https://canistop.net/",
+							"Climate-friendly software: don't fight the wrong battle": "https://blog.ltgt.net/climate-friendly-software/",
 							"Digital Eco-Design: Concevoir en \"mobile first\" (French)": "https://eco-conception.designersethiques.org/guide/fr/content/4-mobile-first.html",
 							"Digital Eco-Design: Start with mobile first design": "https://eco-conception.designersethiques.org/guide/en/content/4-mobile-first.html",
 							"Digital Eco-Design: Test, assess and maintain": "https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html",
@@ -1846,6 +1909,7 @@
 							"Mobile-specific Best Practices": "https://github.com/cnumr/best-practices-mobile",
 							"Network Throttling in Chrome DevTools": "https://www.debugbear.com/blog/chrome-devtools-network-throttling",
 							"Planet Centric Design": "https://planetcentricdesign.com/",
+							"Quel design pour un navigateur low-tech? (French)": "https://graphism.fr/quel-design-pour-un-navigateur-low-tech/",
 							"[RGESN] (French) 1.5 - Device Support": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.5/",
 							"[RGESN] (French) 1.6 - Device Compatibility": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.6/",
 							"[RGESN] (French) 1.7 - Interoperability": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.7/",
@@ -1857,7 +1921,7 @@
 							"The state of the art in measurement-based experiments on the mobile web": "https://www.sciencedirect.com/science/article/pii/S095058492200091X",
 							"Using UX Design to Build a Sustainable Future": "https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
-							"Web Vitals": "https://web.dev/vitals/",
+							"Web Vitals": "https://web.dev/articles/vitals",
 							"What is resilience?": "https://www.stockholmresilience.org/research/research-news/2015-02-19-what-is-resilience.html"
 						}
 					],
@@ -1868,9 +1932,11 @@
 		{
 			"id": "3",
 			"name": "Web Development",
+			"shortName": "Web Development",
 			"guidelines": [
 				{
 					"id": "1",
+					"url": "https://w3c.github.io/sustyweb/#identify-relevant-technical-indicators",
 					"guideline": "Identify Relevant Technical Indicators",
 					"description": "Performance is a key part of the sustainability mindset as reductions in loading times can have a considerable impact on energy loads within CPU, GPU, RAM and hard drive caching (among other variables), as such ensuring a performant product is essential.",
 					"criteria": [
@@ -1883,7 +1949,7 @@
 					"effort": "Medium",
 					"benefits": [
 						{
-							"Environmental": "Limiting the number of server requests, the size of the DOM, and page size decreases a product or service's environmental impact by reducing CPU and GPU cycles, RAM usage and data transfer which benefits energy consumption, reducing the need to recharge devices as frequently.",
+							"Environmental": "Limiting the number of server requests and the size of the DOM decreases a product or service's environmental impact by reducing CPU and GPU cycles, and RAM usage which benefits energy consumption, reducing the need to recharge devices as frequently.",
 							"Performance": "Reducing the hardware utilization as denoted above will also improve performance metrics, as a device will suffer less consumption and thrashing of limited resources.",
 							"Conversion": "Search engines consider web performance in their ranking data, as such a faster website may lead to a higher rank and potentially better conversion rates."
 						}
@@ -1903,8 +1969,17 @@
 					],
 					"resources": [
 						{
+							"Does not compute: Avoiding pitfalls assessing the Internet's energy and carbon impacts": "https://www.cell.com/joule/fulltext/S2542-4351(21)00211-7",
+							"Electronics Goes Green (PDF)": "https://online.electronicsgoesgreen.org/wp-content/uploads/2020/10/Proceedings_EGG2020_v2.pdf",
 							"Equations relating total annual energy consumption and chips energy efficiency": "https://www.researchgate.net/publication/371938289_Equations_relating_total_annual_energy_consumption_and_chips_energy_efficiency",
+							"Fast load times": "https://web.dev/explore/fast",
 							"[GR491] 3-7043 - Client / Server Requests": "https://gr491.isit-europe.org/en/crit.php?id=3-7043-backend-the-operations-carried-out-on-the-front",
+							"Graphics Card Power Consumption and Efficiency Tested": "https://www.tomshardware.com/features/graphics-card-power-consumption-tested",
+							"How Improving Website Performance Can Help Save The Planet": "https://www.smashingmagazine.com/2019/01/save-planet-improving-website-performance/",
+							"How Much Power Does Memory Use?": "https://www.crucial.com/support/articles-faq-memory/how-much-power-does-memory-use",
+							"Mac Pro power consumption and thermal output (BTU/h) information": "https://support.apple.com/en-us/HT201796",
+							"Power Consumption of PC Components in Watts": "https://www.buildcomputers.net/power-consumption-of-pc-components.html",
+							"Rethinking Allocation in High-Baseload Systems (PDF)": "https://research-information.bris.ac.uk/ws/portalfiles/portal/348324297/Schien_rethinking_allocation.pdf",
 							"[RGESN] (French) 1.1 - Impact Evaluation": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.1/",
 							"[RGESN] (French) 6.2 - Request Limits": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.2/",
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
@@ -1916,6 +1991,7 @@
 				},
 				{
 					"id": "2",
+					"url": "https://w3c.github.io/sustyweb/#minify-your-html-css-and-javascript",
 					"guideline": "Minify Your HTML, CSS, and JavaScript",
 					"description": "Whitespace holds no value when it's being presented to the visitor (unless they view the source code), by using minification, valuable data savings can be made which will reduce loading times.",
 					"criteria": [
@@ -1928,9 +2004,8 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Limit bandwidth consumption.",
-							"Performance": "Reduce loading time.",
-							"Conversion": "Improved by reducing loading time."
+							"Performance": "Reduced loading times as a result of less data being transferred. Though this does not inherently have an ecological benefit as whitespace is ignored by rendering engines, it does help meet sustainability targets with visitor-based improvements in terms of loading times.",
+							"Conversion": "When a page loads quickly, visitors are less likely to abandon their journey or search for their information elsewhere."
 						}
 					],
 					"GRI": [
@@ -1952,8 +2027,8 @@
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
 							"Lighthouse: Minify JavaScript": "https://gtmetrix.com/minify-javascript.html",
 							"Minification": "https://developer.mozilla.org/en-US/docs/Glossary/Minification",
-							"Minify and compress network payloads": "https://web.dev/reduce-network-payloads-using-text-compression/",
-							"Optimizing Encoding and Transfer Size of Text-Based Assets": "https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/",
+							"Minify and compress network payloads": "https://web.dev/articles/reduce-network-payloads-using-text-compression",
+							"Optimizing Encoding and Transfer Size of Text-Based Assets": "https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability"
 						}
 					],
@@ -1961,6 +2036,7 @@
 				},
 				{
 					"id": "3",
+					"url": "https://w3c.github.io/sustyweb/#use-code-splitting-within-projects",
 					"guideline": "Use Code-Splitting Within Projects",
 					"description": "When dealing with heavy components (such as JavaScript), the ability to modularize them into smaller pieces which can be loaded as and when required reduces the amount of redundancy and serves as a great way to make your scripts more sustainable.",
 					"criteria": [
@@ -1973,8 +2049,7 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Having smaller (modular) components allows for more optimized caching and loading only what code functions are required (which reduces the payload).",
-							"Performance": "Unused portions of a resource remain un-downloaded (potentially huge savings).",
+							"Performance": "Having smaller (modular) components allows for more optimized caching and loading only what code functions are required (which reduces the payload). Unused portions of a resource remain un-downloaded (potentially huge savings).",
 							"Economic": "Reducing the size of large files will result in lower bandwidth bills for service providers.",
 							"Conversion": "A faster website reduces the chance of abandonment (which is especially of concern for visitors of handheld devices)."
 						}
@@ -2007,6 +2082,7 @@
 				},
 				{
 					"id": "4",
+					"url": "https://w3c.github.io/sustyweb/#apply-tree-shaking-to-code",
 					"guideline": "Apply Tree Shaking To Code",
 					"description": "Often when coding, projects can accumulate clutter and functions which are no longer used (due to newer, more effective features being developed). By utilizing tree shaking techniques, all the \"dead wood\" will be automatically dropped upon compilation, reducing a file's size.",
 					"criteria": [
@@ -2019,7 +2095,7 @@
 					"effort": "Medium",
 					"benefits": [
 						{
-							"Environmental": "Removal of unused code eliminates wasted bytes from the rendering tree, which means less wasted download and potential processing time.",
+							"Environmental": "Removal of unused code eliminates wasted bytes from the rendering tree, which means less wasted download and potential processing time (which can be a battery draining process).",
 							"Performance": "Unused code will not impact visitors, yet it takes up space in the cache, RAM, and takes extra time to download and render. Clearing wasted space frees' visitor resources.",
 							"Economic": "Unused code has a maintenance cost as it might affect other code, additionally, it's something else for developers to have to deal with unnecessarily."
 						}
@@ -2043,8 +2119,8 @@
 							"Browser Default Styles": "https://browserdefaultstyles.com/",
 							"Coverage: Find unused JavaScript and CSS": "https://developer.chrome.com/docs/devtools/coverage/",
 							"Front-End Performance 2021: Build Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-build-optimizations/",
-							"How large DOM sizes affect interactivity": "https://web.dev/dom-size-and-interactivity/",
-							"Reduce JavaScript payloads with tree shaking": "https://web.dev/reduce-javascript-payloads-with-tree-shaking/",
+							"How large DOM sizes affect interactivity": "https://web.dev/articles/dom-size-and-interactivity",
+							"Reduce JavaScript payloads with tree shaking": "https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking",
 							"Remove unused CSS": "https://developer.chrome.com/en/docs/lighthouse/performance/unused-css-rules/",
 							"The cost of not deleting code": "https://www.asystad.net/the-cost-of-not-deleting-code/",
 							"Tree shaking": "https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking",
@@ -2057,6 +2133,7 @@
 				},
 				{
 					"id": "5",
+					"url": "https://w3c.github.io/sustyweb/#ensure-your-solutions-are-accessible",
 					"guideline": "Ensure Your Solutions Are Accessible",
 					"description": "Not everyone can access services equally, being sustainable is also about being accessible, fair, ethical, and ensuring that your product or service doesn't discriminate. As such, ensuring your website complies with best-practices and relevant laws whilst meeting the needs of your visitors is critical as well as good business.",
 					"criteria": [
@@ -2071,10 +2148,6 @@
 						{
 							"title": "Electronic Inequalities",
 							"description": "Deploy solutions which fight against electronic inequalities in products and services."
-						},
-						{
-							"title": "Carbon Aware Design",
-							"description": "To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques."
 						}
 					],
 					"impact": "High",
@@ -2105,25 +2178,27 @@
 					],
 					"resources": [
 						{
+							"A11y Project Checklist": "https://www.a11yproject.com/checklist/",
 							"Access Guide": "https://www.accessguide.io/",
 							"Accessibility": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
 							"Accessibility and web performance are not features, they're the baseline": "https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline/",
 							"Accessibility Support": "https://a11ysupport.io/",
 							"Accessible Rich Internet Applications": "https://www.w3.org/TR/wai-aria-1.2/",
-							"Carbon-Aware vs. Carbon-Efficient Applications": "https://devblogs.microsoft.com/sustainable-software/carbon-aware-vs-carbon-efficient-applications/",
-							"Design for Carbon-Aware Digital Experiences": "https://branch.climateaction.tech/issues/issue-1/design-for-carbon-aware-digital-experiences/",
 							"Disability and Health": "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
 							"[GR491] 3-3018 - Electronicism": "https://gr491.isit-europe.org/en/crit.php?id=3-3018-uxui-diminishing-inequalities-of-access-to-digital-service",
 							"[GR491] 3-3019 - The Digital Gap": "https://gr491.isit-europe.org/en/crit.php?id=3-3019-uxui-dealing-with-cases-of-digital-exclusion-is",
+							"How Web Content Accessibility Guidelines Improve Digital Products": "https://www.mightybytes.com/blog/web-content-accessibility-guidelines/",
 							"IBM Design For Sustainability (PDF)": "https://www.ibm.com/design/practices/design-for-sustainability/",
+							"Internet access, sustainability, and citizen participation": "https://www.opendemocracy.net/en/internet-access-sustainability-and-citizen-participation-electricity-as-prerequisite/",
 							"Internet Speeds by Country 2023": "https://worldpopulationreview.com/country-rankings/internet-speeds-by-country",
 							"Introduction to Web Accessibility": "https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility",
-							"How Web Content Accessibility Guidelines Improve Digital Products": "https://www.mightybytes.com/blog/web-content-accessibility-guidelines/",
 							"Learn Accessibility": "https://web.dev/learn/accessibility/",
 							"List of sovereign states by Internet connection speeds": "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_Internet_connection_speeds",
 							"Making Content Usable for People with Cognitive and Learning Disabilities": "https://www.w3.org/TR/coga-usable/",
 							"Performance Is Accessibility": "https://hookedoncode.com/2020/07/performance-is-accessibility/",
 							"The Little Book of Accessibility": "https://uxdesign.cc/the-little-book-of-accessibility-a9b59d82b412",
+							"The Mobile Performance Inequality Gap, 2021": "https://infrequently.org/2021/03/the-performance-inequality-gap/",
+							"The Performance Inequality Gap, 2023": "https://infrequently.org/2022/12/performance-baseline-2023/",
 							"This Is WCAG": "https://thisiswcag.com/",
 							"W3C Web Content Accessibility Guidelines": "https://www.w3.org/TR/WCAG22/",
 							"Web Accessibility": "https://www.udacity.com/course/web-accessibility--ud891",
@@ -2134,6 +2209,7 @@
 				},
 				{
 					"id": "6",
+					"url": "https://w3c.github.io/sustyweb/#avoid-code-duplication",
 					"guideline": "Avoid Code Duplication",
 					"description": "Redundancy is the enemy of sustainability. Having systems in place to ensure that everyone can work from established patterns, the website or application remains clean and easy to use, and iteration over redesign is firmly in the mindset that will help promote sustainable practices. It's also worth being wary of abstracting code too early (see AHA methodology) or incorrectly, as while good abstractions can be more efficient, poor ones can waste effort and introduce complexity, bloat, and bugs to your codebase which can lead to emissions.",
 					"criteria": [
@@ -2191,11 +2267,12 @@
 				},
 				{
 					"id": "7",
+					"url": "https://w3c.github.io/sustyweb/#rigorously-assess-third-party-services",
 					"guideline": "Rigorously Assess Third-Party Services",
 					"description": "Whether advertising, chatbots, maps, or other tooling; outsourcing your service to a third-party provider may be potentially useful in certain scenarios in reducing design or development time and redundancy (which can be a win for sustainability). Third-party services, however, come with issues, such as the lack of control over emissions, and they often can potentially suffer from latency and large file sizes which may not exist if you self-hosted or created the material.",
 					"criteria": [
 						{
-							"title": "Assess Third-parties",
+							"title": "Assess Third-Parties",
 							"description": "Assess third-party services (including plugins, widgets, feeds, maps, carousels, etc) as early in the ideation or creation process as possible and use as few as possible to reduce the product or service's overall ecological impact, including Scope 3 emissions."
 						},
 						{
@@ -2220,7 +2297,7 @@
 					"benefits": [
 						{
 							"Environmental": "Replacing heavy tooling and third-party services with lightweight tooling reduces visitor bandwidth usage considerably, despite having to learn a new way of doing things or reducing the visibility of such information. It can significantly reduce a page's (and data you have no control over) environmental impact, especially when it comes to Scope 3 emissions.",
-							"Privacy": "Visitor's not interested in embedded content may identify the lack of third-party tracking as a privacy benefit, as there are fewer chances that visitor data is exploited.",
+							"Privacy": "Visitor's not interested in embedded content may identify the lack of third-party tracking (such as embedded pixels and tags) as a privacy benefit, as there are fewer chances that visitor data is exploited.",
 							"Accessibility": "As part of rigorous quality control efforts, reducing third-party services can potentially improve accessibility by replacing it with accessible by-default alternatives using built-in custom syntax that meets visitor requirements.",
 							"Performance": "Self-made widgets and controls work much faster than third-party content as you don't have to perform additional server requests, rendering requests, and such. You only include what features you require, and this reduces the overall size of the bandwidth usage (and emissions produced)."
 						}
@@ -2236,15 +2313,18 @@
 					"example": [
 						{
 							"code": "<iframe src=\"https:\/\/example.com\" loading=\"lazy\" width=\"600\" height=\"400\"><\/iframe>",
-							"content": "[It's time to lazy-load offscreen iframes](https://web.dev/iframe-lazy-loading/)."
+							"content": "[It's time to lazy-load offscreen iframes](https://web.dev/articles/iframe-lazy-loading)."
 						}
 					],
 					"resources": [
 						{
+							"AdGreen": "https://weareadgreen.org/",
+							"Building for sustainability with WordPress": "https://sustywp.com/",
+							"Cookies, Pixels, and Tags": "https://www.osano.com/articles/privacy-cookies-pixels-and-tags",
 							"Digital Eco-Design: Plugins and widgets": "https://eco-conception.designersethiques.org/guide/en/content/5-5-widget.html",
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
 							"Environmental impact assessment of online advertising": "https://www.sciencedirect.com/science/article/pii/S0195925517303505",
-							"Fast Load Times: Optimize your third-party resources": "https://web.dev/fast/#optimize-your-third-party-resources",
+							"Fast Load Times: Optimize your third-party resources": "https://web.dev/explore/fast#optimize-your-third-party-resources",
 							"Front-End Performance 2021: Defining The Environment": "https://www.smashingmagazine.com/2021/01/front-end-performance-defining-the-environment/",
 							"[GR491] 5-3036 - Necessary Analytics": "https://gr491.isit-europe.org/en/crit.php?id=5-3036-uxui-the-analytics-data-collect-is-installed-in",
 							"[GR491] 6-3045 - Third-party Solutions": "https://gr491.isit-europe.org/en/crit.php?id=6-3045-uxui-third-party-solutions-may-provide-value-to",
@@ -2252,9 +2332,12 @@
 							"GreenIT (French) 019 - Remplacer les boutons officiels de partage des réseaux sociaux": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_019_fr.md",
 							"GreenIT (French) 4030 - Limiter le recours aux carrousels": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_4030_fr.md",
 							"How efficient code increases sustainability in the enterprise": "https://venturebeat.com/programming-development/how-efficient-code-increases-sustainability-in-the-enterprise/",
-							"How large DOM sizes affect interactivity": "https://web.dev/dom-size-and-interactivity/",
+							"How large DOM sizes affect interactivity": "https://web.dev/articles/dom-size-and-interactivity",
+							"How tracking pixels work": "https://jvns.ca/blog/how-tracking-pixels-work/",
 							"Lighthouse: Lazy load third-party resources with facades": "https://gtmetrix.com/lazy-load-third-party-resources-with-facades.html",
 							"MicroJS": "http://microjs.com/",
+							"Measuring energy consumption of cross-platform frameworks for mobile applications (PDF)": "https://www.math.unipd.it/~gaggi/doc/webistext15.pdf",
+							"Reducing The Web's Carbon Footprint: Optimizing Social Media Embeds": "https://www.smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/",
 							"[RGESN] (French) 2.5 - Third-party Services": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/2.5/",
 							"[RGESN] (French) 4.5 - Service Activation": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.5/",
 							"[RGESN] (French) 4.7 - Information Content": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.7/",
@@ -2264,8 +2347,11 @@
 							"Sustainable Web Design": "https://alistapart.com/article/sustainable-web-design/",
 							"The Cost of Javascript Frameworks": "https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/",
 							"The User Experience of Chatbots": "https://www.nngroup.com/articles/chatbots/",
+							"Tracking pixel security": "https://jscrambler.com/blog/tracking-pixel-security",
 							"Use as few plugins as possible": "http://www.ecometer.org/rules/limit-plugins.html",
 							"Web Video Text Tracks Format": "https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API",
+							"What could the sustainability initiative do for WordPress?": "https://oursustainablewp.org/",
+							"What is a tracking pixel, and how does it work?": "https://nordvpn.com/blog/what-is-a-tracking-pixel/",
 							"You Might Not Need": "https://youmightnotneed.com/"
 						}
 					],
@@ -2273,6 +2359,7 @@
 				},
 				{
 					"id": "8",
+					"url": "https://w3c.github.io/sustyweb/#use-html-elements-correctly",
 					"guideline": "Use HTML Elements Correctly",
 					"description": "HTML semantics are important. They don't just play a key role in making the Web look the way it does, they have a function in accessibility, in SEO, and even in sustainability. Ensuring that you markup your content correctly and avoid cluttering your markup wastefully will reduce emissions.",
 					"criteria": [
@@ -2347,6 +2434,7 @@
 				},
 				{
 					"id": "9",
+					"url": "https://w3c.github.io/sustyweb/#resolve-render-blocking-content",
 					"guideline": "Resolve Render Blocking Content",
 					"description": "The ability to work around render-blocking issues is a great addition to the web. From deferring code, to lazy loading, to asynchronous loading, each has its own use-case and each can have the potential to reduce or give performance benefits to a website or application.",
 					"criteria": [
@@ -2363,7 +2451,7 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Lazy loading videos and images ensures that they are only requested once the visitor needs them (not demanded even if they aren't viewed), thus saving bandwidth.",
+							"Environmental": "Lazy loading videos and images ensures that they are only requested once the visitor needs them (not demanded even if they aren't viewed). This saves processing power which can help older devices or those with less battery capacity access your websites and applications barrier-free.",
 							"Performance": "Letting text render first makes your website feel like it's loading faster (as the remainder will appear in the background or on-demand).",
 							"Economic": "Unused content will not contribute to your server's bandwidth bills."
 						}
@@ -2379,17 +2467,18 @@
 					"example": [
 						{
 							"code": "<img src=\"image.png\" loading=\"lazy\" alt=\"\u2026\" width=\"200\" height=\"200\">",
-							"content": "[Browser-level image lazy loading for the web](https://web.dev/browser-level-image-lazy-loading/)."
+							"content": "[Browser-level image lazy loading for the web](https://web.dev/articles/browser-level-image-lazy-loading)."
 						}
 					],
 					"resources": [
 						{
 							"CSS performance optimization": "https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS",
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
-							"Fast Load Times: Lazy-load images and video": "https://web.dev/fast/#lazy-load-images-and-video",
-							"Fast Load Times: Optimize your resource delivery": "https://web.dev/fast/#optimize-your-resource-delivery",
+							"Fast Load Times: Lazy-load images and video": "https://web.dev/explore/fast#lazy-load-images-and-video",
+							"Fast Load Times: Optimize your resource delivery": "https://web.dev/explore/fast#optimize-your-resource-delivery",
 							"Flash of unstyled content": "https://en.wikipedia.org/wiki/Flash_of_unstyled_content",
 							"Front-End Performance 2021: Delivery Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-delivery-optimizations/",
+							"Islands Architecture": "https://www.patterns.dev/vanilla/islands-architecture",
 							"Lazy loading": "https://en.wikipedia.org/wiki/Lazy_loading",
 							"Lazy loading (Performance)": "https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading",
 							"On the Impact of the Critical CSS Technique on the Performance and Energy Consumption of Mobile Browsers (PDF)": "https://www.ivanomalavolta.com/files/papers/EASE_2022_critical_css.pdf",
@@ -2401,6 +2490,7 @@
 				},
 				{
 					"id": "10",
+					"url": "https://w3c.github.io/sustyweb/#provide-code-based-way-finding-mechanisms",
 					"guideline": "Provide Code-Based Way-Finding Mechanisms",
 					"description": "Helping visitors avoid wasting their time can reduce the number of emissions from time spent in front of a screen. As such, by using existing technologies like metadata, robots files, and accessibility-friendly aids within the page, improvements to the experience can be made.",
 					"criteria": [
@@ -2470,8 +2560,9 @@
 				},
 				{
 					"id": "11",
+					"url": "https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input",
 					"guideline": "Validate Form Errors and External Input",
-					"description": "Entering information on a page can lead to problems. If a visitor makes a mistake along the way, it makes good sense to have systems in place to guide them through resolving the typos, confusion, and glitches that can occur which lead to abandonment and extra emissions.",
+					"description": "Entering information on a page can lead to problems. If a visitor makes a mistake along the way, it makes good sense to have systems in place to guide them through resolving the typos, confusion, and glitches that can occur which lead to abandonment and extra emissions through wasted device usage.",
 					"criteria": [
 						{
 							"title": "Error Validation",
@@ -2490,8 +2581,7 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Identifying errors early in the input process allows for correction before submission, saving (carbon-costly) data from being sent to the server.",
-							"Security": "Allowing people to correct mistakes on forms before submission can avoid costly mistakes during financial transactions and spend less time being wasted on tasks.",
+							"Security": "Allowing people to correct mistakes (and identifying errors early in the input process) on forms before submission can avoid costly mistakes during financial transactions and spend less time being wasted on tasks.",
 							"Accessibility": "Assistance through form filling is beneficial as it anticipates and helps correct (rather than blame for) incorrect data entry.",
 							"Performance": "Being able to fill in a form while addressing issues quickly reduces the barrier to entry and thereby avoids potentially having to refill a form or waste time going back and scrolling.",
 							"Economic": "Shopping cart abandonment happens when errors occur, fixing issues upfront can reduce such potential issues."
@@ -2530,6 +2620,7 @@
 				},
 				{
 					"id": "12",
+					"url": "https://w3c.github.io/sustyweb/#use-metadata-correctly",
 					"guideline": "Use Metadata Correctly",
 					"description": "Search engines and social networks make use of the content within a website, by ensuring that your metadata is correctly marked up, you can reduce emissions by improving way-finding.",
 					"criteria": [
@@ -2593,8 +2684,9 @@
 				},
 				{
 					"id": "13",
+					"url": "https://w3c.github.io/sustyweb/#adapt-to-user-preferences",
 					"guideline": "Adapt to User Preferences",
-					"description": "Sustainability benefits can be generated in numerous ways, by making sure that your website adheres to the requests made by a browser for specific conditions to be taken into account (such as CSS media and preference queries), you can unlock benefits for the visitor, and as a by-product reduce your emissions. It's worth noting that the introduction of user preferences and API's has increased the risk of visitor fingerprinting and privacy issues.",
+					"description": "Sustainability benefits can be generated in numerous ways, by making sure that your website adheres to the requests made by a browser for specific conditions to be taken into account (such as CSS media and preference queries), you can unlock benefits for the visitor, and as a by-product reduce your emissions. It's worth noting that the introduction of user preferences and APIs has increased the risk of visitor fingerprinting and privacy issues.",
 					"criteria": [
 						{
 							"title": "Media and Preference Queries",
@@ -2647,16 +2739,18 @@
 							"Impact of GPU Acceleration on Browser CPU Usage": "https://helgeklein.com/blog/impact-gpu-acceleration-browser-cpu-usage/",
 							"Mitigating Browser Fingerprinting in Web Specifications": "https://www.w3.org/TR/fingerprinting-guidance/",
 							"prefers-reduced-data": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data",
+							"Save the planet through sustainable web design": "https://www.creativebloq.com/inspiration/save-planet-through-sustainable-web-design-8126147",
 							"Sustainable UX is more than reducing your website's footprint": "https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f",
 							"The complete guide to CSS media queries": "https://polypane.app/blog/the-complete-guide-to-css-media-queries/",
 							"The dark side of green web design": "https://www.wholegraindigital.com/blog/dark-colour-web-design/",
-							"User preference media features client hints headers": "https://web.dev/user-preference-media-features-headers/"
+							"User preference media features client hints headers": "https://web.dev/articles/user-preference-media-features-headers"
 						}
 					],
 					"tags": ["Accessibility", "UI", "Usability", "Assets", "CSS"]
 				},
 				{
 					"id": "14",
+					"url": "https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout",
 					"guideline": "Develop a Mobile-First Layout",
 					"description": "Visitors approach our products and services on a wide variety of devices these days. Ensuring that your device works on the widest range of devices and differing screen resolutions ensures that you will have a compatible website or application. As such, visitors can actively choose to browse on devices which emit less carbon if they wish.",
 					"criteria": [
@@ -2667,6 +2761,10 @@
 						{
 							"title": "Responsive Design",
 							"description": "Utilize progressive enhancement and responsive web design to ensure that your work accommodates a device's capabilities, different screen sizes, and will not fail if it meets an unsupported technology."
+						},
+						{
+							"title": "Carbon Aware Design",
+							"description": "To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques."
 						},
 						{
 							"title": "Alternative Browsing",
@@ -2701,12 +2799,15 @@
 					],
 					"resources": [
 						{
+							"Carbon-Aware vs. Carbon-Efficient Applications": "https://devblogs.microsoft.com/sustainable-software/carbon-aware-vs-carbon-efficient-applications/",
+							"Design for Carbon-Aware Digital Experiences": "https://branch.climateaction.tech/issues/issue-1/design-for-carbon-aware-digital-experiences/",
 							"Digital Eco-Design: Start with mobile first design": "https://eco-conception.designersethiques.org/guide/en/content/4-mobile-first.html",
 							"Digital Eco-Design: Test, assess and maintain": "https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html",
 							"Everything You Want To Know About Creating Voice User Interfaces": "https://www.smashingmagazine.com/2022/02/voice-user-interfaces-guide/",
 							"Front-End Performance Checklist 2021": "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/",
 							"Graceful degradation": "https://developer.mozilla.org/en-US/docs/Glossary/Graceful_degradation",
 							"Graceful degradation versus progressive enhancement": "https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement",
+							"Here's how much it costs to charge a smartphone for a year": "https://www.zdnet.com/article/heres-how-much-it-costs-to-charge-a-smartphone-for-a-year/",
 							"How to Become an Eco Web Designer": "https://onextrapixel.com/how-to-become-an-eco-web-designer/",
 							"Is Progressive Enhancement Dead Yet? (Video)": "https://briefs.video/videos/is-progressive-enhancement-dead-yet/",
 							"Let's Talk About Speech CSS": "https://css-tricks.com/lets-talk-speech-css/",
@@ -2721,7 +2822,7 @@
 							"Responsive Design Mode": "https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/",
 							"Responsive Web Design": "https://alistapart.com/article/responsive-web-design/",
 							"Responsive web design": "https://en.wikipedia.org/wiki/Responsive_web_design",
-							"Responsive web design basics": "https://web.dev/responsive-web-design-basics/",
+							"Responsive web design basics": "https://web.dev/articles/responsive-web-design-basics",
 							"Responsive Web Design: What It Is And How To Use It": "https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/",
 							"[RGESN] (French) 1.6 - Device Compatibility": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.6/",
 							"RSS Specification": "https://www.rssboard.org/rss-specification",
@@ -2736,7 +2837,8 @@
 				},
 				{
 					"id": "15",
-					"guideline": "Use Beneficial JavaScript and Its API's",
+					"url": "https://w3c.github.io/sustyweb/#use-beneficial-javascript-and-its-api-s",
+					"guideline": "Use Beneficial JavaScript and Its APIs",
 					"description": "When new best practices or if beneficial scripting guidance exists which will improve the visitor experience, following it should be of the highest priority (only using scripts ethically should be promoted).",
 					"criteria": [
 						{
@@ -2752,7 +2854,7 @@
 					"effort": "Medium",
 					"benefits": [
 						{
-							"Environmental": "Removing unwatched distractions (Page Visibility API), for example, would reduce wasted data being loaded in the background (media being a bandwidth-heavy resource).",
+							"Environmental": "Removing unwatched distractions (Page Visibility API), for example, would reduce wasted visual effects such as animation from being processed in the background. This could potentially help visitors conserve battery if they leave multiple tabs open in their browser.",
 							"Privacy": "Allowing for script-free visitors can protect the privacy of visitors who may live in unsafe nations.",
 							"Accessibility": "Having fallbacks for unavailable JavaScript allows older or less capable devices to still experience your products.",
 							"Performance": "Using modern APIs or low-code solutions often reduces heavy codebase usage.",
@@ -2794,6 +2896,7 @@
 				},
 				{
 					"id": "16",
+					"url": "https://w3c.github.io/sustyweb/#ensure-your-scripts-are-secure",
 					"guideline": "Ensure Your Scripts Are Secure",
 					"description": "The dangers of scripting are well known, and vulnerabilities are discovered with increasing regularity. As such, it's of ethical benefit for authors to ensure all code used regularly passes security processes.",
 					"criteria": [
@@ -2841,6 +2944,7 @@
 				},
 				{
 					"id": "17",
+					"url": "https://w3c.github.io/sustyweb/#manage-dependencies-appropriately",
 					"guideline": "Manage Dependencies Appropriately",
 					"description": "While JavaScript may not cause the most website bloat, it can cause very high emissions in terms of CPU load due to the rendering process, thereby it makes sense to consider the use of dependencies and third-party code carefully.",
 					"criteria": [
@@ -2861,7 +2965,7 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Developers machines do not need to waste energy downloading packages that are not needed.",
+							"Environmental": "Developers machines do not need to waste energy installing and / or rendering packages that are not needed.",
 							"Security": "Third-party code can contain bugs and security issues. Keeping packages up-to-date and using fewer third-party libraries reduces the likelihood of security flaws.",
 							"Performance": "Reduction in client-side JavaScript normally results in faster websites."
 						}
@@ -2899,6 +3003,7 @@
 				},
 				{
 					"id": "18",
+					"url": "https://w3c.github.io/sustyweb/#include-files-that-are-automatically-expected",
 					"guideline": "Include Files That Are Automatically Expected",
 					"description": "Search engines and browsers regularly examine websites, requesting specific files by default (they expect them to exist). If the files don't exist, this will lead to potential errors and emissions being caused when they could be created, especially as the files offer SEO, user-experience, and other benefits to visitors.",
 					"criteria": [
@@ -2950,6 +3055,7 @@
 				},
 				{
 					"id": "19",
+					"url": "https://w3c.github.io/sustyweb/#use-plaintext-formats-when-appropriate",
 					"guideline": "Use Plaintext Formats When Appropriate",
 					"description": "There are several small assets which can be included within a website, conferring a range of benefits upon the website or application that utilizes them. They each have a low carbon footprint, so while they do create emissions, it's worth including them for the benefits they provide.",
 					"criteria": [
@@ -2964,7 +3070,7 @@
 						{
 							"Environmental": "Plaintext requires no rendering. If visitors (or search engines) know about these useful files (like carbon.txt) they can load quicker and with less CPU / GPU impact than any HTML website.",
 							"Transparency": "The humans file provides credit to people involved in a site's creation, and security offers critical points of contact if an issue is discovered. Both are valuable additions to a project.",
-							"Performance": "Plaintext files contain no links, no markup, and have no imprint. Putting credits (for example) in such a file will reduce data transfer and have a lower rendering carbon footprint.",
+							"Performance": "Plaintext files contain no links, no markup, and have no imprint. Putting credits (for example) in such a file will reduce data transfer and have a lower rendering footprint.",
 							"Economic": "The ads.txt file is part of a scheme to reduce advertising fraud, it could be useful."
 						}
 					],
@@ -2985,7 +3091,7 @@
 					"resources": [
 						{
 							"About /robots.txt": "https://www.robotstxt.org/robotstxt.html",
-							"Ads.txt guide": "https://support.google.com/adsense/answer/7532444?hl=en-GB",
+							"Ads.txt guide": "https://support.google.com/adsense/answer/12171612?hl=en-GB&rd=1",
 							"All about humans. Humans.txt, actually": "https://codeburst.io/all-about-humans-humans-txt-actually-f571d37f92d2",
 							"How Google interprets the robots.txt specification": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt",
 							"security.txt": "https://en.wikipedia.org/wiki/Security.txt",
@@ -3000,6 +3106,7 @@
 				},
 				{
 					"id": "20",
+					"url": "https://w3c.github.io/sustyweb/#avoid-using-deprecated-or-proprietary-code",
 					"guideline": "Avoid Using Deprecated or Proprietary Code",
 					"description": "The Web is full of dead, often proprietary code, created using standards which have been superseded or by groups which aren't recognized. By following recognized coding standards, you ensure that your code will be rendered properly by browsers (and reduce the potential for added emissions occurring from unmaintained rendering processes).",
 					"criteria": [
@@ -3038,7 +3145,7 @@
 					],
 					"resources": [
 						{
-							"DevOps tech: Code maintainability": "https://cloud.google.com/architecture/devops/devops-tech-code-maintainability",
+							"DevOps tech: Code maintainability": "https://dora.dev/devops-capabilities/technical/code-maintainability/",
 							"[GR491] 1-5005 - Proven Development Standards": "https://gr491.isit-europe.org/en/crit.php?id=1-5005-frontend-the-best-development-standards-cover-a-large",
 							"HTML5 Security Cheat Sheet": "https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html",
 							"JSON vs XML: which one is faster and more efficient?": "https://www.imaginarycloud.com/blog/json-vs-xml/",
@@ -3055,6 +3162,7 @@
 				},
 				{
 					"id": "21",
+					"url": "https://w3c.github.io/sustyweb/#align-technical-requirements-with-sustainability-goals",
 					"guideline": "Align Technical Requirements With Sustainability Goals",
 					"description": "Every product or service is different, and each will require a different set of tooling to accomplish the most sustainable result. Deciding whether to go with a bulky framework, Static Site Generator (SSG) or a Content Management System (CMS) takes careful planning based on client or service requirements.",
 					"criteria": [
@@ -3068,7 +3176,7 @@
 						},
 						{
 							"title": "Static VS Dynamic",
-							"description": "If you do decide to use a code generation tool, consider using a Static Site Generator in preference to a bulky content management system. Because SSG's often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries."
+							"description": "If you do decide to use a code generation tool, consider using a Static Site Generator in preference to a bulky content management system. Because SSGs often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries."
 						},
 						{
 							"title": "Expandability Considerations",
@@ -3137,6 +3245,7 @@
 				},
 				{
 					"id": "22",
+					"url": "https://w3c.github.io/sustyweb/#use-the-latest-stable-language-version",
 					"guideline": "Use the Latest Stable Language Version",
 					"description": "Languages evolve regularly, and it's important for security and performance reasons to keep on-top of the technology stack you are using.",
 					"criteria": [
@@ -3179,19 +3288,20 @@
 				},
 				{
 					"id": "23",
+					"url": "https://w3c.github.io/sustyweb/#take-advantage-of-native-features",
 					"guideline": "Take Advantage of Native Features",
 					"description": "Ensuring that your code is free of redundancy by using pre-existing functionality provided by the web browser is important as it will help you to reduce the amount of time wasted, re-creating the same components, this offers obvious sustainability benefits in terms of time in front of the screen.",
 					"criteria": [
 						{
 							"title": "Native Over Custom",
-							"description": "Use native functions, API's and features over writing your own."
+							"description": "Use native functions, APIs and features over writing your own."
 						}
 					],
 					"impact": "Medium",
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Avoiding repetition of pre-existing features improves efficiency, which ultimately will lead to less redundancy (and wasted data sent across the wire).",
+							"Environmental": "Avoiding repetition of pre-existing features improves efficiency, which ultimately will lead to less redundancy, less development time, and thereby emissions saving for the construction of the product or service.",
 							"Performance": "Native features will have been well optimized, it's unlikely a custom component will match this, therefore a native function will not only load quicker but will use fewer resources.",
 							"Economic": "Existing features don't require additional development time, so is a time saver."
 						}
@@ -3206,8 +3316,12 @@
 					],
 					"example": [
 						{
+							"code": "<button onclick=\"window.dialog.showModal()\">open dialog</button>\r\n<dialog id=\"dialog\">\r\n\t<p>I'm a dialog.</p>\r\n\t<form method=\"dialog\">\r\n\t\t<button>Close</button>\r\n\t</form>\r\n</dialog>",
+							"content": "HTML [dialog] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) API [example](https://codepen.io/chriscoyier/pen/QWLRBVK)."
+						},
+						{
 							"code": "<?php\r\n$ar1 = array(10, 100, 100, 0);\r\n$ar2 = array(1, 3, 2, 4);\r\narray_multisort($ar1, $ar2);\r\nvar_dump($ar1);\r\nvar_dump($ar2);\r\n?>",
-							"content": "[array_multisort function](https://www.php.net/manual/en/function.array-multisort.php)."
+							"content": "[PHP](https://www.php.net/manual/en/function.array-multisort.php) example."
 						}
 					],
 					"resources": [
@@ -3224,6 +3338,7 @@
 				},
 				{
 					"id": "24",
+					"url": "https://w3c.github.io/sustyweb/#run-fewer-simpler-queries-as-possible",
 					"guideline": "Run Fewer, Simpler Queries As Possible",
 					"description": "Making multiple requests whether HTTP or within a database has a carbon cost as infrastructure has to send that information back and forth. As such, managing how you store and use data locally for a visitor will help reduce wasted cycles.",
 					"criteria": [
@@ -3236,7 +3351,6 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Doing so, the database is accessed only once, and we can keep the value in RAM for subsequent processing.",
 							"Performance": "By holding the data locally rather than remotely, you can avoid waiting for an additional HTTP request to occur to process the string.",
 							"Economic": "Rather than pushing multiple additional demands to the server (which could lead to stress failures and lost business), an optimized codebase can reduce bandwidth overheads."
 						}
@@ -3272,9 +3386,11 @@
 		{
 			"id": "4",
 			"name": "Hosting, Infrastructure And Systems",
+			"shortName": "Hosting & Infrastructure",
 			"guidelines": [
 				{
 					"id": "1",
+					"url": "https://w3c.github.io/sustyweb/#choose-a-sustainable-hosting-provider",
 					"guideline": "Choose a Sustainable Hosting Provider",
 					"description": "In addition to reducing the environmental impacts of a website, choose a hosting service that mitigates the remaining impacts. To make sure of this, there are many criteria to look for.",
 					"criteria": [
@@ -3322,10 +3438,14 @@
 					],
 					"resources": [
 						{
+							"2020 Best Practice Guidelines for the EU Code of Conduct on Data Centre Energy Efficiency (PDF)": "https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc119571_jrc119571_2020_best_practice_guidelines_v11.1.0a_br_ma_21_jan.pdf",
+							"43% of major environmental websites make mass carbon emissions": "https://www.openaccessgovernment.org/43-of-major-environmental-websites-make-mass-carbon-emissions/134119/",
 							"An Even More Inconvenient Truth": "https://features.propublica.org/brazil-carbon-offsets/inconvenient-truth-carbon-credits-dont-work-deforestation-redd-acre-cambodia/",
 							"AWS WAF: SUS05-BP01 - Use the minimum amount of hardware to meet your needs": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_hardware_a2.html",
 							"AWS WAF: SUS05-BP04 - Optimize your use of hardware-based compute accelerators": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_hardware_a5.html",
 							"Benefits of buying sustainable goods and services": "https://www.netregs.org.uk/environmental-topics/carbon-reduction-and-efficiency/buying-eco-friendly-goods-and-services/benefits-of-buying-sustainable-goods-and-services/",
+							"Beyond PUE: Taclking IT's wasted terawatts (PDF)": "https://www.capex.net.co/wp-content/uploads/2020/02/Capex.pdf",
+							"Can you really negate your carbon emissions?": "https://www.vox.com/2020/2/27/20994118/carbon-offset-climate-change-net-zero-neutral-emissions",
 							"Carbon Awareness": "https://learn.greensoftware.foundation/carbon-awareness/",
 							"Carbon Credits vs Renewable Energy Credits": "https://impactful.ninja/carbon-credits-vs-renewable-energy-credits-differences/",
 							"Carbon Neutral Verification": "https://www.carbontrust.com/what-we-do/assurance-and-labelling/carbon-neutral-verification",
@@ -3333,8 +3453,13 @@
 							"Circular Economy": "https://sustainabilityguide.eu/sustainability/circular-economy/",
 							"Code of Conduct on Data Centre Energy Efficiency (PDF)": "https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc132576_jrc132576_jrc_2023_best_practice_guidelines_v14.1.0final_gt1.pdf",
 							"Data Center Water Usage Effectiveness": "https://www.akcp.com/blog/data-center-water-usage-effectiveness-wue/",
+							"Data Centres and Data Transmission Networks": "https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks",
+							"Data Centres Code of Conduct": "https://e3p.jrc.ec.europa.eu/communities/data-centres-code-conduct",
+							"Digital Reset (PDF)": "https://digitalization-for-sustainability.com/digital-reset/",
 							"Electronics and obsolescence in a circular economy": "https://www.eionet.europa.eu/etcs/etc-wmge/products/etc-wmge-reports/electronics-and-obsolescence-in-a-circular-economy",
+							"Energizta": "https://boavizta.github.io/Energizta/",
 							"Equations relating total annual energy consumption and chips energy efficiency": "https://www.researchgate.net/publication/371938289_Equations_relating_total_annual_energy_consumption_and_chips_energy_efficiency",
+							"Europe's consumption in a circular economy: the benefits of longer-lasting electronics": "https://www.eea.europa.eu/publications/europe2019s-consumption-in-a-circular/benefits-of-longer-lasting-electronics",
 							"[GR491] 1-8002 - Does Cooling Affect Groundwater": "https://gr491.isit-europe.org/en/crit.php?id=1-8002-hosting-water-usage-is-associated-with-it-hosting",
 							"[GR491] 1-8004 - Water Quality From Usage": "https://gr491.isit-europe.org/en/crit.php?id=1-8004-hosting-the-data-center-must-be-able-to",
 							"[GR491] 1-8005 - Source Of Water": "https://gr491.isit-europe.org/en/crit.php?id=1-8005-hosting-there-is-no-unnecessary-water-treatment-required",
@@ -3358,7 +3483,7 @@
 							"[GR491] 4-8051 - Cooling Impact": "https://gr491.isit-europe.org/en/crit.php?id=4-8051-hosting-cooling-techniques-involve-either-the-production-of",
 							"[GR491] 5-8053 - Efficiency Measurements": "https://gr491.isit-europe.org/en/crit.php?id=5-8053-hosting-the-standards-for-data-centers-highlight-efficiency",
 							"[GR491] 6-8063 - Datacenter Certification": "https://gr491.isit-europe.org/en/crit.php?id=6-8063-hosting-the-characteristics-of-geographic-areas-may-require",
-							"How to reduce environmental impact from IT equipment": "https://bettercentury.org/how-to-reduce-environmental-impact-from-it-equipment/",
+							"I Made My Blog Solar-Powered, Then Things Escalated": "https://louwrentius.com/i-made-my-blog-solar-powered-then-things-escalated.html",
 							"Is carbon compensation a real climate solution?": "https://genevasolutions.news/climate-environment/is-carbon-compensation-a-real-climate-solution",
 							"New perspectives on internet electricity use in 2030": "https://pisrt.org/psr-press/journals/easl-vol-3-issue-2-2020/new-perspectives-on-internet-electricity-use-in-2030/",
 							"Promoting product longevity (PDF)": "https://www.europarl.europa.eu/RegData/etudes/STUD/2020/648767/IPOL_STU(2020)648767_EN.pdf",
@@ -3369,11 +3494,14 @@
 							"Sustainability Guide: Product": "https://sustainabilityguide.eu/ecodesign/product/",
 							"Sustainability Guide: Use": "https://sustainabilityguide.eu/ecodesign/use/",
 							"The circular design guide": "https://www.circulardesignguide.com/",
-							"The circular economy in detail: Deep dive": "https://ellenmacarthurfoundation.org/the-circular-economy-in-detail-deep-dive",
+							"The circular economy in detail: Deep dive": "https://www.ellenmacarthurfoundation.org/the-circular-economy-in-detail-deep-dive",
 							"The environmental footprint of the digital world (PDF)": "https://www.greenit.fr/wp-content/uploads/2019/11/GREENIT_EENM_etude_EN_accessible.pdf",
+							"The real climate and transformative impact of ICT": "https://www.sciencedirect.com/science/article/pii/S2666389921001884",
 							"Web Hosting: Renewable Energy & RECs": "https://www.mightybytes.com/blog/web-hosting-renewable-energy/",
 							"What Are Renewable Energy Credits?": "https://www.inspirecleanenergy.com/blog/clean-energy-101/what-are-renewable-energy-credits",
+							"What is a circular economy?": "https://www.ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview",
 							"What is PUE / DCiE? How to Calculate, What to Measure": "https://www.42u.com/measurement/pue-dcie.htm",
+							"Why hyperscale, modular data centers improve efficiency": "https://venturebeat.com/business/why-hyperscale-modular-data-centers-improve-efficiency/",
 							"Worthless: Chevron's carbon offsets are mostly junk and some may harm, research says": "https://www.theguardian.com/environment/2023/may/24/chevron-carbon-offset-climate-crisis"
 						}
 					],
@@ -3381,8 +3509,9 @@
 				},
 				{
 					"id": "2",
+					"url": "https://w3c.github.io/sustyweb/#optimize-browser-caching",
 					"guideline": "Optimize Browser Caching",
-					"description": "Browser caching reduces the requirement for files to need to be constantly reloaded from the server, and in certain situations, it can even allow for files to be viewed offline (or in the case of a reverse-proxy, send immediate recurring requests without additional calculation or computation from the server). As such, this will have emissions savings and performance benefits (for instance by greatly reducing Time-To-First-Byte).",
+					"description": "Browser caching reduces the requirement for files to need to be constantly reloaded from the server, and in certain situations, it can even allow for files to be viewed offline (or in the case of a reverse-proxy, send immediate recurring requests without additional calculation or computation from the server). As such, this will have sustainability and performance benefits (for instance by greatly reducing Time-To-First-Byte).",
 					"criteria": [
 						{
 							"title": "Server-side Caching",
@@ -3390,16 +3519,15 @@
 						},
 						{
 							"title": "Offline Access",
-							"description": "Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (API's), or cookies (if necessary) to reduce friction in the user-journey. For example, through the use of a PWA (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility."
+							"description": "Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (APIs), or cookies (if necessary) to reduce friction in the user-journey. For example, through the use of a PWA (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility."
 						}
 					],
 					"impact": "High",
 					"effort": "High",
 					"benefits": [
 						{
-							"Environmental": "Unmodified files don't need to constantly be redownloaded (saving bandwidth and energy, and server-side caching reduces the amount of computing resources required (as fewer HTTP requests will likely be submitted), which can lead to reduced emissions.",
 							"Social Equity": "Allows websites to be functional in regions where no or intermittent Internet connectivity is available.",
-							"Performance": "Being selective over cached content balances faster reloads over the need to request new pages, which means that visitors may experience less latency due to data being held for repeat requests.",
+							"Performance": "Unmodified files don't need to constantly be redownloaded (saving bandwidth, and server-side caching reduces the amount of computing resources required (as fewer HTTP requests will likely be submitted). Also, being selective over cached content balances faster reloads over the need to request new pages, which means that visitors may experience less latency due to data being held for repeat requests.",
 							"Economic": "Reduced data transfer allows for savings for individuals on a monitored data plan and infrastructure costs for the provider.",
 							"Conversion": "Caching increases repeat visitor page-load speeds (a customer benefit)."
 						}
@@ -3414,6 +3542,10 @@
 					],
 					"example": [
 						{
+							"code": "Expires:  Wed, 01 Jun 2023 08:00:00 GMT",
+							"content": "HTTP [expires](https://http.dev/expires) headers can be used to control the response."
+						},
+						{
 							"code": "<IfModule mod_expires.c>\r\n\tExpiresActive on\r\n\t# Default: Fallback\r\n\tExpiresDefault                                      \"access plus 1 year\"\r\n\t# Specific: Assets\r\n\tExpiresByType image\/x-icon                          \"access plus 1 week\"\r\n\tExpiresByType application\/rss+xml                   \"access plus 1 hour\"\r\n\tExpiresByType application\/json                      \"access\"\r\n<\/IfModule>",
 							"content": "[htaccess Server MIME Type Control](https://github.com/h5bp/server-configs-apache/blob/main/dist/.htaccess). [Apache](https://github.com/h5bp/server-configs-apache) and [NGINX](https://github.com/h5bp/server-configs-nginx) boilerplates are available."
 						}
@@ -3422,7 +3554,7 @@
 						{
 							"A Web Caching Primer": "https://www.researchgate.net/publication/2570397_A_Web_Caching_Primer",
 							"Apache Configuration: .htaccess": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Apache_Configuration_htaccess",
-							"Back/forward cache": "https://web.dev/bfcache/",
+							"Back/forward cache": "https://web.dev/articles/bfcache",
 							"Client-side storage": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage",
 							"Digital Eco-Design: Go further in the approach": "https://eco-conception.designersethiques.org/guide/en/content/7-go-further.html",
 							"Front-End Performance 2021: Build Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-build-optimizations/",
@@ -3433,10 +3565,11 @@
 							"How to Build a Low-tech Website?": "https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/",
 							"Impact of New and Emerging Internet Technologies on Climate Change and Human Rights (PDF)": "https://www.law.ox.ac.uk/sites/default/files/migrated/un_human_rights_council_advisory_committee_submission_-_new_and_emerging_technologies_-_allmann_hazas.pdf",
 							"Learn PWA": "https://web.dev/learn/pwa/",
-							"Microsoft Azure WAF: Cache Data": "https://learn.microsoft.com/en-us/azure/well-architected/scalability/optimize-cache",
+							"Microsoft Azure WAF: Selecting Services": "https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/select-services",
 							"Microsoft Azure WAF: Server VS Client Rendering": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-design#evaluate-server-side-vs-client-side-rendering",
 							"Progressive web apps": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
 							"Progressive Web Apps: Going Offline": "https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#0",
+							"Resilient web design": "https://resilientwebdesign.com/",
 							"Service workers": "https://web.dev/learn/pwa/service-workers/",
 							"Varnish Cache": "https://wp-rocket.me/wordpress-cache/varnish-http-cache-server/",
 							"Web Caching 101": "https://nitropack.io/blog/post/web-caching-beginners-guide",
@@ -3447,8 +3580,9 @@
 				},
 				{
 					"id": "3",
+					"url": "https://w3c.github.io/sustyweb/#compress-your-files",
 					"guideline": "Compress Your Files",
-					"description": "Every file will take up a certain amount of room on a server's hard drive, and this data will need to be sent across-the-wire to each visitor. Doing so will consume resources, but by using compression algorithms you can shrink each file to make its journey less ecologically impactful.",
+					"description": "Every file will take up a certain amount of room on a server's hard drive, and this data will need to be sent across-the-wire to each visitor. Doing so will consume resources, but by using compression algorithms you can shrink each file to make its journey less impactful.",
 					"criteria": [
 						{
 							"title": "Server-side Compression",
@@ -3463,10 +3597,9 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Reduced data consumption and energy consumption (with a slight increase in visitor CPU decompression with server-side techniques).",
 							"Social Equity": "Reduced reliance on a high-speed connection (which in many locations is unavailable).",
 							"Accessibility": "People with accessibility needs may be lower income and thereby unable to afford either a high speed or the high cost of data plans found on cellular networks and satellite providers.",
-							"Performance": "Often the largest files on a website, compressed media served correctly will reduce the payload to the visitor and use less energy to transmit over the wire.",
+							"Performance": "Reduced data consumption (with a slight increase in visitor CPU decompression with server-side techniques).",
 							"Economic": "Reduced data transfer allows for savings for individuals on a monitored data plan."
 						}
 					],
@@ -3480,6 +3613,10 @@
 					],
 					"example": [
 						{
+							"code": "Accept-Encoding: zstd, gzip, br, deflate",
+							"content": "HTTP [compression](https://http.dev/compression) headers can be used to control the response."
+						},
+						{
 							"code": "<IfModule mod_deflate.c>\r\n\t<IfModule mod_setenvif.c>\r\n\t\t<IfModule mod_headers.c>\r\n\t\t\tSetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\\s*,?\\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding\r\n\t\t\tRequestHeader append Accept-Encoding \"gzip,deflate\" env=HAVE_Accept-Encoding\r\n\t\t<\/IfModule>\r\n\t<\/IfModule>\r\n\t<IfModule mod_filter.c>\r\n\t\tAddOutputFilterByType DEFLATE \"application\/atom+xml application\/javascript application\/json application\/ld+json application\/manifest+json application\/rdf+xml application\/rss+xml application\/schema+json application\/geo+json application\/vnd.ms-fontobject application\/wasm application\/x-font-ttf application\/x-javascript application\/x-web-app-manifest+json application\/xhtml+xml application\/xml font\/eot font\/opentype font\/otf font\/ttf image\/bmp image\/svg+xml image\/vnd.microsoft.icon image\/x-icon text\/cache-manifest text\/calendar text\/css text\/html text\/javascript text\/plain text\/markdown text\/vcard text\/vnd.rim.location.xloc text\/vtt text\/x-component text\/x-cross-domain-policy text\/xml\"\r\n\t<\/IfModule>\r\n\t<IfModule mod_mime.c>\r\n\t\tAddEncoding gzip              svgz\r\n\t<\/IfModule>\r\n<\/IfModule>",
 							"content": "[htaccess GZIP Settings](https://github.com/h5bp/server-configs-apache/blob/main/dist/.htaccess). [Apache](https://github.com/h5bp/server-configs-apache) and [NGINX](https://github.com/h5bp/server-configs-nginx) boilerplates are available."
 						}
@@ -3492,14 +3629,14 @@
 							"Digital Eco-Design": "https://eco-conception.designersethiques.org/guide/en/content/5-1-images.html",
 							"Does GZIP Save CO2?": "https://www.green-coding.berlin/case-studies/does-gzip-save-co2/",
 							"Digital sustainability audits: a de facto standard for the Internet carbon footprint": "https://www.researchgate.net/publication/343041330_Digital_sustainability_audits_a_de_facto_standard_for_the_Internet_carbon_footprint",
-							"Fast Load Times: Optimize your images": "https://web.dev/fast/#optimize-your-images",
+							"Fast Load Times: Optimize your images": "https://web.dev/explore/fast#optimize-your-images",
 							"Front-End Performance 2021: Assets Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-assets-optimizations/",
 							"Handbrake": "https://handbrake.fr/",
 							"How to Optimize Images for Faster Load Times and Sustainability": "https://www.mightybytes.com/blog/how-to-optimize-images/",
 							"Impact of New and Emerging Internet Technologies on Climate Change and Human Rights (PDF)": "https://www.law.ox.ac.uk/sites/default/files/migrated/un_human_rights_council_advisory_committee_submission_-_new_and_emerging_technologies_-_allmann_hazas.pdf",
 							"Internet Speeds by Country 2023": "https://worldpopulationreview.com/country-rankings/internet-speeds-by-country",
-							"Optimizing Encoding and Transfer Size of Text-Based Assets": "https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/",
-							"Reduce web font size": "https://web.dev/reduce-webfont-size/",
+							"Optimizing Encoding and Transfer Size of Text-Based Assets": "https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer",
+							"Reduce web font size": "https://web.dev/articles/reduce-webfont-size",
 							"Responsive images": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images",
 							"Should I Use A Carousel": "https://shouldiuseacarousel.com/",
 							"Squoosh": "https://squoosh.app/",
@@ -3518,6 +3655,7 @@
 				},
 				{
 					"id": "4",
+					"url": "https://w3c.github.io/sustyweb/#use-error-pages-and-redirects-carefully",
 					"guideline": "Use Error Pages and Redirects Carefully",
 					"description": "Navigation errors lead to mistakes, which lead to visitors wasting time trying to resolve them, or abandoning a website altogether. Anything that can be done to interject, predict, and way-find around potential problems will reduce emissions over time.",
 					"criteria": [
@@ -3552,7 +3690,7 @@
 					"example": [
 						{
 							"code": "ErrorDocument 404 /404.html",
-							"content": "[htaccess Error Documents](https://github.com/h5bp/server-configs-apache/blob/main/dist/.htaccess)."
+							"content": "[htaccess Error Documents](https://github.com/h5bp/server-configs-apache/blob/main/dist/.htaccess). [Apache](https://github.com/h5bp/server-configs-apache) and [NGINX](https://github.com/h5bp/server-configs-nginx) boilerplates are available."
 						}
 					],
 					"resources": [
@@ -3573,6 +3711,7 @@
 				},
 				{
 					"id": "5",
+					"url": "https://w3c.github.io/sustyweb/#limit-usage-of-additional-environments",
 					"guideline": "Limit Usage of Additional Environments",
 					"description": "Decommission or switch off additional environments, such as testing / Quality Assurance QA) / re-production and other such environments when they are not useful.",
 					"criteria": [
@@ -3605,13 +3744,15 @@
 					"resources": [
 						{
 							"AWS WAF: SUS02-BP03": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a4.html",
-							"[GR491] 3-8026 - Not In Use Equipment": "https://gr491.isit-europe.org/en/crit.php?id=3-8026-hosting-the-network-infrastructure-is-at-the-heart"
+							"[GR491] 3-8026 - Not In Use Equipment": "https://gr491.isit-europe.org/en/crit.php?id=3-8026-hosting-the-network-infrastructure-is-at-the-heart",
+							"Toward sustainable software engineering": "https://increment.com/containers/containers-for-sustainable-software-engineering/"
 						}
 					],
 					"tags": ["Performance", "Hardware", "Software", "Networking"]
 				},
 				{
 					"id": "6",
+					"url": "https://w3c.github.io/sustyweb/#automate-to-fit-the-needs",
 					"guideline": "Automate To Fit the Needs",
 					"description": "Any tasks, especially repetitive, that can be automated should be automated (compilation, deployment, tests, etc.) to reduce time at the computer being wasted by people.",
 					"criteria": [
@@ -3656,6 +3797,7 @@
 					],
 					"resources": [
 						{
+							"2020 Best Practice Guidelines for the EU Code of Conduct on Data Centre Energy Efficiency (PDF)": "https://e3p.jrc.ec.europa.eu/sites/default/files/documents/publications/jrc119571_jrc119571_2020_best_practice_guidelines_v11.1.0a_br_ma_21_jan.pdf",
 							"AWS WAF: SEC11-BP02 - Automate testing throughout the development and release lifecycle": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_appsec_automate_testing_throughout_lifecycle.html",
 							"AWS WAF: SEC05-BP03 - Automate network protection": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_network_protection_auto_protect.html",
 							"AWS WAF: SEC11-BP06 - Deploy software programmatically": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_appsec_deploy_software_programmatically.html",
@@ -3683,6 +3825,7 @@
 				},
 				{
 					"id": "7",
+					"url": "https://w3c.github.io/sustyweb/#maintain-a-relevant-refresh-frequency",
 					"guideline": "Maintain a Relevant Refresh Frequency",
 					"description": "Only send data from the server when the visitor needs it. As much as possible, you can rely on client-side or server-side cache and client-side / local storage. Rather than refreshing data on a given frequency, it might be up to the visitor to manually ask for a refresh.",
 					"criteria": [
@@ -3726,8 +3869,9 @@
 				},
 				{
 					"id": "8",
+					"url": "https://w3c.github.io/sustyweb/#be-mindful-of-duplicate-data",
 					"guideline": "Be Mindful of Duplicate Data",
-					"description": "For security reasons and in accordance with an SLA (Service-Level Agreement), it is often recommended to duplicate data to make sure it remains available if a problem occurs. This should be balanced with the cost of such duplication. Not all data is critical and, rather than overcompensating with multiple saves, duplication should be designed with efficiency in mind.",
+					"description": "For security reasons and in accordance with an Service-Level Agreement (SLA), it is often recommended to duplicate data to make sure it remains available if a problem occurs. This should be balanced with the cost of such duplication. Not all data is critical and, rather than overcompensating with multiple saves, duplication should be designed with efficiency in mind.",
 					"criteria": [
 						{
 							"title": "Data Backups",
@@ -3768,6 +3912,7 @@
 				},
 				{
 					"id": "9",
+					"url": "https://w3c.github.io/sustyweb/#enable-asynchronous-processing-and-communication",
 					"guideline": "Enable Asynchronous Processing and Communication",
 					"description": "Depending on carbon-intensity, some processes and communications should be delayed and sometimes batched. This could also be a way to reduce the workload on a server or Virtual Machine (VM). In such cases, visitors should be warned that the process is asynchronous and notified when it is over.",
 					"criteria": [
@@ -3805,10 +3950,11 @@
 						{
 							"AWS WAF: SUS02-BP06 - Implement buffering or throttling to flatten the demand curve": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a7.html",
 							"AWS WAF: SUS03-BP01 - Optimize software and architecture for asynchronous and scheduled jobs": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_software_a2.html",
+							"Best practises for 5G App Developers (PDF)": "https://www.gsma.com/get-involved/working-groups/wp-content/uploads/2022/11/IG.15-v1.0-1.pdf",
 							"[GR491] 5-6024 - Transfer Compression": "https://gr491.isit-europe.org/en/crit.php?id=5-6024-architecture-the-distribution-of-processing-on-different-and",
-							"Microsoft Azure WAF: Performance efficiency principles": "https://learn.microsoft.com/en-us/azure/well-architected/scalability/principles",
+							"Microsoft Azure WAF: Performance efficiency principles": "https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/principles",
 							"Serve websites over HTTPS": "https://www.ncsc.gov.uk/blog-post/serve-websites-over-https-always",
-							"Why HTTPS matters": "https://web.dev/why-https-matters/",
+							"Why HTTPS matters": "https://web.dev/articles/why-https-matters",
 							"Why You Shouldn't Use FTP or HTTP if You Care About Security": "https://www.automox.com/blog/you-shouldnt-use-ftp-or-http"
 						}
 					],
@@ -3816,11 +3962,12 @@
 				},
 				{
 					"id": "10",
-					"guideline": "Consider CDN's and Edge Caching",
-					"description": "Edge caching and CDN delivery can help optimize energy usage by reducing the amount of traffic transferred over the internet.",
+					"url": "https://w3c.github.io/sustyweb/#consider-cdn-s-and-edge-caching",
+					"guideline": "Consider CDNs and Edge Caching",
+					"description": "Edge caching and CDN delivery can help optimize sustainable delivery of digital services by optimizing the way in which your websites traffic is transferred over the internet.",
 					"criteria": [
 						{
-							"title": "Content Delivery Network's (CDN's)",
+							"title": "Content Delivery Networks (CDNs)",
 							"description": "When building for a globally distributed audience, use a CDN to store and serve simple read-only, pre-generated resources in a fast and efficient manner. Although they definitely can increase performance, it is also another layer of infrastructure which needs to be considered for sustainability."
 						},
 						{
@@ -3864,17 +4011,26 @@
 							"AWS WAF: SUS01-BP01 - Choose Region based on both business requirements and sustainability goals": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_region_a2.html",
 							"AWS WAF: SUS02-BP04 - Optimize geographic placement of workloads based on their networking requirements": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a5.html",
 							"CDN Compare": "https://www.cdnperf.com/cdn-compare",
+							"Cross-Origin Resource Sharing (CORS)": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
 							"Edge computing": "https://en.wikipedia.org/wiki/Edge_computing",
+							"Energy-efficient Cloud Computing Technologies and Policies for an Eco-friendly Cloud Market": "https://digital-strategy.ec.europa.eu/en/library/energy-efficient-cloud-computing-technologies-and-policies-eco-friendly-cloud-market",
 							"Future trends of Green All Optical Networks and ICT Infrastructure in a large context": "https://www.researchgate.net/publication/368690756_Future_trends_of_Green_All_Optical_Networks_and_ICT_Infrastructure_in_a_large_context_-_trends_to_2050",
+							"Gaining security and privacy by partitioning the cache": "https://developer.chrome.com/en/blog/http-cache-partitioning/",
+							"Greenhouse Gas Protocol - Cloud & Data Center Services (PDF)": "https://ghgprotocol.org/sites/default/files/GHGP-ICTSG%20-%20ALL%20Chapters.pdf#page=142",
 							"[GR491] 1-8003 - Datacenter Location": "https://gr491.isit-europe.org/en/crit.php?id=1-8003-hosting-data-centers-are-rarely-installed-in-the",
 							"[GR491] 2-8020 - Datacenter Hub": "https://gr491.isit-europe.org/en/crit.php?id=2-8020-hosting-physical-trips-to-datacenters-are-by-nature",
 							"How Clean is Your Cloud? (PDF)": "https://www.greenpeace.org/static/planet4-international-stateless/2012/04/e7c8ff21-howcleanisyourcloud.pdf",
+							"How green data centers can cut your carbon footprint": "https://venturebeat.com/data-infrastructure/how-green-data-centers-can-cut-your-carbon-footprint/",
 							"How using a CDN is better for people and the planet": "https://www.wholegraindigital.com/blog/how-using-a-cdn-is-better-for-people-and-the-planet/",
+							"IATI Technical Climate Impact Measurement": "https://climate.iatistandard.org/methodology",
 							"Investigating the Inconsistencies among Energy and Energy Intensity Estimates of the Internet": "https://www.aramis.admin.ch/Default?DocumentID=67656&Load=true",
 							"Is My Host Fast Yet?": "https://ismyhostfastyet.com/",
 							"Microsoft Azure WAF: Deploy to low-carbon regions": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-platform#deploy-to-low-carbon-regions",
+							"Microsoft Emissions Impact Dashboard": "https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard",
 							"Public CDNs Are Useless and Dangerous": "https://httptoolkit.com/blog/public-cdn-risks/",
 							"The Hosting Server Location & What It Means For Website SEO": "https://www.linkedin.com/pulse/hosting-server-location-what-means-website-seo-ernest-ekwoge-metuge/",
+							"The Utility of the Future (PDF)": "https://l.sdialliance.org/future-digital-utility-fullreport",
+							"What are dual-use data centers and how they drive energy efficiency": "https://venturebeat.com/data-infrastructure/what-are-dual-use-data-centers-and-how-they-drive-energy-efficiency/",
 							"What is a Content Delivery Network - A Beginner's Guide": "https://imagekit.io/blog/what-is-content-delivery-network-cdn-guide/",
 							"When to serve your website through a CDN and when not to": "https://sustainablewww.org/principles/when-to-serve-your-website-through-a-cdn-and-when-not-to"
 						}
@@ -3883,6 +4039,7 @@
 				},
 				{
 					"id": "11",
+					"url": "https://w3c.github.io/sustyweb/#use-the-lowest-infrastructure-tier-meeting-business-requirements",
 					"guideline": "Use the Lowest Infrastructure Tier Meeting Business Requirements",
 					"description": "Select infrastructure with minimal specifications meeting business requirements of performance, availability, etc.",
 					"criteria": [
@@ -3918,6 +4075,7 @@
 							"AWS WAF: SUS02-BP06 - Implement buffering or throttling to flatten the demand curve": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a7.html",
 							"AWS WAF: SUS04-BP08 - Back up data only when difficult to recreate": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_data_a9.html",
 							"Can Reducing Cloud Waste Help Save the Planet?": "https://thenewstack.io/can-reducing-cloud-waste-help-save-the-planet/",
+							"Choose wisely — How technology decisions drive data center efficiency": "https://venturebeat.com/data-infrastructure/choose-wisely-how-technology-decisions-drive-data-center-efficiency/",
 							"Optimizing your AWS Infrastructure for Sustainability, Part I: Compute": "https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/",
 							"Study on the practical application of the new framework methodology for measuring the environmental impact of your equipment": "https://op.europa.eu/en/publication-detail/-/publication/ef17c01f-ea7c-49e0-91aa-878f16ba6361"
 						}
@@ -3926,6 +4084,7 @@
 				},
 				{
 					"id": "12",
+					"url": "https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs",
 					"guideline": "Store Data According to Visitor Needs",
 					"description": "Optimize storage of data according to what is most important, relevant, and required in service to visitors. This will help to avoid unnecessary storage of data that may not be useful or valuable, which will reduce required infrastructure, power, and data transfer.",
 					"criteria": [
@@ -3973,6 +4132,10 @@
 					],
 					"example": [
 						{
+							"code": "Accept-Encoding: zstd, gzip, br, deflate",
+							"content": "HTTP [compression](https://http.dev/compression) headers can be used to control the response."
+						},
+						{
 							"code": "<IfModule mod_deflate.c>\r\n\t<IfModule mod_setenvif.c>\r\n\t\t<IfModule mod_headers.c>\r\n\t\t\tSetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\\s*,?\\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding\r\n\t\t\tRequestHeader append Accept-Encoding \"gzip,deflate\" env=HAVE_Accept-Encoding\r\n\t\t<\/IfModule>\r\n\t<\/IfModule>\r\n\t<IfModule mod_filter.c>\r\n\t\tAddOutputFilterByType DEFLATE \"application\/atom+xml application\/javascript application\/json application\/ld+json application\/manifest+json application\/rdf+xml application\/rss+xml application\/schema+json application\/geo+json application\/vnd.ms-fontobject application\/wasm application\/x-font-ttf application\/x-javascript application\/x-web-app-manifest+json application\/xhtml+xml application\/xml font\/eot font\/opentype font\/otf font\/ttf image\/bmp image\/svg+xml image\/vnd.microsoft.icon image\/x-icon text\/cache-manifest text\/calendar text\/css text\/html text\/javascript text\/plain text\/markdown text\/vcard text\/vnd.rim.location.xloc text\/vtt text\/x-component text\/x-cross-domain-policy text\/xml\"\r\n\t<\/IfModule>\r\n\t<IfModule mod_mime.c>\r\n\t\tAddEncoding gzip              svgz\r\n\t<\/IfModule>\r\n<\/IfModule>",
 							"content": "[htaccess GZIP Settings](https://github.com/h5bp/server-configs-apache/blob/main/dist/.htaccess). [Apache](https://github.com/h5bp/server-configs-apache) and [NGINX](https://github.com/h5bp/server-configs-nginx) boilerplates are available."
 						}
@@ -3984,13 +4147,15 @@
 							"AWS WAF: SUS04-BP05 - Remove unneeded or redundant data": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_data_a6.html",
 							"AWS WAF: SUS04-BP08 - Back up data only when difficult to recreate": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_data_a9.html",
 							"Dark Data Is Leaving a Huge Carbon Footprint, And We Have to Do Something About It": "https://www.sciencealert.com/dark-data-is-leaving-a-huge-carbon-footprint-and-we-have-to-do-something-about-it",
+							"Dark data is killing the planet - we need digital decarbonisation": "https://theconversation.com/dark-data-is-killing-the-planet-we-need-digital-decarbonisation-190423",
 							"Data Compression": "https://www.barracuda.com/support/glossary/data-compression",
 							"Exploring the sustainability challenges facing digitalization and internet data centers": "https://www.sciencedirect.com/science/article/pii/S0959652622032115",
 							"[GR491] 3-7041 - Transfer Compression": "https://gr491.isit-europe.org/en/crit.php?id=3-7041-backend-the-essential-exchanges-should-make-it-possible",
 							"Green by Default": "https://screenspan.net/blog/green-by-default/",
 							"Microsoft Azure WAF: Batch Processing": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-platform#run-batch-workloads-during-low-carbon-intensity-periods",
 							"Microsoft Azure WAF: Only store what is relevant": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-storage#only-store-what-is-relevant",
-							"The Cloud Is Material": "https://mit-serc.pubpub.org/pub/the-cloud-is-material/release/1?readingCollection=b2d8aadb"
+							"The Cloud Is Material": "https://mit-serc.pubpub.org/pub/the-cloud-is-material/release/1?readingCollection=b2d8aadb",
+							"Why data has a sustainability problem": "https://venturebeat.com/data-infrastructure/why-data-has-a-sustainability-problem/"
 						}
 					],
 					"tags": ["Content", "Performance", "Hardware", "E-Waste", "Privacy"]
@@ -4000,9 +4165,11 @@
 		{
 			"id": "5",
 			"name": "Business Strategy And Product Management",
+			"shortName": "Business & Product Strategy",
 			"guidelines": [
 				{
 					"id": "1",
+					"url": "https://w3c.github.io/sustyweb/#have-an-ethical-and-sustainability-product-strategy",
 					"guideline": "Have an Ethical and Sustainability Product Strategy",
 					"description": "Create a publicly available statement in an easy-to-find location on your website that outlines a clear commitment to prioritize ethics and sustainability ESG standards which align with the organization's mission, vision, and values and includes statements specific to digital products, services, policies, and programs. This should be done while actively promoting such efforts (with evidence) using social channels.",
 					"criteria": [
@@ -4061,11 +4228,13 @@
 						{
 							"6 steps to reduce the carbon footprint of your website": "https://opensource.com/article/23/3/reduce-carbon-footprint-website",
 							"A Guide To Developing Your Organization's Code of Ethics (PDF)": "https://www.shrm.org/about-shrm/documents/organization-coe.pdf",
+							"Action Plan for Sustainable Planet in the Digital Age (PDF)": "https://www.sparkblue.org/codesactionplanlaunch",
 							"[AFNOR] Spec 5.2.3 and 5.4.4 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Are my third parties green?": "https://aremythirdpartiesgreen.com/",
 							"Best Sustainability Statements": "https://peaksci.com/blog/sustainability-statements",
 							"Built With": "https://builtwith.com/",
-							"Creating a company's first sustainability report": "https://www.corporatesecretary.com/articles/esg/33373/creating-company%E2%80%99s-first-sustainability-report",
+							"Can the Internet Survive Climate Change?": "https://newrepublic.com/article/155993/can-internet-survive-climate-change",
+							"Creating a company's first sustainability report": "https://www.governance-intelligence.com/esg/creating-companys-first-sustainability-report",
 							"Defining ESG vs. Sustainability": "https://www.brightest.io/esg-sustainability-difference",
 							"Digital Eco-Design: L'intérêt de communiquer (French)": "https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#communiquer-sans-greenwashing",
 							"Digital Eco-Design: Sensibiliser les utilisateurs (French)": "https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#Sensibiliser-utilisateurs",
@@ -4073,7 +4242,7 @@
 							"ESG and Sustainability": "https://greenbusinessbureau.com/topics/sustainability-benefits-topics/esg-and-sustainability-your-101-guide-for-understanding-corporate-sustainability/",
 							"[GR491] 2-3014 - Compliance Labelling": "https://gr491.isit-europe.org/en/crit.php?id=2-3014-uxui-a-number-of-resources-are-available-to",
 							"Green Web Checker": "https://www.thegreenwebfoundation.org/green-web-check/",
-							"How to amplify your sustainability efforts through your user-experience": "https://www.thinkwithgoogle.com/intl/en-gb/future-of-marketing/creativity/sustainability-user-experience/",
+							"How to amplify your sustainability efforts through your user-experience": "https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/creativity/sustainability-user-experience/",
 							"How to Build Effective Sustainability Governance Structures": "https://www.bsr.org/en/blog/how-to-build-effective-sustainability-governance-structures",
 							"How To Create Your Own Code of Ethics (With Examples)": "https://www.indeed.com/career-advice/career-development/create-code-of-ethics",
 							"How To Write a Code of Ethics: 5 Steps to Follow": "https://www.contractscounsel.com/b/how-to-write-a-code-of-ethics",
@@ -4098,6 +4267,7 @@
 				},
 				{
 					"id": "2",
+					"url": "https://w3c.github.io/sustyweb/#assign-a-sustainability-representative",
 					"guideline": "Assign a Sustainability Representative",
 					"description": "Having someone within an organization who represents sustainability as a core agenda makes good sense due to the accessibility, performance, financial, and other benefits which can occur from following best practices.",
 					"criteria": [
@@ -4132,6 +4302,7 @@
 					],
 					"resources": [
 						{
+							"Chief sustainability officer": "https://en.wikipedia.org/wiki/Chief_sustainability_officer",
 							"Does Your Organization Need a Chief Sustainability Officer?": "https://www.gartner.com/en/articles/does-your-organization-need-a-chief-sustainability-officer",
 							"Organizing for sustainability success": "https://www.mckinsey.com/capabilities/sustainability/our-insights/organizing-for-sustainability-success-where-and-how-leaders-can-start",
 							"[RGESN] (French) 1.8 - Sustainability Representative": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.8/"
@@ -4141,6 +4312,7 @@
 				},
 				{
 					"id": "3",
+					"url": "https://w3c.github.io/sustyweb/#raise-awareness-and-inform",
 					"guideline": "Raise Awareness and Inform",
 					"description": "Businesses should not only reference their own materials showcasing how they are working towards becoming sustainable, but cite existing sustainability best practices to help others looking to make similar changes within their own work or personal environments.",
 					"criteria": [
@@ -4179,8 +4351,11 @@
 							"[AFNOR] Spec 5.5.1 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Climate Voice": "https://climatevoice.org/",
 							"Digital Eco-Design: Convaincre et diffuser (French)": "https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html",
+							"Five Dimensions of Sustainable Software Engineering and How Education Can Help!": "https://luiscruz.github.io/2022/01/01/sustainable-se-intro.html",
 							"[GR491] 2-3011 - Stakeholder Awareness": "https://gr491.isit-europe.org/en/crit.php?id=2-3011-uxui-to-accede-you-have-to-understand.-sustainable",
 							"[GR491] 2-3015 - Reference Materials": "https://gr491.isit-europe.org/en/crit.php?id=2-3015-uxui-users-posture-remains-one-of-the-points",
+							"How to amplify your sustainability efforts through your user experience": "https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/creativity/sustainability-user-experience/",
+							"Make Sustainability Part of Everybody's Job": "https://techcommunity.microsoft.com/t5/green-tech-blog/make-sustainability-part-of-everybody-s-job/ba-p/3146718",
 							"Planet Centric Design": "https://planetcentricdesign.com/",
 							"Sustainable Web Development Strategies Within An Organization": "https://www.smashingmagazine.com/2022/10/sustainable-web-development-strategies-organization/"
 						}
@@ -4189,6 +4364,7 @@
 				},
 				{
 					"id": "4",
+					"url": "https://w3c.github.io/sustyweb/#communicate-the-ecological-impact-of-user-choices",
 					"guideline": "Communicate the Ecological Impact of User Choices",
 					"description": "Allowing the visitor to take action to reduce their emissions is key to helping them play a part in becoming more sustainable. By helping them identify when choices they make could have an environmental impact (and by how much) and then providing them with the tooling choices to reduce their footprint, you can empower them to make a lasting difference.",
 					"criteria": [
@@ -4230,6 +4406,7 @@
 				},
 				{
 					"id": "5",
+					"url": "https://w3c.github.io/sustyweb/#estimate-a-product-or-service-s-environmental-impact",
 					"guideline": "Estimate a Product or Service's Environmental Impact",
 					"description": "Being able to identify key issues with your website or application is essential, and while not a foolproof method, using tooling can help you achieve an overall idea about the state of your product or service's environmental state (as such tools can do for accessibility).",
 					"criteria": [
@@ -4269,6 +4446,11 @@
 						{
 							"[AFNOR] Spec 5.1.3 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Digital Eco-Design: Assess and measure": "https://eco-conception.designersethiques.org/guide/en/content/2-evaluate.html",
+							"ETSI ES 203 199 (PDF)": "https://www.etsi.org/deliver/etsi_es/203100_203199/203199/01.03.01_60/es_203199v010301p.pdf",
+							"GreenIT: Appendices to the Report (PDF)": "https://www.greenit.fr/wp-content/uploads/2021/12/EU-Study-Appendices-to-the-LCA-EN.pdf",
+							"GreenIT: Behind the Figures (PDF)": "https://www.greenit.fr/wp-content/uploads/2021/12/EU-Study-Final-Behind-the-figures-EN_compressed.pdf",
+							"GreenIT: Digital Technologies in Europe (PDF)": "https://www.greenit.fr/wp-content/uploads/2021/12/EU-Study-LCA-7-DEC-EN.pdf",
+							"Principles for Designing Sustainable Services": "https://medium.com/wearesnook/principles-for-designing-sustainable-services-bbf3f3948ac2",
 							"[RGESN] (French) 1.4 - Hardware Profiles": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.4/",
 							"Understanding Digital life-cycle Assessments": "https://www.mightybytes.com/blog/digital-life-cycle-assessment/"
 						}
@@ -4277,6 +4459,7 @@
 				},
 				{
 					"id": "6",
+					"url": "https://w3c.github.io/sustyweb/#define-clear-organizational-sustainability-goals-and-metrics",
 					"guideline": "Define Clear Organizational Sustainability Goals and Metrics",
 					"description": "Define sustainability goals for the organization to meet and incorporate into its business model. Pair each goal with at least one clear, achievable metric or Key Performance Indicator (KPI).",
 					"criteria": [
@@ -4311,6 +4494,7 @@
 						{
 							"B Corperation Standards": "https://www.bcorporation.net/en-us/standards/",
 							"Corporate Digital Responsibility": "https://corporatedigitalresponsibility.net/cdr-manifesto",
+							"Implementing the Sustainable Development Goals": "https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2",
 							"Science Based Targets": "https://sciencebasedtargets.org/",
 							"Sustainable Development Goals": "https://sdgs.un.org/goals",
 							"United Nations Global Impact": "https://unglobalcompact.org/"
@@ -4320,6 +4504,7 @@
 				},
 				{
 					"id": "7",
+					"url": "https://w3c.github.io/sustyweb/#verify-your-efforts-using-established-third-party-business-certifications",
 					"guideline": "Verify Your Efforts Using Established Third-Party Business Certifications",
 					"description": "Business certifications can fill the gaps left by incomplete sustainability legislation. Ensuring a business complies with third-party certifications will help verify and apply an objective level of rigor to an organization's sustainability efforts.",
 					"criteria": [
@@ -4361,8 +4546,10 @@
 							"Blue Angel (German)": "https://www.blauer-engel.de/en",
 							"Improving your BIA score": "https://bcorporation.uk/b-corp-certification/how-to-certify-as-a-b-corp/improving-your-score/",
 							"ISO 14001 - Environmental management": "https://www.iso.org/iso-14001-environmental-management.html",
+							"ISO 14067:2018 - Greenhouse gases": "https://www.iso.org/standard/71206.html",
 							"ISO 27001 - Information security management": "https://www.vanta.com/products/iso-27001",
 							"ISO 50001 - Energy management": "https://www.iso.org/iso-50001-energy-management.html",
+							"ISO Guide 84:2020 - Guidelines for addressing climate change in standards": "https://www.iso.org/standard/72496.html",
 							"Label numérique responsable (French)": "https://institutnr.org/label-numerique-responsable",
 							"PlanetMark": "https://www.planetmark.com/"
 						}
@@ -4371,6 +4558,7 @@
 				},
 				{
 					"id": "8",
+					"url": "https://w3c.github.io/sustyweb/#implement-sustainability-onboarding-guidelines",
 					"guideline": "Implement Sustainability Onboarding Guidelines",
 					"description": "The organization has clear onboarding and training processes that include ESG policies and practices with explicit references to digital sustainability and responsibility. Ensure that onboarding utilizes a \"green by default\" process and avoids being an opt-in procedure. This applies equally at an organizational level and to visitors and consumers of your products and services.",
 					"criteria": [
@@ -4417,6 +4605,7 @@
 							"Green by Default": "https://screenspan.net/blog/green-by-default/",
 							"Green Upskilling": "https://2030.builders/green-upskilling-why-companies-need-to-train-employees-to-meet-the-demand-of-a-sustainable-economy/",
 							"Green by default": "https://theecologist.org/2016/sep/27/green-default-how-nudge-and-wink-can-save-planet",
+							"How to design a green website (PPTx)": "https://docs.google.com/presentation/d/1XWdCVYAzTuUDi--SVd8Je8hiKpITNuCM/edit",
 							"How to Facilitate More Sustainable Design Workshops": "https://www.mightybytes.com/blog/facilitate-sustainable-design-workshops/",
 							"Systemic Design Toolkit": "https://www.systemicdesigntoolkit.org/",
 							"Tarot Cards of Tech": "https://tarotcardsoftech.artefactgroup.com/",
@@ -4429,6 +4618,7 @@
 				},
 				{
 					"id": "9",
+					"url": "https://w3c.github.io/sustyweb/#support-mandatory-disclosures-and-reporting",
 					"guideline": "Support Mandatory Disclosures and Reporting",
 					"description": "The organization discloses and reports its ESG impact on at least an annual basis.",
 					"criteria": [
@@ -4497,6 +4687,7 @@
 				},
 				{
 					"id": "10",
+					"url": "https://w3c.github.io/sustyweb/#create-one-or-more-impact-business-models",
 					"guideline": "Create One or More Impact Business Models",
 					"description": "An Impact Business Model enables an organization to incorporate specific impact initiatives into one or more business models for generating revenue, often making them \"green by default\" and folding impact initiatives into the organization's operating system. Moreover, being able to calculate the return on investment in terms of sustainability your product or service will bring is important to identifying whether it poses a net-positive or net-negative effect on the environment.",
 					"criteria": [
@@ -4536,7 +4727,6 @@
 							"Models of Impact": "https://www.modelsofimpact.co/",
 							"Profits with purpose": "https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Sustainability/Our%20Insights/Profits%20with%20purpose/Profits%20with%20Purpose.ashx",
 							"Sustainability innovations and firm competitiveness": "https://www.sciencedirect.com/science/article/pii/S0959652620347594",
-							"The Impact Business Model Canvas": "https://www.impactbusinessmodelcanvas.com/",
 							"United Nations Theory of Change (PDF)": "https://unsdg.un.org/sites/default/files/UNDG-UNDAF-Companion-Pieces-7-Theory-of-Change.pdf"
 						}
 					],
@@ -4544,6 +4734,7 @@
 				},
 				{
 					"id": "11",
+					"url": "https://w3c.github.io/sustyweb/#follow-a-product-management-and-maintenance-strategy",
 					"guideline": "Follow a Product Management and Maintenance Strategy",
 					"description": "The organization has clearly defined governance policies around how it manages and maintains digital products and services over time.",
 					"criteria": [
@@ -4588,8 +4779,10 @@
 					],
 					"resources": [
 						{
+							"21 Product Management Frameworks": "https://productfolio.com/21-product-management-frameworks/",
 							"Code Refactoring: Meaning, Benefits and Best Practices": "https://maddevs.io/blog/code-refactoring/",
 							"Complete Website Maintenance Checklist": "https://www.dreamhost.com/blog/complete-website-maintenance-checklist/",
+							"Consequence Scanning": "https://doteveryone.org.uk/project/consequence-scanning/",
 							"Developing Killer Website Maintenance Plans": "https://www.thundertech.com/blog-news/september-2021/developing-website-maintenance-plans",
 							"Digitalization for sustainable maintenance services": "https://www.sciencedirect.com/science/article/pii/S2666954421000107",
 							"Green software: Refactoring approach": "https://www.sciencedirect.com/science/article/pii/S1319157820305164",
@@ -4608,6 +4801,7 @@
 				},
 				{
 					"id": "12",
+					"url": "https://w3c.github.io/sustyweb/#implement-continuous-improvement-procedures",
 					"guideline": "Implement Continuous Improvement Procedures",
 					"description": "The organization has policies and practices in place to embrace experimentation, foster a growth mindset, support organizational agility, and provide continuous improvement. Product creators should iterate, regularly, though never at the cost of getting things done (such as working on larger, long-term features).",
 					"criteria": [
@@ -4685,7 +4879,7 @@
 							"How B Corp Certification Guides Rituals on a Journey of Continuous Improvement": "https://bthechange.com/how-b-corp-certification-helped-rituals-embark-on-a-journey-of-continuous-improvement-87fe8fbfd8d9",
 							"How to Design a Sustainable Data Strategy": "https://www.mightybytes.com/blog/design-a-sustainable-data-strategy/",
 							"Measuring Web Performance": "https://www.keycdn.com/blog/measuring-web-performance",
-							"Measuring Web Performance in 2023": "https://requestmetrics.com/web-performance/measure-web-performance",
+							"Measuring Web Performance in 2023": "https://requestmetrics.github.io/web-performance/measure-web-performance/",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
 							"[RGESN] (French) 1.11 - Compliance Reviews": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.11/",
 							"[RGESN] (French) 1.12 - Ecodesign Statement": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.12/",
@@ -4709,6 +4903,7 @@
 				},
 				{
 					"id": "13",
+					"url": "https://w3c.github.io/sustyweb/#document-future-updates-and-evolutions",
 					"guideline": "Document Future Updates and Evolutions",
 					"description": "Products or services update regularly, ensure that additions, changes, deprecations, removals, fixes, or security patches are documented in an easy-to-read document with details that showcase how such changes affect the visitor (or how they can take advantage of new features).",
 					"criteria": [
@@ -4752,12 +4947,13 @@
 				},
 				{
 					"id": "14",
+					"url": "https://w3c.github.io/sustyweb/#establish-if-a-digital-product-or-service-is-necessary",
 					"guideline": "Establish if a Digital Product or Service Is Necessary",
 					"description": "Ensure that the product or service you are creating offers value to visitors and doesn't duplicate existing functionality (without bringing something new to the table) as this redundancy wastes digital and physical resources.",
 					"criteria": [
 						{
 							"title": "Sustainable Development Goals",
-							"description": "Review and identify whether your product or service aligns with one of the U.N. (SDG's)."
+							"description": "Review and identify whether your product or service aligns with one of the U.N. (SDGs)."
 						},
 						{
 							"title": "Creation Evaluation",
@@ -4808,7 +5004,7 @@
 							"[RGESN] (French) 1.3 - Needs And Expectations": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.3/",
 							"Society Centered Design": "https://societycentered.design/",
 							"Sustainability Innovation Framework": "https://www.figma.com/community/file/1198811753322710709/sustainability-innovation-framework-climatesprint",
-							"Sustainable Development Goals (SDG's)": "https://en.wikipedia.org/wiki/Sustainable_Development_Goals",
+							"Sustainable Development Goals (SDGs)": "https://en.wikipedia.org/wiki/Sustainable_Development_Goals",
 							"Sustainable Development Goals": "https://sdgs.un.org/goals",
 							"Sustainable UX is more than reducing your website's footprint": "https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f",
 							"What's a Competitive Analysis & How Do You Conduct One?": "https://blog.hubspot.com/marketing/competitive-analysis-kit"
@@ -4818,6 +5014,7 @@
 				},
 				{
 					"id": "15",
+					"url": "https://w3c.github.io/sustyweb/#determine-the-functional-unit",
 					"guideline": "Determine the Functional Unit",
 					"description": "The functional unit of a product is a quantified description of the performance requirements that the product fulfills. Ensure you identify the requirements of your product before development.",
 					"criteria": [
@@ -4861,6 +5058,7 @@
 				},
 				{
 					"id": "16",
+					"url": "https://w3c.github.io/sustyweb/#create-a-supplier-standards-of-practice",
 					"guideline": "Create a Supplier Standards of Practice",
 					"description": "The organization collaborates with suppliers, authors, clients, and other partners on initiatives that are both mutually beneficial and create positive social and environmental outcomes.",
 					"criteria": [
@@ -4915,6 +5113,7 @@
 				},
 				{
 					"id": "17",
+					"url": "https://w3c.github.io/sustyweb/#share-economic-benefits",
 					"guideline": "Share Economic Benefits",
 					"description": "The organization shares the economic benefits of its digital products, services, policies, and programs.",
 					"criteria": [
@@ -4978,6 +5177,7 @@
 				},
 				{
 					"id": "18",
+					"url": "https://w3c.github.io/sustyweb/#share-decision-making-power-with-appropriate-stakeholders",
 					"guideline": "Share Decision-Making Power With Appropriate Stakeholders",
 					"description": "Ensuring that everyone has a seat at the table is important to promoting voices who may not otherwise have their voices heard, and potentially getting useful ideas from fresh sources.",
 					"criteria": [
@@ -5017,6 +5217,7 @@
 				},
 				{
 					"id": "19",
+					"url": "https://w3c.github.io/sustyweb/#use-justice-equity-diversity-inclusion-jedi-practices",
 					"guideline": "Use Justice, Equity, Diversity, Inclusion (JEDI) Practices",
 					"description": "The organization has public policies and practices supporting racial justice, inclusion, equity, and diversity in hiring and operations.",
 					"criteria": [
@@ -5074,7 +5275,7 @@
 							"How accessibility benefits your business": "https://businessdisabilityforum.org.uk/knowledge-hub/resources/how-accessibility-benefits-your-business/",
 							"How to Write an Accessibility Statement: Everything You Need to Know": "https://blog.hubspot.com/website/accessibility-statements",
 							"JEDI Collaborative": "https://jedicollaborative.com/",
-							"JEDI Investing Toolkit": "https://jediinvesting.com/",
+							"JEDI Investing Toolkit": "https://www.jediinvesting.com/",
 							"Managers, Here's How to Advocate for Pay Equity": "https://hbr.org/2021/11/managers-heres-how-to-advocate-for-pay-equity",
 							"Racism and inequity are products of design. They can be redesigned.": "https://medium.com/@equityXdesign/racism-and-inequity-are-products-of-design-they-can-be-redesigned-12188363cc6a",
 							"Sample accessibility statement": "https://www.gov.uk/government/publications/sample-accessibility-statement",
@@ -5091,6 +5292,7 @@
 				},
 				{
 					"id": "20",
+					"url": "https://w3c.github.io/sustyweb/#promote-responsible-data-practices",
 					"guideline": "Promote Responsible Data Practices",
 					"description": "The organization has devised and implemented a responsible data strategy that prioritizes data privacy and promotes more ethical uses of data, including disposal and data sustainability practices.",
 					"criteria": [
@@ -5124,7 +5326,7 @@
 					],
 					"example": [
 						{
-							"content": "The Airbnb [Privacy Policy](https://www.airbnb.ca/help/article/3175) includes compliance with [emerging legislation](https://www.airbnb.ca/help/article/2855/), [data ownership](https://www.airbnb.ca/help/article/2273), and measurable progress through [previous versions](https://www.airbnb.ca/help/article/2859/). The Telegram [Privacy Policy](https://telegram.org/privacy) includes detailed data practices, references to local legislation, and shows change over time. The [Slack Trust](https://slack.com/intl/en-gb/trust) section is inclusive of [privacy](https://slack.com/intl/en-gb/trust/data-management/privacy-principles), security, compliance, ownership, and more; including a description of how data informs [search, ML, and AI](https://slack.com/intl/en-gb/trust/data-management/privacy-principles). Finally, CodePen has a beautifully structured [terms of service](https://blog.codepen.io/documentation/terms-of-service/) agreement, written in plain English, and is easy to understand."
+							"content": "The Airbnb [Privacy Policy](https://www.airbnb.ca/help/article/3175) includes compliance with [emerging legislation](https://www.airbnb.ca/help/article/2855/), [data ownership](https://www.airbnb.ca/help/article/2273), and measurable progress through [previous versions](https://www.airbnb.ca/help/article/2859/). The Telegram [Privacy Policy](https://telegram.org/privacy) includes detailed data practices, references to local legislation, and shows change over time. The [Slack Trust](https://slack.com/intl/en-gb/trust) section is inclusive of [privacy](https://slack.com/intl/en-gb/trust/data-management/privacy-principles), security, compliance, ownership, and more; including a description of how data informs [search, Machine Language, and Artificial Intelligence](https://slack.com/intl/en-gb/trust/data-management/privacy-principles). Finally, CodePen has a beautifully structured [terms of service](https://blog.codepen.io/documentation/terms-of-service/) agreement, written in plain English, and is easy to understand."
 						}
 					],
 					"resources": [
@@ -5141,7 +5343,7 @@
 							"How To Protect Your Users With The Privacy By Design Framework": "https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/",
 							"Is GDPR Good for the Environment?": "https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/",
 							"Learn How To Write a Privacy Policy in a Few Easy Steps": "https://dataprot.net/guides/how-to-write-a-privacy-policy/",
-							"Learn Privacy": "https://web.dev/introducing-learn-privacy/",
+							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy",
 							"Privacy by design": "https://en.wikipedia.org/wiki/Privacy_by_design",
 							"State Of GDPR Part 1": "https://www.smashingmagazine.com/2021/02/state-gdpr-2021-key-updates/",
 							"State Of GDPR Part 2": "https://www.smashingmagazine.com/2021/03/state-gdpr-2021-cookie-consent-designers-developers/"
@@ -5151,6 +5353,7 @@
 				},
 				{
 					"id": "21",
+					"url": "https://w3c.github.io/sustyweb/#implement-appropriate-data-management-procedures",
 					"guideline": "Implement Appropriate Data Management Procedures",
 					"description": "Expired or unused data has a cost, it takes up space, and it requires maintenance. As such, the ability for customers to manage their own data and for service providers to manage older website material which no longer applies but might still have use will be a carbon benefit.",
 					"criteria": [
@@ -5190,6 +5393,7 @@
 						{
 							"[AFNOR] Spec 5.2.4 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Digital Eco-Design: Test, assess and maintain": "https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html",
+							"EU Cyber Resilience Act": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
 							"Evergreen Content is More Sustainable": "https://www.mightybytes.com/blog/content-governance-evergreen-content/",
 							"[GR491] 1-7006 - Obsolete Data": "https://gr491.isit-europe.org/en/crit.php?id=1-7006-backend-the-regulations-require-control-of-the-data",
 							"[GR491] 1-7016 - Expiration Dates": "https://gr491.isit-europe.org/en/crit.php?id=1-7016-backend-the-specifications-reveal-data-collections-of-asynchronous",
@@ -5200,7 +5404,7 @@
 							"How to Build a Low-tech Website?": "https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/",
 							"How To Manage Your Old & Outdated Content": "https://searchengineland.com/manage-old-outdated-content-226195",
 							"How To Protect Your Users With The Privacy By Design Framework": "https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/",
-							"Learn Privacy": "https://web.dev/introducing-learn-privacy/",
+							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy",
 							"OpQuast 19 - Accounts and subscriptions opened online can be closed online by the same method.": "https://checklists.opquast.com/en/web-quality-assurance/accounts-and-subscriptions-opened-online-can-be-closed-online",
 							"Privacy UX: Privacy-Aware Design Framework": "https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/",
 							"[RGESN] (French) 2.1 - Design And Code Review": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/2.1/",
@@ -5213,12 +5417,13 @@
 				},
 				{
 					"id": "22",
-					"guideline": "Promote Responsible Emerging Technology Practices",
+					"url": "https://w3c.github.io/sustyweb/#promote-responsible-emerging-technology-practices",
+					"guideline": "Promote and Implement Responsible Emerging Technology Practices",
 					"description": "The organization has devised and implemented responsible policies related to artificial intelligence, Internet of Things (IoT), blockchain, and related emerging technologies.",
 					"criteria": [
 						{
 							"title": "Emerging Technologies",
-							"description": "The organization has public-facing policies in place for emerging technologies."
+							"description": "The organization has public-facing policies in place for emerging technologies, and all such technologies are ethically sourced, screened, validated, and implemented in a non-discriminatory, responsible manner."
 						},
 						{
 							"title": "Disruptive Technology",
@@ -5253,16 +5458,22 @@
 					"resources": [
 						{
 							"3rd Global CryptoAsset Benchmarking Study (PDF)": "https://www.jbs.cam.ac.uk/wp-content/uploads/2021/01/2021-ccaf-3rd-global-cryptoasset-benchmarking-study.pdf",
+							"A sustainable internet: Missing pieces to a healthy future": "https://www.orfonline.org/expert-speak/sustainable-internet-missing-pieces-healthy-future/",
 							"AI Environmental Equity": "https://themarkup.org/hello-world/2023/07/08/ai-environmental-equity-its-not-easy-being-green",
 							"AI Regulation Around The World": "https://www.taylorwessing.com/en/interface/2023/ai---are-we-getting-the-balance-between-regulation-and-innovation-right/ai-regulation-around-the-world",
 							"Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models": "https://arxiv.org/abs/2007.03051",
 							"Crypto and blockchain must accept they have a problem, then lead in sustainability": "",
 							"Cryptocurrency's Dirty Secret: Energy Consumption": "https://techcrunch.com/2021/05/16/crypto-and-blockchain-must-accept-they-have-a-problem-then-lead-in-sustainability/amp/",
+							"Digital aspects and the environment": "https://dig.watch/trends/digital-and-environment",
 							"Digital education: The unique learning ecosystem TechUcation": "https://www.ottogroup.com/en/stories/story/story-techucation.php",
+							"How might we shape the future of a greener Internet? (PDF)": "https://trello-attachments.s3.amazonaws.com/5ebe50461cdc203af62d5e5d/5f1959cb638a3c1fe7c8abe3/8c9913f7876a417ede6e55d90f4d7f61/Lu_Ye_Final_Report.pdf",
 							"In battle against climate crisis, don't overlook the blockchain": "https://www.unep.org/news-and-stories/story/battle-against-climate-crisis-dont-overlook-blockchain",
 							"Sustainability of Bitcoin and its Impact on the Environment": "https://grc.berkeley.edu/the-sustainability-of-bitcoin-and-its-impact-on-the-environment/",
+							"Sustainable Ux in VR (PPT)": "https://docs.google.com/presentation/d/1OTXaz3RuV0HWgM754PRMUC7d2KYVHH974s5hnAt53wk/edit",
 							"The cyber-consciousness of environmental assessment": "https://iopscience.iop.org/article/10.1088/1748-9326/ac413b",
+							"The growing energy footprint of artificial intelligence": "https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3",
 							"The role of artificial intelligence in achieving the Sustainable Development Goals": "https://www.nature.com/articles/s41467-019-14108-y",
+							"What is the environmental impact of Web3?": "https://venturebeat.com/business/what-is-the-environmental-impact-of-web3/",
 							"Why Blockchain, NFTs, And Web3 Have A Sustainability Problem": "https://www.forbes.com/sites/bernardmarr/2023/01/13/why-blockchain-nfts-and-web3-have-a-sustainability-problem/",
 							"Why We Need To Be UpSkilling The Current Workforce For The Green Economy": "https://social.hays.com/2022/09/29/why-we-need-to-be-upskilling-the-current-workforce-for-the-green-economy/"
 						}
@@ -5271,6 +5482,7 @@
 				},
 				{
 					"id": "23",
+					"url": "https://w3c.github.io/sustyweb/#include-responsible-financial-policies",
 					"guideline": "Include Responsible Financial Policies",
 					"description": "The organization implements responsible finance strategies, including divesting from fossil fuels and appropriately resourcing digital products and services to account for long-term care and maintenance.",
 					"criteria": [
@@ -5322,6 +5534,7 @@
 				},
 				{
 					"id": "24",
+					"url": "https://w3c.github.io/sustyweb/#include-organizational-philanthropy-policies",
 					"guideline": "Include Organizational Philanthropy Policies",
 					"description": "For-profit organizations have clear philanthropy policies and practices in place to help non-profit organizations build digital capacity and acumen while also engaging their own teams in meaningful work that promotes shared learning and stretch goals.",
 					"criteria": [
@@ -5367,6 +5580,7 @@
 				},
 				{
 					"id": "25",
+					"url": "https://w3c.github.io/sustyweb/#plan-for-a-digital-product-or-service-s-care-and-end-of-life",
 					"guideline": "Plan for a Digital Product or Service's Care and End-of-Life",
 					"description": "Everything ends at some point, planning for if and when a product or service is finalized makes good ethical sense to ensure customers can be transitioned toward a replacement rather than losing access to their data.",
 					"criteria": [
@@ -5412,6 +5626,7 @@
 				},
 				{
 					"id": "26",
+					"url": "https://w3c.github.io/sustyweb/#include-e-waste-right-to-repair-and-recycling-policies",
 					"guideline": "Include E-Waste, Right-To-Repair, and Recycling Policies",
 					"description": "The organization addresses e-waste, right-to-repair, recycling, and related practices in its operations.",
 					"criteria": [
@@ -5451,6 +5666,8 @@
 					],
 					"resources": [
 						{
+							"Carbon Emission Implications of ICT Re-use at the University of Edinburgh (PDF)": "https://www.societybyte.swiss/en/2020/04/09/digitization-and-the-environment-opportunities-risks-and-the-need-for-action/",
+							"Digitization and the Environment": "https://www.societybyte.swiss/en/2020/04/09/digitization-and-the-environment-opportunities-risks-and-the-need-for-action/",
 							"Electronic waste": "https://en.wikipedia.org/wiki/Electronic_waste",
 							"Future trends of Green All Optical Networks and ICT Infrastructure in a large context": "https://www.researchgate.net/publication/368690756_Future_trends_of_Green_All_Optical_Networks_and_ICT_Infrastructure_in_a_large_context_-_trends_to_2050",
 							"How Companies Are Addressing The e-waste Problem": "https://www.forbes.com/sites/serenitygibbons/2021/10/21/how-companies-are-addressing-the-e-waste-problem/",
@@ -5460,14 +5677,16 @@
 							"How to write an environmental policy (PDF)": "https://www.sustainablebusinesstoolkit.com/wp-content/uploads/2012/12/How-to-write-an-environmental-policy-Sustainable-Business-Toolkit.pdf",
 							"How Your Business Can Unpack and Prioritize Sustainability Through Recycling": "https://www.entrepreneur.com/green-entrepreneur/how-your-business-can-unpack-the-importance-of-recycling/438815",
 							"Materials & Parts": "https://sustainabilityguide.eu/ecodesign/materials-parts/",
-							"Sources and Streams of Electronic Waste": "https://www.cell.com/one-earth/fulltext/S2590-3322(20)30307-9",
-							"Reduce, reuse, recycle": "https://www.green.earth/blog/reduce-reuse-recycle-7-ways-for-businesses-to-reduce-waste"
+							"Reduce, reuse, recycle": "https://www.green.earth/blog/reduce-reuse-recycle-7-ways-for-businesses-to-reduce-waste",
+							"To Green the Internet, We Need RIPE": "https://labs.ripe.net/author/michael_oghia/to-green-the-internet-we-need-ripe/",
+							"Sources and Streams of Electronic Waste": "https://www.cell.com/one-earth/fulltext/S2590-3322(20)30307-9"
 						}
 					],
 					"tags": ["Social Equity", "Content", "Ideation", "Hardware", "E-Waste", "Governance"]
 				},
 				{
 					"id": "27",
+					"url": "https://w3c.github.io/sustyweb/#define-performance-and-environmental-budgets",
 					"guideline": "Define Performance and Environmental Budgets",
 					"description": "Setting targets and limits regarding your product or service is important for keeping a sustainable mindset. Using budgets, you can declare the remits of which you will work within to ensure your emissions do not fall outside (and monitor your progress through development).",
 					"criteria": [
@@ -5493,7 +5712,7 @@
 					"benefits": [
 						{
 							"Environmental": "A strict sustainability or performance budget will reduce the chance of your website getting too large (and causing pollution transfers), which in turn will ensure it has a minimal impact on a visitor's device. This will have a direct impact on emissions' reduction by forcing businesses to choose where to make reductions and efficiency savings.",
-							"Performance": "Keeping realistic goals regarding delivery size will push developers to optimize resource-heavy projects and reconsider using large tooling in place of lightweight alternatives. Moreover, A lower set target budget for a product or service will decrease the amount of time a browser spends transferring and rendering data (reducing emissions).",
+							"Performance": "Keeping realistic goals regarding delivery size will push developers to optimize resource-heavy projects and reconsider using large tooling in place of lightweight alternatives. Moreover, A lower set target budget for a product or service will decrease the amount of time a browser spends transferring and rendering data.",
 							"Economic": "Customers will not have to keep upgrading devices to match the needs of a website that grows (unchecked) over time.",
 							"Conversion": "Reduced churn and page abandonment will occur due to the application or website becoming more performant. Potentially, your search engine ranking may perform better due to performance being a key indicator in PageRank algorithms."
 						}
@@ -5517,14 +5736,14 @@
 							"1 in 2 visitor's abandon a website that takes more than 6 seconds to load": "https://digital.com/1-in-2-visitors-abandon-a-website-that-takes-more-than-6-seconds-to-load/",
 							"A Complete Guide to Performance Budgets": "https://www.speedcurve.com/blog/performance-budgets/",
 							"[AFNOR] Spec 5.1.4 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
-							"Are there limits to growth in data traffic? (PDF)": "https://eprints.lancs.ac.uk/id/eprint/79728/1/time_and_data_LIMITS2016_revised.pdf",
+							"Are there limits to growth in data traffic? (PDF)": "https://www.researchgate.net/publication/303748253_Are_there_limits_to_growth_in_data_traffic_on_time_use_data_generation_and_speed",
 							"Audits d'écoconception - conclusion (French)": "https://ldevernay.github.io/green/2020/07/05/audits-conclusion.html",
 							"Browser Rendering Optimization": "https://www.udacity.com/course/browser-rendering-optimization--ud860",
 							"Can You Afford It?: Real-world Web Performance Budgets": "https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/",
 							"CO2 emissions on the web": "https://www.dannyvankooten.com/blog/2020/website-carbon-emissions/",
 							"CO2.js": "https://www.thegreenwebfoundation.org/co2-js/",
 							"Core Web Vitals For SEOs & Developers": "https://ahrefs.com/blog/core-web-vitals/",
-							"Fast Load Times: Set performance budgets": "https://web.dev/fast/#set-performance-budgets",
+							"Fast Load Times: Set performance budgets": "https://web.dev/explore/fast#set-performance-budgets",
 							"Find Out How You Stack Up to New Industry Benchmarks for Mobile Page Speed (PDF)": "https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf",
 							"Front-End Performance 2021: Setting Realistic Goals": "https://www.smashingmagazine.com/2021/01/front-end-performance-setting-realistic-goals/",
 							"[GR491] 1-3009 - Sustainability Budgets": "https://gr491.isit-europe.org/en/crit.php?id=1-3009-uxui-depending-on-the-organizations-level-of-maturity",
@@ -5535,9 +5754,8 @@
 							"Performance Budget Calculator": "https://perf-budget-calculator.firebaseapp.com/",
 							"Performance budget visualizer": "https://codepen.io/bradfrost/pen/EPQVBp/",
 							"Performance budgets": "https://developer.mozilla.org/en-US/docs/Web/Performance/Performance_budgets",
-							"Performance budgets 101": "https://web.dev/performance-budgets-101/",
+							"Performance budgets 101": "https://web.dev/articles/performance-budgets-101",
 							"Performance Budgets: The Easiest Way to a Faster Site": "https://calibreapp.com/blog/performance-budgets",
-							"Pollution transfer (French)": "https://glossaire.eauetbiodiversite.fr/en/concept/pollution-transfer",
 							"Reduce Your Website's Environmental Impact With a Carbon Budget": "https://css-tricks.com/reduce-your-websites-environmental-impact-with-a-carbon-budget/",
 							"[RGESN] (French) 1.9 - Impact Measurement": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.9/",
 							"Situer le numérique (French)": "https://situer-le-numerique.netlify.app/#les-tendances-de-d%C3%A9veloppement-du-num%C3%A9rique",
@@ -5545,7 +5763,7 @@
 							"Sustainable Practices": "https://www.the-public-good.com/web-development/sustainable-practices",
 							"Sustainable Web Design": "https://alistapart.com/article/sustainable-web-design/",
 							"The overlooked environmental footprint of increasing Internet use": "https://www.sciencedirect.com/science/article/abs/pii/S0921344920307072",
-							"Use Lighthouse for performance budgets": "https://web.dev/use-lighthouse-for-performance-budgets/",
+							"Use Lighthouse for performance budgets": "https://web.dev/articles/use-lighthouse-for-performance-budgets",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
 							"Why Your Website Should Be Under 14KB In Size": "https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/"
 						}
@@ -5554,6 +5772,7 @@
 				},
 				{
 					"id": "28",
+					"url": "https://w3c.github.io/sustyweb/#use-open-source-tools",
 					"guideline": "Use Open Source Tools",
 					"description": "The organization has clear policies about using open source tools, including how it gives back to the community and responsibly manages code repositories to reduce waste.",
 					"criteria": [
