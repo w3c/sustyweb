@@ -10,7 +10,7 @@ This repository is used to develop content for the Web Sustainability Guidelines
 
 ## File Structure
 
-The structure of the repository has been created to ensure ease of maintenance. The base directory contains all of the compiled files that are public facing such as the specification, supplementary documents, the JSON API, and other materials. The "drafts" folder contains all of the pre-exported W3C ReSpec sources including the living [specification](https://w3c.github.io/sustyweb/), [at-a-glance](https://w3c.github.io/sustyweb/glance.html), [quick reference](https://w3c.github.io/sustyweb/quickref.html), [introduction](https://w3c.github.io/sustyweb/intro.html), [JSON API](https://w3c.github.io/sustyweb/guidelines.json) and other supplements.
+The structure of the repository has been created to ensure ease of maintenance. The base directory contains all of the compiled files that are public facing such as the specification, supplementary documents, the JSON API, and other materials. The "drafts" folder contains all of the pre-exported W3C ReSpec sources including the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json) and other supplements.
 
 ```
 
