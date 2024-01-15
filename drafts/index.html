@@ -1017,6 +1017,34 @@
 					<p class="note">For this specification, an open source <a href="https://w3c.github.io/sustyweb/Web_Sustainability_GRI_Impact_est.ipynb">Jupyter Notebook</a> was created. As an input, it takes a spreadsheet containing all the guidelines and (using low, medium, or high) their indicators of impact on reduction of server resource usage, network transfer and end-user device usage. Then it takes data from a GreenIT Report [[FOOTPRINT]] which estimates the environmental impact of the mentioned categories across material use, water use, energy use and <abbr title="Greenhouse Gas">GHG</abbr> emissions. It then combines these datasets and estimates the comparative impact of a given recommendation on different sections of GRI taxonomy.</p>
 				</section>
 			</section>
+			<section> <!-- Implementation -->
+				<h3>Implementation Advice</h3>
+				<p>The following section provides advisory guidance for other specification writers and groups wishing to incorporate digital sustainability within their work (such as W3C Working and Community Groups). If you wish to simply implement our guidelines, feel free to skip over content, otherwise, expand the material and utilize the best practices within your groups as appropriate.</p>
+				<section>
+					<h4>Considerations</h4>
+					<p>The WSGs have a broad appeal, designed to impact a wide range of Web technologies and related infrastructure as appropriate. With this in mind, when first starting to look to incorporate sustainability within a body of work you may find that certain guidelines more than others will apply to practices.</p>
+					<p>When designing any fledgling body of work it's worth considering the following:</p>
+					<ul>
+						<li>Can a sustainability policy be put in place to vet work appropriately?</li>
+						<li>If any guidelines are applicable, can they be included as "hard and fast rules"?</li>
+						<li>If not (due to a conflict), can this be resolved without impacting the benefit?</li>
+						<li>Can research to identify any sustainability benefits which are yet undiscovered be undertaken?</li>
+						<li>Is education for consumers on a works environmental impact being provided?</li>
+					</ul>
+					<div class="note">
+						<p>When creating specifications or industry-specific documents, cross-reference to specific WSG guidelines that are appropriate for a body of work to connect elements of content to applicable sustainability goals.</p>
+						<p>Create new sustainability guidelines that are explicitly targeted for a technology (that may be too niche to be included within the WSGs). This would provide additional Success Criteria for an audience to meet.</p>
+						<p>If you do wish to create additional targeted guidelines, please first consult the <abbr title="Sustainable Web Design Community Group">SWD-CG</abbr> as we may be able to include them within the main WSGs or provide guidance to avoid conflicts with other existing guidelines.</p>
+					</div>
+				</section>
+				<section>
+					<h4>Methodology</h4>
+					<p>With the above considerations taken into account, a good next step is to consider sustainability within content and treat sustainability as any other impact target (such as accessibility or performance) by trying to drive change through metrics data. If research exists to back a particular technique as more performant, it's likely to be more sustainable. Often there will be cases where evidence does not exist as Web sustainability is an evolving field and as such, a common sense approach (considering the variables that can impact people and the planet) will be the best method if metrics data cannot be provided to identify the most sustainable option.</p>
+					<p>Every body of work will have its approach to this and a progress over-perfection methodology is preferred (as doing something is ultimately better than waiting for an ideal fix), but as a general consideration for those who are creating documents that are relied upon by large numbers of individuals, the ESG model which doesn't just account for emissions and the environment but also social factors and good governance are an ideal template to work from. In the context of the Internet this accounts for everyday (but important) factors such as performance, accessibility, privacy by design, security, and reducing waste which all as a by-product have an environmental impact.</p>
+					<p>It's also important to note that different bodies will have their sustainability challenges, for example, those working on native APIs are more likely to encounter hardware resource consumption (energy usage), whereas language standards will be more considerate of implementors, accessibility, and improving developer workflows. As such, it's worth coordinating with other groups with aligned goals and discussing their sustainability approaches to align work and help improve theirs, accounting for different variables.</p>
+					<p class="note">Providing sustainability guidance within work can be presented in many ways. One option is to integrate it within existing guidance or specifications (amending the content). Another is to provide notes or in-page sections dedicated to sustainability providing coverage. Or to gently guide individuals into the subject, a dedicated supplement that will be adapted or merged into the specification at the next major version (giving individuals time to adapt) could be created.</p>
+				</section>
+			</section>
 			<section class="override" id="conformance"> <!-- Conformance -->
 				<h2>Conformance</h2>
 				<p>As well as sections marked as non-normative, all authoring diagrams, examples, and notes in this specification are non-normative. Everything else in this specification is normative. The main normative content of WSG 1.0 is composed of guidelines and success criteria, which define requirements that impact conformance claims. Non-normative material provides advisory information to help interpret the guidelines, but does not create requirements that impact a conformance claim.</p>
