@@ -372,7 +372,7 @@
 							"OpQuast 33 - Product availability is indicated before final validation of the order.": "https://checklists.opquast.com/en/web-quality-assurance/product-availability-is-shown-before-final-order-placement",
 							"OpQuast 84 - The user is alerted at the beginning of a complex process to the nature of the required data and document.": "https://checklists.opquast.com/en/web-quality-assurance/the-user-is-alerted-at-the-beginning-of-a-complex-process-to-the-nature-of-the-data-required",
 							"OpQuast 149 - Navigating the website does not open any pop-up windows.": "https://checklists.opquast.com/en/web-quality-assurance/navigating-the-website-does-not-open-any-pop-up-windows",
-							"Paradox of Choice: Why Less is More in UX Design": "https://asu.getfeedback.com/resources/ux/paradox-choice-less-ux-design/",
+							"Paradox of Choice: Why Less is More in UX Design": "https://thedecisionlab.com/reference-guide/economics/the-paradox-of-choice",
 							"Patterns": "https://web.dev/patterns/",
 							"Patterns.dev": "https://www.patterns.dev/",
 							"Remove non-essential features": "http://www.ecometer.org/rules/remove-non-essential-features.html",
@@ -715,6 +715,10 @@
 						{
 							"title": "Deliverables Documentation",
 							"description": "Design functionality and technical specifications are documented so that deliverables are comprehensible by the project team and transferable to the development team."
+						},
+						{
+							"title": "Deliverables Readability",
+							"description": "Ensure that developers have access to code comments and other View Source affordances which can reduce the burden in order to access, understand, maintain, and utilize production ready code as this will reduce redundancy and foster an open source culture."
 						}
 					],
 					"impact": "Medium",
@@ -743,6 +747,8 @@
 						{
 							"[GR491] 1-3008 - Reusability": "https://gr491.isit-europe.org/en/crit.php?id=1-3008-uxui-a-sustainable-it-knowledge-and-skills-base",
 							"[GR491] 7-3050 - Documentation": "https://gr491.isit-europe.org/en/crit.php?id=7-3050-uxui-too-many-inadequate-documents-are-produced-during",
+							"HTMX First": "https://html-first.com/",
+							"Right-Click-View-Source As Culture": "https://htmx.org/essays/right-click-view-source/#right-click-view-source-as-culture",
 							"Society Centered Design": "https://societycentered.design/",
 							"System design": "https://sustainabilityguide.eu/methods/system-design/",
 							"System Design: The complete course": "https://kps.hashnode.dev/system-design-the-complete-course",
