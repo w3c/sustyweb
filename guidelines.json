@@ -100,7 +100,7 @@
 							"Environmental": "Undertaking analytics or research allows you to customize your product or service based on the needs of your visitor. The benefits of this are that emissions will be reduced due to an experience not making assumptions or developing unnecessary features (wasting resources), and being more specific about how you might reduce a product or service's environmental impact.",
 							"Privacy": "Assessing the needs of visitors will help you comply with privacy laws like GDPR, and anonymous analytics alongside test data can also be used to improve privacy.",
 							"Social Equity": "Improved user-experience often means products or services work better for visitors on older devices, in low-bandwidth environments, those with older devices, those in restrictive countries, those who speak different languages, and those with other potential barriers to accessing content. This reduces emissions as less e-waste will be produced if the need for newer equipment becomes less of a priority.",
-							"Accessibility": "Understanding the needs of your visitors through accessibility and trauma-informed research will help you prioritize which inclusive design extra features need to be implemented to enhance an already accessible product or service.",
+							"Accessibility": "Understanding the needs of your visitors through accessibility and trauma-informed research will help you prioritize which inclusive design improvements need to be implemented to enhance an already accessible product or service.",
 							"Performance": "Identifying what visitors require through research and analytics will reduce the potential for technical debt along the product's lifespan, which will help reduce emissions as developers will spend less time building a product with unnecessary features. It can also be used to identify bottlenecks in the user-experience which are causing visitor abandonment. Fixes can be measured and tested against each other, and the benefits of improvements can result in fewer emissions.",
 							"Economic": "Knowing your audience has financial benefits, as they are more likely to purchase your product or service if it meets their requirements. Quantitative data analysis can identify potential cost savings by reducing data payload sizes where optimizations can be made.",
 							"Conversion": "If a product matches an audience's requirements, they will be likely to use it regularly and this will increase its popularity and gain trust, word of mouth, and social standing."
@@ -529,7 +529,7 @@
 							"Environmental": "Using pagination rather than infinite scrolling allows individuals to request data on demand rather than encouraging overconsumption, thereby reducing their carbon impact by way of using psychology to encourage healthy (and sustainable) browsing habits.",
 							"Transparency": "Being open and honest with visitors about their experience and avoiding moving their attention in negative ways will lead to greater trust and the potential for repeat custom.",
 							"Social Equity": "By avoiding dark and deceptive patterns and ensuring that the visitor's attention is focused on achieving their aims, you reduce the potential for confusion, mistakes, and lapses in judgement which could lead to consequences for them and the trust they have in your business down the road.",
-							"Accessibility": "Understanding your visitors requires that you respect their needs and accommodate for the various tools and platforms they use to access your information. This improves accessibility by providing a method for them to engage with your product or service and prevents unnecessary data emissions and screen time which drains consumer's device batteries.",
+							"Accessibility": "Being aware of accessibility barriers and accounting for them within your processess will allow you to reduce barriers to access and prioritize the availability of information for visitors who may access information using different tooling (such as assistive technology like a screen reader). In doing so you can reduce the additional emissions produced from accessibility tools as visitors can find what they want quicker, and less mistakes are likely to be made during a session.",
 							"Performance": "Certain attention-seeking features like notification requests or cookie banners can detract from visitor performance, as time is spent by consumers navigating through methods to close or hide the annoyances. Finding better ways of presenting the information will make an experience feel faster and reduce the barriers to access which trigger a block in the user-flow.",
 							"Economic": "Organizations that monetize visitor attention strive to keep it as long as possible, therefore increasing their product or service's environmental impact. Conversely, organizations that strive to streamline interactions while still meeting visitor's needs (and their own business goals) measurably reduce their product or service's environmental impact, and potentially reach new audiences."
 						}
@@ -649,7 +649,7 @@
 							"Accessibility": "Dark and deceptive design patterns often intentionally block or hide access to information, which especially undermines the experience of people with disabilities who use assistive technologies. By avoiding them, you will give those with accessibility needs justification to trust your brand. Furthermore, avoiding poor implementations such as overlays will prevent making any existing situations worse.",
 							"Performance": "Interference with the user-interface (such as removing the ability to copy text) causes friction and forces the visitor to spend more time on the page to work around the barrier put in place. This uses additional energy as they try to find a solution onsite, elsewhere, or give up entirely. Using ethical, non-disruptive coding practices will speed up interactions within your website.",
 							"Economic": "Ethical websites incentivize customers to whitelist your website on ad-blockers.",
-							"Conversion": "Avoiding dark and deceptive patterns will likely result in fewer complaints. A classic example of this is the use of CAPTCHAs which can disrupt the visitor, cause accessibility issues, and reduce the legitimate use of your product or service."
+							"Conversion": "Avoiding dark and deceptive patterns will likely result in fewer complaints. A classic example of this is the use of CAPTCHAs which can disrupt the visitor, cause accessibility barriers, and reduce the legitimate use of your product or service."
 						}
 					],
 					"GRI": [
@@ -774,7 +774,7 @@
 						{
 							"Environmental": "Consistent interfaces that employ web standards require less energy and resources across the product ecosystem, as they are usually tightly optimized. Also, design systems that incorporate environmental criteria can help to scale digital sustainability across the enterprise and reduce redundancy within code, resulting in collectively reduced energy use and impact.",
 							"Social Equity": "A design system with standardized, lightweight components will improve access to information for people in low-bandwidth areas, on older devices, and so on. Also, design systems will reduce the chance of biases that could affect such groups being introduced.",
-							"Accessibility": "A design system with accessible components will improve access to information for people with disabilities. Building design features with accessibility baked in by default reduces the time for implementation and decreases the potential that your audience will have issues while browsing.",
+							"Accessibility": "A design system with accessible components will improve access to information for people with disabilities. Building design features with accessibility baked in by default reduces the potential that people with accessibility requirements will be left out during the website or applications lifecycle.",
 							"Performance": "Design Systems are built using standardized components that reduce the churn of repeat coding, thereby reducing developer coding turnarounds and, as a byproduct, improve performance and reduce emissions during the process. This will inherently reduce emissions considerably through the building of sustainable patterns.",
 							"Economic": "Because of their use of standardized components and their avoidance of redundancy, design systems reduce costs as the development time may be reduced (even accounting for the maintenance time involved in having one). Also, familiar-looking websites that can be browsed with ease are likely to suffer lower bounce rates (where visitors just give up) due to the ease of transition (unlike a unique-looking website which can make navigation increasingly complex).",
 							"Conversion": "Design Systems encourage using recognizable components throughout a design, which will help visitors identify and utilize the product or service successfully. As such, this will reduce complaints and annoyance, which can help increase customer retention. Also, user-interface consistency improves visitor trust as individuals will recognize familiar components within your design and know how to utilize them, and this can improve conversion rates as it will lower the rates of abandonment."
@@ -1257,7 +1257,7 @@
 						{
 							"Environmental": "Offering low-impact alternatives to media formats reduces the amount of battery draining hardware processing required for visitors to find the information they require.",
 							"Social Equity": "Not every visitor will be in a situation where they can watch a video or listen to audio; therefore it makes sense to have a plaintext alternative.",
-							"Accessibility": "Certain accessibility issues can prevent media from being consumed, as such it's important to offer different ways of viewing a site's content.",
+							"Accessibility": "Certain accessibility barriers can prevent media from being consumed, as such it's important to offer different ways of viewing a site's content.",
 							"Performance": "Reducing the interactivity of a website doesn't mean a lesser experience, it can help visitors access what they need quicker.",
 							"Economic": "Media is costly to produce and host, text is cheap and takes little data to download, it can help reduce your hosting costs to serve a media-free setting within pages.",
 							"Conversion": "Text alternatives (like transcripts) to media can be indexed by search engines, this can allow your project to be found easier."
@@ -1327,7 +1327,7 @@
 						{
 							"Environmental": "Optimizing forms reduces the resources necessary for visitors to complete them and products or services to process them, and in doing so, will reduce the emissions as a byproduct of avoiding using unnecessary hardware at the server or client-side.",
 							"Privacy": "Forms that include informed consent and helpful prompts about cookies, data collection, and so on improve data privacy.",
-							"Accessibility": "Ensuring your forms are well labelled, and accessible not only for those with disabilities but those using a range of different devices and inputs will allow form processing to occur with higher success rates and thereby avoid wasted attempts that potentially cost you business and cost your visitor's their time (as wasted screen time has an emissions cost as well).",
+							"Accessibility": "Ensuring your forms are well labelled, and accessible not only for those with disabilities but those using a range of different devices and inputs will reduce barriers and thereby form processing will occur with higher success rates.",
 							"Economic": "If visitors can complete forms more successfully, they will suffer less frustration and website owners will get fewer complaints, which will be beneficial in a potential reduction in support costs and result in more visitors likely to continue with purchases on a website.",
 							"Conversion": "Forms that are standards-based and well constructed which consider accessibility will improve conversion rates due to visitors being able to complete forms error-free more regularly."
 						}
@@ -1866,7 +1866,7 @@
 						{
 							"Environmental": "Incompatible websites and applications across the Web encourage people to purchase new devices, which has a giant impact upon the environment due to the amount of e-waste it produces. Additionally, planned obsolescence is one of the biggest contributors to e-waste on the planet. By extending the lifespan and improving digital device compatibility within your site's service plan, it can improve sustainability and slow the upgrade cycle which results from sluggish digital experiences.",
 							"Social Equity": "More compatible products and services that last longer helps to reduce the digital divide, which can be a key issue in cases where income inequality, infrastructure robustness, and other factors play their part (and open your work to new markets). Similarly, because progressive web applications use established web standards, they are available to more people than more cost-prohibitive closed systems (Apple App Store, Google Play, etc).",
-							"Accessibility": "The fourth pillar of Accessibility is robustness. By incorporating accessibility into early prototypes, it becomes a priority for project teams throughout a product's lifecycle. Broken source code can also impact screen readers and how they can read content to individuals with visual disabilities. Ensuring semantic code can provide an equal, error-free experience to all.",
+							"Accessibility": "The fourth pillar of Accessibility is robustness. By incorporating accessibility into early prototypes, it becomes a priority for project teams throughout a product's lifecycle. Broken source code can also (in specific cases) impact assistive technologies (such as screen readers) and how they can read content to individuals with visual disabilities. Ensuring semantic code can provide an equal, error-free experience to all.",
 							"Performance": "Incompatible code has an energy cost, when it's non-standard, deprecated or doesn't work on a device it can take additional time to render as it is usually un-optimized for the environment, which will put pressure on the CPU and waste the consumer's battery. Using modern Web standards will help your website run fast in modern browsers.",
 							"Economic": "Product teams benefit from time savings and improved quality, organizations see cost reductions as less refactoring is required due to increased stability, and users benefit from greater trust and potentially lower product costs and maintenance fees as upgrades may not be required as frequently.",
 							"Conversion": "More compatible products and services that last longer can potentially increase conversion rates due to the lower rates of abandonment and a wider market audience which can use a friction-free version of the product or service."
@@ -2235,7 +2235,7 @@
 					"benefits": [
 						{
 							"Environmental": "While CSS methodologies increasingly add more code to your markup, they improve maintainability (reducing development time at scale), which can reduce energy usage.",
-							"Accessibility": "Developers with accessibility issues may find the naming conventions used in CSS methodologies easier to work with than generic CSS selector identifiers.",
+							"Accessibility": "Developers with accessibility requirements may find the naming conventions used in CSS methodologies easier to work with than generic CSS selector identifiers.",
 							"Performance": "Avoiding repetitive code reduces waste in markup, which reduces the time sites take to download (and reduces server energy usage).",
 							"Economic": "An optimized codebase (that's reusable) can improve productivity and code quality."
 						}
@@ -2302,7 +2302,6 @@
 						{
 							"Environmental": "Replacing heavy tooling and third-party services with lightweight tooling reduces visitor bandwidth usage considerably, despite having to learn a new way of doing things or reducing the visibility of such information. It can significantly reduce a page's (and data you have no control over) environmental impact, especially when it comes to Scope 3 emissions.",
 							"Privacy": "Visitor's not interested in embedded content may identify the lack of third-party tracking (such as embedded pixels and tags) as a privacy benefit, as there are fewer chances that visitor data is exploited.",
-							"Accessibility": "As part of rigorous quality control efforts, reducing third-party services can potentially improve accessibility by replacing it with accessible by-default alternatives using built-in custom syntax that meets visitor requirements.",
 							"Performance": "Self-made widgets and controls work much faster than third-party content as you don't have to perform additional server requests, rendering requests, and such. You only include what features you require, and this reduces the overall size of the bandwidth usage (and emissions produced)."
 						}
 					],
@@ -2389,7 +2388,7 @@
 					"benefits": [
 						{
 							"Environmental": "Sites with bloated markup waste data, also sites with broken markup could trigger memory leaks (performance issues) in apps, and following standards ensures sites will work the same across devices and platforms (reducing bugs, developer fix time, and resource waste).",
-							"Accessibility": "Semantic HTML increases readability for those with accessibility needs, reducing the time they waste trying to understand your content.",
+							"Accessibility": "Semantic HTML is a great stepping stone towards making your content easier to navigate by assistive technologies. Many tags within HTML5 come with pre-loaded context about what is expected within them (reducing the need for ARIA or other descriptive features). This can also help browsers, search engines, social networks, and other \"blind\" technologies understand your websites or applications better. This can help you reduce barriers in terms of content navigability.",
 							"Performance": "Deprecated code isn't optimized within rendering engines, and while Web components do outperform framework components, they won't beat the native HTML elements they build upon.",
 							"Economic": "Inaccessible sites can lead to lawsuits, avoiding these is beneficial to any website owner.",
 							"Conversion": "Poorly coded sites may break features for visitors, leading to website abandonment."
@@ -2586,7 +2585,6 @@
 					"benefits": [
 						{
 							"Security": "Allowing people to correct mistakes (and identifying errors early in the input process) on forms before submission can avoid costly mistakes during financial transactions and spend less time being wasted on tasks.",
-							"Accessibility": "Assistance through form filling is beneficial as it anticipates and helps correct (rather than blame for) incorrect data entry.",
 							"Performance": "Being able to fill in a form while addressing issues quickly reduces the barrier to entry and thereby avoids potentially having to refill a form or waste time going back and scrolling.",
 							"Economic": "Shopping cart abandonment happens when errors occur, fixing issues upfront can reduce such potential issues."
 						}
@@ -2703,7 +2701,7 @@
 						{
 							"Environmental": "Improving the experience for monochrome devices (using a monchrome preference query) could encourage more visitors to use these energy efficient eInk devices. For OLED displays dark mode (prefers-color-scheme) will be more energy efficient. Animation and media have a significant impact on CPU and GPU, therefore reducing it's usage (prefers-reduced-motion) will reduce energy usage. Finally, having a print friendly stylesheet will save not only paper but ink wastage.",
 							"Social Equity": "Media queries don't tell individuals how to experience the web, they follow the preferences of the visitor or a devices capabilities.",
-							"Accessibility": "Having a high contrast (prefers-contrast) version of a site will reduce the barriers to entry and time wasted for visually impaired visitors. Less motion may also assist people with accessibility issues.",
+							"Accessibility": "Having a high contrast (prefers-contrast) version of a site will reduce the barriers to entry and time wasted for visually impaired visitors. Less motion may also assist people with accessibility requirements.",
 							"Performance": "Allowing visitors to have a Lo-Fi (prefers-reduced-data) version of a site could significantly reduce the carbon footprint they emit (which for individuals on a data plan would be beneficial). Additionally, by detecting if scripting is disabled and offering alternative content, you could save wasted effort and improve the performance of a product or service.",
 							"Economic": "Print media queries (or stylesheets) can save visitors additional ink and paper costs.",
 							"Conversion": "User preferences make an interface friendlier, encouraging repeat visitors."
@@ -2781,7 +2779,7 @@
 						{
 							"Environmental": "Mobile first and responsive design interfaces reduce energy use by improving performance and providing a streamlined experience for visitors. Additionally, smaller devices are often more underpowered than larger devices. Using less energy to power screens (and potentially other hardware).",
 							"Social Equity": "Low-powered devices are frequently used in developing nations, but ensuring that content works for older devices is paramount.",
-							"Accessibility": "Interfaces that work well across devices and platforms, including assistive technologies; improve the visitor experience, lead to fewer support requests, allow your products to be used on more devices, and encourage access while on the move.",
+							"Accessibility": "Mobile-first websites usually incorporate large, touch-friendly buttons, simplified navigation menus, and clear readable fonts. This often makes it easier for individuals with visual or motor impairments to interact with than a traditional desktop layout and could prove to be beneficial for certain visitors to take advantage of.",
 							"Performance": "Using lazy-loading and other delayed rendering techniques can boost website speed for small visual capacity devices.",
 							"Economic": "Ensuring that your website or application works across not only desktop devices but also smartphones and other unique screen resolutions can benefit you financially as it allows for individuals to make purchases while on the move (which can be more convenient), while potentially using little or no screen.",
 							"Conversion": "Products and services that work well across a wider range of platforms and devices can encourage a wider audience to use your website or application not only in one situation, but in many you might not have envisaged."
@@ -2860,8 +2858,7 @@
 						{
 							"Environmental": "Removing unwatched distractions (Page Visibility API), for example, would reduce wasted visual effects such as animation from being processed in the background. This could potentially help visitors conserve battery if they leave multiple tabs open in their browser.",
 							"Privacy": "Allowing for script-free visitors can protect the privacy of visitors who may live in unsafe nations.",
-							"Accessibility": "Having fallbacks for unavailable JavaScript allows older or less capable devices to still experience your products.",
-							"Performance": "Using modern APIs or low-code solutions often reduces heavy codebase usage.",
+							"Performance": "Using modern APIs or low-code solutions often reduces heavy codebase usage. Having fallbacks for unavailable JavaScript allows older or less capable devices to still experience your products.",
 							"Economic": "If a product works in more situations, you can sell it to more people without it failing.",
 							"Conversion": "Fallbacks for technology that might fail can lead to sales that otherwise wouldn't exist."
 						}
@@ -3021,7 +3018,7 @@
 					"benefits": [
 						{
 							"Environmental": "Search engines or browsers request certain files by default, ensuring they are inplace will reduce loading errors, and may provide efficiency enhancements in how visitors find or interact with a site.",
-							"Accessibility": "OpenSearch enables the browser's default search box rather than a custom solution to be integrated with your website search, which may aid accessibility.",
+							"Accessibility": "OpenSearch enables the browser's default search box rather than a custom solution to be integrated with your website search, which may aid accessibility as it encourages the use of a browser native component (and / or keyboard shortcuts) rather than a website or application which may suit certain accessibility requirements better.",
 							"Performance": "Files that are expected will produce HTTP requests, ensuring they are met will satisfy the products making them and potentially reduce the requests once they are discovered.",
 							"Economic": "Robots and Sitemap files can be utilized by search engines to help make your website more findable, this could lead to more visitors and potentially more customers as a result.",
 							"Conversion": "Robots can be used to target specific search engines, helping to ensure content is correctly indexed to get a good placement so that visitors can find you easily."
@@ -3129,7 +3126,7 @@
 						{
 							"Environmental": "Deprecated standards will not be optimized or supported by future browsers, which could lead to broken functionality or a slow experience, wasting time and visitor resources.",
 							"Security": "Old code can potentially be exploited if security issues arise (and browsers stop supporting the features). Ensuring you maintain standards should be a part of your processes.",
-							"Accessibility": "Old web standards often have poor accessibility support in screen readers, avoiding them will help to provide a semantic experience that works well for everyone.",
+							"Accessibility": "Deprecated web standards often have poor support in assistive technologies, avoiding them will help to provide a semantic experience that works well for everyone.",
 							"Performance": "Modern web standards are highly optimized, avoiding deprecated or less efficient standards will increase the longevity of your product and reduce the need for a carbon-intensive redesign."
 						}
 					],
@@ -3264,7 +3261,6 @@
 						{
 							"Environmental": "Using the latest language version may improve efficiency and reduce data center energy consumption. Verify benefits are worthwhile before major build upgrades.",
 							"Security": "Often, older versions may have security issues which could expose your website or app (and thereby your visitors) to harm. Maintaining an upgrade schedule is good for security.",
-							"Accessibility": "Using the latest language version may improve the page load speed.",
 							"Performance": "Language version updates are usually coupled with performance improvements.",
 							"Economic": "Using the latest and more performant language version could help hosting companies to reduce their costs. That could be beneficial for the company and the visitor."
 						}
@@ -3602,7 +3598,7 @@
 					"benefits": [
 						{
 							"Social Equity": "Reduced reliance on a high-speed connection (which in many locations is unavailable).",
-							"Accessibility": "People with accessibility needs may be lower income and thereby unable to afford either a high speed or the high cost of data plans found on cellular networks and satellite providers.",
+							"Accessibility": "People with accessibility needs are disproportionately affected by poverty and lower levels of income and thereby are more likely to be unable to afford either a high speed or the high cost of data plans found on cellular networks and satellite providers.",
 							"Performance": "Reduced data consumption (with a slight increase in visitor CPU decompression with server-side techniques).",
 							"Economic": "Reduced data transfer allows for savings for individuals on a monitored data plan."
 						}
@@ -3678,7 +3674,7 @@
 						{
 							"Environmental": "While errors and redirects should be avoided, it's not likely possible. Therefore, having the page's visitor's encounter optimized will hopefully reduce their frustration (and thereby their time on screen trying to pick a new route - or worse, giving up).",
 							"Transparency": "Problems can occur, having failsafe mechanisms in place prevents the visitor from being blamed, and it gives them a direction to move once they encounter an error.",
-							"Accessibility": "Error pages matter, they can help lost individuals find their path, and providing useful navigation and appropriate signage can reduce the loss of abandonment.",
+							"Accessibility": "Error pages matter, they can help lost individuals find their path, and providing useful navigation and appropriate signage can reduce the loss of abandonment. This can be especially useful for individuals with cognitive impairments who may have reached such a location due to forgetting where a resource was located, being unable to spell the URL correctly, or finding themselves at a dead end due to confusion.",
 							"Performance": "Redirects used appropriately can help visitors find a resource that has been moved quickly.",
 							"Conversion": "Visitors are less likely to abandon a website if they can find an instant solution."
 						}
@@ -4210,7 +4206,7 @@
 							"Privacy": "By trying to reduce your emissions, and explaining to a wider audience how you aim to keep your sustainability promises, you can also highlight other key areas of visitor value as ethically important, such as privacy and security (which will gain visitor trust in your brand).",
 							"Transparency": "A clear, public-facing set of policies help internal and external stakeholders better understand an organization's commitments.",
 							"Social Equity": "Highlighting intersectional social issues in documentation, storytelling, and marketing materials raises awareness of both problems and potential solutions.",
-							"Accessibility": "Prioritizing inclusive design both in user-interfaces and storytelling raises awareness of accessibility issues, improves experience for people with disabilities, and will reduce emissions by reducing barriers to access which may trigger wasted traffic.",
+							"Accessibility": "Prioritizing inclusive design both in user-interfaces and storytelling raises awareness of accessibility barriers, improves experience for people with disabilities, and will reduce emissions by reducing barriers to access which may trigger wasted traffic.",
 							"Economic": "Transparent communication on how an organization shares the economic benefits of its digital work raises awareness of social inequalities. Similarly, helping visitors make more informed decisions can support a more financially sustainable product or service overall. A clear statement of intent will also make it easier for the company to measure and report on its impact efforts.",
 							"Operations": "Product teams are more engaged in the work they're doing."
 						}
@@ -4427,7 +4423,7 @@
 						{
 							"Environmental": "Given their rigor, LCAs offer the biggest opportunities to reduce a digital product or service's overall environmental impact through the identification and elimination of variables and vectors of digital emissions.",
 							"Social Equity": "While LCAs are primarily concerned with environmental impacts, they can incorporate intersectional social metrics as well to improve and consider issues like inequality which affect sustainability.",
-							"Accessibility": "Inclusiveness can be a key part of a digital LCA, as long as parameters are defined upfront and maintained throughout the project to ensure barriers to access are eliminated.",
+							"Accessibility": "Auditing for accessibility can potentially be included as a key part of a digital LCA, as long as parameters are defined up front (such as WCAG conformance) and maintained throughout the project to ensure barriers to access are eliminated.",
 							"Performance": "Because they are so detailed, following LCA recommendations should improve product performance due to optimizations being quickly identified and checked off based upon best practices."
 						}
 					],
