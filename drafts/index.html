@@ -5,10 +5,12 @@
 		<title>Web Sustainability Guidelines (WSG) 1.0</title>
 		<!-- 
 			Fix for Small Screen Overflow Issue: https://github.com/w3c/sustyweb/issues/18
+			Fix for Definition Cross-Linking Usage In: https://github.com/w3c/sustyweb/issues/21
 			Fix for Visited Link Issue: https://github.com/w3c/sustyweb/issues/26
 		-->
 		<style>
 			@media screen and (max-width: 550px) { #title { margin-top: 4em; } }
+			.hidden { display: none; visibility: hidden; }
 			.resources a:visited:not(.bibref) { color: #6f7982; }
 		</style>
 		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer>
@@ -1098,7 +1100,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.1"> [*]<span class="hidden">2.1</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -1133,11 +1135,11 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[AFNOR]] Spec 5.1.6 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">2.1</span></a> [[AFNOR]] Spec 5.1.6 (<em>French</em>)</li>
 							<li><a href="https://aremythirdpartiesgreen.com/">Are my third parties green?</a></li>
 							<li><a href="https://atos.net/wp-content/uploads/2021/07/atos-ecobranding-report.pdf">ATOS Ecobranding Report</a> (<em>PDF</em>)</li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/2-evaluate.html">Digital Eco-Design: Assess and measure</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.1</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=7-3047-uxui-starting-a-project-without-taking-into-account">7-3047</a> - Systemic Approach</li>
 							</ul></li>
 							<li><a href="https://www.ibm.com/design/practices/design-for-sustainability/">IBM Design For Sustainability</a> (<em>PDF</em>)</li>
@@ -1146,7 +1148,7 @@
 							<li><a href="https://checklists.opquast.com/en/web-quality-assurance/download/">Opquast Web Quality Assurance Checklist</a> (<em>PDF</em>)</li>
 							<li><a href="https://www.mightybytes.com/blog/scope-3-emissions-in-your-digital-supply-chain/">Scope 3 Emissions in Your Digital Supply Chain</a></li>
 							<li><a href="https://www.thegreenwebfoundation.org/publications/report-fog-of-enactment/">The Fog of Enactment</a></li>
-							<li>Variables of Web Sustainability [[VARIABLES]]</li>
+							<li><a>[*]<span class="hidden">2.1</span></a> Variables of Web Sustainability [[VARIABLES]]</li>
 							<li><a href="https://www.bbc.com/future/article/20200305-why-your-internet-habits-are-not-as-clean-as-you-think">Why your internet habits are not as clean as you think</a></li>
 						</ul>
 					</details>
@@ -1179,7 +1181,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.2"> [*]<span class="hidden">2.2</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -1220,11 +1222,11 @@
 							<li><a href="https://geekflare.com/privacy-focused-site-analytics/">5 Privacy focused analytics providers</a>.</li>
 							<li><a href="https://uxplanet.org/6-powerful-user-research-methods-to-boost-hypothesis-validation-58c491461075">6 Powerful User Research Methods to Boost Hypothesis Validation</a></li>
 							<li><a href="https://uxdesign.cc/9-bogus-reasons-why-some-designers-claim-ux-research-is-a-waste-5ddf3d030851">9 bogus reasons why some designers claim UX Research is a waste</a></li>
-							<li>[[AFNOR]] Spec 5.1.1 & 5.1.2 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">2.2</span></a> [[AFNOR]] Spec 5.1.1 & 5.1.2 (<em>French</em>)</li>
 							<li><a href="https://designjustice.org/read-the-principles">Design Justice Network Principles</a></li>
 							<li><a href="https://www.deceptive.design/">Deceptive Patterns</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/1-define-need.html">Digital Eco-Design: Define the must haves and eliminate the non-essential</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.2</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-3024-uxui-the-business-line-the-users-profile-allows">3-3024</a> - Target Versions of Devices, OS and Browsers</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=6-3039-uxui-users-equipement-is-increasingly-more-efficient-and">6-3039</a> - Software or Hardware Configurations</li>
 							</ul></li>
@@ -1237,11 +1239,11 @@
 							<li><a href="https://medium.com/wearesnook/make-the-sustainable-thing-the-best-thing-by-design-e38da7bd7768">Make the sustainable thing the best thing, by design</a></li>
 							<li><a href="https://uxdesign.cc/top-10-metrics-to-measure-the-roi-of-web-accessibility-f9ddd697896a">Metrics to measure the ROI of web accessibility</a></li>
 							<li><a href="http://www.ecometer.org/rules/precisely-specify-the-need.html">Precisely specify the need</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.2</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.2/">1.2</a> - User Targets</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.4/">1.4</a> - Hardware Profiles</li>
 							</ul></li>
-							<li>Shaping Europe's digital future [[ECDF]]</li>
+							<li><a>[*]<span class="hidden">2.2</span></a> Shaping Europe's digital future [[ECDF]]</li>
 							<li><a href="https://www.mightybytes.com/blog/6-dark-patterns-to-avoid-on-your-website/">Six Dark Patterns to Avoid On Your Website</a></li>
 							<li><a href="https://theuxcookbook.com/">The UX Cookbook</a></li>
 							<li><a href="https://blog.openreplay.com/ux-best-practices-for-developers/">UX: Best Practices For Developers</a></li>
@@ -1260,7 +1262,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.3"> [*]<span class="hidden">2.3</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -1295,7 +1297,7 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>Digitalisation and Energy [[IEA-DE]]</li>
+							<li><a>[*]<span class="hidden">2.3</span></a> Digitalisation and Energy [[IEA-DE]]</li>
 							<li><a href="https://www.humanetech.com/course">Foundations of Humane Technology</a></li>
 							<li><a href="https://www.ibm.com/design/practices/design-for-sustainability/">IBM Design For Sustainability</a> (<em>PDF</em>)</li>
 							<li><a href="https://www.mightybytes.com/blog/stakeholder-mapping/">Stakeholder Mapping</a></li>
@@ -1321,7 +1323,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.4"> [*]<span class="hidden">2.4</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -1355,7 +1357,7 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>An introduction to radical participatory design [[PARTDES]]</li>
+							<li><a>[*]<span class="hidden">2.4</span></a> An introduction to radical participatory design [[PARTDES]]</li>
 							<li><a href="https://www.mightybytes.com/blog/wireframes-and-prototypes-for-websites/">How Wireframes and Rapid Prototypes Improve Digital Projects</a></li>
 							<li><a href="https://www.loop-digital.co.uk/the-importance-of-wireframing-prototyping-in-web-design/">Importance of Wireframing & Prototyping in Web Design</a></li>
 							<li><a href="https://www.lunaweb.fr/actualites/blog/atelier-ideation-eco-conception/">L'idéation au service de l'éco-conception #1 : La méthode C.O.E.U.R.</a> (<em>French</em>)</li>
@@ -1381,7 +1383,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.5"> [*]<span class="hidden">2.5</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -1415,13 +1417,13 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.5</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-3002-uxui-putting-the-user-at-the-center-of">1-3002</a> - Brain Storming</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-3003-uxui-every-design-decision-has-an-impact.-if">1-3003</a> - Planet Centric Design</li>
 							</ul></li>
 							<li><a href="https://sustainabilityguide.eu/sustainability/planetary-boundaries/">Planetary Boundaries</a></li>
 							<li><a href="https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f">Sustainable UX is more than reducing your website's footprint</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.5</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 						</ul>
 					</details>
 				</section>
@@ -1457,7 +1459,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.6"> [*]<span class="hidden">2.6</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -1495,13 +1497,13 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[AFNOR]] Spec 5.2.1 and 5.2.2 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">2.6</span></a> [[AFNOR]] Spec 5.2.1 and 5.2.2 (<em>French</em>)</li>
 							<li><a href="https://www.startupgrind.com/blog/customer-experience-mapping-what-is-it-and-how-to-do-it/">Customer Experience Mapping</a></li>
 							<li><a href="https://ui-patterns.com/patterns">Design patterns</a></li>
 							<li><a href="https://principles.design/">Design Principles</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-9-options.html">Digital Eco-Design: Default options</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/1-define-need.html">Digital Eco-Design: Define the must haves and eliminate the non-essential</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.6</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-7033-backend-for-an-equal-functional-scope-several-technical">2-7033</a> - Lighter Framework / Library</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=4-5030-frontend-the-more-components-the-service-implements-that">4-5030</a> - Older Equipment or Limited Network Access</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=7-3052-uxui-there-are-several-scenarios-for-accessing-the">7-3052</a> - Quick And Simple</li>
@@ -1526,14 +1528,14 @@
 							<li><a href="https://web.dev/patterns/">Patterns</a></li>
 							<li><a href="https://www.patterns.dev/">Patterns.dev</a></li>
 							<li><a href="http://www.ecometer.org/rules/remove-non-essential-features.html">Remove non-essential features</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.6</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.4/">4.4</a> - Optimized Navigation</li>
 							</ul></li>
 							<li><a href="https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f">Sustainable UX is more than reducing your website's footprint</a></li>
 							<li><a href="https://designsustainably.eu/uitools/"><abbr title="User-Interface">UI</abbr> Tools</a></li>
 							<li><a href="https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future">Using UX Design to Build a Sustainable Future</a></li>
 							<li><a href="https://blog.openreplay.com/ux-best-practices-for-developers/">UX: Best Practices For Developers</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.6</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://www.mightybytes.com/blog/customer-journey-map-template-download/">What is a Customer Journey Map?</a></li>
 						</ul>
 					</details>
@@ -1550,7 +1552,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><!--<dfn data-lt="[*] 2.7"> [*]<span class="hidden">2.7</span></dfn>--></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -1632,7 +1634,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><!--<dfn data-lt="[*] 2.8"> [*]<span class="hidden">2.8</span></dfn>--></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -1706,7 +1708,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.9"> [*]<span class="hidden">2.9</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -1748,7 +1750,7 @@
 							<li><a href="https://designjustice.org/read-the-principles">Design Justice Network Principles</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-7-interaction.html">Digital Eco-Design: Interactions</a></li>
 							<li><a href="https://sustainabilityguide.eu/methods/design-sustainable-behaviour/">Design for Sustainable Behaviour</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.9</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=8-5057-frontend-the-attention-of-the-user-is-a">8-5057</a> - Attention Capturing</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=10-3072-uxui-addictions-some-services-are-designed-to-create">10-3072</a> - Respect for the User</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=10-3074-uxui-the--users-attention-is-an-asset">10-3074</a> - Attention Control</li>
@@ -1760,7 +1762,7 @@
 							<li><a href="https://lawsofux.com/">Laws Of UX</a></li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em>PDF</em>)</li>
 							<li><a href="https://growth.design/psychology">Psychology of Design</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.9</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.3/">4.3</a> - Infinate Scrolling</li>
 							</ul></li>
 							<li><a href="https://societycentered.design/">Society Centered Design</a></li>
@@ -1781,7 +1783,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.10"> [*]<span class="hidden">2.10</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -1822,7 +1824,7 @@
 							<li>GreenIT (<em>French</em>)<ul>
 								<li><a href="https://github.com/cnumr/best-practices/blob/main/chapters/BP_005_fr.md">005</a> - Favoriser un design simple, épuré, adapté au web</li>
 							</ul></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.10</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-3029-uxui-visual-sound-and-tactile-elements-/-components">5-3029</a> - Visual Soberness</li>
 							</ul></li>
 							<li><a href="https://www.zdnet.com/article/google-heres-why-dark-mode-massively-extends-your-oled-phones-battery-life/">Google: Here's why dark mode massively extends your OLED phone's battery life</a></li>
@@ -1854,7 +1856,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.11"> [*]<span class="hidden">2.11</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -1898,10 +1900,10 @@
 							<li><a href="https://schepp.dev/posts/ad-integration-in-2020/">Dealing with Ads in 2020</a></li>
 							<li><a href="https://www.deceptive.design/">Deceptive Patterns</a></li>
 							<li><a href="https://designjustice.org/read-the-principles">Design Justice Network Principles</a></li>
-							<li>Digital sustainability audits: a de facto standard for the Internet carbon footprint [[DSASCF]]</li>
+							<li><a>[*]<span class="hidden">2.11</span></a> Digital sustainability audits: a de facto standard for the Internet carbon footprint [[DSASCF]]</li>
 							<li><a href="https://fairpatterns.com/">Fair Patterns</a></li>
 							<li><a href="https://whatsoftware.com/10-ad-blocking-extensions-tested-for-best-performance/view-all/">Fastest Ad Blocker: 13 Best We Tested for Performance in 2023</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.11</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=10-3070-uxui-some-services-are-designed-to-create-some">10-3070</a> - Dark Patterns</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=10-3073-uxui-targeted-or-untargeted-advertising-can-be-an">10-3073</a> - Advertisements</li>
 							</ul></li>
@@ -1922,7 +1924,7 @@
 							<li><a href="https://www.mightybytes.com/blog/6-dark-patterns-to-avoid-on-your-website/">Six Dark Patterns to Avoid On Your Website</a></li>
 							<li><a href="https://societycentered.design/">Society Centered Design</a></li>
 							<li><a href="https://calibreapp.com/blog/calm-web">The Calm Web</a></li>
-							<li>Tracking Protection in Firefox For Privacy and Performance [[FIREFOX]]</li>
+							<li><a>[*]<span class="hidden">2.11</span></a> Tracking Protection in Firefox For Privacy and Performance [[FIREFOX]]</li>
 							<li><a href="https://www.mightybytes.com/wp-content/uploads/2020/07/Web-Sustainability-Checklist-v5-FINAL.pdf">Web Sustainability Pocket Guide</a> (<em>PDF</em>)</li>
 							<li><a href="https://blog.hubspot.com/marketing/why-people-block-ads-and-what-it-means-for-marketers-and-advertisers">Why People Block Ads (And What It Means for Marketers and Advertisers)</a></li>
 							<li><a href="https://plausible.io/blog/remove-google-analytics">Why you should stop using Google Analytics on your website</a></li>
@@ -1949,7 +1951,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.12"> [*]<span class="hidden">2.12</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -1983,7 +1985,7 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.12</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-3008-uxui-a-sustainable-it-knowledge-and-skills-base">1-3008</a> - Reusability</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=7-3050-uxui-too-many-inadequate-documents-are-produced-during">7-3050</a> - Documentation</li>
 							</ul></li>
@@ -2008,7 +2010,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.13"> [*]<span class="hidden">2.13</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -2046,7 +2048,7 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://medium.com/@lanceharvieruntime/4-ways-to-make-your-code-more-reusable-bc20889c1e4">4 Ways to Make Your Code More Reusable</a></li>
-							<li>[[AFNOR]] Spec 5.3.5 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">2.13</span></a> [[AFNOR]] Spec 5.3.5 (<em>French</em>)</li>
 							<li><a href="https://www.invisionapp.com/inside-design/guide-to-design-systems/">A comprehensive guide to design systems</a></li>
 							<li><a href="https://bradfrost.com/blog/post/the-design-system-ecosystem/">Design System Ecosystem</a></li>
 							<li><a href="https://designsystemsrepo.com/design-systems/">Design System Gallery</a></li>
@@ -2055,7 +2057,7 @@
 							<li><a href="https://thedesignsystem.guide/design-system-metrics">Design System Metrics</a></li>
 							<li><a href="https://www.knapsack.cloud/calculator">Design System <abbr title="Return On Investment">ROI</abbr> Calculator</a></li>
 							<li><a href="https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969">Everything you need to know about Design Systems</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.13</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=7-3047-uxui-starting-a-project-without-taking-into-account">7-3047</a> - Systemic Approach</li>
 							</ul></li>
 							<li><a href="https://uxdesign.cc/how-much-is-a-design-system-worth-d72e2ededf76">How much is a design system worth?</a></li>
@@ -2090,7 +2092,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.14"> [*]<span class="hidden">2.14</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -2130,7 +2132,7 @@
 							<li><a href="http://www.ecometer.org/rules/adapt-text-for-the-web.html">Adapt text for the web</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-6-content.html">Digital Eco-Design: Content</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/6-6-contenu.html">Digital Eco-Design: Le contenu</a> (French)</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.14</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-4002-contents-many-elements-are-produced-externally-it-would">1-4002</a> - Sustainable Commitment</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-4003-contents-the-information-transmitted-can-be-controversial-and">1-4003</a> - Verified Sources</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-4004-contents-when-the-information-provided-is-not-deemed">1-4004</a> - Facts and Opinions</li>
@@ -2151,8 +2153,8 @@
 							<li><a href="https://www.mightybytes.com/blog/stop-writing-web-copy-that-over-explains/">Stop Writing Web Copy That Over Explains Everything</a></li>
 							<li><a href="https://yoast.com/sustainable-seo/">Sustainable SEO: How to focus on a lasting SEO strategy</a></li>
 							<li><a href="https://www.the-future-of-commerce.com/2022/03/01/sustainable-websites/">The digital butterfly effect: Sustainable websites and SEO</a></li>
-							<li>WCAG 2.2 Understanding Docs: Reading Level [[WAI-WRL]]</li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.14</span></a> WCAG 2.2 Understanding Docs: Reading Level [[WAI-WRL]]</li>
+							<li><a>[*]<span class="hidden">2.14</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://www.mightybytes.com/blog/why-heading-tags-and-structure-matter/">Why Heading Tags and Content Structure Matter</a></li>
 						</ul>
 					</details>
@@ -2185,7 +2187,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.15"> [*]<span class="hidden">2.15</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -2232,7 +2234,7 @@
 							<li><a href="https://web.dev/explore/fast#optimize-your-images">Fast load times: Optimize Your Images</a></li>
 							<li><a href="http://www.ecometer.org/rules/favor-css-over-images.html">Favor CSS over images</a></li>
 							<li><a href="https://www.greendesign.io/focus-mode">Focus Mode</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.15</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-4008-contents-the-transmission-of-compressed-data-is-essential">2-4008</a> - Image Compression</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-4009-contents-the-weight-of-an-image-thus-its">2-4009</a> - Meaningful Images</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-4010-contents-the-weight-of-an-image-thus-its">2-4010</a> - Image Avoidance</li>
@@ -2265,7 +2267,7 @@
 								<li><a href="https://checklists.opquast.com/en/web-quality-assurance/thumbnails-and-previews-are-not-larger-images-resized-on-the-client-side">114</a> - Thumbnails and previews are not larger images resized on the client side.</li>
 							</ul></li>
 							<li><a href="http://www.ecometer.org/rules/dont-resize-image-in-browser.html">Resize images outside the browser</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.15</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.19/">4.19</a> - User Control</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/5.1/">5.1</a> - File Formats</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/5.2/">5.2</a> - Image Compression</li>
@@ -2275,7 +2277,7 @@
 							<li><a href="https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f">Sustainable UX is more than reducing your website's footprint</a></li>
 							<li><a href="https://alistapart.com/article/sustainable-web-design/">Sustainable Web Design</a></li>
 							<li><a href="https://designsustainably.eu/uitools/">UI Tools</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.15</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://www.forbes.com/sites/forbesbusinesscouncil/2022/09/01/why-web-designers-need-to-think-about-sustainable-web-design/">Why Web Designers Need To Think About Sustainable Web Design</a></li>
 							<li><a href="https://gerrymcgovern.com/books/world-wide-waste/">World Wide Waste</a></li>
 						</ul>
@@ -2309,7 +2311,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.16"> [*]<span class="hidden">2.16</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -2358,10 +2360,10 @@
 							<li><a href="https://www.wholegraindigital.com/blog/website-energy-efficiency/">20 ways to make your website more energy efficient</a></li>
 							<li><a href="http://www.ecometer.org/rules/adapt-sounds-to-the-environment.html">Adapt sounds to the listening environment</a></li>
 							<li><a href="http://www.ecometer.org/rules/adapt-videos-to-the-environment.html">Adapt videos to the viewing environment</a></li>
-							<li>[[AFNOR]] Spec 5.4.4 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">2.16</span></a> [[AFNOR]] Spec 5.4.4 (<em>French</em>)</li>
 							<li><a href="https://www.bbc.co.uk/news/technology-55164410">Ditch 4K video and new tech to fight climate change</a></li>
 							<li><a href="https://www.carbonbrief.org/factcheck-what-is-the-carbon-footprint-of-streaming-video-on-netflix/">Factcheck: What is the carbon footprint of streaming video on Netflix?</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.16</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-4028-contents-video-streams-are-one-of-the-elements">3-4028</a> - Meaningful Videos</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-4029-contents-in-digital-service-uses-video-streams-are">3-4029</a> - Video Avoidance</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=7-5050-frontend-front-end-operations-may-require-file-transfers-between">7-5050</a> - Formats and Sizes</li>
@@ -2388,7 +2390,7 @@
 								<li><a href="https://checklists.opquast.com/en/web-quality-assurance/sounds-are-user-triggered">120</a> - Sounds are user-triggered.</li>
 							</ul></li>
 							<li><a href="https://www.mightybytes.com/blog/optimizing-video/">Optimizing Video for the Web</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.16</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.7/">4.7</a> - Information Content</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.8/">4.8</a> - Static Content</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.16/">4.16</a> - Visitor Awareness</li>
@@ -2398,11 +2400,11 @@
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/5.5/">5.5</a> - Audio Format</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/5.6/">5.6</a> - Audio Compression</li>
 							</ul></li>
-							<li>The carbon footprint of streaming video: fact-checking the headlines [[IEA-V]]</li>
+							<li><a>[*]<span class="hidden">2.16</span></a> The carbon footprint of streaming video: fact-checking the headlines [[IEA-V]]</li>
 							<li><a href="https://designsustainably.eu/uitools/">UI Tools</a></li>
 							<li><a href="https://www.linkedin.com/pulse/video-environmental-monster-joe-jones/">Video - an Environmental Monster?</a></li>
 							<li><a href="https://www.wired.co.uk/article/netflix-carbon-footprint">We finally know how bad for the environment your Netflix habit is</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.16</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://www.forbes.com/sites/forbesbusinesscouncil/2022/09/01/why-web-designers-need-to-think-about-sustainable-web-design/">Why Web Designers Need To Think About Sustainable Web Design</a></li>
 							<li><a href="https://www.utilitybidder.co.uk/business-electricity/zoom-emissions/">Zoom Emissions</a></li>
 						</ul>
@@ -2428,7 +2430,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.17"> [*]<span class="hidden">2.17</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -2479,11 +2481,11 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>Climate Change Implications of Gaming Products and Services [[GAMING]] (<em>PDF</em>)</li>
-							<li>Equations relating total annual energy consumption and chips energy efficiency [[CEE]]</li>
+							<li><a>[*]<span class="hidden">2.17</span></a> Climate Change Implications of Gaming Products and Services [[GAMING]] (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">2.17</span></a> Equations relating total annual energy consumption and chips energy efficiency [[CEE]]</li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-3-animation.html">Digital Eco-Design: Animation</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-7-interaction.html">Digital Eco-Design: Interaction</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.17</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=7-5051-frontend-the-presentation-of-operations-on-the-front">7-5051</a> - Animation Frequency</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=9-5079-frontend-the-processing-of-animations-consumes-technical-resources">9-5079</a> - Animation Necessity</li>
 							</ul></li>
@@ -2495,15 +2497,15 @@
 							</ul></li>
 							<li><a href="https://medium.com/@sandra.pallier/how-can-we-design-sustainably-3be7530a0f5b">How can we design sustainably?</a></li>
 							<li><a href="https://humanebydesign.com/principles/">Humane By Design</a></li>
-							<li>Let users pause/stop/hide animation [[WWU-BCG]]</li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.17</span></a> Let users pause/stop/hide animation [[WWU-BCG]]</li>
+							<li><a>[*]<span class="hidden">2.17</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.2/">4.2</a> - Autoplay Settings</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.3/">4.3</a> - Infinate Scrolling</li>
 								<li> <a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.7/">4.7</a> - Information Content</li>
 							</ul></li>
 							<li><a href="https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9">The ultimate guide to proper use of animation in UX</a></li>
 							<li><a href="https://uxdesign.cc/ui-animation-please-use-responsibly-e707dbdb12d5">UI Animation: Please Use Responsibly</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.17</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 						</ul>
 					</details>
 				</section>
@@ -2523,7 +2525,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.18"> [*]<span class="hidden">2.18</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -2564,7 +2566,7 @@
 							<li><a href="https://web.dev/articles/font-best-practices">Best practices for fonts</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html">Digital Eco-Design: Fonts</a></li>
 							<li><a href="https://meowni.ca/font-style-matcher/">Font style matcher</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.18</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-4015-contents-each-font-is-encoded-in-a-file">2-4015</a> - Font Limits</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-4016-contents-system-fonts-are-embedded-in-the-presentation">2-4016</a> - System Fonts</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=8-3058-uxui-fonts-can-be-very-large.-by-reducing">8-3058</a> - Fonts and Varients</li>
@@ -2575,7 +2577,7 @@
 							<li><a href="https://medium.com/@sandra.pallier/how-can-we-design-sustainably-3be7530a0f5b">How can we design sustainably?</a></li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em>PDF</em>)</li>
 							<li><a href="https://web.dev/articles/reduce-webfont-size">Reduce web font size</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.18</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.10/">4.10</a> - System Fonts</li>
 							</ul></li>
 							<li><a href="https://www.wholegraindigital.com/blog/performant-web-fonts/">The performance cost of custom web fonts, and how to solve it</a></li>
@@ -2583,7 +2585,7 @@
 							<li><a href="https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future">Using UX Design to Build a Sustainable Future</a></li>
 							<li><a href="https://speedy.site/web-font-performance-how-your-fonts-affect-page-speed/">Web Font Performance - How Your Fonts Affect Page Speed</a></li>
 							<li><a href="https://david-gilbertson.medium.com/web-fonts-when-you-need-them-when-you-dont-a3b4b39fe0ae">Web fonts: when you need them, when you don't</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.18</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 						</ul>
 					</details>
 				</section>
@@ -2615,7 +2617,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.19"> [*]<span class="hidden">2.19</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -2663,23 +2665,23 @@
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html">Digital Eco-Design: Fonts</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-2-video.html">Digital Eco-Design: Video and sound</a></li>
 							<li><a href="https://web.dev/explore/fast#optimize-webfonts">Fast Load Times: Optimize WebFonts</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.19</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-4012-contents-accessibility-assistants-must-be-able-to-use">2-4012</a> - Image Alternatives</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-4034-contents-access-to-sound-is-difficult-if-not">3-4034</a> - Audio Alternatives</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=9-5064-frontend-accessibility-assistants-must-be-able-to-use">9-5064</a> - Image Text Replacement</li>
 							</ul></li>
-							<li>Making a positive change: PDF to HTML [[UKG-PDF]]</li>
+							<li><a>[*]<span class="hidden">2.19</span></a> Making a positive change: PDF to HTML [[UKG-PDF]]</li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data">prefers-reduced-data</a></li>
-							<li>The Carbon Impact of Web Standards [[CIWS]]</li>
+							<li><a>[*]<span class="hidden">2.19</span></a> The Carbon Impact of Web Standards [[CIWS]]</li>
 							<li><a href="https://www.wholegraindigital.com/blog/performant-web-fonts/">The performance cost of custom web fonts, and how to solve it</a></li>
 							<li><a href="https://support.google.com/youtube/answer/2734799">Tips for creating a transcript file</a></li>
 							<li><a href="https://www.w3.org/WAI/perspective-videos/captions/">Video Captions</a></li>
 							<li><a href="https://www.w3.org/WAI/media/av/transcripts/">W3C Web Accessibility Initiative: Transcripts</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.19</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://speedy.site/web-font-performance-how-your-fonts-affect-page-speed/">Web Font Performance - How Your Fonts Affect Page Speed</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API">Web Video Text Tracks Format (WebVTT)</a></li>
 							<li><a href="https://david-gilbertson.medium.com/web-fonts-when-you-need-them-when-you-dont-a3b4b39fe0ae">Web fonts: when you need them, when you don't</a></li>
-							<li>WebVTT: The Web Video Text Tracks Format [[WEBVTT]]</li>
+							<li><a>[*]<span class="hidden">2.19</span></a> WebVTT: The Web Video Text Tracks Format [[WEBVTT]]</li>
 						</ul>
 					</details>
 				</section>
@@ -2699,7 +2701,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.20"> [*]<span class="hidden">2.20</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -2747,7 +2749,7 @@
 							</ul></li>
 							<li><a href="https://www.mightybytes.com/blog/web-content-accessibility-guidelines/">How Web Content Accessibility Guidelines Improve Digital Products</a></li>
 							<li><a href="https://greenspector.com/en/reducing-the-impact-of-autocompletion/">Reducing the impact of autocompletion</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.20</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.12/">4.12</a> - Input Warning</li>
 							</ul></li>
 							<li><a href="http://www.ecometer.org/rules/use-input-help-instead-of-autocomplete.html">Use input help instead of autocomplete</a></li>
@@ -2766,7 +2768,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.21"> [*]<span class="hidden">2.21</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -2808,13 +2810,13 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.21</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=6-3042-uxui-an-interface-is-not-just-about-the">6-3042</a> - Interface Free Solutions</li>
 							</ul></li>
 							<li><a href="https://www.ibm.com/design/practices/design-for-sustainability/">IBM Design For Sustainability</a> (<em>PDF</em>)</li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em>PDF</em>)</li>
 							<li><a href="https://alistapart.com/article/sustainable-web-design/">Sustainable Web Design</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.21</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 						</ul>
 					</details>
 				</section>
@@ -2838,7 +2840,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.22"> [*]<span class="hidden">2.22</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -2885,7 +2887,7 @@
 							<li><a href="https://www.smashingmagazine.com/2022/08/error-messages-ux-design/">Designing Better Error Messages UX</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-7-interaction.html">Digital Eco-Design: Interactions</a></li>
 							<li><a href="https://www.nngroup.com/articles/error-message-guidelines/">Error-Message Guidelines</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.22</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=4-7046-backend-the-notification-methods-can-use-resource-consuming-technologies">4-7046</a> - Notification Necessity</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-3034-uxui-emailing--especially-when-the-emails-contain">5-3034</a> - E-mailing Necessity</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=9-3064-uxui-actions-triggered-by-the-user-can-lead">9-3064</a> - Error Management</li>
@@ -2898,7 +2900,7 @@
 							<li><a href="https://humanebydesign.com/principles">Humane By Design</a></li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em>PDF</em>)</li>
 							<li><a href="https://www.smashingmagazine.com/2019/04/privacy-better-notifications-ux-permission-requests/">Privacy UX: Better Notifications And Permission Requests</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.22</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.17/">4.17</a> - Notification Necessity</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.18/">4.18</a> - Notification Control</li>
 							</ul></li>
@@ -2929,7 +2931,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.23"> [*]<span class="hidden">2.23</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -2968,7 +2970,7 @@
 							<li><a href="http://www.ecometer.org/rules/compress-documents.html">Compress documents</a></li>
 							<li><a href="https://alistapart.com/article/goingtoprint/">CSS Design: Going to Print</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-8-downloadable-documents.html">Digital Eco-Design: Downloadable documents</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.23</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-4052-contents-the-documents-available-to-the-user-in">5-4052</a> - Downloadable Documents</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-4053-contents-large-documents-are-rarely-read-completely-by">5-4053</a> - PDF Documents</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=6-3044-uxui-the-flows-of-dematerialization-are-sometimes-broken">6-3044</a> - Paper Printing</li>
@@ -2989,7 +2991,7 @@
 								<li><a href="https://checklists.opquast.com/en/web-quality-assurance/the-content-of-each-page-can-be-printed-without-navigation-blocks">191</a> - The content of each page can be printed without printing the navigation blocks.</li>
 							</ul></li>
 							<li><a href="http://www.ecometer.org/rules/optimize-pdfs.html">Optimize <abbr title="Portable Document Formats">PDFs</abbr></a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.23</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.16/">4.16</a> - Visitor Awareness</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.19/">4.19</a> - User Control</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/5.7/">5.7</a> - File Format Adaption</li>
@@ -3024,7 +3026,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.24"> [*]<span class="hidden">2.24</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -3068,7 +3070,7 @@
 							<li><a href="https://inclusive.microsoft.design/">Microsoft Inclusive Design</a></li>
 							<li><a href="https://www.mightybytes.com/blog/product-management-the-build-trap/">Product Management and the Build Trap</a></li>
 							<li><a href="https://www.uxmatters.com/mt/archives/2020/04/prototyping-user-experiences-reducing-the-risks-of-product-innovation.php">Prototyping User Experiences: Reducing the Risks of Product Innovation</a></li>
-							<li>Testing for accessibility [[UKG-TA]]</li>
+							<li><a>[*]<span class="hidden">2.24</span></a> Testing for accessibility [[UKG-TA]]</li>
 							<li><a href="https://blog.hubspot.com/marketing/usability-testing">The Beginner's Guide to Usability Testing</a></li>
 							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
 							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
@@ -3101,7 +3103,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.25"> [*]<span class="hidden">2.25</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -3159,7 +3161,7 @@
 							<li><a href="https://martinfowler.com/articles/web-security-basics.html">The Basics of Web Application Security</a></li>
 							<li><a href="https://testgrid.io/blog/non-regression-testing/">The Simple and Complete Guide on Non-Regression Testing</a></li>
 							<li><a href="https://owasp.org/www-project-top-ten/">Top 10 Web Application Security Risks</a></li>
-							<li>W3C Web Content Accessibility Guidelines [[WCAG22]]</li>
+							<li><a>[*]<span class="hidden">2.25</span></a> W3C Web Content Accessibility Guidelines [[WCAG22]]</li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/Performance">Web performance</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/Security">Web security</a></li>
 							<li><a href="https://www.webpagetest.org/">WebPageTest</a></li>
@@ -3179,7 +3181,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><!--<dfn data-lt="[*] 2.26"> [*]<span class="hidden">2.26</span></dfn>--></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -3234,7 +3236,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.27"> [*]<span class="hidden">2.27</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -3269,8 +3271,8 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[AFNOR]] Spec 5.2.5 and 5.4.5 (<em>French</em>)</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.27</span></a> [[AFNOR]] Spec 5.2.5 and 5.4.5 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">2.27</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-3030-uxui-according-to-studies--70%25-of-the">5-3030</a> - Feature Usage</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=9-3065-uxui-the-measurement-of-user-satisfaction-or-dissatisfaction">9-3065</a> - User Feedback</li>
 							</ul></li>
@@ -3292,7 +3294,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.28"> [*]<span class="hidden">2.28</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -3326,13 +3328,13 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://www.smashingmagazine.com/2018/03/guide-user-testing/">A Comprehensive Guide To User Testing</a></li>
-							<li>[[AFNOR]] Spec 5.4.6 and 5.4.7 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">2.28</span></a> [[AFNOR]] Spec 5.4.6 and 5.4.7 (<em>French</em>)</li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html">Digital Eco-Design: Test, assess and maintain</a></li>
 							<li>GreenIT (<em>French</em>)<ul>
 								<li><a href="https://github.com/cnumr/best-practices/blob/main/chapters/BP_4014_fr.md">4014</a> - S'assurer que les parcours utilisateurs permettent de réaliser leur action prévue</li>
 							</ul></li>
-							<li>Research-Based Web Design and Usability Guidelines [[USG-UT]]</li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.28</span></a> Research-Based Web Design and Usability Guidelines [[USG-UT]]</li>
+							<li><a>[*]<span class="hidden">2.28</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.11/">1.11</a> - Compliance Reviews</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.4/">4.4</a> - Optimized Navigation</li>
 							</ul></li>
@@ -3371,7 +3373,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 2.29"> [*]<span class="hidden">2.29</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -3408,18 +3410,18 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>Assessing the Impact of Service Workers on the Energy Efficiency of Progressive Web Apps [[SWPWA]]</li>
+							<li><a>[*]<span class="hidden">2.29</span></a> Assessing the Impact of Service Workers on the Energy Efficiency of Progressive Web Apps [[SWPWA]]</li>
 							<li><a href="http://browserhacks.com/">BrowserHacks</a></li>
 							<li><a href="https://www.browserstack.com/live">BrowserStack</a></li>
-							<li>Building a resilient frontend using progressive enhancement [[UKG-PE]]</li>
+							<li><a>[*]<span class="hidden">2.29</span></a> Building a resilient frontend using progressive enhancement [[UKG-PE]]</li>
 							<li><a href="https://canistop.net/">Can I Stop?</a></li>
 							<li><a href="https://blog.ltgt.net/climate-friendly-software/">Climate-friendly software: don't fight the wrong battle</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/4-mobile-first.html">Digital Eco-Design: Concevoir en "mobile first"</a> (<em>French</em>)</li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/4-mobile-first.html">Digital Eco-Design: Start with mobile first design</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html">Digital Eco-Design: Test, assess and maintain</a></li>
-							<li>Ecoconception Presentation [[ECODFR]] (<em>French</em>)</li>
-							<li>Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps [[MPWA]]</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">2.29</span></a> Ecoconception Presentation [[ECODFR]] (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">2.29</span></a> Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps [[MPWA]]</li>
+							<li><a>[*]<span class="hidden">2.29</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-3020-uxui-development-and-testing-environments-are-often-efficient">3-3020</a> - Weak Connections</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-3023-uxui-technological-advances-are-increase-constantly--hardware">3-3023</a> - Compatibility Policy</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=4-5028-frontend-user-equipment-is-increasingly-efficient.-when-digital">4-5028</a> - Compatibility Range</li>
@@ -3432,14 +3434,14 @@
 							</ul></li>
 							<li><a href="https://onextrapixel.com/how-to-become-an-eco-web-designer/">How to Become an Eco Web Designer</a></li>
 							<li><a href="https://blog.chromium.org/2020/05/introducing-web-vitals-essential-metrics.html">Introducing Web Vitals</a></li>
-							<li>Investigating the correlation between performance scores and energy consumption of mobile web apps [[PSEC]]</li>
+							<li><a>[*]<span class="hidden">2.29</span></a> Investigating the correlation between performance scores and energy consumption of mobile web apps [[PSEC]]</li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em>PDF</em>)</li>
 							<li><a href="https://www.greenit.fr/2019/03/19/mise-a-jour-logicielle-il-est-urgent-de-legiferer/">Mise à jour logicielle : il est urgent de légiférer</a> (<em>French</em>)</li>
-							<li>Mobile Web Best Practices [[MOBILE-BP]]</li>
+							<li><a>[*]<span class="hidden">2.29</span></a> Mobile Web Best Practices [[MOBILE-BP]]</li>
 							<li><a href="https://github.com/cnumr/best-practices-mobile">Mobile-specific Best Practices</a></li>
 							<li><a href="https://www.debugbear.com/blog/chrome-devtools-network-throttling">Network Throttling in Chrome DevTools</a></li>
 							<li><a href="https://graphism.fr/quel-design-pour-un-navigateur-low-tech/">Quel design pour un navigateur low-tech?</a> (<em>PDF</em>)</li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">2.29</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.5/">1.5</a> - Device Support</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.6/">1.6</a> - Device Compatibility</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.7/">1.7</a> - Interoperability</li>
@@ -3447,11 +3449,11 @@
 							</ul></li>
 							<li><a href="https://hackernoon.com/what-do-you-need-to-know-about-software-maintenance-types-as-an-engineer-421335fl">Software Maintenance Types: Corrective, Adaptive, Perfective, and Preventive</a></li>
 							<li><a href="https://formidable.com/work/starbucks-progressive-web-app/">Starbucks Ordering and Store Locator PWA</a></li>
-							<li>The Carbon Impact of Web Standards [[CIWS]]</li>
+							<li><a>[*]<span class="hidden">2.29</span></a> The Carbon Impact of Web Standards [[CIWS]]</li>
 							<li><a href="https://www.smashingmagazine.com/2021/03/mobile-app-web-testing/">The State Of Mobile And Why Mobile Web Testing Matters</a></li>
-							<li>The state of the art in measurement-based experiments on the mobile web [[MOBI]]</li>
+							<li><a>[*]<span class="hidden">2.29</span></a> The state of the art in measurement-based experiments on the mobile web [[MOBI]]</li>
 							<li><a href="https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future">Using UX Design to Build a Sustainable Future</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">2.29</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://web.dev/articles/vitals">Web Vitals</a></li>
 							<li><a href="https://www.stockholmresilience.org/research/research-news/2015-02-19-what-is-resilience.html">What is resilience?</a></li>
 						</ul>
@@ -3472,7 +3474,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.1"> [*]<span class="hidden">3.1</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -3506,11 +3508,11 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>Does not compute: Avoiding pitfalls assessing the Internet's energy and carbon impacts [[DNC]]</li>
-							<li>Electronics Goes Green [[EEG]] (<em>PDF</em>)</li>
-							<li>Equations relating total annual energy consumption and chips energy efficiency [[CEE]]</li>
+							<li><a>[*]<span class="hidden">3.1</span></a> Does not compute: Avoiding pitfalls assessing the Internet's energy and carbon impacts [[DNC]]</li>
+							<li><a>[*]<span class="hidden">3.1</span></a> Electronics Goes Green [[EEG]] (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">3.1</span></a> Equations relating total annual energy consumption and chips energy efficiency [[CEE]]</li>
 							<li><a href="https://web.dev/explore/fast">Fast load times</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">3.1</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-7043-backend-the-operations-carried-out-on-the-front">3-7043</a> - Client / Server Requests</li>
 							</ul></li>
 							<li><a href="https://www.tomshardware.com/features/graphics-card-power-consumption-tested">Graphics Card Power Consumption and Efficiency Tested</a></li>
@@ -3518,14 +3520,14 @@
 							<li><a href="https://www.crucial.com/support/articles-faq-memory/how-much-power-does-memory-use">How Much Power Does Memory Use?</a></li>
 							<li><a href="https://support.apple.com/en-us/HT201796">Mac Pro power consumption and thermal output (BTU/h) information</a></li>
 							<li><a href="https://www.buildcomputers.net/power-consumption-of-pc-components.html">Power Consumption of PC Components in Watts</a></li>
-							<li>Rethinking Allocation in High-Baseload Systems [[RAHS]] (<em>PDF</em>)</li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">3.1</span></a> Rethinking Allocation in High-Baseload Systems [[RAHS]] (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">3.1</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.1/">1.1</a> - Impact Evaluation</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.2/">6.2</a> - Request Limits</li>
 							</ul></li>
-							<li>The Carbon Impact of Web Standards [[CIWS]]</li>
+							<li><a>[*]<span class="hidden">3.1</span></a> The Carbon Impact of Web Standards [[CIWS]]</li>
 							<li><a href="https://designsustainably.eu/uitools/">UI Tools</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">3.1</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 						</ul>
 					</details>
 				</section>
@@ -3541,7 +3543,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.2"> [*]<span class="hidden">3.2</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -3577,12 +3579,12 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>Electricity Intensity of Internet Data Transmission [[EIDT]]</li>
+							<li><a>[*]<span class="hidden">3.2</span></a> Electricity Intensity of Internet Data Transmission [[EIDT]]</li>
 							<li><a href="https://gtmetrix.com/minify-javascript.html">Lighthouse: Minify JavaScript</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Minification">Minification</a></li>
 							<li><a href="https://web.dev/articles/reduce-network-payloads-using-text-compression">Minify and compress network payloads</a></li>
 							<li><a href="https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer">Optimizing Encoding and Transfer Size of Text-Based Assets</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">3.2</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 						</ul>
 					</details>
 				</section>
@@ -3598,7 +3600,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.3"> [*]<span class="hidden">3.3</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -3645,7 +3647,7 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting">Code splitting</a></li>
-							<li>Electricity Intensity of Internet Data Transmission [[EIDT]]</li>
+							<li><a>[*]<span class="hidden">3.3</span></a> Electricity Intensity of Internet Data Transmission [[EIDT]]</li>
 							<li><a href="https://blog.jakoblind.no/how-code-splitting-increases-performance/">How code splitting increases performance</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Performance/JavaScript">JavaScript performance</a></li>
 							<li><a href="https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/mobile-site-load-time-statistics/">Mobile website Load Time Statistics</a></li>
@@ -3665,7 +3667,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.4"> [*]<span class="hidden">3.4</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -3713,8 +3715,8 @@
 							<li><a href="https://www.asystad.net/the-cost-of-not-deleting-code/">The cost of not deleting code</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking">Tree shaking</a></li>
 							<li><a href="https://www.smashingmagazine.com/2021/05/tree-shaking-reference-guide/">Tree-Shaking: A Reference Guide</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
-							<li>Who Killed My Battery: Analyzing Mobile Browser Energy Consumption [[WKMB]]</li>
+							<li><a>[*]<span class="hidden">3.4</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">3.4</span></a> Who Killed My Battery: Analyzing Mobile Browser Energy Consumption [[WKMB]]</li>
 						</ul>
 					</details>
 				</section>
@@ -3738,7 +3740,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.5"> [*]<span class="hidden">3.5</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -3783,9 +3785,9 @@
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">Accessibility</a></li>
 							<li><a href="https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline/">Accessibility and web performance are not features, they're the baseline</a></li>
 							<li><a href="https://a11ysupport.io/">Accessibility Support</a></li>
-							<li>Accessible Rich Internet Applications [[WAI-ARIA-1.2]]</li>
-							<li>Disability and Health [[WHO-DH]]</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">3.5</span></a> Accessible Rich Internet Applications [[WAI-ARIA-1.2]]</li>
+							<li><a>[*]<span class="hidden">3.5</span></a> Disability and Health [[WHO-DH]]</li>
+							<li><a>[*]<span class="hidden">3.5</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-3018-uxui-diminishing-inequalities-of-access-to-digital-service">3-3018</a> - Electronicism</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-3019-uxui-dealing-with-cases-of-digital-exclusion-is">3-3019</a> - The Digital Gap</li>
 							</ul></li>
@@ -3796,13 +3798,13 @@
 							<li><a href="https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility">Introduction to Web Accessibility</a></li>
 							<li><a href="https://web.dev/learn/accessibility/">Learn Accessibility</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/List_of_sovereign_states_by_Internet_connection_speeds">List of sovereign states by Internet connection speeds</a></li>
-							<li>Making Content Usable for People with Cognitive and Learning Disabilities [[COGA-USABLE]]</li>
+							<li><a>[*]<span class="hidden">3.5</span></a> Making Content Usable for People with Cognitive and Learning Disabilities [[COGA-USABLE]]</li>
 							<li><a href="https://hookedoncode.com/2020/07/performance-is-accessibility/">Performance Is Accessibility</a></li>
 							<li><a href="https://uxdesign.cc/the-little-book-of-accessibility-a9b59d82b412">The Little Book of Accessibility</a></li>
 							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
 							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
 							<li><a href="https://thisiswcag.com/">This Is WCAG</a></li>
-							<li>W3C Web Content Accessibility Guidelines [[WCAG22]]</li>
+							<li><a>[*]<span class="hidden">3.5</span></a> W3C Web Content Accessibility Guidelines [[WCAG22]]</li>
 							<li><a href="https://www.udacity.com/course/web-accessibility--ud891">Web Accessibility</a></li>
 							<li><a href="https://info.webusability.co.uk/blog/what-is-the-law-on-accessibility">What is the law on accessibility?</a></li>
 						</ul>
@@ -3828,7 +3830,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.6"> [*]<span class="hidden">3.6</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -3882,11 +3884,11 @@
 							<li><a href="https://kentcdodds.com/blog/aha-programming">AHA Programming</a></li>
 							<li><a href="https://www.oreilly.com/library/view/becoming-a-better/9781491905562/ch04.html">Becoming a Better Programmer: Improve Code by Removing It</a></li>
 							<li><a href="https://www.freecodecamp.org/news/clean-coding-for-beginners/">Clean Code Explained</a></li>
-							<li>Produce clean and maintainable code [[NCSC-CC]]</li>
+							<li><a>[*]<span class="hidden">3.6</span></a> Produce clean and maintainable code [[NCSC-CC]]</li>
 							<li><a href="https://meiert.com/en/blog/dry-css/">DRY CSS: How to Use Declarations Just Once, Effectively</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing#css_methodologies">Organizing your CSS</a></li>
 							<li><a href="https://www.smashingmagazine.com/2012/05/stop-redesigning-start-tuning-your-site/">Stop Redesigning And Start Tuning Your website Instead</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">3.6</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 						</ul>
 					</details>
 				</section>
@@ -3918,7 +3920,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.7"> [*]<span class="hidden">3.7</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -3959,11 +3961,11 @@
 							<li><a href="https://sustywp.com/">Building for sustainability with WordPress</a></li>
 							<li><a href="https://www.osano.com/articles/privacy-cookies-pixels-and-tags">Cookies, Pixels, and Tags</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-5-widget.html">Digital Eco-Design: Plugins and widgets</a></li>
-							<li>Electricity Intensity of Internet Data Transmission [[EIDT]]</li>
-							<li>Environmental impact assessment of online advertising [[ADVERT]]</li>
+							<li><a>[*]<span class="hidden">3.7</span></a> Electricity Intensity of Internet Data Transmission [[EIDT]]</li>
+							<li><a>[*]<span class="hidden">3.7</span></a> Environmental impact assessment of online advertising [[ADVERT]]</li>
 							<li><a href="https://web.dev/explore/fast#optimize-your-third-party-resources">Fast Load Times: Optimize your third-party resources</a></li>
 							<li><a href="https://www.smashingmagazine.com/2021/01/front-end-performance-defining-the-environment/">Front-End Performance 2021: Defining The Environment</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">3.7</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-3036-uxui-the-analytics-data-collect-is-installed-in">5-3036</a> - Necessary Analytics</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=6-3045-uxui-third-party-solutions-may-provide-value-to">6-3045</a> - Third-party Solutions</li>
 							</ul></li>
@@ -3977,9 +3979,9 @@
 							<li><a href="https://web.dev/articles/dom-size-and-interactivity">How large DOM sizes affect interactivity</a></li>
 							<li><a href="https://gtmetrix.com/lazy-load-third-party-resources-with-facades.html">Lighthouse: Lazy load third-party resources with facades</a></li>
 							<li><a href="http://microjs.com/">MicroJS</a></li>
-							<li>Measuring energy consumption of cross-platform frameworks for mobile applications [[FRAMEWORKS]]  (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">3.7</span></a> Measuring energy consumption of cross-platform frameworks for mobile applications [[FRAMEWORKS]]  (<em>PDF</em>)</li>
 							<li><a href="https://www.smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/">Reducing The Web's Carbon Footprint: Optimizing Social Media Embeds</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">3.7</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/2.5/">2.5</a> - Third-party Services</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.5/">4.5</a> - Service Activation</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.7/">4.7</a> - Information Content</li>
@@ -4023,7 +4025,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.8"> [*]<span class="hidden">3.8</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -4072,7 +4074,7 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://blog.logrocket.com/deprecated-html-elements-and-what-to-use-instead/">Deprecated HTML elements (and what to use instead)</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">3.8</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-4006-contents-automatons-and-accessibility-assistants-use-tags-to">1-4006</a> - Information Over Presentation</li>
 							</ul></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML">HTML: A good basis for accessibility</a></li>
@@ -4083,7 +4085,7 @@
 							<li><a href="https://uxdesign.cc/semantic-html-the-foundation-of-web-accessibility-e5bbecad7c17">Semantic HTML: the foundation of web accessibility</a></li>
 							<li><a href="https://sustainablewww.org/wiki/design/semantic-markup">Semantic Markup</a></li>
 							<li><a href="https://www.speedcurve.com/blog/ten-years-page-bloat/">Ten years of page bloat: What have we learned?</a></li>
-							<li>The Carbon Impact of Web Standards [[CIWS]]</li>
+							<li><a>[*]<span class="hidden">3.8</span></a> The Carbon Impact of Web Standards [[CIWS]]</li>
 							<li><a href="https://msandrini.medium.com/the-history-of-deprecated-and-changed-html-tags-47cdfd2c427e">The history of deprecated and changed HTML tags</a></li>
 							<li><a href="https://medium.com/@mandy.michael/understanding-why-semantic-html-is-important-as-told-by-typescript-bd71ad41e6c4">Understanding why Semantic HTML is important, as told by TypeScript</a></li>
 							<li><a href="https://validator.w3.org/">W3C Validator</a></li>
@@ -4113,7 +4115,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.9"> [*]<span class="hidden">3.9</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -4151,7 +4153,7 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS">CSS performance optimization</a></li>
-							<li>Electricity Intensity of Internet Data Transmission [[EIDT]]</li>
+							<li><a>[*]<span class="hidden">3.9</span></a> Electricity Intensity of Internet Data Transmission [[EIDT]]</li>
 							<li><a href="https://web.dev/explore/fast#lazy-load-images-and-video">Fast Load Times: Lazy-load images and video</a></li>
 							<li><a href="https://web.dev/explore/fast#optimize-your-resource-delivery">Fast Load Times: Optimize your resource delivery</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Flash_of_unstyled_content">Flash of unstyled content</a></li>
@@ -4159,8 +4161,8 @@
 							<li><a href="https://www.patterns.dev/vanilla/islands-architecture">Islands Architecture</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Lazy_loading">Lazy loading</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading">Lazy loading (Performance)</a></li>
-							<li>On the Impact of the Critical CSS Technique on the Performance and Energy Consumption of Mobile Browsers [[CRITCSS]]</li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">3.9</span></a> On the Impact of the Critical CSS Technique on the Performance and Energy Consumption of Mobile Browsers [[CRITCSS]]</li>
+							<li><a>[*]<span class="hidden">3.9</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Performance/Web_Performance_Basics">Web performance resources</a></li>
 						</ul>
 					</details>
@@ -4185,7 +4187,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.10"> [*]<span class="hidden">3.10</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -4233,21 +4235,21 @@
 						<ul class="resources">
 							<li><a href="https://github.com/joshbuchea/HEAD">A simple guide to HTML head elements</a></li>
 							<li><a href="https://www.robotstxt.org/robotstxt.html">About /robots.txt</a></li>
-							<li>An Extended Standard for Robot Exclusion [[ROBOTS2]]</li>
+							<li><a>[*]<span class="hidden">3.10</span></a> An Extended Standard for Robot Exclusion [[ROBOTS2]]</li>
 							<li><a href="https://www.startupgrind.com/blog/customer-experience-mapping-what-is-it-and-how-to-do-it/">Customer Experience Mapping</a></li>
 							<li><a href="https://www.statista.com/statistics/1264226/human-and-bot-web-traffic-share/">Distribution of bot and human web traffic worldwide from 2014 to 2021</a></li>
 							<li><a href="https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt">How Google interprets the robots.txt specification</a></li>
 							<li><a href="https://www.mightybytes.com/blog/keyword-optimization-seo-sustainability/">How to Use Keywords for SEO and Web Sustainability</a></li>
 							<li><a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview">Learn about sitemaps</a></li>
 							<li><a href="https://ledger.humanetech.com/">Ledger of Harms</a></li>
-							<li>MetaExtensions [[METAEX]]</li>
+							<li><a>[*]<span class="hidden">3.10</span></a> MetaExtensions [[METAEX]]</li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Performance/Perceived_performance">Perceived performance</a></li>
 							<li><a href="https://www.articlecube.com/research-shows-searching-information-work-wastes-time-and-money">Research Shows that Searching for Information at Work Wastes Time and Money</a></li>
-							<li>Sitemaps Protocol [[SITEMAP]]</li>
+							<li><a>[*]<span class="hidden">3.10</span></a> Sitemaps Protocol [[SITEMAP]]</li>
 							<li><a href="https://webaim.org/techniques/skipnav/">Skip Navigation Links</a></li>
-							<li>Structured Data [[SCHEMA]]</li>
+							<li><a>[*]<span class="hidden">3.10</span></a> Structured Data [[SCHEMA]]</li>
 							<li><a href="https://www.mightybytes.com/blog/things-you-learn-tree-testing-navigation/">The Benefits of Tree Testing Your Navigation</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">3.10</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://www.mightybytes.com/wp-content/uploads/2020/07/Web-Sustainability-Checklist-v5-FINAL.pdf">Web Sustainability Pocket Guide</a> (<em>PDF</em>)</li>
 							<li><a href="https://www.mightybytes.com/blog/customer-journey-map-template-download/">What is a Customer Journey Map?</a></li>
 						</ul>
@@ -4273,7 +4275,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.11"> [*]<span class="hidden">3.11</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -4318,10 +4320,10 @@
 							<li><a href="https://www.freecodecamp.org/news/form-validation-with-html5-and-javascript/">Data Validation</a></li>
 							<li><a href="https://www.smashingmagazine.com/2018/02/gdpr-for-web-developers/">How GDPR Will Change The Way You Develop</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required">HTML attribute: required</a></li>
-							<li>Let them paste passwords [[NCSC-PP]]</li>
+							<li><a>[*]<span class="hidden">3.11</span></a> Let them paste passwords [[NCSC-PP]]</li>
 							<li><a href="https://www.troyhunt.com/the-cobra-effect-that-is-disabling/">The "Cobra Effect" that is disabling paste on password fields</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label">The Label element</a></li>
-							<li>WCAG 2.2 Understanding Docs: Error Identification [[WAI-ERR]]</li>
+							<li><a>[*]<span class="hidden">3.11</span></a> WCAG 2.2 Understanding Docs: Error Identification [[WAI-ERR]]</li>
 							<li><a href="https://www.w3.org/WAI/tutorials/forms/validation/">Validating Input</a></li>
 							<li><a href="https://www.smashingmagazine.com/2009/07/web-form-validation-best-practices-and-tutorials/">Web Form Validation: Best Practices and Tutorials</a></li>
 						</ul>
@@ -4347,7 +4349,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.12"> [*]<span class="hidden">3.12</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -4401,19 +4403,19 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://github.com/joshbuchea/HEAD">A simple guide to HTML head elements</a></li>
-							<li>DCMI Metadata Terms [[DC-T]]</li>
-							<li>Friend Of A Friend [[FOAF]]</li>
+							<li><a>[*]<span class="hidden">3.12</span></a> DCMI Metadata Terms [[DC-T]]</li>
+							<li><a>[*]<span class="hidden">3.12</span></a> Friend Of A Friend [[FOAF]]</li>
 							<li><a href="https://searchengineland.com/how-to-get-a-knowledge-panel-for-your-brand-even-without-wikipedia-338642">How to get a Knowledge Panel for your brand, even without Wikipedia</a></li>
-							<li>HTML Living Standard [[HTML]]</li>
+							<li><a>[*]<span class="hidden">3.12</span></a> HTML Living Standard [[HTML]]</li>
 							<li><a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data">Introduction to structured data markup in Google Search</a></li>
 							<li><a href="https://www.adesso-sweden.se/en/news-center/blog/lets-talk-about-the-sustainability-of-digital-touchpoints.jsp">Let's talk about the sustainability of digital touchpoints</a></li>
 							<li><a href="https://developers.google.com/search/docs/crawling-indexing/special-tags">Meta tags and attributes that Google supports</a></li>
-							<li>MetaExtensions [[METAEX]]</li>
-							<li>Microformats [[MF]]</li>
-							<li>Open Graph Protocol [[OGRAPH]]</li>
-							<li>Structured Data [[SCHEMA]]</li>
+							<li><a>[*]<span class="hidden">3.12</span></a> MetaExtensions [[METAEX]]</li>
+							<li><a>[*]<span class="hidden">3.12</span></a> Microformats [[MF]]</li>
+							<li><a>[*]<span class="hidden">3.12</span></a> Open Graph Protocol [[OGRAPH]]</li>
+							<li><a>[*]<span class="hidden">3.12</span></a> Structured Data [[SCHEMA]]</li>
 							<li><a href="https://www.the-future-of-commerce.com/2022/03/01/sustainable-websites/">The digital butterfly effect: Sustainable websites and SEO</a></li>
-							<li>W3C RDFa Specification [[RDFA-CORE]]</li>
+							<li><a>[*]<span class="hidden">3.12</span></a> W3C RDFa Specification [[RDFA-CORE]]</li>
 						</ul>
 					</details>
 				</section>
@@ -4429,7 +4431,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.13"> [*]<span class="hidden">3.13</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -4487,10 +4489,10 @@
 							<li><a href="https://greentheweb.com/energy-efficient-color-palette-ideas/">Energy efficient color palette ideas</a></li>
 							<li><a href="https://www.zdnet.com/article/google-heres-why-dark-mode-massively-extends-your-oled-phones-battery-life/">Google: Here's why dark mode massively extends your OLED phone's battery life</a></li>
 							<li><a href="https://medium.com/@sandra.pallier/how-can-we-design-sustainably-3be7530a0f5b">How can we design sustainably?</a></li>
-							<li>How much battery does dark mode save?: an accurate OLED display power profiler for modern smartphones [[BATLED]]</li>
+							<li><a>[*]<span class="hidden">3.13</span></a> How much battery does dark mode save?: an accurate OLED display power profiler for modern smartphones [[BATLED]]</li>
 							<li><a href="https://onextrapixel.com/how-to-become-an-eco-web-designer/">How to Become an Eco Web Designer</a></li>
 							<li><a href="https://helgeklein.com/blog/impact-gpu-acceleration-browser-cpu-usage/">Impact of GPU Acceleration on Browser CPU Usage</a></li>
-							<li>Mitigating Browser Fingerprinting in Web Specifications [[fingerprinting-guidance]]</li>
+							<li><a>[*]<span class="hidden">3.13</span></a> Mitigating Browser Fingerprinting in Web Specifications [[fingerprinting-guidance]]</li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data">prefers-reduced-data</a></li>
 							<li><a href="https://www.creativebloq.com/inspiration/save-planet-through-sustainable-web-design-8126147">Save the planet through sustainable web design</a></li>
 							<li><a href="https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f">Sustainable UX is more than reducing your website's footprint</a></li>
@@ -4524,7 +4526,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.14"> [*]<span class="hidden">3.14</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -4582,7 +4584,7 @@
 							<li><a href="https://css-tricks.com/lets-talk-speech-css/">Let's Talk About Speech CSS</a></li>
 							<li><a href="https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/">Mobile-First CSS: Is It Time for a Rethink?</a></li>
 							<li><a href="https://www.mightybytes.com/blog/mobile-first-sustainability/">Mobile First Design and Sustainability</a></li>
-							<li>Mobile Gender Gap Report [[MGGR]]</li>
+							<li><a>[*]<span class="hidden">3.14</span></a> Mobile Gender Gap Report [[MGGR]]</li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement">Progressive Enhancement</a></li>
 							<li><a href="https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/">Progressive Enhancement: What It Is, And How To Use It?</a></li>
 							<li><a href="https://resilientwebdesign.com/">Resilient web design</a></li>
@@ -4593,11 +4595,11 @@
 							<li><a href="https://en.wikipedia.org/wiki/Responsive_web_design">Responsive web design</a></li>
 							<li><a href="https://web.dev/articles/responsive-web-design-basics">Responsive web design basics</a></li>
 							<li><a href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">Responsive Web Design: What It Is And How To Use It</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">3.14</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.6/">1.6</a> - Device Compatibility</li>
 							</ul></li>
-							<li>RSS Specification [[RSS]]</li>
-							<li>Smartphone Ownership Is Growing Rapidly Around the World, but Not Always Equally [[PEWR]]</li>
+							<li><a>[*]<span class="hidden">3.14</span></a> RSS Specification [[RSS]]</li>
+							<li><a>[*]<span class="hidden">3.14</span></a> Smartphone Ownership Is Growing Rapidly Around the World, but Not Always Equally [[PEWR]]</li>
 							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
 							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
 							<li><a href="https://stanfordmag.org/contents/vampire-energy-essential-answer">Vampire Energy: Essential Answer</a></li>
@@ -4621,7 +4623,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.15"> [*]<span class="hidden">3.15</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -4674,14 +4676,14 @@
 							<li><a href="https://webaim.org/techniques/javascript/">Accessible JavaScript</a></li>
 							<li><a href="https://caniuse.com/">CanIUse</a></li>
 							<li><a href="https://blog.logrocket.com/common-api-mistakes-and-how-to-avoid-them-804fbcb9cc4b/">Common API mistakes and how to avoid them</a></li>
-							<li>Comparing the Energy Efficiency of WebAssembly and JavaScript in Web Applications on Android Mobile Devices [[WASM]]</li>
+							<li><a>[*]<span class="hidden">3.15</span></a> Comparing the Energy Efficiency of WebAssembly and JavaScript in Web Applications on Android Mobile Devices [[WASM]]</li>
 							<li><a href="https://www.statista.com/statistics/272533/degree-of-internet-freedom-in-selected-countries/">Degree of internet freedom in selected countries according to the Freedom House Index in 2022</a></li>
 							<li><a href="https://www.kryogenix.org/code/browser/everyonehasjs.html">Everyone has JavaScript, right?</a></li>
 							<li><a href="https://webkit.org/blog/8970/how-web-content-can-affect-power-usage/">How Web Content Can Affect Power Usage</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country">Internet censorship and surveillance by country</a></li>
 							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
 							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
-							<li>W3C Web Performance Working Group [[W3C-WPWG]]</li>
+							<li><a>[*]<span class="hidden">3.15</span></a> W3C Web Performance Working Group [[W3C-WPWG]]</li>
 						</ul>
 					</details>
 				</section>
@@ -4697,7 +4699,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.16"> [*]<span class="hidden">3.16</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -4734,7 +4736,7 @@
 						<ul class="resources">
 							<li><a href="https://www.mightybytes.com/blog/5-ways-to-keep-site-from-getting-hacked/">5 Ways to Keep Your website from Getting Hacked</a></li>
 							<li><a href="https://content-security-policy.com/">Content Security Policy Reference</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">3.16</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-7020-backend-the-gdpr-requires-the-implementation-of-a">1-7020</a> - Data Security</li>
 							</ul></li>
 							<li><a href="https://owasp.org/www-project-top-ten/">OWASP Top Ten</a></li>
@@ -4765,7 +4767,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.17"> [*]<span class="hidden">3.17</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -4803,8 +4805,8 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://bundlephobia.com/">Bundlephobia</a></li>
-							<li>Equations relating total annual energy consumption and chips energy efficiency [[CEE]]</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">3.17</span></a> Equations relating total annual energy consumption and chips energy efficiency [[CEE]]</li>
+							<li><a>[*]<span class="hidden">3.17</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-7025-backend-dependency-trees-provide-a-mapping-of-components">2-7025</a> - Reducing Dependencies</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-5020-frontend-dependency-trees-provide-the-mapping-of-components">3-5020</a> - Unused Dependencies</li>
 							</ul></li>
@@ -4830,7 +4832,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.18"> [*]<span class="hidden">3.18</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -4876,10 +4878,10 @@
 							<li><a href="https://realfavicongenerator.net/">Favicon Generator</a></li>
 							<li><a href="https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt">How Google interprets the robots.txt specification</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/OpenSearch">OpenSearch</a></li>
-							<li>OpenSearch Protocol [[OSEARCH]]</li>
-							<li>Sitemaps Protocol [[SITEMAP]]</li>
-							<li>The Carbon Impact of Web Standards [[CIWS]]</li>
-							<li>Web Application Manifest [[APPMANIFEST]]</li>
+							<li><a>[*]<span class="hidden">3.18</span></a> OpenSearch Protocol [[OSEARCH]]</li>
+							<li><a>[*]<span class="hidden">3.18</span></a> Sitemaps Protocol [[SITEMAP]]</li>
+							<li><a>[*]<span class="hidden">3.18</span></a> The Carbon Impact of Web Standards [[CIWS]]</li>
+							<li><a>[*]<span class="hidden">3.18</span></a> Web Application Manifest [[APPMANIFEST]]</li>
 						</ul>
 					</details>
 				</section>
@@ -4895,7 +4897,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.19"> [*]<span class="hidden">3.19</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -4951,11 +4953,11 @@
 							<li><a href="https://codeburst.io/all-about-humans-humans-txt-actually-f571d37f92d2">All about humans. Humans.txt, actually</a></li>
 							<li><a href="https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt">How Google interprets the robots.txt specification</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Security.txt">security.txt</a></li>
-							<li>The ads.txt Standard [[ADS]]</li>
-							<li>The carbon.txt Proposed Standard [[CARBON]]</li>
-							<li>The Carbon Impact of Web Standards [[CIWS]]</li>
-							<li>The humans.txt Standard [[HUMANS]]</li>
-							<li>The security.txt Proposed Standard [[SECURITY]]</li>
+							<li><a>[*]<span class="hidden">3.19</span></a> The ads.txt Standard [[ADS]]</li>
+							<li><a>[*]<span class="hidden">3.19</span></a> The carbon.txt Proposed Standard [[CARBON]]</li>
+							<li><a>[*]<span class="hidden">3.19</span></a> The Carbon Impact of Web Standards [[CIWS]]</li>
+							<li><a>[*]<span class="hidden">3.19</span></a> The humans.txt Standard [[HUMANS]]</li>
+							<li><a>[*]<span class="hidden">3.19</span></a> The security.txt Proposed Standard [[SECURITY]]</li>
 						</ul>
 					</details>
 				</section>
@@ -4975,7 +4977,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.20"> [*]<span class="hidden">3.20</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -5018,14 +5020,14 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://dora.dev/devops-capabilities/technical/code-maintainability/">DevOps tech: Code maintainability</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">3.20</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-5005-frontend-the-best-development-standards-cover-a-large">1-5005</a> - Proven Development Standards</li>
 							</ul></li>
 							<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html">HTML5 Security Cheat Sheet</a></li>
 							<li><a href="https://www.imaginarycloud.com/blog/json-vs-xml/">JSON vs XML: which one is faster and more efficient?</a></li>
 							<li><a href="https://meiert.com/en/blog/maintainability-guide/">Maintainability Guide</a></li>
 							<li><a href="https://dequeuniversity.com/rules/axe/4.3/marquee">marquee elements are deprecated and must not be used</a></li>
-							<li>The Carbon Impact of Web Standards [[CIWS]]</li>
+							<li><a>[*]<span class="hidden">3.20</span></a> The Carbon Impact of Web Standards [[CIWS]]</li>
 							<li><a href="https://meiert.com/en/blog/maintainability-guide-2/">The Compact Guide to Web Maintainability: 200 Tips and Resources</a></li>
 							<li><a href="https://www.genelify.com/blog/how-to-improve-php-performance#_7_Use_JSON_for_data_exchange">Use JSON for data exchange</a></li>
 							<li><a href="https://www.smashingmagazine.com/2009/11/website-maintenance-tips-for-front-end-developers/">Website Maintenance Tips for Front-End Developers</a></li>
@@ -5061,7 +5063,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.21"> [*]<span class="hidden">3.21</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -5099,10 +5101,10 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://www.sitepoint.com/7-reasons-use-static-site-generator/">7 Reasons to Use a Static Site Generator</a></li>
-							<li>[[AFNOR]] Spec 5.3.3 & 5.2.2 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">3.21</span></a> [[AFNOR]] Spec 5.3.3 & 5.2.2 (<em>French</em>)</li>
 							<li><a href="https://sustainablevirtualdesign.wordpress.com/2016/01/13/are-content-management-systems-cms-sustainable/">Are Content Management Systems Sustainable?</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/5-choisir-solution.html">Digital Eco-Design: Choisir sa solution: website statique ou CMS</a> (<em>French</em>)</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">3.21</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-5021-frontend-some-features-are-available-in-several-forms.">3-5021</a> - Functionality VS Native</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=6-3041-uxui-the-simpler-the-visual-theme-the-more">6-3041</a> - Sustainable IT Impact</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=8-3059-uxui-some-features-are-available-in-multiple-forms.">8-3059</a> - Native System Features</li>
@@ -5116,7 +5118,7 @@
 							<li><a href="https://dodonut.com/blog/how-to-design-a-sustainable-website-quiz/">How to design a sustainable website?</a></li>
 							<li><a href="https://theshiftproject.org/wp-content/uploads/2021/07/TSP_DigitalSufficiency2020_Summary_corrige.pdf">Implementing digital sufficiency</a> (<em>PDF</em>)</li>
 							<li><a href="https://www.osuny.org/actualites/2023-01-16-quels-sont-les-avantages-des-sites-statiques/">Quels sont les avantages des sites statiques?</a> (<em>French</em>)</li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">3.21</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.3/">1.3</a> - Needs And Expectations</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.7/">1.7</a> - Interoperability</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/2.4/">2.4</a> - Interface Components</li>
@@ -5126,7 +5128,7 @@
 							</ul></li>
 							<li><a href="https://css-tricks.com/striking-a-balance-between-native-and-custom-select-elements/">Striking a Balance Between Native and Custom Select Elements</a></li>
 							<li><a href="https://designsustainably.eu/uitools/">UI Tools</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">3.21</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://www.keycdn.com/support/what-affects-cms-performance">What Affects CMS Performance?</a></li>
 							<li><a href="https://www.cloudflare.com/learning/performance/static-site-generator/">What is a static site generator?</a></li>
 						</ul>
@@ -5144,7 +5146,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><!--<dfn data-lt="[*] 3.22"> [*]<span class="hidden">3.22</span></dfn>--></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -5196,7 +5198,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 3.23"> [*]<span class="hidden">3.23</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -5250,10 +5252,10 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://www.thegeekstuff.com/2014/04/optimize-php-code/">15 Tips to Optimize Your PHP Script for Better Performance for Developers</a></li>
-							<li>Energy Efficiency across Programming Languages [[GREENCODE]]</li>
+							<li><a>[*]<span class="hidden">3.23</span></a> Energy Efficiency across Programming Languages [[GREENCODE]]</li>
 							<li><a href="https://www.genelify.com/blog/how-to-improve-php-performance#8_Take_advantage_of_the_native_functions_of_PHP">How to improve PHP performance in your web application</a></li>
 							<li><a href="https://subscription.packtpub.com/book/game-development/9781849696029/1/ch01lvl1sec13/native-features-of-the-browser">Native features of the browser</a></li>
-							<li>PHP Function and Method listing [[PHP-FM]]</li>
+							<li><a>[*]<span class="hidden">3.23</span></a> PHP Function and Method listing [[PHP-FM]]</li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/API">Web APIs</a></li>
 						</ul>
 					</details>
@@ -5270,7 +5272,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><!--<dfn data-lt="[*] 3.24"> [*]<span class="hidden">3.24</span></dfn>--></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -5346,7 +5348,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.1"> [*]<span class="hidden">4.1</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -5379,8 +5381,8 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>2020 Best Practice Guidelines for the EU Code of Conduct on Data Centre Energy Efficiency [[ECDCEE]]  (<em>PDF</em>)</li>
-							<li>43% of major environmental websites make mass carbon emissions [[OAG43]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> 2020 Best Practice Guidelines for the EU Code of Conduct on Data Centre Energy Efficiency [[ECDCEE]]  (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> 43% of major environmental websites make mass carbon emissions [[OAG43]]</li>
 							<li><a href="https://features.propublica.org/brazil-carbon-offsets/inconvenient-truth-carbon-credits-dont-work-deforestation-redd-acre-cambodia/">An Even More Inconvenient Truth</a></li>
 							<li><a href="https://docs.aws.amazon.com/wellarchitected/"><abbr title="Amazon Web Services">AWS</abbr> <abbr title="Well-Architected Framework">WAF</abbr></a><ul>
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_hardware_a2.html">SUS05-BP01</a> - Use the minimum amount of hardware to meet your needs</li>
@@ -5394,16 +5396,16 @@
 							<li><a href="https://www.carbontrust.com/what-we-do/assurance-and-labelling/carbon-neutral-verification">Carbon Neutral Verification</a></li>
 							<li><a href="https://www.thegreengrid.org/en/resources/library-and-tools/241-Carbon-Usage-Effectiveness-(CUE):-A-Green-Grid-Data-Center-Sustainability-Metric">Carbon Usage Effectiveness: A Green Grid Data Center Sustainability Metric</a></li>
 							<li><a href="https://sustainabilityguide.eu/sustainability/circular-economy/">Circular Economy</a></li>
-							<li>Code of Conduct on Data Centre Energy Efficiency [[CCEEDC]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> Code of Conduct on Data Centre Energy Efficiency [[CCEEDC]]</li>
 							<li><a href="https://www.akcp.com/blog/data-center-water-usage-effectiveness-wue/">Data Center Water Usage Effectiveness</a></li>
-							<li>Data Centres and Data Transmission Networks [[IEA]]</li>
-							<li>Data Centres Code of Conduct [[ECDCCOC]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> Data Centres and Data Transmission Networks [[IEA]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> Data Centres Code of Conduct [[ECDCCOC]]</li>
 							<li><a href="https://digitalization-for-sustainability.com/digital-reset/">Digital Reset</a> (<em>PDF</em>)</li>
-							<li>Electronics and obsolescence in a circular economy [[ETC-EO]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> Electronics and obsolescence in a circular economy [[ETC-EO]]</li>
 							<li><a href="https://boavizta.github.io/Energizta/">Energizta</a></li>
-							<li>Equations relating total annual energy consumption and chips energy efficiency [[CEE]]</li>
-							<li>Europe's consumption in a circular economy: the benefits of longer-lasting electronics [[EEA]]</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">4.1</span></a> Equations relating total annual energy consumption and chips energy efficiency [[CEE]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> Europe's consumption in a circular economy: the benefits of longer-lasting electronics [[EEA]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-8002-hosting-water-usage-is-associated-with-it-hosting">1-8002</a> - Does Cooling Affect Groundwater</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-8004-hosting-the-data-center-must-be-able-to">1-8004</a> - Water Quality From Usage</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-8005-hosting-there-is-no-unnecessary-water-treatment-required">1-8005</a> - Source Of Water</li>
@@ -5430,8 +5432,8 @@
 							</ul></li>
 							<li><a href="https://louwrentius.com/i-made-my-blog-solar-powered-then-things-escalated.html">I Made My Blog Solar-Powered, Then Things Escalated</a></li>
 							<li><a href="https://genevasolutions.news/climate-environment/is-carbon-compensation-a-real-climate-solution">Is carbon compensation a real climate solution?</a></li>
-							<li>New perspectives on internet electricity use in 2030 [[IEU]]</li>
-							<li>Promoting product longevity [[LIFESPAN]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> New perspectives on internet electricity use in 2030 [[IEU]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> Promoting product longevity [[LIFESPAN]]</li>
 							<li><a href="https://medium.com/disruptive-design/quick-guide-to-sustainable-design-strategies-641765a86fb8">Quick Guide to Sustainable Design Strategies</a></li>
 							<li><a href="https://www.offsetguide.org/understanding-carbon-offsets/other-instruments-for-claiming-emission-reductions/">RECs, <abbr title="Power Purchase Agreements">PPAs</abbr>, Allowances and <abbr title="Energy Efficiency Certificates">EECs</abbr></a></li>
 							<li><a href="https://www.scientificamerican.com/article/reduce-reuse-recycle-why-all-3-rs-are-critical-to-a-circular-economy/">Reduce, Reuse, Recycle</a></li>
@@ -5440,8 +5442,8 @@
 							<li><a href="https://sustainabilityguide.eu/ecodesign/use/">Sustainability Guide: Use</a></li>
 							<li><a href="https://www.circulardesignguide.com/">The circular design guide</a></li>
 							<li><a href="https://www.ellenmacarthurfoundation.org/the-circular-economy-in-detail-deep-dive">The circular economy in detail: Deep dive</a></li>
-							<li>The environmental footprint of the digital world [[FOOTPRINT]]</li>
-							<li>The real climate and transformative impact of ICT [[CTICT]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> The environmental footprint of the digital world [[FOOTPRINT]]</li>
+							<li><a>[*]<span class="hidden">4.1</span></a> The real climate and transformative impact of ICT [[CTICT]]</li>
 							<li><a href="https://www.mightybytes.com/blog/web-hosting-renewable-energy/">Web Hosting: Renewable Energy & RECs</a></li>
 							<li><a href="https://www.inspirecleanenergy.com/blog/clean-energy-101/what-are-renewable-energy-credits">What Are Renewable Energy Credits?</a></li>
 							<li><a href="https://www.ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview">What is a circular economy?</a></li>
@@ -5467,7 +5469,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.2"> [*]<span class="hidden">4.2</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -5518,20 +5520,20 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>A Web Caching Primer [[CACHE]]</li>
+							<li><a>[*]<span class="hidden">4.2</span></a> A Web Caching Primer [[CACHE]]</li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Apache_Configuration_htaccess">Apache Configuration: .htaccess</a></li>
 							<li><a href="https://web.dev/articles/bfcache">Back/forward cache</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage">Client-side storage</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/7-go-further.html">Digital Eco-Design: Go further in the approach</a></li>
 							<li><a href="https://www.smashingmagazine.com/2021/01/front-end-performance-build-optimizations/">Front-End Performance 2021: Build Optimizations</a></li>
-							<li>Future trends of Green All Optical Networks and <abbr title="Information and Communication Technology">ICT</abbr> Infrastructure in a large context [[GON]]</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">4.2</span></a> Future trends of Green All Optical Networks and <abbr title="Information and Communication Technology">ICT</abbr> Infrastructure in a large context [[GON]]</li>
+							<li><a>[*]<span class="hidden">4.2</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-7032-backend-the-use-of-certain-frameworks-in-particular">2-7032</a> - Browser Caches</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-5015-frontend-the-reduction-of-the-volumes-of-exchanges">3-5015</a> - Cache Usage</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=7-3051-uxui-internat-search-engines-usage-in-the-service">7-3051</a> - Search Utilization</li>
 							</ul></li>
 							<li><a href="https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/">How to Build a Low-tech Website?</a></li>
-							<li>Impact of New and Emerging Internet Technologies on Climate Change and Human Rights [[OXCCHR]]</li>
+							<li><a>[*]<span class="hidden">4.2</span></a> Impact of New and Emerging Internet Technologies on Climate Change and Human Rights [[OXCCHR]]</li>
 							<li><a href="https://web.dev/learn/pwa/">Learn PWA</a></li>
 							<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/">Microsoft Azure WAF</a>:<ul>
 								<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/select-services">Selecting Services</a></li>
@@ -5563,7 +5565,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.3"> [*]<span class="hidden">4.3</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -5621,15 +5623,15 @@
 						<ul class="resources">
 							<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Apache_Configuration_htaccess">Apache Configuration: .htaccess</a></li>
 							<li><a href="https://www.audacityteam.org/">Audacity</a></li>
-							<li>Cost of living: Impact of rising costs on disabled people [[HOLCOL]]</li>
+							<li><a>[*]<span class="hidden">4.3</span></a> Cost of living: Impact of rising costs on disabled people [[HOLCOL]]</li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-1-images.html">Digital Eco-Design</a></li>
 							<li><a href="https://www.green-coding.berlin/case-studies/does-gzip-save-co2/">Does GZIP Save CO2?</a></li>
-							<li>Digital sustainability audits: a de facto standard for the Internet carbon footprint [[DSASCF]]</li>
+							<li><a>[*]<span class="hidden">4.3</span></a> Digital sustainability audits: a de facto standard for the Internet carbon footprint [[DSASCF]]</li>
 							<li><a href="https://web.dev/explore/fast#optimize-your-images">Fast Load Times: Optimize your images</a></li>
 							<li><a href="https://www.smashingmagazine.com/2021/01/front-end-performance-assets-optimizations/">Front-End Performance 2021: Assets Optimizations</a></li>
 							<li><a href="https://handbrake.fr/">Handbrake</a></li>
 							<li><a href="https://www.mightybytes.com/blog/how-to-optimize-images/">How to Optimize Images for Faster Load Times and Sustainability</a></li>
-							<li>Impact of New and Emerging Internet Technologies on Climate Change and Human Rights [[OXCCHR]]</li>
+							<li><a>[*]<span class="hidden">4.3</span></a> Impact of New and Emerging Internet Technologies on Climate Change and Human Rights [[OXCCHR]]</li>
 							<li><a href="https://worldpopulationreview.com/country-rankings/internet-speeds-by-country">Internet Speeds by Country 2023</a></li>
 							<li><a href="https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer">Optimizing Encoding and Transfer Size of Text-Based Assets</a></li>
 							<li><a href="https://web.dev/articles/reduce-webfont-size">Reduce web font size</a></li>
@@ -5638,13 +5640,13 @@
 							<li><a href="https://squoosh.app/">Squoosh</a></li>
 							<li><a href="https://jakearchibald.github.io/svgomg/">SVG OMG</a></li>
 							<li><a href="https://www.speedcurve.com/blog/ten-years-page-bloat/">Ten years of page bloat: What have we learned?</a></li>
-							<li>The Carbon Impact of Web Standards [[CIWS]]</li>
+							<li><a>[*]<span class="hidden">4.3</span></a> The Carbon Impact of Web Standards [[CIWS]]</li>
 							<li><a href="https://calibreapp.com/blog/image-optimisation-guide">The Ultimate Guide to Image Optimisation</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">4.3</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://open-innovations.org/blog/2020-04-29-website-carbon-emissions.html">Website carbon emissions</a></li>
 							<li><a href="https://whatdoesmysitecost.com/">What Does My Site Cost?</a></li>
 							<li><a href="https://www.speedcurve.com/blog/page-bloat-web-performance/">What is page bloat?</a></li>
-							<li>Who Killed My Battery: Analyzing Mobile Browser Energy Consumption [[WKMB]]</li>
+							<li><a>[*]<span class="hidden">4.3</span></a> Who Killed My Battery: Analyzing Mobile Browser Energy Consumption [[WKMB]]</li>
 						</ul>
 					</details>
 				</section>
@@ -5664,7 +5666,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.4"> [*]<span class="hidden">4.4</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -5706,7 +5708,7 @@
 						<ul class="resources">
 							<li><a href="https://uxplanet.org/6-best-practices-for-404-pages-with-killer-ux-d9305db19ad9">6 Best practices for 404 pages with killer UX</a></li>
 							<li><a href="https://app.uxcel.com/lessons/best-practices-for--pages-112">11 Best Practices for Designing 404 Pages</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">4.4</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-4047-contents-content-uses-external-references-rather-than-duplicating">5-4047</a> - <abbr title="Uniform Resource Locator">URL</abbr> Validity</li>
 							</ul></li>
 							<li><a href="https://www.mightybytes.com/blog/elements-great-404-page/">Elements of a Great 404 Page</a></li>
@@ -5731,7 +5733,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.5"> [*]<span class="hidden">4.5</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -5765,7 +5767,7 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://docs.aws.amazon.com/wellarchitected/">AWS WAF</a> <a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a4.html">SUS02-BP03</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">4.5</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-8026-hosting-the-network-infrastructure-is-at-the-heart">3-8026</a> - Not In Use Equipment</li>
 							</ul></li>
 							<li><a href="https://increment.com/containers/containers-for-sustainable-software-engineering/">Toward sustainable software engineering</a></li>
@@ -5796,7 +5798,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.6"> [*]<span class="hidden">4.6</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -5830,7 +5832,7 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>2020 Best Practice Guidelines for the EU Code of Conduct on Data Centre Energy Efficiency [[ECDCEE]]  (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">4.6</span></a> 2020 Best Practice Guidelines for the EU Code of Conduct on Data Centre Energy Efficiency [[ECDCEE]]  (<em>PDF</em>)</li>
 							<li><a href="https://docs.aws.amazon.com/wellarchitected/">AWS WAF</a><ul>
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_appsec_automate_testing_throughout_lifecycle.html">SEC11-BP02</a> - Automate testing throughout the development and release lifecycle</li>
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_network_protection_auto_protect.html">SEC05-BP03</a> - Automate network protection</li>
@@ -5841,9 +5843,9 @@
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_software_a2.html">SUS03-BP01</a> - Optimize software and architecture for asynchronous and scheduled jobs</li>
 							</ul></li>
 							<li><a href="https://yoast.com/what-to-know-about-bot-traffic/">Bot traffic: What it is and why you should care about it</a></li>
-							<li>Code of Conduct on Data Centre Energy Efficiency [[CCEEDC]]</li>
+							<li><a>[*]<span class="hidden">4.6</span></a> Code of Conduct on Data Centre Energy Efficiency [[CCEEDC]]</li>
 							<li><a href="https://www.statista.com/statistics/1264226/human-and-bot-web-traffic-share/">Distribution of bot and human web traffic worldwide from 2014 to 2021</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">4.6</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-8028-hosting-the-management-of-the-consumption-of-physical">3-8028</a> - Memory Usage</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-8029-hosting-the-cpu-resources-available-to-virtual-machines">3-8029</a> - CPU Usage</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-8031-hosting-hosted-services-do-not-always-have-the">3-8031</a> - Unused CPU Cores</li>
@@ -5873,7 +5875,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.7"> [*]<span class="hidden">4.7</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -5906,8 +5908,8 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>A Review on Green Caching Strategies for Next Generation Communication Networks [[NETCACHE]]</li>
-							<li>A Web Caching Primer [[CACHE]]</li>
+							<li><a>[*]<span class="hidden">4.7</span></a> A Review on Green Caching Strategies for Next Generation Communication Networks [[NETCACHE]]</li>
+							<li><a>[*]<span class="hidden">4.7</span></a> A Web Caching Primer [[CACHE]]</li>
 							<li><a href="https://wp-rocket.me/wordpress-cache/">Everything About WordPress Cache</a></li>
 							<li><a href="https://www.smashingmagazine.com/2022/09/data-loading-patterns-improve-frontend-performance/">Five Data-Loading Patterns To Boost Web Performance</a></li>
 							<li><a href="https://www.clariontech.com/blog/how-caching-helps-in-improving-performance-of-the-application">How Caching Helps In Improving Performance Of Application</a></li>
@@ -5927,7 +5929,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.8"> [*]<span class="hidden">4.8</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -5965,7 +5967,7 @@
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_data_a6.html">SUS04-BP05</a> - Remove unneeded or redundant data</li>
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_data_a9.html">SUS04-BP08</a> - Back up data only when difficult to recreate</li>
 							</ul></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">4.8</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-7005-backend-one-piece-of-data-might-be-present">1-7005</a> - Data Backups</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-8032-hosting-security-is-one-of-the-key-points">3-8032</a> - Incremental Backups</li>
 							</ul></li>
@@ -5988,7 +5990,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.9"> [*]<span class="hidden">4.9</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6025,14 +6027,14 @@
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a7.html">SUS02-BP06</a> - Implement buffering or throttling to flatten the demand curve</li>
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_software_a2.html">SUS03-BP01</a> - Optimize software and architecture for asynchronous and scheduled jobs</li>
 							</ul></li>
-							<li>Best practises for 5G App Developers [[GSMA]] (<em>PDF</em>)</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">4.9</span></a> Best practises for 5G App Developers [[GSMA]] (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">4.9</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-6024-architecture-the-distribution-of-processing-on-different-and">5-6024</a> - Transfer Compression</li>
 							</ul></li>
 							<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/">Microsoft Azure WAF</a>:<ul>
 								<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/principles">Performance efficiency principles</a></li>
 							</ul></li>
-							<li>Serve websites over HTTPS [[NCSC-HS]]</li>
+							<li><a>[*]<span class="hidden">4.9</span></a> Serve websites over HTTPS [[NCSC-HS]]</li>
 							<li><a href="https://web.dev/articles/why-https-matters">Why HTTPS matters</a></li>
 							<li><a href="https://www.automox.com/blog/you-shouldnt-use-ftp-or-http">Why You Shouldn't Use FTP or HTTP if You Care About Security</a></li>
 						</ul>
@@ -6062,7 +6064,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.10"> [*]<span class="hidden">4.10</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -6104,19 +6106,19 @@
 							<li><a href="https://www.cdnperf.com/cdn-compare">CDN Compare</a></li>
 							<li><a href="https://developer.chrome.com/en/blog/http-cache-partitioning/">Cross-Origin Resource Sharing (CORS)</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Edge_computing">Edge computing</a></li>
-							<li>Energy-efficient Cloud Computing Technologies and Policies for an Eco-friendly Cloud Market [[ECCCT]]</li>
-							<li>Future trends of Green All Optical Networks and ICT Infrastructure in a large context [[GON]]</li>
+							<li><a>[*]<span class="hidden">4.10</span></a> Energy-efficient Cloud Computing Technologies and Policies for an Eco-friendly Cloud Market [[ECCCT]]</li>
+							<li><a>[*]<span class="hidden">4.10</span></a> Future trends of Green All Optical Networks and ICT Infrastructure in a large context [[GON]]</li>
 							<li><a href="https://developer.chrome.com/en/blog/http-cache-partitioning/">Gaining security and privacy by partitioning the cache</a></li>
-							<li>Greenhouse Gas Protocol - Cloud & Data Center Services [[GHGP-CLOUD]] (<em>PDF</em>)</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">4.10</span></a> Greenhouse Gas Protocol - Cloud & Data Center Services [[GHGP-CLOUD]] (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">4.10</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-8003-hosting-data-centers-are-rarely-installed-in-the">1-8003</a> - Datacenter Location</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-8020-hosting-physical-trips-to-datacenters-are-by-nature">2-8020</a> - Datacenter Hub</li>
 							</ul></li>
 							<li><a href="https://www.greenpeace.org/static/planet4-international-stateless/2012/04/e7c8ff21-howcleanisyourcloud.pdf">How Clean is Your Cloud?</a> (<em>PDF</em>)</li>
 							<li><a href="https://venturebeat.com/data-infrastructure/how-green-data-centers-can-cut-your-carbon-footprint/">How green data centers can cut your carbon footprint</a></li>
 							<li><a href="https://www.wholegraindigital.com/blog/how-using-a-cdn-is-better-for-people-and-the-planet/">How using a CDN is better for people and the planet</a></li>
-							<li>IATI Technical Climate Impact Measurement [[IATI]]</li>
-							<li>Investigating the Inconsistencies among Energy and Energy Intensity Estimates of the Internet [[EEI]]</li>
+							<li><a>[*]<span class="hidden">4.10</span></a> IATI Technical Climate Impact Measurement [[IATI]]</li>
+							<li><a>[*]<span class="hidden">4.10</span></a> Investigating the Inconsistencies among Energy and Energy Intensity Estimates of the Internet [[EEI]]</li>
 							<li><a href="https://ismyhostfastyet.com/">Is My Host Fast Yet?</a></li>
 							<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/">Microsoft Azure WAF</a>:<ul>
 								<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-platform#deploy-to-low-carbon-regions">Deploy to low-carbon regions</a></li>
@@ -6143,7 +6145,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.11"> [*]<span class="hidden">4.11</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6184,7 +6186,7 @@
 							<li><a href="https://thenewstack.io/can-reducing-cloud-waste-help-save-the-planet/">Can Reducing Cloud Waste Help Save the Planet?</a></li>
 							<li><a href="https://venturebeat.com/data-infrastructure/choose-wisely-how-technology-decisions-drive-data-center-efficiency/">Choose wisely — How technology decisions drive data center efficiency</a></li>
 							<li><a href="https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/">Optimizing your AWS Infrastructure for Sustainability, Part I: Compute</a></li>
-							<li>Study on the practical application of the new framework methodology for measuring the environmental impact of your equipment [[ICTCA]].</li>
+							<li><a>[*]<span class="hidden">4.11</span></a> Study on the practical application of the new framework methodology for measuring the environmental impact of your equipment [[ICTCA]].</li>
 						</ul>
 					</details>
 				</section>
@@ -6220,7 +6222,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 4.12"> [*]<span class="hidden">4.12</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -6284,8 +6286,8 @@
 							<li><a href="https://www.sciencealert.com/dark-data-is-leaving-a-huge-carbon-footprint-and-we-have-to-do-something-about-it">Dark Data Is Leaving a Huge Carbon Footprint, And We Have to Do Something About It</a></li>
 							<li><a href="https://theconversation.com/dark-data-is-killing-the-planet-we-need-digital-decarbonisation-190423">Dark data is killing the planet - we need digital decarbonisation</a></li>
 							<li><a href="https://www.barracuda.com/support/glossary/data-compression">Data Compression</a></li>
-							<li>Exploring the sustainability challenges facing digitalization and internet data centers [[DDATA]]</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">4.12</span></a> Exploring the sustainability challenges facing digitalization and internet data centers [[DDATA]]</li>
+							<li><a>[*]<span class="hidden">4.12</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-7041-backend-the-essential-exchanges-should-make-it-possible">3-7041</a> - Transfer Compression</li>
 							</ul></li>
 							<li><a href="https://screenspan.net/blog/green-by-default/">Green by Default</a></li>
@@ -6293,7 +6295,7 @@
 								<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-platform#run-batch-workloads-during-low-carbon-intensity-periods">Batch Processing</a></li>
 								<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-storage#only-store-what-is-relevant">Only store what is relevant</a></li>
 							</ul></li>
-							<li>The Cloud Is Material [[CLOUDDATA]]</li>
+							<li><a>[*]<span class="hidden">4.12</span></a> The Cloud Is Material [[CLOUDDATA]]</li>
 							<li><a href="https://venturebeat.com/data-infrastructure/why-data-has-a-sustainability-problem/">Why data has a sustainability problem</a></li>
 						</ul>
 					</details>
@@ -6333,7 +6335,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.1"> [*]<span class="hidden">5.1</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -6374,7 +6376,7 @@
 							<li><a href="https://opensource.com/article/23/3/reduce-carbon-footprint-website">6 steps to reduce the carbon footprint of your website</a></li>
 							<li><a href="https://www.shrm.org/content/dam/en/shrm/about/organization-coe.pdf">A Guide To Developing Your Organization's Code of Ethics</a> (<em>PDF</em>)</li>
 							<li><a href="https://www.sparkblue.org/codesactionplanlaunch">Action Plan for Sustainable Planet in the Digital Age</a> (<em>PDF</em>)</li>
-							<li>[[AFNOR]] Spec 5.2.3 and 5.4.4 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">5.1</span></a> [[AFNOR]] Spec 5.2.3 and 5.4.4 (<em>French</em>)</li>
 							<li><a href="https://aremythirdpartiesgreen.com/">Are my third parties green?</a></li>
 							<li><a href="https://peaksci.com/blog/sustainability-statements">Best Sustainability Statements</a></li>
 							<li><a href="https://builtwith.com/">Built With</a></li>
@@ -6385,7 +6387,7 @@
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#communiquer-sans-greenwashing">Digital Eco-Design: L'intérêt de communiquer</a> (French)</li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#Sensibiliser-utilisateurs">Digital Eco-Design: Sensibiliser les utilisateurs</a> (<em>French</em>)</li>
 							<li><a href="https://ecograder.com/">EcoGrader</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.1</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-3014-uxui-a-number-of-resources-are-available-to">2-3014</a> - Compliance Labelling</li>
 							</ul></li>
 							<li><a href="https://www.thegreenwebfoundation.org/green-web-check/">Green Web Checker</a></li>
@@ -6396,7 +6398,7 @@
 							<li><a href="https://www.jamasoftware.com/requirements-management-guide/writing-requirements/how-to-write-an-effective-product-requirements-document">How to Write an Effective Product Requirements Documents</a></li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em>PDF</em>)</li>
 							<li><a href="https://medium.com/disruptive-design/quick-guide-to-sustainable-design-strategies-641765a86fb8">Quick Guide to Sustainable Design Strategies</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">5.1</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.12/">1.12</a> - Ecodesign Statement</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.14/">4.14</a> - Informed Visitors</li>
 							</ul> </li>
@@ -6406,8 +6408,8 @@
 							<li><a href="https://www.mightybytes.com/blog/sustainability-storytelling-checklist/">Sustainability Storytelling Checklist</a></li>
 							<li><a href="https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f">Sustainable UX is more than reducing your website's footprint</a></li>
 							<li><a href="https://www.smashingmagazine.com/2022/10/sustainable-web-development-strategies-organization/">Sustainable Web Development Strategies Within An Organization</a></li>
-							<li>The carbon.txt Proposed Standard [[CARBON]]</li>
-							<li>The Carbon Impact of Web Standards [[CIWS]]</li>
+							<li><a>[*]<span class="hidden">5.1</span></a> The carbon.txt Proposed Standard [[CARBON]]</li>
+							<li><a>[*]<span class="hidden">5.1</span></a> The Carbon Impact of Web Standards [[CIWS]]</li>
 							<li><a href="https://www.websitecarbon.com/">Website Carbon</a></li>
 						</ul>
 					</details>
@@ -6424,7 +6426,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.2"> [*]<span class="hidden">5.2</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -6463,7 +6465,7 @@
 							<li><a href="https://en.wikipedia.org/wiki/Chief_sustainability_officer">Chief sustainability officer</a></li>
 							<li><a href="https://www.gartner.com/en/articles/does-your-organization-need-a-chief-sustainability-officer">Does Your Organization Need a Chief Sustainability Officer?</a></li>
 							<li><a href="https://www.mckinsey.com/capabilities/sustainability/our-insights/organizing-for-sustainability-success-where-and-how-leaders-can-start">Organizing for sustainability success</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">5.2</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.8/">1.8</a> - Sustainability Representative</li>
 							</ul></li>
 						</ul>
@@ -6485,7 +6487,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.3"> [*]<span class="hidden">5.3</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6518,11 +6520,11 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[AFNOR]] Spec 5.5.1 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">5.3</span></a> [[AFNOR]] Spec 5.5.1 (<em>French</em>)</li>
 							<li><a href="https://climatevoice.org/">Climate Voice</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html">Digital Eco-Design: Convaincre et diffuser</a> (<em>French</em>)</li>
 							<li><a href="https://luiscruz.github.io/2022/01/01/sustainable-se-intro.html">Five Dimensions of Sustainable Software Engineering and How Education Can Help!</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.3</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-3011-uxui-to-accede-you-have-to-understand.-sustainable">2-3011</a> - Stakeholder Awareness</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-3015-uxui-users-posture-remains-one-of-the-points">2-3015</a> - Reference Materials</li>
 							</ul></li>
@@ -6544,7 +6546,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.4"> [*]<span class="hidden">5.4</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6578,11 +6580,11 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.4</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=6-3039-uxui-users-equipement-is-increasingly-more-efficient-and">6-3039</a> - Software or Hardware Configurations</li>
 							</ul></li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em>PDF</em>)</li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">5.4</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 						</ul>
 					</details>
 				</section>
@@ -6602,7 +6604,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.5"> [*]<span class="hidden">5.5</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6637,7 +6639,7 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[AFNOR]] Spec 5.1.3 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">5.5</span></a> [[AFNOR]] Spec 5.1.3 (<em>French</em>)</li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/2-evaluate.html">Digital Eco-Design: Assess and measure</a></li>
 							<li><abbr title="European Telecommunications Standards Institute">ETSI</abbr> ES 203 199 [[ETSI]] (<em>PDF</em>)</li>
 							<li>GreenIT (<em>PDF</em>)<ul>
@@ -6646,7 +6648,7 @@
 								<li><a href="https://www.greenit.fr/wp-content/uploads/2021/12/EU-Study-LCA-7-DEC-EN.pdf">Digital Technologies in Europe</a></li>
 							</ul></li>
 							<li><a href="https://medium.com/wearesnook/principles-for-designing-sustainable-services-bbf3f3948ac2">Principles for Designing Sustainable Services</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">5.5</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.4/">1.4</a> - Hardware Profiles</li>
 							</ul></li>
 							<li><a href="https://www.mightybytes.com/blog/digital-life-cycle-assessment/">Understanding Digital life-cycle Assessments</a></li>
@@ -6665,7 +6667,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.6"> [*]<span class="hidden">5.6</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6699,12 +6701,12 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>B Corperation Standards [[BCORP-S]]</li>
+							<li><a>[*]<span class="hidden">5.6</span></a> B Corperation Standards [[BCORP-S]]</li>
 							<li><a href="https://corporatedigitalresponsibility.net/cdr-manifesto">Corporate Digital Responsibility</a></li>
-							<li>Implementing the Sustainable Development Goals [[UKG-SDG]]</li>
+							<li><a>[*]<span class="hidden">5.6</span></a> Implementing the Sustainable Development Goals [[UKG-SDG]]</li>
 							<li><a href="https://sciencebasedtargets.org/">Science Based Targets</a></li>
-							<li>Sustainable Development Goals [[SDGS]]</li>
-							<li>United Nations Global Impact [[UNGA]]</li>
+							<li><a>[*]<span class="hidden">5.6</span></a> Sustainable Development Goals [[SDGS]]</li>
+							<li><a>[*]<span class="hidden">5.6</span></a> United Nations Global Impact [[UNGA]]</li>
 						</ul>
 					</details>
 				</section>
@@ -6724,7 +6726,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.7"> [*]<span class="hidden">5.7</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6758,16 +6760,16 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://www.uschamber.com/co/start/strategy/b-corp-advantages-and-requirements">A Complete Guide to Starting a B Corp</a></li>
-							<li>B Corperation Certification [[BCORP-C]]</li>
-							<li>B Corperation Standards [[BCORP-S]]</li>
-							<li>Blue Angel (German) [[ANGEL]]</li>
-							<li>Improving your BIA score [[BCORP-I]]</li>
+							<li><a>[*]<span class="hidden">5.7</span></a> B Corperation Certification [[BCORP-C]]</li>
+							<li><a>[*]<span class="hidden">5.7</span></a> B Corperation Standards [[BCORP-S]]</li>
+							<li><a>[*]<span class="hidden">5.7</span></a> Blue Angel (German) [[ANGEL]]</li>
+							<li><a>[*]<span class="hidden">5.7</span></a> Improving your BIA score [[BCORP-I]]</li>
 							<li><a href="https://www.iso.org/iso-14001-environmental-management.html"><abbr title="International Organization for Standardization">ISO</abbr> 14001 - Environmental management</a></li>
 							<li><a href="https://www.iso.org/standard/71206.html">ISO 14067:2018 - Greenhouse gases</a></li>
 							<li><a href="https://www.vanta.com/products/iso-27001">ISO 27001 - Information security management</a></li>
 							<li><a href="https://www.iso.org/iso-50001-energy-management.html">ISO 50001 - Energy management</a></li>
 							<li><a href="https://www.iso.org/standard/72496.html">ISO Guide 84:2020 - Guidelines for addressing climate change in standards</a></li>
-							<li>Label numérique responsable (French) [[INR]]</li>
+							<li><a>[*]<span class="hidden">5.7</span></a> Label numérique responsable (French) [[INR]]</li>
 							<li><a href="https://www.planetmark.com/">PlanetMark</a></li>
 						</ul>
 					</details>
@@ -6792,7 +6794,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.8"> [*]<span class="hidden">5.8</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6827,7 +6829,7 @@
 							<li><a href="https://blog.nexioprojects.com/an-introduction-to-corporate-sustainability-training">An Introduction to Corporate Sustainability Training</a></li>
 							<li><a href="https://www.figma.com/community/file/1197230942511819987/ecocards-jeu-de-cartes-decoconception-web-web-ecodesign-card-game">EcoCards Game Workshop Toolkit</a></li>
 							<li><a href="https://www.esgthereport.com/esg-policy-the-why-the-what-the-how/">ESG Policy - the Why, the What the How</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.8</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-4002-contents-many-elements-are-produced-externally-it-would">1-4002</a> - Sustainable Commitment</li>
 							</ul></li>
 							<li><a href="https://screenspan.net/blog/green-by-default/">Green by Default</a></li>
@@ -6838,8 +6840,8 @@
 							<li><a href="https://www.systemicdesigntoolkit.org/">Systemic Design Toolkit</a></li>
 							<li><a href="https://tarotcardsoftech.artefactgroup.com/">Tarot Cards of Tech</a></li>
 							<li><a href="https://miro.com/miroverse/team-sustainability-retrospective/">Team Sustainability Retrospective</a></li>
-							<li>The power of green defaults [[GREEN-D]]</li>
-							<li>Variables of Web Sustainability [[VARIABLES]]</li>
+							<li><a>[*]<span class="hidden">5.8</span></a> The power of green defaults [[GREEN-D]]</li>
+							<li><a>[*]<span class="hidden">5.8</span></a> Variables of Web Sustainability [[VARIABLES]]</li>
 						</ul>
 					</details>
 				</section>
@@ -6867,7 +6869,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.9"> [*]<span class="hidden">5.9</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6902,21 +6904,21 @@
 						<ul class="resources">
 							<li><a href="https://unitofimpact.com/2021/06/2020-impact-reports-that-impacted-us/">2020 Impact Reports That Impacted Us</a></li>
 							<li><a href="https://fundtheplanet.net/what-is-carbon-certificates-and-why-does-it-have-a-huge-problem-with-transparency-and-double-accounting/">Carbon Certificates and a huge problem with transparency and double accounting</a></li>
-							<li>CDP (Global Disclosure System) [[CDP]]</li>
+							<li><a>[*]<span class="hidden">5.9</span></a> CDP (Global Disclosure System) [[CDP]]</li>
 							<li><a href="https://www.sidley.com/en/insights/newsupdates/2022/08/eu-corporate-sustainability-reporting-directive-what-do-uk-us-headquartered-companies-need-to-know">EU Corporate Sustainability Reporting Directive</a></li>
-							<li>European Digital Rights and Principles [[EDRP]]</li>
-							<li>Global Reporting Initiative [[GRI]]</li>
+							<li><a>[*]<span class="hidden">5.9</span></a> European Digital Rights and Principles [[EDRP]]</li>
+							<li><a>[*]<span class="hidden">5.9</span></a> Global Reporting Initiative [[GRI]]</li>
 							<li><a href="https://sustainability.google/reports/">Google Sustainability Report Case Study</a></li>
-							<li>Green digital sector [[ECGDS]]</li>
-							<li>Greenhouse Gas Protocol [[GHGP]]</li>
+							<li><a>[*]<span class="hidden">5.9</span></a> Green digital sector [[ECGDS]]</li>
+							<li><a>[*]<span class="hidden">5.9</span></a> Greenhouse Gas Protocol [[GHGP]]</li>
 							<li><a href="https://en.wikipedia.org/wiki/Greenwashing">Greenwashing</a></li>
 							<li><a href="https://www.esgthereport.com/what-is-esg/the-g-in-esg/how-to-write-a-sustainability-report/">How to Write a Sustainability Report</a></li>
 							<li><a href="https://www.sopact.com/impact-reporting">Impact Reporting</a></li>
 							<li><a href="https://www.mckinsey.com/capabilities/sustainability/our-insights/more-than-values-the-value-based-sustainability-reporting-that-investors-want">More than values: The value-based sustainability reporting that investors want</a></li>
-							<li>Sustainability Accounting Standards Board [[SASB]]</li>
+							<li><a>[*]<span class="hidden">5.9</span></a> Sustainability Accounting Standards Board [[SASB]]</li>
 							<li><a href="https://greenbusinessbureau.com/blog/sustainability-regulations-for-business-a-brief-review/">Sustainability Regulations for Business</a></li>
 							<li><a href="https://www.pwc.com/gx/en/audit-services/corporate-reporting/sustainability-reporting/assets/pwc-sustainability-reporting-tips-private-sector.pdf">Sustainability Reporting tips</a> (<em>PDF</em>)</li>
-							<li>Task Force on Climate-related Financial Disclosures [[TCFD]]</li>
+							<li><a>[*]<span class="hidden">5.9</span></a> Task Force on Climate-related Financial Disclosures [[TCFD]]</li>
 							<li><a href="https://www.w3.org/WAI/policies/">Web Accessibility Laws & Policies</a></li>
 							<li><a href="https://medium.com/disruptive-design/what-is-greenwashing-how-to-spot-it-and-stop-it-c44f3d130d5">What is Greenwashing? How to Spot It and Stop it</a></li>
 						</ul>
@@ -6934,7 +6936,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.10"> [*]<span class="hidden">5.10</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -6970,13 +6972,13 @@
 						<ul class="resources">
 							<li><a href="https://www.eco-coach.com/blog/2019/11/9/5-steps-to-calculating-your-sustainability-roi">5 Steps to Calculating Your Sustainability ROI</a></li>
 							<li><a href="https://www.mightybytes.com/blog/how-to-create-shared-value/">Five Ways to Create Shared Value</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.10</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-3004-uxui-responsible-digital--can-be-considered-as">1-3004</a> - Financial Added Value</li>
 							</ul></li>
 							<li><a href="https://www.mightybytes.com/blog/how-to-design-an-impact-business-model/">How to Design an Impact Business Model</a></li>
 							<li><a href="https://www.modelsofimpact.co/">Models of Impact</a></li>
 							<li><a href="https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Sustainability/Our%20Insights/Profits%20with%20purpose/Profits%20with%20Purpose.ashx">Profits with purpose</a></li>
-							<li>Sustainability innovations and firm competitiveness [[COMPETE]]</li>
+							<li><a>[*]<span class="hidden">5.10</span></a> Sustainability innovations and firm competitiveness [[COMPETE]]</li>
 							<li><a href="https://unsdg.un.org/sites/default/files/UNDG-UNDAF-Companion-Pieces-7-Theory-of-Change.pdf">United Nations Theory of Change</a> (<em>PDF</em>)</li>
 						</ul>
 					</details>
@@ -7005,7 +7007,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.11"> [*]<span class="hidden">5.11</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -7044,8 +7046,8 @@
 							<li><a href="https://www.dreamhost.com/blog/complete-website-maintenance-checklist/">Complete Website Maintenance Checklist</a></li>
 							<li><a href="https://doteveryone.org.uk/project/consequence-scanning/">Consequence Scanning</a></li>
 							<li><a href="https://www.thundertech.com/blog-news/september-2021/developing-website-maintenance-plans">Developing Killer Website Maintenance Plans</a></li>
-							<li>Digitalization for sustainable maintenance services [[DSMS]]</li>
-							<li>Green software: Refactoring approach [[GREEN-SW]]</li>
+							<li><a>[*]<span class="hidden">5.11</span></a> Digitalization for sustainable maintenance services [[DSMS]]</li>
+							<li><a>[*]<span class="hidden">5.11</span></a> Green software: Refactoring approach [[GREEN-SW]]</li>
 							<li><a href="https://www.hacksplaining.com/lessons">Hacksplaning</a></li>
 							<li><a href="https://venturebeat.com/programming-development/how-efficient-code-increases-sustainability-in-the-enterprise/">How efficient code increases sustainability in the enterprise</a></li>
 							<li><a href="https://github.com/0xRadi/OWASP-Web-Checklist">OWASP Web Application Security Testing Checklist</a></li>
@@ -7089,7 +7091,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.12"> [*]<span class="hidden">5.12</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -7138,7 +7140,7 @@
 							<li><a href="https://sustainabilityguide.eu/methods/cradle-to-cradle/">Cradle to Cradle</a></li>
 							<li><a href="https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/demystifying-digital-dark-matter-a-new-standard-to-tame-technical-debt">Demystifying digital dark matter</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html">Digital Eco-Design: Test, assess and maintain</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.12</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-3006-uxui-the-aim-of-continual-improvement-allows-to">1-3006</a> - Planned Sustainability Improvements</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-3012-uxui-the-sustainable-it-approach-is-iterative-and">2-3012</a> - Iterative Validation Process</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-3031-uxui-monitoring-of-uses-allows-to-validate-the">5-3031</a> - Decision Making</li>
@@ -7157,22 +7159,22 @@
 							<li><a href="https://www.keycdn.com/blog/measuring-web-performance">Measuring Web Performance</a></li>
 							<li><a href="https://requestmetrics.com/web-performance/measure-web-performance/">Measuring Web Performance in 2023</a></li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em>PDF</em>)</li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">5.12</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.11/">1.11</a> - Compliance Reviews</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.12/">1.12</a> - Ecodesign Statement</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/3.5/">3.5</a> - Corrective Updates</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/3.6/">3.6</a> - Patch Updates</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.4/">4.4</a> - Optimized Navigation</li>
 							</ul></li>
-							<li>Sustainability debt: A metaphor to support Sustainability design decisions [[SUSTYDEBT]]</li>
+							<li><a>[*]<span class="hidden">5.12</span></a> Sustainability debt: A metaphor to support Sustainability design decisions [[SUSTYDEBT]]</li>
 							<li><a href="https://scrumguides.org/scrum-guide.html">SCRUM Guide</a></li>
 							<li><a href="https://www.knowledgehut.com/blog/agile/5-reasons-to-have-fixed-length-sprints">Sprint length in Scrum</a></li>
 							<li><a href="https://www.mightybytes.com/blog/technical-debt-agile-and-sustainability/">Technical Debt, Agile, and Sustainability</a></li>
 							<li><a href="https://sustainabilityguide.eu/methods/the-design-process/">The Design Process</a></li>
-							<li>The overlooked environmental footprint of increasing Internet use [[EFIIU]]</li>
+							<li><a>[*]<span class="hidden">5.12</span></a> The overlooked environmental footprint of increasing Internet use [[EFIIU]]</li>
 							<li><a href="https://www.smashingmagazine.com/2023/05/impact-agile-methodologies-code-quality/">The Impact Of Agile Methodologies On Code Quality</a></li>
 							<li><a href="https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future">Using UX Design to Build a Sustainable Future</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">5.12</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://businessmap.io/lean-management/improvement/what-is-continuous-improvement">What Is Continuous Improvement? The Complete Guide</a></li>
 							<li><a href="https://www.imaginarycloud.com/blog/what-is-technical-debt/">What is Technical Debt and how can you manage it?</a></li>
 						</ul>
@@ -7190,7 +7192,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.13"> [*]<span class="hidden">5.13</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -7244,10 +7246,10 @@
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/7-maintenir.html#preparer-evolution">Digital Eco-Design: Préparer l'évolution du service et des contenus</a> (<em>French</em>)</li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.13</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=6-3040-uxui-a-digital-service-has-a-lifespan-that">6-3040</a> - Changing Features</li>
 							</ul></li>
-							<li>Semantic Versioning [[SEMVER]]</li>
+							<li><a>[*]<span class="hidden">5.13</span></a> Semantic Versioning [[SEMVER]]</li>
 						</ul>
 					</details>
 				</section>
@@ -7275,7 +7277,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.14"> [*]<span class="hidden">5.14</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Low</dd>
 					</dl>
 				</section>
@@ -7311,22 +7313,22 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[AFNOR]] Spec 5.1.5 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">5.14</span></a> [[AFNOR]] Spec 5.1.5 (<em>French</em>)</li>
 							<li><a href="https://mailchimp.com/resources/what-is-competitor-analysis/">Competitor Analysis: What It Is and How to Conduct One</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Digital_divide">Digital divide</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/7-go-further.html">Digital Eco-Design: Go further in the approach</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.14</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-3017-uxui-in-order-to-be-responsible-digital-technology">3-2017</a> - Technological Obstacles</li>
 							</ul></li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em>PDF</em>)</li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">5.14</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.1/">1.1</a> - Impact Evaluation</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.3/">1.3</a> - Needs And Expectations</li>
 							</ul></li>
 							<li><a href="https://societycentered.design/">Society Centered Design</a></li>
 							<li><a href="https://www.figma.com/community/file/1198811753322710709/sustainability-innovation-framework-climatesprint">Sustainability Innovation Framework</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Sustainable_Development_Goals">Sustainable Development Goals</a></li>
-							<li>Sustainable Development Goals [[SDGS]]</li>
+							<li><a>[*]<span class="hidden">5.14</span></a> Sustainable Development Goals [[SDGS]]</li>
 							<li><a href="https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f">Sustainable <abbr title="User Experience">UX</abbr> is more than reducing your website's footprint</a></li>
 							<li><a href="https://blog.hubspot.com/marketing/competitive-analysis-kit">What's a Competitive Analysis & How Do You Conduct One?</a></li>
 						</ul>
@@ -7344,7 +7346,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.15"> [*]<span class="hidden">5.15</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -7378,7 +7380,7 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>Defining Functional Units For LCA and <abbr title="Techno-Economic Analysis">TEA</abbr> [[FUNIT]]</li>
+							<li><a>[*]<span class="hidden">5.15</span></a> Defining Functional Units For LCA and <abbr title="Techno-Economic Analysis">TEA</abbr> [[FUNIT]]</li>
 							<li><a href="https://consequential-lca.org/clca/the-functional-unit/define-the-functional-unit/">Defining the functional unit</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Life-cycle_assessment">Life-cycle Assessment</a></li>
 							<li><a href="https://sustainabilityguide.eu/methods/life-cycle-assessment/">Life Cycle Assessment</a></li>
@@ -7406,7 +7408,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><!--<dfn data-lt="[*] 5.16"> [*]<span class="hidden">5.16</span></dfn>--></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -7474,7 +7476,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.17"> [*]<span class="hidden">5.17</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -7509,17 +7511,17 @@
 						<ul class="resources">
 							<li><a href="https://bthechange.com/5-business-management-strategies-we-learned-as-a-b-corp-42e91639c6ae">5 Business Management Strategies We Learned as a B Corp</a></li>
 							<li><a href="https://bthechange.com/7-strategies-to-motivate-lasting-sustainability-practices-2098a5fb72f2">7 Strategies to Motivate Lasting Sustainability Practices</a></li>
-							<li>Bridging Digital and Environmental Goals [[WEF]]</li>
+							<li><a>[*]<span class="hidden">5.17</span></a> Bridging Digital and Environmental Goals [[WEF]]</li>
 							<li><a href="https://www.forbes.com/advisor/business/employee-benefits/">Employee Benefits In 2023: The Ultimate Guide</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.17</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-8019-hosting-the-24/7-supervision-needs-of-data-centers">2-8019</a> - Employee Salary Conditions</li>
 							</ul></li>
 							<li><a href="https://www.greenbiz.com/article/how-effective-sustainability-advocacy">How effective is sustainability advocacy?</a></li>
-							<li>How to Ensure a Living Wage for All Employees, Globally and Regionally [[UNGA-LW]]</li>
+							<li><a>[*]<span class="hidden">5.17</span></a> How to Ensure a Living Wage for All Employees, Globally and Regionally [[UNGA-LW]]</li>
 							<li><a href="https://www.corporatewellnessmagazine.com/article/how-to-make-employee-benefits-more-sustainable">How to Make Employee Benefits More Sustainable</a></li>
 							<li><a href="https://nbs.net/how-to-motivate-people-toward-sustainability/">How to Motivate People Toward Sustainability</a></li>
 							<li><a href="https://www.livingwagenetwork.org/">Living Wage Network</a></li>
-							<li>Sustainability innovations and firm competitiveness [[COMPETE]]</li>
+							<li><a>[*]<span class="hidden">5.17</span></a> Sustainability innovations and firm competitiveness [[COMPETE]]</li>
 							<li><a href="https://www.livingwage.org.uk/news/real-living-wage-core-part-any-esg-agenda">The Real Living Wage Is A Core Part Of Any ESG Agenda</a></li>
 							<li><a href="https://medium.com/@a11ycompass/what-is-an-accessibility-advocate-8cbbac0d6c6c">What is an Accessibility Advocate?</a></li>
 							<li><a href="https://www.greenbiz.com/article/whats-best-way-incentivize-supplier-sustainability">What's the best way to incentivize supplier sustainability?</a></li>
@@ -7538,7 +7540,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.18"> [*]<span class="hidden">5.18</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -7572,7 +7574,7 @@
 						<ul class="resources">
 							<li><a href="https://methods.co.uk/blog/give-the-planet-a-seat-at-the-table/">Give the planet a seat at the table</a></li>
 							<li><a href="https://greenallianceblog.org.uk/2022/09/22/giving-nature-a-seat-on-the-board-is-a-powerful-way-to-make-sure-businesses-protect-our-environment/">Giving nature a seat on the board is a powerful way to make sure businesses protect our environment</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.18</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-3007-uxui-for-the-sustainable-it-issue-to-be">1-3007</a> - Management Alignment</li>
 							</ul></li>
 						</ul>
@@ -7606,7 +7608,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.19"> [*]<span class="hidden">5.19</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -7652,13 +7654,13 @@
 							<li><a href="https://www.jediinvesting.com/">JEDI Investing Toolkit</a></li>
 							<li><a href="https://hbr.org/2021/11/managers-heres-how-to-advocate-for-pay-equity">Managers, Here's How to Advocate for Pay Equity</a></li>
 							<li><a href="https://medium.com/@equityXdesign/racism-and-inequity-are-products-of-design-they-can-be-redesigned-12188363cc6a">Racism and inequity are products of design. They can be redesigned.</a></li>
-							<li>Sample accessibility statement [[UKG-AS]]</li>
+							<li><a>[*]<span class="hidden">5.19</span></a> Sample accessibility statement [[UKG-AS]]</li>
 							<li><a href="https://www.linkedin.com/pulse/importance-advocacy-accessibility-within-workplace/">The Importance of Advocacy for Accessibility within the workplace</a></li>
 							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
 							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
 							<li><a href="https://www.mightybytes.com/blog/social-digital-responsibility/">Understanding Social Digital Responsibility</a></li>
 							<li><a href="https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth/unequal-america-ten-insights-on-the-state-of-economic-opportunity">Unequal America: Ten insights on the state of economic opportunity</a></li>
-							<li>Web Content Accessibility Guidelines [[WCAG22]]</li>
+							<li><a>[*]<span class="hidden">5.19</span></a> Web Content Accessibility Guidelines [[WCAG22]]</li>
 							<li><a href="https://webhint.io/">WebHint</a></li>
 						</ul>
 					</details>
@@ -7683,7 +7685,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.20"> [*]<span class="hidden">5.20</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -7719,11 +7721,11 @@
 							<li><a href="https://insights.comforte.com/countries-with-gdpr-like-data-privacy-laws">17 Countries with GDPR-like Data Privacy Laws</a></li>
 							<li><a href="https://www.eff.org/dnt-policy">A privacy-friendly Do Not Track (<abbr title="Do Not Track">DNT</abbr>) Policy</a></li>
 							<li><a href="https://www.thalesgroup.com/en/markets/digital-identity-and-security/government/magazine/beyond-gdpr-data-protection-around-world">Beyond GDPR: Data Protection Around The World</a></li>
-							<li>California Consumer Privacy Act ([[CCPA]])</li>
+							<li><a>[*]<span class="hidden">5.20</span></a> California Consumer Privacy Act ([[CCPA]])</li>
 							<li><a href="https://www.verygoodsecurity.com/guides/ccpa-for-developers">CCPA for Developers</a></li>
 							<li><a href="https://fusionauth.io/articles/ciam/developers-guide-to-gdpr">Developer's Guide To GDPR</a></li>
 							<li><a href="https://gdprchecklist.io/">GDPR Checklist</a></li>
-							<li>General Data Protection Regulation ([[GDPR]])</li>
+							<li><a>[*]<span class="hidden">5.20</span></a> General Data Protection Regulation ([[GDPR]])</li>
 							<li><a href="https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/">How To Protect Your Users With The Privacy By Design Framework</a></li>
 							<li><a href="https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/">Is GDPR Good for the Environment?</a></li>
 							<li><a href="https://dataprot.net/guides/how-to-write-a-privacy-policy/">Learn How To Write a Privacy Policy in a Few Easy Steps</a></li>
@@ -7749,7 +7751,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Low</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.21"> [*]<span class="hidden">5.21</span></dfn></dt><dd>Low</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -7784,11 +7786,11 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[AFNOR]] Spec 5.2.4 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">5.21</span></a> [[AFNOR]] Spec 5.2.4 (<em>French</em>)</li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html">Digital Eco-Design: Test, assess and maintain</a></li>
-							<li>EU Cyber Resilience Act [[ECCRA]]</li>
+							<li><a>[*]<span class="hidden">5.21</span></a> EU Cyber Resilience Act [[ECCRA]]</li>
 							<li><a href="https://www.mightybytes.com/blog/content-governance-evergreen-content/">Evergreen Content is More Sustainable</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.21</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-7006-backend-the-regulations-require-control-of-the-data">1-7006</a> - Obsolete Data</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-7016-backend-the-specifications-reveal-data-collections-of-asynchronous">1-7016</a> - Expiration Dates</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-3035-uxui-often-a-significant-amount-of-files-often">5-3035</a> - Archiving and Management</li>
@@ -7806,12 +7808,12 @@
 								<li><a href="https://checklists.opquast.com/en/web-quality-assurance/accounts-and-subscriptions-opened-online-can-be-closed-online">19</a> - Accounts and subscriptions opened online can be closed online by the same method.</li>
 							</ul></li>
 							<li><a href="https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/">Privacy UX: Privacy-Aware Design Framework</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">5.21</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/2.1/">2.1</a> - Design And Code Review</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/5.9/">5.9</a> - Archiving And Deleting</li>
 							</ul></li>
 							<li><a href="https://www.greenmellenmedia.com/should-you-update-rewrite-or-delete-outdated-content/">Should You Update, Rewrite or Delete Outdated Content?</a></li>
-							<li>Your right to get your data deleted [[ICODD]]</li>
+							<li><a>[*]<span class="hidden">5.21</span></a> Your right to get your data deleted [[ICODD]]</li>
 						</ul>
 					</details>
 				</section>
@@ -7835,7 +7837,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.22"> [*]<span class="hidden">5.22</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -7868,23 +7870,23 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>3rd Global CryptoAsset Benchmarking Study [[CRYPTOBENCH]]</li>
+							<li><a>[*]<span class="hidden">5.22</span></a> 3rd Global CryptoAsset Benchmarking Study [[CRYPTOBENCH]]</li>
 							<li><a href="https://www.orfonline.org/expert-speak/sustainable-internet-missing-pieces-healthy-future/">A sustainable internet: Missing pieces to a healthy future</a></li>
 							<li><a href="https://themarkup.org/hello-world/2023/07/08/ai-environmental-equity-its-not-easy-being-green">AI Environmental Equity</a></li>
 							<li><a href="https://www.taylorwessing.com/en/interface/2023/ai---are-we-getting-the-balance-between-regulation-and-innovation-right/ai-regulation-around-the-world">AI Regulation Around The World</a></li>
-							<li>Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models [[CTML]]</li>
+							<li><a>[*]<span class="hidden">5.22</span></a> Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models [[CTML]]</li>
 							<li><a href="https://techcrunch.com/2021/05/16/crypto-and-blockchain-must-accept-they-have-a-problem-then-lead-in-sustainability/amp/">Crypto and blockchain must accept they have a problem, then lead in sustainability</a></li>
-							<li>Cryptocurrency's Dirty Secret: Energy Consumption [[CRYPTO]]</li>
+							<li><a>[*]<span class="hidden">5.22</span></a> Cryptocurrency's Dirty Secret: Energy Consumption [[CRYPTO]]</li>
 							<li><a href="https://dig.watch/trends/digital-and-environment">Digital aspects and the environment</a></li>
 							<li><a href="https://www.ottogroup.com/en/stories/story/story-techucation.php">Digital education: The unique learning ecosystem TechUcation</a></li>
 							<li><a href="https://gizmodo.com/ai-images-as-much-energy-as-charging-phone-hugging-face-1851065091">Generating AI Images Uses as Much Energy as Charging Your Phone, Study Finds</a></li>
-							<li>How might we shape the future of a greener Internet? [[ONLIGN]] (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">5.22</span></a> How might we shape the future of a greener Internet? [[ONLIGN]] (<em>PDF</em>)</li>
 							<li><a href="https://www.unep.org/news-and-stories/story/battle-against-climate-crisis-dont-overlook-blockchain">In battle against climate crisis, don't overlook the blockchain</a></li>
 							<li><a href="https://docs.google.com/presentation/d/1OTXaz3RuV0HWgM754PRMUC7d2KYVHH974s5hnAt53wk/edit">Sustainable Ux in VR</a> (<em>PPT</em>)</li>
-							<li>Sustainability of Bitcoin and its Impact on the Environment [[BITCOIN]]</li>
-							<li>The cyber-consciousness of environmental assessment [[CYBER]]</li>
-							<li>The growing energy footprint of artificial intelligence [[EFAI]]</li>
-							<li>The role of artificial intelligence in achieving the Sustainable Development Goals [[AISDG]]</li>
+							<li><a>[*]<span class="hidden">5.22</span></a> Sustainability of Bitcoin and its Impact on the Environment [[BITCOIN]]</li>
+							<li><a>[*]<span class="hidden">5.22</span></a> The cyber-consciousness of environmental assessment [[CYBER]]</li>
+							<li><a>[*]<span class="hidden">5.22</span></a> The growing energy footprint of artificial intelligence [[EFAI]]</li>
+							<li><a>[*]<span class="hidden">5.22</span></a> The role of artificial intelligence in achieving the Sustainable Development Goals [[AISDG]]</li>
 							<li><a href="https://venturebeat.com/business/what-is-the-environmental-impact-of-web3/">What is the environmental impact of Web3?</a></li>
 							<li><a href="https://www.forbes.com/sites/bernardmarr/2023/01/13/why-blockchain-nfts-and-web3-have-a-sustainability-problem/">Why Blockchain, NFTs, And Web3 Have A Sustainability Problem</a></li>
 							<li><a href="https://social.hays.com/2022/09/29/why-we-need-to-be-upskilling-the-current-workforce-for-the-green-economy/">Why We Need To Be UpSkilling The Current Workforce For The Green Economy</a></li>
@@ -7907,7 +7909,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.23"> [*]<span class="hidden">5.23</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -7942,7 +7944,7 @@
 						<ul class="resources">
 							<li><a href="https://www.theguardian.com/environment/2015/jun/23/a-beginners-guide-to-fossil-fuel-divestment">A beginner's guide to fossil fuel divestment</a></li>
 							<li><a href="https://www.forbes.com/sites/davidcarlin/2021/02/20/the-case-for-fossil-fuel-divestment/">Case For Fossil Fuel Divestment</a></li>
-							<li>Environmental impact assessment of online advertising [[ADVERT]]</li>
+							<li><a>[*]<span class="hidden">5.23</span></a> Environmental impact assessment of online advertising [[ADVERT]]</li>
 							<li><a href="https://en.wikipedia.org/wiki/Fossil_fuel_divestment">Fossil fuel divestment</a></li>
 							<li><a href="https://hbr.org/2022/11/how-fossil-fuel-divestment-falls-short">How Fossil Fuel Divestment Falls Short</a></li>
 							<li><a href="https://www.mightybytes.com/blog/digital-resilience/">How to Improve Your Digital Resilience</a></li>
@@ -7969,7 +7971,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.24"> [*]<span class="hidden">5.24</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -8002,7 +8004,7 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>1% For The Planet [[1Planet]]</li>
+							<li><a>[*]<span class="hidden">5.24</span></a> 1% For The Planet [[1Planet]]</li>
 							<li><a href="https://www.sage.com/en-gb/blog/benefits-volunteer-days-employee-engagement/">7 business benefits of employee volunteering</a></li>
 							<li><a href="https://builtin.com/software-engineering-perspectives/20-percent-time">Side Project Programs Can Have Major Benefits for Employers</a></li>
 							<li><a href="https://www.orbitmedia.com/about/chicago-cause/">What is Chicago Cause?</a></li>
@@ -8021,7 +8023,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.25"> [*]<span class="hidden">5.25</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -8057,9 +8059,9 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>[[AFNOR]] Spec 5.2.6 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">5.25</span></a> [[AFNOR]] Spec 5.2.6 (<em>French</em>)</li>
 							<li><a href="https://sustainabilityguide.eu/ecodesign/end-of-life/">End of life</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">5.25</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/2.2/">2.2</a> - Decommissioning Strategy</li>
 							</ul></li>
 							<li><a href="https://fruition.net/blog/what-does-eol-mean-for-your-website">What Does End-of-life (EOL) Mean For Your Website Platform?</a></li>
@@ -8087,7 +8089,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.26"> [*]<span class="hidden">5.26</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -8120,10 +8122,10 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li>Carbon Emission Implications of ICT Re-use at the University of Edinburgh [[CEIUE]] (<em>PDF</em>)</li>
+							<li><a>[*]<span class="hidden">5.26</span></a> Carbon Emission Implications of ICT Re-use at the University of Edinburgh [[CEIUE]] (<em>PDF</em>)</li>
 							<li><a href="https://www.societybyte.swiss/en/2020/04/09/digitization-and-the-environment-opportunities-risks-and-the-need-for-action/">Digitization and the Environment</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Electronic_waste">Electronic waste</a></li>
-							<li>Future trends of Green All Optical Networks and ICT Infrastructure in a large context [[GON]]</li>
+							<li><a>[*]<span class="hidden">5.26</span></a> Future trends of Green All Optical Networks and ICT Infrastructure in a large context [[GON]]</li>
 							<li><a href="https://www.forbes.com/sites/serenitygibbons/2021/10/21/how-companies-are-addressing-the-e-waste-problem/">How Companies Are Addressing The e-waste Problem</a></li>
 							<li><a href="https://www.business2community.com/small-business/how-to-effectively-use-second-hand-products-in-your-business-02412949">How To Effectively Use Second-Hand Products In Your Business</a></li>
 							<li><a href="https://www.infoentrepreneurs.org/en/guides/how-to-write-an-environmental-policy/">How to write an environmental policy</a></li>
@@ -8132,7 +8134,7 @@
 							<li><a href="https://sustainabilityguide.eu/ecodesign/materials-parts/">Materials &amp; Parts</a></li>
 							<li><a href="https://www.green.earth/blog/reduce-reuse-recycle-7-ways-for-businesses-to-reduce-waste">Reduce, reuse, recycle</a></li>
 							<li><a href="https://labs.ripe.net/author/michael_oghia/to-green-the-internet-we-need-ripe/">To Green the Internet, We Need RIPE</a></li>
-							<li>Sources and Streams of Electronic Waste [[EWASTE]]</li>
+							<li><a>[*]<span class="hidden">5.26</span></a> Sources and Streams of Electronic Waste [[EWASTE]]</li>
 						</ul>
 					</details>
 				</section>
@@ -8160,7 +8162,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>Medium</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.27"> [*]<span class="hidden">5.27</span></dfn></dt><dd>Medium</dd>
 						<dt><a>Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -8218,8 +8220,8 @@
 						<ul class="resources">
 							<li><a href="https://digital.com/1-in-2-visitors-abandon-a-website-that-takes-more-than-6-seconds-to-load/">1 in 2 visitor's abandon a website that takes more than 6 seconds to load</a></li>
 							<li><a href="https://www.speedcurve.com/blog/performance-budgets/">A Complete Guide to Performance Budgets</a></li>
-							<li>[[AFNOR]] Spec 5.1.4 (<em>French</em>)</li>
-							<li>Are there limits to growth in data traffic? [[TRAFFIC]]</li>
+							<li><a>[*]<span class="hidden">5.27</span></a> [[AFNOR]] Spec 5.1.4 (<em>French</em>)</li>
+							<li><a>[*]<span class="hidden">5.27</span></a> Are there limits to growth in data traffic? [[TRAFFIC]]</li>
 							<li><a href="https://ldevernay.github.io/green/2020/07/05/audits-conclusion.html">Audits d'écoconception - conclusion</a> (French)</li>
 							<li><a href="https://www.udacity.com/course/browser-rendering-optimization--ud860">Browser Rendering Optimization</a></li>
 							<li><a href="https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/">Can You Afford It?: Real-world Web Performance Budgets</a></li>
@@ -8229,7 +8231,7 @@
 							<li><a href="https://web.dev/explore/fast#set-performance-budgets">Fast Load Times: Set performance budgets</a></li>
 							<li><a href="https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf">Find Out How You Stack Up to New Industry Benchmarks for Mobile Page Speed</a> (<em>PDF</em>)</li>
 							<li><a href="https://www.smashingmagazine.com/2021/01/front-end-performance-setting-realistic-goals/">Front-End Performance 2021: Setting Realistic Goals</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.27</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-3009-uxui-depending-on-the-organizations-level-of-maturity">1-3009</a> - Sustainability Budgets</li>
 							</ul></li>
 							<li><a href="https://www.mightybytes.com/blog/performance-budget/">How Performance Budgets Improve Websites</a></li>
@@ -8242,16 +8244,16 @@
 							<li><a href="https://web.dev/articles/performance-budgets-101">Performance budgets 101</a></li>
 							<li><a href="https://calibreapp.com/blog/performance-budgets">Performance Budgets: The Easiest Way to a Faster Site</a></li>
 							<li><a href="https://css-tricks.com/reduce-your-websites-environmental-impact-with-a-carbon-budget/">Reduce Your Website's Environmental Impact With a Carbon Budget</a></li>
-							<li>[[RGESN]] (<em>French</em>)<ul>
+							<li><a>[*]<span class="hidden">5.27</span></a> [[RGESN]] (<em>French</em>)<ul>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.9/">1.9</a> - Impact Measurement</li>
 							</ul></li>
 							<li><a href="https://situer-le-numerique.netlify.app/#les-tendances-de-d%C3%A9veloppement-du-num%C3%A9rique">Situer le numérique</a> (<em>French</em>)</li>
 							<li><a href="https://www.speedcurve.com/">SpeedCurve</a></li>
 							<li><a href="https://www.the-public-good.com/web-development/sustainable-practices">Sustainable Practices</a></li>
 							<li><a href="https://alistapart.com/article/sustainable-web-design/">Sustainable Web Design</a></li>
-							<li>The overlooked environmental footprint of increasing Internet use [[EFIIU]]</li>
+							<li><a>[*]<span class="hidden">5.27</span></a> The overlooked environmental footprint of increasing Internet use [[EFIIU]]</li>
 							<li><a href="https://web.dev/articles/use-lighthouse-for-performance-budgets">Use Lighthouse for performance budgets</a></li>
-							<li>Web Almanac: Sustainability [[ALMANAC]]</li>
+							<li><a>[*]<span class="hidden">5.27</span></a> Web Almanac: Sustainability [[ALMANAC]]</li>
 							<li><a href="https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/">Why Your Website Should Be Under 14KB In Size</a></li>
 						</ul>
 					</details>
@@ -8276,7 +8278,7 @@
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
-						<dt><a>Impact</a></dt><dd>High</dd>
+						<dt><a>Impact</a><dfn data-lt="[*] 5.28"> [*]<span class="hidden">5.28</span></dfn></dt><dd>High</dd>
 						<dt><a>Effort</a></dt><dd>High</dd>
 					</dl>
 				</section>
@@ -8312,7 +8314,7 @@
 							<li><a href="https://choosealicense.com/">Choose an open source license</a></li>
 							<li><a href="https://creativecommons.org/choose/">Creative Commons License</a></li>
 							<li><a href="https://github.com/freeCodeCamp/how-to-contribute-to-open-source">FreeCodeCamp: How to Contribute to Open Source</a></li>
-							<li>[[GR491]]<ul>
+							<li><a>[*]<span class="hidden">5.28</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-7034-backend-an-open-source-solution-is-not-a">2-7034</a> - Open Source Availability</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-5018-frontend-the-opacity-of-some-service-providers-does">3-5018</a> - Open Source API</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-5022-frontend-an-open-source-solution-is-not-a">3-5022</a> - Open Source Alternative</li>
@@ -8379,11 +8381,11 @@
 			<p>Additional information about participation in the Sustainable Web Design Community Group (SWG-CG) can be found <a href="https://www.w3.org/community/sustyweb/wiki/Main_Page">within the wiki</a> of the community group.</p>
 			<section> <!-- Draft Contributors -->
 				<h2>Participants of the SWD-CG Active in the Development of This Document</h2>
-				<p>Alexander Dawson, Andy Blum, Anne Faubry, Arnaud Levy, Ben Clifford, Brett Tackaberry, Brian Louis Ramirez, Chris Adams, Chris Needham, Chris Sater, Chris Wilson, Claire Thornewill, Dennis Lemm, Diogo Abrantes Da Silva, Dom Robinson, Emily Trotter, Fershad Irani, Iain McClenaghan, Ian Jacobs, Ines Akrap, Ismael Velasco, James Christie, Jennifer Strickland, Jens Oliver Meiert, Josh Kim, Julien Wilhelm, Laurent Devernay, Łukasz Mastalerz, Marie Ototoi, Michelle Barker, Mike Gifford, Morgan Murrah, Nahuai Badiola, Nick Doty, Neil Clark, Nicola Bonotto, Owen Barton, Romuald Priol, Sandy Dähnert, Shane Herath, Simon Perdrisat, Thibaud Colas, Thorsten Jonas, Tim Frick, Tzviya Siegman, Yuna Orsini</p>
+				<p>Alexander Dawson, Andy Blum, Anne Faubry, Arnaud Levy, Ben Clifford, Brett Tackaberry, Brian Louis Ramirez, Chris Adams, Chris Needham, Chris Sater, Chris Wilson, Claire Thornewill, Dennis Lemm, Diogo Abrantes Da Silva, Dom Robinson, Emily Trotter, Fershad Irani, Iain McClenaghan, Ian Jacobs, Ines Akrap, Ismael Velasco, James Christie, Jennifer Strickland, Jens Oliver Meiert, Josh Kim, Julien Wilhelm, Laurent Devernay, Łukasz Mastalerz, Marie Ototoi, Michelle Barker, Mike Gifford, Morgan Murrah, Nahuai Badiola, Nick Doty, Neil Clark, Nicola Bonotto, Owen Barton, Romuald Priol, Sandy Dähnert, Shane Herath, Simon Perdrisat, Tantek Çelik, Thibaud Colas, Thorsten Jonas, Tim Frick, Tzviya Siegman, Youen Chéné, Yuna Orsini</p>
 			</section>
 			<section> <!-- Meeting, Slack, Wiki, Etc Contributors -->
 				<h2>Other Active SWD-CG Participants, or Contributors to Supporting Resources</h2>
-				<p>Anthony Vallée-Dubois, Antoine Abélard, Bee Flaherty, Boris Schapira, Christophe Clouzeau, Christos Baharakis, Crystal Preston-Watson, Francesco Fullone, Gaël Duez, Gerry McGovern, Greg McDonald, Ivano Malavolta, James Cannings, James Gallagher, Jean Rigotti, Jon Gibbins, Juan Sotés, Julien Robitaille, Kate Mroczkowski, Kimi Wei, Leah Goldfarb, Luis Tiago, Marie Koesnodihardjo, Nicolas Oren, Orie Steele, Pietro Jarre, Radu Micu, Rick Butterfield, Rick Viscomi, Robin Whittleton, Seb Solere, Tantek Çelik, Thierry Leboucq, Tom Greenwood, Torsten Beyer, Yelle Lieder, Youen Chéné, Zoe Lopez-Latorre.</p>
+				<p>Anthony Vallée-Dubois, Antoine Abélard, Bee Flaherty, Boris Schapira, Christophe Clouzeau, Christos Baharakis, Crystal Preston-Watson, Francesco Fullone, Gaël Duez, Gerry McGovern, Greg McDonald, Ivano Malavolta, James Cannings, James Gallagher, Jean Rigotti, Jon Gibbins, Juan Sotés, Julien Robitaille, Kate Mroczkowski, Kimi Wei, Leah Goldfarb, Luis Tiago, Marie Koesnodihardjo, Nicolas Oren, Orie Steele, Pietro Jarre, Radu Micu, Rick Butterfield, Rick Viscomi, Robin Whittleton, Seb Solere, Thierry Leboucq, Tom Greenwood, Torsten Beyer, Yelle Lieder, Zoe Lopez-Latorre.</p>
 			</section>
 		</section>
 	</body>
