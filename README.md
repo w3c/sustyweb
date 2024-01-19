@@ -16,6 +16,16 @@ If you would like to contribute towards this specification, please refer to the 
 
 ---
 
+## Living Drafts
+
+Our publishing process has two channels.
+
+The first channel is the **stable** specification which is versioned and all changes are documented in the [release notes](https://github.com/w3c/sustyweb/releases). Links to the stable specification and its supplements can be found above (at the very top of this README document).
+
+The second channel is the **unstable** or living edition specification in which issue resolutions, pull requests, new supplements and community edits are immediately available prior to that version being finalized. The "drafts" folder contains all of the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [STAG](https://w3c.github.io/sustyweb/drafts/stag.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json) and other supplements.
+
+---
+
 ## JSON API
 
 We have a [JSON API](https://w3c.github.io/sustyweb/guidelines.json) which is kept in sync with the changes occurring within our specification.
