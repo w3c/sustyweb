@@ -2443,7 +2443,7 @@
 					"criteria": [
 						{
 							"title": "Asynchronous Code",
-							"description": "All external assets should be deferred or set to async (unless required) to avoid FOUC (Flash Of Unstyled Content)."
+							"description": "All external assets should be deferred or set to async (unless required) to avoid Flash Of Unstyled Content (FOUC)."
 						},
 						{
 							"title": "Priority Loading",
