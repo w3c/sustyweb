@@ -10,7 +10,7 @@ This repository is used to develop content for the Web Sustainability Guidelines
 
 ## File Structure
 
-The structure of the repository has been created to ensure ease of maintenance. The base directory contains all of the compiled files that are public facing such as the specification, supplementary documents, the JSON API, and other materials. The "drafts" folder contains all of the pre-exported W3C ReSpec sources including the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [STAG](https://w3c.github.io/sustyweb/drafts/stag.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json) and other supplements.
+The structure of the repository has been created to ensure ease of maintenance. The base directory contains all of the compiled files that are public facing such as the specification, supplementary documents, the JSON API, and other materials. The "drafts" folder contains all of the pre-exported W3C ReSpec sources including the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [STAR](https://w3c.github.io/sustyweb/drafts/star.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json) and other supplements.
 
 ```
 
@@ -21,7 +21,7 @@ The structure of the repository has been created to ensure ease of maintenance. 
 /drafts/index.html			- WSG Specification (Source)
 /drafts/intro.html			- Introduction (Source)
 /drafts/quickref.html			- Quick Reference (Source)
-/drafts/stag.html			- STAG (Source)
+/drafts/star.html			- STAR (Source)
 
 checklist.pdf				- READ ONLY - PDF Checklist (Public)
 glance.html				- READ ONLY - At-A-Glance (Public)
