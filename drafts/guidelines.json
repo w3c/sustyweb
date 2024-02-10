@@ -1667,6 +1667,7 @@
 							"Access Guide": "https://www.accessguide.io/",
 							"Accessibility": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility",
 							"AWS WAF: SEC11-BP02 - Automate testing throughout the development and release lifecycle": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_appsec_automate_testing_throughout_lifecycle.html",
+							"Building a Greener Digital Future: Catchpoint Launches Carbon Control": "https://www.catchpoint.com/blog/building-a-greener-digital-future-catchpoint-launches-carbon-control",
 							"Front-End Performance Checklist 2021": "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/",
 							"Hacksplaning": "https://www.hacksplaining.com/lessons",
 							"High Performance Browser Networking": "https://hpbn.co/",
@@ -1674,7 +1675,6 @@
 							"Inclusive Design Principles": "https://inclusivedesignprinciples.org/",
 							"Learn Accessibility": "https://web.dev/learn/accessibility/",
 							"Learn Performance": "https://web.dev/learn/performance",
-							"Measure & Improve Your Site's Footprint with Carbon Control from Catchpoint WebPageTest": "https://blog.webpagetest.org/posts/carbon-control/",
 							"Measuring Web Performance in 2023: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance/",
 							"OWASP Web Application Security Testing Checklist": "https://github.com/0xRadi/OWASP-Web-Checklist",
 							"Power profiling with the Firefox Profiler": "https://archive.fosdem.org/2023/schedule/event/energy_power_profiling_firefox/",
@@ -1918,7 +1918,7 @@
 							"[RGESN] (French) 1.7 - Interoperability": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.7/",
 							"[RGESN] (French) 4.1 - Speed Testing": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.1/",
 							"Software Maintenance Types: Corrective, Adaptive, Perfective, and Preventive": "https://hackernoon.com/what-do-you-need-to-know-about-software-maintenance-types-as-an-engineer-421335fl",
-							"Starbucks Ordering and Store Locator PWA": "https://formidable.com/work/starbucks-progressive-web-app/",
+							"Starbucks Ordering and Store Locator PWA": "https://commerce.nearform.com/work/starbucks-progressive-web-app/",
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
 							"The State Of Mobile And Why Mobile Web Testing Matters": "https://www.smashingmagazine.com/2021/03/mobile-app-web-testing/",
 							"The state of the art in measurement-based experiments on the mobile web": "https://www.sciencedirect.com/science/article/pii/S095058492200091X",
@@ -2185,8 +2185,10 @@
 							"Access Guide": "https://www.accessguide.io/",
 							"Accessibility": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
 							"Accessibility and web performance are not features, they're the baseline": "https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline/",
+							"Accessibility Maturity Model": "https://www.w3.org/TR/maturity-model/",
 							"Accessibility Support": "https://a11ysupport.io/",
 							"Accessible Rich Internet Applications": "https://www.w3.org/TR/wai-aria-1.2/",
+							"Bridging Web Accessibility and Sustainability for a Better Digital Future": "https://dodonut.com/blog/bridging-web-accessibility-and-sustainability/",
 							"Disability and Health": "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
 							"[GR491] 3-3018 - Electronicism": "https://gr491.isit-europe.org/en/crit.php?id=3-3018-uxui-diminishing-inequalities-of-access-to-digital-service",
 							"[GR491] 3-3019 - The Digital Gap": "https://gr491.isit-europe.org/en/crit.php?id=3-3019-uxui-dealing-with-cases-of-digital-exclusion-is",
@@ -2416,8 +2418,8 @@
 							"Memory leaks: the forgotten side of web performance": "https://nolanlawson.com/2022/01/05/memory-leaks-the-forgotten-side-of-web-performance/",
 							"Optional HTML: Everything You Need to Know": "https://meiert.com/en/blog/optional-html/",
 							"Reducing Carbon Emissions On The Web": "https://www.smashingmagazine.com/2021/09/reducing-carbon-emissions-on-web/#using-standard-elements",
+							"Semantic HTML": "https://web.dev/learn/html/semantic-html",
 							"Semantic HTML: the foundation of web accessibility": "https://uxdesign.cc/semantic-html-the-foundation-of-web-accessibility-e5bbecad7c17",
-							"Semantic Markup": "https://sustainablewww.org/wiki/design/semantic-markup",
 							"Ten years of page bloat: What have we learned?": "https://www.speedcurve.com/blog/ten-years-page-bloat/",
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
 							"The history of deprecated and changed HTML tags": "https://msandrini.medium.com/the-history-of-deprecated-and-changed-html-tags-47cdfd2c427e",
@@ -3234,6 +3236,7 @@
 							"[RGESN] (French) 2.5 - Third-party Services": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/2.5/",
 							"[RGESN] (French) 4.6 - Native Components": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.6/",
 							"[RGESN] (French) 6.7 - Library Limits": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.7/",
+							"Solid Protocol": "https://solidproject.org/TR/protocol",
 							"Striking a Balance Between Native and Custom Select Elements": "https://css-tricks.com/striking-a-balance-between-native-and-custom-select-elements/",
 							"UI Tools": "https://designsustainably.eu/uitools/",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
@@ -3482,8 +3485,11 @@
 							"[GR491] 4-8051 - Cooling Impact": "https://gr491.isit-europe.org/en/crit.php?id=4-8051-hosting-cooling-techniques-involve-either-the-production-of",
 							"[GR491] 5-8053 - Efficiency Measurements": "https://gr491.isit-europe.org/en/crit.php?id=5-8053-hosting-the-standards-for-data-centers-highlight-efficiency",
 							"[GR491] 6-8063 - Datacenter Certification": "https://gr491.isit-europe.org/en/crit.php?id=6-8063-hosting-the-characteristics-of-geographic-areas-may-require",
+							"Green Web Foundation Directory": "https://app.greenweb.org/directory/",
+							"How to Choose the Best Green Web Hosting Provider": "https://dodonut.com/blog/how-to-choose-the-best-green-web-hosting-provider/",
 							"I Made My Blog Solar-Powered, Then Things Escalated": "https://louwrentius.com/i-made-my-blog-solar-powered-then-things-escalated.html",
 							"Is carbon compensation a real climate solution?": "https://genevasolutions.news/climate-environment/is-carbon-compensation-a-real-climate-solution",
+							"Measuring the Emissions & Energy Footprint of the ICT Sector": "https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859702a98880540a4b70d57876048abb.pdf",
 							"New perspectives on internet electricity use in 2030": "https://pisrt.org/psr-press/journals/easl-vol-3-issue-2-2020/new-perspectives-on-internet-electricity-use-in-2030/",
 							"Promoting product longevity (PDF)": "https://www.europarl.europa.eu/RegData/etudes/STUD/2020/648767/IPOL_STU(2020)648767_EN.pdf",
 							"Quick Guide to Sustainable Design Strategies": "https://medium.com/disruptive-design/quick-guide-to-sustainable-design-strategies-641765a86fb8",
@@ -4024,6 +4030,7 @@
 							"IATI Technical Climate Impact Measurement": "https://climate.iatistandard.org/methodology",
 							"Investigating the Inconsistencies among Energy and Energy Intensity Estimates of the Internet": "https://www.aramis.admin.ch/Default?DocumentID=67656&Load=true",
 							"Is My Host Fast Yet?": "https://ismyhostfastyet.com/",
+							"Measuring the Emissions & Energy Footprint of the ICT Sector": "https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859702a98880540a4b70d57876048abb.pdf",
 							"Microsoft Azure WAF: Deploy to low-carbon regions": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-platform#deploy-to-low-carbon-regions",
 							"Microsoft Emissions Impact Dashboard": "https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard",
 							"Public CDNs Are Useless and Dangerous": "https://httptoolkit.com/blog/public-cdn-risks/",
@@ -4031,7 +4038,7 @@
 							"The Utility of the Future (PDF)": "https://l.leitmotiv.digital/future-digital-utility-fullreport",
 							"What are dual-use data centers and how they drive energy efficiency": "https://venturebeat.com/data-infrastructure/what-are-dual-use-data-centers-and-how-they-drive-energy-efficiency/",
 							"What is a Content Delivery Network - A Beginner's Guide": "https://imagekit.io/blog/what-is-content-delivery-network-cdn-guide/",
-							"When to serve your website through a CDN and when not to": "https://sustainablewww.org/principles/when-to-serve-your-website-through-a-cdn-and-when-not-to"
+							"When to serve your website through a CDN and when not to": "https://sustainablewww.org/when-to-serve-your-website-through-a-cdn-and-when-not-to/"
 						}
 					],
 					"tags": ["Content", "Performance", "Hardware", "Networking"]
@@ -4075,6 +4082,7 @@
 							"AWS WAF: SUS04-BP08 - Back up data only when difficult to recreate": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_data_a9.html",
 							"Can Reducing Cloud Waste Help Save the Planet?": "https://thenewstack.io/can-reducing-cloud-waste-help-save-the-planet/",
 							"Choose wisely — How technology decisions drive data center efficiency": "https://venturebeat.com/data-infrastructure/choose-wisely-how-technology-decisions-drive-data-center-efficiency/",
+							"Measuring the Emissions & Energy Footprint of the ICT Sector": "https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859702a98880540a4b70d57876048abb.pdf",
 							"Optimizing your AWS Infrastructure for Sustainability, Part I: Compute": "https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/",
 							"Study on the practical application of the new framework methodology for measuring the environmental impact of your equipment": "https://op.europa.eu/en/publication-detail/-/publication/ef17c01f-ea7c-49e0-91aa-878f16ba6361"
 						}
@@ -4238,6 +4246,7 @@
 							"Defining ESG vs. Sustainability": "https://www.brightest.io/esg-sustainability-difference",
 							"Digital Eco-Design: L'intérêt de communiquer (French)": "https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#communiquer-sans-greenwashing",
 							"Digital Eco-Design: Sensibiliser les utilisateurs (French)": "https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#Sensibiliser-utilisateurs",
+							"Does ESG really matter—and why?": "https://www.mckinsey.com/capabilities/sustainability/our-insights/does-esg-really-matter-and-why",
 							"EcoGrader": "https://ecograder.com/",
 							"[GR491] 2-3014 - Compliance Labelling": "https://gr491.isit-europe.org/en/crit.php?id=2-3014-uxui-a-number-of-resources-are-available-to",
 							"Green Web Checker": "https://www.thegreenwebfoundation.org/green-web-check/",
@@ -4258,7 +4267,8 @@
 							"Sustainable Web Development Strategies Within An Organization": "https://www.smashingmagazine.com/2022/10/sustainable-web-development-strategies-organization/",
 							"The carbon.txt Proposed Standard": "https://github.com/thegreenwebfoundation/carbon.txt",
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
-							"Website Carbon": "https://www.websitecarbon.com/"
+							"Website Carbon": "https://www.websitecarbon.com/",
+							"Why sustainability is crucial for corporate strategy": "https://www.weforum.org/agenda/2022/06/why-sustainability-is-crucial-for-corporate-strategy/"
 						}
 					],
 					"tags": ["Social Equity", "Ideation", "Research", "Education", "Strategy", "KPIs"]
@@ -5328,7 +5338,6 @@
 							"A privacy-friendly Do Not Track (DNT) Policy": "https://www.eff.org/dnt-policy",
 							"Beyond GDPR: Data Protection Around The World": "https://www.thalesgroup.com/en/markets/digital-identity-and-security/government/magazine/beyond-gdpr-data-protection-around-world",
 							"California Consumer Privacy Act (CCPA)": "https://oag.ca.gov/privacy/ccpa",
-							"CCPA for Developers": "https://www.verygoodsecurity.com/guides/ccpa-for-developers",
 							"Developer's Guide To GDPR": "https://fusionauth.io/articles/ciam/developers-guide-to-gdpr",
 							"GDPR Checklist": "https://gdprchecklist.io/",
 							"General Data Protection Regulation (GDPR)": "https://gdpr.eu/",
@@ -5338,7 +5347,8 @@
 							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy",
 							"Privacy by design": "https://en.wikipedia.org/wiki/Privacy_by_design",
 							"State Of GDPR Part 1": "https://www.smashingmagazine.com/2021/02/state-gdpr-2021-key-updates/",
-							"State Of GDPR Part 2": "https://www.smashingmagazine.com/2021/03/state-gdpr-2021-cookie-consent-designers-developers/"
+							"State Of GDPR Part 2": "https://www.smashingmagazine.com/2021/03/state-gdpr-2021-cookie-consent-designers-developers/",
+							"Ultimate CCPA Compliance Checklist": "https://securiti.ai/blog/ccpa-compliance-checklist/"
 						}
 					],
 					"tags": ["Social Equity", "Content", "Privacy", "Governance"]
@@ -5451,6 +5461,7 @@
 						{
 							"3rd Global CryptoAsset Benchmarking Study (PDF)": "https://www.jbs.cam.ac.uk/wp-content/uploads/2021/01/2021-ccaf-3rd-global-cryptoasset-benchmarking-study.pdf",
 							"A sustainable internet: Missing pieces to a healthy future": "https://www.orfonline.org/expert-speak/sustainable-internet-missing-pieces-healthy-future/",
+							"AI and crypto mining are driving up data centers' energy use": "https://www.theverge.com/2024/1/24/24049047/data-center-ai-crypto-bitcoin-mining-electricity-report-iea",
 							"AI Environmental Equity": "https://themarkup.org/hello-world/2023/07/08/ai-environmental-equity-its-not-easy-being-green",
 							"AI Regulation Around The World": "https://www.taylorwessing.com/en/interface/2023/ai---are-we-getting-the-balance-between-regulation-and-innovation-right/ai-regulation-around-the-world",
 							"Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models": "https://arxiv.org/abs/2007.03051",
@@ -5466,6 +5477,7 @@
 							"The cyber-consciousness of environmental assessment": "https://iopscience.iop.org/article/10.1088/1748-9326/ac413b",
 							"The growing energy footprint of artificial intelligence": "https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3",
 							"The role of artificial intelligence in achieving the Sustainable Development Goals": "https://www.nature.com/articles/s41467-019-14108-y",
+							"The Wholegrain guide to ethical use of AI": "https://www.wholegraindigital.com/blog/ethical-ai-guidelines/",
 							"What is the environmental impact of Web3?": "https://venturebeat.com/business/what-is-the-environmental-impact-of-web3/",
 							"Why Blockchain, NFTs, And Web3 Have A Sustainability Problem": "https://www.forbes.com/sites/bernardmarr/2023/01/13/why-blockchain-nfts-and-web3-have-a-sustainability-problem/",
 							"Why We Need To Be UpSkilling The Current Workforce For The Green Economy": "https://social.hays.com/2022/09/29/why-we-need-to-be-upskilling-the-current-workforce-for-the-green-economy/"
@@ -5799,13 +5811,13 @@
 					],
 					"example": [
 						{
-							"content": "GitLab discloses its [open source](https://handbook.gitlab.com/engineering/open-source/) policy publicly."
+							"content": "GitLab discloses its [open source](https://handbook.gitlab.com/handbook/engineering/open-source/) policy publicly."
 						}
 					],
 					"resources": [
 						{
 							"Choose an open source license": "https://choosealicense.com/",
-							"Creative Commons License": "https://creativecommons.org/choose/",
+							"Creative Commons License": "https://chooser-beta.creativecommons.org/",
 							"FreeCodeCamp: How to Contribute to Open Source": "https://github.com/freeCodeCamp/how-to-contribute-to-open-source",
 							"[GR491] 2-7034 - Open Source Availability": "https://gr491.isit-europe.org/en/crit.php?id=2-7034-backend-an-open-source-solution-is-not-a",
 							"[GR491] 3-5018 - Open Source API": "https://gr491.isit-europe.org/en/crit.php?id=3-5018-frontend-the-opacity-of-some-service-providers-does",
