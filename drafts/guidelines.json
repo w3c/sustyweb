@@ -638,6 +638,10 @@
 						{
 							"title": "Page Tracking",
 							"description": "Remove unused and unconsented page tracking."
+						},
+						{
+							"title": "Search Engine Optimization",
+							"description": "Optimization for search engines, social networks, and third-party services should be organically led with good coding practices and user-experience being the focus, not manipulating the services to gain greater priority through obfuscating content, pages, websites, or applications with redundancy or non-useful and optimized (to the visitor) material."
 						}
 					],
 					"impact": "High",
