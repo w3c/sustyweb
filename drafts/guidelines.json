@@ -646,7 +646,7 @@
 						{
 							"Environmental": "Many deceptive design patterns have visitors wasting time and energy trying to undo choices they never intended to make. Avoiding them therefore reduces energy use.",
 							"Privacy": "Many deceptive patterns are intentionally designed to undermine data privacy. Ensuring you comply with ethical privacy practices and avoiding such patterns will avoid potential legal conflicts. You also reduce additional data being sent among the providers of tracking and advertising data.",
-							"Accessibility": "Dark and deceptive design patterns often intentionally block or hide access to information, which especially undermines the experience of people with disabilities who use assistive technologies. By avoiding them, you will give those with accessibility needs justification to trust your brand. Furthermore, avoiding poor implementations such as overlays will prevent making any existing situations worse.",
+							"Accessibility": "Dark and deceptive design patterns often intentionally block or hide access to information, which especially undermines the experience of people with disabilities who use assistive technologies. By avoiding them, you will give those with accessibility needs justification to trust your brand. Furthermore, avoiding unsustainable or carbon intensive implementations will prevent making any existing situations worse.",
 							"Performance": "Interference with the user-interface (such as removing the ability to copy text) causes friction and forces the visitor to spend more time on the page to work around the barrier put in place. This uses additional energy as they try to find a solution onsite, elsewhere, or give up entirely. Using ethical, non-disruptive coding practices will speed up interactions within your website.",
 							"Economic": "Ethical websites incentivize customers to whitelist your website on ad-blockers.",
 							"Conversion": "Avoiding dark and deceptive patterns will likely result in fewer complaints. A classic example of this is the use of CAPTCHAs which can disrupt the visitor, cause accessibility barriers, and reduce the legitimate use of your product or service."
@@ -3448,6 +3448,7 @@
 							"Benefits of buying sustainable goods and services": "https://www.netregs.org.uk/environmental-topics/carbon-reduction-and-efficiency/buying-eco-friendly-goods-and-services/benefits-of-buying-sustainable-goods-and-services/",
 							"Beyond PUE: Taclking IT's wasted terawatts (PDF)": "https://www.capex.net.co/wp-content/uploads/2020/02/Capex.pdf",
 							"Can you really negate your carbon emissions?": "https://www.vox.com/2020/2/27/20994118/carbon-offset-climate-change-net-zero-neutral-emissions",
+							"Carbon Aware Computing: Next Green Breakthrough or New Greenwashing?": "https://hackernoon.com/carbon-aware-computing-next-green-breakthrough-or-new-greenwashing",
 							"Carbon Awareness": "https://learn.greensoftware.foundation/carbon-awareness/",
 							"Carbon Credits vs Renewable Energy Credits": "https://impactful.ninja/carbon-credits-vs-renewable-energy-credits-differences/",
 							"Carbon Neutral Verification": "https://www.carbontrust.com/what-we-do/assurance-and-labelling/carbon-neutral-verification",
@@ -5421,7 +5422,7 @@
 					"id": "22",
 					"url": "https://w3c.github.io/sustyweb/#promote-responsible-emerging-technology-practices",
 					"guideline": "Promote and Implement Responsible Emerging Technology Practices",
-					"description": "The organization has devised and implemented responsible policies related to artificial intelligence, Internet of Things (IoT), blockchain, and related emerging technologies.",
+					"description": "The organization has devised and implemented responsible policies related to artificial intelligence, Internet of Things (IoT), Web3 (Decentralized Web, blockchain, etc), and related emerging technologies.",
 					"criteria": [
 						{
 							"title": "Emerging Technologies",
@@ -5469,6 +5470,7 @@
 							"Cryptocurrency's Dirty Secret: Energy Consumption": "https://techcrunch.com/2021/05/16/crypto-and-blockchain-must-accept-they-have-a-problem-then-lead-in-sustainability/",
 							"Digital aspects and the environment": "https://dig.watch/trends/digital-and-environment",
 							"Digital education: The unique learning ecosystem TechUcation": "https://www.ottogroup.com/en/stories/story/story-techucation.php",
+							"Ecological Awareness for the Decentralized Web": "https://blog.archive.org/2021/09/20/ecological-awareness-for-the-decentralized-web/",
 							"Generating AI Images Uses as Much Energy as Charging Your Phone, Study Finds": "https://gizmodo.com/ai-images-as-much-energy-as-charging-phone-hugging-face-1851065091",
 							"How might we shape the future of a greener Internet? (PDF)": "https://trello-attachments.s3.amazonaws.com/5ebe50461cdc203af62d5e5d/5f1959cb638a3c1fe7c8abe3/8c9913f7876a417ede6e55d90f4d7f61/Lu_Ye_Final_Report.pdf",
 							"In battle against climate crisis, don't overlook the blockchain": "https://www.unep.org/news-and-stories/story/battle-against-climate-crisis-dont-overlook-blockchain",
@@ -5478,6 +5480,7 @@
 							"The growing energy footprint of artificial intelligence": "https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3",
 							"The role of artificial intelligence in achieving the Sustainable Development Goals": "https://www.nature.com/articles/s41467-019-14108-y",
 							"The Wholegrain guide to ethical use of AI": "https://www.wholegraindigital.com/blog/ethical-ai-guidelines/",
+							"Web3 and Sustainability": "https://www.lcx.com/web3-and-sustainability/",
 							"What is the environmental impact of Web3?": "https://venturebeat.com/business/what-is-the-environmental-impact-of-web3/",
 							"Why Blockchain, NFTs, And Web3 Have A Sustainability Problem": "https://www.forbes.com/sites/bernardmarr/2023/01/13/why-blockchain-nfts-and-web3-have-a-sustainability-problem/",
 							"Why We Need To Be UpSkilling The Current Workforce For The Green Economy": "https://social.hays.com/2022/09/29/why-we-need-to-be-upskilling-the-current-workforce-for-the-green-economy/"
