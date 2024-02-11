@@ -972,7 +972,7 @@
 		<section id="sotd"> <!-- Status of This Document -->
 			<p>This document has been reviewed by Community Group members and interested parties. This is a draft document which may be updated, replaced, or obsoleted by other documents at any time. It is inappropriate to cite this document as other than a work in progress. The Community Group's role in publishing is to draw attention to the specification and to promote its widespread deployment.</p>
 			<p>By publishing these guidelines, the Community Group does not expect that the work produced in this specification will affect the work undertaken by other <abbr title="World Wide Web Consortium">W3C</abbr> sustainability, accessibility, or performance groups. The Community Group will continue to track these Working Groups and Community Groups as appropriate. This specification closely aligns itself with the principles laid down for Web Platform Design [[design-principles]], Privacy [[privacy-principles]], and the Ethical Web [[ethical-web-principles]].</p>
-			<p>To provide feedback regarding this specification, the preferred method is using GitHub. It is free to create a GitHub account to file issues. Comments received on the specification cannot result in changes to this version of the guidelines, but may be addressed in errata or future versions of WSG. A list of issues filed as well as archives of previous mailing list <a id="public-name" href="mailto:public-[email-list]@w3.org">public-[email-list]@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-[email-list]/">archive</a>) discussions are publicly available. There is currently no preliminary interoperability or implementation report, however potential implementation strategies alongside filtering and categorization of guidelines are showcased within the <a href="https://sustainablewebdesign.org/">Sustainable Web Design</a> website.</p>
+			<p>To provide feedback regarding this specification, the preferred method is using GitHub. It is free to create a GitHub account to file issues. Comments received on the specification cannot result in changes to this version of the guidelines, but may be addressed in errata or future versions of WSG. A list of issues filed as well as archives of previous mailing list <a id="public-name" href="mailto:public-sustyweb@w3.org">public-sustyweb@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-sustyweb/">archive</a>) discussions are publicly available. There is currently no preliminary interoperability or implementation report, however potential implementation strategies alongside filtering and categorization of guidelines are showcased within the <a href="https://sustainablewebdesign.org/">Sustainable Web Design</a> website.</p>
 		</section>
 		<section class="informative"> <!-- Introduction -->
 			<h2>Introduction</h2>
@@ -6056,6 +6056,10 @@
 					<p>Ensure the communication protocols are relevant to the visitor's needs and data transferred. Avoid using insecure protocols (HTTP, <abbr title="File Transfer Protocol">FTP</abbr>), and prioritize more efficient and privacy-aware data routes for visitors (<abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr>, <abbr title="Secure Shell">SSH</abbr>).</p>
 				</section>
 				<section class="notoc">
+					<h4>Success Criterion - Event-Driven Architecture</h4>
+					<p>When creating products or services that utilize state changes (without triggering a complete refresh), consider if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the ESG variables involved) than traditional APIs in handling the server-side workload of your solution.</p>
+				</section>
+				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
 						<dt><a>Impact</a><dfn data-lt="[*] 4.9"> [*]<span class="hidden">4.9</span></dfn></dt><dd>Medium</dd>
@@ -6096,6 +6100,7 @@
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_software_a2.html">SUS03-BP01</a> - Optimize software and architecture for asynchronous and scheduled jobs</li>
 							</ul></li>
 							<li><a>[*]<span class="hidden">4.9</span></a> Best practises for 5G App Developers [[GSMA]] (<em>PDF</em>)</li>
+							<li><a href="https://en.wikipedia.org/wiki/Event-driven_architecture">Event-driven architecture</a></li>
 							<li><a>[*]<span class="hidden">4.9</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-6024-architecture-the-distribution-of-processing-on-different-and">5-6024</a> - Transfer Compression</li>
 							</ul></li>
@@ -6103,6 +6108,9 @@
 								<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/principles">Performance efficiency principles</a></li>
 							</ul></li>
 							<li><a>[*]<span class="hidden">4.9</span></a> Serve websites over HTTPS [[NCSC-HS]]</li>
+							<li><a href="https://solace.com/what-is-event-driven-architecture/">The Complete Guide to Event-Driven Architecture</a></li>
+							<li><a href="https://aws.amazon.com/event-driven-architecture/">What is an Event-Driven Architecture?</a></li>
+							<li><a href="https://blog.hubspot.com/website/event-driven-architecture">What Is Event-Driven Architecture?</a></li>
 							<li><a href="https://web.dev/articles/why-https-matters">Why HTTPS matters</a></li>
 							<li><a href="https://www.automox.com/blog/you-shouldnt-use-ftp-or-http">Why You Shouldn't Use FTP or HTTP if You Care About Security</a></li>
 						</ul>

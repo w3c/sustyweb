@@ -3970,6 +3970,10 @@
 						{
 							"title": "Protocol Usage",
 							"description": "Ensure the communication protocols are relevant to the visitor's needs and data transferred. Avoid using insecure protocols (HTTP, FTP), and prioritize more efficient and privacy-aware data routes for visitors (HTTPS, SSH)."
+						},
+						{
+							"title": "Event-Driven Architecture",
+							"description": "When creating products or services that utilize state changes (without triggering a complete refresh), consider if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the ESG variables involved) than traditional APIs in handling the server-side workload of your solution."
 						}
 					],
 					"impact": "Medium",
@@ -3998,9 +4002,13 @@
 							"AWS WAF: SUS02-BP06 - Implement buffering or throttling to flatten the demand curve": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a7.html",
 							"AWS WAF: SUS03-BP01 - Optimize software and architecture for asynchronous and scheduled jobs": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_software_a2.html",
 							"Best practises for 5G App Developers (PDF)": "https://www.gsma.com/get-involved/working-groups/wp-content/uploads/2022/11/IG.15-v1.0-1.pdf",
+							"Event-driven architecture": "https://en.wikipedia.org/wiki/Event-driven_architecture",
 							"[GR491] 5-6024 - Transfer Compression": "https://gr491.isit-europe.org/en/crit.php?id=5-6024-architecture-the-distribution-of-processing-on-different-and",
 							"Microsoft Azure WAF: Performance efficiency principles": "https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/principles",
 							"Serve websites over HTTPS": "https://www.ncsc.gov.uk/blog-post/serve-websites-over-https-always",
+							"The Complete Guide to Event-Driven Architecture": "https://solace.com/what-is-event-driven-architecture/",
+							"What is an Event-Driven Architecture?": "https://aws.amazon.com/event-driven-architecture/",
+							"What Is Event-Driven Architecture?": "https://blog.hubspot.com/website/event-driven-architecture",
 							"Why HTTPS matters": "https://web.dev/articles/why-https-matters",
 							"Why You Shouldn't Use FTP or HTTP if You Care About Security": "https://www.automox.com/blog/you-shouldnt-use-ftp-or-http"
 						}
