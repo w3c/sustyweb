@@ -5773,6 +5773,10 @@
 							"description": "Use tools such as a performance budget to determine the maximum size (goals) your app or website can weigh to reduce the data transfer and HTTP request impact (using metrics like Google Lighthouse)."
 						},
 						{
+							"title": "Human Budget",
+							"description": "Define KPIs around engineering hours, development time, or sprints keeping the health and wellbeing of your workers paramount. Consideration should be taken around optimizing your workflow sustainably to allow all tasks to be performed with care."
+						},
+						{
 							"title": "Measurable Improvements",
 							"description": "The product team can measurably show how much the budgeting process improved performance and reduced emissions."
 						},
