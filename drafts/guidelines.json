@@ -2322,6 +2322,10 @@
 						{
 							"title": "Avoiding Dependency",
 							"description": "Create your own clickable icons and widgets, rather than relying on third-party services to host or allow embedding within your product or service."
+						},
+						{
+							"title": "Third-party Preferences",
+							"description": "Third-party products, services, libraries, and frameworks are often a source of sustainability issues that cannot be controlled or managed by the first-party provider of a service. While many do provide benefits to a website, the need to justify their inclusion should be made not only by those creating the product or service but also be able to be controlled by the consumer. As showcased with cookies, websites or applications should provide a similar mechanism of disabling or refusing non-first-party features (with explanations of their purpose) - unless such features can be proven as critical for functionality."
 						}
 					],
 					"impact": "High",
