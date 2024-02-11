@@ -1243,7 +1243,7 @@
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="3.24a"></td><td colspan="5"><label for="3.24a">If you need information that is stored in a database, and you require it more than once in your code, access the database only once, and store the data in a variable for subsequent processing.</label></td>
+						<td><input type="checkbox" id="3.24a"></td><td colspan="5"><label for="3.24a">If you need information that is stored in a database, and you require it (or its likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact & Effort</strong></td>
@@ -1298,7 +1298,7 @@
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="4.2a"></td><td colspan="5"><label for="4.2a">If using a CMS, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control HTTP header.</label></td>
+						<td><input type="checkbox" id="4.2a"></td><td colspan="5"><label for="4.2a">If using a CMS, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control HTTP header. If using a language or framework that generates pages on request, cache responses for static pages so that they can be reused for future visitors.</label></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="4.2b"></td><td colspan="5"><label for="4.2b">Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (APIs), or cookies (if necessary) to reduce friction in the user-journey. For example, through the use of a PWA (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility.</label></td>

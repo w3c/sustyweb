@@ -5321,7 +5321,7 @@
 				<p>Making multiple requests whether HTTP or within a database has a carbon cost as infrastructure has to send that information back and forth. As such, managing how you store and use data locally for a visitor will help reduce wasted cycles.</p>
 				<section class="notoc">
 					<h4>Success Criterion - Database Queries</h4>
-					<p>If you need information that is stored in a database, and you require it more than once in your code, access the database only once, and store the data in a variable for subsequent processing.</p>
+					<p>If you need information that is stored in a database, and you require it (or its likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing.</p>
 				</section>
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
@@ -5518,7 +5518,7 @@
 				<p>Browser caching reduces the requirement for files to need to be constantly reloaded from the server, and in certain situations, it can even allow for files to be viewed offline (or in the case of a reverse-proxy, send immediate recurring requests without additional calculation or computation from the server). As such, this will have sustainability and performance benefits (for instance by greatly reducing Time-To-First-Byte).</p>
 				<section class="notoc">
 					<h4>Success Criterion - Server-side Caching</h4>
-					<p>If using a CMS, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control HTTP header.</p>
+					<p>If using a CMS, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control HTTP header. If using a language or framework that generates pages on request, cache responses for static pages so that they can be reused for future visitors.</p>
 				</section>
 				<section class="notoc">
 					<h4>Success Criterion - Offline Access</h4>
@@ -8456,11 +8456,11 @@
 			<p>Additional information about participation in the Sustainable Web Design Community Group (SWG-CG) can be found <a href="https://www.w3.org/community/sustyweb/wiki/Main_Page">within the wiki</a> of the community group.</p>
 			<section> <!-- Draft Contributors -->
 				<h2>Participants of the SWD-CG Active in the Development of This Document</h2>
-				<p>Alexander Dawson, Andy Blum, Anne Faubry, Arnaud Levy, Ben Clifford, Brett Tackaberry, Brian Louis Ramirez, Chris Adams, Chris Needham, Chris Sater, Chris Wilson, Claire Thornewill, Dennis Lemm, Diogo Abrantes Da Silva, Dom Robinson, Emily Trotter, Fershad Irani, Francesco Fullone, Iain McClenaghan, Ian Jacobs, Ines Akrap, Ismael Velasco, James Christie, Jennifer Strickland, Jens Oliver Meiert, Josh Kim, Julien Wilhelm, Laurent Devernay, Łukasz Mastalerz, Marie Ototoi, Michelle Barker, Mike Gifford, Morgan Murrah, Nahuai Badiola, Neil Clark, Nick Doty, Nicola Bonotto, Orie Steele, Owen Barton, Romuald Priol, Sandy Dähnert, Shane Herath, Simon Perdrisat, Tantek Çelik, Thibaud Colas, Thorsten Jonas, Tim Frick, Tzviya Siegman, Youen Chéné, Yuna Orsini, Zoe Lopez-Latorre</p>
+				<p>Alexander Dawson, Andy Blum, Anne Faubry, Arnaud Levy, Ben Clifford, Berwyn Powell, Brett Tackaberry, Brian Louis Ramirez, Chris Adams, Chris Needham, Chris Sater, Chris Wilson, Claire Thornewill, Dennis Lemm, Diogo Abrantes Da Silva, Dom Robinson, Emily Trotter, Fershad Irani, Francesco Fullone, Iain McClenaghan, Ian Jacobs, Ines Akrap, Ismael Velasco, James Christie, Jennifer Strickland, Jens Oliver Meiert, Josh Kim, Julien Wilhelm, Laurent Devernay, Łukasz Mastalerz, Marie Ototoi, Michelle Barker, Mike Gifford, Morgan Murrah, Nahuai Badiola, Neil Clark, Nick Doty, Nicola Bonotto, Orie Steele, Owen Barton, Romuald Priol, Sandy Dähnert, Shane Herath, Simon Perdrisat, Tantek Çelik, Thibaud Colas, Thorsten Jonas, Tim Frick, Tzviya Siegman, Youen Chéné, Yuna Orsini, Zoe Lopez-Latorre</p>
 			</section>
 			<section> <!-- Meeting, Slack, Wiki, Etc Contributors -->
 				<h2>Other Active SWD-CG Participants, or Contributors to Supporting Resources</h2>
-				<p>Anthony Vallée-Dubois, Antoine Abélard, Bee Flaherty, Berwyn Powell, Boris Schapira, Christophe Clouzeau, Christos Baharakis, Crystal Preston-Watson, Elise West, Florence Maurice, François Burra, Gaël Duez, Gerry McGovern, Greg McDonald, Ivano Malavolta, James Cannings, James Gallagher, Jean Rigotti, Jon Gibbins, Juan Sotés, Julien Robitaille, Kate Mroczkowski, Kimi Wei, Leah Goldfarb, Loren Velasquez, Louise Towler, Luis Tiago, Marie Koesnodihardjo, Mert Antinoz, Nicolas Oren, Pietro Jarre, Radu Micu, Rick Butterfield, Rick Viscomi, Robin Whittleton, Seb Solere, Sylvain Tenier, Thierry Leboucq, Tom Greenwood, Torsten Beyer, Yelle Lieder.</p>
+				<p>Anthony Vallée-Dubois, Antoine Abélard, Bee Flaherty, Boris Schapira, Christophe Clouzeau, Christos Baharakis, Crystal Preston-Watson, Elise West, Florence Maurice, François Burra, Gaël Duez, Gerry McGovern, Greg McDonald, Ivano Malavolta, James Cannings, James Gallagher, Jean Rigotti, Jon Gibbins, Juan Sotés, Julien Robitaille, Kate Mroczkowski, Kimi Wei, Leah Goldfarb, Loren Velasquez, Louise Towler, Luis Tiago, Marie Koesnodihardjo, Mert Antinoz, Nicolas Oren, Pietro Jarre, Radu Micu, Rick Butterfield, Rick Viscomi, Robin Whittleton, Seb Solere, Sylvain Tenier, Thierry Leboucq, Tom Greenwood, Torsten Beyer, Yelle Lieder.</p>
 			</section>
 		</section>
 	</body>
