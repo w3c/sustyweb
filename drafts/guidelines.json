@@ -1675,7 +1675,7 @@
 							"Inclusive Design Principles": "https://inclusivedesignprinciples.org/",
 							"Learn Accessibility": "https://web.dev/learn/accessibility/",
 							"Learn Performance": "https://web.dev/learn/performance",
-							"Measuring Web Performance in 2023: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance/",
+							"Measuring Web Performance in 2024: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance/",
 							"OWASP Web Application Security Testing Checklist": "https://github.com/0xRadi/OWASP-Web-Checklist",
 							"Power profiling with the Firefox Profiler": "https://archive.fosdem.org/2023/schedule/event/energy_power_profiling_firefox/",
 							"Regression testing": "https://en.wikipedia.org/wiki/Regression_testing",
@@ -1696,10 +1696,14 @@
 				},
 				{
 					"id": "26",
-					"url": "https://w3c.github.io/sustyweb/#analyze-the-performance-of-the-visitor-journey",
-					"guideline": "Analyze the Performance of the Visitor Journey",
-					"description": "Try to ethically measure how efficient a visitor's experience is, by doing so you might be able to reduce any issues they may have encountered previously and reduce the burden of loading unnecessary pages.",
+					"url": "https://w3c.github.io/sustyweb/#incorporate-performance-testing-into-each-major-release-cycle",
+					"guideline": "Incorporate Performance Testing Into Each Major Release-Cycle",
+					"description": "Try to ethically measure how efficient a visitor's experience is by analyzing the performance of the website or application and how it has been constructed, by doing so you might be able to reduce any issues they may have encountered previously, decrease loading times, and reduce the burden of loading unnecessary pages.",
 					"criteria": [
+						{
+							"title": "Performance Testing",
+							"description": "Regularly measure with each release-cycle (using tooling or through research and auditing) the performance of a website or application to identify and resolve bottlenecks or issues in the underlying code or infrastructure which could ultimately impact the sustainability of a website or application."
+						},
 						{
 							"title": "Measurement And Compliance",
 							"description": "Only collect the data required to provide a streamlined and effective user-journey, put policies in place to ensure strict adherence, and comply with relevant accessibility policies and privacy laws, such as the General Data Protection Regulation (GDPR)."
@@ -1731,8 +1735,23 @@
 					],
 					"resources": [
 						{
+							"Addy Osmani's 18-Point Web Performance Checklist": "https://dev.to/ben/addy-osmanis-18-point-web-performance-checklist-2e1",
+							"Awesome Page Speed Metrics": "https://github.com/csabapalfi/awesome-pagespeed-metrics",
+							"Browser Rendering Optimization": "https://www.udacity.com/course/browser-rendering-optimization--ud860",
+							"Fast load times": "https://web.dev/explore/fast",
+							"Front-End Performance Checklist 2021": "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/",
+							"High Performance Browser Networking": "https://hpbn.co/",
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
-							"Is GDPR Good for the Environment?": "https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/"
+							"Is GDPR Good for the Environment?": "https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/",
+							"Learn Performance": "https://web.dev/learn/performance",
+							"Measuring Web Performance in 2024: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance/",
+							"PageSpeed Insights": "https://pagespeed.web.dev/",
+							"The Almost-Complete Guide to Cumulative Layout Shift": "https://jessbpeck.com/posts/completecls/",
+							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
+							"WebPageTest": "https://www.webpagetest.org/",
+							"What Are Core Web Vitals (CWVs) & How To Improve Them": "https://ahrefs.com/blog/core-web-vitals/",
+							"Why does speed matter?": "https://web.dev/learn/performance/why-speed-matters",
+							"Why your website should be under 14kB in size": "https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/"
 						}
 					],
 					"tags": ["Accessibility", "Research", "Usability", "Performance", "Networking", "Strategy", "KPIs"]
@@ -1945,7 +1964,11 @@
 					"criteria": [
 						{
 							"title": "Performance Goals",
-							"description": "Set performance goals which impact the environment and performance of the service, for example HTTP requests, or the amount of DOM elements which need to be rendered."
+							"description": "Set goals which impact the environment and performance of the service, for example HTTP requests, or the amount of DOM elements which need to be rendered."
+						},
+						{
+							"title": "Accountancy Types",
+							"description": "Because the payload being delivered may not always be equal in terms of energy intensity, operators of websites and applications must ensure that consideration is given for the energy intensity (or unit being evaluated) of each component. For example, non-rendering text is less computational than CSS, which in turn is less process-heavy than JavaScript, which is less resource-heavy than WebGL."
 						}
 					],
 					"impact": "Medium",
@@ -4885,7 +4908,7 @@
 							"How B Corp Certification Guides Rituals on a Journey of Continuous Improvement": "https://bthechange.com/how-b-corp-certification-helped-rituals-embark-on-a-journey-of-continuous-improvement-87fe8fbfd8d9",
 							"How to Design a Sustainable Data Strategy": "https://www.mightybytes.com/blog/design-a-sustainable-data-strategy/",
 							"Measuring Web Performance": "https://www.keycdn.com/blog/measuring-web-performance",
-							"Measuring Web Performance in 2023": "https://requestmetrics.com/web-performance/measure-web-performance/",
+							"Measuring Web Performance in 2024: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance/",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
 							"[RGESN] (French) 1.11 - Compliance Reviews": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.11/",
 							"[RGESN] (French) 1.12 - Ecodesign Statement": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.12/",
