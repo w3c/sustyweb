@@ -3289,7 +3289,7 @@
 						},
 						{
 							"title": "Language Choice",
-							"description": "Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact ESG factors such as the well-being of those involved."
+							"description": "Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact ESG factors such as the well-being of those involved or become too cost prohibitive."
 						}
 					],
 					"impact": "Medium",
@@ -4473,6 +4473,10 @@
 						{
 							"title": "Competitor Analysis",
 							"description": "Estimate the environmental impact of your or your competitor's current service to inform decision-making (as a potential target goal)."
+						},
+						{
+							"title": "Tooling Impact",
+							"description": "When identifying the environmental impact of your product or service, be sure to include the impact (or estimates of) of any tooling used to create the product or service along with any third-party solutions utilized in the pipeline. While not created by you, the emissions they generate from production to maintenance are considered integral to your overall solution."
 						}
 					],
 					"impact": "Medium",
