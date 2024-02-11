@@ -4016,6 +4016,7 @@
 						{
 							"AWS WAF: SUS01-BP01 - Choose Region based on both business requirements and sustainability goals": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_region_a2.html",
 							"AWS WAF: SUS02-BP04 - Optimize geographic placement of workloads based on their networking requirements": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a5.html",
+							"Carbon Aware Computing: Next Green Breakthrough or New Greenwashing?": "https://hackernoon.com/carbon-aware-computing-next-green-breakthrough-or-new-greenwashing",
 							"CDN Compare": "https://www.cdnperf.com/cdn-compare",
 							"Cross-Origin Resource Sharing (CORS)": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
 							"Edge computing": "https://en.wikipedia.org/wiki/Edge_computing",
@@ -5435,6 +5436,14 @@
 						{
 							"title": "Technology Legislation",
 							"description": "The organization supports responsible legislation related to automation and emerging technologies."
+						},
+						{
+							"title": "Environmental Responsibilities",
+							"description": "Organizations must consider, audit, and account for any environmental considerations that may derive from the use of emerging technologies they wish to either promote or implement within a chosen setting. Also note that this should include third-party choices, the \"expense\" (in terms of waste or emissions) of the utilization of the technology to create a desired result, and consequential issues to the environment that may arise from its deployment."
+						},
+						{
+							"title": "Quantum Resilience",
+							"description": "Don't roll out post-quantum encryption for high-traffic services that don't need resilience against harvest now, decrypt later."
 						}
 					],
 					"impact": "High",
@@ -5465,11 +5474,13 @@
 							"AI and crypto mining are driving up data centers' energy use": "https://www.theverge.com/2024/1/24/24049047/data-center-ai-crypto-bitcoin-mining-electricity-report-iea",
 							"AI Environmental Equity": "https://themarkup.org/hello-world/2023/07/08/ai-environmental-equity-its-not-easy-being-green",
 							"AI Regulation Around The World": "https://www.taylorwessing.com/en/interface/2023/ai---are-we-getting-the-balance-between-regulation-and-innovation-right/ai-regulation-around-the-world",
+							"Are harvest now, decrypt later cyberattacks actually happening?": "https://techmonitor.ai/hardware/quantum/harvest-now-decrypt-later-cyberattack-quantum-computer",
 							"Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models": "https://arxiv.org/abs/2007.03051",
 							"Crypto and blockchain must accept they have a problem, then lead in sustainability": "",
 							"Cryptocurrency's Dirty Secret: Energy Consumption": "https://techcrunch.com/2021/05/16/crypto-and-blockchain-must-accept-they-have-a-problem-then-lead-in-sustainability/",
 							"Digital aspects and the environment": "https://dig.watch/trends/digital-and-environment",
 							"Digital education: The unique learning ecosystem TechUcation": "https://www.ottogroup.com/en/stories/story/story-techucation.php",
+							"Dismantling the Quantum Threat": "https://www.researchgate.net/publication/367205680_Dismantling_the_Quantum_Threat",
 							"Ecological Awareness for the Decentralized Web": "https://blog.archive.org/2021/09/20/ecological-awareness-for-the-decentralized-web/",
 							"Generating AI Images Uses as Much Energy as Charging Your Phone, Study Finds": "https://gizmodo.com/ai-images-as-much-energy-as-charging-phone-hugging-face-1851065091",
 							"How might we shape the future of a greener Internet? (PDF)": "https://trello-attachments.s3.amazonaws.com/5ebe50461cdc203af62d5e5d/5f1959cb638a3c1fe7c8abe3/8c9913f7876a417ede6e55d90f4d7f61/Lu_Ye_Final_Report.pdf",
@@ -5482,6 +5493,7 @@
 							"The Wholegrain guide to ethical use of AI": "https://www.wholegraindigital.com/blog/ethical-ai-guidelines/",
 							"Web3 and Sustainability": "https://www.lcx.com/web3-and-sustainability/",
 							"What is the environmental impact of Web3?": "https://venturebeat.com/business/what-is-the-environmental-impact-of-web3/",
+							"What Is the Future of Quantum-Proof Encryption?": "https://spectrum.ieee.org/post-quantum-cryptography-nist",
 							"Why Blockchain, NFTs, And Web3 Have A Sustainability Problem": "https://www.forbes.com/sites/bernardmarr/2023/01/13/why-blockchain-nfts-and-web3-have-a-sustainability-problem/",
 							"Why We Need To Be UpSkilling The Current Workforce For The Green Economy": "https://social.hays.com/2022/09/29/why-we-need-to-be-upskilling-the-current-workforce-for-the-green-economy/"
 						}
