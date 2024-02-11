@@ -3281,11 +3281,15 @@
 					"id": "22",
 					"url": "https://w3c.github.io/sustyweb/#use-the-latest-stable-language-version",
 					"guideline": "Use the Latest Stable Language Version",
-					"description": "Languages evolve regularly, and it's important for security and performance reasons to keep on-top of the technology stack you are using.",
+					"description": "Languages evolve regularly, and it's important for security and performance reasons to keep on top of the technology stack you are using. It's also important to consider whether the language you are using is appropriate or optimized for the task you wish to use it for.",
 					"criteria": [
 						{
 							"title": "Versioning",
 							"description": "Use the latest build of your chosen syntax language and its coupled framework."
+						},
+						{
+							"title": "Language Choice",
+							"description": "Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact ESG factors such as the well-being of those involved."
 						}
 					],
 					"impact": "Medium",
@@ -3294,7 +3298,7 @@
 						{
 							"Environmental": "Using the latest language version may improve efficiency and reduce data center energy consumption. Verify benefits are worthwhile before major build upgrades.",
 							"Security": "Often, older versions may have security issues which could expose your website or app (and thereby your visitors) to harm. Maintaining an upgrade schedule is good for security.",
-							"Performance": "Language version updates are usually coupled with performance improvements.",
+							"Performance": "Language version updates are usually coupled with performance improvements. Regarding language choice, an algorithm implemented in a compiled language such as C or Rust, for example, can have greatly reduced execution time and energy usage compared to the same algorithm written in an interpreted language like Python or JavaScript.",
 							"Economic": "Using the latest and more performant language version could help hosting companies to reduce their costs. That could be beneficial for the company and the visitor."
 						}
 					],
@@ -3314,7 +3318,12 @@
 					"resources": [
 						{
 							"Best PHP Performance Tips From Community & Influencers": "https://www.cloudways.com/blog/php-performance/",
-							"PHP 5.6 vs PHP 7 Performance Comparison": "https://www.altamira.ai/blog/php-5-vs-php-7-performance-comparison/"
+							"Energy Efficiency across Programming Languages (PDF)": "https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf",
+							"PHP 5.6 vs PHP 7 Performance Comparison": "https://www.altamira.ai/blog/php-5-vs-php-7-performance-comparison/",
+							"Programming Language Benchmarks": "https://attractivechaos.github.io/plb/",
+							"Speed comparison": "https://niklas-heer.github.io/speed-comparison/",
+							"Web Framework Benchmark": "https://web-frameworks-benchmark.netlify.app/result",
+							"Web Framework Benchmarks": "https://www.techempower.com/benchmarks/#hw=ph&test=composite&section=data-r22"
 						}
 					],
 					"tags": ["Compatibility", "Performance", "Security"]
@@ -4062,6 +4071,7 @@
 							"Greenhouse Gas Protocol - Cloud & Data Center Services (PDF)": "https://ghgprotocol.org/sites/default/files/GHGP-ICTSG%20-%20ALL%20Chapters.pdf#page=142",
 							"[GR491] 1-8003 - Datacenter Location": "https://gr491.isit-europe.org/en/crit.php?id=1-8003-hosting-data-centers-are-rarely-installed-in-the",
 							"[GR491] 2-8020 - Datacenter Hub": "https://gr491.isit-europe.org/en/crit.php?id=2-8020-hosting-physical-trips-to-datacenters-are-by-nature",
+							"High Performance MySQL: Query Performance Optimization": "https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html",
 							"How Clean is Your Cloud? (PDF)": "https://www.greenpeace.org/static/planet4-international-stateless/2012/04/e7c8ff21-howcleanisyourcloud.pdf",
 							"How green data centers can cut your carbon footprint": "https://venturebeat.com/data-infrastructure/how-green-data-centers-can-cut-your-carbon-footprint/",
 							"How using a CDN is better for people and the planet": "https://www.wholegraindigital.com/blog/how-using-a-cdn-is-better-for-people-and-the-planet/",
@@ -4072,7 +4082,6 @@
 							"Microsoft Azure WAF: Deploy to low-carbon regions": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-platform#deploy-to-low-carbon-regions",
 							"MySQL Has Functions (Part 5) : PHP vs MySQL Performance": "https://onextrapixel.com/mysql-has-functions-part-5-php-vs-mysql-performance/",
 							"Microsoft Emissions Impact Dashboard": "https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard",
-							"Query Performance Optimization": "https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html",
 							"Public CDNs Are Useless and Dangerous": "https://httptoolkit.com/blog/public-cdn-risks/",
 							"The Hosting Server Location & What It Means For Website SEO": "https://www.linkedin.com/pulse/hosting-server-location-what-means-website-seo-ernest-ekwoge-metuge/",
 							"The Utility of the Future (PDF)": "https://l.leitmotiv.digital/future-digital-utility-fullreport",
