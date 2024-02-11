@@ -5708,6 +5708,10 @@
 						{
 							"title": "Refurbishment Strategy",
 							"description": "The organization buys refurbished equipment whenever possible."
+						},
+						{
+							"title": "Right-to-Repair",
+							"description": "The organization should allow consumers to repair (to the best of their ability) the consumables they purchase, offering (if possible at cost) replacement components and clear instructions to resolve faults that occur."
 						}
 					],
 					"impact": "High",
