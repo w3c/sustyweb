@@ -5321,7 +5321,7 @@
 				<p>Making multiple requests whether HTTP or within a database has a carbon cost as infrastructure has to send that information back and forth. As such, managing how you store and use data locally for a visitor will help reduce wasted cycles.</p>
 				<section class="notoc">
 					<h4>Success Criterion - Database Queries</h4>
-					<p>If you need information that is stored in a database, and you require it (or its likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing.</p>
+					<p>If you need information that is stored in a database, and you require it (or its likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing. Also, avoid reliance on framework helpers that might defer filtering to later on in the process.</p>
 				</section>
 				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
@@ -5333,7 +5333,8 @@
 				<section class="notoc">
 					<h4>Benefits</h4>
 					<ul class="benefits">
-						<li><strong>Performance:</strong> By holding the data locally rather than remotely, you can avoid waiting for an additional HTTP request to occur to process the string.</li>
+						<li><strong>Environmental:</strong> Filtering out unneeded data at a deeper level of the application may reduce energy usage, as less processing is required for (de)serialisation.</li>
+						<li><strong>Performance:</strong> By holding the data locally rather than remotely, you can avoid waiting for an additional HTTP request to occur to process the string. Relational databases and other specialist data stores are generally heavily optimised for data filtering and retrieval. Performing transformations at this level of the application may lead to reduced CPU time and faster responses.</li>
 						<li><strong>Economic:</strong> Rather than pushing multiple additional demands to the server (which could lead to stress failures and lost business), an optimized codebase can reduce bandwidth overheads.</li>
 					</ul>
 				</section>
@@ -6120,6 +6121,10 @@
 					<p>Avoid using the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (<abbr title="Cross-origin resource sharing">CORS</abbr>), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect <abbr title="JavaScript Object Notation">JSON</abbr> or other static assets.</p>
 				</section>
 				<section class="notoc">
+					<h4>Success Criterion - Process Data Close to the Source</h4>
+					<p>All information passed between the layers of an application incurs a cost, both in terms of data transferred, and CPU cycles for (de)serialization. Wherever possible, data transformations should be performed close to the source to reduce these costs and avoid processing data that will later be discarded.</p>
+				</section>
+				<section class="notoc">
 					<h4>Impact &amp; Effort</h4>
 					<dl class="rating">
 						<dt><a>Impact</a><dfn data-lt="[*] 4.10"> [*]<span class="hidden">4.10</span></dfn></dt><dd>Medium</dd>
@@ -6184,7 +6189,9 @@
 							</ul></li>
 							<li><a>[*]<span class="hidden">4.10</span></a> Measuring the Emissions & Energy Footprint of the ICT Sector [[EEF-ICT]]</li>
 							<li><a href="https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard">Microsoft Emissions Impact Dashboard</a></li>
+							<li><a href="https://onextrapixel.com/mysql-has-functions-part-5-php-vs-mysql-performance/">MySQL Has Functions (Part 5) : PHP vs MySQL Performance</a></li>
 							<li><a href="https://httptoolkit.com/blog/public-cdn-risks/">Public CDNs Are Useless and Dangerous</a></li>
+							<li><a href="https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html">Query Performance Optimization</a></li>
 							<li><a href="https://www.linkedin.com/pulse/hosting-server-location-what-means-website-seo-ernest-ekwoge-metuge/">The Hosting Server Location & What It Means For Website SEO</a></li>
 							<li><a href="https://l.leitmotiv.digital/future-digital-utility-fullreport">The Utility of the Future</a>  (<em>PDF</em>)</li>
 							<li><a href="https://venturebeat.com/data-infrastructure/what-are-dual-use-data-centers-and-how-they-drive-energy-efficiency/">What are dual-use data centers and how they drive energy efficiency</a></li>

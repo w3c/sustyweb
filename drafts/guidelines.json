@@ -3377,14 +3377,15 @@
 					"criteria": [
 						{
 							"title": "Database Queries",
-							"description": "If you need information that is stored in a database, and you require it (or its likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing."
+							"description": "If you need information that is stored in a database, and you require it (or its likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing. Also, avoid reliance on framework helpers that might defer filtering to later on in the process."
 						}
 					],
 					"impact": "Medium",
 					"effort": "Low",
 					"benefits": [
 						{
-							"Performance": "By holding the data locally rather than remotely, you can avoid waiting for an additional HTTP request to occur to process the string.",
+							"Environmental": "Filtering out unneeded data at a deeper level of the application may reduce energy usage, as less processing is required for (de)serialisation.",
+							"Performance": "By holding the data locally rather than remotely, you can avoid waiting for an additional HTTP request to occur to process the string. Relational databases and other specialist data stores are generally heavily optimised for data filtering and retrieval. Performing transformations at this level of the application may lead to reduced CPU time and faster responses.",
 							"Economic": "Rather than pushing multiple additional demands to the server (which could lead to stress failures and lost business), an optimized codebase can reduce bandwidth overheads."
 						}
 					],
@@ -4018,6 +4019,10 @@
 						{
 							"title": "Avoid Caching Inappropriate Resources",
 							"description": "Avoid using the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (CORS), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect JSON or other static assets."
+						},
+						{
+							"title": "Process Data Close to the Source",
+							"description": "All information passed between the layers of an application incurs a cost, both in terms of data transferred, and CPU cycles for (de)serialization. Wherever possible, data transformations should be performed close to the source to reduce these costs and avoid processing data that will later be discarded."
 						}
 					],
 					"impact": "Medium",
@@ -4065,7 +4070,9 @@
 							"Is My Host Fast Yet?": "https://ismyhostfastyet.com/",
 							"Measuring the Emissions & Energy Footprint of the ICT Sector": "https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859702a98880540a4b70d57876048abb.pdf",
 							"Microsoft Azure WAF: Deploy to low-carbon regions": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-platform#deploy-to-low-carbon-regions",
+							"MySQL Has Functions (Part 5) : PHP vs MySQL Performance": "https://onextrapixel.com/mysql-has-functions-part-5-php-vs-mysql-performance/",
 							"Microsoft Emissions Impact Dashboard": "https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard",
+							"Query Performance Optimization": "https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html",
 							"Public CDNs Are Useless and Dangerous": "https://httptoolkit.com/blog/public-cdn-risks/",
 							"The Hosting Server Location & What It Means For Website SEO": "https://www.linkedin.com/pulse/hosting-server-location-what-means-website-seo-ernest-ekwoge-metuge/",
 							"The Utility of the Future (PDF)": "https://l.leitmotiv.digital/future-digital-utility-fullreport",

@@ -1243,7 +1243,7 @@
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="3.24a"></td><td colspan="5"><label for="3.24a">If you need information that is stored in a database, and you require it (or its likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing.</label></td>
+						<td><input type="checkbox" id="3.24a"></td><td colspan="5"><label for="3.24a">If you need information that is stored in a database, and you require it (or its likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing. Also, avoid reliance on framework helpers that might defer filtering to later on in the process.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact & Effort</strong></td>
@@ -1473,6 +1473,9 @@
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="4.10d"></td><td colspan="5"><label for="4.10d">Avoid using the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (<abbr title="Cross-Origin Resource Sharing">CORS</abbr>), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect <abbr title="JavaScript Object Notation">JSON</abbr> or other static assets.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="4.10e"></td><td colspan="5"><label for="4.10e">All information passed between the layers of an application incurs a cost, both in terms of data transferred, and CPU cycles for (de)serialization. Wherever possible, data transformations should be performed close to the source to reduce these costs and avoid processing data that will later be discarded.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact & Effort</strong></td>
