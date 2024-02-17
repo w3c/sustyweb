@@ -1207,6 +1207,8 @@
 					"resources": [
 						{
 							"Best practices for fonts": "https://web.dev/articles/font-best-practices",
+							"Complete Guide to Pre-Installed Fonts in Linux, Mac, and Windows": "https://www.apaddedcell.com/web-fonts/",
+							"CSS Fonts": "https://www.cssfontstack.com/",
 							"Digital Eco-Design: Fonts": "https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html",
 							"Font style matcher": "https://meowni.ca/font-style-matcher/",
 							"[GR491] 2-4015 - Font Limits": "https://gr491.isit-europe.org/en/crit.php?id=2-4015-contents-each-font-is-encoded-in-a-file",
@@ -1612,8 +1614,7 @@
 							"Prototyping User Experiences: Reducing the Risks of Product Innovation": "https://www.uxmatters.com/mt/archives/2020/04/prototyping-user-experiences-reducing-the-risks-of-product-innovation.php",
 							"Testing for accessibility": "https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility",
 							"The Beginner's Guide to Usability Testing": "https://blog.hubspot.com/marketing/usability-testing",
-							"The Mobile Performance Inequality Gap, 2021": "https://infrequently.org/2021/03/the-performance-inequality-gap/",
-							"The Performance Inequality Gap, 2023": "https://infrequently.org/2022/12/performance-baseline-2023/",
+							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"The Ultimate Guide to Accessibility Testing": "https://info.usablenet.com/accessibility-testing",
 							"Usability Testing 101": "https://www.nngroup.com/articles/usability-testing-101/",
 							"Web Accessibility": "https://www.udacity.com/course/web-accessibility--ud891",
@@ -2229,8 +2230,7 @@
 							"Making Content Usable for People with Cognitive and Learning Disabilities": "https://www.w3.org/TR/coga-usable/",
 							"Performance Is Accessibility": "https://hookedoncode.com/2020/07/performance-is-accessibility/",
 							"The Little Book of Accessibility": "https://uxdesign.cc/the-little-book-of-accessibility-a9b59d82b412",
-							"The Mobile Performance Inequality Gap, 2021": "https://infrequently.org/2021/03/the-performance-inequality-gap/",
-							"The Performance Inequality Gap, 2023": "https://infrequently.org/2022/12/performance-baseline-2023/",
+							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"This Is WCAG": "https://thisiswcag.com/",
 							"W3C Web Content Accessibility Guidelines": "https://www.w3.org/TR/WCAG22/",
 							"Web Accessibility": "https://www.udacity.com/course/web-accessibility--ud891",
@@ -2861,8 +2861,7 @@
 							"[RGESN] (French) 1.6 - Device Compatibility": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.6/",
 							"RSS Specification": "https://www.rssboard.org/rss-specification",
 							"Smartphone Ownership Is Growing Rapidly Around the World, but Not Always Equally": "https://www.pewresearch.org/global/2019/02/05/smartphone-ownership-is-growing-rapidly-around-the-world-but-not-always-equally/",
-							"The Mobile Performance Inequality Gap, 2021": "https://infrequently.org/2021/03/the-performance-inequality-gap/",
-							"The Performance Inequality Gap, 2023": "https://infrequently.org/2022/12/performance-baseline-2023/",
+							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"Vampire Energy: Essential Answer": "https://stanfordmag.org/contents/vampire-energy-essential-answer",
 							"What is Mobile First Design?": "https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00"
 						}
@@ -2920,8 +2919,7 @@
 							"Everyone has JavaScript, right?": "https://www.kryogenix.org/code/browser/everyonehasjs.html",
 							"How Web Content Can Affect Power Usage": "https://webkit.org/blog/8970/how-web-content-can-affect-power-usage/",
 							"Internet censorship and surveillance by country": "https://en.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country",
-							"The Mobile Performance Inequality Gap, 2021": "https://infrequently.org/2021/03/the-performance-inequality-gap/",
-							"The Performance Inequality Gap, 2023": "https://infrequently.org/2022/12/performance-baseline-2023/",
+							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"W3C Web Performance Working Group": "https://www.w3.org/webperf/"
 						}
 					],
@@ -5343,8 +5341,7 @@
 							"Racism and inequity are products of design. They can be redesigned.": "https://medium.com/@equityXdesign/racism-and-inequity-are-products-of-design-they-can-be-redesigned-12188363cc6a",
 							"Sample accessibility statement": "https://www.gov.uk/government/publications/sample-accessibility-statement",
 							"The Importance of Advocacy for Accessibility within the workplace": "https://www.linkedin.com/pulse/importance-advocacy-accessibility-within-workplace/",
-							"The Mobile Performance Inequality Gap, 2021": "https://infrequently.org/2021/03/the-performance-inequality-gap/",
-							"The Performance Inequality Gap, 2023": "https://infrequently.org/2022/12/performance-baseline-2023/",
+							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"Understanding Social Digital Responsibility": "https://www.mightybytes.com/blog/social-digital-responsibility/",
 							"Unequal America: Ten insights on the state of economic opportunity": "https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth/unequal-america-ten-insights-on-the-state-of-economic-opportunity",
 							"Web Content Accessibility Guidelines": "https://www.w3.org/TR/WCAG22/",
