@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Fourth Draft",
-	"lastModified": "2024-02-11",
+	"lastModified": "2024-02-22",
 	"category": [
 		{
 			"id": "1",
@@ -696,7 +696,6 @@
 							"Society Centered Design": "https://societycentered.design/",
 							"The Calm Web": "https://calibreapp.com/blog/calm-web",
 							"Tracking Protection in Firefox For Privacy and Performance": "https://www.ieee-security.org/TC/SPW2015/W2SP/papers/W2SP_2015_submission_32.pdf",
-							"Web Sustainability Pocket Guide (PDF)": "https://www.mightybytes.com/wp-content/uploads/2020/07/Web-Sustainability-Checklist-v5-FINAL.pdf",
 							"Why People Block Ads (And What It Means for Marketers and Advertisers)": "https://blog.hubspot.com/marketing/why-people-block-ads-and-what-it-means-for-marketers-and-advertisers",
 							"Why you should stop using Google Analytics on your website": "https://plausible.io/blog/remove-google-analytics"
 						}
@@ -2587,7 +2586,6 @@
 							"Structured Data": "https://schema.org/",
 							"The Benefits of Tree Testing Your Navigation": "https://www.mightybytes.com/blog/things-you-learn-tree-testing-navigation/",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
-							"Web Sustainability Pocket Guide (PDF)": "https://www.mightybytes.com/wp-content/uploads/2020/07/Web-Sustainability-Checklist-v5-FINAL.pdf",
 							"What is a Customer Journey Map?": "https://www.mightybytes.com/blog/customer-journey-map-template-download/"
 						}
 					],
@@ -4669,7 +4667,7 @@
 						{
 							"An Introduction to Corporate Sustainability Training": "https://blog.nexioprojects.com/an-introduction-to-corporate-sustainability-training",
 							"EcoCards Game Workshop Toolkit": "https://www.figma.com/community/file/1197230942511819987/ecocards-jeu-de-cartes-decoconception-web-web-ecodesign-card-game",
-							"ESG Policy - the Why, the What the How": "https://www.esgthereport.com/esg-policy-the-why-the-what-the-how/",
+							"ESG Policy - the Why, the What the How": "https://esgthereport.com/esg-policy-the-why-the-what-the-how/",
 							"[GR491] 1-4002 - Sustainable Commitment": "https://gr491.isit-europe.org/en/crit.php?id=1-4002-contents-many-elements-are-produced-externally-it-would",
 							"Green by Default": "https://screenspan.net/blog/green-by-default/",
 							"Green Upskilling": "https://2030.builders/green-upskilling-why-companies-need-to-train-employees-to-meet-the-demand-of-a-sustainable-economy/",
@@ -4740,7 +4738,7 @@
 							"Green digital sector": "https://digital-strategy.ec.europa.eu/en/policies/green-digital",
 							"Greenhouse Gas Protocol": "https://ghgprotocol.org/",
 							"Greenwashing": "https://en.wikipedia.org/wiki/Greenwashing",
-							"How to Write a Sustainability Report": "https://www.esgthereport.com/what-is-esg/the-g-in-esg/how-to-write-a-sustainability-report/",
+							"How to Write a Sustainability Report": "https://esgthereport.com/what-is-esg/the-g-in-esg/how-to-write-a-sustainability-report/",
 							"Impact Reporting": "https://www.sopact.com/guides/impact-reporting",
 							"More than values: The value-based sustainability reporting that investors want": "https://www.mckinsey.com/capabilities/sustainability/our-insights/more-than-values-the-value-based-sustainability-reporting-that-investors-want",
 							"Sustainability Accounting Standards Board": "https://sasb.org/",
