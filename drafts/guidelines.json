@@ -675,6 +675,7 @@
 							"Deceptive Patterns": "https://www.deceptive.design/",
 							"Design Justice Network Principles": "https://designjustice.org/read-the-principles",
 							"Digital sustainability audits: a de facto standard for the Internet carbon footprint": "https://www.researchgate.net/publication/343041330_Digital_sustainability_audits_a_de_facto_standard_for_the_Internet_carbon_footprint",
+							"Effectively loading ads without impacting page speed": "https://web.dev/articles/loading-ads-page-speed",
 							"Fair Patterns": "https://fairpatterns.com/",
 							"Fastest Ad Blocker: 13 Best We Tested for Performance in 2023": "https://whatsoftware.com/10-ad-blocking-extensions-tested-for-best-performance/view-all/",
 							"[GR491] 10-3070 - Dark Patterns": "https://gr491.isit-europe.org/en/crit.php?id=10-3070-uxui-some-services-are-designed-to-create-some",
@@ -745,6 +746,7 @@
 					],
 					"resources": [
 						{
+							"7 simple habits of the top 1% of engineers": "https://read.engineerscodex.com/p/7-simple-habits-of-the-top-1-of-engineers",
 							"[GR491] 1-3008 - Reusability": "https://gr491.isit-europe.org/en/crit.php?id=1-3008-uxui-a-sustainable-it-knowledge-and-skills-base",
 							"[GR491] 7-3050 - Documentation": "https://gr491.isit-europe.org/en/crit.php?id=7-3050-uxui-too-many-inadequate-documents-are-produced-during",
 							"HTMX First": "https://html-first.com/",
@@ -1927,6 +1929,7 @@
 							"How to Become an Eco Web Designer": "https://onextrapixel.com/how-to-become-an-eco-web-designer/",
 							"Introducing Web Vitals": "https://blog.chromium.org/2020/05/introducing-web-vitals-essential-metrics.html",
 							"Investigating the correlation between performance scores and energy consumption of mobile web apps (PDF)": "https://www.ivanomalavolta.com/files/papers/EASE_2020.pdf",
+							"Learn Testing": "https://web.dev/learn/testing",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
 							"Mise à jour logicielle : il est urgent de légiférer (French)": "https://www.greenit.fr/2019/03/19/mise-a-jour-logicielle-il-est-urgent-de-legiferer/",
 							"Mobile Web Best Practices": "https://www.w3.org/TR/mobile-bp/",
@@ -2353,6 +2356,7 @@
 							"Building for sustainability with WordPress": "https://sustywp.com/",
 							"Cookies, Pixels, and Tags": "https://www.osano.com/articles/privacy-cookies-pixels-and-tags",
 							"Digital Eco-Design: Plugins and widgets": "https://eco-conception.designersethiques.org/guide/en/content/5-5-widget.html",
+							"Effectively loading ads without impacting page speed": "https://web.dev/articles/loading-ads-page-speed",
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
 							"Environmental impact assessment of online advertising": "https://www.sciencedirect.com/science/article/pii/S0195925517303505",
 							"Fast Load Times: Optimize your third-party resources": "https://web.dev/explore/fast#optimize-your-third-party-resources",
@@ -2720,7 +2724,7 @@
 					"criteria": [
 						{
 							"title": "Media and Preference Queries",
-							"description": "Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, and prefers-reduced-motion CSS preference queries if they will benefit your website or application. Also consider the print & scripting CSS media queries if they will improve the sustainability of your website."
+							"description": "Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, prefers-reduced-transparency, and prefers-reduced-motion CSS preference queries if they will benefit your website or application. Also consider the print & scripting CSS media queries if they will improve the sustainability of your website."
 						}
 					],
 					"impact": "Medium",
@@ -2916,7 +2920,8 @@
 							"How Web Content Can Affect Power Usage": "https://webkit.org/blog/8970/how-web-content-can-affect-power-usage/",
 							"Internet censorship and surveillance by country": "https://en.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country",
 							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
-							"W3C Web Performance Working Group": "https://www.w3.org/webperf/"
+							"W3C Web Performance Working Group": "https://www.w3.org/webperf/",
+							"WebAssembly versus JavaScript: Energy and Runtime Performance (PDF)": "https://repositorio.inesctec.pt/server/api/core/bitstreams/0870fb76-d463-456b-9e34-5b33bb7c0dd1/content"
 						}
 					],
 					"tags": ["Accessibility", "JavaScript", "Security"]
@@ -3496,6 +3501,7 @@
 							"Digital Reset (PDF)": "https://digitalization-for-sustainability.com/digital-reset/",
 							"Electronics and obsolescence in a circular economy": "https://www.eionet.europa.eu/etcs/etc-wmge/products/etc-wmge-reports/electronics-and-obsolescence-in-a-circular-economy",
 							"Energizta": "https://boavizta.github.io/Energizta/",
+							"Energy Consumption in Data Centres and Broadband Communication Networks in the EU": "https://publications.jrc.ec.europa.eu/repository/handle/JRC135926",
 							"Equations relating total annual energy consumption and chips energy efficiency": "https://www.researchgate.net/publication/371938289_Equations_relating_total_annual_energy_consumption_and_chips_energy_efficiency",
 							"Europe's consumption in a circular economy: the benefits of longer-lasting electronics": "https://www.eea.europa.eu/publications/europe2019s-consumption-in-a-circular/benefits-of-longer-lasting-electronics",
 							"[GR491] 1-8002 - Does Cooling Affect Groundwater": "https://gr491.isit-europe.org/en/crit.php?id=1-8002-hosting-water-usage-is-associated-with-it-hosting",
@@ -4067,6 +4073,7 @@
 							"CDN Compare": "https://www.cdnperf.com/cdn-compare",
 							"Cross-Origin Resource Sharing (CORS)": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
 							"Edge computing": "https://en.wikipedia.org/wiki/Edge_computing",
+							"Energy Consumption in Data Centres and Broadband Communication Networks in the EU": "https://publications.jrc.ec.europa.eu/repository/handle/JRC135926",
 							"Energy-efficient Cloud Computing Technologies and Policies for an Eco-friendly Cloud Market": "https://digital-strategy.ec.europa.eu/en/library/energy-efficient-cloud-computing-technologies-and-policies-eco-friendly-cloud-market",
 							"Future trends of Green All Optical Networks and ICT Infrastructure in a large context": "https://www.researchgate.net/publication/368690756_Future_trends_of_Green_All_Optical_Networks_and_ICT_Infrastructure_in_a_large_context_-_trends_to_2050",
 							"Gaining security and privacy by partitioning the cache": "https://developer.chrome.com/blog/http-cache-partitioning",
@@ -4301,6 +4308,7 @@
 							"EcoGrader": "https://ecograder.com/",
 							"[GR491] 2-3014 - Compliance Labelling": "https://gr491.isit-europe.org/en/crit.php?id=2-3014-uxui-a-number-of-resources-are-available-to",
 							"Green Web Checker": "https://www.thegreenwebfoundation.org/green-web-check/",
+							"How Google takes the pain out of code reviews, with 97% dev satisfaction": "https://read.engineerscodex.com/p/how-google-takes-the-pain-out-of",
 							"How to amplify your sustainability efforts through your user-experience": "https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/creativity/sustainability-user-experience/",
 							"How to Build Effective Sustainability Governance Structures": "https://www.bsr.org/en/blog/how-to-build-effective-sustainability-governance-structures",
 							"How To Create Your Own Code of Ethics (With Examples)": "https://www.indeed.com/career-advice/career-development/create-code-of-ethics",
