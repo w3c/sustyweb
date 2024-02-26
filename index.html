@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 34.3.0">
+<meta name="generator" content="ReSpec 34.4.0">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 span.example-title{text-transform:none}
@@ -431,6 +431,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "publisher": "European Commission",
       "id": "eccra"
     },
+    "ECDCBC": {
+      "title": "Energy Consumption in Data Centres and Broadband Communication Networks in the EU",
+      "date": "16 Febuary 2024",
+      "href": "https://publications.jrc.ec.europa.eu/repository/handle/JRC135926",
+      "status": "Informational",
+      "publisher": "European Commission",
+      "id": "ecdcbc"
+    },
     "ECDCCOC": {
       "title": "Data Centres Code of Conduct",
       "date": "4 November 2023",
@@ -494,6 +502,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "status": "Informational",
       "publisher": "Electronics Goes Green",
       "id": "eeg"
+    },
+    "EEF-ICT": {
+      "title": "Measuring the Emissions & Energy Footprint of the ICT Sector",
+      "date": "12 December 2023",
+      "href": "https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859702a98880540a4b70d57876048abb.pdf",
+      "status": "Informational",
+      "publisher": "The World Bank",
+      "id": "eef-ict"
     },
     "EEI": {
       "title": "Investigating the Inconsistencies among Energy and Energy Intensity Estimates of the Internet",
@@ -903,6 +919,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "publisher": "Kwame Chan-Jong-Chu, Tanjina Islam, Miguel Morales Exposito, Sanjay Sheombar, Christian Valladares, Olivier Philippot, Eoin Martino Grua, and Ivano Malavolta",
       "id": "psec"
     },
+    "QUANTUM": {
+      "title": "Dismantling the Quantum Threat",
+      "date": "06 December 2022",
+      "href": "https://www.researchgate.net/publication/367205680_Dismantling_the_Quantum_Threat",
+      "status": "Informational",
+      "publisher": "Tilman Runge",
+      "id": "quantum"
+    },
     "RAHS": {
       "title": "Rethinking Allocation in High-Baseload Systems",
       "date": "05 July 2022",
@@ -980,6 +1004,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "status": "Informational",
       "publisher": "Google, Yahoo, and Microsoft",
       "id": "sitemap"
+    },
+    "SOLID": {
+      "title": "Solid Protocol",
+      "date": "31 December 2022",
+      "href": "https://solidproject.org/TR/protocol",
+      "status": "Informational",
+      "publisher": "Solid Project",
+      "id": "solid"
     },
     "SUSTYDEBT": {
       "title": "Sustainability debt: A metaphor to support Sustainability design decisions",
@@ -1112,6 +1144,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "publisher": "Max van Hasselt, Kevin Huijzendveld, Nienke Noort, Sasja de Ruijter, Tanjina Islam, and Ivano Malavolta",
       "id": "wasm"
     },
+    "WASM-JS": {
+      "title": "WebAssembly versus JavaScript: Energy and Runtime Performance",
+      "date": "09 January 2023",
+      "href": "https://repositorio.inesctec.pt/server/api/core/bitstreams/0870fb76-d463-456b-9e34-5b33bb7c0dd1/content",
+      "status": "Informational",
+      "publisher": "Joao De Macedo, Rui Abreu, Rui Pereira, and Joao Saraiva",
+      "id": "wasm-js"
+    },
     "WEF": {
       "title": "Bridging Digital and Environmental Goals",
       "date": "01 March 2021",
@@ -1178,8 +1218,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   ],
   "specStatus": "CG-DRAFT",
-  "publishISODate": "2024-01-25T00:00:00.000Z",
-  "generatedSubtitle": "Draft Community Group Report 25 January 2024"
+  "publishISODate": "2024-02-25T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 25 February 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
 	<body class="h-entry"><div class="head">
@@ -1187,7 +1227,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <h1 id="title" class="title">Web Sustainability Guidelines (WSG) 1.0</h1> 
     <p id="w3c-state">
       <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
-      <time class="dt-published" datetime="2024-01-25">25 January 2024</time>
+      <time class="dt-published" datetime="2024-02-25">25 February 2024</time>
     </p>
     <dl>
       
@@ -1258,13 +1298,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     </p> 
 			<p>This document has been reviewed by Community Group members and interested parties. This is a draft document which may be updated, replaced, or obsoleted by other documents at any time. It is inappropriate to cite this document as other than a work in progress. The Community Group's role in publishing is to draw attention to the specification and to promote its widespread deployment.</p>
 			<p>By publishing these guidelines, the Community Group does not expect that the work produced in this specification will affect the work undertaken by other <abbr title="World Wide Web Consortium">W3C</abbr> sustainability, accessibility, or performance groups. The Community Group will continue to track these Working Groups and Community Groups as appropriate. This specification closely aligns itself with the principles laid down for Web Platform Design [<cite><a class="bibref" data-link-type="biblio" href="#bib-design-principles" title="Web Platform Design Principles">design-principles</a></cite>], Privacy [<cite><a class="bibref" data-link-type="biblio" href="#bib-privacy-principles" title="Privacy Principles">privacy-principles</a></cite>], and the Ethical Web [<cite><a class="bibref" data-link-type="biblio" href="#bib-ethical-web-principles" title="W3C TAG Ethical Web Principles">ethical-web-principles</a></cite>].</p>
-			<p>There are two methods of providing feedback regarding this specification. The first is using GitHub. It is free to create a GitHub account to file issues. If filing issues in GitHub is not feasible, email our open discussion group <a href="mailto:public-sustyweb@w3.org">public-sustyweb@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-sustyweb/">comment archive</a>). Comments received on the specification cannot result in changes to this version of the guidelines, but may be addressed in errata or future versions of <abbr title="Web Sustainability Guidelines">WSG</abbr>. A list of issues filed as well as archives of the mailing list discussions are publicly available. There is currently no preliminary interoperability or implementation report, however potential implementation strategies alongside filtering and categorization of guidelines are showcased within the <a href="https://sustainablewebdesign.org/">Sustainable Web Design</a> website.</p>
+			<p>To provide feedback regarding this specification, the preferred method is using GitHub. It is free to create a GitHub account to file issues. Comments received on the specification cannot result in changes to this version of the guidelines, but may be addressed in errata or future versions of <abbr title="Web Sustainability Guidelines">WSG</abbr>. A list of issues filed as well as archives of previous mailing list <a id="public-name" href="mailto:public-sustyweb@w3.org">public-sustyweb@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-sustyweb/">archive</a>) discussions are publicly available. There is currently no preliminary interoperability or implementation report, however potential implementation strategies alongside filtering and categorization of guidelines are showcased within the <a href="https://sustainablewebdesign.org/">Sustainable Web Design</a> website.</p>
 		<p>
     <a href="https://github.com/w3c/sustyweb/issues/">GitHub Issues</a> are preferred for
           discussion of this specification.
         
     
-  </p></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Abstract</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status of This Document</a></li><li class="tocline"><a class="tocxref" href="#introduction"><bdi class="secno">1. </bdi>Introduction</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#background-on-wsg"><bdi class="secno">1.1 </bdi>Background on <abbr title="Web Sustainability Guidelines">WSG</abbr></a></li><li class="tocline"><a class="tocxref" href="#wsg-layers-of-guidance"><bdi class="secno">1.2 </bdi><abbr title="Web Sustainability Guidelines">WSG</abbr> Layers of Guidance</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#principles"><bdi class="secno">1.2.1 </bdi>Principles</a></li><li class="tocline"><a class="tocxref" href="#guidelines"><bdi class="secno">1.2.2 </bdi>Guidelines</a></li><li class="tocline"><a class="tocxref" href="#success-criteria"><bdi class="secno">1.2.3 </bdi>Success Criteria</a></li><li class="tocline"><a class="tocxref" href="#advisory-techniques"><bdi class="secno">1.2.4 </bdi>Advisory Techniques</a></li></ol></li><li class="tocline"><a class="tocxref" href="#implementation-advice"><bdi class="secno">1.3 </bdi>Implementation Advice</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#considerations"><bdi class="secno">1.3.1 </bdi>Considerations</a></li><li class="tocline"><a class="tocxref" href="#methodology"><bdi class="secno">1.3.2 </bdi>Methodology</a></li></ol></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">1.4 </bdi>Conformance</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#conformance-requirements"><bdi class="secno">1.4.1 </bdi>Conformance Requirements</a></li><li class="tocline"><a class="tocxref" href="#conformance-claims"><bdi class="secno">1.4.2 </bdi>Conformance Claims</a></li></ol></li><li class="tocline"><a class="tocxref" href="#wsg-supporting-documents"><bdi class="secno">1.5 </bdi><abbr title="Web Sustainability Guidelines">WSG</abbr> Supporting Documents</a></li><li class="tocline"><a class="tocxref" href="#requirements-for-wsg"><bdi class="secno">1.6 </bdi>Requirements for <abbr title="Web Sustainability Guidelines">WSG</abbr></a></li><li class="tocline"><a class="tocxref" href="#versions-of-guidance"><bdi class="secno">1.7 </bdi>Versions of Guidance</a></li></ol></li><li class="tocline"><a class="tocxref" href="#user-experience-design"><bdi class="secno">2. </bdi>User-Experience Design</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#undertake-systemic-impacts-mapping"><bdi class="secno">2.1 </bdi>Undertake Systemic Impacts Mapping</a></li><li class="tocline"><a class="tocxref" href="#assess-and-research-visitor-needs"><bdi class="secno">2.2 </bdi>Assess and Research Visitor Needs</a></li><li class="tocline"><a class="tocxref" href="#research-non-visitor-s-needs"><bdi class="secno">2.3 </bdi>Research Non-Visitor's Needs</a></li><li class="tocline"><a class="tocxref" href="#consider-sustainability-in-early-ideation"><bdi class="secno">2.4 </bdi>Consider Sustainability in Early Ideation</a></li><li class="tocline"><a class="tocxref" href="#account-for-stakeholder-issues"><bdi class="secno">2.5 </bdi>Account for Stakeholder Issues</a></li><li class="tocline"><a class="tocxref" href="#create-a-frictionless-lightweight-experience-by-default"><bdi class="secno">2.6 </bdi>Create a Frictionless Lightweight Experience by Default</a></li><li class="tocline"><a class="tocxref" href="#avoid-unnecessary-or-an-overabundance-of-assets"><bdi class="secno">2.7 </bdi>Avoid Unnecessary or an Overabundance of Assets</a></li><li class="tocline"><a class="tocxref" href="#ensure-navigation-and-way-finding-are-well-structured"><bdi class="secno">2.8 </bdi>Ensure Navigation and Way-Finding Are Well-Structured</a></li><li class="tocline"><a class="tocxref" href="#respect-the-visitor-s-attention"><bdi class="secno">2.9 </bdi>Respect the Visitor's Attention</a></li><li class="tocline"><a class="tocxref" href="#use-recognized-design-patterns"><bdi class="secno">2.10 </bdi>Use Recognized Design Patterns</a></li><li class="tocline"><a class="tocxref" href="#avoid-manipulative-patterns"><bdi class="secno">2.11 </bdi>Avoid Manipulative Patterns</a></li><li class="tocline"><a class="tocxref" href="#document-and-share-project-outputs"><bdi class="secno">2.12 </bdi>Document and Share Project Outputs</a></li><li class="tocline"><a class="tocxref" href="#use-a-design-system-to-prioritize-interface-consistency"><bdi class="secno">2.13 </bdi>Use a Design System To Prioritize Interface Consistency</a></li><li class="tocline"><a class="tocxref" href="#write-with-purpose-in-an-accessible-easy-to-understand-format"><bdi class="secno">2.14 </bdi>Write With Purpose, in an Accessible, Easy To Understand Format</a></li><li class="tocline"><a class="tocxref" href="#take-a-more-sustainable-approach-to-image-assets"><bdi class="secno">2.15 </bdi>Take a More Sustainable Approach to Image Assets</a></li><li class="tocline"><a class="tocxref" href="#take-a-more-sustainable-approach-to-media-assets"><bdi class="secno">2.16 </bdi>Take a More Sustainable Approach to Media Assets</a></li><li class="tocline"><a class="tocxref" href="#take-a-more-sustainable-approach-to-animation"><bdi class="secno">2.17 </bdi>Take a More Sustainable Approach to Animation</a></li><li class="tocline"><a class="tocxref" href="#take-a-more-sustainable-approach-to-typefaces"><bdi class="secno">2.18 </bdi>Take a More Sustainable Approach to Typefaces</a></li><li class="tocline"><a class="tocxref" href="#provide-suitable-alternatives-to-web-assets"><bdi class="secno">2.19 </bdi>Provide Suitable Alternatives to Web Assets</a></li><li class="tocline"><a class="tocxref" href="#provide-accessible-usable-minimal-web-forms"><bdi class="secno">2.20 </bdi>Provide Accessible, Usable, Minimal Web Forms</a></li><li class="tocline"><a class="tocxref" href="#support-non-graphic-ways-to-interact-with-content"><bdi class="secno">2.21 </bdi>Support Non-Graphic Ways To Interact With Content</a></li><li class="tocline"><a class="tocxref" href="#provide-useful-notifications-to-improve-the-visitor-s-journey"><bdi class="secno">2.22 </bdi>Provide Useful Notifications To Improve The Visitor's Journey</a></li><li class="tocline"><a class="tocxref" href="#reduce-the-impact-of-downloadable-or-physical-documents"><bdi class="secno">2.23 </bdi>Reduce the Impact of Downloadable or Physical Documents</a></li><li class="tocline"><a class="tocxref" href="#create-a-stakeholder-focused-testing-prototyping-policy"><bdi class="secno">2.24 </bdi>Create a Stakeholder-Focused Testing &amp; Prototyping Policy</a></li><li class="tocline"><a class="tocxref" href="#conduct-regular-audits-regression-and-non-regression-tests"><bdi class="secno">2.25 </bdi>Conduct Regular Audits, Regression, and Non-Regression Tests</a></li><li class="tocline"><a class="tocxref" href="#analyze-the-performance-of-the-visitor-journey"><bdi class="secno">2.26 </bdi>Analyze The Performance Of The Visitor Journey</a></li><li class="tocline"><a class="tocxref" href="#incorporate-value-testing-into-each-major-release-cycle"><bdi class="secno">2.27 </bdi>Incorporate Value Testing Into Each Major Release-Cycle</a></li><li class="tocline"><a class="tocxref" href="#incorporate-usability-testing-into-each-minor-release-cycle"><bdi class="secno">2.28 </bdi>Incorporate Usability Testing Into Each Minor Release-Cycle</a></li><li class="tocline"><a class="tocxref" href="#incorporate-compatibility-testing-into-each-release-cycle"><bdi class="secno">2.29 </bdi>Incorporate Compatibility Testing Into Each Release-Cycle</a></li></ol></li><li class="tocline"><a class="tocxref" href="#web-development"><bdi class="secno">3. </bdi>Web Development</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#identify-relevant-technical-indicators"><bdi class="secno">3.1 </bdi>Identify Relevant Technical Indicators</a></li><li class="tocline"><a class="tocxref" href="#minify-your-html-css-and-javascript"><bdi class="secno">3.2 </bdi>Minify Your <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading StyleSheets">CSS</abbr>, and JavaScript</a></li><li class="tocline"><a class="tocxref" href="#use-code-splitting-within-projects"><bdi class="secno">3.3 </bdi>Use Code-Splitting Within Projects</a></li><li class="tocline"><a class="tocxref" href="#apply-tree-shaking-to-code"><bdi class="secno">3.4 </bdi>Apply Tree Shaking To Code</a></li><li class="tocline"><a class="tocxref" href="#ensure-your-solutions-are-accessible"><bdi class="secno">3.5 </bdi>Ensure Your Solutions Are Accessible</a></li><li class="tocline"><a class="tocxref" href="#avoid-code-duplication"><bdi class="secno">3.6 </bdi>Avoid Code Duplication</a></li><li class="tocline"><a class="tocxref" href="#rigorously-assess-third-party-services"><bdi class="secno">3.7 </bdi>Rigorously Assess Third-Party Services</a></li><li class="tocline"><a class="tocxref" href="#use-html-elements-correctly"><bdi class="secno">3.8 </bdi>Use <abbr title="Hypertext Markup Language">HTML</abbr> Elements Correctly</a></li><li class="tocline"><a class="tocxref" href="#resolve-render-blocking-content"><bdi class="secno">3.9 </bdi>Resolve Render Blocking Content</a></li><li class="tocline"><a class="tocxref" href="#provide-code-based-way-finding-mechanisms"><bdi class="secno">3.10 </bdi>Provide Code-Based Way-Finding Mechanisms</a></li><li class="tocline"><a class="tocxref" href="#validate-form-errors-and-external-input"><bdi class="secno">3.11 </bdi>Validate Form Errors and External Input</a></li><li class="tocline"><a class="tocxref" href="#use-metadata-correctly"><bdi class="secno">3.12 </bdi>Use Metadata Correctly</a></li><li class="tocline"><a class="tocxref" href="#adapt-to-user-preferences"><bdi class="secno">3.13 </bdi>Adapt to User Preferences</a></li><li class="tocline"><a class="tocxref" href="#develop-a-mobile-first-layout"><bdi class="secno">3.14 </bdi>Develop a Mobile-First Layout</a></li><li class="tocline"><a class="tocxref" href="#use-beneficial-javascript-and-its-apis"><bdi class="secno">3.15 </bdi>Use Beneficial JavaScript and Its <abbr title="Application Programming Interfaces">APIs</abbr></a></li><li class="tocline"><a class="tocxref" href="#ensure-your-scripts-are-secure"><bdi class="secno">3.16 </bdi>Ensure Your Scripts Are Secure</a></li><li class="tocline"><a class="tocxref" href="#manage-dependencies-appropriately"><bdi class="secno">3.17 </bdi>Manage Dependencies Appropriately</a></li><li class="tocline"><a class="tocxref" href="#include-files-that-are-automatically-expected"><bdi class="secno">3.18 </bdi>Include Files That Are Automatically Expected</a></li><li class="tocline"><a class="tocxref" href="#use-plaintext-formats-when-appropriate"><bdi class="secno">3.19 </bdi>Use Plaintext Formats When Appropriate</a></li><li class="tocline"><a class="tocxref" href="#avoid-using-deprecated-or-proprietary-code"><bdi class="secno">3.20 </bdi>Avoid Using Deprecated or Proprietary Code</a></li><li class="tocline"><a class="tocxref" href="#align-technical-requirements-with-sustainability-goals"><bdi class="secno">3.21 </bdi>Align Technical Requirements With Sustainability Goals</a></li><li class="tocline"><a class="tocxref" href="#use-the-latest-stable-language-version"><bdi class="secno">3.22 </bdi>Use the Latest Stable Language Version</a></li><li class="tocline"><a class="tocxref" href="#take-advantage-of-native-features"><bdi class="secno">3.23 </bdi>Take Advantage of Native Features</a></li><li class="tocline"><a class="tocxref" href="#run-fewer-simpler-queries-as-possible"><bdi class="secno">3.24 </bdi>Run Fewer, Simpler Queries As Possible</a></li></ol></li><li class="tocline"><a class="tocxref" href="#hosting-infrastructure-and-systems"><bdi class="secno">4. </bdi>Hosting, Infrastructure and Systems</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#choose-a-sustainable-hosting-provider"><bdi class="secno">4.1 </bdi>Choose a Sustainable Hosting Provider</a></li><li class="tocline"><a class="tocxref" href="#optimize-browser-caching"><bdi class="secno">4.2 </bdi>Optimize Browser Caching</a></li><li class="tocline"><a class="tocxref" href="#compress-your-files"><bdi class="secno">4.3 </bdi>Compress Your Files</a></li><li class="tocline"><a class="tocxref" href="#use-error-pages-and-redirects-carefully"><bdi class="secno">4.4 </bdi>Use Error Pages and Redirects Carefully</a></li><li class="tocline"><a class="tocxref" href="#limit-usage-of-additional-environments"><bdi class="secno">4.5 </bdi>Limit Usage of Additional Environments</a></li><li class="tocline"><a class="tocxref" href="#automate-to-fit-the-needs"><bdi class="secno">4.6 </bdi>Automate To Fit the Needs</a></li><li class="tocline"><a class="tocxref" href="#maintain-a-relevant-refresh-frequency"><bdi class="secno">4.7 </bdi>Maintain a Relevant Refresh Frequency</a></li><li class="tocline"><a class="tocxref" href="#be-mindful-of-duplicate-data"><bdi class="secno">4.8 </bdi>Be Mindful of Duplicate Data</a></li><li class="tocline"><a class="tocxref" href="#enable-asynchronous-processing-and-communication"><bdi class="secno">4.9 </bdi>Enable Asynchronous Processing and Communication</a></li><li class="tocline"><a class="tocxref" href="#consider-cdns-and-edge-caching"><bdi class="secno">4.10 </bdi>Consider <abbr title="Content Delivery Networks">CDNs</abbr> and Edge Caching</a></li><li class="tocline"><a class="tocxref" href="#use-the-lowest-infrastructure-tier-meeting-business-requirements"><bdi class="secno">4.11 </bdi>Use the Lowest Infrastructure Tier Meeting Business Requirements</a></li><li class="tocline"><a class="tocxref" href="#store-data-according-to-visitor-needs"><bdi class="secno">4.12 </bdi>Store Data According to Visitor Needs</a></li></ol></li><li class="tocline"><a class="tocxref" href="#business-strategy-and-product-management"><bdi class="secno">5. </bdi>Business Strategy and Product Management</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#have-an-ethical-and-sustainability-product-strategy"><bdi class="secno">5.1 </bdi>Have an Ethical and Sustainability Product Strategy</a></li><li class="tocline"><a class="tocxref" href="#assign-a-sustainability-representative"><bdi class="secno">5.2 </bdi>Assign a Sustainability Representative</a></li><li class="tocline"><a class="tocxref" href="#raise-awareness-and-inform"><bdi class="secno">5.3 </bdi>Raise Awareness and Inform</a></li><li class="tocline"><a class="tocxref" href="#communicate-the-ecological-impact-of-user-choices"><bdi class="secno">5.4 </bdi>Communicate the Ecological Impact of User Choices</a></li><li class="tocline"><a class="tocxref" href="#estimate-a-product-or-service-s-environmental-impact"><bdi class="secno">5.5 </bdi>Estimate a Product or Service's Environmental Impact</a></li><li class="tocline"><a class="tocxref" href="#define-clear-organizational-sustainability-goals-and-metrics"><bdi class="secno">5.6 </bdi>Define Clear Organizational Sustainability Goals and Metrics</a></li><li class="tocline"><a class="tocxref" href="#verify-your-efforts-using-established-third-party-business-certifications"><bdi class="secno">5.7 </bdi>Verify Your Efforts Using Established Third-Party Business Certifications</a></li><li class="tocline"><a class="tocxref" href="#implement-sustainability-onboarding-guidelines"><bdi class="secno">5.8 </bdi>Implement Sustainability Onboarding Guidelines</a></li><li class="tocline"><a class="tocxref" href="#support-mandatory-disclosures-and-reporting"><bdi class="secno">5.9 </bdi>Support Mandatory Disclosures and Reporting</a></li><li class="tocline"><a class="tocxref" href="#create-one-or-more-impact-business-models"><bdi class="secno">5.10 </bdi>Create One or More Impact Business Models</a></li><li class="tocline"><a class="tocxref" href="#follow-a-product-management-and-maintenance-strategy"><bdi class="secno">5.11 </bdi>Follow a Product Management and Maintenance Strategy</a></li><li class="tocline"><a class="tocxref" href="#implement-continuous-improvement-procedures"><bdi class="secno">5.12 </bdi>Implement Continuous Improvement Procedures</a></li><li class="tocline"><a class="tocxref" href="#document-future-updates-and-evolutions"><bdi class="secno">5.13 </bdi>Document Future Updates and Evolutions</a></li><li class="tocline"><a class="tocxref" href="#establish-if-a-digital-product-or-service-is-necessary"><bdi class="secno">5.14 </bdi>Establish if a Digital Product or Service Is Necessary</a></li><li class="tocline"><a class="tocxref" href="#determine-the-functional-unit"><bdi class="secno">5.15 </bdi>Determine the Functional Unit</a></li><li class="tocline"><a class="tocxref" href="#create-a-supplier-standards-of-practice"><bdi class="secno">5.16 </bdi>Create a Supplier Standards of Practice</a></li><li class="tocline"><a class="tocxref" href="#share-economic-benefits"><bdi class="secno">5.17 </bdi>Share Economic Benefits</a></li><li class="tocline"><a class="tocxref" href="#share-decision-making-power-with-appropriate-stakeholders"><bdi class="secno">5.18 </bdi>Share Decision-Making Power With Appropriate Stakeholders</a></li><li class="tocline"><a class="tocxref" href="#use-justice-equity-diversity-inclusion-jedi-practices"><bdi class="secno">5.19 </bdi>Use Justice, Equity, Diversity, Inclusion (<abbr title="Justice, Equity, Diversity, Inclusion">JEDI</abbr>) Practices</a></li><li class="tocline"><a class="tocxref" href="#promote-responsible-data-practices"><bdi class="secno">5.20 </bdi>Promote Responsible Data Practices</a></li><li class="tocline"><a class="tocxref" href="#implement-appropriate-data-management-procedures"><bdi class="secno">5.21 </bdi>Implement Appropriate Data Management Procedures</a></li><li class="tocline"><a class="tocxref" href="#promote-and-implement-responsible-emerging-technology-practices"><bdi class="secno">5.22 </bdi>Promote and Implement Responsible Emerging Technology Practices</a></li><li class="tocline"><a class="tocxref" href="#include-responsible-financial-policies"><bdi class="secno">5.23 </bdi>Include Responsible Financial Policies</a></li><li class="tocline"><a class="tocxref" href="#include-organizational-philanthropy-policies"><bdi class="secno">5.24 </bdi>Include Organizational Philanthropy Policies</a></li><li class="tocline"><a class="tocxref" href="#plan-for-a-digital-product-or-service-s-care-and-end-of-life"><bdi class="secno">5.25 </bdi>Plan for a Digital Product or Service's Care and End-of-Life</a></li><li class="tocline"><a class="tocxref" href="#include-e-waste-right-to-repair-and-recycling-policies"><bdi class="secno">5.26 </bdi>Include E-Waste, Right-To-Repair, and Recycling Policies</a></li><li class="tocline"><a class="tocxref" href="#define-performance-and-environmental-budgets"><bdi class="secno">5.27 </bdi>Define Performance and Environmental Budgets</a></li><li class="tocline"><a class="tocxref" href="#use-open-source-tools"><bdi class="secno">5.28 </bdi>Use Open Source Tools</a></li></ol></li><li class="tocline"><a class="tocxref" href="#glossary"><bdi class="secno">6. </bdi>Glossary</a></li><li class="tocline"><a class="tocxref" href="#acknowledgements"><bdi class="secno">A. </bdi>Acknowledgements</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#participants-of-the-swd-cg-active-in-the-development-of-this-document"><bdi class="secno">A.1 </bdi>Participants of the <abbr title="Sustainable Web Design Community Group">SWD-CG</abbr> Active in the Development of This Document</a></li><li class="tocline"><a class="tocxref" href="#other-active-swd-cg-participants-or-contributors-to-supporting-resources"><bdi class="secno">A.2 </bdi>Other Active <abbr title="Sustainable Web Design Community Group">SWD-CG</abbr> Participants, or Contributors to Supporting Resources</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>References</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normative-references"><bdi class="secno">B.1 </bdi>Normative references</a></li><li class="tocline"><a class="tocxref" href="#informative-references"><bdi class="secno">B.2 </bdi>Informative references</a></li></ol></li></ol></nav>
+  </p></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Abstract</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status of This Document</a></li><li class="tocline"><a class="tocxref" href="#introduction"><bdi class="secno">1. </bdi>Introduction</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#background-on-wsg"><bdi class="secno">1.1 </bdi>Background on <abbr title="Web Sustainability Guidelines">WSG</abbr></a></li><li class="tocline"><a class="tocxref" href="#wsg-layers-of-guidance"><bdi class="secno">1.2 </bdi><abbr title="Web Sustainability Guidelines">WSG</abbr> Layers of Guidance</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#principles"><bdi class="secno">1.2.1 </bdi>Principles</a></li><li class="tocline"><a class="tocxref" href="#guidelines"><bdi class="secno">1.2.2 </bdi>Guidelines</a></li><li class="tocline"><a class="tocxref" href="#success-criteria"><bdi class="secno">1.2.3 </bdi>Success Criteria</a></li><li class="tocline"><a class="tocxref" href="#advisory-techniques"><bdi class="secno">1.2.4 </bdi>Advisory Techniques</a></li></ol></li><li class="tocline"><a class="tocxref" href="#implementation-advice"><bdi class="secno">1.3 </bdi>Implementation Advice</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#considerations"><bdi class="secno">1.3.1 </bdi>Considerations</a></li><li class="tocline"><a class="tocxref" href="#methodology"><bdi class="secno">1.3.2 </bdi>Methodology</a></li></ol></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">1.4 </bdi>Conformance</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#conformance-requirements"><bdi class="secno">1.4.1 </bdi>Conformance Requirements</a></li><li class="tocline"><a class="tocxref" href="#conformance-claims"><bdi class="secno">1.4.2 </bdi>Conformance Claims</a></li></ol></li><li class="tocline"><a class="tocxref" href="#wsg-supporting-documents"><bdi class="secno">1.5 </bdi><abbr title="Web Sustainability Guidelines">WSG</abbr> Supporting Documents</a></li><li class="tocline"><a class="tocxref" href="#requirements-for-wsg"><bdi class="secno">1.6 </bdi>Requirements for <abbr title="Web Sustainability Guidelines">WSG</abbr></a></li><li class="tocline"><a class="tocxref" href="#versions-of-guidance"><bdi class="secno">1.7 </bdi>Versions of Guidance</a></li></ol></li><li class="tocline"><a class="tocxref" href="#user-experience-design"><bdi class="secno">2. </bdi>User-Experience Design</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#undertake-systemic-impacts-mapping"><bdi class="secno">2.1 </bdi>Undertake Systemic Impacts Mapping</a></li><li class="tocline"><a class="tocxref" href="#assess-and-research-visitor-needs"><bdi class="secno">2.2 </bdi>Assess and Research Visitor Needs</a></li><li class="tocline"><a class="tocxref" href="#research-non-visitor-s-needs"><bdi class="secno">2.3 </bdi>Research Non-Visitor's Needs</a></li><li class="tocline"><a class="tocxref" href="#consider-sustainability-in-early-ideation"><bdi class="secno">2.4 </bdi>Consider Sustainability in Early Ideation</a></li><li class="tocline"><a class="tocxref" href="#account-for-stakeholder-issues"><bdi class="secno">2.5 </bdi>Account for Stakeholder Issues</a></li><li class="tocline"><a class="tocxref" href="#create-a-frictionless-lightweight-experience-by-default"><bdi class="secno">2.6 </bdi>Create a Frictionless Lightweight Experience by Default</a></li><li class="tocline"><a class="tocxref" href="#avoid-unnecessary-or-an-overabundance-of-assets"><bdi class="secno">2.7 </bdi>Avoid Unnecessary or an Overabundance of Assets</a></li><li class="tocline"><a class="tocxref" href="#ensure-navigation-and-way-finding-are-well-structured"><bdi class="secno">2.8 </bdi>Ensure Navigation and Way-Finding Are Well-Structured</a></li><li class="tocline"><a class="tocxref" href="#respect-the-visitor-s-attention"><bdi class="secno">2.9 </bdi>Respect the Visitor's Attention</a></li><li class="tocline"><a class="tocxref" href="#use-recognized-design-patterns"><bdi class="secno">2.10 </bdi>Use Recognized Design Patterns</a></li><li class="tocline"><a class="tocxref" href="#avoid-manipulative-patterns"><bdi class="secno">2.11 </bdi>Avoid Manipulative Patterns</a></li><li class="tocline"><a class="tocxref" href="#document-and-share-project-outputs"><bdi class="secno">2.12 </bdi>Document and Share Project Outputs</a></li><li class="tocline"><a class="tocxref" href="#use-a-design-system-to-prioritize-interface-consistency"><bdi class="secno">2.13 </bdi>Use a Design System To Prioritize Interface Consistency</a></li><li class="tocline"><a class="tocxref" href="#write-with-purpose-in-an-accessible-easy-to-understand-format"><bdi class="secno">2.14 </bdi>Write With Purpose, in an Accessible, Easy To Understand Format</a></li><li class="tocline"><a class="tocxref" href="#take-a-more-sustainable-approach-to-image-assets"><bdi class="secno">2.15 </bdi>Take a More Sustainable Approach to Image Assets</a></li><li class="tocline"><a class="tocxref" href="#take-a-more-sustainable-approach-to-media-assets"><bdi class="secno">2.16 </bdi>Take a More Sustainable Approach to Media Assets</a></li><li class="tocline"><a class="tocxref" href="#take-a-more-sustainable-approach-to-animation"><bdi class="secno">2.17 </bdi>Take a More Sustainable Approach to Animation</a></li><li class="tocline"><a class="tocxref" href="#take-a-more-sustainable-approach-to-typefaces"><bdi class="secno">2.18 </bdi>Take a More Sustainable Approach to Typefaces</a></li><li class="tocline"><a class="tocxref" href="#provide-suitable-alternatives-to-web-assets"><bdi class="secno">2.19 </bdi>Provide Suitable Alternatives to Web Assets</a></li><li class="tocline"><a class="tocxref" href="#provide-accessible-usable-minimal-web-forms"><bdi class="secno">2.20 </bdi>Provide Accessible, Usable, Minimal Web Forms</a></li><li class="tocline"><a class="tocxref" href="#support-non-graphic-ways-to-interact-with-content"><bdi class="secno">2.21 </bdi>Support Non-Graphic Ways To Interact With Content</a></li><li class="tocline"><a class="tocxref" href="#provide-useful-notifications-to-improve-the-visitor-s-journey"><bdi class="secno">2.22 </bdi>Provide Useful Notifications To Improve The Visitor's Journey</a></li><li class="tocline"><a class="tocxref" href="#reduce-the-impact-of-downloadable-or-physical-documents"><bdi class="secno">2.23 </bdi>Reduce the Impact of Downloadable or Physical Documents</a></li><li class="tocline"><a class="tocxref" href="#create-a-stakeholder-focused-testing-prototyping-policy"><bdi class="secno">2.24 </bdi>Create a Stakeholder-Focused Testing &amp; Prototyping Policy</a></li><li class="tocline"><a class="tocxref" href="#conduct-regular-audits-regression-and-non-regression-tests"><bdi class="secno">2.25 </bdi>Conduct Regular Audits, Regression, and Non-Regression Tests</a></li><li class="tocline"><a class="tocxref" href="#incorporate-performance-testing-into-each-major-release-cycle"><bdi class="secno">2.26 </bdi>Incorporate Performance Testing Into Each Major Release-Cycle</a></li><li class="tocline"><a class="tocxref" href="#incorporate-value-testing-into-each-major-release-cycle"><bdi class="secno">2.27 </bdi>Incorporate Value Testing Into Each Major Release-Cycle</a></li><li class="tocline"><a class="tocxref" href="#incorporate-usability-testing-into-each-minor-release-cycle"><bdi class="secno">2.28 </bdi>Incorporate Usability Testing Into Each Minor Release-Cycle</a></li><li class="tocline"><a class="tocxref" href="#incorporate-compatibility-testing-into-each-release-cycle"><bdi class="secno">2.29 </bdi>Incorporate Compatibility Testing Into Each Release-Cycle</a></li></ol></li><li class="tocline"><a class="tocxref" href="#web-development"><bdi class="secno">3. </bdi>Web Development</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#identify-relevant-technical-indicators"><bdi class="secno">3.1 </bdi>Identify Relevant Technical Indicators</a></li><li class="tocline"><a class="tocxref" href="#minify-your-html-css-and-javascript"><bdi class="secno">3.2 </bdi>Minify Your <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading StyleSheets">CSS</abbr>, and JavaScript</a></li><li class="tocline"><a class="tocxref" href="#use-code-splitting-within-projects"><bdi class="secno">3.3 </bdi>Use Code-Splitting Within Projects</a></li><li class="tocline"><a class="tocxref" href="#apply-tree-shaking-to-code"><bdi class="secno">3.4 </bdi>Apply Tree Shaking To Code</a></li><li class="tocline"><a class="tocxref" href="#ensure-your-solutions-are-accessible"><bdi class="secno">3.5 </bdi>Ensure Your Solutions Are Accessible</a></li><li class="tocline"><a class="tocxref" href="#avoid-code-duplication"><bdi class="secno">3.6 </bdi>Avoid Code Duplication</a></li><li class="tocline"><a class="tocxref" href="#rigorously-assess-third-party-services"><bdi class="secno">3.7 </bdi>Rigorously Assess Third-Party Services</a></li><li class="tocline"><a class="tocxref" href="#use-html-elements-correctly"><bdi class="secno">3.8 </bdi>Use <abbr title="Hypertext Markup Language">HTML</abbr> Elements Correctly</a></li><li class="tocline"><a class="tocxref" href="#resolve-render-blocking-content"><bdi class="secno">3.9 </bdi>Resolve Render Blocking Content</a></li><li class="tocline"><a class="tocxref" href="#provide-code-based-way-finding-mechanisms"><bdi class="secno">3.10 </bdi>Provide Code-Based Way-Finding Mechanisms</a></li><li class="tocline"><a class="tocxref" href="#validate-form-errors-and-external-input"><bdi class="secno">3.11 </bdi>Validate Form Errors and External Input</a></li><li class="tocline"><a class="tocxref" href="#use-metadata-correctly"><bdi class="secno">3.12 </bdi>Use Metadata Correctly</a></li><li class="tocline"><a class="tocxref" href="#adapt-to-user-preferences"><bdi class="secno">3.13 </bdi>Adapt to User Preferences</a></li><li class="tocline"><a class="tocxref" href="#develop-a-mobile-first-layout"><bdi class="secno">3.14 </bdi>Develop a Mobile-First Layout</a></li><li class="tocline"><a class="tocxref" href="#use-beneficial-javascript-and-its-apis"><bdi class="secno">3.15 </bdi>Use Beneficial JavaScript and Its <abbr title="Application Programming Interfaces">APIs</abbr></a></li><li class="tocline"><a class="tocxref" href="#ensure-your-scripts-are-secure"><bdi class="secno">3.16 </bdi>Ensure Your Scripts Are Secure</a></li><li class="tocline"><a class="tocxref" href="#manage-dependencies-appropriately"><bdi class="secno">3.17 </bdi>Manage Dependencies Appropriately</a></li><li class="tocline"><a class="tocxref" href="#include-files-that-are-automatically-expected"><bdi class="secno">3.18 </bdi>Include Files That Are Automatically Expected</a></li><li class="tocline"><a class="tocxref" href="#use-plaintext-formats-when-appropriate"><bdi class="secno">3.19 </bdi>Use Plaintext Formats When Appropriate</a></li><li class="tocline"><a class="tocxref" href="#avoid-using-deprecated-or-proprietary-code"><bdi class="secno">3.20 </bdi>Avoid Using Deprecated or Proprietary Code</a></li><li class="tocline"><a class="tocxref" href="#align-technical-requirements-with-sustainability-goals"><bdi class="secno">3.21 </bdi>Align Technical Requirements With Sustainability Goals</a></li><li class="tocline"><a class="tocxref" href="#use-the-latest-stable-language-version"><bdi class="secno">3.22 </bdi>Use the Latest Stable Language Version</a></li><li class="tocline"><a class="tocxref" href="#take-advantage-of-native-features"><bdi class="secno">3.23 </bdi>Take Advantage of Native Features</a></li><li class="tocline"><a class="tocxref" href="#run-fewer-simpler-queries-as-possible"><bdi class="secno">3.24 </bdi>Run Fewer, Simpler Queries As Possible</a></li></ol></li><li class="tocline"><a class="tocxref" href="#hosting-infrastructure-and-systems"><bdi class="secno">4. </bdi>Hosting, Infrastructure and Systems</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#choose-a-sustainable-hosting-provider"><bdi class="secno">4.1 </bdi>Choose a Sustainable Hosting Provider</a></li><li class="tocline"><a class="tocxref" href="#optimize-browser-caching"><bdi class="secno">4.2 </bdi>Optimize Browser Caching</a></li><li class="tocline"><a class="tocxref" href="#compress-your-files"><bdi class="secno">4.3 </bdi>Compress Your Files</a></li><li class="tocline"><a class="tocxref" href="#use-error-pages-and-redirects-carefully"><bdi class="secno">4.4 </bdi>Use Error Pages and Redirects Carefully</a></li><li class="tocline"><a class="tocxref" href="#limit-usage-of-additional-environments"><bdi class="secno">4.5 </bdi>Limit Usage of Additional Environments</a></li><li class="tocline"><a class="tocxref" href="#automate-to-fit-the-needs"><bdi class="secno">4.6 </bdi>Automate To Fit the Needs</a></li><li class="tocline"><a class="tocxref" href="#maintain-a-relevant-refresh-frequency"><bdi class="secno">4.7 </bdi>Maintain a Relevant Refresh Frequency</a></li><li class="tocline"><a class="tocxref" href="#be-mindful-of-duplicate-data"><bdi class="secno">4.8 </bdi>Be Mindful of Duplicate Data</a></li><li class="tocline"><a class="tocxref" href="#enable-asynchronous-processing-and-communication"><bdi class="secno">4.9 </bdi>Enable Asynchronous Processing and Communication</a></li><li class="tocline"><a class="tocxref" href="#consider-cdns-and-edge-caching"><bdi class="secno">4.10 </bdi>Consider <abbr title="Content Delivery Networks">CDNs</abbr> and Edge Caching</a></li><li class="tocline"><a class="tocxref" href="#use-the-lowest-infrastructure-tier-meeting-business-requirements"><bdi class="secno">4.11 </bdi>Use the Lowest Infrastructure Tier Meeting Business Requirements</a></li><li class="tocline"><a class="tocxref" href="#store-data-according-to-visitor-needs"><bdi class="secno">4.12 </bdi>Store Data According to Visitor Needs</a></li></ol></li><li class="tocline"><a class="tocxref" href="#business-strategy-and-product-management"><bdi class="secno">5. </bdi>Business Strategy and Product Management</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#have-an-ethical-and-sustainability-product-strategy"><bdi class="secno">5.1 </bdi>Have an Ethical and Sustainability Product Strategy</a></li><li class="tocline"><a class="tocxref" href="#assign-a-sustainability-representative"><bdi class="secno">5.2 </bdi>Assign a Sustainability Representative</a></li><li class="tocline"><a class="tocxref" href="#raise-awareness-and-inform"><bdi class="secno">5.3 </bdi>Raise Awareness and Inform</a></li><li class="tocline"><a class="tocxref" href="#communicate-the-ecological-impact-of-user-choices"><bdi class="secno">5.4 </bdi>Communicate the Ecological Impact of User Choices</a></li><li class="tocline"><a class="tocxref" href="#estimate-a-product-or-service-s-environmental-impact"><bdi class="secno">5.5 </bdi>Estimate a Product or Service's Environmental Impact</a></li><li class="tocline"><a class="tocxref" href="#define-clear-organizational-sustainability-goals-and-metrics"><bdi class="secno">5.6 </bdi>Define Clear Organizational Sustainability Goals and Metrics</a></li><li class="tocline"><a class="tocxref" href="#verify-your-efforts-using-established-third-party-business-certifications"><bdi class="secno">5.7 </bdi>Verify Your Efforts Using Established Third-Party Business Certifications</a></li><li class="tocline"><a class="tocxref" href="#implement-sustainability-onboarding-guidelines"><bdi class="secno">5.8 </bdi>Implement Sustainability Onboarding Guidelines</a></li><li class="tocline"><a class="tocxref" href="#support-mandatory-disclosures-and-reporting"><bdi class="secno">5.9 </bdi>Support Mandatory Disclosures and Reporting</a></li><li class="tocline"><a class="tocxref" href="#create-one-or-more-impact-business-models"><bdi class="secno">5.10 </bdi>Create One or More Impact Business Models</a></li><li class="tocline"><a class="tocxref" href="#follow-a-product-management-and-maintenance-strategy"><bdi class="secno">5.11 </bdi>Follow a Product Management and Maintenance Strategy</a></li><li class="tocline"><a class="tocxref" href="#implement-continuous-improvement-procedures"><bdi class="secno">5.12 </bdi>Implement Continuous Improvement Procedures</a></li><li class="tocline"><a class="tocxref" href="#document-future-updates-and-evolutions"><bdi class="secno">5.13 </bdi>Document Future Updates and Evolutions</a></li><li class="tocline"><a class="tocxref" href="#establish-if-a-digital-product-or-service-is-necessary"><bdi class="secno">5.14 </bdi>Establish if a Digital Product or Service Is Necessary</a></li><li class="tocline"><a class="tocxref" href="#determine-the-functional-unit"><bdi class="secno">5.15 </bdi>Determine the Functional Unit</a></li><li class="tocline"><a class="tocxref" href="#create-a-supplier-standards-of-practice"><bdi class="secno">5.16 </bdi>Create a Supplier Standards of Practice</a></li><li class="tocline"><a class="tocxref" href="#share-economic-benefits"><bdi class="secno">5.17 </bdi>Share Economic Benefits</a></li><li class="tocline"><a class="tocxref" href="#share-decision-making-power-with-appropriate-stakeholders"><bdi class="secno">5.18 </bdi>Share Decision-Making Power With Appropriate Stakeholders</a></li><li class="tocline"><a class="tocxref" href="#use-justice-equity-diversity-inclusion-jedi-practices"><bdi class="secno">5.19 </bdi>Use Justice, Equity, Diversity, Inclusion (<abbr title="Justice, Equity, Diversity, Inclusion">JEDI</abbr>) Practices</a></li><li class="tocline"><a class="tocxref" href="#promote-responsible-data-practices"><bdi class="secno">5.20 </bdi>Promote Responsible Data Practices</a></li><li class="tocline"><a class="tocxref" href="#implement-appropriate-data-management-procedures"><bdi class="secno">5.21 </bdi>Implement Appropriate Data Management Procedures</a></li><li class="tocline"><a class="tocxref" href="#promote-and-implement-responsible-emerging-technology-practices"><bdi class="secno">5.22 </bdi>Promote and Implement Responsible Emerging Technology Practices</a></li><li class="tocline"><a class="tocxref" href="#include-responsible-financial-policies"><bdi class="secno">5.23 </bdi>Include Responsible Financial Policies</a></li><li class="tocline"><a class="tocxref" href="#include-organizational-philanthropy-policies"><bdi class="secno">5.24 </bdi>Include Organizational Philanthropy Policies</a></li><li class="tocline"><a class="tocxref" href="#plan-for-a-digital-product-or-service-s-care-and-end-of-life"><bdi class="secno">5.25 </bdi>Plan for a Digital Product or Service's Care and End-of-Life</a></li><li class="tocline"><a class="tocxref" href="#include-e-waste-right-to-repair-and-recycling-policies"><bdi class="secno">5.26 </bdi>Include E-Waste, Right-To-Repair, and Recycling Policies</a></li><li class="tocline"><a class="tocxref" href="#define-performance-and-environmental-budgets"><bdi class="secno">5.27 </bdi>Define Performance and Environmental Budgets</a></li><li class="tocline"><a class="tocxref" href="#use-open-source-tools"><bdi class="secno">5.28 </bdi>Use Open Source Tools</a></li></ol></li><li class="tocline"><a class="tocxref" href="#glossary"><bdi class="secno">6. </bdi>Glossary</a></li><li class="tocline"><a class="tocxref" href="#acknowledgements"><bdi class="secno">A. </bdi>Acknowledgements</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#participants-of-the-swd-cg-active-in-the-development-of-this-document"><bdi class="secno">A.1 </bdi>Participants of the <abbr title="Sustainable Web Design Community Group">SWD-CG</abbr> Active in the Development of This Document</a></li><li class="tocline"><a class="tocxref" href="#other-active-swd-cg-participants-or-contributors-to-supporting-resources"><bdi class="secno">A.2 </bdi>Other Active <abbr title="Sustainable Web Design Community Group">SWD-CG</abbr> Participants, or Contributors to Supporting Resources</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">B. </bdi>References</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normative-references"><bdi class="secno">B.1 </bdi>Normative references</a></li><li class="tocline"><a class="tocxref" href="#informative-references"><bdi class="secno">B.2 </bdi>Informative references</a></li></ol></li></ol></nav>
 		<section class="informative" id="introduction"><div class="header-wrapper"><h2 id="x1-introduction"><bdi class="secno">1. </bdi>Introduction</h2><a class="self-link" href="#introduction" aria-label="Permalink for Section 1."></a></div><p><em>This section is non-normative.</em></p> 
 			
 			<section id="background-on-wsg"><div class="header-wrapper"><h3 id="x1-1-background-on-wsg"><bdi class="secno">1.1 </bdi>Background on <abbr title="Web Sustainability Guidelines">WSG</abbr></h3><a class="self-link" href="#background-on-wsg" aria-label="Permalink for Section 1.1"></a></div> 
@@ -1396,6 +1436,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 		</section>
 		<section id="user-experience-design"><div class="header-wrapper"><h2 id="x2-user-experience-design"><bdi class="secno">2. </bdi>User-Experience Design</h2><a class="self-link" href="#user-experience-design" aria-label="Permalink for Section 2."></a></div> 
 			
+			<p>Product and user-experience designers are in a unique position. Not only do they often have the ability to dictate the visual aesthetic of a website or application, but they are often the champions of interfaces and the visitor experience.</p>
+			<p>Having this power gives those working in user-experience the ability to:</p>
+			<ul>
+				<li>Identify product and visitor needs (alongside impact), testing regularly.</li>
+				<li>Structure the information architecture to improve ease of access.</li>
+				<li>Ensure assets are suitable and of the lowest footprint required.</li>
+			</ul>
+			<p>By adhering the below guidelines, individuals can make a significant difference in the reduction of front-end sustainability impacts.</p>
 			<section id="undertake-systemic-impacts-mapping"><div class="header-wrapper"><h3 id="x2-1-undertake-systemic-impacts-mapping"><bdi class="secno">2.1 </bdi>Undertake Systemic Impacts Mapping</h3><a class="self-link" href="#undertake-systemic-impacts-mapping" aria-label="Permalink for Section 2.1"></a></div> 
 				
 				<p>There are many variables which can impact the user-experience, and a bunch of these can impact how sustainable your website will be. Attempting to identify where you can make a difference to the visitor and give them a more sustainable experience will be beneficial.</p>
@@ -1748,10 +1796,6 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 			<section id="create-a-frictionless-lightweight-experience-by-default"><div class="header-wrapper"><h3 id="x2-6-create-a-frictionless-lightweight-experience-by-default"><bdi class="secno">2.6 </bdi>Create a Frictionless Lightweight Experience by Default</h3><a class="self-link" href="#create-a-frictionless-lightweight-experience-by-default" aria-label="Permalink for Section 2.6"></a></div> 
 				
 				<p>When providing the option to download, save, print, or access anything online, defaulting to the most lightweight, least featureful version will reduce emissions through passive browsing; with non-essential information removed from the screen either to be shown when it's required or eliminated.</p>
-				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-performance-by-default">Success Criterion - Performance By Default</h4><a class="self-link" href="#success-criterion-performance-by-default" aria-label="Permalink for this Section"></a></div>
-					
-					<p>Prioritize performance optimization as a product or service's default approach.</p>
-				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-efficient-paths">Success Criterion - Efficient Paths</h4><a class="self-link" href="#success-criterion-efficient-paths" aria-label="Permalink for this Section"></a></div>
 					
 					<p>The path taken to access the service (the initial contact with the website or service) should be as efficient and as simple as possible (time required to complete an action displayed, reducing too much choice, ensuring visitors know what's required at the start of a complex set of steps, etc).</p>
@@ -2177,6 +2221,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					
 					<p>Remove unused and unconsented page tracking.</p>
 				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-search-engine-optimization">Success Criterion - Search Engine Optimization</h4><a class="self-link" href="#success-criterion-search-engine-optimization" aria-label="Permalink for this Section"></a></div>
+					
+					<p>Optimization for search engines, social networks, and third-party services should be organically led with good coding practices and user-experience being the focus, not manipulating the services to gain greater priority through obfuscating content, pages, websites, or applications with redundancy or non-useful and optimized (to the visitor) material.</p>
+				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-9">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-9" aria-label="Permalink for this Section"></a></div>
 					
 					<dl class="rating">
@@ -2189,7 +2237,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					<ul class="benefits">
 						<li><strong>Environmental:</strong> Many deceptive design patterns have visitors wasting time and energy trying to undo choices they never intended to make. Avoiding them therefore reduces energy use.</li>
 						<li><strong>Privacy:</strong> Many deceptive patterns are intentionally designed to undermine data privacy. Ensuring you comply with ethical privacy practices and avoiding such patterns will avoid potential legal conflicts. You also reduce additional data being sent among the providers of tracking and advertising data.</li>
-						<li><strong>Accessibility:</strong> Dark and deceptive design patterns often intentionally block or hide access to information, which especially undermines the experience of people with disabilities who use assistive technologies. By avoiding them, you will give those with accessibility needs justification to trust your brand. Furthermore, avoiding poor implementations such as overlays will prevent making any existing situations worse.</li>
+						<li><strong>Accessibility:</strong> Dark and deceptive design patterns often intentionally block or hide access to information, which especially undermines the experience of people with disabilities who use assistive technologies. By avoiding them, you will give those with accessibility needs justification to trust your brand. Furthermore, avoiding unsustainable or carbon intensive implementations will prevent making any existing situations worse.</li>
 						<li><strong>Performance:</strong> Interference with the user-interface (such as removing the ability to copy text) causes friction and forces the visitor to spend more time on the page to work around the barrier put in place. This uses additional energy as they try to find a solution onsite, elsewhere, or give up entirely. Using ethical, non-disruptive coding practices will speed up interactions within your website.</li>
 						<li><strong>Economic:</strong> Ethical websites incentivize customers to whitelist your website on ad-blockers.</li>
 						<li><strong>Conversion:</strong> Avoiding dark and deceptive patterns will likely result in fewer complaints. A classic example of this is the use of CAPTCHAs which can disrupt the visitor, cause accessibility barriers, and reduce the legitimate use of your product or service.</li>
@@ -2227,6 +2275,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://www.deceptive.design/">Deceptive Patterns</a></li>
 							<li><a href="https://designjustice.org/read-the-principles">Design Justice Network Principles</a></li>
 							<li><a href="#dfn-2-11" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-11-1">[*]<span class="hidden">2.11</span></a> Digital sustainability audits: a de facto standard for the Internet carbon footprint [<cite><a class="bibref" data-link-type="biblio" href="#bib-dsascf" title="Digital sustainability audits: a de facto standard for the Internet carbon footprint">DSASCF</a></cite>]</li>
+							<li><a href="https://web.dev/articles/loading-ads-page-speed">Effectively loading ads without impacting page speed</a></li>
 							<li><a href="https://fairpatterns.com/">Fair Patterns</a></li>
 							<li><a href="https://whatsoftware.com/10-ad-blocking-extensions-tested-for-best-performance/view-all/">Fastest Ad Blocker: 13 Best We Tested for Performance in 2023</a></li>
 							<li><a href="#dfn-2-11" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-11-2">[*]<span class="hidden">2.11</span></a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-gr491" title="Handbook of Sustainable Design of Digital Services">GR491</a></cite>]<ul>
@@ -2251,7 +2300,6 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://societycentered.design/">Society Centered Design</a></li>
 							<li><a href="https://calibreapp.com/blog/calm-web">The Calm Web</a></li>
 							<li><a href="#dfn-2-11" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-11-3">[*]<span class="hidden">2.11</span></a> Tracking Protection in Firefox For Privacy and Performance [<cite><a class="bibref" data-link-type="biblio" href="#bib-firefox" title="Tracking Protection in Firefox For Privacy and Performance">FIREFOX</a></cite>]</li>
-							<li><a href="https://www.mightybytes.com/wp-content/uploads/2020/07/Web-Sustainability-Checklist-v5-FINAL.pdf">Web Sustainability Pocket Guide</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
 							<li><a href="https://blog.hubspot.com/marketing/why-people-block-ads-and-what-it-means-for-marketers-and-advertisers">Why People Block Ads (And What It Means for Marketers and Advertisers)</a></li>
 							<li><a href="https://plausible.io/blog/remove-google-analytics">Why you should stop using Google Analytics on your website</a></li>
 						</ul>
@@ -2313,6 +2361,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
+							<li><a href="https://read.engineerscodex.com/p/7-simple-habits-of-the-top-1-of-engineers">7 simple habits of the top 1% of engineers</a></li>
 							<li><a href="#dfn-2-12" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-12-1">[*]<span class="hidden">2.12</span></a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-gr491" title="Handbook of Sustainable Design of Digital Services">GR491</a></cite>]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-3008-uxui-a-sustainable-it-knowledge-and-skills-base">1-3008</a> - Reusability</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=7-3050-uxui-too-many-inadequate-documents-are-produced-during">7-3050</a> - Documentation</li>
@@ -2895,6 +2944,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://web.dev/articles/font-best-practices">Best practices for fonts</a></li>
+							<li><a href="https://www.apaddedcell.com/web-fonts/">Complete Guide to Pre-Installed Fonts in Linux, Mac, and Windows</a></li>
+							<li><a href="https://www.cssfontstack.com/"><abbr title="Cascading StyleSheets">CSS</abbr> Fonts</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html">Digital Eco-Design: Fonts</a></li>
 							<li><a href="https://meowni.ca/font-style-matcher/">Font style matcher</a></li>
 							<li><a href="#dfn-2-18" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-18-1">[*]<span class="hidden">2.18</span></a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-gr491" title="Handbook of Sustainable Design of Digital Services">GR491</a></cite>]<ul>
@@ -3409,8 +3460,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://www.uxmatters.com/mt/archives/2020/04/prototyping-user-experiences-reducing-the-risks-of-product-innovation.php">Prototyping User Experiences: Reducing the Risks of Product Innovation</a></li>
 							<li><a href="#dfn-2-24" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-24-1">[*]<span class="hidden">2.24</span></a> Testing for accessibility [<cite><a class="bibref" data-link-type="biblio" href="#bib-ukg-ta" title="Testing for accessibility">UKG-TA</a></cite>]</li>
 							<li><a href="https://blog.hubspot.com/marketing/usability-testing">The Beginner's Guide to Usability Testing</a></li>
-							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
-							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
+							<li><a href="https://infrequently.org/series/performance-inequality/">The Performance Inequality Gap</a></li>
 							<li><a href="https://info.usablenet.com/accessibility-testing">The Ultimate Guide to Accessibility Testing</a></li>
 							<li><a href="https://www.nngroup.com/articles/usability-testing-101/">Usability Testing 101</a></li>
 							<li><a href="https://www.udacity.com/course/web-accessibility--ud891">Web Accessibility</a></li>
@@ -3482,6 +3532,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://docs.aws.amazon.com/wellarchitected/"><abbr title="Amazon Web Services">AWS</abbr> <abbr title="Well-Architected Framework">WAF</abbr></a><ul>
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_appsec_automate_testing_throughout_lifecycle.html">SEC11-BP02</a> - Automate testing throughout the development and release lifecycle</li>
 							</ul></li>
+							<li><a href="https://www.catchpoint.com/blog/building-a-greener-digital-future-catchpoint-launches-carbon-control">Building a Greener Digital Future: Catchpoint Launches Carbon Control</a></li>
 							<li><a href="https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/">Front-End Performance Checklist 2021</a></li>
 							<li><a href="https://www.hacksplaining.com/lessons">Hacksplaning</a></li>
 							<li><a href="https://hpbn.co/">High Performance Browser Networking</a></li>
@@ -3489,7 +3540,6 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://inclusivedesignprinciples.org/">Inclusive Design Principles</a></li>
 							<li><a href="https://web.dev/learn/accessibility/">Learn Accessibility</a></li>
 							<li><a href="https://web.dev/learn/performance">Learn Performance</a></li>
-							<li><a href="https://blog.webpagetest.org/posts/carbon-control/">Measure &amp; Improve Your Site's Footprint with Carbon Control from Catchpoint WebPageTest</a></li>
 							<li><a href="https://requestmetrics.com/web-performance/measure-web-performance/">Measuring Web Performance in 2023: The Definitive Guide</a></li>
 							<li><a href="https://github.com/0xRadi/OWASP-Web-Checklist">OWASP Web Application Security Testing Checklist</a></li>
 							<li><a href="https://archive.fosdem.org/2023/schedule/event/energy_power_profiling_firefox/">Power profiling with the Firefox Profiler</a></li>
@@ -3510,9 +3560,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				</section>
 				<p><strong>Tags:</strong> <mark>Social Equity</mark>, <mark>Accessibility</mark>, <mark><abbr title="User-Interface">UI</abbr></mark>, <mark>Research</mark>, <mark>Usability</mark>, <mark>Compatibility</mark>, <mark>Performance</mark>, <mark>Security</mark>, <mark>Privacy</mark>, <mark>Reporting</mark>, <mark><abbr title="Key Performance Indicators">KPIs</abbr></mark></p>
 			</section>
-			<section id="analyze-the-performance-of-the-visitor-journey"><div class="header-wrapper"><h3 id="x2-26-analyze-the-performance-of-the-visitor-journey"><bdi class="secno">2.26 </bdi>Analyze The Performance Of The Visitor Journey</h3><a class="self-link" href="#analyze-the-performance-of-the-visitor-journey" aria-label="Permalink for Section 2.26"></a></div> 
+			<section id="incorporate-performance-testing-into-each-major-release-cycle"><div class="header-wrapper"><h3 id="x2-26-incorporate-performance-testing-into-each-major-release-cycle"><bdi class="secno">2.26 </bdi>Incorporate Performance Testing Into Each Major Release-Cycle</h3><a class="self-link" href="#incorporate-performance-testing-into-each-major-release-cycle" aria-label="Permalink for Section 2.26"></a></div> 
 				
-				<p>Try to ethically measure how efficient a visitor's experience is, by doing so you might be able to reduce any issues they may have encountered previously and reduce the burden of loading unnecessary pages.</p>
+				<p>Try to ethically measure how efficient a visitor's experience is by analyzing the performance of the website or application and how it has been constructed, by doing so you might be able to reduce any issues they may have encountered previously, decrease loading times, and reduce the burden of loading unnecessary pages.</p>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-performance-testing">Success Criterion - Performance Testing</h4><a class="self-link" href="#success-criterion-performance-testing" aria-label="Permalink for this Section"></a></div>
+					
+					<p>Regularly measure with each release-cycle (using tooling or through research and auditing) the performance of a website or application to identify and resolve bottlenecks or issues in the underlying code or infrastructure which could ultimately impact the sustainability of a website or application.</p>
+				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-measurement-and-compliance">Success Criterion - Measurement And Compliance</h4><a class="self-link" href="#success-criterion-measurement-and-compliance" aria-label="Permalink for this Section"></a></div>
 					
 					<p>Only collect the data required to provide a streamlined and effective user-journey, put policies in place to ensure strict adherence, and comply with relevant accessibility policies and privacy laws, such as the General Data Protection Regulation (<abbr title="General Data Protection Regulation">GDPR</abbr>).</p>
@@ -3558,8 +3612,23 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
+							<li><a href="https://dev.to/ben/addy-osmanis-18-point-web-performance-checklist-2e1">Addy Osmani's 18-Point Web Performance Checklist</a></li>
+							<li><a href="https://github.com/csabapalfi/awesome-pagespeed-metrics">Awesome Page Speed Metrics</a></li>
+							<li><a href="https://www.udacity.com/course/browser-rendering-optimization--ud860">Browser Rendering Optimization</a></li>
+							<li><a href="https://web.dev/explore/fast">Fast load times</a></li>
+							<li><a href="https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/">Front-End Performance Checklist 2021</a></li>
+							<li><a href="https://hpbn.co/">High Performance Browser Networking</a></li>
 							<li><a href="https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change">How <abbr title="User Experience">UX</abbr> design can help tackle climate change</a></li>
 							<li><a href="https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/">Is <abbr title="General Data Protection Regulation">GDPR</abbr> Good for the Environment?</a></li>
+							<li><a href="https://web.dev/learn/performance">Learn Performance</a></li>
+							<li><a href="https://requestmetrics.com/web-performance/measure-web-performance/">Measuring Web Performance in 2024: The Definitive Guide</a></li>
+							<li><a href="https://pagespeed.web.dev/">PageSpeed Insights</a></li>
+							<li><a href="https://jessbpeck.com/posts/completecls/">The Almost-Complete Guide to Cumulative Layout Shift</a></li>
+							<li><a href="https://infrequently.org/series/performance-inequality/">The Performance Inequality Gap</a></li>
+							<li><a href="https://www.webpagetest.org/">WebPageTest</a></li>
+							<li><a href="https://ahrefs.com/blog/core-web-vitals/">What Are Core Web Vitals (CWVs) &amp; How To Improve Them</a></li>
+							<li><a href="https://web.dev/learn/performance/why-speed-matters">Why does speed matter?</a></li>
+							<li><a href="https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/">Why your website should be under 14kB in size</a></li>
 						</ul>
 					</details>
 				</section>
@@ -3780,6 +3849,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://onextrapixel.com/how-to-become-an-eco-web-designer/">How to Become an Eco Web Designer</a></li>
 							<li><a href="https://blog.chromium.org/2020/05/introducing-web-vitals-essential-metrics.html">Introducing Web Vitals</a></li>
 							<li><a href="#dfn-2-29" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-29-6">[*]<span class="hidden">2.29</span></a> Investigating the correlation between performance scores and energy consumption of mobile web apps [<cite><a class="bibref" data-link-type="biblio" href="#bib-psec" title="Investigating the correlation between performance scores and energy consumption of mobile web apps">PSEC</a></cite>]</li>
+							<li><a href="https://web.dev/learn/testing">Learn Testing</a></li>
 							<li><a href="https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf">Microsoft Green Design Principles</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
 							<li><a href="https://www.greenit.fr/2019/03/19/mise-a-jour-logicielle-il-est-urgent-de-legiferer/">Mise à jour logicielle : il est urgent de légiférer</a> (<em>French</em>)</li>
 							<li><a href="#dfn-2-29" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-29-7">[*]<span class="hidden">2.29</span></a> Mobile Web Best Practices [<cite><a class="bibref" data-link-type="biblio" href="#bib-mobile-bp" title="Mobile Web Best Practices 1.0">MOBILE-BP</a></cite>]</li>
@@ -3793,7 +3863,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.1/">4.1</a> - Speed Testing</li>
 							</ul></li>
 							<li><a href="https://hackernoon.com/what-do-you-need-to-know-about-software-maintenance-types-as-an-engineer-421335fl">Software Maintenance Types: Corrective, Adaptive, Perfective, and Preventive</a></li>
-							<li><a href="https://formidable.com/work/starbucks-progressive-web-app/">Starbucks Ordering and Store Locator <abbr title="Progressive Web Application">PWA</abbr></a></li>
+							<li><a href="https://commerce.nearform.com/work/starbucks-progressive-web-app/">Starbucks Ordering and Store Locator <abbr title="Progressive Web Application">PWA</abbr></a></li>
 							<li><a href="#dfn-2-29" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-29-9">[*]<span class="hidden">2.29</span></a> The Carbon Impact of Web Standards [<cite><a class="bibref" data-link-type="biblio" href="#bib-ciws" title="The Carbon Impact of Web Standards">CIWS</a></cite>]</li>
 							<li><a href="https://www.smashingmagazine.com/2021/03/mobile-app-web-testing/">The State Of Mobile And Why Mobile Web Testing Matters</a></li>
 							<li><a href="#dfn-2-29" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-2-29-10">[*]<span class="hidden">2.29</span></a> The state of the art in measurement-based experiments on the mobile web [<cite><a class="bibref" data-link-type="biblio" href="#bib-mobi" title="The state of the art in measurement-based experiments on the mobile web">MOBI</a></cite>]</li>
@@ -3809,12 +3879,24 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 		</section>
 		<section id="web-development"><div class="header-wrapper"><h2 id="x3-web-development"><bdi class="secno">3. </bdi>Web Development</h2><a class="self-link" href="#web-development" aria-label="Permalink for Section 3."></a></div> 
 			
+			<p>Web developers are typically the implementors of ideas and concepts. With the ability to dictate code practices at the front-end and back-end, the ability to impact the visitor and sustainability of a product or service is unquestionable.</p>
+			<p>With the ability to implement code-based solutions, developers can:</p>
+			<ul>
+				<li>Optimize code for accessibility, performance, security, and other <abbr title="Environment, Social, and Governance">ESG</abbr> targets.</li>
+				<li>Reduce the burden of solutions on hardware (and their requirements).</li>
+				<li>Provide technical features that increase digital sustainability.</li>
+			</ul>
+			<p>By adhering the below guidelines, individuals can make a significant difference in the reduction of front-end and back-end sustainability impacts.</p>
 			<section id="identify-relevant-technical-indicators"><div class="header-wrapper"><h3 id="x3-1-identify-relevant-technical-indicators"><bdi class="secno">3.1 </bdi>Identify Relevant Technical Indicators</h3><a class="self-link" href="#identify-relevant-technical-indicators" aria-label="Permalink for Section 3.1"></a></div> 
 				
 				<p>Performance is a key part of the sustainability mindset as reductions in loading times can have a considerable impact on energy loads within <abbr title="Central Processing Unit">CPU</abbr>, <abbr title="Graphics Processing Unit">GPU</abbr>, <abbr title="Random Access Memory">RAM</abbr> and hard drive caching (among other variables), as such ensuring a performant product is essential.</p>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-performance-goals">Success Criterion - Performance Goals</h4><a class="self-link" href="#success-criterion-performance-goals" aria-label="Permalink for this Section"></a></div>
 					
-					<p>Set performance goals which impact the environment and performance of the service, for example <abbr title="Hypertext Transfer Protocol">HTTP</abbr> requests, or the amount of <abbr title="Document Object Model">DOM</abbr> elements which need to be rendered.</p>
+					<p>Set goals which impact the environment and performance of the service, for example <abbr title="Hypertext Transfer Protocol">HTTP</abbr> requests, or the amount of <abbr title="Document Object Model">DOM</abbr> elements which need to be rendered.</p>
+				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-accountancy-types">Success Criterion - Accountancy Types</h4><a class="self-link" href="#success-criterion-accountancy-types" aria-label="Permalink for this Section"></a></div>
+					
+					<p>Because the payload being delivered may not always be equal in terms of energy intensity, operators of websites and applications must ensure that consideration is given for the energy intensity (or unit being evaluated) of each component. For example, non-rendering text is less computational than <abbr title="Cascading StyleSheets">CSS</abbr>, which in turn is less process-heavy than JavaScript, which is less resource-heavy than WebGL.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-28">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-28" aria-label="Permalink for this Section"></a></div>
 					
@@ -4127,10 +4209,12 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
+							<li><a href="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/">A Designer's Guide to Documenting Accessibility &amp; User Interactions</a></li>
 							<li><a href="https://www.a11yproject.com/checklist/">A11y Project Checklist</a></li>
 							<li><a href="https://www.accessguide.io/">Access Guide</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">Accessibility</a></li>
 							<li><a href="https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline/">Accessibility and web performance are not features, they're the baseline</a></li>
+							<li>Accessibility Maturity Model [<cite><a class="bibref" data-link-type="biblio" href="#bib-maturity-model" title="Accessibility Maturity Model">maturity-model</a></cite>]</li>
 							<li><a href="https://a11ysupport.io/">Accessibility Support</a></li>
 							<li><a href="#dfn-3-5" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-5-1">[*]<span class="hidden">3.5</span></a> Accessible Rich Internet Applications [<cite><a class="bibref" data-link-type="biblio" href="#bib-wai-aria-1.2" title="Accessible Rich Internet Applications (WAI-ARIA) 1.2">WAI-ARIA-1.2</a></cite>]</li>
 							<li><a href="#dfn-3-5" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-5-2">[*]<span class="hidden">3.5</span></a> Disability and Health [<cite><a class="bibref" data-link-type="biblio" href="#bib-who-dh" title="Disability and Health">WHO-DH</a></cite>]</li>
@@ -4138,6 +4222,7 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-3018-uxui-diminishing-inequalities-of-access-to-digital-service">3-3018</a> - Electronicism</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=3-3019-uxui-dealing-with-cases-of-digital-exclusion-is">3-3019</a> - The Digital Gap</li>
 							</ul></li>
+							<li><a href="https://dodonut.com/blog/bridging-web-accessibility-and-sustainability/">Bridging Web Accessibility and Sustainability for a Better Digital Future</a></li>
 							<li><a href="https://www.mightybytes.com/blog/web-content-accessibility-guidelines/">How Web Content Accessibility Guidelines Improve Digital Products</a></li>
 							<li><a href="https://www.ibm.com/design/practices/design-for-sustainability/">IBM Design For Sustainability</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
 							<li><a href="https://www.opendemocracy.net/en/internet-access-sustainability-and-citizen-participation-electricity-as-prerequisite/">Internet access, sustainability, and citizen participation</a></li>
@@ -4148,8 +4233,7 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 							<li><a href="#dfn-3-5" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-5-4">[*]<span class="hidden">3.5</span></a> Making Content Usable for People with Cognitive and Learning Disabilities [<cite><a class="bibref" data-link-type="biblio" href="#bib-coga-usable" title="Making Content Usable for People with Cognitive and Learning Disabilities">COGA-USABLE</a></cite>]</li>
 							<li><a href="https://hookedoncode.com/2020/07/performance-is-accessibility/">Performance Is Accessibility</a></li>
 							<li><a href="https://uxdesign.cc/the-little-book-of-accessibility-a9b59d82b412">The Little Book of Accessibility</a></li>
-							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
-							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
+							<li><a href="https://infrequently.org/series/performance-inequality/">The Performance Inequality Gap</a></li>
 							<li><a href="https://thisiswcag.com/">This Is <abbr title="Web Content Accessibility Guidelines">WCAG</abbr></a></li>
 							<li><a href="#dfn-3-5" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-5-5">[*]<span class="hidden">3.5</span></a> <abbr title="World Wide Web Consortium">W3C</abbr> Web Content Accessibility Guidelines [<cite><a class="bibref" data-link-type="biblio" href="#bib-wcag22" title="Web Content Accessibility Guidelines (WCAG) 2.2">WCAG22</a></cite>]</li>
 							<li><a href="https://www.udacity.com/course/web-accessibility--ud891">Web Accessibility</a></li>
@@ -4264,6 +4348,10 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 					
 					<p>Create your own clickable icons and widgets, rather than relying on third-party services to host or allow embedding within your product or service.</p>
 				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-third-party-preferences">Success Criterion - Third-party Preferences</h4><a class="self-link" href="#success-criterion-third-party-preferences" aria-label="Permalink for this Section"></a></div>
+					
+					<p>Third-party products, services, libraries, and frameworks are often a source of sustainability issues that cannot be controlled or managed by the first-party provider of a service. While many do provide benefits to a website, the need to justify their inclusion should be made not only by those creating the product or service but also be able to be controlled by the consumer. As showcased with cookies, websites or applications should provide a similar mechanism of disabling or refusing non-first-party features (with explanations of their purpose) - unless such features can be proven as critical for functionality.</p>
+				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-34">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-34" aria-label="Permalink for this Section"></a></div>
 					
 					<dl class="rating">
@@ -4308,6 +4396,7 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 							<li><a href="https://sustywp.com/">Building for sustainability with WordPress</a></li>
 							<li><a href="https://www.osano.com/articles/privacy-cookies-pixels-and-tags">Cookies, Pixels, and Tags</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/5-5-widget.html">Digital Eco-Design: Plugins and widgets</a></li>
+							<li><a href="https://web.dev/articles/loading-ads-page-speed">Effectively loading ads without impacting page speed</a></li>
 							<li><a href="#dfn-3-7" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-7-1">[*]<span class="hidden">3.7</span></a> Electricity Intensity of Internet Data Transmission [<cite><a class="bibref" data-link-type="biblio" href="#bib-eidt" title="Electricity Intensity of Internet Data Transmission">EIDT</a></cite>]</li>
 							<li><a href="#dfn-3-7" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-7-2">[*]<span class="hidden">3.7</span></a> Environmental impact assessment of online advertising [<cite><a class="bibref" data-link-type="biblio" href="#bib-advert" title="Environmental impact assessment of online advertising">ADVERT</a></cite>]</li>
 							<li><a href="https://web.dev/explore/fast#optimize-your-third-party-resources">Fast Load Times: Optimize your third-party resources</a></li>
@@ -4429,8 +4518,8 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 							<li><a href="https://nolanlawson.com/2022/01/05/memory-leaks-the-forgotten-side-of-web-performance/">Memory leaks: the forgotten side of web performance</a></li>
 							<li><a href="https://meiert.com/en/blog/optional-html/">Optional <abbr title="Hypertext Markup Language">HTML</abbr>: Everything You Need to Know</a></li>
 							<li><a href="https://www.smashingmagazine.com/2021/09/reducing-carbon-emissions-on-web/#using-standard-elements">Reducing Carbon Emissions On The Web</a></li>
+							<li><a href="https://web.dev/learn/html/semantic-html">Semantic <abbr title="Hypertext Markup Language">HTML</abbr></a></li>
 							<li><a href="https://uxdesign.cc/semantic-html-the-foundation-of-web-accessibility-e5bbecad7c17">Semantic <abbr title="Hypertext Markup Language">HTML</abbr>: the foundation of web accessibility</a></li>
-							<li><a href="https://sustainablewww.org/wiki/design/semantic-markup">Semantic Markup</a></li>
 							<li><a href="https://www.speedcurve.com/blog/ten-years-page-bloat/">Ten years of page bloat: What have we learned?</a></li>
 							<li><a href="#dfn-3-8" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-8-2">[*]<span class="hidden">3.8</span></a> The Carbon Impact of Web Standards [<cite><a class="bibref" data-link-type="biblio" href="#bib-ciws" title="The Carbon Impact of Web Standards">CIWS</a></cite>]</li>
 							<li><a href="https://msandrini.medium.com/the-history-of-deprecated-and-changed-html-tags-47cdfd2c427e">The history of deprecated and changed <abbr title="Hypertext Markup Language">HTML</abbr> tags</a></li>
@@ -4597,7 +4686,6 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 							<li><a href="#dfn-3-10" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-10-4">[*]<span class="hidden">3.10</span></a> Structured Data [<cite><a class="bibref" data-link-type="biblio" href="#bib-schema" title="Structured Data">SCHEMA</a></cite>]</li>
 							<li><a href="https://www.mightybytes.com/blog/things-you-learn-tree-testing-navigation/">The Benefits of Tree Testing Your Navigation</a></li>
 							<li><a href="#dfn-3-10" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-10-5">[*]<span class="hidden">3.10</span></a> Web Almanac: Sustainability [<cite><a class="bibref" data-link-type="biblio" href="#bib-almanac" title="Web Almanac: Sustainability">ALMANAC</a></cite>]</li>
-							<li><a href="https://www.mightybytes.com/wp-content/uploads/2020/07/Web-Sustainability-Checklist-v5-FINAL.pdf">Web Sustainability Pocket Guide</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
 							<li><a href="https://www.mightybytes.com/blog/customer-journey-map-template-download/">What is a Customer Journey Map?</a></li>
 						</ul>
 					</details>
@@ -4773,7 +4861,7 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 				<p>Sustainability benefits can be generated in numerous ways, by making sure that your website adheres to the requests made by a browser for specific conditions to be taken into account (such as <abbr title="Cascading StyleSheets">CSS</abbr> media and preference queries), you can unlock benefits for the visitor, and as a by-product reduce your emissions. It's worth noting that the introduction of user preferences and <abbr title="Application Programming Interfaces">APIs</abbr> has increased the risk of visitor fingerprinting and privacy issues.</p>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-media-and-preference-queries">Success Criterion - Media and Preference Queries</h4><a class="self-link" href="#success-criterion-media-and-preference-queries" aria-label="Permalink for this Section"></a></div>
 					
-					<p>Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, and prefers-reduced-motion <abbr title="Cascading StyleSheets">CSS</abbr> preference queries if they will benefit your website or application. Also consider the print &amp; scripting <abbr title="Cascading StyleSheets">CSS</abbr> media queries if they will improve the sustainability of your website.</p>
+					<p>Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, prefers-reduced-transparency, and prefers-reduced-motion <abbr title="Cascading StyleSheets">CSS</abbr> preference queries if they will benefit your website or application. Also consider the print &amp; scripting <abbr title="Cascading StyleSheets">CSS</abbr> media queries if they will improve the sustainability of your website.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-40">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-40" aria-label="Permalink for this Section"></a></div>
 					
@@ -4947,8 +5035,7 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 							</ul></li>
 							<li><a href="#dfn-3-14" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-14-3">[*]<span class="hidden">3.14</span></a> <abbr title="Really Simple Syndication">RSS</abbr> Specification [<cite><a class="bibref" data-link-type="biblio" href="#bib-rss" title="RSS 2.0 Specification">RSS</a></cite>]</li>
 							<li><a href="#dfn-3-14" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-14-4">[*]<span class="hidden">3.14</span></a> Smartphone Ownership Is Growing Rapidly Around the World, but Not Always Equally [<cite><a class="bibref" data-link-type="biblio" href="#bib-pewr" title="Smartphone Ownership Is Growing Rapidly Around the World, but Not Always Equally">PEWR</a></cite>]</li>
-							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
-							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
+							<li><a href="https://infrequently.org/series/performance-inequality/">The Performance Inequality Gap</a></li>
 							<li><a href="https://stanfordmag.org/contents/vampire-energy-essential-answer">Vampire Energy: Essential Answer</a></li>
 							<li><a href="https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00">What is Mobile First Design?</a></li>
 						</ul>
@@ -5028,9 +5115,9 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 							<li><a href="https://www.kryogenix.org/code/browser/everyonehasjs.html">Everyone has JavaScript, right?</a></li>
 							<li><a href="https://webkit.org/blog/8970/how-web-content-can-affect-power-usage/">How Web Content Can Affect Power Usage</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country">Internet censorship and surveillance by country</a></li>
-							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
-							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
+							<li><a href="https://infrequently.org/series/performance-inequality/">The Performance Inequality Gap</a></li>
 							<li><a href="#dfn-3-15" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-15-2">[*]<span class="hidden">3.15</span></a> <abbr title="World Wide Web Consortium">W3C</abbr> Web Performance Working Group [<cite><a class="bibref" data-link-type="biblio" href="#bib-w3c-wpwg" title="Web Performance Working Group">W3C-WPWG</a></cite>]</li>
+							<li><a href="#dfn-3-15" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-15-3">[*]<span class="hidden">3.15</span></a> WebAssembly versus JavaScript: Energy and Runtime Performance [<cite><a class="bibref" data-link-type="biblio" href="#bib-wasm-js" title="WebAssembly versus JavaScript: Energy and Runtime Performance">WASM-JS</a></cite>]</li>
 						</ul>
 					</details>
 				</section>
@@ -5107,7 +5194,7 @@ eventHandler = <span class="hljs-function">(<span class="hljs-params">e</span>) 
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-dependency-necessity">Success Criterion - Dependency Necessity</h4><a class="self-link" href="#success-criterion-dependency-necessity" aria-label="Permalink for this Section"></a></div>
 					
-					<p>Reduce the amount of JavaScript that has to be downloaded and parsed by the browser by only using libraries where necessary. Consider whether you can use a native JavaScript <abbr title="Application Programming Interface">API</abbr> instead. Check the package size using a tool like Bundlephobia, and whether individual modules can be installed and imported rather than the whole library.</p>
+					<p>Reduce the amount of JavaScript that has to be downloaded and parsed by the browser by only using libraries where necessary. Consider whether you can use a native JavaScript <abbr title="Application Programming Interface">API</abbr> instead. Check the package size, and whether individual modules can be installed and imported rather than the whole library.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-dependency-updates">Success Criterion - Dependency Updates</h4><a class="self-link" href="#success-criterion-dependency-updates" aria-label="Permalink for this Section"></a></div>
 					
@@ -5477,6 +5564,7 @@ Last update: YYYY/MM/DD
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.6/">4.6</a> - Native Components</li>
 								<li><a href="https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.7/">6.7</a> - Library Limits</li>
 							</ul></li>
+							<li>Solid Protocol [<cite><a class="bibref" data-link-type="biblio" href="#bib-solid" title="Solid Protocol">SOLID</a></cite>]</li>
 							<li><a href="https://css-tricks.com/striking-a-balance-between-native-and-custom-select-elements/">Striking a Balance Between Native and Custom Select Elements</a></li>
 							<li><a href="https://designsustainably.eu/uitools/"><abbr title="User-Interface">UI</abbr> Tools</a></li>
 							<li><a href="#dfn-3-21" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-21-4">[*]<span class="hidden">3.21</span></a> Web Almanac: Sustainability [<cite><a class="bibref" data-link-type="biblio" href="#bib-almanac" title="Web Almanac: Sustainability">ALMANAC</a></cite>]</li>
@@ -5489,15 +5577,19 @@ Last update: YYYY/MM/DD
 			</section>
 			<section id="use-the-latest-stable-language-version"><div class="header-wrapper"><h3 id="x3-22-use-the-latest-stable-language-version"><bdi class="secno">3.22 </bdi>Use the Latest Stable Language Version</h3><a class="self-link" href="#use-the-latest-stable-language-version" aria-label="Permalink for Section 3.22"></a></div> 
 				
-				<p>Languages evolve regularly, and it's important for security and performance reasons to keep on-top of the technology stack you are using.</p>
+				<p>Languages evolve regularly, and it's important for security and performance reasons to keep on top of the technology stack you are using. It's also important to consider whether the language you are using is appropriate or optimized for the task you wish to use it for.</p>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-versioning">Success Criterion - Versioning</h4><a class="self-link" href="#success-criterion-versioning" aria-label="Permalink for this Section"></a></div>
 					
 					<p>Use the latest build of your chosen syntax language and its coupled framework.</p>
 				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-language-choice">Success Criterion - Language Choice</h4><a class="self-link" href="#success-criterion-language-choice" aria-label="Permalink for this Section"></a></div>
+					
+					<p>Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact <abbr title="Environment, Social, and Governance">ESG</abbr> factors such as the well-being of those involved or become too cost prohibitive.</p>
+				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-49">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-49" aria-label="Permalink for this Section"></a></div>
 					
 					<dl class="rating">
-						<dt><a href="#dfn-impact" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-impact-51">Impact</a></dt><dd>Medium</dd>
+						<dt><a href="#dfn-impact" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-impact-51">Impact</a><dfn data-lt="[*] 3.22|[*]3.22" id="dfn-3-22" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn"> [*]<span class="hidden">3.22</span></dfn></dt><dd>Medium</dd>
 						<dt><a href="#dfn-effort" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-effort-51">Effort</a></dt><dd>Medium</dd>
 					</dl>
 				</section>
@@ -5506,7 +5598,7 @@ Last update: YYYY/MM/DD
 					<ul class="benefits">
 						<li><strong>Environmental:</strong> Using the latest language version may improve efficiency and reduce data center energy consumption. Verify benefits are worthwhile before major build upgrades.</li>
 						<li><strong>Security:</strong> Often, older versions may have security issues which could expose your website or app (and thereby your visitors) to harm. Maintaining an upgrade schedule is good for security.</li>
-						<li><strong>Performance:</strong> Language version updates are usually coupled with performance improvements.</li>
+						<li><strong>Performance:</strong> Language version updates are usually coupled with performance improvements. Regarding language choice, an algorithm implemented in a compiled language such as C or Rust, for example, can have greatly reduced execution time and energy usage compared to the same algorithm written in an interpreted language like Python or JavaScript.</li>
 						<li><strong>Economic:</strong> Using the latest and more performant language version could help hosting companies to reduce their costs. That could be beneficial for the company and the visitor.</li>
 					</ul>
 				</section>
@@ -5535,7 +5627,12 @@ Last update: YYYY/MM/DD
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://www.cloudways.com/blog/php-performance/">Best PHP Performance Tips From Community &amp; Influencers</a></li>
+							<li><a href="#dfn-3-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-3-22-1">[*]<span class="hidden">3.22</span></a> Energy Efficiency across Programming Languages [<cite><a class="bibref" data-link-type="biblio" href="#bib-greencode" title="Energy Efficiency across Programming Languages">GREENCODE</a></cite>]</li>
 							<li><a href="https://www.altamira.ai/blog/php-5-vs-php-7-performance-comparison/">PHP 5.6 vs PHP 7 Performance Comparison</a></li>
+							<li><a href="https://attractivechaos.github.io/plb/">Programming Languages Benchmarks</a></li>
+							<li><a href="https://niklas-heer.github.io/speed-comparison/">Speed comparison</a></li>
+							<li><a href="https://web-frameworks-benchmark.netlify.app/result">Web Frameworks Benchmark</a></li>
+							<li><a href="https://www.techempower.com/benchmarks/#hw=ph&amp;test=composite&amp;section=data-r22">Web Frameworks Benchmarks</a></li>
 						</ul>
 					</details>
 				</section>
@@ -5618,7 +5715,7 @@ var_dump($ar2);
 				<p>Making multiple requests whether <abbr title="Hypertext Transfer Protocol">HTTP</abbr> or within a database has a carbon cost as infrastructure has to send that information back and forth. As such, managing how you store and use data locally for a visitor will help reduce wasted cycles.</p>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-database-queries">Success Criterion - Database Queries</h4><a class="self-link" href="#success-criterion-database-queries" aria-label="Permalink for this Section"></a></div>
 					
-					<p>If you need information that is stored in a database, and you require it more than once in your code, access the database only once, and store the data in a variable for subsequent processing.</p>
+					<p>If you need information that is stored in a database, and you require it (or its likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing. Also, avoid reliance on framework helpers that might defer filtering to later on in the process.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-51">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-51" aria-label="Permalink for this Section"></a></div>
 					
@@ -5630,7 +5727,8 @@ var_dump($ar2);
 				<section class="notoc"><div class="header-wrapper"><h4 id="benefits-51">Benefits</h4><a class="self-link" href="#benefits-51" aria-label="Permalink for this Section"></a></div>
 					
 					<ul class="benefits">
-						<li><strong>Performance:</strong> By holding the data locally rather than remotely, you can avoid waiting for an additional <abbr title="Hypertext Transfer Protocol">HTTP</abbr> request to occur to process the string.</li>
+						<li><strong>Environmental:</strong> Filtering out unneeded data at a deeper level of the application may reduce energy usage, as less processing is required for (de)serialisation.</li>
+						<li><strong>Performance:</strong> By holding the data locally rather than remotely, you can avoid waiting for an additional <abbr title="Hypertext Transfer Protocol">HTTP</abbr> request to occur to process the string. Relational databases and other specialist data stores are generally heavily optimised for data filtering and retrieval. Performing transformations at this level of the application may lead to reduced <abbr title="Central Processing Unit">CPU</abbr> time and faster responses.</li>
 						<li><strong>Economic:</strong> Rather than pushing multiple additional demands to the server (which could lead to stress failures and lost business), an optimized codebase can reduce bandwidth overheads.</li>
 					</ul>
 				</section>
@@ -5673,6 +5771,14 @@ var_dump($ar2);
 		</section>
 		<section id="hosting-infrastructure-and-systems"><div class="header-wrapper"><h2 id="x4-hosting-infrastructure-and-systems"><bdi class="secno">4. </bdi>Hosting, Infrastructure and Systems</h2><a class="self-link" href="#hosting-infrastructure-and-systems" aria-label="Permalink for Section 4."></a></div> 
 			
+			<p>DevOps (Developer Operations) and hosting providers work to ensure that the infrastructure for a product or service meets its demands. Having the ability to decide where content will be housed along with managing its interaction with browsers provides numerous sustainability-related decisions of benefit to all.</p>
+			<p>Being able to manage infrastructure allows individuals to:</p>
+			<ul>
+				<li>Find sustainable providers for hosting, <abbr title="Content Delivery Networks">CDNs</abbr>, and other third-party solutions.</li>
+				<li>Settings can be managed from the back-end for caching, compression, and error handling.</li>
+				<li>Tasks can be handled optimally by having good processes in place.</li>
+			</ul>
+			<p>By adhering the below guidelines, individuals can make a significant difference in the reduction of back-end sustainability impacts.</p>
 			<section id="choose-a-sustainable-hosting-provider"><div class="header-wrapper"><h3 id="x4-1-choose-a-sustainable-hosting-provider"><bdi class="secno">4.1 </bdi>Choose a Sustainable Hosting Provider</h3><a class="self-link" href="#choose-a-sustainable-hosting-provider" aria-label="Permalink for Section 4.1"></a></div> 
 				
 				<p>In addition to reducing the environmental impacts of a website, choose a hosting service that mitigates the remaining impacts. To make sure of this, there are many criteria to look for.</p>
@@ -5744,6 +5850,7 @@ var_dump($ar2);
 							<li><a href="https://www.netregs.org.uk/environmental-topics/carbon-reduction-and-efficiency/buying-eco-friendly-goods-and-services/benefits-of-buying-sustainable-goods-and-services/">Benefits of buying sustainable goods and services</a></li>
 							<li><a href="https://www.capex.net.co/wp-content/uploads/2020/02/Capex.pdf">Beyond <abbr title="Power Usage Effectiveness">PUE</abbr>: Taclking IT's wasted terawatts</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
 							<li><a href="https://www.vox.com/2020/2/27/20994118/carbon-offset-climate-change-net-zero-neutral-emissions">Can you really negate your carbon emissions?</a></li>
+							<li><a href="https://hackernoon.com/carbon-aware-computing-next-green-breakthrough-or-new-greenwashing">Carbon Aware Computing: Next Green Breakthrough or New Greenwashing?</a></li>
 							<li><a href="https://learn.greensoftware.foundation/carbon-awareness/">Carbon Awareness</a></li>
 							<li><a href="https://impactful.ninja/carbon-credits-vs-renewable-energy-credits-differences/">Carbon Credits vs Renewable Energy Credits</a></li>
 							<li><a href="https://www.carbontrust.com/what-we-do/assurance-and-labelling/carbon-neutral-verification">Carbon Neutral Verification</a></li>
@@ -5756,6 +5863,7 @@ var_dump($ar2);
 							<li><a href="https://digitalization-for-sustainability.com/digital-reset/">Digital Reset</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
 							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-6">[*]<span class="hidden">4.1</span></a> Electronics and obsolescence in a circular economy [<cite><a class="bibref" data-link-type="biblio" href="#bib-etc-eo" title="Electronics and obsolescence in a circular economy">ETC-EO</a></cite>]</li>
 							<li><a href="https://boavizta.github.io/Energizta/">Energizta</a></li>
+							<li>Energy Consumption in Data Centres and Broadband Communication Networks in the EU [<cite><a class="bibref" data-link-type="biblio" href="#bib-ecdcbc" title="Energy Consumption in Data Centres and Broadband Communication Networks in the EU">ECDCBC</a></cite>]</li>
 							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-7">[*]<span class="hidden">4.1</span></a> Equations relating total annual energy consumption and chips energy efficiency [<cite><a class="bibref" data-link-type="biblio" href="#bib-cee" title="Equations relating total annual energy consumption and chips energy efficiency">CEE</a></cite>]</li>
 							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-8">[*]<span class="hidden">4.1</span></a> Europe's consumption in a circular economy: the benefits of longer-lasting electronics [<cite><a class="bibref" data-link-type="biblio" href="#bib-eea" title="Europe's consumption in a circular economy: the benefits of longer-lasting electronics">EEA</a></cite>]</li>
 							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-9">[*]<span class="hidden">4.1</span></a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-gr491" title="Handbook of Sustainable Design of Digital Services">GR491</a></cite>]<ul>
@@ -5783,10 +5891,13 @@ var_dump($ar2);
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-8053-hosting-the-standards-for-data-centers-highlight-efficiency">5-8053</a> - Efficiency Measurements</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=6-8063-hosting-the-characteristics-of-geographic-areas-may-require">6-8063</a> - Datacenter Certification</li>
 							</ul></li>
+							<li><a href="https://app.greenweb.org/directory/">Green Web Foundation Directory</a></li>
+							<li><a href="https://dodonut.com/blog/how-to-choose-the-best-green-web-hosting-provider/">How to Choose the Best Green Web Hosting Provider</a></li>
 							<li><a href="https://louwrentius.com/i-made-my-blog-solar-powered-then-things-escalated.html">I Made My Blog Solar-Powered, Then Things Escalated</a></li>
 							<li><a href="https://genevasolutions.news/climate-environment/is-carbon-compensation-a-real-climate-solution">Is carbon compensation a real climate solution?</a></li>
-							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-10">[*]<span class="hidden">4.1</span></a> New perspectives on internet electricity use in 2030 [<cite><a class="bibref" data-link-type="biblio" href="#bib-ieu" title="New perspectives on internet electricity use in 2030">IEU</a></cite>]</li>
-							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-11">[*]<span class="hidden">4.1</span></a> Promoting product longevity [<cite><a class="bibref" data-link-type="biblio" href="#bib-lifespan" title="Promoting product longevity">LIFESPAN</a></cite>]</li>
+							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-10">[*]<span class="hidden">4.1</span></a> Measuring the Emissions &amp; Energy Footprint of the <abbr title="Information and Communication Technology">ICT</abbr> Sector [<cite><a class="bibref" data-link-type="biblio" href="#bib-eef-ict" title="Measuring the Emissions &amp; Energy Footprint of the ICT Sector">EEF-ICT</a></cite>]</li>
+							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-11">[*]<span class="hidden">4.1</span></a> New perspectives on internet electricity use in 2030 [<cite><a class="bibref" data-link-type="biblio" href="#bib-ieu" title="New perspectives on internet electricity use in 2030">IEU</a></cite>]</li>
+							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-12">[*]<span class="hidden">4.1</span></a> Promoting product longevity [<cite><a class="bibref" data-link-type="biblio" href="#bib-lifespan" title="Promoting product longevity">LIFESPAN</a></cite>]</li>
 							<li><a href="https://medium.com/disruptive-design/quick-guide-to-sustainable-design-strategies-641765a86fb8">Quick Guide to Sustainable Design Strategies</a></li>
 							<li><a href="https://www.offsetguide.org/understanding-carbon-offsets/other-instruments-for-claiming-emission-reductions/"><abbr title="Renewable Energy Credits">RECs</abbr>, <abbr title="Power Purchase Agreements">PPAs</abbr>, Allowances and <abbr title="Energy Efficiency Certificates">EECs</abbr></a></li>
 							<li><a href="https://www.scientificamerican.com/article/reduce-reuse-recycle-why-all-3-rs-are-critical-to-a-circular-economy/">Reduce, Reuse, Recycle</a></li>
@@ -5795,8 +5906,8 @@ var_dump($ar2);
 							<li><a href="https://sustainabilityguide.eu/ecodesign/use/">Sustainability Guide: Use</a></li>
 							<li><a href="https://www.circulardesignguide.com/">The circular design guide</a></li>
 							<li><a href="https://www.ellenmacarthurfoundation.org/the-circular-economy-in-detail-deep-dive">The circular economy in detail: Deep dive</a></li>
-							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-12">[*]<span class="hidden">4.1</span></a> The environmental footprint of the digital world [<cite><a class="bibref" data-link-type="biblio" href="#bib-footprint" title="The environmental footprint of the digital world">FOOTPRINT</a></cite>]</li>
-							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-13">[*]<span class="hidden">4.1</span></a> The real climate and transformative impact of <abbr title="Information and Communication Technology">ICT</abbr> [<cite><a class="bibref" data-link-type="biblio" href="#bib-ctict" title="The real climate and transformative impact of ICT">CTICT</a></cite>]</li>
+							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-13">[*]<span class="hidden">4.1</span></a> The environmental footprint of the digital world [<cite><a class="bibref" data-link-type="biblio" href="#bib-footprint" title="The environmental footprint of the digital world">FOOTPRINT</a></cite>]</li>
+							<li><a href="#dfn-4-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-1-14">[*]<span class="hidden">4.1</span></a> The real climate and transformative impact of <abbr title="Information and Communication Technology">ICT</abbr> [<cite><a class="bibref" data-link-type="biblio" href="#bib-ctict" title="The real climate and transformative impact of ICT">CTICT</a></cite>]</li>
 							<li><a href="https://www.mightybytes.com/blog/web-hosting-renewable-energy/">Web Hosting: Renewable Energy &amp; <abbr title="Renewable Energy Credits">RECs</abbr></a></li>
 							<li><a href="https://www.inspirecleanenergy.com/blog/clean-energy-101/what-are-renewable-energy-credits">What Are Renewable Energy Credits?</a></li>
 							<li><a href="https://www.ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview">What is a circular economy?</a></li>
@@ -5813,7 +5924,7 @@ var_dump($ar2);
 				<p>Browser caching reduces the requirement for files to need to be constantly reloaded from the server, and in certain situations, it can even allow for files to be viewed offline (or in the case of a reverse-proxy, send immediate recurring requests without additional calculation or computation from the server). As such, this will have sustainability and performance benefits (for instance by greatly reducing Time-To-First-Byte).</p>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-server-side-caching">Success Criterion - Server-side Caching</h4><a class="self-link" href="#success-criterion-server-side-caching" aria-label="Permalink for this Section"></a></div>
 					
-					<p>If using a <abbr title="Content Management System">CMS</abbr>, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control <abbr title="Hypertext Transfer Protocol">HTTP</abbr> header.</p>
+					<p>If using a <abbr title="Content Management System">CMS</abbr>, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control <abbr title="Hypertext Transfer Protocol">HTTP</abbr> header. If using a language or framework that generates pages on request, cache responses for static pages so that they can be reused for future visitors.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-offline-access">Success Criterion - Offline Access</h4><a class="self-link" href="#success-criterion-offline-access" aria-label="Permalink for this Section"></a></div>
 					
@@ -6344,6 +6455,10 @@ var_dump($ar2);
 					
 					<p>Ensure the communication protocols are relevant to the visitor's needs and data transferred. Avoid using insecure protocols (<abbr title="Hypertext Transfer Protocol">HTTP</abbr>, <abbr title="File Transfer Protocol">FTP</abbr>), and prioritize more efficient and privacy-aware data routes for visitors (<abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr>, <abbr title="Secure Shell">SSH</abbr>).</p>
 				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-event-driven-architecture">Success Criterion - Event-Driven Architecture</h4><a class="self-link" href="#success-criterion-event-driven-architecture" aria-label="Permalink for this Section"></a></div>
+					
+					<p>When creating products or services that utilize state changes (without triggering a complete refresh), consider if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the <abbr title="Environment, Social, and Governance">ESG</abbr> variables involved) than traditional <abbr title="Application Programming Interfaces">APIs</abbr> in handling the server-side workload of your solution.</p>
+				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-60">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-60" aria-label="Permalink for this Section"></a></div>
 					
 					<dl class="rating">
@@ -6387,6 +6502,7 @@ var_dump($ar2);
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_software_a2.html">SUS03-BP01</a> - Optimize software and architecture for asynchronous and scheduled jobs</li>
 							</ul></li>
 							<li><a href="#dfn-4-9" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-9-1">[*]<span class="hidden">4.9</span></a> Best practises for 5G App Developers [<cite><a class="bibref" data-link-type="biblio" href="#bib-gsma" title="Best practises for 5G App Developers">GSMA</a></cite>] (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
+							<li><a href="https://en.wikipedia.org/wiki/Event-driven_architecture">Event-driven architecture</a></li>
 							<li><a href="#dfn-4-9" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-9-2">[*]<span class="hidden">4.9</span></a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-gr491" title="Handbook of Sustainable Design of Digital Services">GR491</a></cite>]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=5-6024-architecture-the-distribution-of-processing-on-different-and">5-6024</a> - Transfer Compression</li>
 							</ul></li>
@@ -6394,6 +6510,9 @@ var_dump($ar2);
 								<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/principles">Performance efficiency principles</a></li>
 							</ul></li>
 							<li><a href="#dfn-4-9" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-9-3">[*]<span class="hidden">4.9</span></a> Serve websites over <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr> [<cite><a class="bibref" data-link-type="biblio" href="#bib-ncsc-hs" title="Serve websites over HTTPS">NCSC-HS</a></cite>]</li>
+							<li><a href="https://solace.com/what-is-event-driven-architecture/">The Complete Guide to Event-Driven Architecture</a></li>
+							<li><a href="https://aws.amazon.com/event-driven-architecture/">What is an Event-Driven Architecture?</a></li>
+							<li><a href="https://blog.hubspot.com/website/event-driven-architecture">What Is Event-Driven Architecture?</a></li>
 							<li><a href="https://web.dev/articles/why-https-matters">Why <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr> matters</a></li>
 							<li><a href="https://www.automox.com/blog/you-shouldnt-use-ftp-or-http">Why You Shouldn't Use <abbr title="File Transfer Protocol">FTP</abbr> or <abbr title="Hypertext Transfer Protocol">HTTP</abbr> if You Care About Security</a></li>
 						</ul>
@@ -6419,6 +6538,10 @@ var_dump($ar2);
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-avoid-caching-inappropriate-resources">Success Criterion - Avoid Caching Inappropriate Resources</h4><a class="self-link" href="#success-criterion-avoid-caching-inappropriate-resources" aria-label="Permalink for this Section"></a></div>
 					
 					<p>Avoid using the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (<abbr title="Cross-origin resource sharing">CORS</abbr>), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect <abbr title="JavaScript Object Notation">JSON</abbr> or other static assets.</p>
+				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-process-data-close-to-the-source">Success Criterion - Process Data Close to the Source</h4><a class="self-link" href="#success-criterion-process-data-close-to-the-source" aria-label="Permalink for this Section"></a></div>
+					
+					<p>All information passed between the layers of an application incurs a cost, both in terms of data transferred, and <abbr title="Central Processing Unit">CPU</abbr> cycles for (de)serialization. Wherever possible, data transformations should be performed close to the source to reduce these costs and avoid processing data that will later be discarded.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-61">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-61" aria-label="Permalink for this Section"></a></div>
 					
@@ -6464,9 +6587,11 @@ var_dump($ar2);
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_region_a2.html">SUS01-BP01</a> - Choose Region based on both business requirements and sustainability goals</li>
 								<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a5.html">SUS02-BP04</a> - Optimize geographic placement of workloads based on their networking requirements</li>
 							</ul></li>
+							<li><a href="https://hackernoon.com/carbon-aware-computing-next-green-breakthrough-or-new-greenwashing">Carbon Aware Computing: Next Green Breakthrough or New Greenwashing?</a></li>
 							<li><a href="https://www.cdnperf.com/cdn-compare"><abbr title="Content Delivery Network">CDN</abbr> Compare</a></li>
 							<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">Cross-Origin Resource Sharing (<abbr title="Cross-origin resource sharing">CORS</abbr>)</a></li>
 							<li><a href="https://en.wikipedia.org/wiki/Edge_computing">Edge computing</a></li>
+							<li>Energy Consumption in Data Centres and Broadband Communication Networks in the EU [<cite><a class="bibref" data-link-type="biblio" href="#bib-ecdcbc" title="Energy Consumption in Data Centres and Broadband Communication Networks in the EU">ECDCBC</a></cite>]</li>
 							<li><a href="#dfn-4-10" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-10-1">[*]<span class="hidden">4.10</span></a> Energy-efficient Cloud Computing Technologies and Policies for an Eco-friendly Cloud Market [<cite><a class="bibref" data-link-type="biblio" href="#bib-eccct" title="Energy-efficient Cloud Computing Technologies and Policies for an Eco-friendly Cloud Market">ECCCT</a></cite>]</li>
 							<li><a href="#dfn-4-10" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-10-2">[*]<span class="hidden">4.10</span></a> Future trends of Green All Optical Networks and <abbr title="Information and Communication Technology">ICT</abbr> Infrastructure in a large context [<cite><a class="bibref" data-link-type="biblio" href="#bib-gon" title="Future trends of Green All Optical Networks and ICT Infrastructure in a large context">GON</a></cite>]</li>
 							<li><a href="https://developer.chrome.com/blog/http-cache-partitioning">Gaining security and privacy by partitioning the cache</a></li>
@@ -6475,6 +6600,7 @@ var_dump($ar2);
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-8003-hosting-data-centers-are-rarely-installed-in-the">1-8003</a> - Datacenter Location</li>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-8020-hosting-physical-trips-to-datacenters-are-by-nature">2-8020</a> - Datacenter Hub</li>
 							</ul></li>
+							<li><a href="https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html">High Performance MySQL: Query Performance Optimization</a></li>
 							<li><a href="https://www.greenpeace.org/static/planet4-international-stateless/2012/04/e7c8ff21-howcleanisyourcloud.pdf">How Clean is Your Cloud?</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
 							<li><a href="https://venturebeat.com/data-infrastructure/how-green-data-centers-can-cut-your-carbon-footprint/">How green data centers can cut your carbon footprint</a></li>
 							<li><a href="https://www.wholegraindigital.com/blog/how-using-a-cdn-is-better-for-people-and-the-planet/">How using a <abbr title="Content Delivery Network">CDN</abbr> is better for people and the planet</a></li>
@@ -6484,13 +6610,15 @@ var_dump($ar2);
 							<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/">Microsoft Azure <abbr title="Well-Architected Framework">WAF</abbr></a>:<ul>
 								<li><a href="https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-platform#deploy-to-low-carbon-regions">Deploy to low-carbon regions</a></li>
 							</ul></li>
+							<li><a href="#dfn-4-10" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-10-7">[*]<span class="hidden">4.10</span></a> Measuring the Emissions &amp; Energy Footprint of the <abbr title="Information and Communication Technology">ICT</abbr> Sector [<cite><a class="bibref" data-link-type="biblio" href="#bib-eef-ict" title="Measuring the Emissions &amp; Energy Footprint of the ICT Sector">EEF-ICT</a></cite>]</li>
 							<li><a href="https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard">Microsoft Emissions Impact Dashboard</a></li>
+							<li><a href="https://onextrapixel.com/mysql-has-functions-part-5-php-vs-mysql-performance/">MySQL Has Functions (Part 5) : PHP vs MySQL Performance</a></li>
 							<li><a href="https://httptoolkit.com/blog/public-cdn-risks/">Public <abbr title="Content Delivery Networks">CDNs</abbr> Are Useless and Dangerous</a></li>
 							<li><a href="https://www.linkedin.com/pulse/hosting-server-location-what-means-website-seo-ernest-ekwoge-metuge/">The Hosting Server Location &amp; What It Means For Website <abbr title="Search Engine Optimization">SEO</abbr></a></li>
 							<li><a href="https://l.leitmotiv.digital/future-digital-utility-fullreport">The Utility of the Future</a>  (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
 							<li><a href="https://venturebeat.com/data-infrastructure/what-are-dual-use-data-centers-and-how-they-drive-energy-efficiency/">What are dual-use data centers and how they drive energy efficiency</a></li>
 							<li><a href="https://imagekit.io/blog/what-is-content-delivery-network-cdn-guide/">What is a Content Delivery Network - A Beginner's Guide</a></li>
-							<li><a href="https://sustainablewww.org/principles/when-to-serve-your-website-through-a-cdn-and-when-not-to">When to serve your website through a <abbr title="Content Delivery Network">CDN</abbr> and when not to</a></li>
+							<li><a href="https://sustainablewww.org/when-to-serve-your-website-through-a-cdn-and-when-not-to/">When to serve your website through a <abbr title="Content Delivery Network">CDN</abbr> and when not to</a></li>
 						</ul>
 					</details>
 				</section>
@@ -6548,8 +6676,9 @@ var_dump($ar2);
 							</ul></li>
 							<li><a href="https://thenewstack.io/can-reducing-cloud-waste-help-save-the-planet/">Can Reducing Cloud Waste Help Save the Planet?</a></li>
 							<li><a href="https://venturebeat.com/data-infrastructure/choose-wisely-how-technology-decisions-drive-data-center-efficiency/">Choose wisely — How technology decisions drive data center efficiency</a></li>
+							<li><a href="#dfn-4-11" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-11-1">[*]<span class="hidden">4.11</span></a> Measuring the Emissions &amp; Energy Footprint of the <abbr title="Information and Communication Technology">ICT</abbr> Sector [<cite><a class="bibref" data-link-type="biblio" href="#bib-eef-ict" title="Measuring the Emissions &amp; Energy Footprint of the ICT Sector">EEF-ICT</a></cite>]</li>
 							<li><a href="https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/">Optimizing your <abbr title="Amazon Web Services">AWS</abbr> Infrastructure for Sustainability, Part I: Compute</a></li>
-							<li><a href="#dfn-4-11" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-11-1">[*]<span class="hidden">4.11</span></a> Study on the practical application of the new framework methodology for measuring the environmental impact of your equipment [<cite><a class="bibref" data-link-type="biblio" href="#bib-ictca" title="Study on the practical application of the new framework methodology for measuring the environmental impact of ICT">ICTCA</a></cite>].</li>
+							<li><a href="#dfn-4-11" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-4-11-2">[*]<span class="hidden">4.11</span></a> Study on the practical application of the new framework methodology for measuring the environmental impact of your equipment [<cite><a class="bibref" data-link-type="biblio" href="#bib-ictca" title="Study on the practical application of the new framework methodology for measuring the environmental impact of ICT">ICTCA</a></cite>].</li>
 						</ul>
 					</details>
 				</section>
@@ -6578,9 +6707,9 @@ var_dump($ar2);
 					
 					<p>Optimize log collection, storage (off-site), and rotation; scheduling during low-activity hours and using carbon-neutral backup providers.</p>
 				</section>
-				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-compress-storage">Success Criterion - Compress Storage</h4><a class="self-link" href="#success-criterion-compress-storage" aria-label="Permalink for this Section"></a></div>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-asset-downloads">Success Criterion - Asset Downloads</h4><a class="self-link" href="#success-criterion-asset-downloads" aria-label="Permalink for this Section"></a></div>
 					
-					<p>Enable storage compression both on the fly (Brotli or GZIP) and with long-term assets made available for download.</p>
+					<p>Ensure long-term assets, especially those of a large size, are made available for download.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-63">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-63" aria-label="Permalink for this Section"></a></div>
 					
@@ -6666,6 +6795,14 @@ var_dump($ar2);
 		</section>
 		<section id="business-strategy-and-product-management"><div class="header-wrapper"><h2 id="x5-business-strategy-and-product-management"><bdi class="secno">5. </bdi>Business Strategy and Product Management</h2><a class="self-link" href="#business-strategy-and-product-management" aria-label="Permalink for Section 5."></a></div> 
 			
+			<p>For anyone who owns or operates a website or application, there are practical considerations behind such decisions, and these can have sustainable impacts. While business owners are likely to be those involved in higher-level decisions, benefits can still be found for individuals working on the Internet.</p>
+			<p>Being involved in the management of a product or service gives you certain abilities:</p>
+			<ul>
+				<li>You can influence the way a product or service is developed to be more sustainable.</li>
+				<li>The ability to raise awareness, and publicly disclose and report your efforts.</li>
+				<li>You can impact change within a business and within its workers to meet <abbr title="Environment, Social, and Governance">ESG</abbr> targets.</li>
+			</ul>
+			<p>By adhering the below guidelines, individuals can make a significant difference in the reduction of non-technical sustainability impacts.</p>
 			<section id="have-an-ethical-and-sustainability-product-strategy"><div class="header-wrapper"><h3 id="x5-1-have-an-ethical-and-sustainability-product-strategy"><bdi class="secno">5.1 </bdi>Have an Ethical and Sustainability Product Strategy</h3><a class="self-link" href="#have-an-ethical-and-sustainability-product-strategy" aria-label="Permalink for Section 5.1"></a></div> 
 				
 				<p>Create a publicly available statement in an easy-to-find location on your website that outlines a clear commitment to prioritize ethics and sustainability <abbr title="Environment, Social, and Governance">ESG</abbr> standards which align with the organization's mission, vision, and values and includes statements specific to digital products, services, policies, and programs. This should be done while actively promoting such efforts (with evidence) using social channels.</p>
@@ -6749,11 +6886,13 @@ var_dump($ar2);
 							<li><a href="https://www.brightest.io/esg-sustainability-difference">Defining <abbr title="Environment, Social, and Governance">ESG</abbr> vs. Sustainability</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#communiquer-sans-greenwashing">Digital Eco-Design: L'intérêt de communiquer</a> (French)</li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#Sensibiliser-utilisateurs">Digital Eco-Design: Sensibiliser les utilisateurs</a> (<em>French</em>)</li>
+							<li><a href="https://www.mckinsey.com/capabilities/sustainability/our-insights/does-esg-really-matter-and-why">Does <abbr title="Environment, Social, and Governance">ESG</abbr> really matter—and why?</a></li>
 							<li><a href="https://ecograder.com/">EcoGrader</a></li>
 							<li><a href="#dfn-5-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-1-2">[*]<span class="hidden">5.1</span></a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-gr491" title="Handbook of Sustainable Design of Digital Services">GR491</a></cite>]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-3014-uxui-a-number-of-resources-are-available-to">2-3014</a> - Compliance Labelling</li>
 							</ul></li>
 							<li><a href="https://www.thegreenwebfoundation.org/green-web-check/">Green Web Checker</a></li>
+							<li><a href="https://read.engineerscodex.com/p/how-google-takes-the-pain-out-of">How Google takes the pain out of code reviews, with 97% dev satisfaction</a></li>
 							<li><a href="https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/creativity/sustainability-user-experience/">How to amplify your sustainability efforts through your user-experience</a></li>
 							<li><a href="https://www.bsr.org/en/blog/how-to-build-effective-sustainability-governance-structures">How to Build Effective Sustainability Governance Structures</a></li>
 							<li><a href="https://www.indeed.com/career-advice/career-development/create-code-of-ethics">How To Create Your Own Code of Ethics (With Examples)</a></li>
@@ -6774,6 +6913,7 @@ var_dump($ar2);
 							<li><a href="#dfn-5-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-1-4">[*]<span class="hidden">5.1</span></a> The carbon.txt Proposed Standard [<cite><a class="bibref" data-link-type="biblio" href="#bib-carbon" title="Carbon.txt - Green Infrastructure Verification">CARBON</a></cite>]</li>
 							<li><a href="#dfn-5-1" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-1-5">[*]<span class="hidden">5.1</span></a> The Carbon Impact of Web Standards [<cite><a class="bibref" data-link-type="biblio" href="#bib-ciws" title="The Carbon Impact of Web Standards">CIWS</a></cite>]</li>
 							<li><a href="https://www.websitecarbon.com/">Website Carbon</a></li>
+							<li><a href="https://www.weforum.org/agenda/2022/06/why-sustainability-is-crucial-for-corporate-strategy/">Why sustainability is crucial for corporate strategy</a></li>
 						</ul>
 					</details>
 				</section>
@@ -6969,6 +7109,10 @@ var_dump($ar2);
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-competitor-analysis">Success Criterion - Competitor Analysis</h4><a class="self-link" href="#success-criterion-competitor-analysis" aria-label="Permalink for this Section"></a></div>
 					
 					<p>Estimate the environmental impact of your or your competitor's current service to inform decision-making (as a potential target goal).</p>
+				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-tooling-impact">Success Criterion - Tooling Impact</h4><a class="self-link" href="#success-criterion-tooling-impact" aria-label="Permalink for this Section"></a></div>
+					
+					<p>When identifying the environmental impact of your product or service, be sure to include the impact (or estimates of) of any tooling used to create the product or service along with any third-party solutions utilized in the pipeline. While not created by you, the emissions they generate from production to maintenance are considered integral to your overall solution.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-68">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-68" aria-label="Permalink for this Section"></a></div>
 					
@@ -7205,7 +7349,7 @@ var_dump($ar2);
 						<ul class="resources">
 							<li><a href="https://blog.nexioprojects.com/an-introduction-to-corporate-sustainability-training">An Introduction to Corporate Sustainability Training</a></li>
 							<li><a href="https://www.figma.com/community/file/1197230942511819987/ecocards-jeu-de-cartes-decoconception-web-web-ecodesign-card-game">EcoCards Game Workshop Toolkit</a></li>
-							<li><a href="https://www.esgthereport.com/esg-policy-the-why-the-what-the-how/"><abbr title="Environment, Social, and Governance">ESG</abbr> Policy - the Why, the What the How</a></li>
+							<li><a href="https://esgthereport.com/esg-policy-the-why-the-what-the-how/"><abbr title="Environment, Social, and Governance">ESG</abbr> Policy - the Why, the What the How</a></li>
 							<li><a href="#dfn-5-8" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-8-1">[*]<span class="hidden">5.8</span></a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-gr491" title="Handbook of Sustainable Design of Digital Services">GR491</a></cite>]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=1-4002-contents-many-elements-are-produced-externally-it-would">1-4002</a> - Sustainable Commitment</li>
 							</ul></li>
@@ -7290,7 +7434,7 @@ var_dump($ar2);
 							<li><a href="#dfn-5-9" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-9-4">[*]<span class="hidden">5.9</span></a> Green digital sector [<cite><a class="bibref" data-link-type="biblio" href="#bib-ecgds" title="Green digital sector">ECGDS</a></cite>]</li>
 							<li><a href="#dfn-5-9" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-9-5">[*]<span class="hidden">5.9</span></a> Greenhouse Gas Protocol [<cite><a class="bibref" data-link-type="biblio" href="#bib-ghgp" title="Greenhouse Gas Protocol">GHGP</a></cite>]</li>
 							<li><a href="https://en.wikipedia.org/wiki/Greenwashing">Greenwashing</a></li>
-							<li><a href="https://www.esgthereport.com/what-is-esg/the-g-in-esg/how-to-write-a-sustainability-report/">How to Write a Sustainability Report</a></li>
+							<li><a href="https://esgthereport.com/what-is-esg/the-g-in-esg/how-to-write-a-sustainability-report/">How to Write a Sustainability Report</a></li>
 							<li><a href="https://www.sopact.com/guides/impact-reporting">Impact Reporting</a></li>
 							<li><a href="https://www.mckinsey.com/capabilities/sustainability/our-insights/more-than-values-the-value-based-sustainability-reporting-that-investors-want">More than values: The value-based sustainability reporting that investors want</a></li>
 							<li><a href="#dfn-5-9" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-9-6">[*]<span class="hidden">5.9</span></a> Sustainability Accounting Standards Board [<cite><a class="bibref" data-link-type="biblio" href="#bib-sasb" title="Sustainability Accounting Standards Board">SASB</a></cite>]</li>
@@ -8050,8 +8194,7 @@ var_dump($ar2);
 							<li><a href="https://medium.com/@equityXdesign/racism-and-inequity-are-products-of-design-they-can-be-redesigned-12188363cc6a">Racism and inequity are products of design. They can be redesigned.</a></li>
 							<li><a href="#dfn-5-19" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-19-1">[*]<span class="hidden">5.19</span></a> Sample accessibility statement [<cite><a class="bibref" data-link-type="biblio" href="#bib-ukg-as" title="Sample accessibility statement">UKG-AS</a></cite>]</li>
 							<li><a href="https://www.linkedin.com/pulse/importance-advocacy-accessibility-within-workplace/">The Importance of Advocacy for Accessibility within the workplace</a></li>
-							<li><a href="https://infrequently.org/2021/03/the-performance-inequality-gap/">The Mobile Performance Inequality Gap, 2021</a></li>
-							<li><a href="https://infrequently.org/2022/12/performance-baseline-2023/">The Performance Inequality Gap, 2023</a></li>
+							<li><a href="https://infrequently.org/series/performance-inequality/">The Performance Inequality Gap</a></li>
 							<li><a href="https://www.mightybytes.com/blog/social-digital-responsibility/">Understanding Social Digital Responsibility</a></li>
 							<li><a href="https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth/unequal-america-ten-insights-on-the-state-of-economic-opportunity">Unequal America: Ten insights on the state of economic opportunity</a></li>
 							<li><a href="#dfn-5-19" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-19-2">[*]<span class="hidden">5.19</span></a> Web Content Accessibility Guidelines [<cite><a class="bibref" data-link-type="biblio" href="#bib-wcag22" title="Web Content Accessibility Guidelines (WCAG) 2.2">WCAG22</a></cite>]</li>
@@ -8118,7 +8261,7 @@ var_dump($ar2);
 							<li><a href="https://www.eff.org/dnt-policy">A privacy-friendly Do Not Track (<abbr title="Do Not Track">DNT</abbr>) Policy</a></li>
 							<li><a href="https://www.thalesgroup.com/en/markets/digital-identity-and-security/government/magazine/beyond-gdpr-data-protection-around-world">Beyond <abbr title="General Data Protection Regulation">GDPR</abbr>: Data Protection Around The World</a></li>
 							<li><a href="#dfn-5-20" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-20-1">[*]<span class="hidden">5.20</span></a> California Consumer Privacy Act ([<cite><a class="bibref" data-link-type="biblio" href="#bib-ccpa" title="California Consumer Privacy Act">CCPA</a></cite>])</li>
-							<li><a href="https://www.verygoodsecurity.com/guides/ccpa-for-developers"><abbr title="California Consumer Privacy Act">CCPA</abbr> for Developers</a></li>
+							<li><a href="https://securiti.ai/blog/ccpa-compliance-checklist/">Ultimate <abbr title="California Consumer Privacy Act">CCPA</abbr> Compliance Checklist</a></li>
 							<li><a href="https://fusionauth.io/articles/ciam/developers-guide-to-gdpr">Developer's Guide To <abbr title="General Data Protection Regulation">GDPR</abbr></a></li>
 							<li><a href="https://gdprchecklist.io/"><abbr title="General Data Protection Regulation">GDPR</abbr> Checklist</a></li>
 							<li><a href="#dfn-5-20" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-20-2">[*]<span class="hidden">5.20</span></a> General Data Protection Regulation ([<cite><a class="bibref" data-link-type="biblio" href="#bib-gdpr" title="General Data Protection Regulation">GDPR</a></cite>])</li>
@@ -8219,7 +8362,7 @@ var_dump($ar2);
 			</section>
 			<section id="promote-and-implement-responsible-emerging-technology-practices"><div class="header-wrapper"><h3 id="x5-22-promote-and-implement-responsible-emerging-technology-practices"><bdi class="secno">5.22 </bdi>Promote and Implement Responsible Emerging Technology Practices</h3><a class="self-link" href="#promote-and-implement-responsible-emerging-technology-practices" aria-label="Permalink for Section 5.22"></a></div> 
 				
-				<p>The organization has devised and implemented responsible policies related to artificial intelligence, Internet of Things (<abbr title="Internet of Things">IoT</abbr>), blockchain, and related emerging technologies.</p>
+				<p>The organization has devised and implemented responsible policies related to artificial intelligence, Internet of Things (<abbr title="Internet of Things">IoT</abbr>), Web3 (Decentralized Web, blockchain, etc), and related emerging technologies.</p>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-emerging-technologies">Success Criterion - Emerging Technologies</h4><a class="self-link" href="#success-criterion-emerging-technologies" aria-label="Permalink for this Section"></a></div>
 					
 					<p>The organization has public-facing policies in place for emerging technologies, and all such technologies are ethically sourced, screened, validated, and implemented in a non-discriminatory, responsible manner.</p>
@@ -8231,6 +8374,14 @@ var_dump($ar2);
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-technology-legislation">Success Criterion - Technology Legislation</h4><a class="self-link" href="#success-criterion-technology-legislation" aria-label="Permalink for this Section"></a></div>
 					
 					<p>The organization supports responsible legislation related to automation and emerging technologies.</p>
+				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-environmental-responsibilities">Success Criterion - Environmental Responsibilities</h4><a class="self-link" href="#success-criterion-environmental-responsibilities" aria-label="Permalink for this Section"></a></div>
+					
+					<p>Organizations must consider, audit, and account for any environmental considerations that may derive from the use of emerging technologies they wish to either promote or implement within a chosen setting. Also note that this should include third-party choices, the \"expense\" (in terms of waste or emissions) of the utilization of the technology to create a desired result, and consequential issues to the environment that may arise from its deployment.</p>
+				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-quantum-resilience">Success Criterion - Quantum Resilience</h4><a class="self-link" href="#success-criterion-quantum-resilience" aria-label="Permalink for this Section"></a></div>
+					
+					<p>Don't roll out post-quantum encryption for high-traffic services that don't need resilience against harvest now, decrypt later.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-85">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-85" aria-label="Permalink for this Section"></a></div>
 					
@@ -8272,22 +8423,29 @@ var_dump($ar2);
 						<ul class="resources">
 							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-1">[*]<span class="hidden">5.22</span></a> 3rd Global CryptoAsset Benchmarking Study [<cite><a class="bibref" data-link-type="biblio" href="#bib-cryptobench" title="3rd Global CryptoAsset Benchmarking Study">CRYPTOBENCH</a></cite>]</li>
 							<li><a href="https://www.orfonline.org/expert-speak/sustainable-internet-missing-pieces-healthy-future/">A sustainable internet: Missing pieces to a healthy future</a></li>
+							<li><a href="https://www.theverge.com/2024/1/24/24049047/data-center-ai-crypto-bitcoin-mining-electricity-report-iea"><abbr title="Artificial Intelligence">AI</abbr> and crypto mining are driving up data centers' energy use</a></li>
 							<li><a href="https://themarkup.org/hello-world/2023/07/08/ai-environmental-equity-its-not-easy-being-green"><abbr title="Artificial Intelligence">AI</abbr> Environmental Equity</a></li>
 							<li><a href="https://www.taylorwessing.com/en/interface/2023/ai---are-we-getting-the-balance-between-regulation-and-innovation-right/ai-regulation-around-the-world"><abbr title="Artificial Intelligence">AI</abbr> Regulation Around The World</a></li>
+							<li><a href="https://techmonitor.ai/hardware/quantum/harvest-now-decrypt-later-cyberattack-quantum-computer">Are harvest now, decrypt later cyberattacks actually happening?</a></li>
 							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-2">[*]<span class="hidden">5.22</span></a> Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models [<cite><a class="bibref" data-link-type="biblio" href="#bib-ctml" title="Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models">CTML</a></cite>]</li>
 							<li><a href="https://techcrunch.com/2021/05/16/crypto-and-blockchain-must-accept-they-have-a-problem-then-lead-in-sustainability/">Crypto and blockchain must accept they have a problem, then lead in sustainability</a></li>
 							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-3">[*]<span class="hidden">5.22</span></a> Cryptocurrency's Dirty Secret: Energy Consumption [<cite><a class="bibref" data-link-type="biblio" href="#bib-crypto" title="Cryptocurrency's Dirty Secret: Energy Consumption">CRYPTO</a></cite>]</li>
 							<li><a href="https://dig.watch/trends/digital-and-environment">Digital aspects and the environment</a></li>
 							<li><a href="https://www.ottogroup.com/en/stories/story/story-techucation.php">Digital education: The unique learning ecosystem TechUcation</a></li>
+							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-4">[*]<span class="hidden">5.22</span></a> Dismantling the Quantum Threat [<cite><a class="bibref" data-link-type="biblio" href="#bib-quantum" title="Dismantling the Quantum Threat">QUANTUM</a></cite>]</li>
+							<li><a href="https://blog.archive.org/2021/09/20/ecological-awareness-for-the-decentralized-web/">Ecological Awareness for the Decentralized Web</a></li>
 							<li><a href="https://gizmodo.com/ai-images-as-much-energy-as-charging-phone-hugging-face-1851065091">Generating <abbr title="Artificial Intelligence">AI</abbr> Images Uses as Much Energy as Charging Your Phone, Study Finds</a></li>
-							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-4">[*]<span class="hidden">5.22</span></a> How might we shape the future of a greener Internet? [<cite><a class="bibref" data-link-type="biblio" href="#bib-onlign" title="How might we shape the future of a greener Internet?">ONLIGN</a></cite>] (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
+							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-5">[*]<span class="hidden">5.22</span></a> How might we shape the future of a greener Internet? [<cite><a class="bibref" data-link-type="biblio" href="#bib-onlign" title="How might we shape the future of a greener Internet?">ONLIGN</a></cite>] (<em><abbr title="Portable Document Format">PDF</abbr></em>)</li>
 							<li><a href="https://www.unep.org/news-and-stories/story/battle-against-climate-crisis-dont-overlook-blockchain">In battle against climate crisis, don't overlook the blockchain</a></li>
 							<li><a href="https://docs.google.com/presentation/d/1OTXaz3RuV0HWgM754PRMUC7d2KYVHH974s5hnAt53wk/edit">Sustainable Ux in VR</a> (<em>PPT</em>)</li>
-							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-5">[*]<span class="hidden">5.22</span></a> Sustainability of Bitcoin and its Impact on the Environment [<cite><a class="bibref" data-link-type="biblio" href="#bib-bitcoin" title="The Sustainability of Bitcoin and its Impact on the Environment">BITCOIN</a></cite>]</li>
-							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-6">[*]<span class="hidden">5.22</span></a> The cyber-consciousness of environmental assessment [<cite><a class="bibref" data-link-type="biblio" href="#bib-cyber" title="The cyber-consciousness of environmental assessment">CYBER</a></cite>]</li>
-							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-7">[*]<span class="hidden">5.22</span></a> The growing energy footprint of artificial intelligence [<cite><a class="bibref" data-link-type="biblio" href="#bib-efai" title="The growing energy footprint of artificial intelligence">EFAI</a></cite>]</li>
-							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-8">[*]<span class="hidden">5.22</span></a> The role of artificial intelligence in achieving the Sustainable Development Goals [<cite><a class="bibref" data-link-type="biblio" href="#bib-aisdg" title="The role of artificial intelligence in achieving the Sustainable Development Goals">AISDG</a></cite>]</li>
+							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-6">[*]<span class="hidden">5.22</span></a> Sustainability of Bitcoin and its Impact on the Environment [<cite><a class="bibref" data-link-type="biblio" href="#bib-bitcoin" title="The Sustainability of Bitcoin and its Impact on the Environment">BITCOIN</a></cite>]</li>
+							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-7">[*]<span class="hidden">5.22</span></a> The cyber-consciousness of environmental assessment [<cite><a class="bibref" data-link-type="biblio" href="#bib-cyber" title="The cyber-consciousness of environmental assessment">CYBER</a></cite>]</li>
+							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-8">[*]<span class="hidden">5.22</span></a> The growing energy footprint of artificial intelligence [<cite><a class="bibref" data-link-type="biblio" href="#bib-efai" title="The growing energy footprint of artificial intelligence">EFAI</a></cite>]</li>
+							<li><a href="#dfn-5-22" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-22-9">[*]<span class="hidden">5.22</span></a> The role of artificial intelligence in achieving the Sustainable Development Goals [<cite><a class="bibref" data-link-type="biblio" href="#bib-aisdg" title="The role of artificial intelligence in achieving the Sustainable Development Goals">AISDG</a></cite>]</li>
+							<li><a href="https://www.wholegraindigital.com/blog/ethical-ai-guidelines/">The Wholegrain guide to ethical use of <abbr title="Artificial Intelligence">AI</abbr></a></li>
+							<li><a href="https://www.lcx.com/web3-and-sustainability/">Web3 and Sustainability</a></li>
 							<li><a href="https://venturebeat.com/business/what-is-the-environmental-impact-of-web3/">What is the environmental impact of Web3?</a></li>
+							<li><a href="https://spectrum.ieee.org/post-quantum-cryptography-nist">What Is the Future of Quantum-Proof Encryption?</a></li>
 							<li><a href="https://www.forbes.com/sites/bernardmarr/2023/01/13/why-blockchain-nfts-and-web3-have-a-sustainability-problem/">Why Blockchain, NFTs, And Web3 Have A Sustainability Problem</a></li>
 							<li><a href="https://social.hays.com/2022/09/29/why-we-need-to-be-upskilling-the-current-workforce-for-the-green-economy/">Why We Need To Be UpSkilling The Current Workforce For The Green Economy</a></li>
 						</ul>
@@ -8492,6 +8650,10 @@ var_dump($ar2);
 					
 					<p>The organization buys refurbished equipment whenever possible.</p>
 				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-right-to-repair">Success Criterion - Right-to-Repair</h4><a class="self-link" href="#success-criterion-right-to-repair" aria-label="Permalink for this Section"></a></div>
+					
+					<p>The organization should allow consumers to repair (to the best of their ability) the consumables they purchase, offering (if possible at cost) replacement components and clear instructions to resolve faults that occur.</p>
+				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="impact-effort-89">Impact &amp; Effort</h4><a class="self-link" href="#impact-effort-89" aria-label="Permalink for this Section"></a></div>
 					
 					<dl class="rating">
@@ -8558,6 +8720,10 @@ var_dump($ar2);
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-performance-budget">Success Criterion - Performance Budget</h4><a class="self-link" href="#success-criterion-performance-budget" aria-label="Permalink for this Section"></a></div>
 					
 					<p>Use tools such as a performance budget to determine the maximum size (goals) your app or website can weigh to reduce the data transfer and <abbr title="Hypertext Transfer Protocol">HTTP</abbr> request impact (using metrics like Google Lighthouse).</p>
+				</section>
+				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-human-budget">Success Criterion - Human Budget</h4><a class="self-link" href="#success-criterion-human-budget" aria-label="Permalink for this Section"></a></div>
+					
+					<p>Define <abbr title="Key Performance Indicators">KPIs</abbr> around engineering hours, development time, or sprints keeping the health and wellbeing of your workers paramount. Consideration should be taken around optimizing your workflow sustainably to allow all tasks to be performed with care.</p>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="success-criterion-measurable-improvements">Success Criterion - Measurable Improvements</h4><a class="self-link" href="#success-criterion-measurable-improvements" aria-label="Permalink for this Section"></a></div>
 					
@@ -8712,7 +8878,7 @@ var_dump($ar2);
 					<aside class="example" id="example-93"><div class="marker">
     <a class="self-link" href="#example-93">Example<bdi> 93</bdi></a>
   </div>
-						<p>GitLab discloses its <a href="https://handbook.gitlab.com/engineering/open-source/">open source</a> policy publicly.</p>
+						<p>GitLab discloses its <a href="https://handbook.gitlab.com/handbook/engineering/open-source/">open source</a> policy publicly.</p>
 					</aside>
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="resources-91">Resources</h4><a class="self-link" href="#resources-91" aria-label="Permalink for this Section"></a></div>
@@ -8722,7 +8888,7 @@ var_dump($ar2);
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
 							<li><a href="https://choosealicense.com/">Choose an open source license</a></li>
-							<li><a href="https://creativecommons.org/choose/">Creative Commons License</a></li>
+							<li><a href="https://chooser-beta.creativecommons.org/">Creative Commons License</a></li>
 							<li><a href="https://github.com/freeCodeCamp/how-to-contribute-to-open-source">FreeCodeCamp: How to Contribute to Open Source</a></li>
 							<li><a href="#dfn-5-28" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-5-28-1">[*]<span class="hidden">5.28</span></a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-gr491" title="Handbook of Sustainable Design of Digital Services">GR491</a></cite>]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=2-7034-backend-an-open-source-solution-is-not-a">2-7034</a> - Open Source Availability</li>
@@ -8791,11 +8957,11 @@ var_dump($ar2);
 			<p>Additional information about participation in the Sustainable Web Design Community Group (SWG-CG) can be found <a href="https://www.w3.org/community/sustyweb/wiki/Main_Page">within the wiki</a> of the community group.</p>
 			<section id="participants-of-the-swd-cg-active-in-the-development-of-this-document"><div class="header-wrapper"><h3 id="a-1-participants-of-the-swd-cg-active-in-the-development-of-this-document"><bdi class="secno">A.1 </bdi>Participants of the <abbr title="Sustainable Web Design Community Group">SWD-CG</abbr> Active in the Development of This Document</h3><a class="self-link" href="#participants-of-the-swd-cg-active-in-the-development-of-this-document" aria-label="Permalink for Appendix A.1"></a></div> 
 				
-				<p>Alexander Dawson, Andy Blum, Anne Faubry, Arnaud Levy, Ben Clifford, Brett Tackaberry, Brian Louis Ramirez, Chris Adams, Chris Needham, Chris Sater, Chris Wilson, Claire Thornewill, Dennis Lemm, Diogo Abrantes Da Silva, Dom Robinson, Emily Trotter, Fershad Irani, Iain McClenaghan, Ian Jacobs, Ines Akrap, Ismael Velasco, James Christie, Jennifer Strickland, Jens Oliver Meiert, Josh Kim, Julien Wilhelm, Laurent Devernay, Łukasz Mastalerz, Marie Ototoi, Michelle Barker, Mike Gifford, Morgan Murrah, Nahuai Badiola, Nick Doty, Neil Clark, Nicola Bonotto, Owen Barton, Romuald Priol, Sandy Dähnert, Shane Herath, Simon Perdrisat, Tantek Çelik, Thibaud Colas, Thorsten Jonas, Tim Frick, Tzviya Siegman, Youen Chéné, Yuna Orsini</p>
+				<p>Alexander Dawson, Andy Blum, Anne Faubry, Arnaud Levy, Ben Clifford, Berwyn Powell, Brett Tackaberry, Brian Louis Ramirez, Chris Adams, Chris Needham, Chris Sater, Chris Wilson, Claire Thornewill, Dennis Lemm, Diogo Abrantes Da Silva, Dom Robinson, Emily Trotter, Fershad Irani, Francesco Fullone, Iain McClenaghan, Ian Jacobs, Ines Akrap, Ismael Velasco, James Christie, Jennifer Strickland, Jens Oliver Meiert, Jim McCool, Josh Kim, Julien Wilhelm, Laurent Devernay, Loren Velasquez, Łukasz Mastalerz, Marie Ototoi, Michelle Barker, Mike Gifford, Morgan Murrah, Nahuai Badiola, Neil Clark, Nick Doty, Nicola Bonotto, Orie Steele, Owen Barton, Romuald Priol, Sandy Dähnert, Shane Herath, Simon Perdrisat, Tantek Çelik, Thibaud Colas, Thorsten Jonas, Tim Frick, Tzviya Siegman, Youen Chéné, Yuna Orsini, Zoe Lopez-Latorre</p>
 			</section>
 			<section id="other-active-swd-cg-participants-or-contributors-to-supporting-resources"><div class="header-wrapper"><h3 id="a-2-other-active-swd-cg-participants-or-contributors-to-supporting-resources"><bdi class="secno">A.2 </bdi>Other Active <abbr title="Sustainable Web Design Community Group">SWD-CG</abbr> Participants, or Contributors to Supporting Resources</h3><a class="self-link" href="#other-active-swd-cg-participants-or-contributors-to-supporting-resources" aria-label="Permalink for Appendix A.2"></a></div> 
 				
-				<p>Anthony Vallée-Dubois, Antoine Abélard, Bee Flaherty, Boris Schapira, Christophe Clouzeau, Christos Baharakis, Crystal Preston-Watson, Francesco Fullone, Gaël Duez, Gerry McGovern, Greg McDonald, Ivano Malavolta, James Cannings, James Gallagher, Jean Rigotti, Jon Gibbins, Juan Sotés, Julien Robitaille, Kate Mroczkowski, Kimi Wei, Leah Goldfarb, Luis Tiago, Marie Koesnodihardjo, Nicolas Oren, Orie Steele, Pietro Jarre, Radu Micu, Rick Butterfield, Rick Viscomi, Robin Whittleton, Seb Solere, Thierry Leboucq, Tom Greenwood, Torsten Beyer, Yelle Lieder, Zoe Lopez-Latorre.</p>
+				<p>Anthony Vallée-Dubois, Antoine Abélard, Bee Flaherty, Boris Schapira, Christophe Clouzeau, Christos Baharakis, Crystal Preston-Watson, Elise West, Florence Maurice, François Burra, Gaël Duez, Gerry McGovern, Greg McDonald, Ivano Malavolta, James Cannings, James Gallagher, Jean Rigotti, Jon Gibbins, Juan Sotés, Julien Robitaille, Kate Mroczkowski, Kimi Wei, Leah Goldfarb, Len Dierickx, Louise Towler, Luis Tiago, Marie Koesnodihardjo, Mert Antinoz, Nicolas Oren, Pietro Jarre, Radu Micu, Rick Butterfield, Rick Viscomi, Robin Whittleton, Seb Solere, Sylvain Tenier, Thierry Leboucq, Tom Greenwood, Torsten Beyer, Yelle Lieder.</p>
 			</section>
 		</section>
 	
@@ -8875,6 +9041,8 @@ var_dump($ar2);
       <a href="https://digital-strategy.ec.europa.eu/en/library/energy-efficient-cloud-computing-technologies-and-policies-eco-friendly-cloud-market"><cite>Energy-efficient Cloud Computing Technologies and Policies for an Eco-friendly Cloud Market</cite></a>.  European Commission. 09 November 2020. Informational. URL: <a href="https://digital-strategy.ec.europa.eu/en/library/energy-efficient-cloud-computing-technologies-and-policies-eco-friendly-cloud-market">https://digital-strategy.ec.europa.eu/en/library/energy-efficient-cloud-computing-technologies-and-policies-eco-friendly-cloud-market</a>
     </dd><dt id="bib-eccra">[ECCRA]</dt><dd>
       <a href="https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act"><cite>EU Cyber Resilience Act</cite></a>.  European Commission. 20 June 2023. Informational. URL: <a href="https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act">https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act</a>
+    </dd><dt id="bib-ecdcbc">[ECDCBC]</dt><dd>
+      <a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC135926"><cite>Energy Consumption in Data Centres and Broadband Communication Networks in the EU</cite></a>.  European Commission. 16 Febuary 2024. Informational. URL: <a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC135926">https://publications.jrc.ec.europa.eu/repository/handle/JRC135926</a>
     </dd><dt id="bib-ecdccoc">[ECDCCOC]</dt><dd>
       <a href="https://e3p.jrc.ec.europa.eu/communities/data-centres-code-conduct"><cite>Data Centres Code of Conduct</cite></a>.  European Commission. 4 November 2023. Informational. URL: <a href="https://e3p.jrc.ec.europa.eu/communities/data-centres-code-conduct">https://e3p.jrc.ec.europa.eu/communities/data-centres-code-conduct</a>
     </dd><dt id="bib-ecdcee">[ECDCEE]</dt><dd>
@@ -8889,6 +9057,8 @@ var_dump($ar2);
       <a href="https://digital-strategy.ec.europa.eu/en/policies/digital-principles"><cite>European Digital Rights and Principles</cite></a>.  European Commission. 27 September 2023. Informational. URL: <a href="https://digital-strategy.ec.europa.eu/en/policies/digital-principles">https://digital-strategy.ec.europa.eu/en/policies/digital-principles</a>
     </dd><dt id="bib-eea">[EEA]</dt><dd>
       <a href="https://www.eea.europa.eu/publications/europe2019s-consumption-in-a-circular/benefits-of-longer-lasting-electronics"><cite>Europe's consumption in a circular economy: the benefits of longer-lasting electronics</cite></a>.  European Environment Agency. 18 June 2020. Informational. URL: <a href="https://www.eea.europa.eu/publications/europe2019s-consumption-in-a-circular/benefits-of-longer-lasting-electronics">https://www.eea.europa.eu/publications/europe2019s-consumption-in-a-circular/benefits-of-longer-lasting-electronics</a>
+    </dd><dt id="bib-eef-ict">[EEF-ICT]</dt><dd>
+      <a href="https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859702a98880540a4b70d57876048abb.pdf"><cite>Measuring the Emissions &amp; Energy Footprint of the ICT Sector</cite></a>.  The World Bank. 12 December 2023. Informational. URL: <a href="https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859702a98880540a4b70d57876048abb.pdf">https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859702a98880540a4b70d57876048abb.pdf</a>
     </dd><dt id="bib-eeg">[EEG]</dt><dd>
       <a href="https://online.electronicsgoesgreen.org/wp-content/uploads/2020/10/Proceedings_EGG2020_v2.pdf"><cite>Electronics Goes Green</cite></a>.  Electronics Goes Green. 01 September 2020. Informational. URL: <a href="https://online.electronicsgoesgreen.org/wp-content/uploads/2020/10/Proceedings_EGG2020_v2.pdf">https://online.electronicsgoesgreen.org/wp-content/uploads/2020/10/Proceedings_EGG2020_v2.pdf</a>
     </dd><dt id="bib-eei">[EEI]</dt><dd>
@@ -8963,6 +9133,8 @@ var_dump($ar2);
       <a href="https://institutnr.org/label-numerique-responsable"><cite>Label numérique responsable</cite></a>.  INR &amp; Agence LUCIE. Informational. URL: <a href="https://institutnr.org/label-numerique-responsable">https://institutnr.org/label-numerique-responsable</a>
     </dd><dt id="bib-lifespan">[LIFESPAN]</dt><dd>
       <a href="https://www.europarl.europa.eu/RegData/etudes/STUD/2020/648767/IPOL_STU(2020)648767_EN.pdf"><cite>Promoting product longevity</cite></a>.  European Union. 01 March 2020. Informational. URL: <a href="https://www.europarl.europa.eu/RegData/etudes/STUD/2020/648767/IPOL_STU(2020)648767_EN.pdf">https://www.europarl.europa.eu/RegData/etudes/STUD/2020/648767/IPOL_STU(2020)648767_EN.pdf</a>
+    </dd><dt id="bib-maturity-model">[maturity-model]</dt><dd>
+      <a href="https://www.w3.org/TR/maturity-model/"><cite>Accessibility Maturity Model</cite></a>. David Fazio; Charles LaPierre; Janina Sajka.  W3C. 15 December 2023. W3C Working Group Note. URL: <a href="https://www.w3.org/TR/maturity-model/">https://www.w3.org/TR/maturity-model/</a>
     </dd><dt id="bib-metaex">[METAEX]</dt><dd>
       <a href="https://wiki.whatwg.org/wiki/MetaExtensions"><cite>MetaExtensions</cite></a>.  WHATWG. 31 July 2021. Informational. URL: <a href="https://wiki.whatwg.org/wiki/MetaExtensions">https://wiki.whatwg.org/wiki/MetaExtensions</a>
     </dd><dt id="bib-mf">[MF]</dt><dd>
@@ -9001,6 +9173,8 @@ var_dump($ar2);
       <a href="https://www.php.net/manual/en/indexes.functions.php"><cite>PHP Function and Method listing</cite></a>.  The PHP Group. Informational. URL: <a href="https://www.php.net/manual/en/indexes.functions.php">https://www.php.net/manual/en/indexes.functions.php</a>
     </dd><dt id="bib-psec">[PSEC]</dt><dd>
       <a href="https://www.ivanomalavolta.com/files/papers/EASE_2020.pdf"><cite>Investigating the correlation between performance scores and energy consumption of mobile web apps</cite></a>.  Kwame Chan-Jong-Chu, Tanjina Islam, Miguel Morales Exposito, Sanjay Sheombar, Christian Valladares, Olivier Philippot, Eoin Martino Grua, and Ivano Malavolta. 17 April 2020. Informational. URL: <a href="https://www.ivanomalavolta.com/files/papers/EASE_2020.pdf">https://www.ivanomalavolta.com/files/papers/EASE_2020.pdf</a>
+    </dd><dt id="bib-quantum">[QUANTUM]</dt><dd>
+      <a href="https://www.researchgate.net/publication/367205680_Dismantling_the_Quantum_Threat"><cite>Dismantling the Quantum Threat</cite></a>.  Tilman Runge. 06 December 2022. Informational. URL: <a href="https://www.researchgate.net/publication/367205680_Dismantling_the_Quantum_Threat">https://www.researchgate.net/publication/367205680_Dismantling_the_Quantum_Threat</a>
     </dd><dt id="bib-rahs">[RAHS]</dt><dd>
       <a href="https://research-information.bris.ac.uk/ws/portalfiles/portal/348324297/Schien_rethinking_allocation.pdf"><cite>Rethinking Allocation in High-Baseload Systems</cite></a>.  D. Schien, P. J. S. Shabajee, and C. W. Preist. 05 July 2022. Informational. URL: <a href="https://research-information.bris.ac.uk/ws/portalfiles/portal/348324297/Schien_rethinking_allocation.pdf">https://research-information.bris.ac.uk/ws/portalfiles/portal/348324297/Schien_rethinking_allocation.pdf</a>
     </dd><dt id="bib-rdfa-core">[RDFA-CORE]</dt><dd>
@@ -9023,6 +9197,8 @@ var_dump($ar2);
       <a href="https://semver.org/"><cite>Semantic Versioning</cite></a>.  Tom Preston-Werner. Informational. URL: <a href="https://semver.org/">https://semver.org/</a>
     </dd><dt id="bib-sitemap">[SITEMAP]</dt><dd>
       <a href="https://www.sitemaps.org/protocol.html"><cite>Sitemaps Protocol</cite></a>.  Google, Yahoo, and Microsoft. 21 November 2016. Informational. URL: <a href="https://www.sitemaps.org/protocol.html">https://www.sitemaps.org/protocol.html</a>
+    </dd><dt id="bib-solid">[SOLID]</dt><dd>
+      <a href="https://solidproject.org/TR/protocol"><cite>Solid Protocol</cite></a>.  Solid Project. 31 December 2022. Informational. URL: <a href="https://solidproject.org/TR/protocol">https://solidproject.org/TR/protocol</a>
     </dd><dt id="bib-sustydebt">[SUSTYDEBT]</dt><dd>
       <a href="https://www.researchgate.net/publication/282889658_Sustainability_debt_A_metaphor_to_support_Sustainability_design_decisions"><cite>Sustainability debt: A metaphor to support Sustainability design decisions</cite></a>.  Stefanie Betz, Christoph Becker, Ruzanna Chitchyan, Leticia Duboc, Steve Easterbrook, Birgit Penzenstadler, N. Seyff, and Colin C. Venters. 01 January 2015. Informational. URL: <a href="https://www.researchgate.net/publication/282889658_Sustainability_debt_A_metaphor_to_support_Sustainability_design_decisions">https://www.researchgate.net/publication/282889658_Sustainability_debt_A_metaphor_to_support_Sustainability_design_decisions</a>
     </dd><dt id="bib-swpwa">[SWPWA]</dt><dd>
@@ -9059,6 +9235,8 @@ var_dump($ar2);
       <a href="https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html"><cite>Understanding WCAG 2.2: Reading Level</cite></a>.  W3C Working Group. 05 October 2023. Informational. URL: <a href="https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html">https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html</a>
     </dd><dt id="bib-wasm">[WASM]</dt><dd>
       <a href="https://www.ivanomalavolta.com/files/papers/EASE_2022_web_assembly.pdf"><cite>Comparing the Energy Efficiency of WebAssembly and JavaScript in Web Applications on Android Mobile Devices</cite></a>.  Max van Hasselt, Kevin Huijzendveld, Nienke Noort, Sasja de Ruijter, Tanjina Islam, and Ivano Malavolta. 15 June 2022. Informational. URL: <a href="https://www.ivanomalavolta.com/files/papers/EASE_2022_web_assembly.pdf">https://www.ivanomalavolta.com/files/papers/EASE_2022_web_assembly.pdf</a>
+    </dd><dt id="bib-wasm-js">[WASM-JS]</dt><dd>
+      <a href="https://repositorio.inesctec.pt/server/api/core/bitstreams/0870fb76-d463-456b-9e34-5b33bb7c0dd1/content"><cite>WebAssembly versus JavaScript: Energy and Runtime Performance</cite></a>.  Joao De Macedo, Rui Abreu, Rui Pereira, and Joao Saraiva. 09 January 2023. Informational. URL: <a href="https://repositorio.inesctec.pt/server/api/core/bitstreams/0870fb76-d463-456b-9e34-5b33bb7c0dd1/content">https://repositorio.inesctec.pt/server/api/core/bitstreams/0870fb76-d463-456b-9e34-5b33bb7c0dd1/content</a>
     </dd><dt id="bib-wcag22">[WCAG22]</dt><dd>
       <a href="https://www.w3.org/TR/WCAG22/"><cite>Web Content Accessibility Guidelines (WCAG) 2.2</cite></a>. Michael Cooper; Andrew Kirkpatrick; Alastair Campbell; Rachael Bradley Montgomery; Charles Adams.  W3C. 5 October 2023. W3C Recommendation. URL: <a href="https://www.w3.org/TR/WCAG22/">https://www.w3.org/TR/WCAG22/</a>
     </dd><dt id="bib-webvtt">[WEBVTT]</dt><dd>
@@ -9075,7 +9253,7 @@ var_dump($ar2);
   </section><section id="informative-references"><div class="header-wrapper"><h3 id="b-2-informative-references"><bdi class="secno">B.2 </bdi>Informative references</h3><a class="self-link" href="#informative-references" aria-label="Permalink for Appendix B.2"></a></div>
     
     <dl class="bibliography"><dt id="bib-design-principles">[design-principles]</dt><dd>
-      <a href="https://www.w3.org/TR/design-principles/"><cite>Web Platform Design Principles</cite></a>. Sangwhan Moon.  W3C. 7 September 2023. W3C Working Group Note. URL: <a href="https://www.w3.org/TR/design-principles/">https://www.w3.org/TR/design-principles/</a>
+      <a href="https://www.w3.org/TR/design-principles/"><cite>Web Platform Design Principles</cite></a>. Sangwhan Moon; Lea Verou.  W3C. 30 January 2024. W3C Working Group Note. URL: <a href="https://www.w3.org/TR/design-principles/">https://www.w3.org/TR/design-principles/</a>
     </dd><dt id="bib-ethical-web-principles">[ethical-web-principles]</dt><dd>
       <a href="https://www.w3.org/TR/ethical-web-principles/"><cite>W3C TAG Ethical Web Principles</cite></a>. Daniel Appelquist; Hadley Beeman; Amy Guy.  W3C. 7 November 2023. W3C Working Group Note. URL: <a href="https://www.w3.org/TR/ethical-web-principles/">https://www.w3.org/TR/ethical-web-principles/</a>
     </dd><dt id="bib-privacy-principles">[privacy-principles]</dt><dd>
@@ -9608,7 +9786,7 @@ var_dump($ar2);
       <p><b>Referenced in:</b></p>
       <ul>
     <li>
-      <a href="#ref-for-dfn-3-15-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-3-15-2" title="Reference 2">(2)</a> 
+      <a href="#ref-for-dfn-3-15-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-3-15-2" title="Reference 2">(2)</a> <a href="#ref-for-dfn-3-15-3" title="Reference 3">(3)</a> 
     </li>
   </ul>
     </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-3-16" aria-label="Links in this document to definition: [*]3.16">
@@ -9683,6 +9861,18 @@ var_dump($ar2);
       <a href="#ref-for-dfn-3-21-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-3-21-2" title="Reference 2">(2)</a> <a href="#ref-for-dfn-3-21-3" title="Reference 3">(3)</a> <a href="#ref-for-dfn-3-21-4" title="Reference 4">(4)</a> 
     </li>
   </ul>
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-3-22" aria-label="Links in this document to definition: [*]3.22">
+      <span class="caret"></span>
+      <div>
+        <a class="self-link" href="#dfn-3-22" aria-label="Permalink for definition: [*]3.22. Activate to close this dialog.">Permalink</a>
+         
+      </div>
+      <p><b>Referenced in:</b></p>
+      <ul>
+    <li>
+      <a href="#ref-for-dfn-3-22-1" title="§ Resources">§ Resources</a> 
+    </li>
+  </ul>
     </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-3-23" aria-label="Links in this document to definition: [*]3.23">
       <span class="caret"></span>
       <div>
@@ -9704,7 +9894,7 @@ var_dump($ar2);
       <p><b>Referenced in:</b></p>
       <ul>
     <li>
-      <a href="#ref-for-dfn-4-1-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-4-1-2" title="Reference 2">(2)</a> <a href="#ref-for-dfn-4-1-3" title="Reference 3">(3)</a> <a href="#ref-for-dfn-4-1-4" title="Reference 4">(4)</a> <a href="#ref-for-dfn-4-1-5" title="Reference 5">(5)</a> <a href="#ref-for-dfn-4-1-6" title="Reference 6">(6)</a> <a href="#ref-for-dfn-4-1-7" title="Reference 7">(7)</a> <a href="#ref-for-dfn-4-1-8" title="Reference 8">(8)</a> <a href="#ref-for-dfn-4-1-9" title="Reference 9">(9)</a> <a href="#ref-for-dfn-4-1-10" title="Reference 10">(10)</a> <a href="#ref-for-dfn-4-1-11" title="Reference 11">(11)</a> <a href="#ref-for-dfn-4-1-12" title="Reference 12">(12)</a> <a href="#ref-for-dfn-4-1-13" title="Reference 13">(13)</a> 
+      <a href="#ref-for-dfn-4-1-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-4-1-2" title="Reference 2">(2)</a> <a href="#ref-for-dfn-4-1-3" title="Reference 3">(3)</a> <a href="#ref-for-dfn-4-1-4" title="Reference 4">(4)</a> <a href="#ref-for-dfn-4-1-5" title="Reference 5">(5)</a> <a href="#ref-for-dfn-4-1-6" title="Reference 6">(6)</a> <a href="#ref-for-dfn-4-1-7" title="Reference 7">(7)</a> <a href="#ref-for-dfn-4-1-8" title="Reference 8">(8)</a> <a href="#ref-for-dfn-4-1-9" title="Reference 9">(9)</a> <a href="#ref-for-dfn-4-1-10" title="Reference 10">(10)</a> <a href="#ref-for-dfn-4-1-11" title="Reference 11">(11)</a> <a href="#ref-for-dfn-4-1-12" title="Reference 12">(12)</a> <a href="#ref-for-dfn-4-1-13" title="Reference 13">(13)</a> <a href="#ref-for-dfn-4-1-14" title="Reference 14">(14)</a> 
     </li>
   </ul>
     </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-4-2" aria-label="Links in this document to definition: [*]4.2">
@@ -9812,7 +10002,7 @@ var_dump($ar2);
       <p><b>Referenced in:</b></p>
       <ul>
     <li>
-      <a href="#ref-for-dfn-4-10-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-4-10-2" title="Reference 2">(2)</a> <a href="#ref-for-dfn-4-10-3" title="Reference 3">(3)</a> <a href="#ref-for-dfn-4-10-4" title="Reference 4">(4)</a> <a href="#ref-for-dfn-4-10-5" title="Reference 5">(5)</a> <a href="#ref-for-dfn-4-10-6" title="Reference 6">(6)</a> 
+      <a href="#ref-for-dfn-4-10-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-4-10-2" title="Reference 2">(2)</a> <a href="#ref-for-dfn-4-10-3" title="Reference 3">(3)</a> <a href="#ref-for-dfn-4-10-4" title="Reference 4">(4)</a> <a href="#ref-for-dfn-4-10-5" title="Reference 5">(5)</a> <a href="#ref-for-dfn-4-10-6" title="Reference 6">(6)</a> <a href="#ref-for-dfn-4-10-7" title="Reference 7">(7)</a> 
     </li>
   </ul>
     </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-4-11" aria-label="Links in this document to definition: [*]4.11">
@@ -9824,7 +10014,7 @@ var_dump($ar2);
       <p><b>Referenced in:</b></p>
       <ul>
     <li>
-      <a href="#ref-for-dfn-4-11-1" title="§ Resources">§ Resources</a> 
+      <a href="#ref-for-dfn-4-11-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-4-11-2" title="Reference 2">(2)</a> 
     </li>
   </ul>
     </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-4-12" aria-label="Links in this document to definition: [*]4.12">
@@ -10088,7 +10278,7 @@ var_dump($ar2);
       <p><b>Referenced in:</b></p>
       <ul>
     <li>
-      <a href="#ref-for-dfn-5-22-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-5-22-2" title="Reference 2">(2)</a> <a href="#ref-for-dfn-5-22-3" title="Reference 3">(3)</a> <a href="#ref-for-dfn-5-22-4" title="Reference 4">(4)</a> <a href="#ref-for-dfn-5-22-5" title="Reference 5">(5)</a> <a href="#ref-for-dfn-5-22-6" title="Reference 6">(6)</a> <a href="#ref-for-dfn-5-22-7" title="Reference 7">(7)</a> <a href="#ref-for-dfn-5-22-8" title="Reference 8">(8)</a> 
+      <a href="#ref-for-dfn-5-22-1" title="§ Resources">§ Resources</a> <a href="#ref-for-dfn-5-22-2" title="Reference 2">(2)</a> <a href="#ref-for-dfn-5-22-3" title="Reference 3">(3)</a> <a href="#ref-for-dfn-5-22-4" title="Reference 4">(4)</a> <a href="#ref-for-dfn-5-22-5" title="Reference 5">(5)</a> <a href="#ref-for-dfn-5-22-6" title="Reference 6">(6)</a> <a href="#ref-for-dfn-5-22-7" title="Reference 7">(7)</a> <a href="#ref-for-dfn-5-22-8" title="Reference 8">(8)</a> <a href="#ref-for-dfn-5-22-9" title="Reference 9">(9)</a> 
     </li>
   </ul>
     </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-5-23" aria-label="Links in this document to definition: [*]5.23">
