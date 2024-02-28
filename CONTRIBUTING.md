@@ -8,6 +8,10 @@ you must join the [CG](https://www.w3.org/community/sustyweb/).
 
 This repository is used to develop content for the Web Sustainability Guidelines (WSGs), as well as any supplementary documents.
 
+## Collaboration
+
+We welcome content from individuals as well as group efforts and understand that this may pose difficulties for those either unfamiliar with pull requests (on a technical level) or with collaborative efforts (wishing to discuss progress before submitting results). In such cases, members can (if they choose) work with any open format they prefer to collaborate (referring to the specification and its supplements), and submit an issue request containing the URL to the document in question. A moderator (lead or chair) will help translate these requested updates into the living draft specification.
+
 ## File Structure
 
 The structure of the repository has been created to ensure ease of maintenance. The base directory contains all of the compiled files that are public facing such as the specification, supplementary documents, the JSON API, and other materials. The "drafts" folder contains all of the pre-exported W3C ReSpec sources including the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [STAR](https://w3c.github.io/sustyweb/drafts/star.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json) and other supplements.
