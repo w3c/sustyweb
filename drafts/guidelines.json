@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Fifth Draft",
-	"lastModified": "2024-02-25",
+	"lastModified": "2024-02-29",
 	"category": [
 		{
 			"id": "1",
@@ -2363,13 +2363,15 @@
 							"Front-End Performance 2021: Defining The Environment": "https://www.smashingmagazine.com/2021/01/front-end-performance-defining-the-environment/",
 							"[GR491] 5-3036 - Necessary Analytics": "https://gr491.isit-europe.org/en/crit.php?id=5-3036-uxui-the-analytics-data-collect-is-installed-in",
 							"[GR491] 6-3045 - Third-party Solutions": "https://gr491.isit-europe.org/en/crit.php?id=6-3045-uxui-third-party-solutions-may-provide-value-to",
-							"JavaScript performance": "https://developer.mozilla.org/en-US/docs/Learn/Performance/JavaScript",
 							"GreenIT (French) 019 - Remplacer les boutons officiels de partage des réseaux sociaux": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_019_fr.md",
 							"GreenIT (French) 4030 - Limiter le recours aux carrousels": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_4030_fr.md",
+							"How ad platforms like Facebook, Google, and others drive climate change": "https://asemakula.medium.com/how-ad-platforms-like-facebook-google-and-others-sneakily-drive-climate-change-152194836e81",
 							"How efficient code increases sustainability in the enterprise": "https://venturebeat.com/programming-development/how-efficient-code-increases-sustainability-in-the-enterprise/",
 							"How large DOM sizes affect interactivity": "https://web.dev/articles/dom-size-and-interactivity",
 							"How tracking pixels work": "https://jvns.ca/blog/how-tracking-pixels-work/",
+							"JavaScript performance": "https://developer.mozilla.org/en-US/docs/Learn/Performance/JavaScript",
 							"Lighthouse: Lazy load third-party resources with facades": "https://gtmetrix.com/lazy-load-third-party-resources-with-facades.html",
+							"Make Better Ads (PDF)": "https://assets.ctfassets.net/ozc5on9ss4ee/1CY4ycGNINwaVU1efbjN9B/c4077a6d5fdac802838ff1d19be21b51/WeTransfer_Advertising_-_Make_better_ads_whitepaper_-_2023.pdf",
 							"MicroJS": "http://microjs.com/",
 							"Measuring energy consumption of cross-platform frameworks for mobile applications (PDF)": "https://www.math.unipd.it/~gaggi/doc/webistext15.pdf",
 							"Reducing The Web's Carbon Footprint: Optimizing Social Media Embeds": "https://www.smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/",
@@ -3536,6 +3538,7 @@
 							"Quick Guide to Sustainable Design Strategies": "https://medium.com/disruptive-design/quick-guide-to-sustainable-design-strategies-641765a86fb8",
 							"RECs, PPAs, Allowances and EECs": "https://www.offsetguide.org/understanding-carbon-offsets/other-instruments-for-claiming-emission-reductions/",
 							"Reduce, Reuse, Recycle": "https://www.scientificamerican.com/article/reduce-reuse-recycle-why-all-3-rs-are-critical-to-a-circular-economy/",
+							"Reporting requirements on the energy performance and sustainability of data centres for the Energy Efficiency Directive": "https://op.europa.eu/en/publication-detail/-/publication/d9404897-7221-11ee-9220-01aa75ed71a1/language-en",
 							"Revealed: more than 90% of rainforest carbon offsets by biggest certifier are worthless, analysis shows": "https://www.theguardian.com/environment/2023/jan/18/revealed-forest-carbon-offsets-biggest-provider-worthless-verra-aoe",
 							"Sustainability Guide: Product": "https://sustainabilityguide.eu/ecodesign/product/",
 							"Sustainability Guide: Use": "https://sustainabilityguide.eu/ecodesign/use/",
@@ -4007,7 +4010,7 @@
 							"Serve websites over HTTPS": "https://www.ncsc.gov.uk/blog-post/serve-websites-over-https-always",
 							"The Complete Guide to Event-Driven Architecture": "https://solace.com/what-is-event-driven-architecture/",
 							"What is an Event-Driven Architecture?": "https://aws.amazon.com/event-driven-architecture/",
-							"What Is Event-Driven Architecture?": "https://blog.hubspot.com/website/event-driven-architecture",
+							"What Is Event-Driven Architecture?": "https://blog.hubspot.com/marketing/event-driven-architecture",
 							"Why HTTPS matters": "https://web.dev/articles/why-https-matters",
 							"Why You Shouldn't Use FTP or HTTP if You Care About Security": "https://www.automox.com/blog/you-shouldnt-use-ftp-or-http"
 						}
@@ -4091,11 +4094,11 @@
 							"MySQL Has Functions (Part 5) : PHP vs MySQL Performance": "https://onextrapixel.com/mysql-has-functions-part-5-php-vs-mysql-performance/",
 							"Microsoft Emissions Impact Dashboard": "https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard",
 							"Public CDNs Are Useless and Dangerous": "https://httptoolkit.com/blog/public-cdn-risks/",
+							"Reporting requirements on the energy performance and sustainability of data centres for the Energy Efficiency Directive": "https://op.europa.eu/en/publication-detail/-/publication/d9404897-7221-11ee-9220-01aa75ed71a1/language-en",
 							"The Hosting Server Location & What It Means For Website SEO": "https://www.linkedin.com/pulse/hosting-server-location-what-means-website-seo-ernest-ekwoge-metuge/",
 							"The Utility of the Future (PDF)": "https://l.leitmotiv.digital/future-digital-utility-fullreport",
 							"What are dual-use data centers and how they drive energy efficiency": "https://venturebeat.com/data-infrastructure/what-are-dual-use-data-centers-and-how-they-drive-energy-efficiency/",
-							"What is a Content Delivery Network - A Beginner's Guide": "https://imagekit.io/blog/what-is-content-delivery-network-cdn-guide/",
-							"When to serve your website through a CDN and when not to": "https://sustainablewww.org/when-to-serve-your-website-through-a-cdn-and-when-not-to/"
+							"What is a Content Delivery Network - A Beginner's Guide": "https://imagekit.io/blog/what-is-content-delivery-network-cdn-guide/"
 						}
 					],
 					"tags": ["Content", "Performance", "Hardware", "Networking"]
@@ -4314,6 +4317,7 @@
 							"How To Write a Code of Ethics: 5 Steps to Follow": "https://www.contractscounsel.com/b/how-to-write-a-code-of-ethics",
 							"How to Write an Effective Product Requirements Documents": "https://www.jamasoftware.com/requirements-management-guide/writing-requirements/how-to-write-an-effective-product-requirements-document",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
+							"Mitigating our impact on the planet through service design": "https://uxdesign.cc/mitigating-our-impact-on-the-planet-through-services-474859a5b6be",
 							"Quick Guide to Sustainable Design Strategies": "https://medium.com/disruptive-design/quick-guide-to-sustainable-design-strategies-641765a86fb8",
 							"[RGESN] (French) 1.12 - Ecodesign Statement": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/1.12/",
 							"[RGESN] (French) 4.14 - Informed Visitors": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.14/",
