@@ -451,7 +451,7 @@
 						},
 						{
 							"title": "Navigable Sitemaps",
-							"description": "Implement an efficient (human-readable) sitemap that is organized and regularly updated helps search engines better index website content, which helps visitors more quickly find what they are looking for."
+							"description": "Implementing an efficient (human-readable) sitemap that is organized and regularly updated helps search engines better index website content, which helps visitors more quickly find what they are looking for."
 						},
 						{
 							"title": "New Content",
@@ -906,7 +906,7 @@
 						},
 						{
 							"title": "Lazy Loading",
-							"description": "Provide Lazy Loading to ensure image assets only loads when they are required."
+							"description": "Provide Lazy Loading to ensure image assets only load when they are required."
 						},
 						{
 							"title": "Sizing And Deactivation",
@@ -2814,7 +2814,7 @@
 							"Social Equity": "Low-powered devices are frequently used in developing nations, but ensuring that content works for older devices is paramount.",
 							"Accessibility": "Mobile-first websites usually incorporate large, touch-friendly buttons, simplified navigation menus, and clear readable fonts. This often makes it easier for individuals with visual or motor impairments to interact with than a traditional desktop layout and could prove to be beneficial for certain visitors to take advantage of.",
 							"Performance": "Using lazy-loading and other delayed rendering techniques can boost website speed for small visual capacity devices.",
-							"Economic": "Ensuring that your website or application works across not only desktop devices but also smartphones and other unique screen resolutions can benefit you financially as it allows for individuals to make purchases while on the move (which can be more convenient), while potentially using little or no screen.",
+							"Economic": "Ensuring that your website or application works across not only desktop devices but also smartphones and other unique screen resolutions can benefit you financially as it allows individuals to make purchases while on the move (which can be more convenient), while potentially using little or no screen.",
 							"Conversion": "Products and services that work well across a wider range of platforms and devices can encourage a wider audience to use your website or application not only in one situation but in many you might not have envisaged."
 						}
 					],
@@ -5502,7 +5502,7 @@
 						},
 						{
 							"title": "Environmental Responsibilities",
-							"description": "Organizations must consider, audit, and account for any environmental considerations that may derive from the use of emerging technologies they wish to either promote or implement within a chosen setting. Also note that this should include third-party choices, the \"expense\" (in terms of waste or emissions) of the utilization of the technology to create a desired result, and consequential issues to the environment that may arise from its deployment."
+							"description": "Organizations must consider, audit, and account for any environmental considerations that may derive from the use of emerging technologies they wish to either promote or implement within a chosen setting. Also note that this should include third-party choices, the \"expense\" (in terms of waste or emissions) of the utilization of the technology to create a desired result and consequential issues to the environment that may arise from its deployment."
 						},
 						{
 							"title": "Quantum Resilience",
