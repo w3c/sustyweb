@@ -1397,6 +1397,215 @@
 							</div>
 						</details>
 					</li>
+					<li> <!-- UX-56: Detect Form Requirements and Identify Data Collection Policies -->
+						<details>
+							<summary>UX-56: Detect Form Requirements and Identify Data Collection Policies</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to reduce the amount of friction that occurs when information is required to be entered on a form control within a user-interface. By identifying how many elements must be filled out (and those which are not mandatory being eliminated), clearly labeling how such components need to be filled out (and how many steps there are), plus having links to data collection policies, this friction can be substantially reduced.</p>
+								<p>Reducing form friction can lead to less unnecessary data transmission which is not only beneficial in terms of privacy and security (the social component of ESG) but also having fewer form elements or steps to render will have an emissions reduction due to the lower amount of individual elements to render to the screen (and the visitor will spend less time on-screen filling the forms in).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Domain Registrar <a href="https://iwantmyname.com/support">iWantMyName</a> takes form filling to the most minimal extent possible on their contact page, only providing three essential fields to deal with requests, each of which is clearly labeled.</li>
+									<li>The <a href="https://account.bbc.com/register">registration page for BBC iPlayer</a> is a multi-step process that is well designed and labeled to avoid overwhelming new users and it only requests the minimum amount of data necessary to set up an account.</li>
+									<li>This <a href="https://symptomate.com/">medical diagnosis application</a> decides what information is required to be filled in next upon the previous submission, thereby only relevant questions are being asked (leading to less redundancy in form filling).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check how many steps there are in an input process and if this can be reduced.</li>
+									<li>Check that all form components are clearly labeled and disclose their purpose.</li>
+									<li>Check that only necessary form elements are displayed onscreen.</li>
+									<li>Check that a publicly displayed data collection policy link is visible (this may be a section of a privacy policy).</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-57: Reduce Friction Within Data Entry With Automatic Assistance Settings -->
+						<details>
+							<summary>UX-57: Reduce Friction Within Data Entry With Automatic Assistance Settings</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism within forms to reduce friction that might occur during necessary data entry. Such data entry will cause visitors to spend time onscreen and as such will generate emissions in addition to frustration from failed attempts leading to potential escalation of such emissions being triggered (while also conserving bandwidth).</p>
+								<p>For machine testability, the autocomplete attribute should be disabled in all form inputs outside of those likely to be utilized / assisted by a password manager (this is especially true where the suggestions do not come from a visitor device but a third-party and additional bandwidth or rendering processes are likely to be endured). A list of such inputs can be identified from a common password manager and marked against each form for correctness.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.grammarly.com/signin">Login forms such as Grammerly</a> can be detected by password manager software and therefore have a benefit for autocompletion (as visitors cannot be expected to remember personal details across all websites).</li>
+									<li><a href="https://www.jotform.com/form-templates/job-application">Filling in an application form</a> should allow autocomplete for elements of a profile that may be contained within a password manager (such as name, email, and phone), but should be disabled in all other formats to prevent the text element from attempting to anticipate the visitor's responses.</li>
+									<li>The HTML Hell advent calendar has a <a href="https://www.htmhell.dev/tips/autocompleting-password-fields/">great article on providing autocomplete</a> for the sake of third-party tooling access such as password managers. It includes a range of examples and links to additionally useful articles that might guide decision-making.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that autocomplete is enabled in all username and password fields.</li>
+									<li>Check that autocomplete is enabled in all identity (E.G. address, email) fields.</li>
+									<li>Check that autocomplete is disabled in all other input fields.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-58: Provide Compatibility for Non-Visual Browsing Methods -->
+						<details>
+							<summary>UX-58: Provide Compatibility for Non-Visual Browsing Methods</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for those not using a screen as a primary method of browsing to have an equal browsing experience. This is primarily due to screens being a high emitter of emissions in terms of energy usage, but also with the increase in speech-powered devices, the need for support mechanisms to be in place has increased in recent years.</p>
+								<p>Detection of such support can be clearly identified with good semantics and high-quality content as a foundation, however for machine testability, thresholds such as having a speech stylesheet in place (that can help with issues around pronunciation and tone) and testing projects within text browsers for fundamental mechanical issues are critical to establish a pass.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The <a href="https://lynx.invisible-island.net/">Lynx text browser</a> is one of the oldest maintained browsers on the Internet and it can be particularly useful in identifying issues around keyboard navigation and non-visual browsing when features are unavailable.</li>
+									<li>This <a href="https://www.smashingmagazine.com/2020/12/making-websites-accessible/">article from Smashing Magazine</a> describes in detail how websites and applications can make their work easier for non-visual devices such as speech environments (like cars and smart speakers) to access.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check for a speech stylesheet for indicators to clarify pronunciation issues.</li>
+									<li>Check that your website or application functions correctly in a text-only environment.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-61: Provide Error Detection When User Input Is Required -->
+						<details>
+							<summary>UX-61: Provide Error Detection When User Input Is Required</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism to notify the visitor if an issue has occurred during the form-filling process that may be remedied either before or after the submission process has occurred to resolve the issue before it reaches its intended location. Providing error detection and assistance can reduce friction and screen time searching for answers.</p>
+								<p>Machine testability for error detection would require the submission of dummy data (incorrectly) into a form of required elements to test the durability of the process to see if instructional recommendations are given. Such prompts that either correct or guide the visitor can be deemed to pass the Success Criteria. If no guidance is offered or if forms are incorrectly labeled, leading to errors, this would qualify as a failure as visitor friction will occur.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>This <a href="https://www.w3.org/WAI/WCAG22/working-examples/script-form-validation-2/index.php">example of client-side form validation</a> based on <a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR32.html">WCAG Technique SCR32</a> showcases a classic example of error handling and how providing a response to the user input when failure occurs is important.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that HTML form components are correctly labeled (for example, required elements, and content types).</li>
+									<li>Check that JavaScript error handling is provided for the client-side (pre-submission).</li>
+									<li>Check that server-side error handling is provided for post-submission (no JavaScript) issues.</li>
+									<li>Check that all prompts occur in a suitable location, relative to the error occurring.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-62: Add a Print-Friendly Media Query or Stylesheet -->
+						<details>
+							<summary>UX-62: Add a Print-Friendly Media Query or Stylesheet</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to reduce the amount of excessive paper and ink resource mineral waste produced from the physical printing of documents by visitors of your products and services. By creating a customized print stylesheet you can optimize the use of these resources and improve readability of the layout if the document is exported into a static format such as PDF.</p>
+								<p>This technique is most useful when it covers a lot of issues that physical formats can suffer over their digital counterparts (such as no interactivity), the necessity of color usage or content, breaks in flow and pages, etc. Machine testability can examine the stylesheet for such feature handling as compliance with Success Criteria (link expansion, paper size support, CSS resets, etc).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The <a href="https://printedcss.com/">Printed CSS Framework</a> contains a multitude of features intended to reduce the impact of printed media, with additional support for handling a range of special developer set cases that can be defined in HTML.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the website or application has a print-friendly media query (@print) or stylesheet.</li>
+									<li>Check that the print CSS makes attribute content and URLs visible.</li>
+									<li>Check that the print CSS considers content color accuracy and monochrome options.</li>
+									<li>Check that the print CSS considers paper orientation, color, and size.</li>
+									<li>Check that the print CSS hides unnecessary structural material.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-63: Optimizing All Document Assets Across a Variety of Different Formats -->
+						<details>
+							<summary>UX-63: Optimizing All Document Assets Across a Variety of Different Formats</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that non-web documents are not only served in a range of compatible (suitable) formats for the device requesting them but also to make sure that the documents being served have been compressed using a suitable algorithm to provide the asset at the lowest bandwidth requirements possible to the visitor, thereby improving multiple ESG variables and increasing performance.</p>
+								<p>Compression tests can be run against every document format to identify if improvements can be made without losing too much quality that visibility becomes degraded and therefore a recognition issue (in embedded images and media within). The primary format given to visitors should be the one with the widest compatibility for viewing within the browser plugin-free (usually PDF).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>A legal document that an individual will need to read through before potentially taking part in an offline process (that is partially handled online) may require such a process. Avoiding the necessity to download and install additional software wherever possible will reduce emissions.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the primary document format is the most browser-compatible.</li>
+									<li>Check that more than one format is given if a non-Web format is offered for compatibility.</li>
+									<li>Check for compression potential against every available document asset.</li>
+									<li>Provide optimized solutions if document problems have been detected.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-64: Provide Document Details Including a URL Within a Page -->
+						<details>
+							<summary>UX-64: Provide Document Details Including a URL Within a Page</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for individuals to access downloadable or embeddable documents without the material having been embedded within the document. Embedded content has an attributable carbon cost due to the rendering of the host applications processes as well as the content and there is a chance visitors clicked a link in error.</p>
+								<p>Providing structural information about resources including direct links to files in preference to auto-loading content keeps the visitor in control, avoiding the loading and rendering of necessary resources. Machine testability of such components can test for embedded elements to avoid clearly marked-up document descriptions and direct URL links that are user-enacted.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Smashing Magazine provides a copy of their <a href="https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/">front-end performance checklist</a> in a multitude of formats, and this is described with direct links at the top of their open HTML version of the same document.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that document pages do not embed large files (internally or with third-parties).</li>
+									<li>Check that document links are clearly described with information about name, format, language, size, and potentially a summary.</li>
+									<li>Check for choice options with format and language variables in documents.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-65: Identify a Stakeholder-Focused Testing and Prototyping Policy -->
+						<details>
+							<summary>UX-65: Identify a Stakeholder-Focused Testing and Prototyping Policy</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to identify the way new features, product ideas, and user-interface components will be tested among various stakeholder groups such as those with with accessibility issues. The main location for such an outline will be through a stakeholder-focused testing & prototyping policy and as such once implemented publicly, a link to the policy should be available.</p>
+								<p>Machine detection could use heuristics to identify key policies within the text, however at a basic level, being able to identify the policy exists, potentially within the footer of a website or application along with other policies and legal documents, and then further analysis of individual headline elements of key sections of the document, should be enough to justify a passing criteria.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The <a href="https://www.gov.uk/service-manual/user-research/using-moderated-usability-testing">UK Government</a> has a publicly visible Usability Testing (User Research) guide within their service manual which outlines the processes they aim to follow when conducting such activities for their service.</li>
+									<li>The <a href="https://www.st-andrews.ac.uk/digital-standards/policies/usability-testing/">University of St Andrews</a> has a publicly facing Usability Testing Policy that covers and applies to all staff that undertake usability testing at the campus at that university. It's well broken down and explanatory.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if a Testing policy is both published and publicly visible.</li>
+									<li>Check for key policy factors are presented within the text (optional).</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
 				</ol>
 			</section>
 			<section> <!-- Web Development -->
