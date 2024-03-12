@@ -229,13 +229,14 @@
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
 								<ol>
+									<li>Check to see if deliverables require internal access (if so, permission is given).</li>
 									<li>Gather metrics data through browser APIs, analytics, or third-party software.</li>
 									<li>Identify resolvable variables that are causing ESG issues.</li>
 									<li>Once validated as accurate, test further using non-machine testable qualitative methods such as A / B measurement or feedback forms.</li>
 								</ol>
 								<p>Expected Results</p>
 								<ol>
-									<li>If #1 and #2 above are true.</li>
+									<li>If #1, #2 and #3 above are true.</li>
 								</ol>
 							</div>
 						</details>
@@ -769,6 +770,7 @@
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
 								<ol>
+									<li>Check to see if deliverables require internal access (if so, permission is given).</li>
 									<li>Check that the instructions, manual, or documentation exist.</li>
 									<li>If the documentation does not exist, flag a request to produce materials.</li>
 									<li>Check for multiple format types such as HTML, PDF, checklists, slideshow, and video.</li>
@@ -1598,6 +1600,250 @@
 								<ol>
 									<li>Check if a Testing policy is both published and publicly visible.</li>
 									<li>Check for key policy factors are presented within the text (optional).</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-69: Produce a List of Checkpoints To Ensure Quality Control -->
+						<details>
+							<summary>UX-69: Produce a List of Checkpoints To Ensure Quality Control</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to produce a comprehensive maintainable list of quality assurance lists across a range of different categories not limited to bugs, security, web performance, accessibility, sustainability, etc. By having this list in place, everyone involved in the creation process can closely monitor the application or website against each checkpoint to identify resolutions either before, during, or after a product or service is launched.</p>
+								<p>This list should be created during ideation if possible but can also be machine-generated from a pre-determined set of lists relating to these topics based upon evidence and research. The content of this material can potentially be further tested through automation however at a bare minimum, this list must be utilized in-house to enact sustainable change. For machine testability, if this list is not publicly visible, internal access will be required to determine creation.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://developer.chrome.com/docs/lighthouse/overview">Lighthouse</a> is an open source project which enables both the auditing and production of reports of websites and applications for several common issues across a range of categories from within a web browser.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check to see if deliverables require internal access (if so, permission is given).</li>
+									<li>Check that the testing regime is available (internally or externally).</li>
+									<li>Identify all bug and security tests to perform during the testing process.</li>
+									<li>Identify all web performance tests to perform during the testing process.</li>
+									<li>Identify all web accessibility tests to perform during the testing process.</li>
+									<li>Identify all web sustainability tests to perform during the testing process.</li>
+									<li>Report and resolve the findings within your auditing process.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-70: Provide Active Monitoring for Issues on a Frequent Schedule -->
+						<details>
+							<summary>UX-70: Provide Active Monitoring for Issues on a Frequent Schedule</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that problems relating to the sustainability of a website can be picked up with more frequency and regularity. Within the scope of website and application testing, it is important to be actively monitoring for common failure points that build over time and upon being notified of said issues provide resolutions within a reasonable timeframe.</p>
+								<p>Machine testability for this implementation will be based on the mechanism used for testing. For instance, if a product or service provider chooses to simply run routine tests on a scheduled basis this may be considered a pass as long as the time between scans is frequent enough that it can be considered active in opposition to occasional (weekly would be the widest margin).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.speedcurve.com/">Speedcurve</a> is a commercial product that actively monitors websites for performance issues (broken down by category in rendering) and can provide advisory guidance on meeting targets for performance budgets.</li>
+									<li><a href="https://search.google.com/search-console/about">Google Search Console</a> is a free product that monitors websites for issues that may affect their ability to be indexed within the Google search engine, which notably can impact their overall global page visibility.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that testing occurs hourly / daily / weekly to be considered active.</li>
+									<li>Check that all publicly visible pages are included within the monitoring.</li>
+									<li>Check that the facility providing the monitoring meets the WSGs.</li>
+									<li>Check that a report of ongoing listed issues is publicly available until fully resolved.</li>
+									<li>Provide resolutions for detected issues within a timely manner.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-71: Scan for Introduced Issues Upon the Completion of a New Release -->
+						<details>
+							<summary>UX-71: Scan for Introduced Issues Upon the Completion of a New Release</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for eliminating any potential new flaws that may have been introduced into a website or application upon the release of a new version that will have additional updates or features that could break functionality if not implemented correctly. As such, enforcing a sustainability scan across a series of variables is critical.</p>
+								<p>For machine testability, the necessity of automation of running a scan could be triggered on the publication of each new release, or for more nuanced control (where active monitoring already exists and non-breaking features are being introduced), a scan could be triggered only where only a major release is issued when breaking changes are more likely to occur.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.w3.org/WAI/test-evaluate/tools/list/">Accessibility scanners</a> can use the machine-testable elements of WCAG to help identify issues that can be resolved. While they aren't a silver bullet and cannot replace manual audits they can identify some issues.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that all publicly visible pages are included within the monitoring.</li>
+									<li>Check for a wide variety of issues within the scope of the WSGs.</li>
+									<li>Check that a report of ongoing listed issues is publicly available until fully resolved.</li>
+									<li>Provide resolutions for detected issues within a timely manner.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-72: Establish Performance Testing Routines With Each New Release -->
+						<details>
+							<summary>UX-72: Establish Performance Testing Routines With Each New Release</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to encourage a routine to improve web performance within websites and applications due to the established link between web performance optimization and digital sustainability. Running regular benchmarks and working from checklists (either prefabricated or built from scratch) will encourage a schedule to identify potential bottlenecks.</p>
+								<p>The content of these testing routines can potentially be further tested through automation however at a bare minimum, this list must be utilized in-house to enact sustainable change. For machine testability, if this list is not publicly visible, internal access will be required to determine whether creation has taken place.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Smashing Magazine has a comprehensive <a href="https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/">front-end performance checklist</a> that could be utilized as part of a routine in release schedule checking for Web performance issues that may exist or have been introduced.</li>
+									<li><a href="https://dev.to/ben/addy-osmanis-18-point-web-performance-checklist-2e1">Addy Osmani back in 2018</a> created an 18-point Web performance checklist that if you're looking for something more simplistic and rapid to compare builds against could potentially be very useful as a starting point.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check to see if deliverables require internal access (if so, permission is given).</li>
+									<li>Check that the testing regime is available (internally or externally).</li>
+									<li>Identify all web performance tests to perform during the testing process.</li>
+									<li>Report and resolve the findings within your auditing process.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-73: Provide Compliance Checks With Each Release for Relevant Legislation -->
+						<details>
+							<summary>UX-73: Provide Compliance Checks With Each Release for Relevant Legislation</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism during the development process where businesses and individuals creating Web projects can verify that new work meets compliance targets for individual regulations. This technique is most useful when performed with each major milestone as there is a potential for feature (and compliance) breaking material to occur.</p>
+								<p>Within the scope of sustainability, this is increasingly important as there are explicit laws surrounding the subject in addition to expanded ESG remits such as accessibility, privacy, etc. In terms of machine testability the mechanics of an implementation may be more difficult than utilizing an automated checker, but wizard software can work through questions to help identify key issues.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Internationally reaching environmental legislation such as <a href="https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en"><abbr title="Corporate Sustainability Reporting Directive">CSRD</abbr></a> and the <a href="https://www.europarl.europa.eu/news/en/press-room/20240112IPR16772/meps-adopt-new-law-banning-greenwashing-and-misleading-product-information">Green Claims Directive</a> provide stricter enforcement around product descriptions and the need to reduce emissions and accurately report such efforts.</li>
+									<li>Accessibility legislation (<a href="https://www.w3.org/WAI/policies/">of which there are many worldwide</a>) provides strict enforcement around ensuring inclusivity not just offline but also in the digital sphere as well, leaving non-compliance open to lawsuit risks.</li>
+									<li>Internationally reaching privacy legislation such as <a href="https://gdpr-info.eu/"><abbr title="General Data Protection Regulation">GDPR</abbr></a> can also impact digital services on a sustainability level (through the social aspect of ESG), and <a href="https://gdpr.eu/checklist/">various</a> <a href="https://gdprchecklist.io/">checklists</a> can assist.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check to see if deliverables require internal access (if so, permission is given).</li>
+									<li>Check that the testing regime is available (internally or externally).</li>
+									<li>Identify all relevant compliance checks to perform during testing process.</li>
+									<li>Report and resolve the findings within your auditing process.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-76: Provide a Publicly Visible Compatibility Policy or Statement -->
+						<details>
+							<summary>UX-76: Provide a Publicly Visible Compatibility Policy or Statement</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that visitors are made aware of (or able to find out) the limitations of a product or service before issuing a support request that will involve creating new emission sources. This compatibility policy can be listed amongst other policies on a website, however, it must contain detailed information about any factor that may have reduced capability.</p>
+								<p>For machine testability, attempt to first establish that the policy exists and then try using heuristics (or identification of the headlines) to locate sections on what is both actively supported (those conditions tested upon), and those that are confirmed as unsupported (those conditions known to be broken but will not be fixed with reasons given). Ensure that a support method is also provided.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>British cellphone provider GiffGaff provides a <a href="https://www.giffgaff.design/guidelines/browser-support-policy/">web browser support policy</a> that identifies which browsers they support and don't actively support plus they also offer the <a href="https://www.giffgaff.io/tech/creating-a-browser-support-policy">justification behind their decisions</a>.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check for a compatibility policy or statement's existence.</li>
+									<li>Check for sections on included and excluded coverage.</li>
+									<li>Check that a support method is offered for issues outside of scope.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-77: Provide Clarification When Updates Are Significant Over Minor Releases -->
+						<details>
+							<summary>UX-77: Provide Clarification When Updates Are Significant Over Minor Releases</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for introducing visitors to new features and capabilities within websites and applications upon a major release being triggered. This would include compatibility changes, any alterations that affect workflow, and bugs that have been resolved. It applies equally to both applications on upgrade paths and website redesigns.</p>
+								<p>The importance of re-orientating users around breaking changes is crucial as modifications made could lead to errors in usage, increases in technical support, friction in usability or accessibility, or introduction of issues that may lead to multiple impacting ESG factors that could be resolved through training, answered questions, and well-signposted information architecture.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Using <a href="https://semver.org/">Semantic Versioning</a>, providers through their release notes (which if publicly available could be machine tested against), could easily identify a major (breakable significant), against a minor (non-breaking) release.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check for a publicly available change.log or release notes.</li>
+									<li>Check that the frequency of updates has not been less than 12 months.</li>
+									<li>Check that major releases provide details of breaking features.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-78: Establish Compatibility Testing Routines With Each New Release -->
+						<details>
+							<summary>UX-78: Establish Compatibility Testing Routines With Each New Release</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that compatibility issues resulting from visitor constraints (such as operating system or browser age / connection speed, availability, or cost) are factored into the testing process at each new release. Creators must have processes in place whether through checklists that are pre-created or crafted from scratch to ensure that a regime is in place.</p>
+								<p>In terms of machine testability, some tools can provide virtualized emulations of certain operating systems and thereby load products and services to undertake tests (or screenshots) to examine compatibility. Data also exists regarding mobile data charges and connection speeds which can be used to emulate or identify the compatibility costs associated with projects.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.browserstack.com/">Browser Stack</a> and <a href="www.lambdatest.com">LambadaTest</a> provide virtual testing (which can be automated) amongst a variety of common web browsers allowing testers to identify flaws in their website or application's compatibility.</li>
+									<li><a href="https://whatdoesmysitecost.com/">What Does My Site Cost</a> calculates the amount of money a website will cost in terms of network fees to an individual around the world based on open data which can be a useful incentive to reduce excessive data use.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check to see if deliverables require internal access (if so, permission is given).</li>
+									<li>Check that the testing regime is available (internally or externally).</li>
+									<li>Identify all compatibility tests to perform during the testing process.</li>
+									<li>Report and resolve the findings within your auditing process.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX-80: Provide a PWA if More Suitable Than Its Native Counterpart -->
+						<details>
+							<summary>UX-80: Provide a <abbr title="Progressive Web Application">PWA</abbr> if More Suitable Than Its Native Counterpart</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to identify a web application that exists and then determine if turning the web application into a progressive web application would be more beneficial than providing a native offering. This would need to take into account current web capabilities (such as ServiceWorkers), methods of delivery (such as <abbr title="Web Assembly">WASM</abbr>), and the human aspect (audience requirements).</p>
+								<p>Machine testability can firstly examine the existing state of an application to determine how sustainable it is and what technology stack was used to develop it (and how sustainable it already performs for all), from there, data points can be used to identify an approximate cost of implementation for both a native or highly optimized web application endpoint and options can be provided.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Native applications may be a good choice if applications require specific access to hardware as Web APIs can still be quite restrictive. In addition, there is a case for going native to provide a more <abbr title="Operating System">OS</abbr>-centric look and feel.</li>
+									<li>Web applications are often quicker and easier to deploy and can provide updates without delays in the pipeline (as they don't have to go through store controls), they can also benefit from lower creation costs.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if the existing application already utilizes a ServiceWorker.</li>
+									<li>If so, check the PWA JavaScript and JSON are well formed, and the icon exists.</li>
+									<li>If not calculate the sustainability impact of becoming a PWA.</li>
+									<li>Check that no native application already exists (<a href="https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners">meta tag smart banner</a>).</li>
+									<li>If so use that, otherwise calculate the sustainability impact of building an application.</li>
+									<li>If cost-efficient sustainability-wise, implement a PWA or / and a native application.</li>
 								</ol>
 								<p>Expected Results</p>
 								<ol>
