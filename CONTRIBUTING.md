@@ -14,7 +14,7 @@ We welcome content from individuals as well as group efforts and understand that
 
 ## File Structure
 
-The structure of the repository has been created to ensure ease of maintenance. The base directory contains all of the compiled files that are public facing such as the specification, supplementary documents, the JSON API, and other materials. The "drafts" folder contains all of the pre-exported W3C ReSpec sources including the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [STAR](https://w3c.github.io/sustyweb/drafts/star.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json) and other supplements.
+The structure of the repository has been created to ensure ease of maintenance. The base directory contains all of the compiled files that are public facing such as the specification, supplementary documents, the JSON API, and other materials. The "drafts" folder contains all of the pre-exported W3C ReSpec sources including the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [laws & policies](https://w3c.github.io/sustyweb/drafts/policies.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [STAR](https://w3c.github.io/sustyweb/drafts/star.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json) and other supplements.
 
 ```
 
@@ -24,6 +24,7 @@ The structure of the repository has been created to ensure ease of maintenance. 
 /drafts/guidelines.json			- WSG JSON API (Source)
 /drafts/index.html			- WSG Specification (Source)
 /drafts/intro.html			- Introduction (Source)
+/drafts/policies.html			- Laws & Policies (Source)
 /drafts/quickref.html			- Quick Reference (Source)
 /drafts/star.html			- STAR (Source)
 
