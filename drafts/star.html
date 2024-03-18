@@ -1281,7 +1281,7 @@
 								<p>The alternative format provided should be in HTML as this can be marked up to be Web accessible (and as an open format it can be maintained to be sustainable to meet ESG targets). The choice of which format to use should be clearly identified both using text and (if possible) using iconography, and if a default format needs to be set, having the open format is best.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li>The book <a href="Eloquent JavaScript"></a> has been written primarily in HTML but also has an offline compiled PDF, ePub, and MOBI version available for individuals who would prefer to make use of these eReader-safe formats.</li>
+									<li>The book <a href="https://eloquentjavascript.net/">Eloquent JavaScript</a> has been written primarily in HTML but also has an offline compiled PDF, ePub, and MOBI version available for individuals who would prefer to make use of these eReader-safe formats.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -1856,9 +1856,1182 @@
 			</section>
 			<section> <!-- Web Development -->
 				<h3><dfn data-lt="WebDev">Web Development</dfn></h3>
-				<p class="ednote" title="Awaiting Content">
-					This will contain testable and implementable techniques for this category.
-				</p>
+				<p>Each of the below can be shown or hidden by clicking on the technique you wish to display.</p>
+				<ol>
+					<li> <!-- WD01-1: Profile Existing Projects To Identify Common Variables of Value -->
+						<details>
+							<summary>WD01-1: Profile Existing Projects To Identify Common Variables of Value</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to identify any technical indicators which may be of use within a sustainability budget or those that can be immediately identified as exceeding a recommended level for an average page size thereby indicating that the document should be split or broken down into either two or more pieces to reduce the impact of the experience upon the visitor.</p>
+								<p>Factors that may be taken into account could include an extremely long document that would require excessive scrolling (based on either the visual spacing or the number of <abbr title="Document Object Model">DOM</abbr> elements involved), the number of DOM elements could also be a factor as too many could produce unwarranted rendering loads, also excessive <abbr title="Hypertext Transfer Protocol">HTTP</abbr> requests can produce a lot of overhead.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Websites that need to display a large number of icons may choose to bundle the <a href="https://levelup.gitconnected.com/build-an-icon-system-with-svg-sprites-a-complete-guide-1e195820ac6a">vector images into a sprite</a> which avoids the HTTP requests overhead and allows requesting (and repeat usage) through references.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check the visual spacing of elements is not too cramped.</li>
+									<li>Check the scroll length of the document does not exceed a stated length.</li>
+									<li>Check the number of DOM nodes in the tree does not exceed a stated number.</li>
+									<li>Check the number of HTTP requests does not exceed a stated number.</li>
+									<li>Check if optimizing will be beneficial, if so, implement a solution.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD01-2: Calculate the Energy Intensity of Technologies for Existing Projects -->
+						<details>
+							<summary>WD01-2: Calculate the Energy Intensity of Technologies for Existing Projects</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to distinguish different technologies and the role they play, identifying which are the most resource-intensive and providing either a mechanism to reduce the intensity of heavy payloads or to load-balance the most demanding aspects of these features. It's important to consider that in terms of rendering, data transfer is not the only consideration.</p>
+								<p>In terms of machine testability, calculating the percentage of HTML, CSS, JavaScript, images, media, etc, isn't enough. It's critical to weigh and calculate the energy requirements of each aspect of those languages on an atomic level to identify potential rendering issues from the browser as these will impact upon hardware (CPU, GPU, <abbr title="Random Access Memory">RAM</abbr>, and other variables) having ESG implications.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Primary <a href="https://websitesustainability.com/#content">research exists</a> to calculate the energy intensity of front-end specifications and this could guide your ability to identify the energy intensity of components beyond the amount of data transferred.</li>
+									<li><a href="https://www.thegreenwebfoundation.org/co2-js/">Co2.js</a> is a JavaScript library that can help developers estimate the relative carbon emissions of their applications, websites, and software using several variables (though it won't account for everything).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check the energy intensity of the HTML elements and attributes used.</li>
+									<li>Check the energy intensity of CSS At-Rules, Selectors, Pseudo's, Properties, and Values.</li>
+									<li>Check the energy intensity of JavaScript, DOM, <abbr title="Cascading StyleSheets Object Model">CSSOM</abbr>, and API usage.</li>
+									<li>Check the energy intensity of image and media usage.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD02-1: Minify Your Front-End Code if It Is Public Facing -->
+						<details>
+							<summary>WD02-1: Minify Your Front-End Code if It Is Public Facing</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism in which your production-ready source code can have unnecessary data such as code comments, whitespace data, and machine-detectable redundancy removed to deliver the smallest file payload possible to the visitor. This will improve both the speed of your site and lower screen usage (wait) time.</p>
+								<p>In terms of machine testability, the functions of a minification tool can be replicated for the languages HTML, CSS, and JavaScript using scripts and these can identify improvements to be made. Function names can be uglified (shortened to the smallest value) to reduce the size of the payload further and reporting tools can make recommendations based upon feedback.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Projects that are both public-facing but also allow for others to contribute to development should allow for <a href="https://unminify.com/">un-minification</a>. Developer tooling often contains features or extensions to restore code to a readable state.</li>
+									<li><a href="https://mithril.js.org/">Mithril</a> is an example of a JavaScript framework that uses minification to great effect. It's small to start with but by offering both developer and minified versions on its GitHub repository you get the best of both worlds.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if your HTML, CSS, and JavaScript can be minified.</li>
+									<li>Check if JavaScript can gain size reductions through uglify processes.</li>
+									<li>Check if the code is on a non-production public-facing website.</li>
+									<li>Check if obfuscation exists, if not minify the source code.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD03-1: Implement Code-Splitting Where Appropriate To Reduce Payloads -->
+						<details>
+							<summary>WD03-1: Implement Code-Splitting Where Appropriate To Reduce Payloads</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism where modularization can occur to reduce the overall payload of applications, libraries, and frameworks for the Web. By using code-splitting and modules where isolating code can take place (machine-testability can detect this), large components can be successfully broken down into pieces that will be delivered as required.</p>
+								<p>This technique is most useful when dealing with significant-sized or complex pieces of production code that may not be required to be delivered in a single volume. If functionality will be used on-demand (for example), the payload to activate and run the functionality could be fetched and run when it is needed instead of the entire applications library being gathered upon page load.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>MDN <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">provides a detailed guide</a> to JavaScript modules that are contained within many frameworks today to split them into separate component-based libraries to be called only when they are required by the visitor.</li>
+									<li>Separating CSS into stylesheets based on arguments such as <a href="https://polypane.app/blog/the-complete-guide-to-css-media-queries/">media or preference queries</a> (or in rarer instances using imports), allows for large stylistic libraries to be broken down and requested only if its necessary.</li>
+									<li><a href="https://alpinejs.dev/">Alpine</a> is a JavaScript framework that uses modules effectively to import the features it requires, and as such, remains fast and lightweight compared to competing frameworks that load everything in one go.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check the size of packages to determine the benefit of code-splitting.</li>
+									<li>Check if CSS would benefit from being split into separate stylesheets based on queries.</li>
+									<li>Check if JavaScript can be modularized and imported when required.</li>
+									<li>Check if obfuscation exists, if not code-split the source code.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD04-1: Eliminate Redundant Code Through Coverage or Tree Shaking -->
+						<details>
+							<summary>WD04-1: Eliminate Redundant Code Through Coverage or Tree Shaking</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to eliminate redundancy within an application or website that may have been either introduced previously or through error. By using browser development tooling such as DevTools coverage or techniques like tree shaking any code which is no longer associated with functionality can be identified as potentially fit for removal (always verify this is accurate).</p>
+								<p>For machine testability, redundant (orphaned / unused) code can be identified by its lack of association with existing components within the web page or application. Consideration will also need to be given to components that may be generated mid or post-render in addition to styles that only trigger when a certain state occurs (such as through hover or the target pseudo selector).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking">This article by Jeremy Wagner</a> showcases the importance of tree shaking within projects, including the history behind it and how it functions, in addition, it provides a few useful code examples.</li>
+									<li>You can identify unused code within a project using Google Developer Tools in the <a href="https://developer.chrome.com/docs/devtools/coverage">Coverage Panel</a>. While there are a few gotchas (such as identifying inactive pseudo selectors), it's a useful way to weed CSS.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check CSS to determine if redundancy exists within your code.</li>
+									<li>Check packages to determine if redundancy exists within JavaScript.</li>
+									<li>Check if redundant code may be reintroduced, if not, remove it.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD05-1: Conform to WCAG as a Baseline Level of Acceptable Accessibility -->
+						<details>
+							<summary>WD05-1: Conform to WCAG as a Baseline Level of Acceptable Accessibility</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for ensuring that a website meets a baseline level of accessibility compliance as recommended by the Web Content Accessibility Guidelines (WCAG). Having an inclusive product or service is at this point (in most places) a legal requirement and meets ESG (social) factors in addition, so it becomes a sustainability compliance target.</p>
+								<p>Machine testability for accessibility exists on some level already through automated testing tools and this can potentially be integrated into a custom white-label product (or created from scratch) if required, by identifying the criteria set out in WCAG A-AAA and attempting to seek machine testability with the guidelines and success criteria (as you are doing with the WSGs).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Testing your product or service in several screen readers such as <a href="https://www.nvaccess.org/">NV Access</a> will help establish that individuals with vision impairments can more easily navigate around your content.</li>
+									<li>Tooling such as <a href="https://webhint.io/">WebHint</a>, <a href="https://github.com/dequelabs/axe-core">Axe Core</a>, or <a href="https://wave.webaim.org/">WAVE</a> helps product creators identify certain accessibility issues that can occur within a website or application though they can only test what can be identified by a machine.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if the application or website meets a specified level of WCAG.</li>
+									<li>Check beyond WCAG for additional inclusive design requirements.</li>
+									<li>Check for compatibility with several different accessibility tools.</li>
+									<li>Check if an accessibility statement exists and testing is included.</li>
+									<li>Check if additional legal compliance requirements are being met.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD05-2: Provide ARIA Enrichment to HTML Only if Deemed Necessary -->
+						<details>
+							<summary>WD05-2: Provide <abbr title="Accessible Rich Internet Applications">ARIA</abbr> Enrichment to HTML Only if Deemed Necessary</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism to identify firstly if ARIA support is required for assistance devices and secondly, if it is required, to implement that support if and only if it will enhance the solution to aid the accessibility of the product or service being given. The use of ARIA for code enrichment should only be utilized if no alternative can be utilized.</p>
+								<p>For machine testability, the use of heuristics to examine the code structure and if certain components require additional semantic clarification is technically possible. Certain HTML elements for example will have built-in semantic value and require no contextual clarifications while custom elements or components of complexity (such as those used in applications) may require enrichment.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.aditus.io/aria/aria-current/">This document from Aditus</a> provides some general examples of ARIA in action showcasing how others have implemented it successfully within their projects (and naturally where it could be appropriate for use).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if the application requires ARIA before implementation.</li>
+									<li>Check if the ARIA use is appropriate and correctly marked up.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD06-3: Write Code for Performance Removing Duplication -->
+						<details>
+							<summary>WD06-3: Write Code for Performance Removing Duplication</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism within projects to eliminate redundancy within your coding methodology. There will be occasions where the same solution is required for multiple events and in preference to repeating the code to achieve the same effect, referencing the code to perform on each occasion is more optimal as it reduces duplication and repetition.</p>
+								<p>In terms of machine testability, identifying a coding methodology within languages like CSS can be easily accomplished by the way naming schemes are formed (such as the <abbr title="Block Element Modifier">BEM</abbr> pattern). In terms of repeat coding, using <abbr title="Don't Repeat Yourself">DRY</abbr>, repeated CSS property and value pairs (or in JavaScript, code that repeats the same action) can be identified and flagged for rearrangement.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>BEM (<a href="https://getbem.com/">Block Element Modifier</a>) is a methodology that is commonly used within websites to assist with creating reusable components and patterns, using easier-to-name schemes within front-end development.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check for a recognized naming methodology or pattern in CSS.</li>
+									<li>Check for the absence of repeating code (DRY) within CSS.</li>
+									<li>Check for duplicate functionality or names within your JavaScript.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD07-1: Determine and Decision Make Upon Third-Party Impacts -->
+						<details>
+							<summary>WD07-1: Determine and Decision Make Upon Third-Party Impacts</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to first identify any third-party components within a website or application, then analyze that feature as if it were a first-party product or service (against the WSGs) for sustainability. If the product or service is determined to be highly impactful in a negative way, the third-party should be replaced or removed; otherwise, it can be optimized, or stay as-is.</p>
+								<p>As third-party components are hosted externally, machine testing these elements should involve isolating these components and testing them as separate from the product or service. This can be factored into any decision-making regarding inclusion as highly performant and sustainable third-party materials will ultimately be low impact (and the opposite is true for others).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://wiki.openstreetmap.org/wiki/Using_OpenStreetMap">OpenStreetMap</a> allows for <a href="https://medium.com/@nargessmi87/how-to-embede-open-street-map-in-a-webpage-like-google-maps-8968fdad7fe4">embedding of their map data</a> in websites and applications which can be useful for providing directions to physical locations, but it could also drain data and rendering resources.</li>
+									<li>A carousel with multiple resources (potentially being sourced from a third-party photo library) could be pretty to look at, but the combination of both animation and rendering may affect your visitor's battery.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if any third-party components exist within the page or application.</li>
+									<li>Check that component against the WSGs for its sustainability compliance.</li>
+									<li>Check if high-impact third-party components offer self-hosted alternatives.</li>
+									<li>Check that self-hosted alternatives are used if provided.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD07-2: Provide an Import on Interaction Delay for Third-Party Resources -->
+						<details>
+							<summary>WD07-2: Provide an Import on Interaction Delay for Third-Party Resources</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism to delay third-party content from loading to the screen until the visitor has requested it. Because third-party content is sourced from outside the origin domain, the sustainability impacts of the third-party code are outside of the control of a project, and thus click-to-load delay screens using the import-on-interaction pattern is critical.</p>
+								<p>The pattern used to either switch in the third-party content or load it on-demand can be machine-identified and if common third-party library resources are identified as loading (or leaking) upon a visit, this can and should be flagged up as a failure of the success criteria in functioning upon the visitor request (as such external requests should be within the visitor control).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.bbc.co.uk/news/entertainment-arts-68590845">BBC News</a> uses a cloaking mechanism to prevent third-party content of social media sites from loading unless requested by the visitor to reduce the impact on their devices (if this fails to work, a source link is offered).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if any third-party components exist within the page or application.</li>
+									<li>Check that it exists behind a click-to-load delay screen (that visitors must request).</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD07-3: Identify Lightweight Alternatives to Unsustainable Third-Party Resources -->
+						<details>
+							<summary>WD07-3: Identify Lightweight Alternatives to Unsustainable Third-Party Resources</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to reduce the overhead of libraries and frameworks which may be used by the product or service but could be offered through lighter or less production-heavy alternatives. This will have significant sustainability benefits as replacing a heavyweight framework where only a small proportion of features are used with one that is potentially 1/5th of the size could not only improve performance but reduce the rendering load.</p>
+								<p>This will require testability tooling to have both a library of existing frameworks and libraries - including smaller single-purpose ones (with the functionality they contain) and the ability to identify within code the feature set that is being utilized by a product or service. Through isolating in-use capabilities, better recommendations can be made which could reduce the project payload.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://youmightnotneedjquery.com/">You Might Not Need jQuery</a> provides information about potential replacements for the longstanding JavaScript framework that could be more performant and lightweight while offering the same functionality.</li>
+									<li><a href="https://github.com/camsong/You-Dont-Need-jQuery">You (Might) Don't Need jQuery</a> showcases a series of examples of how pre-existing jQuery functionality can now be replaced with native functionality and as such, the framework could be eliminated.</li>
+									<li><a href="http://microjs.com/#">MicroJS</a> is a list of tiny JavaScript frameworks that serve a single purpose and if you utilize a single large framework for this very reason, could be swapped out to reduce the ecological impact of your work.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if CSS libraries could be replaced with smaller alternatives or custom code.</li>
+									<li>Check if JavaScript frameworks could be replaced with smaller alternatives or native code.</li>
+									<li>If replacements can be made, then replacements should be introduced.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD07-4: Ensure That Content Is Delivered Through the Most Sustainable Pathway -->
+						<details>
+							<summary>WD07-4: Ensure That Content Is Delivered Through the Most Sustainable Pathway</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to identify the location of website content and determine the most suitable pathway for it to be consumed sustainably. With the rise in content being hosted on third-party blogging platforms, there is a risk of significant content loss if the platform disappears and therefore a need for self-hosting exists (especially to maintain control of sustainability impacts).</p>
+								<p>For machine testability, identifying the source of the content is a key priority, then determining the impact of any third-party (the risk of content loss along with any sustainability impacts through WSG testing). Finally, this should be weighed up against the impact of self-hosting (and any potential negative consequences such as content moderation requirements that may occur).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://medium.com/">Medium</a> is a popular content hosting platform yet while it does offer a reasonably readable interface, it may not be as sustainable as providing the content within your own website or application in a dedicated blog.</li>
+									<li>Social media posts are contained within your account on that network (in some social networks are only visible to members or even users of a mobile application) and will have the sustainability issues of that provider.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if the level of content being published is regular.</li>
+									<li>Check if features such as comments are a requirement (if so, can moderation be offered).</li>
+									<li>Check if the website already has an audience to give content visibility.</li>
+									<li>If so, check that the content is self-hosted on the first-party domain.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD07-5: Create Custom Clickable Icons and Widgets for Third-Party Services -->
+						<details>
+							<summary>WD07-5: Create Custom Clickable Icons and Widgets for Third-Party Services</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for interacting with third-party products and services through your own project without having to rely on a third-party solution that will inevitably have tied sustainability impacts that are bound to a third-party service. Creating these custom repeatable use objects can have either a single function use, or can serve multiple functions.</p>
+								<p>Identification of third-party solutions can be found through heuristics of source code and recommendations can be made to produce custom first-party solutions for sustainably impactful services. Additionally, custom solutions can often be identified based on either the goal they aim to achieve or the label they are given within HTML ID or class names that can be identified.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>There are <a href="https://freefrontend.com/css-social-media-icons/">many examples</a> of custom social media icons <a href="https://codepen.io/sanketbodke/pen/LYymbRq">embedding</a> out there, and there are also plenty of <a href="https://simpleicons.org/">free libraries</a> out there you can choose between to avoid relying on the default offerings by providers.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the product or service has accounts with different service providers.</li>
+									<li>Check that a custom solution is either in link form, icon form, or looks similar to the provider's native implementation.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD07-6: Provide the Ability To Identify and Choose Third-Party Components To Load -->
+						<details>
+							<summary>WD07-6: Provide the Ability To Identify and Choose Third-Party Components To Load</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide visitors with the optimum level of control over sustainability impacts by not just allowing them to identify and load third-party controls upon click but to also control third-party services, libraries, and tooling used by the product or service (even at load) via a preference panel where individual third-parties (which may be impactful) can be refused access.</p>
+								<p>This mechanism if using a commonly accepted scheme could be detected by a machine. If the preference is presented upon load and not set by default and if the visitor has the option of selecting individual services (one at a time), accepting all, and denying all, then it can be deemed that the functionality is working as expected (as long as third-party services obey that scheme).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Cookie banners are a classic example of personalization from the point of the page load and they can dictate the functionality of a website or application based on the choices made <a href="https://www.optimizely.com/">as shown in this example</a>.</li>
+									<li>Being able to log into to a product allows customers to trigger decisions regarding their experience. <a href="https://music.apple.com/">Apple Music</a> (for example) uses the details of the visitor to make decisions based on their prior browsing habits.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that information is provided to indicate upon load to indicate preferences.</li>
+									<li>Check that the option to allow all, deny all, and select between providers is offered.</li>
+									<li>Check that information is provided identifying providers and describing the options carefully.</li>
+									<li>Check that preferences are remembered when navigating during the session.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD08-1: Validate Source Code for Semantic Accuracy -->
+						<details>
+							<summary>WD08-1: Validate Source Code for Semantic Accuracy</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that HTML meets the criteria for POSH (Plain Old Semantic HTML). This requires using the correct element for the correct purpose and avoiding common syntax mistakes that could be easily correctable. In terms of sustainability, it defines the importance of having code that remains as likely to stay functional in the future as possible.</p>
+								<p>For machine testability, examining code for correct element use is a primary step but other features found in validation services such as ensuring elements are closed correctly, that HTML entities are correctly marked up, etc, are of equal importance to avoid rare issues that might occur during the rendering process (if browsers accidentally choose to interpret data incorrectly).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The W3C provides markup validation services for <a href="https://validator.w3.org/">HTML</a> and <a href="https://jigsaw.w3.org/css-validator/">CSS</a>, <a href="https://jsonlint.com/">JSON</a>, as well as <a href="https://validator.w3.org/feed/">feeds</a> to identify potential issues with the code. These tools can work with direct input as well as files and direct input.</li>
+									<li>Linting tools can check (and be configured) to help you find and resolve common errors either while you code or during an auditing process. There are linting tools available for languages like <a href="https://markuplint.dev/">HTML</a>, <a href="https://stylelint.io/">CSS</a>, <a href="https://eslint.org/">JavaScript</a>.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if the HTML, CSS, and other source code contains resolvable errors.</li>
+									<li>Check that any errors have been successfully linted and corrected.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD08-2: Eliminate Optional Code To Reduce the Rendering Impact -->
+						<details>
+							<summary>WD08-2: Eliminate Optional Code To Reduce the Rendering Impact</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for eliminating further redundancy from source code which may not be strictly required for semantic reasons but can help reduce the amount of data being transferred and thereby improve web performance. This can be done by removing any optional code from a document that will not affect the rendering of the page.</p>
+								<p>This technique is most useful when subscribing to performance budgets and attempting to reach the smallest file size possible is of critical importance to reach ESG targets. Such optional code removal can be identified by machine and recommendations for where optimization can occur can be provided but there may be occasions (as with minification) in non-production to retain the data.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://meiert.com/en/blog/optional-html/">This article by Jens Oliver Meiert</a> provides details about some of the optional HTML elements you may wish to eliminate to reduce the amount of data being transferred to visitors during a page view session.</li>
+									<li><a href="https://browserdefaultstyles.com/">Browser Default Styles</a> provides information about the CSS that a web browser will render to the visitor as a matter of course when an HTML element is created (therefore you don't need to repeat the statements).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that optional HTML elements that are unnecessary for rendering are removed.</li>
+									<li>Check that browser default styles are not repeated in the stylesheets.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD08-3: Replace Non-Standard Code With Suitable Alternative Syntax -->
+						<details>
+							<summary>WD08-3: Replace Non-Standard Code With Suitable Alternative Syntax</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to identify and eliminate any non-standard coding practices including but not limited to proprietary additions included by web browsers to test new functionality before potentially including it fully within the web browser (this isn't so common today but remnants still exist). As older code is often not as highly optimized for performance, it can take longer to render and thrash hardware causing higher emissions so is worth resolving.</p>
+								<p>For machine testability, lists of non-standard syntax are available within common specifications which can be used to identify within source code. In addition, browser-specific code can be identified by its prefix or on lists of techniques and hacks to resolve browser bugs. If replacements for these techniques can be offered, provide them, otherwise recommend removal from your code.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>In the past, it was necessary to provide specific coding techniques (known as hacks) to ensure web browser compatibility. <a href="http://browserhacks.com/">Browser Hacks</a>, lists the various patterns used that could be solutions fit for removal.</li>
+									<li>When testing new features, browsers had a habit of <a href="https://shouldiprefix.com/">prefixing their code</a> in the past behind flags to avoid breaking existing code. Lists of such prefixes can be found online as well as archaic proprietary HTML and CSS.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that archaic proprietary specification additions are not included within the code.</li>
+									<li>Check that browser prefixes have been removed from CSS unless required for compatibility.</li>
+									<li>Check that no browser hacks exist unless they are required for compatibility.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD09-1: Set Scripts To Load Either Asynchronously or Deferred -->
+						<details>
+							<summary>WD09-1: Set Scripts To Load Either Asynchronously or Deferred</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for JavaScript (and if possible StyleSheets) to be loaded asynchronously or deferred to avoid acting as render blocking events which can delay the loading of content. This will lessen the initial impact on visitors' hardware and thus can have ESG and web performance benefits which should be taken into account.</p>
+								<p>This technique is most useful when it is applied to all materials which will run upon the page load. In terms of testing for this technique, scripts can be identified by the attribute being provided within the HTML code. If the attribute is not provided, guidance can be offered to question if this was intentional or machine testing could analyze the code to verify if an issue will occur.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.chartjs.org/docs/latest/samples/tooltip/content.html">Chart.js</a> is a library that allows you to easily produce complex charts within a website or application. It uses a combination of asynchronous and deferred loading to ensure the rendering doesn't block other content.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that all scripts are set to load with either the async or defer attributes unless necessary.</li>
+									<li>Check if CSS (<a href="https://www.holisticseo.digital/pagespeed/async-css/">with the aid of JavaScript</a>) could benefit from asynchronous loading, and if so, do it.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD09-2: Provide Assets Required at Load With the Correct Delivery Route -->
+						<details>
+							<summary>WD09-2: Provide Assets Required at Load With the Correct Delivery Route</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for assets to be loaded at the correct time in the rendering process. With the ability to use preload, prefetch, and preconnect we can take resources such as web fonts and scripts that are necessary for the product or service to successfully be able to be displayed and ensure they are prioritized over other web assets.</p>
+								<p>Identifying that the asset being chosen for this mechanism is correct, linked to correctly, and has the right mechanism in place is of the highest priority for machine testers to ensure that the rendering process is not interrupted. If a low-priority object is given high priority it could delay the website or application from reaching the visitor and increase screen time.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.mightybytes.com/">Mightybytes</a> uses DNS prefetching to ensure that fonts and JavaScript that are hosted on a third-party CDN service will be less likely to suffer render-blocking (as the host is readied before the content is requested).</li>
+									<li><a href="https://www.wholegraindigital.com/">Wholegrain Digital</a> uses preloading on its web typography to avoid render blocking with several different weights being offered on the same typeface (all of which will be downloaded as the content is).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that preload, prefetch, and preconnect are used as appropriate in HTML documents.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD10-1: Provide Accurate Social Metadata and Microdata -->
+						<details>
+							<summary>WD10-1: Provide Accurate Social Metadata and Microdata</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for social networks and search engines to first identify your website or application and then to be able to showcase it successfully within their products and services. Because each social network and search engine has its own requirements, it will involve a combination of different metadata and semantic markup to achieve results.</p>
+								<p>For machine testability, toolmakers will need to maintain a list of the most popular products and services with which they wish to maintain compatibility. From there they will need to work through their requirements to ensure that the patterns expected are included within pages (and that they match the expectations of the providers so that results will ensure visitor findability).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The <a href="https://small-tech.org">Small Tech Foundation</a> ensures that their content can be easily identified by third parties by providing metadata, open graph data, and microdata within the document header (that is easily machine-readable).</li>
+									<li>Many social networks take advantage of the <a href="https://ogp.me/">OpenGraph Protocol</a> including <a href="https://developers.facebook.com/docs/sharing/webmasters">Facebook</a> and <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup">X (formally Twitter)</a> in the HTML head. <a href="https://joinmastodon.org/verification">Mastodon</a> uses the rel="me" attribute to identify websites with owners.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the necessary OpenGraph data for Facebook is included within HTML.</li>
+									<li>Check that the necessary Twitter Card data is included within HTML for X.</li>
+									<li>Check that the necessary Mastodon link containing the rel attribute exists.</li>
+									<li>Check that other social networks have their criteria met or have links added.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD10-2: Provide a Robots File That Contains Relevant Indexing Data -->
+						<details>
+							<summary>WD10-2: Provide a Robots File That Contains Relevant Indexing Data</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism of maintaining findability within products and services for search engines but also to attempt to (successfully or otherwise) reduce the amount of traffic from bad actors or unethical / unsustainable products that may impact your wider projects and service-users. This will be produced using the robots.txt document.</p>
+								<p>This technique requires that the robots.txt file be present within the base directory of a website and be formatted according to the commonly agreed upon Robots Exclusion Standard. For the Success Criteria, listing bad actors and unethical / unsustainable products is considered optional however if such a list can be maintained and adhered to, it's worthy of inclusion.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.google.com/robots.txt">Google has a robots.txt file</a> of their own that identifies to search engines what pages should be included within search results. Naturally, you don't want to copy this file exactly but it may serve as inspiration!</li>
+									<li><a href="https://www.robotstxt.org/robotstxt.html">The Web Robots Pages website</a> is a resource dedicated to the robots exclusion standard and how it can be applied to websites including different examples and details about the robots file structure.</li>
+									<li><a href="https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt?hl=en">Google Search Central</a> has a document that provides working examples of the robots file and the properties you should consider including within it (plus examples and details of how they will function).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check for the existence of a robots.txt within the base directory of a website or application.</li>
+									<li>Check that the document is well formed and contains the correct property / value pairs.</li>
+									<li>Check for a list of blacklisted bad actors and unsustainable products.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD10-3: Add Signposting Within the Page To Direct Visitors and Accessibility Aids -->
+						<details>
+							<summary>WD10-3: Add Signposting Within the Page To Direct Visitors and Accessibility Aids</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide mechanisms to assist the visitor with finding and navigating through content within the page or application. This can come in the form of links that allow you to bypass blocks of content, which is especially useful when large vocal areas of navigation or other content exist. It could also be in the form of keyboard shortcuts that activate certain features within a complex application rather than having to click multiple steps.</p>
+								<p>Machine testability for such features can identify events within JavaScript or features that use common patterns in code that are recognized as helpful signposting features. If such features are present then the success criteria can be marked as compliant but if none are found it could be an indicator, especially in complex websites or applications that such features are needed.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://webaim.org/techniques/skipnav/">WebAim has a great article</a> describing the details relating to skip links <a href="https://www.jimthatcher.com/skipnav.htm">as does Jim Thatcher</a>, both include plenty of useful visual examples and situations to work with when designing a custom solution of your own.</li>
+									<li>Smashing Magazine published a <a href="https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/">two</a> <a href="https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-javascript-part2/">part</a> guide to keyboard accessibility which included HTML, CSS, and JavaScript and covered not only skip links but also provided keyboard-based accessibility aids.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the project can be successfully navigated using the keyboard.</li>
+									<li>Check that the tabindex order of the content makes logical, navigable sense.</li>
+									<li>Check that skip links exist to guide accessibility tools through content.</li>
+									<li>Check that keyboard shortcuts are well documented and work as expected.</li>
+									<li>Check that signposting within pages are well described, and work as directed.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD11-1: Ensure That Form Inputs Correctly Match and Validate Content Expectations -->
+						<details>
+							<summary>WD11-1: Ensure That Form Inputs Correctly Match and Validate Content Expectations</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that input types correctly match the type of content being placed within them, that content types like passwords are handled in a way that visitors can easily reveal them, and that the patterns attribute is used correctly to help reduce errors during data entry. In doing so, friction encountered during form filling can be reduced as can erroneous submissions.</p>
+								<p>Machine testability for this criteria will involve analyzing the components of forms to ensure they are well formed and that (for example) any regular expressions used in patterns will not produce an erroneous result. It is also important that functionality within forms perform well on mobile devices as well as desktop so consideration must be given to the choice of input for tasks.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://thegood.com/insights/form-design-examples/">This article from TheGood</a> showcases multiple examples of great form design not only from the point of the user-experience but also in the development to ensure that the ability to make mistakes is reduced.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the input type matches the expected content type.</li>
+									<li>Check that the use of the pattern attribute does not prevent correct input.</li>
+									<li>Check that regular expressions are correctly formed and do not equate errors.</li>
+									<li>Check that password fields can be made visible to allow for recognition.</li>
+									<li>Check that one input type will function well on mobile devices over another.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD11-2: Ensure That Form Elements Are Correctly Labeled -->
+						<details>
+							<summary>WD11-2: Ensure That Form Elements Are Correctly Labeled</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for accessibility tooling to be able to accurately describe the content of form features and to provide visual aids for visitors aiming to identify what information is required to be entered. This technique requires all interactive elements within the form to have an associated label to describe the purpose and / or role of the item.</p>
+								<p>Labels should be presented directly beside the element in question to imply association and if multiple associations are required, a grouping element with a label can be provided. Machines should be able to identify the relationship between the label and the object through the syntax and if objects without labels exist, a failure statement can be flagged up.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://codepen.io/sushma-io/pen/zYbOREe">This CodePen example</a> clearly has all interactive elements within the form correctly labeled and additionally goes the extra step by using input types to help reduce the chances of errors occurring during data entry.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that all interactive form components are correctly labeled.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD11-3: Reduce Friction Within Data Entry With Manual Third-Party Content -->
+						<details>
+							<summary>WD11-3: Reduce Friction Within Data Entry With Manual Third-Party Content</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism in which visitors can easily take content from third-party sources and use it within your product or service. Techniques such as the ability to paste into forms or the ability to drag and drop can act as shortcuts to avoid retyping or recreating (using system resources) which may be energy-intensive or time-intensive for the visitor.</p>
+								<p>Identifying mechanisms that may prevent the ability to import third-party content such as blocking pasting content or disabling the ability to drag and drop should be detected and flagged (unless a reason for this can be justified within the code). Mechanisms that aid the ability to import third-party content such as import or paste buttons should be actively encouraged.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>These CodePen examples of <a href="https://codepen.io/colorlib/pen/rxddKy">log in</a> and <a href="https://codepen.io/RajRajeshDn/pen/QWwypRy">registration</a> forms do not inhibit the visitor from pasting content from third-party sources which allows for fast data entry if the information is stored elsewhere.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the ability to paste content is uninhibited (no onpaste="return false;").</li>
+									<li>Check that the ability to drag and drop third-party content can be achieved successfully.</li>
+									<li>Check that import options are provided if the above two options are unavailable or fail.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD12-1: Ensure That the Required HTML Elements Are Included -->
+						<details>
+							<summary>WD12-1: Ensure That the Required HTML Elements Are Included</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that the minimum required features are present to render a website or application correctly. This includes but is not limited to a DocType and a series of HTML elements (at a bare minimum). The justification behind this is while a page can technically show without them it is considered bad practice and malformed HTML to not include such features.</p>
+								<p>For machine testability, the ability to identify a DocType (and the version of HTML being rendered), plus ensuring that the necessary base HTML elements are present is script detectable. This can be done via the validation process, manually, or automated to ensure pages render correctly and avoid triggering quirks mode (that will affect the visual rendering of the website or application).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Courtney Thomas back in 2018 <a href="https://medium.com/@cortneythomas/laymans-coding-what-is-the-minimum-html-you-need-for-a-website-eda987b02622">created a great article</a> that showcased the minimum HTML that is required for any website or application (though <a href="https://htmlhead.dev/">as Josh Buchea notes</a>, the viewport meta tag should also be there).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the document includes a well-formed DocType.</li>
+									<li>Check that the page or application includes the required HTML elements.</li>
+									<li>Check that the page or application includes valid links to CSS and JavaScript assets (optional).</li>
+									<li>Check that the HTML includes the viewport META element for handheld devices.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD12-2: Provide Relevant Metadata Using a Recognized Scheme -->
+						<details>
+							<summary>WD12-2: Provide Relevant Metadata Using a Recognized Scheme</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide the necessary metadata within the head of your website or application to ensure that search engines can index your content correctly. You can use several different mechanisms to achieve this as several different formatting schemes have been provided over the years and they have varying levels of support by different search providers.</p>
+								<p>To enhance the findability of your content (which will reduce time being wasted by visitors trying to locate you), having a well-formatted series of metadata is critical. As such, testing should focus on determining whether basic meta tags are used or if another format is being used to serve data. Once detected, identify if the tags are recognized, if they aren't in common use or have been deprecated by a provider, it's worth requesting removal for the data savings.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> not only has within the <a href="https://html.spec.whatwg.org/multipage/semantics.html">HTML specification</a> a list of recognized elements that can provide contextual information about the page, but it also has a wiki that lists <a href="https://wiki.whatwg.org/wiki/MetaExtensions">proprietary META tags</a>.</li>
+									<li>The <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">Dublin Core Metadata Initiative</a> was an attempt to standardize meta tags with a set labeling scheme. It's supported by the majority of search engines and could be used (as is or in <abbr title="Resource Description Framework in Attributes">RDFa</abbr>) instead of other formats.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the HTML document contains a description META element of <a href="https://moz.com/learn/seo/meta-description">between 50 and 150 characters</a>.</li>
+									<li>Check that the HTML document contains additional metadata from a recognized scheme.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD12-3: Ensure Content Is Structured Using Microdata -->
+						<details>
+							<summary>WD12-3: Ensure Content Is Structured Using Microdata</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide mechanisms for search engines and social networks (and sometimes even visitors and web browsers!) to take context-rich content from your website or application and re-use it for the benefit of your product or service elsewhere. Structuring your content successfully can take place (like metadata) using one of several formats.</p>
+								<p>Because microdata uses hooks that attach to existing HTML to make it easy to identify (for search engines and third-parties), this will also make it easy to identify for machine testability. Using a pattern library of these various structural features you can not only show visitors how content could be used but using heuristics identify other content that might benefit from it.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://schema.org/">Schema</a> is a database of common patterns that have been formed using microdata. It's a huge library and could be potentially helpful in describing certain components in a way that search engines can recognize.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that content is correctly marked up using microdata, microformats, etc.</li>
+									<li>Check for external RDFa assets that may contain rich metadata.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD13-1: Ensure CSS Preference Media Queries Are Correctly Applied -->
+						<details>
+							<summary>WD13-1: Ensure CSS Preference Media Queries Are Correctly Applied</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide mechanisms through CSS that adhere to the visitor's preferences regarding how they may choose to browse a website or application. While some queries that exist in the language will hold little sustainability value, others could have ESG benefits through accessibility (social factors), or environmental (reducing hardware or data usage).</p>
+								<p>Each of the preference queries can be machine-identified through scripts and therefore can be tested against firstly for browser support, and secondly that the project provides some kind of environmental consequence for using the query that will benefit the visitor and / or the ecosystem. The value of such queries being applied could be measured by triggering or emulating them.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://hidde.blog/">Hidde de Vries</a> has a dark mode toggle that using a mixture of CSS preference queries and JavaScript allows dark or light mode to either be user-triggered or run at the default (it's non-invasively implemented).</li>
+									<li><a href="https://webkit.org/blog-files/prefers-reduced-motion/prm.htm">These examples</a> provided by the Webkit team showcase how reduced motion (when enabled) can prevent excess movement. Though a toggle (<a href="https://codepen.io/smashingmag/pen/porEQLB">such as this by Michelle Barker</a>) could provide <a href="https://www.smashingmagazine.com/2021/10/respecting-users-motion-preferences/">added use-cases</a>.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check for preference queries and that the effect they produce is beneficial.</li>
+									<li>Check for manual override toggles or preferences within the page.</li>
+									<li>Check for alternative styles if paged media or scripting is disabled.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD14-1: Test Against Network Speeds and Visual Resolution Breakpoints -->
+						<details>
+							<summary>WD14-1: Test Against Network Speeds and Visual Resolution Breakpoints</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that your product or service can be classified as mobile-first and responsively designed to hopefully assure the widest remit of device types, and at least some degree of visual compatibility with your website or application. While there are many ways to approach this task, this technique is focused on connection speeds and the potential window size.</p>
+								<p>Because connection speeds can vary based on a whole range of factors (and cannot be aligned with averages due to location, mobile vs home, connection quality, etc), multiple speed ranges should be machine tested against. The same can be said for window sizes as while resolutions are common to certain devices, browsers can be resized, and unusual device types do also exist therefore CSS fluid scaling and visual breakpoints should be utilized.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.webpagetest.org/">WebPageTest</a> allows you to check how a product or service will perform at different speeds (including custom profiles you set up). Running such tests can identify if a product or service takes too long to load.</li>
+									<li>Browser developer tools can test a website at various dimensions (on desktop) and by manually resizing the browser window with the developer tools open (and rulers toggled in Firefox), you can identify breakpoints where the design of the site requires code solutions.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the website or application performs well on a variety of network speeds.</li>
+									<li>Check that the product or service visually doesn't break when resized at multiple window sizes.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD14-2: Provide Progressive Enhancement Feature Testing Within Projects -->
+						<details>
+							<summary>WD14-2: Provide Progressive Enhancement Feature Testing Within Projects</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for providing features within your product or service only if they are supported and if not, providing alternatives. This can be done using feature detection and progressive enhancement which should be used as a priority over graceful degradation (as it is better to add useful extras rather than patch-critical - but broken content).</p>
+								<p>Machine testability for feature testing should identify any code within the product or service that relies upon newer functionality lacking a level of web browser support (either in competing products or older versions), testing should occur and errors should be handled. Furthermore, if technologies are not supported, the fallback mechanism should allow a basic project to run.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Jeremy Keith's Website (<a href="https://adactio.com/">Adactio</a>) is a great example of progressive enhancement in action. It works if JavaScript, CSS, or even images are disabled (though naturally, the visuals can suffer as a result!).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the website or application can function if JavaScript is disabled.</li>
+									<li>Check that the page is still functional if an older browser version with older JavaScript and CSS version is used.</li>
+									<li>Check that the product or service is still functional if CSS is disabled.</li>
+									<li>Check that the product or service is still functional if images or media are disabled.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>Expectation of the above is dependent on the task but should aim to be true unless necessary.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD14-3: Configure Your Project Around Carbon-Aware Situations -->
+						<details>
+							<summary>WD14-3: Configure Your Project Around Carbon-Aware Situations</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for identifying when the project might be at its most resource or energy-intensive (either at the consumer level or the system level - or both), and then decision make to delay or alter when a heavy script or operation occurs to perform it when there are fewer visitors or when the user is causing less hardware intensive activity.</p>
+								<p>For machine testability, this could be particularly tricky to implement as it will rely on data to which the project owner will need to gain access such as when visitor numbers are at their lowest (or when the task can be achieved at its quickest). This may require internal access, but if granted the use of such data could allow for redesigning the site to perform better during busy periods.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://app.electricitymaps.com/map?solar=false&remote=true&wind=false">Electricity Maps</a> provides an application that could be utilized to help make decisions as to where data is being served (based upon the intensity and level of renewables being offered in particular regions).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if operations can be built to function using carbon-aware technologies or resources.</li>
+									<li>Check if operations can be processed or shifted to occur during less carbon-intensive periods.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD14-4: Provide Low-Impact, Possibly Delayed Methods of Interaction -->
+						<details>
+							<summary>WD14-4: Provide Low-Impact, Possibly Delayed Methods of Interaction</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for interacting with a website or application using more usual methods, but methods that often will have a reduced overall impact (such as having a reduced energy requirement). These indirect methods such as syndication feeds or the browser reader view can even eliminate the heavy impact of rendering that can affect hardware.</p>
+								<p>This technique is most useful when it can be easily recognized by visitors and can be used instead of having to visit the main website or application. In terms of machine testability, if these low-impact techniques use a common pattern and that pattern can be easily identified within the source code then naturally it can be identified as such and can be marked as meeting the criteria.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Quick Response (<abbr title="Quick Response">QR</abbr>) codes are a great example of objects that can be included not only online but offline in branding to trigger both links and in-app actions with only the impact of rendering the object (or printing it).</li>
+									<li>Smartwatches may have some Internet connectivity. Due to the small screen size, they will have a low energy output but also a small battery so having a low-fidelity version of a website can be really useful.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check for low-impact interaction methods such as QR codes, smartwatch layouts, or voice assistant tooling.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD15-1: Optimize a Codebase Through Rewriting for Performance -->
+						<details>
+							<summary>WD15-1: Optimize a Codebase Through Rewriting for Performance</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to improve the quality of JavaScript code by examining the contents and identifying any issues that could be deemed a matter of sustainability which could trigger a large load upon hardware resources (and thus put a strain on battery charge cycles). In addition to this, matters of accessibility and performance with such code can be considered.</p>
+								<p>To meet the success criteria, rewriting for performance should only be done if the act does not cost more in effort (and creator impact) than it gains in impact. For machine testability, it's critical that such actions within scripting use tools at their disposal (libraries, patterns, even <abbr title="Artificial Intelligence">AI</abbr>) to heuristically identify any issues that may require resolution within the project's source code.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Solid.js author Ryan Carniato created <a href="https://javascript.plainenglish.io/how-we-wrote-the-fastest-javascript-ui-frameworks-a96f2636431e">this thoughtful post</a> in 2019 about how they went about integrating web performance in their framework-building processes. It is based on a widely recognized JavaScript study.</li>
+									<li>The team at Astro <a href="https://astro.build/blog/2023-web-framework-performance-report/">used open data to examine</a> the performance ratings of various competing JavaScript frameworks to identify the differences between physical and real-world metrics (there are lots of useful charts).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that existing code has been rewritten to be less process intensive, etc.</li>
+									<li>Check that any existing tooling is considered sustainable and / or performant.</li>
+									<li>Check if JavaScript frameworks can be replaced with others that are more performant.</li>
+									<li>If frameworks can be replaced, check that they are replaced.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD16-1: Ensure All Vulnerabilities Are Removed and Code Is Linted -->
+						<details>
+							<summary>WD16-1: Ensure All Vulnerabilities Are Removed and Code Is Linted</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to scan the website or application's code for issues that may otherwise potentially leave a product or service vulnerable to exploitation. This will not only include first-party code that is created by the project owners but third-party tooling imported. Any third-party library or framework found to contain harmful code should be removed before production.</p>
+								<p>Because this can occur at both the client-side and server-side internal access may be required if server-side scanning is wished to be included within machine testability, however within the scope of the success criteria, if internal access is not available or permitted, testing the code using known methods and scanning client-side code for harmful techniques should help with passing.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>RayGun <a href="https://raygun.com/blog/js-security-vulnerabilities-best-practices/">provides a great article</a> about vulnerabilities and best practices when working with JavaScript. Some of the things mentioned are covered within the WSGs in other sections, all others can be followed here.</li>
+									<li><a href="https://snyk.io/">Snyk</a> is one of the most well-known providersof data regarding code vulnerabilities. They can be integrated within existing tooling or you can browse their <a href="https://security.snyk.io/">database of known security issues</a> to be aware of.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check the product or service for vulnerabilities within your code, ensuring they are resolved.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD17-1: Identify and Remove Unused Packages and Dependencies -->
+						<details>
+							<summary>WD17-1: Identify and Remove Unused Packages and Dependencies</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for identifying if a library or framework is currently in use and if not, remove the said tooling and its unused dependencies from the production code. This will help reduce the ESG burden of the website as less bloat will reach the visitor which can have a large impact if they are on a low-powered device or a restricted data plan.</p>
+								<p>For machine testability, internal access will be required to determine if web developers or creators will require specific tooling within a project. If internal access is given, the package.json file is an ideal place to locate the packages being requested and these can be compared against the public-facing website to identify redundancy in the toolchain process.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>An application that removes functionality due to poor uptake no longer requires certain packages to contain scripts that were dedicated to running that function alone. Such dependencies have become redundant.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if a package.json has been submitted for identifying packages.</li>
+									<li>If so, use that. Otherwise, check the source code for potential orphan references.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD17-2: Implement Modularized Frameworks and Libraries -->
+						<details>
+							<summary>WD17-2: Implement Modularized Frameworks and Libraries</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for determining how much of a library of framework you require for your website or application to function, and then requesting just that modularized segment to reduce the overall payload and load on the visitor's hardware during rendering. This is especially critical for third-party scripting but is also useful for CSS.</p>
+								<p>Machine testability should attempt to identify when third-party libraries are present within a codebase and if that framework or library supports the ability to load a lightweight or modular version of its features (thereby only loading what you require, when you require it), ensure that the project in question does so rather than loading an un-optimal "fully-loaded" version of the project.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://bundlephobia.com/">Bundlephobia</a> and <a href="https://pkg-size.dev/">pkg-size</a> allow you to find the true size of a package on NPM by calculating not just the size of the item you wish to install but all of the dependencies the item requires to function.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check the package size to determine at what size breaking into modular components should occur.</li>
+									<li>Check the function sizes to identify if refactoring to smaller functions should also occur.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD17-3: Ensure That Dependencies Are Verified As Up-to-Date -->
+						<details>
+							<summary>WD17-3: Ensure That Dependencies Are Verified As Up-to-Date</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that the deliverables are current and up-to-date, thereby providing any necessary security patches or bug fixes that are required to remain operational. This is especially true when a website or application is dependent on third-party libraries or frameworks and has a complex toolchain. As such, verifying the maintenance status of work is critical.</p>
+								<p>To machine test or verify the dependency chain of a project, the source code of a project should identify (by filename or URL) the project and version. If during the tree shaking or production process all notifications of what third-party code has been used have been removed, internal access will be required to access the package.json (except heuristic fingerprinting of packages).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>As you would expect, the <a href="https://jquery.com/">jQuery project website</a> uses the latest version of the jQuery framework. Because it is a regularly maintained project and can afford rapid update cycles, it stays current and up-to-date.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if a package.json has been submitted for identifying packages.</li>
+									<li>If so, use that. Otherwise, check the source code for package version data.</li>
+									<li>Check that all packages are at least non-breaking (minor) current if not major release current releases.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD18-1: Provide the Expected Website Assets in Your Base Directory -->
+						<details>
+							<summary>WD18-1: Provide the Expected Website Assets in Your Base Directory</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that the non-HTML files that are expected to be located within the base directory of a website can firstly be found and secondly are correctly formatted (using the right syntax) and match the expectations of the product or service that requires them to benefit the visitor with a better user-experience, increased accessibility, and sustainability.</p>
+								<p>For machine testability, tooling should aim to identify that the listed files are provided (if not flag these justifying the need for their inclusion). If they are included they should be examined to ensure they are semantically correct, especially if they are formed using a strict language such as XML. If they fail to validate correctly errors should constitute a failure to meet the success criteria.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Amazon has a highly recognizable brand and they <a href="https://www.amazon.com/favicon.ico">provide a favicon</a> in the base of their website so that when people visit them, their icon will show correctly in the top left of the tab or window (browser dependent).</li>
+									<li>Developer tool Can I Use <a href="https://caniuse.com/opensearch.xml">provide an opensearch.xml file</a> in the base of their website so that if people visit their project, visitors can rapidly search the website in the future using a keyword and tab combination.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check the base directory for a favicon in 16&times;16, 32&times;32, and 48&times;48 format.</li>
+									<li>Check the base directory for a well-formed robots.txt document.</li>
+									<li>Check the base directory for a well-formed opensearch.xml and sitemap.xml file.</li>
+									<li>Check the base directory for a well-formed site.webmanifest document.</li>
+									<li>Check that the links contained within these documents don't contain errors.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD19-1: Provide Useful Plaintext Website Assets in the Expected Locations -->
+						<details>
+							<summary>WD19-1: Provide Useful Plaintext Website Assets in the Expected Locations</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for adding useful contextual information to a website or application within recognized locations in plaintext format (so that it doesn't impact the rest of the product or service). These standardized formats each have a defined beneficial purpose and are considered to be low-impact (sustainably speaking) so are safe to include.</p>
+								<p>This technique is most useful when the assets are formatted as per their specification for purposes of readability, it is how individuals and machines will be expected to understand them. For machine testability, using heuristics to scan for recognized features within the text should help you identify the instructions or any features of note that could be weighed in calculations.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://wordpress.com/ads.txt">WordPress has an ads.txt file</a> at the base of their website, that contains details of the advertisers they work with (and tries to increase transparency by revealing where impressions are purchased and resold).</li>
+									<li>Web Developer Sarah Tamsin has a <a href="https://sarahtamsin.com/humans.txt">fun example of a humans.txt file</a> that provides some witty content and a few basic details about her (plus an ASCII image that makes for a nice easter egg bonus feature).</li>
+									<li>The security.txt specification writers have <a href="https://securitytxt.org/.well-known/security.txt">created a basic example</a> of what could be included within the file. As you can see from the example, the location of the document differs from other plaintext examples.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>If you have advertising, check that the base directory contains a well-formed ads.txt document.</li>
+									<li>Check that the base directory contains a well-formed security.txt and robots.txt document.</li>
+									<li>Check that the base directory contains a well-formed carbon.txt and humans.txt document (optional).</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD20-1: Replace Deprecated Code With Suitable Alternative Syntax -->
+						<details>
+							<summary>WD20-1: Replace Deprecated Code With Suitable Alternative Syntax</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to identify any deprecated code that is no longer recommended for use within specifications. As older code is often not as highly optimized for performance (browser makers often cease to maintain abandoned and deprecated features), it can take longer to render and thrash hardware causing higher emissions so as a general rule, is worth resolving.</p>
+								<p>For machine testability, deprecations in languages can also be found within specifications from providers like the W3C. Documentation providers like MDN also provide extremely thorough coverage of syntax that has been deprecated such as within HTML, CSS, and JavaScript. If replacements for any techniques can be offered, provide them, otherwise recommend removal from your code.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The <a href="https://www.spacejam.com/1996/">Space Jam website</a> is considered a classic piece of 90s Internet design with its total disregard for function over form, but if you look at the code - it gets even uglier with table-based layouts and deprecated code</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the website or application doesn't contain deprecated coding techniques.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD20-2: Replace Outdated Web Standards With Suitable Alternatives -->
+						<details>
+							<summary>WD20-2: Replace Outdated Web Standards With Suitable Alternatives</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to identify technologies and web standards that may be in use but have been superseded by newer technologies and web standards. In certain cases, the standards in use may still be actively supported by web browsers and if there is a sustainability reason to retain the feature, continue. Otherwise, updating the code should be considered.</p>
+								<p>As with outdated and proprietary code, web browsers tend to stop providing optimizations for outdated practices and as such, using technologies that have a newer replacement may have inherent sustainability benefits. For machine testability, standards providers list current web standards and this can be matched against in-use technologies (which often can be detected in code).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The <a href="https://www.webdesignmuseum.org/flash-websites">Web Design Museum</a> houses a showcase of screenshots of websites that were built using the proprietary technology Adobe Flash. Along with Java Applets and Microsoft Silverlight they now no longer work.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if the existing product or service uses outdated technologies (<abbr title="Vector Markup Language">VML</abbr> / <abbr title="Platform for Privacy Preferences">P3P</abbr>, etc) and if so recommend replacements (<abbr title="Extensible 3D">X3D</abbr> / <abbr title="Protocol for Web Description Resources">POWDER</abbr>, etc).</li>
+									<li>Check for proprietary web plugins (like Flash) and remove them until a replacement can be created.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD21-1: Encourage the Use of More Sustainable Creation Toolchains -->
+						<details>
+							<summary>WD21-1: Encourage the Use of More Sustainable Creation Toolchains</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism of choice when creators decide how to build their product or service. This technique aims to identify how they created their product or service (if possible) and make recommendations based on the sustainability of such methods. This should take into account the creator's ability as well as the tooling dimension.</p>
+								<p>For machine testability, internal access may be required if no traces of the creation tool have been left in the production code. If the production code does however contain fingerprints of the tool that created it, recommendations can be made to prioritize static over dynamic and flat-static over generated-static as reducing the processing effort on servers and client machines is meaningful.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://jekyllrb.com/">Jeckyll</a> is one of many solutions that exist as a solution for producing a website - in this case, it uses markdown and bundles the plaintext into a finalized pure HTML state (which should have a low carbon output).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check for the tool used for creation and determine its sustainability.</li>
+									<li>If it has a low impact, continue. Otherwise, flag for replacement.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD21-4: Test All Third-Party Resources for Sustainability Impacts -->
+						<details>
+							<summary>WD21-4: Test All Third-Party Resources for Sustainability Impacts</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for testing third-party plugins, extensions, and themes (if such devices are used within a product or service's creation process) for any sustainability impacts they may have. These often are included within CMS software and are external assets that can add overheads to the website or application being rendered.</p>
+								<p>For machine testability, many CMS products provide trace details of included features within the source code of a page (as conditional comments) due to these having to be loaded as third-party resources. Internal access may be required to get a full picture of everything being loaded. Third-party resources should be tested against the WSGs separately to identify sustainability issues.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>When using WordPress as their primary content management system, they often want to have a distinctive layout for their blog or website. As such they will install a custom theme, and its code with sustainability impacts will be imported into the total bundle size. So be careful what you choose!</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if any third-party resources exist within the page or application.</li>
+									<li>Check that component against the WSGs for its sustainability compliance.</li>
+									<li>Check if high-impact third-party resources offer self-hosted alternatives.</li>
+									<li>Check that self-hosted alternatives are used if provided.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD22-1: Ensure the Latest Version of a Syntax Language Is Being Used -->
+						<details>
+							<summary>WD22-1: Ensure the Latest Version of a Syntax Language Is Being Used</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that the product or service is making use of the latest version of the chosen syntax language. As with keeping dependencies up-to-date, having the latest version of a syntax language can have sustainability benefits in terms of performance and security enhancements as well as useful, optimized new features so it's worthwhile.</p>
+								<p>For machine testability, it will be difficult to verify the latest version of a syntax language is being used because, for security reasons (to avoid exploitation), most servers will not give out such information. As such, internal access will be required or a mixture of feature detection, source code examination, and the potential for asking the user of the tooling questions to establish versions.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>PHP provides a list of the <a href="https://www.php.net/supported-versions.php">supported</a> and <a href="https://www.php.net/releases/index.php">unsupported</a> versions of their programming language. You should be able to manage updates and upgrades within a hosting provider's control panel (if required).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the version of a programming language being used is the latest.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- WD23-1: Replace Code That Can Instead Use More Efficient Native APIs -->
+						<details>
+							<summary>WD23-1: Replace Code That Can Instead Use More Efficient Native APIs</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to first identify and then determine if custom JavaScript functions could be replaced with a more optimal and established native API call. This will also apply to custom element creation over using established native features to the browser. With the evolution of JavaScript, the opportunity to optimize code with newer cleaner techniques occurs regularly.</p>
+								<p>It is preferable to measure both the newer method of implementation with the older method to identify if one provides a more optimized (via performance and sustainability metrics) implementation than the other before replacement. Also, this technique is most useful when considering if the custom component provides additional functionality that the native component does not and if such features weigh up beneficially against the cleaner native implementation.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>MDN provides a <a href="https://developer.mozilla.org/en-US/docs/Web/API">great list of native Web APIs</a> for JavaScript including the interfaces that can be used to call them. Within each of those items, you will find detailed documentation along with examples of usage.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if the benefits of a native browser control exceed creating a custom element.</li>
+									<li>Check if a native API exists that could replace custom calls, methods, or functions.</li>
+									<li>In either of these instances, if the answer is yes, check that the native option is used.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+				</ol>
 			</section>
 			<section> <!-- Hosting, Infrastructure and Systems -->
 				<h3><dfn data-lt="Hosting">Hosting, Infrastructure and Systems</dfn></h3>
