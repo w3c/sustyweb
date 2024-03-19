@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Fifth Draft",
-	"lastModified": "2024-03-05",
+	"lastModified": "2024-03-19",
 	"category": [
 		{
 			"id": "1",
@@ -433,7 +433,6 @@
 							"Reducing Cognitive Overload": "https://www.lionandmason.com/ux-blog/reducing-cognitive-overload-declutter-your-design-for-better-ux/",
 							"Simple icon systems using SVG sprites": "https://oliverjam.es/articles/svg-sprites",
 							"Simplify Your UX Through Reduction": "https://www.uxmatters.com/mt/archives/2015/07/simplify-your-ux-through-reduction.php",
-							"The modern web on a slow connection": "https://danluu.com/web-bloat/",
 							"The Website Obesity Crisis": "https://webdirections.org/blog/the-website-obesity-crisis/",
 							"Use fewer web fonts": "https://web.dev/articles/font-best-practices#use-fewer-web-fonts"
 						}
@@ -562,7 +561,8 @@
 							"[RGESN] (French) 4.3 - Infinate Scrolling": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.3/",
 							"Society Centered Design": "https://societycentered.design/",
 							"Social sustainability": "https://sustainabilityguide.eu/sustainability/social-sustainability/",
-							"The Potentially Dangerous Non-Accessibility Of Cookie Notices": "https://www.smashingmagazine.com/2023/04/potentially-dangerous-non-accessibility-cookie-notices/"
+							"The Potentially Dangerous Non-Accessibility Of Cookie Notices": "https://www.smashingmagazine.com/2023/04/potentially-dangerous-non-accessibility-cookie-notices/",
+							"The snake that eats its tail": "https://uxdesign.cc/the-snake-that-eats-its-tail-3656b31fd0f9"
 						}
 					],
 					"tags": ["UI", "Patterns", "Usability", "Assets"]
@@ -670,6 +670,7 @@
 						{
 							"48 Cart Abandonment Rate Statistics 2023": "https://baymard.com/lists/cart-abandonment-rate",
 							"Biased By Design": "https://biasedbydesign.com/",
+							"Climate change SEO survey": "https://searchengineland.com/climate-change-seo-survey-making-web-more-sustainable-438209",
 							"Dark pattern": "https://en.wikipedia.org/wiki/Dark_pattern",
 							"Dark patterns in UX: how designers should be responsible for their actions": "https://uxdesign.cc/dark-patterns-in-ux-design-7009a83b233c",
 							"Dealing with Ads in 2020": "https://schepp.dev/posts/ad-integration-in-2020/",
@@ -1745,6 +1746,7 @@
 							"Browser Rendering Optimization": "https://www.udacity.com/course/browser-rendering-optimization--ud860",
 							"Fast load times": "https://web.dev/explore/fast",
 							"Front-End Performance Checklist 2021": "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/",
+							"Getting started with Web Performance": "https://www.htmhell.dev/adventcalendar/2023/14/",
 							"High Performance Browser Networking": "https://hpbn.co/",
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
 							"Is GDPR Good for the Environment?": "https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/",
@@ -1928,7 +1930,9 @@
 							"GreenIT (French) 006 - Privilégier une approche mobile first, à défaut un chargement adaptatif": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_006_fr.md",
 							"GreenIT (French) 4009 - Assurer la compatibilité avec les plus anciens appareils et logiciels du parc": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_4009_fr.md",
 							"GreenIT (French) 4019 - Préférer une PWA à une application mobile native similaire au site web": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_4019_fr.md",
+							"How Far Back in Time Can I Take My Website's Design": "https://ajxs.me/blog/How_Far_Back_in_Time_Can_I_Take_My_Websites_Design.html",
 							"How to Become an Eco Web Designer": "https://onextrapixel.com/how-to-become-an-eco-web-designer/",
+							"How web bloat impacts users with slow devices": "https://danluu.com/slow-device/",
 							"Introducing Web Vitals": "https://blog.chromium.org/2020/05/introducing-web-vitals-essential-metrics.html",
 							"Investigating the correlation between performance scores and energy consumption of mobile web apps (PDF)": "https://www.ivanomalavolta.com/files/papers/EASE_2020.pdf",
 							"Learn Testing": "https://web.dev/learn/testing",
@@ -2211,6 +2215,7 @@
 					"resources": [
 						{
 							"A Designer's Guide to Documenting Accessibility & User Interactions": "https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/",
+							"A Web Designer's Accessibility Advocacy Toolkit": "https://www.smashingmagazine.com/2024/02/web-designer-accessibility-advocacy-toolkit/",
 							"A11y Project Checklist": "https://www.a11yproject.com/checklist/",
 							"Access Guide": "https://www.accessguide.io/",
 							"Accessibility": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
@@ -2218,6 +2223,7 @@
 							"Accessibility Maturity Model": "https://www.w3.org/TR/maturity-model/",
 							"Accessibility Support": "https://a11ysupport.io/",
 							"Accessible Rich Internet Applications": "https://www.w3.org/TR/wai-aria-1.2/",
+							"ARIA, the good parts": "https://talks.hiddedevries.nl/hDiDOG/aria-the-good-parts",
 							"Bridging Web Accessibility and Sustainability for a Better Digital Future": "https://dodonut.com/blog/bridging-web-accessibility-and-sustainability/",
 							"Disability and Health": "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
 							"[GR491] 3-3018 - Electronicism": "https://gr491.isit-europe.org/en/crit.php?id=3-3018-uxui-diminishing-inequalities-of-access-to-digital-service",
@@ -2228,7 +2234,6 @@
 							"Internet Speeds by Country 2023": "https://worldpopulationreview.com/country-rankings/internet-speeds-by-country",
 							"Introduction to Web Accessibility": "https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility",
 							"Learn Accessibility": "https://web.dev/learn/accessibility/",
-							"List of sovereign states by Internet connection speeds": "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_Internet_connection_speeds",
 							"Making Content Usable for People with Cognitive and Learning Disabilities": "https://www.w3.org/TR/coga-usable/",
 							"Performance Is Accessibility": "https://hookedoncode.com/2020/07/performance-is-accessibility/",
 							"The Little Book of Accessibility": "https://uxdesign.cc/the-little-book-of-accessibility-a9b59d82b412",
@@ -2848,8 +2853,10 @@
 							"Graceful degradation versus progressive enhancement": "https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement",
 							"Here's how much it costs to charge a smartphone for a year": "https://www.zdnet.com/article/heres-how-much-it-costs-to-charge-a-smartphone-for-a-year/",
 							"How to Become an Eco Web Designer": "https://onextrapixel.com/how-to-become-an-eco-web-designer/",
+							"How web bloat impacts users with slow connections": "https://danluu.com/web-bloat/",
 							"Is Progressive Enhancement Dead Yet? (Video)": "https://briefs.video/videos/is-progressive-enhancement-dead-yet/",
 							"Let's Talk About Speech CSS": "https://css-tricks.com/lets-talk-speech-css/",
+							"List of sovereign states by Internet connection speeds": "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_Internet_connection_speeds",
 							"Mobile-First CSS: Is It Time for a Rethink?": "https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/",
 							"Mobile First Design and Sustainability": "https://www.mightybytes.com/blog/mobile-first-sustainability/",
 							"Mobile Gender Gap Report (PDF)": "https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2020/05/GSMA-The-Mobile-Gender-Gap-Report-2020.pdf",
@@ -5419,6 +5426,7 @@
 							"Privacy by design": "https://en.wikipedia.org/wiki/Privacy_by_design",
 							"State Of GDPR Part 1": "https://www.smashingmagazine.com/2021/02/state-gdpr-2021-key-updates/",
 							"State Of GDPR Part 2": "https://www.smashingmagazine.com/2021/03/state-gdpr-2021-cookie-consent-designers-developers/",
+							"The environmental benefits of privacy-focussed web design": "https://rootwebdesign.studio/articles/the-environmental-benefits-of-privacy-focussed-web-design/",
 							"Ultimate CCPA Compliance Checklist": "https://securiti.ai/blog/ccpa-compliance-checklist/"
 						}
 					],
