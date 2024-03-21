@@ -7,7 +7,6 @@
 			Fix for ReSpec table layout and overflow issue.
 		-->
 		<style>
-			.flow { overflow-x: scroll; }
 			.flow table { border-collapse:collapse; border-spacing:0; white-space: nowrap; }
 			.flow td, .flow th { border: 1px solid #000000; text-align: center; }
 			.red { color: #FF0000; }
@@ -3283,7 +3282,8 @@
 					<li><strong>FAIL</strong> is an indication that the test was unable to be performed and no test was subsequently produced.</li>
 				</ul>
 				<p>The tests themselves (along with any corresponding reports generated) are stored on GitHub in our public repository under the <a href="https://github.com/w3c/sustyweb/tree/main/test-suite/">test-suite</a> folder.</p>
-				<div class="flow">
+				<details class="flow">
+					<summary>Show / Hide Table of Results for the Test Suite.</summary>
 					<table>
 						<thead>
 						<tr>
@@ -4165,7 +4165,7 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>
+				</details>
 				<p>If attempting to create a test to include within or expand the test suite, remember to follow these <a href="https://web-platform-tests.org/reviewing-tests/checklist.html">review guidelines</a>. Also, be sure to remember that qualitative as well as quantitative tests are equally valuable as long as they can be tested by machine (and thus automated in some way). As tests will provide a means of identifying whether Success Criteria can offer Automated testing over Manual interventions, notifications of this potential attribute (and methods) will be referenced within the main specification.</p>
 			</section>
 		</section>
