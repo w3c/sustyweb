@@ -7,10 +7,9 @@
 			Fix for ReSpec table layout and overflow issue.
 		-->
 		<style>
-			.center { text-align: center; }
 			.flow { overflow-x: auto; }
-			table { border-collapse:collapse; border-spacing:0; white-space: nowrap; }
-			td, th { border: 1px solid #000000; }
+			.flow table { border-collapse:collapse; border-spacing:0; white-space: nowrap; }
+			.flow td, .flow th { border: 1px solid #000000; text-align: center; }
 		</style>
 		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer>
 		</script>
@@ -3061,51 +3060,51 @@
 				<p>The below table contains links to our test suite results generated using a cross-section of machine-readable techniques from the previous section.</p>
 				<ul>
 					<li><strong>N/A</strong> is an indication that results are not available.</li>
-					<li><strong>PASS</strong> is an indication that the test was able to be performed successfully.</li>
-					<li><strong>FAIL</strong> is an indication that the test was unable to be performed and no test was subsequently produced.</li>
+					<li><strong>PASS (✔️)</strong> is an indication that the test was able to be performed successfully.</li>
+					<li><strong>FAIL (❌)</strong> is an indication that the test was unable to be performed and no test was subsequently produced.</li>
 				</ul>
 				<p>The tests themselves (along with any corresponding reports generated) are stored on GitHub in our public repository under the <a href="https://github.com/w3c/sustyweb/tree/main/test-suite/">test-suite</a> folder.</p>
 				<div class="flow">
 					<table>
 						<thead>
 						<tr>
-							<th class="center" colspan="2"></th>
-							<th class="center" colspan="5"><a>UX</a></th>
-							<th class="center" colspan="6"><a>WebDev</a></th>
-							<th class="center" colspan="6"><a>Hosting</a></th>
-							<th class="center" colspan="6"><a>Business</a></th>
+							<th colspan="2"></th>
+							<th colspan="5"><a>UX</a></th>
+							<th colspan="6"><a>WebDev</a></th>
+							<th colspan="6"><a>Hosting</a></th>
+							<th colspan="6"><a>Business</a></th>
 						</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="center"><strong>Guideline</strong></td>
-								<td class="center"><strong><abbr title="Success Criteria">SC</abbr></strong></td>
-								<td class="center">1</td>
-								<td class="center">2</td>
-								<td class="center">3</td>
-								<td class="center">4</td>
-								<td class="center">5</td>
-								<td class="center">1</td>
-								<td class="center">2</td>
-								<td class="center">3</td>
-								<td class="center">4</td>
-								<td class="center">5</td>
-								<td class="center">6</td>
-								<td class="center">1</td>
-								<td class="center">2</td>
-								<td class="center">3</td>
-								<td class="center">4</td>
-								<td class="center">5</td>
-								<td class="center">6</td>
-								<td class="center">1</td>
-								<td class="center">2</td>
-								<td class="center">3</td>
-								<td class="center">4</td>
-								<td class="center">5</td>
-								<td class="center">6</td>
+								<td><strong>Guideline</strong></td>
+								<td><strong><abbr title="Success Criteria">SC</abbr></strong></td>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+								<td>4</td>
+								<td>5</td>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+								<td>4</td>
+								<td>5</td>
+								<td>6</td>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+								<td>4</td>
+								<td>5</td>
+								<td>6</td>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+								<td>4</td>
+								<td>5</td>
+								<td>6</td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">1</td>
+								<td colspan="2">1</td>
 								<td><a href="">N/A</a></td>
 								<td></td>
 								<td></td>
@@ -3120,26 +3119,26 @@
 								<td></td>
 
 								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">2</td>
+								<td colspan="2">2</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
 
 								<td><a href="">N/A</a></td>
 								<td></td>
@@ -3163,7 +3162,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">3</td>
+								<td colspan="2">3</td>
 								<td><a href="">N/A</a></td>
 								<td></td>
 								<td></td>
@@ -3184,7 +3183,7 @@
 								<td></td>
 								<td></td>
 								
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
 								<td></td>
 								<td></td>
@@ -3192,9 +3191,9 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">4</td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td colspan="2">4</td>
+								<td>❌</td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -3213,7 +3212,7 @@
 								<td></td>
 								<td></td>
 								
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -3221,256 +3220,53 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">5</td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td colspan="2">5</td>
+								<td>❌</td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
 
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
 
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
 								
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">6</td>
+								<td colspan="2">6</td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">7</td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">8</td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">9</td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">10</td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
 								<td></td>
 								<td></td>
 								<td></td>
 
+								<td>❌</td>
+								<td>❌</td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">11</td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">12</td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">13</td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
 								<td></td>
 								<td></td>
 								
@@ -3482,10 +3278,10 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">14</td>
+								<td colspan="2">7</td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
 								<td></td>
 								<td></td>
 
@@ -3493,10 +3289,10 @@
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
 
-								<td></td>
+								<td><a href="">N/A</a></td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -3504,72 +3300,43 @@
 								<td></td>
 								
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td></td>
+								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">15</td>
+								<td colspan="2">8</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
 								<td></td>
 								<td></td>
 
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
+								<td></td>
+
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
 								
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">16</td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">17</td>
+								<td colspan="2">9</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
@@ -3578,14 +3345,14 @@
 
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
 
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -3593,14 +3360,101 @@
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">18</td>
+								<td colspan="2">10</td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td></td>
+								
+								<td>❌</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="2">11</td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td>❌</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
+								<td>❌</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="2">12</td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								
+								<td>❌</td>
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+							</tr>
+							<tr>
+								<td colspan="2">13</td>
+								<td><a href="">N/A</a></td>
+								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -3619,7 +3473,7 @@
 								<td></td>
 								<td></td>
 								
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -3627,7 +3481,65 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">19</td>
+								<td colspan="2">14</td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="2">15</td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								
+								<td>❌</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="2">16</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
@@ -3649,14 +3561,101 @@
 								<td></td>
 								
 								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="2">17</td>
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td></td>
+								<td></td>
+								<td></td>
+
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td></td>
+								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">20</td>
+								<td colspan="2">18</td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								
+								<td>❌</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="2">19</td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+								<td><a href="">N/A</a></td>
+
+								<td><a href="">N/A</a></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
+								<td>❌</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="2">20</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td></td>
@@ -3678,14 +3677,14 @@
 								<td></td>
 								
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">21</td>
+								<td colspan="2">21</td>
 								<td><a href="">N/A</a></td>
 								<td></td>
 								<td></td>
@@ -3693,10 +3692,10 @@
 								<td></td>
 
 								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 
 								<td></td>
@@ -3714,44 +3713,15 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">22</td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td colspan="2">22</td>
+								<td>❌</td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
 								<td></td>
 								<td></td>
 
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">23</td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-
-								<td><a href="">N/A</a></td>
-								<td></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -3765,14 +3735,14 @@
 								<td></td>
 								
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td>❌</td>
+								<td>❌</td>
+								<td>❌</td>
+								<td>❌</td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">24</td>
+								<td colspan="2">23</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
@@ -3794,14 +3764,43 @@
 								<td></td>
 								
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">25</td>
+								<td colspan="2">24</td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
+								<td>❌</td>
+								<td></td>
+
+								<td>❌</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="2">25</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
@@ -3822,7 +3821,7 @@
 								<td></td>
 								<td></td>
 								
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -3830,7 +3829,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">26</td>
+								<td colspan="2">26</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td></td>
@@ -3851,45 +3850,16 @@
 								<td></td>
 								<td></td>
 								
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td>❌</td>
+								<td>❌</td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">27</td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="center" colspan="2">28</td>
-								<td><a href="">N/A</a></td>
+								<td colspan="2">27</td>
+								<td>❌</td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -3911,17 +3881,46 @@
 								
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td colspan="2">28</td>
+								<td>❌</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								
+								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
 								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="center" colspan="2">29</td>
+								<td colspan="2">29</td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
 								<td><a href="">N/A</a></td>
-								<td><a href="">N/A</a></td>
+								<td>❌</td>
 								<td><a href="">N/A</a></td>
 
 								<td></td>
