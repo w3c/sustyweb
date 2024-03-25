@@ -55,7 +55,7 @@
 							"Digital Eco-Design: Assess and measure": "https://eco-conception.designersethiques.org/guide/en/content/2-evaluate.html",
 							"[GR491] 7-3047 - Systemic Approach": "https://gr491.isit-europe.org/en/crit.php?id=7-3047-uxui-starting-a-project-without-taking-into-account",
 							"IBM Design For Sustainability (PDF)": "https://www.ibm.com/design/practices/design-for-sustainability/",
-							"Learn Performance": "https://web.dev/learn/performance",
+							"Learn Performance": "https://web.dev/learn/performance?hl=en",
 							"Nachhaltige Websites? (German)": "https://www.websiteboosting.com/magazin/75/nachhaltige-websites-wie-wir-alle-mehr-fuer-die-umwelt-tun-koennen.html",
 							"Opquast Web Quality Assurance Checklist (PDF)": "https://checklists.opquast.com/en/web-quality-assurance/download/",
 							"Reduce the weight of a web page: which elements have the greatest impact?": "https://greenspector.com/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
@@ -370,7 +370,7 @@
 							"OpQuast 84 - The user is alerted at the beginning of a complex process to the nature of the required data and document.": "https://checklists.opquast.com/en/web-quality-assurance/the-user-is-alerted-at-the-beginning-of-a-complex-process-to-the-nature-of-the-data-required",
 							"OpQuast 149 - Navigating the website does not open any pop-up windows.": "https://checklists.opquast.com/en/web-quality-assurance/navigating-the-website-does-not-open-any-pop-up-windows",
 							"Paradox of Choice: Why Less is More in UX Design": "https://thedecisionlab.com/reference-guide/economics/the-paradox-of-choice",
-							"Patterns": "https://web.dev/patterns/",
+							"Patterns": "https://web.dev/patterns?hl=en",
 							"Patterns.dev": "https://www.patterns.dev/",
 							"Remove non-essential features": "http://www.ecometer.org/rules/remove-non-essential-features.html",
 							"[RGESN] (French) 4.4 - Optimized Navigation": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.4/",
@@ -422,7 +422,7 @@
 					],
 					"resources": [
 						{
-							"Best practices for fonts": "https://web.dev/articles/font-best-practices#use-fewer-web-fonts",
+							"Best practices for fonts": "https://web.dev/articles/font-best-practices#use-fewer-web-fonts?hl=en",
 							"Decorative Images": "https://www.w3.org/WAI/tutorials/images/decorative/",
 							"Implementing image sprites in CSS": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS",
 							"Less Data Doesn't Mean a Lesser Experience": "https://timkadlec.com/remembers/2019-08-30-less-data-doesnt-mean-a-lesser-experience/",
@@ -434,7 +434,7 @@
 							"Simple icon systems using SVG sprites": "https://oliverjam.es/articles/svg-sprites",
 							"Simplify Your UX Through Reduction": "https://www.uxmatters.com/mt/archives/2015/07/simplify-your-ux-through-reduction.php",
 							"The Website Obesity Crisis": "https://webdirections.org/blog/the-website-obesity-crisis/",
-							"Use fewer web fonts": "https://web.dev/articles/font-best-practices#use-fewer-web-fonts"
+							"Use fewer web fonts": "https://web.dev/articles/font-best-practices#use-fewer-web-fonts?hl=en"
 						}
 					],
 					"tags": ["UI", "Usability", "Assets", "Performance"]
@@ -485,7 +485,7 @@
 					"resources": [
 						{
 							"An Excellent Beginner's Guide to Information Architecture": "https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/",
-							"Build and submit a sitemap": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+							"Build and submit a sitemap": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=en",
 							"Building Accessible Menu Systems": "https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/",
 							"Digital Eco-Design: Eco-Conception: Content": "https://eco-conception.designersethiques.org/guide/en/content/5-6-content.html",
 							"Find And Add Your Sitemap": "https://accessibleweb.com/user-guide/finding-and-adding-your-sitemap/",
@@ -611,7 +611,7 @@
 							"Google: Here's why dark mode massively extends your OLED phone's battery life": "https://www.zdnet.com/article/google-heres-why-dark-mode-massively-extends-your-oled-phones-battery-life/",
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
 							"Laws Of UX": "https://lawsofux.com/",
-							"Patterns": "https://web.dev/patterns/",
+							"Patterns": "https://web.dev/patterns?hl=en",
 							"Patterns.dev": "https://www.patterns.dev/",
 							"The dark side of green web design": "https://www.wholegraindigital.com/blog/dark-colour-web-design/"
 						}
@@ -689,7 +689,7 @@
 							"Humane By Design": "https://humanebydesign.com/principles",
 							"Is GDPR Good for the Environment?": "https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/",
 							"Just normal web things": "https://heather-buchel.com/blog/2023/07/just-normal-web-things/",
-							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy",
+							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy?hl=en",
 							"Ledger of Harms": "https://ledger.humanetech.com/",
 							"OpQuast 8 - Advertisements and sponsored content are identified as such.": "https://checklists.opquast.com/en/web-quality-assurance/advertisements-and-sponsored-content-are-identified-as-such",
 							"Overlay Fact Sheet": "https://overlayfactsheet.com/",
@@ -950,7 +950,7 @@
 							"Avoid using bitmap images for the interface": "http://www.ecometer.org/rules/avoid-using-bitmap-for-the-interface.html",
 							"Digital Eco-Design: Images": "https://eco-conception.designersethiques.org/guide/en/content/5-1-images.html",
 							"Dithering Images": "https://www.greendesign.io/dithering-images",
-							"Fast load times: Optimize Your Images": "https://web.dev/explore/fast#optimize-your-images",
+							"Fast load times: Optimize Your Images": "https://web.dev/explore/fast#optimize-your-images?hl=en",
 							"Favor CSS over images": "http://www.ecometer.org/rules/favor-css-over-images.html",
 							"Focus Mode": "https://www.greendesign.io/focus-mode",
 							"[GR491] 2-4008 - Image Compression": "https://gr491.isit-europe.org/en/crit.php?id=2-4008-contents-the-transmission-of-compressed-data-is-essential",
@@ -976,7 +976,7 @@
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
 							"Image Carbon": "https://www.imagecarbon.com/",
 							"Lazy loading": "https://en.wikipedia.org/wiki/Lazy_loading",
-							"Learn Images": "https://web.dev/blog/learn-images",
+							"Learn Images": "https://web.dev/blog/learn-images?hl=en",
 							"Modern way of serving images": "https://kurtextrem.de/posts/modern-way-of-img",
 							"OpQuast 114 - Thumbnails and previews are not larger images resized on the client side.": "https://checklists.opquast.com/en/web-quality-assurance/thumbnails-and-previews-are-not-larger-images-resized-on-the-client-side",
 							"Reduce the weight of a web page: which elements have the greatest impact?": "https://greenspector.com/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
@@ -1070,7 +1070,7 @@
 							"Greening of Streaming": "https://www.greeningofstreaming.org/",
 							"How can we design sustainably?": "https://medium.com/@sandra.pallier/how-can-we-design-sustainably-3be7530a0f5b",
 							"How to Compress a Video File without Losing Quality": "https://www.youtube.com/watch?v=sgmE1T8A4UY",
-							"Lazy load third-party resources with facades": "https://developer.chrome.com/docs/lighthouse/performance/third-party-facades",
+							"Lazy load third-party resources with facades": "https://developer.chrome.com/docs/lighthouse/performance/third-party-facades?hl=en",
 							"Making Audio and Video Media Accessible": "https://www.w3.org/WAI/media/av/",
 							"OpQuast 116 - Each audio and video content is accompanied by a text transcription.": "https://checklists.opquast.com/en/web-quality-assurance/all-audio-and-video-content-is-accompanied-by-a-text-transcription",
 							"OpQuast 118 - The length of video and audio content is indicated.": "https://checklists.opquast.com/en/web-quality-assurance/the-length-of-video-and-audio-content-is-displayed",
@@ -1138,7 +1138,7 @@
 					"example": [
 						{
 							"code": "@media (prefers-reduced-motion: reduce) {\r\n\tbody *,\r\n\tbody *::before,\r\n\tbody *::after {\r\n\t\tanimation-delay: -1ms !important;\r\n\t\tanimation-duration: 1ms !important;\r\n\t\tanimation-iteration-count: 1 !important;\r\n\t\tbackground-attachment: initial !important;\r\n\t\ttransition-duration: 1ms !important;\r\n\t\ttransition-delay: -1ms !important;\r\n\t\tscroll-behavior: auto !important;\r\n\t}\r\n}",
-							"content": "[Prefers-reduced-motion: Sometimes less movement is more](https://web.dev/articles/prefers-reduced-motion)."
+							"content": "[Prefers-reduced-motion: Sometimes less movement is more](https://web.dev/articles/prefers-reduced-motion?hl=en)."
 						}
 					],
 					"resources": [
@@ -1207,7 +1207,7 @@
 					],
 					"resources": [
 						{
-							"Best practices for fonts": "https://web.dev/articles/font-best-practices",
+							"Best practices for fonts": "https://web.dev/articles/font-best-practices?hl=en",
 							"Complete Guide to Pre-Installed Fonts in Linux, Mac, and Windows": "https://www.apaddedcell.com/web-fonts/",
 							"CSS Fonts": "https://www.cssfontstack.com/",
 							"Digital Eco-Design: Fonts": "https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html",
@@ -1218,7 +1218,7 @@
 							"GreenIT (French) 029 - Favoriser les polices standards": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_029_fr.md",
 							"How can we design sustainably?": "https://medium.com/@sandra.pallier/how-can-we-design-sustainably-3be7530a0f5b",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
-							"Reduce web font size": "https://web.dev/articles/reduce-webfont-size",
+							"Reduce web font size": "https://web.dev/articles/reduce-webfont-size?hl=en",
 							"[RGESN] (French) 4.10 - System Fonts": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/4.10/",
 							"The performance cost of custom web fonts, and how to solve it": "https://www.wholegraindigital.com/blog/performant-web-fonts/",
 							"Use standard typefaces": "http://www.ecometer.org/rules/use-standard-typefaces.html",
@@ -1292,7 +1292,7 @@
 							"Digital Eco-Design: Downloadable documents": "https://eco-conception.designersethiques.org/guide/en/content/5-8-downloadable-documents.html",
 							"Digital Eco-Design: Fonts": "https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html",
 							"Digital Eco-Design: Video and sound": "https://eco-conception.designersethiques.org/guide/en/content/5-2-video.html",
-							"Fast Load Times: Optimize WebFonts": "https://web.dev/explore/fast#optimize-webfonts",
+							"Fast Load Times: Optimize WebFonts": "https://web.dev/explore/fast#optimize-webfonts?hl=en",
 							"[GR491] 2-4012 - Image Alternatives": "https://gr491.isit-europe.org/en/crit.php?id=2-4012-contents-accessibility-assistants-must-be-able-to-use",
 							"[GR491] 3-4034 - Audio Alternatives": "https://gr491.isit-europe.org/en/crit.php?id=3-4034-contents-access-to-sound-is-difficult-if-not",
 							"[GR491] 9-5064 - Image Text Replacement": "https://gr491.isit-europe.org/en/crit.php?id=9-5064-frontend-accessibility-assistants-must-be-able-to-use",
@@ -1608,7 +1608,7 @@
 							"A Comprehensive Guide To User Testing": "https://www.smashingmagazine.com/2018/03/guide-user-testing/",
 							"A comprehensive list of UX design methods & deliverables": "https://uxdesign.cc/a-comprehensive-list-of-ux-design-methods-deliverables-2021-2feb3e70e168",
 							"Inclusive Design Principles": "https://inclusivedesignprinciples.org/",
-							"Learn Accessibility": "https://web.dev/learn/accessibility/",
+							"Learn Accessibility": "https://web.dev/learn/accessibility?hl=en",
 							"Little Book of Accessibility": "https://uxdesign.cc/the-little-book-of-accessibility-a9b59d82b412",
 							"Microsoft Inclusive Design": "https://inclusive.microsoft.design/",
 							"Product Management and the Build Trap": "https://www.mightybytes.com/blog/product-management-the-build-trap/",
@@ -1679,8 +1679,8 @@
 							"High Performance Browser Networking": "https://hpbn.co/",
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
 							"Inclusive Design Principles": "https://inclusivedesignprinciples.org/",
-							"Learn Accessibility": "https://web.dev/learn/accessibility/",
-							"Learn Performance": "https://web.dev/learn/performance",
+							"Learn Accessibility": "https://web.dev/learn/accessibility?hl=en",
+							"Learn Performance": "https://web.dev/learn/performance?hl=en",
 							"Measuring Web Performance in 2024: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance/",
 							"OWASP Web Application Security Testing Checklist": "https://github.com/0xRadi/OWASP-Web-Checklist",
 							"Power profiling with the Firefox Profiler": "https://archive.fosdem.org/2023/schedule/event/energy_power_profiling_firefox/",
@@ -1744,13 +1744,13 @@
 							"Addy Osmani's 18-Point Web Performance Checklist": "https://dev.to/ben/addy-osmanis-18-point-web-performance-checklist-2e1",
 							"Awesome Page Speed Metrics": "https://github.com/csabapalfi/awesome-pagespeed-metrics",
 							"Browser Rendering Optimization": "https://www.udacity.com/course/browser-rendering-optimization--ud860",
-							"Fast load times": "https://web.dev/explore/fast",
+							"Fast load times": "https://web.dev/explore/fast?hl=en",
 							"Front-End Performance Checklist 2021": "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/",
 							"Getting started with Web Performance": "https://www.htmhell.dev/adventcalendar/2023/14/",
 							"High Performance Browser Networking": "https://hpbn.co/",
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
 							"Is GDPR Good for the Environment?": "https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/",
-							"Learn Performance": "https://web.dev/learn/performance",
+							"Learn Performance": "https://web.dev/learn/performance?hl=en",
 							"Measuring Web Performance in 2024: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance/",
 							"PageSpeed Insights": "https://pagespeed.web.dev/",
 							"The Almost-Complete Guide to Cumulative Layout Shift": "https://jessbpeck.com/posts/completecls/",
@@ -1935,7 +1935,7 @@
 							"How web bloat impacts users with slow devices": "https://danluu.com/slow-device/",
 							"Introducing Web Vitals": "https://blog.chromium.org/2020/05/introducing-web-vitals-essential-metrics.html",
 							"Investigating the correlation between performance scores and energy consumption of mobile web apps (PDF)": "https://www.ivanomalavolta.com/files/papers/EASE_2020.pdf",
-							"Learn Testing": "https://web.dev/learn/testing",
+							"Learn Testing": "https://web.dev/learn/testing?hl=en",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
 							"Mise à jour logicielle : il est urgent de légiférer (French)": "https://www.greenit.fr/2019/03/19/mise-a-jour-logicielle-il-est-urgent-de-legiferer/",
 							"Mobile Web Best Practices": "https://www.w3.org/TR/mobile-bp/",
@@ -1953,7 +1953,7 @@
 							"The state of the art in measurement-based experiments on the mobile web": "https://www.sciencedirect.com/science/article/pii/S095058492200091X",
 							"Using UX Design to Build a Sustainable Future": "https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
-							"Web Vitals": "https://web.dev/articles/vitals",
+							"Web Vitals": "https://web.dev/articles/vitals?hl=en",
 							"What is resilience?": "https://www.stockholmresilience.org/research/research-news/2015-02-19-what-is-resilience.html"
 						}
 					],
@@ -2008,7 +2008,7 @@
 							"Does not compute: Avoiding pitfalls assessing the Internet's energy and carbon impacts": "https://www.cell.com/joule/fulltext/S2542-4351(21)00211-7",
 							"Electronics Goes Green (PDF)": "https://online.electronicsgoesgreen.org/wp-content/uploads/2020/10/Proceedings_EGG2020_v2.pdf",
 							"Equations relating total annual energy consumption and chips energy efficiency": "https://www.researchgate.net/publication/371938289_Equations_relating_total_annual_energy_consumption_and_chips_energy_efficiency",
-							"Fast load times": "https://web.dev/explore/fast",
+							"Fast load times": "https://web.dev/explore/fast?hl=en",
 							"[GR491] 3-7043 - Client / Server Requests": "https://gr491.isit-europe.org/en/crit.php?id=3-7043-backend-the-operations-carried-out-on-the-front",
 							"Graphics Card Power Consumption and Efficiency Tested": "https://www.tomshardware.com/features/graphics-card-power-consumption-tested",
 							"How Improving Website Performance Can Help Save The Planet": "https://www.smashingmagazine.com/2019/01/save-planet-improving-website-performance/",
@@ -2063,8 +2063,7 @@
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
 							"Lighthouse: Minify JavaScript": "https://gtmetrix.com/minify-javascript.html",
 							"Minification": "https://developer.mozilla.org/en-US/docs/Glossary/Minification",
-							"Optimize the encoding and transfer size of text-based assets": "https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer",
-							"Optimizing Encoding and Transfer Size of Text-Based Assets": "https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer",
+							"Optimizing Encoding and Transfer Size of Text-Based Assets": "https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer?hl=en",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability"
 						}
 					],
@@ -2155,8 +2154,8 @@
 							"Browser Default Styles": "https://browserdefaultstyles.com/",
 							"Coverage: Find unused JavaScript and CSS": "https://developer.chrome.com/docs/devtools/coverage?hl=en",
 							"Front-End Performance 2021: Build Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-build-optimizations/",
-							"How large DOM sizes affect interactivity": "https://web.dev/articles/dom-size-and-interactivity",
-							"Reduce JavaScript payloads with tree shaking": "https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking",
+							"How large DOM sizes affect interactivity": "https://web.dev/articles/dom-size-and-interactivity?hl=en",
+							"Reduce JavaScript payloads with tree shaking": "https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking?hl=en",
 							"Remove unused CSS": "https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules?hl=en",
 							"The cost of not deleting code": "https://www.asystad.net/the-cost-of-not-deleting-code/",
 							"Tree shaking": "https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking",
@@ -2233,7 +2232,7 @@
 							"Internet access, sustainability, and citizen participation": "https://www.opendemocracy.net/en/internet-access-sustainability-and-citizen-participation-electricity-as-prerequisite/",
 							"Internet Speeds by Country 2023": "https://worldpopulationreview.com/country-rankings/internet-speeds-by-country",
 							"Introduction to Web Accessibility": "https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility",
-							"Learn Accessibility": "https://web.dev/learn/accessibility/",
+							"Learn Accessibility": "https://web.dev/learn/accessibility?hl=en",
 							"Making Content Usable for People with Cognitive and Learning Disabilities": "https://www.w3.org/TR/coga-usable/",
 							"Performance Is Accessibility": "https://hookedoncode.com/2020/07/performance-is-accessibility/",
 							"The Little Book of Accessibility": "https://uxdesign.cc/the-little-book-of-accessibility-a9b59d82b412",
@@ -2367,7 +2366,7 @@
 							"Effectively loading ads without impacting page speed": "https://web.dev/articles/loading-ads-page-speed?hl=en",
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
 							"Environmental impact assessment of online advertising": "https://www.sciencedirect.com/science/article/pii/S0195925517303505",
-							"Fast Load Times: Optimize your third-party resources": "https://web.dev/explore/fast#optimize-your-third-party-resources",
+							"Fast Load Times: Optimize your third-party resources": "https://web.dev/explore/fast#optimize-your-third-party-resources?hl=en",
 							"Front-End Performance 2021: Defining The Environment": "https://www.smashingmagazine.com/2021/01/front-end-performance-defining-the-environment/",
 							"[GR491] 5-3036 - Necessary Analytics": "https://gr491.isit-europe.org/en/crit.php?id=5-3036-uxui-the-analytics-data-collect-is-installed-in",
 							"[GR491] 6-3045 - Third-party Solutions": "https://gr491.isit-europe.org/en/crit.php?id=6-3045-uxui-third-party-solutions-may-provide-value-to",
@@ -2375,7 +2374,7 @@
 							"GreenIT (French) 4030 - Limiter le recours aux carrousels": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_4030_fr.md",
 							"How ad platforms like Facebook, Google, and others drive climate change": "https://asemakula.medium.com/how-ad-platforms-like-facebook-google-and-others-sneakily-drive-climate-change-152194836e81",
 							"How efficient code increases sustainability in the enterprise": "https://venturebeat.com/programming-development/how-efficient-code-increases-sustainability-in-the-enterprise/",
-							"How large DOM sizes affect interactivity": "https://web.dev/articles/dom-size-and-interactivity",
+							"How large DOM sizes affect interactivity": "https://web.dev/articles/dom-size-and-interactivity?hl=en",
 							"How tracking pixels work": "https://jvns.ca/blog/how-tracking-pixels-work/",
 							"JavaScript performance": "https://developer.mozilla.org/en-US/docs/Learn/Performance/JavaScript",
 							"Lighthouse: Lazy load third-party resources with facades": "https://gtmetrix.com/lazy-load-third-party-resources-with-facades.html",
@@ -2513,15 +2512,15 @@
 					"example": [
 						{
 							"code": "<img src=\"image.png\" loading=\"lazy\" alt=\"\u2026\" width=\"200\" height=\"200\">",
-							"content": "[Browser-level image lazy loading for the web](https://web.dev/articles/browser-level-image-lazy-loading)."
+							"content": "[Browser-level image lazy loading for the web](https://web.dev/articles/browser-level-image-lazy-loading?hl=en)."
 						}
 					],
 					"resources": [
 						{
 							"CSS performance optimization": "https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS",
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
-							"Fast Load Times: Lazy-load images and video": "https://web.dev/explore/fast#lazy-load-images-and-video",
-							"Fast Load Times: Optimize your resource delivery": "https://web.dev/explore/fast#optimize-your-resource-delivery",
+							"Fast Load Times: Lazy-load images and video": "https://web.dev/explore/fast#lazy-load-images-and-video?hl=en",
+							"Fast Load Times: Optimize your resource delivery": "https://web.dev/explore/fast#optimize-your-resource-delivery?hl=en",
 							"Flash of unstyled content": "https://en.wikipedia.org/wiki/Flash_of_unstyled_content",
 							"Front-End Performance 2021: Delivery Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-delivery-optimizations/",
 							"Islands Architecture": "https://www.patterns.dev/vanilla/islands-architecture",
@@ -2576,7 +2575,7 @@
 					"example": [
 						{
 							"code": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<urlset xmlns=\"http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9\">\r\n\t<url>\r\n\t\t<loc>https:\/\/www.example.com\/foo.html<\/loc>\r\n\t\t<lastmod>2022-06-04<\/lastmod>\r\n\t<\/url>\r\n<\/urlset>",
-							"content": "[Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)."
+							"content": "[Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=en)."
 						}
 					],
 					"resources": [
@@ -2586,9 +2585,9 @@
 							"An Extended Standard for Robot Exclusion": "https://www.conman.org/people/spc/robots2.html",
 							"Customer Experience Mapping": "https://www.startupgrind.com/blog/customer-experience-mapping-what-is-it-and-how-to-do-it/",
 							"Distribution of bot and human web traffic worldwide from 2014 to 2021": "https://www.statista.com/statistics/1264226/human-and-bot-web-traffic-share/",
-							"How Google interprets the robots.txt specification": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt",
+							"How Google interprets the robots.txt specification": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt?hl=en",
 							"How to Use Keywords for SEO and Web Sustainability": "https://www.mightybytes.com/blog/keyword-optimization-seo-sustainability/",
-							"Learn about sitemaps": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+							"Learn about sitemaps": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=en",
 							"Ledger of Harms": "https://ledger.humanetech.com/",
 							"MetaExtensions": "https://wiki.whatwg.org/wiki/MetaExtensions",
 							"Perceived performance": "https://developer.mozilla.org/en-US/docs/Learn/Performance/Perceived_performance",
@@ -2703,7 +2702,7 @@
 					"example": [
 						{
 							"code": "<html>\r\n\t<head>\r\n\t\t<title>Example: A website about Examples<\/title>\r\n\t\t<script type=\"application\/ld+json\">\r\n\t\t{\r\n\t\t\t\"@context\" : \"https:\/\/schema.org\",\r\n\t\t\t\"@type\" : \"WebSite\",\r\n\t\t\t\"name\" : \"Example\",\r\n\t\t\t\"url\" : \"https:\/\/example.com\/\"\r\n\t\t}\r\n\t<\/script>\r\n\t<\/head>\r\n\t<body>\r\n\t<\/body>\r\n<\/html>",
-							"content": "[Provide a website name to Google Search](https://developers.google.com/search/docs/appearance/site-names)."
+							"content": "[Provide a website name to Google Search](https://developers.google.com/search/docs/appearance/site-names?hl=en)."
 						}
 					],
 					"resources": [
@@ -3084,10 +3083,10 @@
 					"resources": [
 						{
 							"About /robots.txt": "https://www.robotstxt.org/robotstxt.html",
-							"Build and submit a sitemap": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
-							"Define a favicon to show in search results": "https://developers.google.com/search/docs/appearance/favicon-in-search",
+							"Build and submit a sitemap": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=en",
+							"Define a favicon to show in search results": "https://developers.google.com/search/docs/appearance/favicon-in-search?hl=en",
 							"Favicon Generator": "https://realfavicongenerator.net/",
-							"How Google interprets the robots.txt specification": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt",
+							"How Google interprets the robots.txt specification": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt?hl=en",
 							"OpenSearch": "https://en.wikipedia.org/wiki/OpenSearch",
 							"OpenSearch Protocol": "https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md",
 							"Sitemaps Protocol": "https://www.sitemaps.org/protocol.html",
@@ -3137,7 +3136,7 @@
 							"About /robots.txt": "https://www.robotstxt.org/robotstxt.html",
 							"Ads.txt guide": "https://support.google.com/adsense/answer/12171612?hl=en-GB&rd=1",
 							"All about humans. Humans.txt, actually": "https://codeburst.io/all-about-humans-humans-txt-actually-f571d37f92d2",
-							"How Google interprets the robots.txt specification": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt",
+							"How Google interprets the robots.txt specification": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt?hl=en",
 							"security.txt": "https://en.wikipedia.org/wiki/Security.txt",
 							"The ads.txt Standard": "https://iabtechlab.com/ads-txt/",
 							"The carbon.txt Proposed Standard": "https://github.com/thegreenwebfoundation/carbon.txt",
@@ -3625,11 +3624,11 @@
 							"[GR491] 7-3051 - Search Utilization": "https://gr491.isit-europe.org/en/crit.php?id=7-3051-uxui-internat-search-engines-usage-in-the-service",
 							"How to Build a Low-tech Website?": "https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/",
 							"Impact of New and Emerging Internet Technologies on Climate Change and Human Rights (PDF)": "https://www.law.ox.ac.uk/sites/default/files/migrated/un_human_rights_council_advisory_committee_submission_-_new_and_emerging_technologies_-_allmann_hazas.pdf",
-							"Learn PWA": "https://web.dev/learn/pwa/",
+							"Learn PWA": "https://web.dev/learn/pwa?hl=en",
 							"Microsoft Azure WAF: Selecting Services": "https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/select-services",
 							"Microsoft Azure WAF: Server VS Client Rendering": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-application-design#evaluate-server-side-vs-client-side-rendering",
 							"Progressive web apps": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
-							"Progressive Web Apps: Going Offline": "https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#0",
+							"Progressive Web Apps: Going Offline": "https://developers.google.com/codelabs/pwa-training/pwa03--going-offline?hl=en",
 							"Resilient web design": "https://resilientwebdesign.com/",
 							"Service workers": "https://web.dev/learn/pwa/service-workers?hl=en",
 							"Varnish Cache": "https://wp-rocket.me/wordpress-cache/varnish-http-cache-server/",
@@ -3690,14 +3689,14 @@
 							"Digital Eco-Design": "https://eco-conception.designersethiques.org/guide/en/content/5-1-images.html",
 							"Does GZIP Save CO2?": "https://www.green-coding.io/case-studies/does-gzip-save-co2/",
 							"Digital sustainability audits: a de facto standard for the Internet carbon footprint": "https://www.researchgate.net/publication/343041330_Digital_sustainability_audits_a_de_facto_standard_for_the_Internet_carbon_footprint",
-							"Fast Load Times: Optimize your images": "https://web.dev/explore/fast#optimize-your-images",
+							"Fast Load Times: Optimize your images": "https://web.dev/explore/fast#optimize-your-images?hl=en",
 							"Front-End Performance 2021: Assets Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-assets-optimizations/",
 							"Handbrake": "https://handbrake.fr/",
 							"How to Optimize Images for Faster Load Times and Sustainability": "https://www.mightybytes.com/blog/how-to-optimize-images/",
 							"Impact of New and Emerging Internet Technologies on Climate Change and Human Rights (PDF)": "https://www.law.ox.ac.uk/sites/default/files/migrated/un_human_rights_council_advisory_committee_submission_-_new_and_emerging_technologies_-_allmann_hazas.pdf",
 							"Internet Speeds by Country 2023": "https://worldpopulationreview.com/country-rankings/internet-speeds-by-country",
-							"Optimizing Encoding and Transfer Size of Text-Based Assets": "https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer",
-							"Reduce web font size": "https://web.dev/articles/reduce-webfont-size",
+							"Optimizing Encoding and Transfer Size of Text-Based Assets": "https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer?hl=en",
+							"Reduce web font size": "https://web.dev/articles/reduce-webfont-size?hl=en",
 							"Responsive images": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images",
 							"Should I Use A Carousel": "https://shouldiuseacarousel.com/",
 							"Squoosh": "https://squoosh.app/",
@@ -4024,7 +4023,7 @@
 							"The Complete Guide to Event-Driven Architecture": "https://solace.com/what-is-event-driven-architecture/",
 							"What is an Event-Driven Architecture?": "https://aws.amazon.com/event-driven-architecture/",
 							"What Is Event-Driven Architecture?": "https://blog.hubspot.com/marketing/event-driven-architecture",
-							"Why HTTPS matters": "https://web.dev/articles/why-https-matters",
+							"Why HTTPS matters": "https://web.dev/articles/why-https-matters?hl=en",
 							"Why You Shouldn't Use FTP or HTTP if You Care About Security": "https://www.automox.com/blog/you-shouldnt-use-ftp-or-http"
 						}
 					],
@@ -4091,7 +4090,7 @@
 							"Energy Consumption in Data Centres and Broadband Communication Networks in the EU": "https://publications.jrc.ec.europa.eu/repository/handle/JRC135926",
 							"Energy-efficient Cloud Computing Technologies and Policies for an Eco-friendly Cloud Market": "https://digital-strategy.ec.europa.eu/en/library/energy-efficient-cloud-computing-technologies-and-policies-eco-friendly-cloud-market",
 							"Future trends of Green All Optical Networks and ICT Infrastructure in a large context": "https://www.researchgate.net/publication/368690756_Future_trends_of_Green_All_Optical_Networks_and_ICT_Infrastructure_in_a_large_context_-_trends_to_2050",
-							"Gaining security and privacy by partitioning the cache": "https://developer.chrome.com/blog/http-cache-partitioning",
+							"Gaining security and privacy by partitioning the cache": "https://developer.chrome.com/blog/http-cache-partitioning?hl=en",
 							"Greenhouse Gas Protocol - Cloud & Data Center Services (PDF)": "https://ghgprotocol.org/sites/default/files/GHGP-ICTSG%20-%20ALL%20Chapters.pdf#page=142",
 							"[GR491] 1-8003 - Datacenter Location": "https://gr491.isit-europe.org/en/crit.php?id=1-8003-hosting-data-centers-are-rarely-installed-in-the",
 							"[GR491] 2-8020 - Datacenter Hub": "https://gr491.isit-europe.org/en/crit.php?id=2-8020-hosting-physical-trips-to-datacenters-are-by-nature",
@@ -5422,7 +5421,7 @@
 							"How To Protect Your Users With The Privacy By Design Framework": "https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/",
 							"Is GDPR Good for the Environment?": "https://www.mightybytes.com/blog/is-gdpr-good-for-the-environment/",
 							"Learn How To Write a Privacy Policy in a Few Easy Steps": "https://dataprot.net/guides/how-to-write-a-privacy-policy/",
-							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy",
+							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy?hl=en",
 							"Privacy by design": "https://en.wikipedia.org/wiki/Privacy_by_design",
 							"State Of GDPR Part 1": "https://www.smashingmagazine.com/2021/02/state-gdpr-2021-key-updates/",
 							"State Of GDPR Part 2": "https://www.smashingmagazine.com/2021/03/state-gdpr-2021-cookie-consent-designers-developers/",
@@ -5485,7 +5484,7 @@
 							"How to Build a Low-tech Website?": "https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/",
 							"How To Manage Your Old & Outdated Content": "https://searchengineland.com/manage-old-outdated-content-226195",
 							"How To Protect Your Users With The Privacy By Design Framework": "https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/",
-							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy",
+							"Learn Privacy": "https://web.dev/blog/introducing-learn-privacy?hl=en",
 							"OpQuast 19 - Accounts and subscriptions opened online can be closed online by the same method.": "https://checklists.opquast.com/en/web-quality-assurance/accounts-and-subscriptions-opened-online-can-be-closed-online",
 							"Privacy UX: Privacy-Aware Design Framework": "https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/",
 							"[RGESN] (French) 2.1 - Design And Code Review": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/2.1/",
@@ -5847,7 +5846,7 @@
 							"CO2 emissions on the web": "https://www.dannyvankooten.com/blog/2020/website-carbon-emissions/",
 							"CO2.js": "https://www.thegreenwebfoundation.org/co2-js/",
 							"Core Web Vitals For SEOs & Developers": "https://ahrefs.com/blog/core-web-vitals/",
-							"Fast Load Times: Set performance budgets": "https://web.dev/explore/fast#set-performance-budgets",
+							"Fast Load Times: Set performance budgets": "https://web.dev/explore/fast#set-performance-budgets?hl=en",
 							"Find Out How You Stack Up to New Industry Benchmarks for Mobile Page Speed (PDF)": "https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf",
 							"Front-End Performance 2021: Setting Realistic Goals": "https://www.smashingmagazine.com/2021/01/front-end-performance-setting-realistic-goals/",
 							"[GR491] 1-3009 - Sustainability Budgets": "https://gr491.isit-europe.org/en/crit.php?id=1-3009-uxui-depending-on-the-organizations-level-of-maturity",
@@ -5867,7 +5866,7 @@
 							"Sustainable Practices": "https://www.the-public-good.com/web-development/sustainable-practices",
 							"Sustainable Web Design": "https://alistapart.com/article/sustainable-web-design/",
 							"The overlooked environmental footprint of increasing Internet use": "https://www.sciencedirect.com/science/article/abs/pii/S0921344920307072",
-							"Use Lighthouse for performance budgets": "https://web.dev/articles/use-lighthouse-for-performance-budgets",
+							"Use Lighthouse for performance budgets": "https://web.dev/articles/use-lighthouse-for-performance-budgets?hl=en",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
 							"Website Speed Stats: Does Your Site Load in 3 Seconds?": "https://digital.com/website-speed-statistics/",
 							"Why Your Website Should Be Under 14KB In Size": "https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/"
