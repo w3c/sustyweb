@@ -422,7 +422,7 @@
 					],
 					"resources": [
 						{
-							"Best practices for fonts": "https://web.dev/articles/font-best-practices#use-fewer-web-fonts?hl=en",
+							"Best practices for fonts": "https://web.dev/articles/font-best-practices?hl=en",
 							"Decorative Images": "https://www.w3.org/WAI/tutorials/images/decorative/",
 							"Implementing image sprites in CSS": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS",
 							"Less Data Doesn't Mean a Lesser Experience": "https://timkadlec.com/remembers/2019-08-30-less-data-doesnt-mean-a-lesser-experience/",
@@ -434,7 +434,7 @@
 							"Simple icon systems using SVG sprites": "https://oliverjam.es/articles/svg-sprites",
 							"Simplify Your UX Through Reduction": "https://www.uxmatters.com/mt/archives/2015/07/simplify-your-ux-through-reduction.php",
 							"The Website Obesity Crisis": "https://webdirections.org/blog/the-website-obesity-crisis/",
-							"Use fewer web fonts": "https://web.dev/articles/font-best-practices#use-fewer-web-fonts?hl=en"
+							"Use fewer web fonts": "https://web.dev/articles/font-best-practices?hl=en"
 						}
 					],
 					"tags": ["UI", "Usability", "Assets", "Performance"]
@@ -950,7 +950,7 @@
 							"Avoid using bitmap images for the interface": "http://www.ecometer.org/rules/avoid-using-bitmap-for-the-interface.html",
 							"Digital Eco-Design: Images": "https://eco-conception.designersethiques.org/guide/en/content/5-1-images.html",
 							"Dithering Images": "https://www.greendesign.io/dithering-images",
-							"Fast load times: Optimize Your Images": "https://web.dev/explore/fast#optimize-your-images?hl=en",
+							"Fast load times: Optimize Your Images": "https://web.dev/explore/fast?hl=en#optimize-your-images",
 							"Favor CSS over images": "http://www.ecometer.org/rules/favor-css-over-images.html",
 							"Focus Mode": "https://www.greendesign.io/focus-mode",
 							"[GR491] 2-4008 - Image Compression": "https://gr491.isit-europe.org/en/crit.php?id=2-4008-contents-the-transmission-of-compressed-data-is-essential",
@@ -1292,7 +1292,7 @@
 							"Digital Eco-Design: Downloadable documents": "https://eco-conception.designersethiques.org/guide/en/content/5-8-downloadable-documents.html",
 							"Digital Eco-Design: Fonts": "https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html",
 							"Digital Eco-Design: Video and sound": "https://eco-conception.designersethiques.org/guide/en/content/5-2-video.html",
-							"Fast Load Times: Optimize WebFonts": "https://web.dev/explore/fast#optimize-webfonts?hl=en",
+							"Fast Load Times: Optimize WebFonts": "https://web.dev/explore/fast?hl=en#optimize-webfonts",
 							"[GR491] 2-4012 - Image Alternatives": "https://gr491.isit-europe.org/en/crit.php?id=2-4012-contents-accessibility-assistants-must-be-able-to-use",
 							"[GR491] 3-4034 - Audio Alternatives": "https://gr491.isit-europe.org/en/crit.php?id=3-4034-contents-access-to-sound-is-difficult-if-not",
 							"[GR491] 9-5064 - Image Text Replacement": "https://gr491.isit-europe.org/en/crit.php?id=9-5064-frontend-accessibility-assistants-must-be-able-to-use",
@@ -2366,7 +2366,7 @@
 							"Effectively loading ads without impacting page speed": "https://web.dev/articles/loading-ads-page-speed?hl=en",
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
 							"Environmental impact assessment of online advertising": "https://www.sciencedirect.com/science/article/pii/S0195925517303505",
-							"Fast Load Times: Optimize your third-party resources": "https://web.dev/explore/fast#optimize-your-third-party-resources?hl=en",
+							"Fast Load Times: Optimize your third-party resources": "https://web.dev/explore/fast?hl=en#optimize-your-third-party-resources",
 							"Front-End Performance 2021: Defining The Environment": "https://www.smashingmagazine.com/2021/01/front-end-performance-defining-the-environment/",
 							"[GR491] 5-3036 - Necessary Analytics": "https://gr491.isit-europe.org/en/crit.php?id=5-3036-uxui-the-analytics-data-collect-is-installed-in",
 							"[GR491] 6-3045 - Third-party Solutions": "https://gr491.isit-europe.org/en/crit.php?id=6-3045-uxui-third-party-solutions-may-provide-value-to",
@@ -2519,8 +2519,8 @@
 						{
 							"CSS performance optimization": "https://developer.mozilla.org/en-US/docs/Learn/Performance/CSS",
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
-							"Fast Load Times: Lazy-load images and video": "https://web.dev/explore/fast#lazy-load-images-and-video?hl=en",
-							"Fast Load Times: Optimize your resource delivery": "https://web.dev/explore/fast#optimize-your-resource-delivery?hl=en",
+							"Fast Load Times: Lazy-load images and video": "https://web.dev/explore/fast?hl=en#lazy-load-images-and-video",
+							"Fast Load Times: Optimize your resource delivery": "https://web.dev/explore/fast?hl=en#optimize-your-resource-delivery",
 							"Flash of unstyled content": "https://en.wikipedia.org/wiki/Flash_of_unstyled_content",
 							"Front-End Performance 2021: Delivery Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-delivery-optimizations/",
 							"Islands Architecture": "https://www.patterns.dev/vanilla/islands-architecture",
@@ -3689,7 +3689,7 @@
 							"Digital Eco-Design": "https://eco-conception.designersethiques.org/guide/en/content/5-1-images.html",
 							"Does GZIP Save CO2?": "https://www.green-coding.io/case-studies/does-gzip-save-co2/",
 							"Digital sustainability audits: a de facto standard for the Internet carbon footprint": "https://www.researchgate.net/publication/343041330_Digital_sustainability_audits_a_de_facto_standard_for_the_Internet_carbon_footprint",
-							"Fast Load Times: Optimize your images": "https://web.dev/explore/fast#optimize-your-images?hl=en",
+							"Fast Load Times: Optimize your images": "https://web.dev/explore/fast?hl=en#optimize-your-images",
 							"Front-End Performance 2021: Assets Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-assets-optimizations/",
 							"Handbrake": "https://handbrake.fr/",
 							"How to Optimize Images for Faster Load Times and Sustainability": "https://www.mightybytes.com/blog/how-to-optimize-images/",
@@ -5846,7 +5846,7 @@
 							"CO2 emissions on the web": "https://www.dannyvankooten.com/blog/2020/website-carbon-emissions/",
 							"CO2.js": "https://www.thegreenwebfoundation.org/co2-js/",
 							"Core Web Vitals For SEOs & Developers": "https://ahrefs.com/blog/core-web-vitals/",
-							"Fast Load Times: Set performance budgets": "https://web.dev/explore/fast#set-performance-budgets?hl=en",
+							"Fast Load Times: Set performance budgets": "https://web.dev/explore/fast?hl=en#set-performance-budgets",
 							"Find Out How You Stack Up to New Industry Benchmarks for Mobile Page Speed (PDF)": "https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf",
 							"Front-End Performance 2021: Setting Realistic Goals": "https://www.smashingmagazine.com/2021/01/front-end-performance-setting-realistic-goals/",
 							"[GR491] 1-3009 - Sustainability Budgets": "https://gr491.isit-europe.org/en/crit.php?id=1-3009-uxui-depending-on-the-organizations-level-of-maturity",
