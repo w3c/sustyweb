@@ -54,7 +54,7 @@
 		<section id="sotd" class="override"></section> <!-- Ignore -->
 		<section> <!-- Implementation -->
 			<h2>Implementation Advice</h2>
-			<p>The following section provides advisory guidance for other specification writers and external groups wishing to incorporate digital sustainability within their work (such as W3C Working and Community Groups). We are primarily a group dedicated to fostering sustainable change in Web technologies associated with the creation of websites and applications. While it is outside of our group's scope to conduct horizontal reviews of other group's specifications, we may request or accept requests to collaborate with or assist in coordination with other groups to implement sustainable change.</p>
+			<p>The following section provides advisory guidance for other specification writers and external groups wishing to incorporate digital sustainability within their work (such as <abbr title="World Wide Web Consortium">W3C</abbr> Working and Community Groups). We are primarily a group dedicated to fostering sustainable change in Web technologies associated with the creation of websites and applications. While it is outside of our group's scope to conduct horizontal reviews of other group's specifications, we may request or accept requests to collaborate with or assist in coordination with other groups to implement sustainable change.</p>
 			<section> <!-- Considerations -->
 				<h3>Considerations</h3>
 				<p>The WSGs have a broad appeal, designed to impact a wide range of Web technologies and related infrastructure as appropriate. With this in mind, when first starting to look to incorporate sustainability within a body of work you may find that certain guidelines more than others will apply to practices.</p>
@@ -498,7 +498,7 @@
 									<li>Check that the structure of the navigation menu is semantically correct.</li>
 									<li>Check that the structure of the navigation menu is repeated across all pages.</li>
 									<li>Check that the click sizes / ratios of anchors in navigation menus are large enough on both mobile and desktop to be comfortable.</li>
-									<li>Check that the URLs provided within links do not lead to errors.</li>
+									<li>Check that the <abbr title="Uniform Resource Locators">URLs</abbr> provided within links do not lead to errors.</li>
 									<li>Check that any search functionality provides results (not errors) upon submission.</li>
 								</ol>
 								<p>Expected Results</p>
@@ -1206,6 +1206,7 @@
 								<p>Procedure</p>
 								<ol>
 									<li>Check that the video assets are provided in a variety of common resolutions (which can be user-chosen).</li>
+									<li>Check for automatic detection and selection of media resolutions.</li>
 									<li>Check if clips or trailers are provided to give a shorter overview.</li>
 									<li>Check if downloads are provided for repeat viewing.</li>
 								</ol>
@@ -1588,6 +1589,7 @@
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>This <a href="https://www.w3.org/WAI/WCAG22/working-examples/script-form-validation-2/index.php">example of client-side form validation</a> based on <a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR32.html">WCAG Technique SCR32</a> showcases a classic example of error handling and how providing a response to the user input when failure occurs is important.</li>
+									<li><a href="https://uxwritinghub.com/error-message-examples/">UX Writing Hub</a> provides some great examples of how errors in content, forms, and other parts of a page or application can be successfully written to ensure visitors do not feel undermined and can continue navigate successfully.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -1663,7 +1665,7 @@
 					</li>
 					<li> <!-- UX23-3: Provide Document Details Including a URL Within a Page -->
 						<details>
-							<summary>UX23-3: Provide Document Details Including a URL Within a Page</summary>
+							<summary>UX23-3: Provide Document Details Including a <abbr title="Uniform Resource Locator">URL</abbr> Within a Page</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#reduce-the-impact-of-downloadable-or-physical-documents">2.23 Reduce the Impact of Downloadable or Physical Documents</a>.</p>
@@ -3253,9 +3255,502 @@
 			</section>
 			<section> <!-- Hosting, Infrastructure and Systems -->
 				<h3><dfn data-lt="Hosting">Hosting, Infrastructure and Systems</dfn></h3>
-				<p class="ednote" title="Awaiting Content">
-					This will contain testable and implementable techniques for this category.
-				</p>
+				<p>Each of the below can be shown or hidden by clicking on the technique you wish to display.</p>
+				<ol>
+					<li> <!-- HIS01-1: Publicly Disclose Relevant Sustainability Metrics to Visitors -->
+						<details>
+							<summary>HIS01-1: Publicly Disclose Relevant Sustainability Metrics to Visitors</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#choose-a-sustainable-hosting-provider">4.1 Choose a Sustainable Hosting Provider</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that anyone who wishes to compile an impact statement (as a consumer of your services) based on conditions such as <abbr title="Power Usage Effectiveness">PUE</abbr>, <abbr title="Water Usage Effectiveness">WUE</abbr>, and <abbr title="Carbon Usage Effectiveness">CUE</abbr> can calculate the necessary energy utilization of a provider using the available data. Making important metrics publicly visible to both customers and visitors, increases awareness, reduces the potential for greenwashing, and allows service providers to report with proof of compliance.</p>
+								<p>For machine testability, this would require each customer account (of a hosting provider) to be equipped with a publicly visible stats page indicating resource utilization, including useful information on variables like CPU, GPU, RAM, and data usage, plus a calculation on equivalent water or other consumable resource utilization. This can be linked to from within the service status page.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>A service provider could make the internal resource usage stats page that comes with many hosting packages publicly visible (upon request of the website or application provider), and include sustainability data within.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the provider has made available relevant hosting metrics publicly.</li>
+									<li>Check that the PUE, WUE, and CUE are listed for each data center.</li>
+									<li>Check that individual servers provide live CPU, GPU, RAM, and data use tracking.</li>
+									<li>Check that logging of past values over time is provided for calculating emissions.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS01-4: Ensure That the Project Is Hosted on a Sustainable Platform -->
+						<details>
+							<summary>HIS01-4: Ensure That the Project Is Hosted on a Sustainable Platform</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#choose-a-sustainable-hosting-provider">4.1 Choose a Sustainable Hosting Provider</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to verify that the product or service is being served through a sustainable provider. If the hosting provider (for example) generates its electricity from renewables and can document other intensity reduction techniques (such as using natural cooling and offering auto-scaling packages), this can contribute towards passing the success criteria.</p>
+								<p>Because many factors can go towards how sustainable a provider is, machine testing will need to be vigilant in accounting for several variables. As such, using an established directory of sustainable hosts could be one way to pass or fail, or running validation checks against factors that affect the sustainability of services could be another (this may require internal access or knowledge).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The <a href="https://www.thegreenwebfoundation.org/tools/directory/">Green Web Directory</a> from the Green Software Foundation provides a list of sustainable providers of hosting (based on their own criteria). If a service is listed in a reputable list as this, it may meet the success criteria.</li>
+									<li><a href="https://krystal.io/green">Krystal</a> is an example of a provider offering detailed information about their sustainability process including their B-Corporation status, and the schemes they have signed up with to validate and reinforce their claims.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the hosting provider has a sustainability statement.</li>
+									<li>Check that the hosting is powered by 100% renewable energy.</li>
+									<li>Check that the hosting platform does not use carbon credits to offset its energy requirements.</li>
+									<li>Check for recognized green initiatives that the platform may be subscribed to.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS02-1: Provide Caching Responses To Optimize Page Reloads -->
+						<details>
+							<summary>HIS02-1: Provide Caching Responses To Optimize Page Reloads</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#optimize-browser-caching">4.2 Optimize Browser Caching</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for websites and applications to ensure that content is cached for the correct length of time, with the intention of reusability. Because certain types of content will change and need to be reloaded more frequently than others, it makes sense to cache those that change the least for the longest period (to reduce data transfer rates).</p>
+								<p>For machine testability, identifying cache response times for various file formats can be done by checking the cache-control headers for various files as they are requested from the server. If the length of time the content is being held does not appear to be long enough (or is too long for dynamic content), then recommendations can be made to improve the used formula.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>For individuals who use content management systems, some plugins offer <a href="https://www.wpbeginner.com/plugins/best-wordpress-caching-plugins/">automatic caching management</a>. They each have a range of features but essentially allow you to automate the caching process.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check the cache-control header of each file has the correct length set.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS02-2: Identify the Potential for PWAs and Other Low-Friction Features -->
+						<details>
+							<summary>HIS02-2: Identify the Potential for <abbr title="Progressive Web Applications">PWAs</abbr> and Other Low-Friction Features</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#optimize-browser-caching">4.2 Optimize Browser Caching</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to identify if techniques could be used to reduce friction within the user-experience. Examples of this could include identifying if cookies could (and should) be used within an interface or if the website or application could be transformed into a progressive web application to provide advantages (project-wide) such as offline availability.</p>
+								<p>Machine testability to identify existing features is relatively straightforward as it simply requires identifying through the source code where cookies, local database requests, service, or web workers are implemented and ensuring that they are both proportionate and correctly marked up. If these don't exist it will require analyzing the page (or components) for potential opportunities for use.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.google.com/intl/en_us/gmail/about/">Gmail</a> makes sense as a progressive web application because if the Internet connection is lost (at any point), being able to continue using certain features without losing your progress is critical to functionality.</li>
+									<li><a href="https://github.com/">GitHub</a> saves information about your membership login locally (as do many other providers) to avoid needing to re-enter your details repeatedly. This is a useful feature as it increases a product's perceived performance.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if cookies are in use and, whether they can be added, removed, or replaced.</li>
+									<li>Check if local data storage is being used and, whether it can be added, removed, or replaced.</li>
+									<li>Check if a PWA or other worker functions are in use and, whether they can be added or removed.</li>
+									<li>If a PWA exists, check for a well-formed manifest file, an icon, and semantically correct JavaScript.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS03-1: Ensure That Files Are Compressed Correctly Before Serving -->
+						<details>
+							<summary>HIS03-1: Ensure That Files Are Compressed Correctly Before Serving</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#compress-your-files">4.3 Compress Your Files</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism to serve content correctly using a recognized encoding method to reduce the payload size of websites and applications. While this means there will be an additional rendering effort on the client-side (decoding the file), the increased speed in loading such files has an ESG benefit that justifies the added effort.</p>
+								<p>For machine testability, identifying content encoding methods for file formats can be done by checking the content-encoding headers for various files as they are requested from the server. If the content is not being encoded (unless it has been encoded at the source and no further optimization can be made), recommendations can be made to use a compatible compression technique.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>The <a href="https://www.solidchocolateco.com/">Solid Chocolate Company</a> serves all of their content using GZIP compression headers ensuring that data gets to the visitor as quickly as possible (in addition to compressing image and media assets at source).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check all text assets for content-encoding headers to verify compression takes place.</li>
+									<li>Check if the compression method used is the most optimal type available.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS03-2: Compress All Assets That Can Be Optimized Before CMS Submission -->
+						<details>
+							<summary>HIS03-2: Compress All Assets That Can Be Optimized Before <abbr title="Content Management System">CMS</abbr> Submission</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#compress-your-files">4.3 Compress Your Files</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide additional mechanisms in place for non-technical users so that the potential for compression is just only checked once files are in place within a website or application's structure (uploaded), but also during the upload process, thereby taking the opportunity to meet sustainability criteria on-the-fly as part of the content management system.</p>
+								<p>To pass this success criterion, a CMS would need to take assets that are uploaded and identify compression that could be applied either by changing file formats or by applying algorithms to it (or both). If improvements can be made, these should replace the original files by default. Machines can verify this is occurring by identifying if the best format is used or if further compression could be applied (this could form part of a CMS sustainability rating).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Tooling such as <a href="https://squoosh.app/">Squoosh</a> and <a href="https://jakearchibald.github.io/svgomg/">SVGOMG</a> can help website creators find optimizations before uploading or submitting content to a product or service (other services offer APIs that can be integrated into tooling).</li>
+									<li>There is a <a href="https://blog.hubspot.com/website/best-wordpress-image-optimization-plugins">whole range of plugins available</a> for WordPress (and other CMS products) that can assist with automatic image optimization. This can help reduce the ecological impact they have before public visibility.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that all assets are optimized for the web in size, format, and quality before publication.</li>
+									<li>Check that the files published are the optimized versions (more than one may be necessary).</li>
+									<li>Check if a CMS will be necessary or useful and if so, ensure static assets are uploaded there.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS04-1: Provide Custom Error Pages To Handle Unexpected Events -->
+						<details>
+							<summary>HIS04-1: Provide Custom Error Pages To Handle Unexpected Events</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#use-error-pages-and-redirects-carefully">4.4 Use Error Pages and Redirects Carefully</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for if and when visitors land on a region of your website or application that either does not exist or appears to be broken. Such encounters can be disorientating and without useful signposting and interactions to get visitors out of such events, additional unnecessary page loads or support requests can occur leading to emissions.</p>
+								<p>Machine testing for errors can simply involve triggering the events and identifying if the page loaded in response is one that is server-generated or one that has been customized by the website or application. If it has been customized does it provide useful resources to help resolve the problem? This could be measured using analytics (which may require internal access).</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>HubSpot has <a href="https://blog.hubspot.com/blog/tabid/6307/bid/33766/10-clever-website-error-messages-from-creative-companies.aspx">some great examples</a> of 404 (page not found) error pages showcasing good user-experience design in addition to providing a few helpful pieces of advice regarding how they should function.</li>
+									<li>This <a href="https://github.com/HttpErrorPages/HttpErrorPages">GitHub package</a> provides support for multiple servers and offers a decent boilerplate for anyone wishing to ensure coverage for a wide range of common errors that can occur during site browsing.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the website or application has a custom set of pages to respond to errors.</li>
+									<li>Check that each error status type has its own page and unique situation handling.</li>
+									<li>Check that such pages provide signposting to resolve the error they encountered.</li>
+									<li>Check that links to customer support are provided when solutions do not work.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS04-2: Resolve All Anchor References Which Trigger Errors or Redirects -->
+						<details>
+							<summary>HIS04-2: Resolve All Anchor References Which Trigger Errors or Redirects</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#use-error-pages-and-redirects-carefully">4.4 Use Error Pages and Redirects Carefully</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to reduce the amount of wasted rendering effort on the part of visitors and users of a website or application by ensuring that products and services regularly and routinely check that all of the links within pages are correct and do not need to be updated. This can be a common issue amongst large sites or those with older content (as the material can be moved or disappear online), so links must be updated to reflect this).</p>
+								<p>Regarding machine testability, verifying that all links within domains and subdomains of a product or service are correctly linked to and don't resolve in redirect notices or server / missing (not found) errors is essential for meeting this success criterion as it showcases the currency of the content. It should also be noted that links apply equally to images, media, HTML head references, and other materials referenced within the page, not just content anchor links.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Open source products like <a href="https://github.com/linkchecker/linkchecker">Link Checker</a> can verify the status of references across multiple pages. This can be a quick and easy way of locating issues that have built up across an entire product or service.</li>
+									<li>The W3C has a simple <a href="https://validator.w3.org/checklink">web-based interface</a> for validating links for errors on a page-by-page basis which can be helpful if you don't want to have to install applications or self-host packages to run tests.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that no anchor reference or in-page reference contains links that do not resolve (server errors).</li>
+									<li>Check that no anchor reference or in-page reference contains dead (erroneous) links.</li>
+									<li>Check that no anchor reference or in-page reference contains redirection links.</li>
+									<li>Check that links to external websites do not result in forbidden errors.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS06-4: Check That Pages Have Not Been Subjected to Hijacking -->
+						<details>
+							<summary>HIS06-4: Check That Pages Have Not Been Subjected to Hijacking</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#automate-to-fit-the-needs">4.6 Automate To Fit the Needs</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for identifying compromised content within a page of a website or application. As having a secure product or service is critical to meeting the social aspect of ESG and compromised websites can place unnecessary burdens on hardware in certain circumstances, being able to identify and remove such materials is essential.</p>
+								<p>Machine testability for these events will require regular monitoring of pages for common features of hijacking events such as critical links suddenly redirecting outside of the primary domain, pages being redesigned with hacking notices, or simply being taken down and replaced with other data. Maintaining a library of established dangerous links, patterns, and features can help flag such issues.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://kinsta.com/knowledgebase/the-site-ahead-contains-malware/">Compromised websites</a> may present in many forms, but if they are <a href="https://transparencyreport.google.com/safe-browsing/search">detected by Google</a>, the search giant will intercept the visitor before they get exposed to the problem code and present them with an error.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check links do not contain abnormalities such as significant or feature-critical external redirections.</li>
+									<li>Check pages do not contain tracking, mining, or advertising that has occurred suddenly.</li>
+									<li>Check pages do not contain closure, ransom, or hacking notices.</li>
+									<li>Check pages do not trigger sudden redirections to other domains.</li>
+									<li>Check the domain has not been included within a security firm or Google compromised lists.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS07-1: Ensure That Stored Data Has a Defined and Reasonable Expiry Date -->
+						<details>
+							<summary>HIS07-1: Ensure That Stored Data Has a Defined and Reasonable Expiry Date</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#maintain-a-relevant-refresh-frequency">4.7 Maintain a Relevant Refresh Frequency</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that mechanisms are in place to hold data for only as long as it is required. This will reduce redundancy from things like stale cookies, and it will also assist older devices that may have lower capacity disk space allowances by reducing the overall size of caches which will free up important space (that otherwise reduces performance).</p>
+								<p>Identifying technologies for stashing data for a set time such as cookies, local databases, or other methods can be machine-tested. It's also worth identifying techniques that may be slower performing and making recommendations based on such implementations. Otherwise, verify that an expiry date does exist and if time has elapsed (or no date exists), flag the issue.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>Cookies are a classic example of data stored for a particular reason, but if they are left unchecked, accumulate in vast numbers. While they don't take up a lot of space, they still should be purged if no longer required.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check the expiration date of locally stored data and if that date has exceeded, remove the data.</li>
+									<li>Check the expiration date of server-side stored data and if that date has elapsed, remove the information.</li>
+									<li>If no expiration date exists for client-side or server-side data, either add one or remove the data.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS09-2: Deliver Content Using the Correct, Most Secure Protocol -->
+						<details>
+							<summary>HIS09-2: Deliver Content Using the Correct, Most Secure Protocol</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#enable-asynchronous-processing-and-communication">4.9 Enable Asynchronous Processing and Communication</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to guarantee that visitors who experience a website or application will have their experience delivered using a secure delivery route. Transmitting data using non-secure means (now that <abbr title="Secure Sockets Layer">SSL</abbr> certificates can be obtained free of charge) should never occur as there are inherent risks that can otherwise be avoided during the browsing session.</p>
+								<p>Machine testing for protocol testing will involve examining that the page is being served across <abbr title="Hypertext Transfer Protocol (Secure)">HTTPS</abbr> in opposition to HTTP (there should not be an occasion where both are available, especially if dynamic or interactive content exists). Furthermore, insecure protocols for non-browsing usage should be tested to verify they are disabled and replaced (if required) with more secure options.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><abbr title="File Transfer Protocol">FTP</abbr> is a classic example of a protocol that while disabled for browsing in several web browsers, could pose security issues if not blocked entirely. It should instead be replaced with <abbr title="Secure Shell">SSH</abbr> (preferred) or <abbr title="Secure File Transfer Protocol">SFTP</abbr> (at minimum).</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that the product or service is being delivered over HTTPS rather than HTTP.</li>
+									<li>Check that alternative protocol usage is only done using secure means.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS10-1: Provide Distributed Access to Static Resources via a CDN -->
+						<details>
+							<summary>HIS10-1: Provide Distributed Access to Static Resources via a <abbr title="Content Delivery Network">CDN</abbr></summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#consider-cdns-and-edge-caching">4.10 Consider <abbr title="Content Delivery Networks">CDNs</abbr> and Edge Caching</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to offer a mechanism for visitors to gain access to a static website or application assets in a location that is closer to them than the origin host. By utilizing a content delivery network, large media files, images, fonts, and other static assets can be distributed to regional locations so that visitors can access them quicker (as the route to the file is shorter).</p>
+								<p>Machine testing for content delivery networks should take into account the balance as to whether adding assets to multiple locations (for performance) incurs more of a sustainability cost than loading them quicker. If the value in faster loading is greater, and a CDN is in use, this qualifies as a pass. If no CDN is being used, or one is in use but the added value is neutral or negative, question its impact and whether the material should be instead hosted onsite.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>While it doesn't provide insights into sustainability, <a href="https://cdncomparison.com/">CDN Compare</a> offers a great deal of context between several popular content delivery networks and the offerings they provide to help you make up your mind.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check the existing location of static resources on the existing website.</li>
+									<li>If they exist on the first-party domain, calculate the sustainability value of using a CDN.</li>
+									<li>Check if the value of using a CDN will be beneficial, if so use one.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS10-2: Ensure That the CDN and Its Chain of Locations Are Sustainable -->
+						<details>
+							<summary>HIS10-2: Ensure That the CDN and Its Chain of Locations Are Sustainable</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#consider-cdns-and-edge-caching">4.10 Consider CDNs and Edge Caching</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to test the sustainability of the CDN against the WSGs as a service provider as a third-party service in addition to any sustainability criteria and best practices that exist externally for infrastructure and hosting. This not only applies to the provider itself but to all of the nodes that it uses to supply distribution, and any third-parties it uses as part of its extended network. As such, calculating and vetting providers can be complex.</p>
+								<p>For machine testability, providers should have information about sustainability offered within a sustainability statement along with details of compliance being met plus any sustainability features they provide that enhance their service. If this information is publicly available (and uses recognized sources), it could be parsed by machine, otherwise, a sustainable provider list should be sourced.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://blog.cloudflare.com/a-carbon-neutral-north-america/">CloudFlare</a> has already made great progress towards becoming carbon neutral. However like with any hosting provider, they still have a long journey to make to be entirely free of emissions throughout their digital services.</li>
+									<li><a href="https://www.akamai.com/site/en/documents/akamai/akamai-2022-esg-impact-report.pdf">Akamai</a> (<em>PDF</em>) provides a yearly ESG report that showcases and documents all of the changes they have made towards becoming more sustainable. While they have not fully become carbon neutral, they are getting there.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if the CDN provider has a sustainability statement in place.</li>
+									<li>Check if the CDN provider meets any sustainability compliance obligations.</li>
+									<li>Check that CDN against the WSGs for its sustainability compliance.</li>
+									<li>Check that the CDN supply network (nodes) are also as sustainable as the provider.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS10-3: Provide a Copy of the Product or Service Close to the Visitor -->
+						<details>
+							<summary>HIS10-3: Provide a Copy of the Product or Service Close to the Visitor</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#consider-cdns-and-edge-caching">4.10 Consider CDNs and Edge Caching</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism for mirroring the content (website or application) as close to the visitor as possible to reduce the loading time as effectively as possible. This can be done using CDNs or by analyzing metrics data and deciding based on the locale of visitors where the origin host choice would be best placed (both can be useful methods).</p>
+								<p>Machine testing for this requires internal access to analytics logs to determine where visitor locations are and from this identify the best location to place information (if a CDN is used, this may be automatically done on your behalf meeting compliance requirements). If no internal access or data is available, general statistics about Internet usage could help identify trends.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://ourworldindata.org/internet">Our World In Data</a>, the <a href="https://data.worldbank.org/indicator/IT.NET.USER.ZS">World Bank</a>, and <a href="https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users">Wikipedia</a> provide some awesome information on average Internet usage worldwide. While this can't replace real-world demographics, it can be helpful for new projects.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check using analytics the average distribution of your product or service's visitors.</li>
+									<li>Check a hosting or CDN provider's locations to match as closely to your customers.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS10-4: Avoid Hosting Dynamic Resources or Third-Party Scripts on the CDN -->
+						<details>
+							<summary>HIS10-4: Avoid Hosting Dynamic Resources or Third-Party Scripts on the CDN</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#consider-cdns-and-edge-caching">4.10 Consider CDNs and Edge Caching</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to prevent non-first-party dynamic resources from being loaded through a content delivery network. The justification behind this is due to browser mechanisms such as CORS and cache partitioning, unfavorable things can occur if you try to load dynamic resources from third-party websites (this is a security measure to prevent malicious code injection).</p>
+								<p>As this issue doesn't affect static resources such as HTML, CSS, or JSON, when testing against the criteria, these types of resources can be excluded. For more dynamic resources like JavaScript or server-side code, if the host URL differs from your own (this includes things like frameworks), flagging up an error and recommending self-hosting or integration with existing tooling should be done.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>While D3 is a well-respected JavaScript framework for producing graphs and complex charts. <a href="https://d3js.org/getting-started">It has a recommendation</a> for vanilla HTML users that states a preference for a CDN package (going against our guidelines).</li>
+									<li><a href="https://underscorejs.org/">Underscore</a> is another JavaScript framework that offers CDN packages while also offering direct download options. In this case, the download option is provided first (and code examples reflect this) which is good.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that your CDN only contains static website assets.</li>
+									<li>Check that JavaScript on CDNs is first-party hosted only.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS12-2: Provide a Review or Expiration Date on Website Content -->
+						<details>
+							<summary>HIS12-2: Provide a Review or Expiration Date on Website Content</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs">4.12 Store Data According to Visitor Needs</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to provide a mechanism that ensures all content within a website or application gets regularly reviewed and if necessary refreshed, updated, or if it has reached the end-of-life, deleted or archived. As such, publicly providing a date when events will occur should offer an incentive for providers to action these labels (and visitors can note outdated content).</p>
+								<p>Machine testability should offer a grace period for content that has passed the date when a review should take place (as circumstances can lead to dates being missed), however, failings should still be flagged as potential issues that need to be resolved. Labels within the content should be detectable by scripts that issue such dates, and if they don't exist, recommendations can be issued.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>On the <a href="https://www.nhs.uk/conditions/migraine/">National Health Service</a> website, at the bottom of an article about a medical condition, a clear piece of text mentioning when the content was last reviewed and is next due for review is given.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that all articles (or content where material may go out-of-date) have a review or expiration date.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS12-3: Provide a Classification Policy to Content if It's Deemed Sustainable -->
+						<details>
+							<summary>HIS12-3: Provide a Classification Policy to Content if It's Deemed Sustainable</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs">4.12 Store Data According to Visitor Needs</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to increase findability within content by offering mechanisms within the page for visitors to filter the results of potential content they are seeking by category, tag, or other variables. How this feature is presented to visitors can differ between implementations as there are several well-defined patterns, but they can reduce friction in the user-experience.</p>
+								<p>Machine testability for such features will involve examining the page's source code to identify repeating patterns across several pages (if correctly labeled, patterns such as tags or categories may be semantically easy to find). The sustainability of such implementations must account for the impact it has upon rendering across each page, against the benefit it has to the visitor experience.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>A List Apart <a href="https://alistapart.com/topics/">provides a topics page</a> which groups various pieces of content (articles) into categories. By doing this it reduces the number of pages an individual will need to click through to find what they are after.</li>
+									<li>Maggie Appleton has a <a href="https://maggieappleton.com/garden">really visually appealing way</a> of laying out all of her different topics, content types, and even how well-developed her thoughts are. With all of this, you can filter her content accordingly.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that content within the website (or potentially within long articles) can be filtered by classification.</li>
+									<li>Check that all classification patterns used on websites are repeated across all pages and clearly labeled.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- HIS12-5: Ensure That Backup Providers Are Classified As Carbon-Neutral -->
+						<details>
+							<summary>HIS12-5: Ensure That Backup Providers Are Classified As Carbon-Neutral</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs">4.12 Store Data According to Visitor Needs</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>The objective of this technique is to ensure that any third-party backup service provider is examined for sustainability impacts. This will involve examining the impact they have simply in hosting your data, but also how sustainable their platform is, as well as their business. If their model meets any obligations laid out and aligns well against the WSGs, it may meet success criteria.</p>
+								<p>To identify how carbon-neutral a service is, a list of recommended sustainable backup providers would be an ideal source to utilize (assuming that one exists and it is itself reputable). If no list exists, checking providers' claims, sustainability statements, and measuring their service against criteria such as the WSGs can be helpful to some extent, though utilizing established standards like the <abbr title="Global Reporting Initiative">GRI</abbr> and recommendations around infrastructure will also help.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li>An application producing large numbers of logs that need to be rotated on a regular cycle could backup those logs to an external sustainable source and remove them from the origin host to eliminate existing emissions.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check if the backup provider has a sustainability statement in place.</li>
+									<li>Check if the backup provider meets any sustainability compliance obligations.</li>
+									<li>Check that backup provider against the WSGs for its sustainability compliance.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+				</ol>
 			</section>
 			<section> <!-- Business Strategy and Product Management -->
 				<h3><dfn data-lt="Business">Business Strategy and Product Management</dfn></h3>
