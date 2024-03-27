@@ -875,6 +875,7 @@
 							"[GR491] 5-3033 - SEO Stakeholders": "https://gr491.isit-europe.org/en/crit.php?id=5-3033-uxui-algorithms-optimization--tend-to-accumulate-data",
 							"[GR491] 5-4046 - Useful Images and Links": "https://gr491.isit-europe.org/en/crit.php?id=5-4046-contents-content-uses-external-references-rather-than-duplicating",
 							"GreenIT (French) 113 - Adapter les textes au web": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_113_fr.md",
+							"How screen readers read special characters: an update": "https://elevenways.be/en/articles/screenreaders-special-characters",
 							"How to Effectively Use Visual Hierarchy in Web Design": "https://speckyboy.com/visual-hierarchy-web-design/",
 							"How to Use Keywords for SEO and Web Sustainability": "https://www.mightybytes.com/blog/keyword-optimization-seo-sustainability/",
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
@@ -3878,6 +3879,7 @@
 							"How Crawl Optimization Improves Website Sustainability": "https://www.mightybytes.com/blog/how-crawl-optimization-improves-website-sustainability/",
 							"How Green is Your Data Center?": "https://www.readyworks.com/blog/how-green-is-your-data-center-use-automation-to-simplify-esg-reporting",
 							"How to Eliminate Bots From Your Website": "https://www.hostpapa.com/blog/security/how-to-eliminate-bots-from-your-website/",
+							"Load shifting of computing can lower emissions and soak up surplus renewables. Except when it doesn't": "https://watttime.org/news-and-insights/load-shifting-of-computing-can-lower-emissions-and-soak-up-surplus-renewables-except-when-it-doesnt/",
 							"Microsoft Azure WAF: Sustainable workloads": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-get-started",
 							"Microsoft Azure WAF: Security considerations": "https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-security"
 						}
@@ -4094,6 +4096,7 @@
 							"Greenhouse Gas Protocol - Cloud & Data Center Services (PDF)": "https://ghgprotocol.org/sites/default/files/GHGP-ICTSG%20-%20ALL%20Chapters.pdf#page=142",
 							"[GR491] 1-8003 - Datacenter Location": "https://gr491.isit-europe.org/en/crit.php?id=1-8003-hosting-data-centers-are-rarely-installed-in-the",
 							"[GR491] 2-8020 - Datacenter Hub": "https://gr491.isit-europe.org/en/crit.php?id=2-8020-hosting-physical-trips-to-datacenters-are-by-nature",
+							"Green Data Streams": "https://www.cachefly.com/news/green-data-streams-exploring-the-role-of-cdns-in-digital-sustainability/",
 							"High Performance MySQL: Query Performance Optimization": "https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html",
 							"How Clean is Your Cloud? (PDF)": "https://www.greenpeace.org/static/planet4-international-stateless/2012/04/e7c8ff21-howcleanisyourcloud.pdf",
 							"How green data centers can cut your carbon footprint": "https://venturebeat.com/data-infrastructure/how-green-data-centers-can-cut-your-carbon-footprint/",
