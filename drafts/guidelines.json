@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Fifth Draft",
-	"lastModified": "2024-03-25",
+	"lastModified": "2024-03-31",
 	"category": [
 		{
 			"id": "1",
@@ -3140,7 +3140,7 @@
 							"How Google interprets the robots.txt specification": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt?hl=en",
 							"security.txt": "https://en.wikipedia.org/wiki/Security.txt",
 							"The ads.txt Standard": "https://iabtechlab.com/ads-txt/",
-							"The carbon.txt Proposed Standard": "https://github.com/thegreenwebfoundation/carbon.txt",
+							"The carbon.txt Proposed Standard": "https://carbontxt.org/",
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
 							"The humans.txt Standard": "https://humanstxt.org/Standard.html",
 							"The security.txt Proposed Standard": "https://securitytxt.org/"
@@ -4342,7 +4342,7 @@
 							"Sustainability Storytelling Checklist": "https://www.mightybytes.com/blog/sustainability-storytelling-checklist/",
 							"Sustainable UX is more than reducing your website's footprint": "https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f",
 							"Sustainable Web Development Strategies Within An Organization": "https://www.smashingmagazine.com/2022/10/sustainable-web-development-strategies-organization/",
-							"The carbon.txt Proposed Standard": "https://github.com/thegreenwebfoundation/carbon.txt",
+							"The carbon.txt Proposed Standard": "https://carbontxt.org/",
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
 							"Website Carbon": "https://www.websitecarbon.com/",
 							"Why sustainability is crucial for corporate strategy": "https://www.weforum.org/agenda/2022/06/why-sustainability-is-crucial-for-corporate-strategy/"
@@ -5023,6 +5023,7 @@
 					],
 					"resources": [
 						{
+							"Common Changelog": "https://common-changelog.org/",
 							"Digital Eco-Design: Préparer l'évolution du service et des contenus (French)": "https://eco-conception.designersethiques.org/guide/fr/content/7-maintenir.html#preparer-evolution",
 							"[GR491] 6-3040 - Changing Features": "https://gr491.isit-europe.org/en/crit.php?id=6-3040-uxui-a-digital-service-has-a-lifespan-that",
 							"Semantic Versioning": "https://semver.org/"
@@ -5136,6 +5137,7 @@
 							"Defining the functional unit": "https://consequential-lca.org/clca/the-functional-unit/define-the-functional-unit/",
 							"Life-cycle Assessment": "https://en.wikipedia.org/wiki/Life-cycle_assessment",
 							"Life Cycle Assessment": "https://sustainabilityguide.eu/methods/life-cycle-assessment/",
+							"Life Cycle Assessment (LCA)": "https://ecochain.com/blog/life-cycle-assessment-lca-guide/",
 							"Understanding Digital life-cycle Assessments": "https://www.mightybytes.com/blog/digital-life-cycle-assessment/"
 						}
 					],
