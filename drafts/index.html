@@ -5,11 +5,13 @@
 		<title>Web Sustainability Guidelines (WSG) 1.0</title>
 		<!-- 
 			Fix for Small Screen Overflow Issue: https://github.com/w3c/sustyweb/issues/18
+			Fix for Testability Highlight Color Palette: https://github.com/w3c/sustyweb/issues/29
 			Fix for Definition Cross-Linking Usage In: https://github.com/w3c/sustyweb/issues/21
 			Fix for Visited Link Issue: https://github.com/w3c/sustyweb/issues/26
 		-->
 		<style>
 			@media screen and (max-width: 550px) { #title { margin-top: 4em; } }
+			.alert { background-color: #ff9fae; }
 			.hidden { display: none; visibility: hidden; }
 			.resources a:visited:not(.bibref) { color: #6f7982; }
 		</style>
@@ -1052,7 +1054,7 @@
 				</section>
 				<section> <!-- Success -->
 					<h2>Success Criteria</h2>
-					<p>For each guideline, testable success criteria are provided. WSG 1.0 success criteria are written as testable statements that are not technology-specific. Guidance about satisfying the success criteria in specific technologies, as well as general information about interpreting the success criteria, is provided in separate documents or within third-party sources as cited evidence.</p>
+					<p>For each guideline, testable success criteria are provided. WSG 1.0 success criteria are written as testable statements that are not technology-specific. Guidance about satisfying the success criteria in specific technologies, as well as general information about interpreting the success criteria is provided in separate documents or within third-party sources as cited evidence. Details regarding machine testability and whether human testing or intervention is required in order to meet a success criteria are indicated against each success criteria.</p>
 				</section>
 				<section> <!-- Advisory -->
 					<h2>Advisory Techniques</h2>
@@ -1123,7 +1125,7 @@
 				<h3>Undertake Systemic Impacts Mapping</h3>
 				<p>Many variables can impact the user-experience, and a bunch of these can impact how sustainable your website will be. Attempting to identify where you can make a difference to the visitor and give them a more sustainable experience will be beneficial.</p>
 				<section class="notoc">
-					<h4>Success Criterion - External Variables</h4>
+					<h4>Success Criterion - External Variables <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX01-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>List the negative external variables and identify where your product's sustainable impact can be diminished (systemic design).</p>
 				</section>
 				<section class="notoc">
@@ -1189,23 +1191,23 @@
 				<h3>Assess and Research Visitor Needs</h3>
 				<p>When creating a product or service, identifying your target audience through user-research, analytics, data collected using ethical anonymous methods, or feedback from and with visitors is important in being able to create a customized service for and with them that is tailor-made for their specific preferences, adapted for any needs they may have, and particularly useful in helping a website or application evolve its service to meet sustainability targets.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Identify And Define</h4>
+					<h4>Success Criterion - Identify And Define <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX02-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Primary and secondary target visitors are identified, and their needs are defined through quantitative or qualitative research, testing, or analytics, ensuring your visitors and affected communities remain a close part of the research and testing process.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Visitor Constraints</h4>
+					<h4>Success Criterion - Visitor Constraints <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX02-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Potential visitor constraints like the device age, operating system version, browser, and connection speeds are considered when designing user-experiences.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Barriers And Access</h4>
+					<h4>Success Criterion - Barriers And Access <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX02-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>The team has researched and identified whether a technical, material, or human constraint might require an adapted version of the product or service that reduces barriers or improves access to content.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Barrier Removal</h4>
+					<h4>Success Criterion - Barrier Removal <mark class="alert">(Human Testable)</mark></h4>
 					<p>In the user-research, identify with your visitors if some barriers should be removed (pain points or dark / deceptive design patterns).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Seat At The Table</h4>
+					<h4>Success Criterion - Seat At The Table <mark class="alert">(Human Testable)</mark></h4>
 					<p>When undertaking research, identifying needs, or conducting iterative design work, ensure that all stakeholders including your visitors have an equitable role in the decision-making process.</p>
 				</section>
 				<section class="notoc">
@@ -1286,7 +1288,7 @@
 				<h3>Research Non-Visitor's Needs</h3>
 				<p>If you provide physical goods or services, you may also have to account for the sustainability impact of delivery services. This can often be tricky, but courier companies may provide useful tooling to help you identify emissions data for routing.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Non-Human Impact</h4>
+					<h4>Success Criterion - Non-Human Impact <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX03-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Consider and work with non-users and other stakeholders who might be passively impacted by a digital product or service, such as neighbors accepting parcels, traffic jams due to deliveries, etc. Research their needs and understand how they might be affected.</p>
 				</section>
 				<section class="notoc">
@@ -1343,11 +1345,11 @@
 				<h3>Consider Sustainability in Early Ideation</h3>
 				<p>While some things require the use of electricity, during the early ideation phase you could consider wireframing or rapid prototyping (using paper) among other offline tools to reduce energy consumption. Even the electronic versions of these may have a lower carbon cost than committing to building a full-blown experience for each idea.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Wireframes And Prototypes</h4>
+					<h4>Success Criterion - Wireframes And Prototypes <mark class="alert">(Human Testable)</mark></h4>
 					<p>Utilize wireframes, and rapid prototyping to quickly build consensus, reduce risk, and lower the number of resources needed to build features.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Participation And Testing</h4>
+					<h4>Success Criterion - Participation And Testing <mark class="alert">(Human Testable)</mark></h4>
 					<p>Involve your users within the iteration and design process using participatory design, and when conducting user-testing reach out to your community to help improve your product by allowing them to apply their knowledge and experience to your product or service.</p>
 				</section>
 				<section class="notoc">
@@ -1403,11 +1405,11 @@
 				<h3>Account for Stakeholder Issues</h3>
 				<p>Brainstorming allows you to flush out ideas before you commit to pursuing a path. Being considerate of not just your visitors but other individuals who may be affected by your product or service (including non-humans, like the environment!) is a useful practical exercise as it may influence your decisions in how you scope your project.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Human-Centered Brainstorming</h4>
+					<h4>Success Criterion - Human-Centered Brainstorming <mark class="alert">(Human Testable)</mark></h4>
 					<p>In the brainstorming process, consider all stakeholders using a human-centered approach.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Ecological Brainstorming</h4>
+					<h4>Success Criterion - Ecological Brainstorming <mark class="alert">(Human Testable)</mark></h4>
 					<p>In the brainstorming process, take the planetary needs and ecological boundaries into account.</p>
 				</section>
 				<section class="notoc">
@@ -1463,23 +1465,23 @@
 				<h3>Create a Frictionless Lightweight Experience by Default</h3>
 				<p>When providing the option to download, save, print, or access anything online, defaulting to the most lightweight, least featureful version will reduce emissions through passive browsing; with non-essential information removed from the screen either to be shown when it's required or eliminated.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Efficient Paths</h4>
+					<h4>Success Criterion - Efficient Paths <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX06-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The path taken to access the service (the initial contact with the website or service) should be as efficient and as simple as possible (time required to complete an action displayed, reducing too much choice, ensuring visitors know what's required at the start of a complex set of steps, etc).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Patterns For Efficiency</h4>
+					<h4>Success Criterion - Patterns For Efficiency <mark class="alert">(Human Testable)</mark></h4>
 					<p>Make your user-journey (when browsing an accessed website or service) as smooth as possible. User-research is key, as is building on established design patterns that people already understand.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Distraction-Free Design</h4>
+					<h4>Success Criterion - Distraction-Free Design <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX06-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Visitors can complete tasks without distractions or non-essential features getting in the way.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Eliminate The Non-Essential</h4>
+					<h4>Success Criterion - Eliminate The Non-Essential <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX06-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Visitors see only information that is relevant to their experience, without non-essential information being displayed on the screen.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - User-Initiated Actionable Content</h4>
+					<h4>Success Criterion - User-Initiated Actionable Content <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX06-5"><mark>(Machine Testable)</mark></a></h4>
 					<p>Ensure that actionable information such as pop-up or modal windows can only be initiated by the visitor.</p>
 				</section>
 				<section class="notoc">
@@ -1572,7 +1574,7 @@
 				<h3>Avoid Unnecessary or an Overabundance of Assets</h3>
 				<p>It's great to have a pretty-looking website or application but to ensure a sustainable design, it's important to avoid cluttering up the interface with too many visuals (which aren't necessary to the content). Keeping a clean design will reduce website rendering, and thereby emissions.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Decorative Design</h4>
+					<h4>Success Criterion - Decorative Design <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX07-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Decorative design is used only when it improves the user-experience, and unnecessary assets or ones that fail to benefit the visitor or sustainability are removed (or rendered optional and disabled by default).</p>
 				</section>
 				<section class="notoc">
@@ -1645,15 +1647,15 @@
 				<h3>Ensure Navigation and Way-Finding Are Well-Structured</h3>
 				<p>Information architecture is a central part of the Web development process, and how you structure a website ensures that people can way-find your content easily. Having appropriately marked-up links within your product or service allows visitors, search engines, and social networks to identify key information quickly.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Navigation And Search</h4>
+					<h4>Success Criterion - Navigation And Search <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX08-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Provide an accessible, easy-to-use navigation menu with search features that help visitors easily find what they need.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Navigable Sitemaps</h4>
+					<h4>Success Criterion - Navigable Sitemaps <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX08-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Implementing an efficient (human-readable) sitemap that is organized and regularly updated helps search engines better index website content, which helps visitors more quickly find what they are looking for.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - New Content</h4>
+					<h4>Success Criterion - New Content <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX08-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Provide a way for visitors to find out about new content and services.</p>
 				</section>
 				<section class="notoc">
@@ -1719,15 +1721,15 @@
 				<h3>Respect the Visitor's Attention</h3>
 				<p>Time is precious, wasting a visitor's will cause frustration and lead to abandonment or resentment. Additionally, the more time a visitor spends in front of a screen, the more energy they utilize. As such, throwing stuff in front of the visitor vying for their attention might sound like good business (even though we know due to banner blindness it rarely works), but it mostly damages the environment and dissuades the visitor.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Respecting Attention</h4>
+					<h4>Success Criterion - Respecting Attention <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX09-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Respect a visitor's attention by allowing them to easily control how (and when) they receive information.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Avoid Distraction</h4>
+					<h4>Success Criterion - Avoid Distraction <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX09-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Prioritize features that don't distract people or unnecessarily lengthen the time they spend using the product or service.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Avoid Attention-keeping</h4>
+					<h4>Success Criterion - Avoid Attention-keeping <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX09-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Avoid using infinite scroll or related attention-keeping tactics.</p>
 				</section>
 				<section class="notoc">
@@ -1803,7 +1805,7 @@
 				<h3>Use Recognized Design Patterns</h3>
 				<p>Visitors can identify patterns fairly easily, and they like browsing websites and apps and feeling as if they know what they are dealing with. As such, focusing your efforts on producing a product or service that is clean and has key components in easy-to-recognize locations (and visuals) will allow faster user-experiences and fewer emissions.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Design Patterns</h4>
+					<h4>Success Criterion - Design Patterns <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX10-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Provide only essential components visible at the time they are needed. Where appropriate, interfaces should deploy visual styles (patterns) that are easily recognized and used.</p>
 				</section>
 				<section class="notoc">
@@ -1868,19 +1870,19 @@
 				<h3>Avoid Manipulative Patterns</h3>
 				<p>Manipulating the visitor into doing things you want them to is a short-term gain, long-term loss tactic tool. It's ethically bad, unsustainable, and should be avoided at all costs.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Dark and Deceptive Design Patterns</h4>
+					<h4>Success Criterion - Dark and Deceptive Design Patterns <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX11-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Avoid what are commonly known as dark patterns, deceptive design, or unethical coding techniques, which manipulate visitors into taking actions not necessarily in their best interest (anti-right click, no-copy, requiring an account to purchase, etc).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Using Advertisements</h4>
+					<h4>Success Criterion - Using Advertisements <mark class="alert">(Human Testable)</mark></h4>
 					<p>Advertisements and sponsorships are both ethical and clearly identified with the product or service, only presenting them when they provide real economic and ethical value and don't diminish a visitor's experience.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Page Tracking</h4>
+					<h4>Success Criterion - Page Tracking <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX11-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Remove unused and unconsented page tracking.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Search Engine Optimization</h4>
+					<h4>Success Criterion - Search Engine Optimization <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX11-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Optimization for search engines, social networks, and third-party services should be organically led with good coding practices and user-experience being the focus, not manipulating the services to gain greater priority through obfuscating content, pages, websites, or applications with redundancy or non-useful and optimized (to the visitor) material.</p>
 				</section>
 				<section class="notoc">
@@ -1968,15 +1970,15 @@
 				<h3>Document and Share Project Outputs</h3>
 				<p>Everything produced by designers, developers, writers, and those involved with a project should be in an open format, well maintained, and curated in a common format (so everyone is working from the same model).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Deliverables Reusability</h4>
+					<h4>Success Criterion - Deliverables Reusability <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX12-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The deliverables output, including documentation, are used upstream of the project and produced in ways that will allow it to be reused in subsequent projects.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Deliverables Documentation</h4>
+					<h4>Success Criterion - Deliverables Documentation <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX12-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Design functionality and technical specifications are documented so that deliverables are comprehensible by the project team and transferable to the development team.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Deliverables Readability</h4>
+					<h4>Success Criterion - Deliverables Readability <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX12-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Ensure that developers have access to code comments and other View Source affordances which can reduce the burden to access, understand, maintain, and utilize production-ready code as this will reduce redundancy and foster an open source culture.</p>
 				</section>
 				<section class="notoc">
@@ -2036,7 +2038,7 @@
 				<h3>Use a Design System To Prioritize Interface Consistency</h3>
 				<p>Design systems allow common components and patterns to be formalized and managed within a website or application. By using such a tool, designers and developers can avoid reinventing existing tooling and thereby reduce wasted time (and emissions).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Design System</h4>
+					<h4>Success Criterion - Design System <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX13-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Employ a design system based on web standards and recognizable patterns to mutualize interface components and provide a consistent experience for visitors.</p>
 				</section>
 				<section class="notoc">
@@ -2109,15 +2111,15 @@
 				<h3>Write With Purpose, in an Accessible, Easy To Understand Format</h3>
 				<p>Everyone should be able to understand what you've written without wasting time staring at a screen or jumping from page to page looking for answers, whether they have accessibility requirements or not. This also means avoiding using technical language (without explanations) and including enough information to help direct people (and search engines) from page to page.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Write Clearly</h4>
+					<h4>Success Criterion - Write Clearly <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX14-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Write clearly, using plain, inclusive language delivered at an easy-to-understand reading level considering accessibility and internationalization inclusions as required (for example, dyslexia).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Content Formatting</h4>
+					<h4>Success Criterion - Content Formatting <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX14-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Deliver content formatted in ways that support how people read online, including a clear document structure, visual hierarchy, headings, bulleted lists, line spacing, and so on.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Search Engine Optimization (<abbr title="Search Engine Optimization">SEO</abbr>)</h4>
+					<h4>Success Criterion - Search Engine Optimization (<abbr title="Search Engine Optimization">SEO</abbr>) <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX14-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Prioritize SEO at early design stages and throughout a product or service's lifecycle to improve content findability.</p>
 				</section>
 				<section class="notoc">
@@ -2197,23 +2199,23 @@
 				<h3>Take a More Sustainable Approach to Image Assets</h3>
 				<p>Of all the data that comprises the largest over-the-wire transfer rates within the average website or application, images are usually those that are responsible due to their quantity and usefulness. As such, doing all you can to reduce their size and unnecessary loading will be beneficial for sustainability.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Need For Images</h4>
+					<h4>Success Criterion - Need For Images <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX15-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Assess the need for images considering the quantity, format, and size necessary for implementation.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Optimize Images</h4>
+					<h4>Success Criterion - Optimize Images <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX15-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Resize, optimize, and compress each image (outside the browser), offering different sizes (for each image) for different screen resolutions.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Lazy Loading</h4>
+					<h4>Success Criterion - Lazy Loading <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX15-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Provide Lazy Loading to ensure image assets only load when they are required.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Sizing And Deactivation</h4>
+					<h4>Success Criterion - Sizing And Deactivation <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX15-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Let the visitor select the display size, and provide the option to deactivate images.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Management And Usage</h4>
+					<h4>Success Criterion - Management And Usage <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX15-5"><mark>(Machine Testable)</mark></a></h4>
 					<p>Set up a media management and use policy to reduce the overall impact of images, with criteria for media compression and file formats.</p>
 				</section>
 				<section class="notoc">
@@ -2322,23 +2324,23 @@
 				<h3>Take a More Sustainable Approach to Media Assets</h3>
 				<p>Video and audio-heavy websites are often those that can have significant sustainability costs in terms of storage and carbon intensity for viewers who have to process the media with their devices to watch them (draining batteries). Optimizing such assets as much as possible is critical for a sustainable product or service.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Need For Media</h4>
+					<h4>Success Criterion - Need For Media <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX16-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Assess the need for video or sound usage (including only when they add visitor value), and ban non-informative media (background media) including autoplaying functionality.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Optimize Media</h4>
+					<h4>Success Criterion - Optimize Media <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX16-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Choose the right media to display by compressing according to the visitor's requirements, selecting the appropriate format, ensuring it works across browsers, and avoiding embedded player plugins.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Lazy Loading</h4>
+					<h4>Success Criterion - Lazy Loading <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX16-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Media requiring a lot of data to be downloaded on the client side (including the media itself) must be loaded via a facade (a non-functional, static, representational element).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Labels And Choice</h4>
+					<h4>Success Criterion - Labels And Choice <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX16-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Increase visitor awareness and control by informing them of the length, format, and weight of the media; allowing media deactivation, and giving a choice of resolutions; all while providing alternative resolutions and formats.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Management And Usage</h4>
+					<h4>Success Criterion - Management And Usage <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX16-5"><mark>(Machine Testable)</mark></a></h4>
 					<p>Set up a media management and use policy to reduce the overall impact of audio and video, with criteria for media compression and file formats.</p>
 				</section>
 				<section class="notoc">
@@ -2450,15 +2452,15 @@
 				<h3>Take a More Sustainable Approach to Animation</h3>
 				<p>Animation can be both CPU and GPU-intensive and have implications for accessibility. While visually appealing and useful in certain situations, care and attention should be taken when considering the use of a high emissions technology.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Need For Animation</h4>
+					<h4>Success Criterion - Need For Animation <mark class="alert">(Human Testable)</mark></h4>
 					<p>Use animation only when it adds value to a visitor's experience, and not for decorative elements.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Avoid Overburdening</h4>
+					<h4>Success Criterion - Avoid Overburdening <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX17-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Progressively display an appropriate quantity of animation so as not to overburden the visitor or diminish expected device behavior.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Control Animation</h4>
+					<h4>Success Criterion - Control Animation <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX17-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Allow visitors to start, stop, pause, or otherwise control animated content.</p>
 				</section>
 				<section class="notoc">
@@ -2549,11 +2551,11 @@
 				<h3>Take a More Sustainable Approach to Typefaces</h3>
 				<p>Since the advent of the modern web, the ability to include embedded fonts and provide a more customized experience has seen their use explode. They aren't always the most performant option (which poses emissions hazards) and come with a few issues such as Flash Of Unstyled Content (<abbr title="Flash Of Unstyled Content">FOUC</abbr>) / Flash Of Unstyled Text (<abbr title="Flash Of Unstyled Text">FOUT</abbr>) which should be addressed.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Default Typefaces</h4>
+					<h4>Success Criterion - Default Typefaces <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX18-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Use standard system-level (web-safe / pre-installed) fonts as much as possible.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Font Optimization</h4>
+					<h4>Success Criterion - Font Optimization <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX18-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Ensure the number of fonts, and the variants within typefaces (such as weight and characters) are limited within a project, using the most performant file format available.</p>
 				</section>
 				<section class="notoc">
@@ -2631,23 +2633,23 @@
 				<h3>Provide Suitable Alternatives to Web Assets</h3>
 				<p>Media, images, fonts, and documents enrich the Internet. The problem is that people may not want to watch a video, listen to an audio file, look at an image, or use a specific application. By providing alternative formats to anything you embed, you ensure the widest possible audience can benefit from it (and reduced carbon output will occur as the alternative text will induce less consumer hardware thrashing than its rich media alternative).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Open Formats</h4>
+					<h4>Success Criterion - Open Formats <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX19-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>All proprietary file formats (such as PDF) should also be offered in HTML for accessibility and to ensure future availability.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Font Subsetting</h4>
+					<h4>Success Criterion - Font Subsetting <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX19-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>All custom typefaces (using font-display) should be subsetted and offered as part of a font stack with a system font as a backup.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Alternative Text</h4>
+					<h4>Success Criterion - Alternative Text <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX19-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>All images should provide meaningful alternative text for screen reader users (or when images fail to load) accessibility.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Audio Alternatives</h4>
+					<h4>Success Criterion - Audio Alternatives <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX19-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Audio should provide text transcripts of conversations as an alternative to playing the media.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Video Alternatives</h4>
+					<h4>Success Criterion - Video Alternatives <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX19-5"><mark>(Machine Testable)</mark></a></h4>
 					<p>Video should provide text transcripts (at minimum), subtitles (using <abbr title="Web Video Text Tracks">WebVTT</abbr>), and for accessibility best practice, offer closed captions and sign language options.</p>
 				</section>
 				<section class="notoc">
@@ -2727,11 +2729,11 @@
 				<h3>Provide Accessible, Usable, Minimal Web Forms</h3>
 				<p>Understandably, businesses want to know more about their customers, but a key part of sustainability is being ethical towards visitors and as such, the right to privacy is considered paramount. Don't demand information when it's not required and not only will this help visitors complete transactions quicker (reducing emissions), it will help with legal compliance such as GDPR.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Form Simplicity</h4>
+					<h4>Success Criterion - Form Simplicity <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX20-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Assess the need for forms and reduce form content to the bare minimum necessary to meet the visitor's needs and the organization's business goals. Clearly communicate why a form is necessary, what its value proposition is, how many steps it will take to complete, and what an organization will do with collected data (informed consent).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Form Functionality</h4>
+					<h4>Success Criterion - Form Functionality <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX20-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Avoid auto-completion / auto-suggest if it would prove unhelpful (to conserve bandwidth) whilst allowing autofill for ease of repeat entry (including the use of helpful tooling such as password managers).</p>
 				</section>
 				<section class="notoc">
@@ -2798,7 +2800,7 @@
 				<h3>Support Non-Graphic Ways To Interact With Content</h3>
 				<p>Certain visitors such as those with visual disabilities or speech agents (like Amazon Alexa) may rely on an experience without the graphical part of an interface. As such, they potentially may use less data or may have a different carbon impact on the Web.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Alternative Interactions</h4>
+					<h4>Success Criterion - Alternative Interactions <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX21-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Support speech browsing and other non-graphical ways to interact with content that provide alternatives to a visual interface.</p>
 				</section>
 				<section class="notoc">
@@ -2862,15 +2864,15 @@
 				<h3>Provide Useful Notifications To Improve The Visitor's Journey</h3>
 				<p>Notifications whether through the browser or messaging can be potentially useful, but only used in moderation. Spam and the lack of control are contributing sources of Internet emissions and as such, businesses should aim to reduce such actions.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Notification Justification</h4>
+					<h4>Success Criterion - Notification Justification <mark class="alert">(Human Testable)</mark></h4>
 					<p>Remove non-essential notifications while justifying and reducing the practice of e-mailing or text messaging to what is strictly necessary. Useful notifications (such as alerts for new content) should be used with care and restraint.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Notification Control</h4>
+					<h4>Success Criterion - Notification Control <mark class="alert">(Human Testable)</mark></h4>
 					<p>Let the visitor control notifications (for example through the browser, <abbr title="Short Messaging Service">SMS</abbr>, or by email) and adjust messaging preferences, and the option to unsubscribe, logout, and close an account should be available and visible.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Prompts And Responses</h4>
+					<h4>Success Criterion - Prompts And Responses <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX22-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Help visitors manage expectations by clearly explaining the result of a potential input through helpful prompts and messages that explain errors, next steps, and so on.</p>
 				</section>
 				<section class="notoc">
@@ -2949,19 +2951,19 @@
 				<h3>Reduce the Impact of Downloadable or Physical Documents</h3>
 				<p>Printing or downloading documents can both be a net benefit and a net cost in terms of sustainability as it can reduce repeat requests to websites, but the act of printing (especially when unoptimized) wastes valuable ink and paper.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Printing Documents</h4>
+					<h4>Success Criterion - Printing Documents <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX23-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Design documents to limit the printing impact. If the production of paper documents is essential, it should be designed to limit its impact to the lowest possible. Create a CSS Print stylesheet and test it with different types of content. Ensure <abbr title="Portable Document Format">PDF</abbr> printing is encouraged over paper-based storage.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Optimize Documents</h4>
+					<h4>Success Criterion - Optimize Documents <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX23-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Offer optimized, compressed documents in a variety of accessible file formats.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Optimize Delivery</h4>
+					<h4>Success Criterion - Optimize Delivery <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX23-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>If a document is likely to be re-used, generate the document once on the server-side (preferably on a cookie-free domain) rather than forcing the effort to be duplicated.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Labels And Choice</h4>
+					<h4>Success Criterion - Labels And Choice <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX23-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Clearly display the document name, a summary, the file size, and the format, allowing the visitor a choice if possible of both the format, and the language (if not the same as the web page). Furthermore, be sure to avoid embedding the document within Web pages (provide a direct link to download or view within the browser instead).</p>
 				</section>
 				<section class="notoc">
@@ -3044,19 +3046,19 @@
 				<h3>Create a Stakeholder-Focused Testing & Prototyping Policy</h3>
 				<p>The organization has policies and practices in place to incorporate stakeholder-focused testing and prototyping into its product development cycles.</p>
 				<section class="notoc">
-					<h4>Success Criterion - New Features And Perspectives</h4>
+					<h4>Success Criterion - New Features And Perspectives <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX24-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has outlined processes it uses to prototype and test new features, product ideas, and user-interface components when applicable with real users who represent various stakeholder perspectives, including people with slow connection, with disabilities, with difficulties using digital services, and so on.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Resourcing And Viability</h4>
+					<h4>Success Criterion - Resourcing And Viability <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has appropriately resourced these processes to support its long-term product viability.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Training And Onboarding</h4>
+					<h4>Success Criterion - Training And Onboarding <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has training materials to onboard new product team members to these practices.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Testing And Validation</h4>
+					<h4>Success Criterion - Testing And Validation <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization regularly conducts extensive testing and user interviews to validate whether the released features are meeting both business goals and visitor needs.</p>
 				</section>
 				<section class="notoc">
@@ -3124,15 +3126,15 @@
 				<h3>Conduct Regular Audits, Regression, and Non-Regression Tests</h3>
 				<p>Products and services at any stage of a project can suffer bugs or issues that need to be resolved. Fixing these regressions also generates additional development and environmental costs. By resolving such issues, you can reduce the chances of a visitor giving up on a session and thereby reduce the amount of wasted energy your website emits overall.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Regular Issue Testing</h4>
+					<h4>Success Criterion - Regular Issue Testing <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX25-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Check your codebase for bugs, identify any performance issues, and account for accessibility or security problems at either monthly or quarterly timeframes (depending on your scheduling allowance).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Non-Regression Tests</h4>
+					<h4>Success Criterion - Non-Regression Tests <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX25-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Non-regression tests are implemented for all important functionality.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Regression Tests</h4>
+					<h4>Success Criterion - Regression Tests <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX25-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Incorporate regression testing into each release cycle to ensure that new features don't introduce bugs or otherwise conflict with existing software functionality.</p>
 				</section>
 				<section class="notoc">
@@ -3210,11 +3212,11 @@
 				<h3>Incorporate Performance Testing Into Each Major Release-Cycle</h3>
 				<p>Try to ethically measure how efficient a visitor's experience is by analyzing the performance of the website or application and how it has been constructed, by doing so you might be able to reduce any issues they may have encountered previously, decrease loading times, and reduce the burden of loading unnecessary pages.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Performance Testing</h4>
+					<h4>Success Criterion - Performance Testing <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX26-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Regularly measure with each release-cycle (using tooling or through research and auditing) the performance of a website or application to identify and resolve bottlenecks or issues in the underlying code or infrastructure which could ultimately impact the sustainability of a website or application.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Measurement And Compliance</h4>
+					<h4>Success Criterion - Measurement And Compliance <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX26-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Only collect the data required to provide a streamlined and effective user-journey, put policies in place to ensure strict adherence, and comply with relevant accessibility policies and privacy laws, such as the General Data Protection Regulation (<abbr title="General Data Protection Regulation">GDPR</abbr>).</p>
 				</section>
 				<section class="notoc">
@@ -3285,7 +3287,7 @@
 				<h3>Incorporate Value Testing Into Each Major Release-Cycle</h3>
 				<p>Occasionally, you may find that features you have developed for a product or service have little to no active users or could be better implemented to bring better value. Undertaking research to identify redundancy allows you to optimize your codebase (and reduce emissions).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Usage Changes</h4>
+					<h4>Success Criterion - Usage Changes <mark class="alert">(Human Testable)</mark></h4>
 					<p>Consider visitor feedback and monitor adoption and churn rates of product or service features, incorporating insights into future releases.</p>
 				</section>
 				<section class="notoc">
@@ -3343,7 +3345,7 @@
 				<h3>Incorporate Usability Testing Into Each Minor Release-Cycle</h3>
 				<p>Researching a product or service and how it is used over time allows you to iterate and ensure the features and functionality being offered match how user-needs change over time. Doing so will help you reduce code redundancy further and reduce emissions through optimization.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Usability Testing</h4>
+					<h4>Success Criterion - Usability Testing <mark class="alert">(Human Testable)</mark></h4>
 					<p>Incorporate usability testing into product cycles and measure the impact of these tests for future releases.</p>
 				</section>
 				<section class="notoc">
@@ -3406,23 +3408,23 @@
 				<h3>Incorporate Compatibility Testing Into Each Release-Cycle</h3>
 				<p>Compatibility is a critical part of the sustainability mindset and should be prioritized through all products and services. If individuals wish to use older devices (or cannot upgrade due to cost) or do not wish to upgrade as frequently, it will reduce the amount of e-waste that enters the system. If something doesn't work, it's also likely to result in visitors suffering a wasted effort, potentially leading to refused access to your service (and thereby emitting further emissions).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Compatibility Policy</h4>
+					<h4>Success Criterion - Compatibility Policy <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX29-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Establish a policy for compatibility with obsolete devices and software versions, listing the supported devices brands, operating systems, and browsers (including versions).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Maintaining Compatibility</h4>
+					<h4>Success Criterion - Maintaining Compatibility <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX29-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Avoid planned obsolescence in software updates, striving to maintain compatibility for as long as possible and clearly communicating whether an update is evolutionary (large updates that can significantly reduce performance) or corrective (smaller updates that fix bugs or improve security).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Frequent Testing</h4>
+					<h4>Success Criterion - Frequent Testing <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX29-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Regularly test the product or service with weak connections, old browsers, and devices older than five years to ensure compatibility.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Mobile Friendly</h4>
+					<h4>Success Criterion - Mobile Friendly <mark class="alert">(Human Testable)</mark></h4>
 					<p>Prototype your interfaces using mobile-first methods to ensure progressive enhancement, content prioritization, and improved accessibility.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Progressive Web Applications (<abbr title="Progressive Web Application">PWA</abbr>s)</h4>
+					<h4>Success Criterion - Progressive Web Applications (<abbr title="Progressive Web Application">PWA</abbr>s) <a href="https://w3c.github.io/sustyweb/drafts/star.html#UX29-5"><mark>(Machine Testable)</mark></a></h4>
 					<p>Consider whether a PWA will be more sustainable and compatible over a native mobile application.</p>
 				</section>
 				<section class="notoc">
@@ -3534,11 +3536,11 @@
 				<h3>Identify Relevant Technical Indicators</h3>
 				<p>Performance is a key part of the sustainability mindset as reductions in loading times can have a considerable impact on energy loads within <abbr title="Central Processing Unit">CPU</abbr>, <abbr title="Graphics Processing Unit">GPU</abbr>, <abbr title="Random Access Memory">RAM</abbr>, and hard drive caching (among other variables), as such ensuring a performant product is essential.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Performance Goals</h4>
+					<h4>Success Criterion - Performance Goals <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD01-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Set goals that impact the environment and performance of the service, for example, <abbr title="Hypertext Transfer Protocol">HTTP</abbr> requests, or the amount of <abbr title="Document Object Model">DOM</abbr> elements that need to be rendered.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Accountancy Types</h4>
+					<h4>Success Criterion - Accountancy Types <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD01-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Because the payload being delivered may not always be equal in terms of energy intensity, operators of websites and applications must ensure that consideration is given for the energy intensity (or unit being evaluated) of each component. For example, non-rendering text is less computational than CSS, which in turn is less process-heavy than JavaScript, which is less resource-heavy than WebGL.</p>
 				</section>
 				<section class="notoc">
@@ -3607,7 +3609,7 @@
 				<h3>Minify Your <abbr title="Hypertext Markup Language">HTML</abbr>, <abbr title="Cascading StyleSheets">CSS</abbr>, and JavaScript</h3>
 				<p>Whitespace holds no value when it's being presented to the visitor (unless they view the source code), by using minification, valuable data savings can be made which will reduce loading times.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Minify Code</h4>
+					<h4>Success Criterion - Minify Code <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD02-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>All source code is minified upon compilation (including inline code).</p>
 				</section>
 				<section class="notoc">
@@ -3663,7 +3665,7 @@
 				<h3>Use Code-Splitting Within Projects</h3>
 				<p>When dealing with heavy components (such as JavaScript), the ability to modularize them into smaller pieces that can be loaded as and when required reduces the amount of redundancy and serves as a great way to make your scripts more sustainable.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Code Splitting</h4>
+					<h4>Success Criterion - Code Splitting <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD03-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Breakdown bandwidth-heavy components into segments that can be loaded as required.</p>
 				</section>
 				<section class="notoc">
@@ -3730,7 +3732,7 @@
 				<h3>Apply Tree Shaking To Code</h3>
 				<p>Often when coding, projects can accumulate clutter and functions that are no longer used (due to newer, more effective features being developed). By utilizing tree shaking techniques, all the "dead wood" will be automatically dropped upon compilation, reducing a file's size.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Remove Redundancy</h4>
+					<h4>Success Criterion - Remove Redundancy <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD04-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Identify and eliminate unused and dead code within CSS and JavaScript.</p>
 				</section>
 				<section class="notoc">
@@ -3795,15 +3797,15 @@
 				<h3>Ensure Your Solutions Are Accessible</h3>
 				<p>Not everyone can access services equally, being sustainable is also about being accessible, fair, ethical, and ensuring that your product or service doesn't discriminate. As such, ensuring your website complies with best practices and relevant laws whilst meeting the needs of your visitors is critical as well as good business.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Accessibility Compliance</h4>
+					<h4>Success Criterion - Accessibility Compliance <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD05-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Your website or application must conform to WCAG (at the necessary level), plus extend beyond to obey relevant laws and meet additional visitor accessibility requirements. Building inclusively means that people with permanent, temporary, or situational disabilities will be able to more quickly find what they are looking for, and not have to spend extra time searching for a way to use your product or service.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Enhancing Accessibility</h4>
+					<h4>Success Criterion - Enhancing Accessibility <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD05-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Enhance your website or application with Accessible Rich Internet Applications (<abbr title="Accessible Rich Internet Applications">ARIA</abbr>) ONLY if applicable or necessary, and accessibility enhancing features when useful or beneficial.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Electronic Inequalities</h4>
+					<h4>Success Criterion - Electronic Inequalities <mark class="alert">(Human Testable)</mark></h4>
 					<p>Deploy solutions that fight against electronic inequalities in products and services.</p>
 				</section>
 				<section class="notoc">
@@ -3888,15 +3890,15 @@
 				<h3>Avoid Code Duplication</h3>
 				<p>Redundancy is the enemy of sustainability. Having systems in place to ensure that everyone can work from established patterns, the website or application remains clean and easy to use, and iteration over redesign is firmly in the mindset that will help promote sustainable practices. It's also worth being wary of abstracting code too early (see <abbr title="Avoid Hasty Abstractions">AHA</abbr> methodology) or incorrectly, as while good abstractions can be more efficient, poor ones can waste effort and introduce complexity, bloat, and bugs to your codebase which can lead to emissions.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Remove Or Simplify</h4>
+					<h4>Success Criterion - Remove Or Simplify <mark class="alert">(Human Testable)</mark></h4>
 					<p>Don't be afraid to remove or simplify (through rewriting for performance) your code to focus on essential features and have a cleaner, less redundant product (and codebase).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Iteration Over Recreation</h4>
+					<h4>Success Criterion - Iteration Over Recreation <mark class="alert">(Human Testable)</mark></h4>
 					<p>Improve (iterate) an existing creation rather than constantly redeveloping and redesigning products from scratch (duplication of coding effort) if possible to reduce visitor learning burden and developer impact.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Organize Code Arrangement</h4>
+					<h4>Success Criterion - Organize Code Arrangement <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD06-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Within CSS and JavaScript, use methodologies (like <abbr title="Block, Element, Modifier">BEM</abbr>) and systems like <abbr title="Don't Repeat Yourself">DRY</abbr> and <abbr title="Write Everything Twice">WET</abbr> to optimize the arrangement and output of your source code.</p>
 				</section>
 				<section class="notoc">
@@ -3970,27 +3972,27 @@
 				<h3>Rigorously Assess Third-Party Services</h3>
 				<p>Whether advertising, chatbots, maps, or other tooling; outsourcing your service to a third-party provider may be potentially useful in certain scenarios in reducing design or development time and redundancy (which can be a win for sustainability). Third-party services, however, come with issues, such as the lack of control over emissions, and they often can potentially suffer from latency and large file sizes which may not exist if you self-hosted or created the material.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Assess Third-Parties</h4>
+					<h4>Success Criterion - Assess Third-Parties <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD07-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Assess third-party services (including plugins, widgets, feeds, maps, carousels, etc) as early in the ideation or creation process as possible and use as few as possible to reduce the product or service's overall ecological impact, including Scope 3 emissions.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Third-party Implementation</h4>
+					<h4>Success Criterion - Third-party Implementation <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD07-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Third-party content (including plugins, widgets, feeds, maps, carousels, etc) should be placed behind a click-to-load delay screen (using the "import on interaction" pattern), while alternatives to automated solutions such as chatbots should be offered.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Libraries And Frameworks</h4>
+					<h4>Success Criterion - Libraries And Frameworks <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD07-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Large CSS libraries and JavaScript frameworks should only be used if a more performant alternative that achieves the same goal cannot be used instead.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Self-Hosting</h4>
+					<h4>Success Criterion - Self-Hosting <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD07-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Prioritize self-hosted content over embedded content from third-party services.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Avoiding Dependency</h4>
+					<h4>Success Criterion - Avoiding Dependency <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD07-5"><mark>(Machine Testable)</mark></a></h4>
 					<p>Create your own clickable icons and widgets, rather than relying on third-party services to host or allow embedding within your product or service.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Third-party Preferences</h4>
+					<h4>Success Criterion - Third-party Preferences <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD07-6"><mark>(Machine Testable)</mark></a></h4>
 					<p>Third-party products, services, libraries, and frameworks are often a source of sustainability issues that cannot be controlled or managed by the first-party provider of a service. While many do provide benefits to a website, the need to justify their inclusion should be made not only by those creating the product or service but also be able to be controlled by the consumer. As showcased with cookies, websites or applications should provide a similar mechanism of disabling or refusing non-first-party features (with explanations of their purpose) - unless such features can be proven as critical for functionality.</p>
 				</section>
 				<section class="notoc">
@@ -4087,19 +4089,19 @@
 				<h3>Use HTML Elements Correctly</h3>
 				<p>HTML semantics are important. They don't just play a key role in making the Web look the way it does, they have a function in accessibility, SEO, and even in sustainability. Ensuring that you markup your content correctly and avoid cluttering your markup wastefully will reduce emissions.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Semantic Code</h4>
+					<h4>Success Criterion - Semantic Code <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD08-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Ensure content is marked up semantically using the right HTML element for the right job.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Optional Features</h4>
+					<h4>Success Criterion - Optional Features <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD08-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Consider removing optional HTML tags (which aren't required for rendering), attribute quotes, or attributes that are set to their default value.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Avoid Non-standard Code</h4>
+					<h4>Success Criterion - Avoid Non-standard Code <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD08-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Avoid using non-standard elements or attributes.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Custom Code</h4>
+					<h4>Success Criterion - Custom Code <mark class="alert">(Human Testable)</mark></h4>
 					<p>Only use custom elements or Web Components if you cannot utilize native HTML elements or if you need tightly regulated control over the implementation of design system components.</p>
 				</section>
 				<section class="notoc">
@@ -4185,11 +4187,11 @@
 				<h3>Resolve Render Blocking Content</h3>
 				<p>The ability to work around render-blocking issues is a great addition to the web. From deferring code, to lazy loading, to asynchronous loading, each has its use case and each can have the potential to reduce or give performance benefits to a website or application.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Asynchronous Code</h4>
+					<h4>Success Criterion - Asynchronous Code <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD09-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>All external assets should be deferred or set to async (unless required) to avoid Flash Of Unstyled Content (FOUC).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Priority Loading</h4>
+					<h4>Success Criterion - Priority Loading <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD09-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>If external resources are required on load, ensure their priorities (delivery route) are set correctly.</p>
 				</section>
 				<section class="notoc">
@@ -4253,15 +4255,15 @@
 				<h3>Provide Code-Based Way-Finding Mechanisms</h3>
 				<p>Helping visitors avoid wasting their time can reduce the number of emissions from time spent in front of a screen. As such, by using existing technologies like metadata, robots files, and accessibility-friendly aids within the page, improvements to the experience can be made.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Metadata And Microdata</h4>
+					<h4>Success Criterion - Metadata And Microdata <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD10-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Optimize your metadata and microdata for search engines and social media.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Search Engines</h4>
+					<h4>Success Criterion - Search Engines <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD10-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Assist search engines, while blocking any ill-intentioned robots and scripts.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Accessibility Aids</h4>
+					<h4>Success Criterion - Accessibility Aids <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD10-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Offer accessibility and usability aids to find content, such as skip links and signposts.</p>
 				</section>
 				<section class="notoc">
@@ -4340,15 +4342,15 @@
 				<h3>Validate Form Errors and External Input</h3>
 				<p>Entering information on a page can lead to problems. If a visitor makes a mistake along the way, it makes good sense to have systems in place to guide them through resolving the typos, confusion, and glitches that can occur which lead to abandonment and extra emissions through wasted device usage.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Error Validation</h4>
+					<h4>Success Criterion - Error Validation <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD11-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Errors should be identified through live validation as well as upon submission.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Label Elements</h4>
+					<h4>Success Criterion - Label Elements <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD11-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Required elements should be clearly identified and labeled (for the benefit of voice tools such as screen readers and virtual assistants), and optional elements (if unnecessary) removed.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Allow Paste</h4>
+					<h4>Success Criterion - Allow Paste <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD11-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Always allow the pasting of content (including passwords) from external sources.</p>
 				</section>
 				<section class="notoc">
@@ -4414,15 +4416,15 @@
 				<h3>Use Metadata Correctly</h3>
 				<p>Search engines and social networks make use of the content within a website, by ensuring that your metadata is correctly marked up, you can reduce emissions by improving way-finding.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Required Elements</h4>
+					<h4>Success Criterion - Required Elements <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD12-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Include the required title element, plus any optional HTML head elements (such as link).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Meta Tags</h4>
+					<h4>Success Criterion - Meta Tags <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD12-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Include necessary meta tag references that search engines and social networks recognize, using a recognized name scheme such as Dublin Core Metadata Initiative (<abbr title="Dublin Core Metadata Initiative">DCMI</abbr>), Friend Of A Friend (<abbr title="Friend Of A Friend">FOAF</abbr>), or <abbr title="Resource Description Framework in Attributes">RDFa</abbr>.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Structured Data</h4>
+					<h4>Success Criterion - Structured Data <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD12-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Embed Microdata, Structured Data (Schema), or Microformats within your pages.</p>
 				</section>
 				<section class="notoc">
@@ -4504,7 +4506,7 @@
 				<h3>Adapt to User Preferences</h3>
 				<p>Sustainability benefits can be generated in numerous ways, by making sure that your website adheres to the requests made by a browser for specific conditions to be taken into account (such as CSS media and preference queries), you can unlock benefits for the visitor, and as a by-product reduce your emissions. It's worth noting that the introduction of user preferences and APIs has increased the risk of visitor fingerprinting and privacy issues.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Media and Preference Queries</h4>
+					<h4>Success Criterion - Media and Preference Queries <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD13-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, prefers-reduced-transparency, and prefers-reduced-motion CSS preference queries if they will benefit your website or application. Also, consider the print & scripting CSS media queries if they will improve the sustainability of your website.</p>
 				</section>
 				<section class="notoc">
@@ -4587,19 +4589,19 @@
 				<h3>Develop a Mobile-First Layout</h3>
 				<p>Visitors approach our products and services on a wide variety of devices these days. Ensuring that your device works on the widest range of devices and differing screen resolutions ensures that you will have a compatible website or application. As such, visitors can actively choose to browse on devices that emit less carbon if they wish.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Mobile-First</h4>
+					<h4>Success Criterion - Mobile-First <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD14-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Allow a website or app to work on mobile devices primarily (testing with various connection speeds), expanding to accommodate larger displays thereafter (mobile-first). It is much more effective to do the hard work to ensure that it works well on a mobile device and then scale it up to larger interfaces.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Responsive Design</h4>
+					<h4>Success Criterion - Responsive Design <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD14-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Utilize progressive enhancement and responsive web design to ensure that your work accommodates a device's capabilities, different screen sizes, and will not fail if it meets an unsupported technology.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Carbon Aware Design</h4>
+					<h4>Success Criterion - Carbon Aware Design <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD14-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Alternative Browsing</h4>
+					<h4>Success Criterion - Alternative Browsing <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD14-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Consider supporting other indirect methods of interaction such as voice (speech), code (<abbr title="Quick Response">QR</abbr>, etc), reader view (browser, application, or <abbr title="Really Simple Syndication">RSS</abbr>), or connected technology (watch, appliance, transport, etc).</p>
 				</section>
 				<section class="notoc">
@@ -4649,6 +4651,7 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
+							<li><a href="https://hackernoon.com/carbon-aware-computing-next-green-breakthrough-or-new-greenwashing">Carbon Aware Computing: Next Green Breakthrough or New Greenwashing?</a></li>
 							<li><a href="https://devblogs.microsoft.com/sustainable-software/carbon-aware-vs-carbon-efficient-applications/">Carbon-Aware vs. Carbon-Efficient Applications</a></li>
 							<li><a href="https://branch.climateaction.tech/issues/issue-1/design-for-carbon-aware-digital-experiences/">Design for Carbon-Aware Digital Experiences</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/en/content/4-mobile-first.html">Digital Eco-Design: Start with mobile first design</a></li>
@@ -4693,11 +4696,11 @@
 				<h3>Use Beneficial JavaScript and Its <abbr title="Application Programming Interfaces">APIs</abbr></h3>
 				<p>When new best practices or if beneficial scripting guidance exists that will improve the visitor experience, following it should be of the highest priority (only using scripts ethically should be promoted).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Beneficial JavaScript</h4>
+					<h4>Success Criterion - Beneficial JavaScript <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD15-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Improve sustainability through accessible and performant code implementations.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - API Requests</h4>
+					<h4>Success Criterion - API Requests <mark class="alert">(Human Testable)</mark></h4>
 					<p>When using an API, make sure you only call it when necessary. On the other side, make sure no unrequired data is sent by the API.</p>
 				</section>
 				<section class="notoc">
@@ -4773,7 +4776,7 @@
 				<h3>Ensure Your Scripts Are Secure</h3>
 				<p>The dangers of scripting are well known, and vulnerabilities are discovered with increasing regularity. As such, it's of ethical benefit for authors to ensure all code used regularly passes security processes.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Script Security</h4>
+					<h4>Success Criterion - Script Security <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD16-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Check the code for vulnerabilities, exploits, header issues, and code injection.</p>
 				</section>
 				<section class="notoc">
@@ -4833,15 +4836,15 @@
 				<h3>Manage Dependencies Appropriately</h3>
 				<p>While JavaScript may not cause the most website bloat, it can cause very high emissions in terms of CPU load due to the rendering process, thereby it makes sense to consider the use of dependencies and third-party code carefully.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Dependency Management</h4>
+					<h4>Success Criterion - Dependency Management <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD17-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Prevent developers from downloading and installing JavaScript libraries to run locally (client-side) when they are not needed by checking for unused dependencies and uninstalling those that aren't needed and removing them from your package.json file.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Dependency Necessity</h4>
+					<h4>Success Criterion - Dependency Necessity <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD17-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Reduce the amount of JavaScript that has to be downloaded and parsed by the browser by only using libraries where necessary. Consider whether you can use a native JavaScript API instead. Check the package size, and whether individual modules can be installed and imported rather than the whole library.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Dependency Updates</h4>
+					<h4>Success Criterion - Dependency Updates <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD17-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Regularly check dependencies and keep them up-to-date.</p>
 				</section>
 				<section class="notoc">
@@ -4906,7 +4909,7 @@
 				<h3>Include Files That Are Automatically Expected</h3>
 				<p>Search engines and browsers regularly examine websites, requesting specific files by default (they expect them to exist). If the files don't exist, this will lead to potential errors and emissions being caused when they could be created, especially as the files offer SEO, user-experience, and other benefits to visitors.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Expected File Formats</h4>
+					<h4>Success Criterion - Expected File Formats <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD18-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Take advantage of the favicon.ico, robots.txt, opensearch.xml, site.webmanifest, and sitemap.xml documents.</p>
 				</section>
 				<section class="notoc">
@@ -4971,7 +4974,7 @@
 				<h3>Use Plaintext Formats When Appropriate</h3>
 				<p>Several small assets can be included within a website, conferring a range of benefits upon the website or application that utilizes them. They each have a low carbon footprint, so while they do create emissions, it's worth including them for the benefits they provide.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Beneficial File Formats</h4>
+					<h4>Success Criterion - Beneficial File Formats <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD19-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Utilize standards such as ads.txt, carbon.txt, humans.txt, security.txt and robots.txt.</p>
 				</section>
 				<section class="notoc">
@@ -5047,11 +5050,11 @@
 				<h3>Avoid Using Deprecated or Proprietary Code</h3>
 				<p>The Web is full of dead, often proprietary code, created using standards that have been superseded or by groups that aren't recognized. By following recognized coding standards, you ensure that your code will be rendered properly by browsers (and reduce the potential for added emissions occurring from unmaintained rendering processes).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Deprecated Code</h4>
+					<h4>Success Criterion - Deprecated Code <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD20-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Upgrading or avoiding deprecated formats is important, the only exception being if consumer support demands maintaining older standards to provide a functional product.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Outdated Code</h4>
+					<h4>Success Criterion - Outdated Code <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD20-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Don't use an older standard if a newer recommendation will do the same job as / or more effectively.</p>
 				</section>
 				<section class="notoc">
@@ -5121,23 +5124,23 @@
 				<h3>Align Technical Requirements With Sustainability Goals</h3>
 				<p>Every product or service is different, and each will require a different set of tooling to accomplish the most sustainable result. Deciding whether to go with a bulky framework, Static Site Generator (<abbr title="Static Site Generator">SSG</abbr>), or a Content Management System (<abbr title="Content Management System">CMS</abbr>) takes careful planning based on client or service requirements.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Identify Requirements</h4>
+					<h4>Success Criterion - Identify Requirements <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD21-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>List (and choose carefully) the requirements of the product or service. A simpler technological implementation may use more human resources but could have a smaller footprint. A prebuilt solution may use more system resources (and thereby produce more emissions upon render) but have a faster build-time (emitting less carbon during development).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Optimized Methodology</h4>
+					<h4>Success Criterion - Optimized Methodology <mark class="alert">(Human Testable)</mark></h4>
 					<p>As a general rule, coding from scratch is the best-performing methodology (though if an existing solution is actively maintained, it may be better optimized than what you could produce). Therefore, prefer native components and file systems to a <abbr title="What You See Is What You Get">WYSIWYG</abbr> editor or heavy framework, and be considerate of the impact of third-party solutions.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Static VS Dynamic</h4>
+					<h4>Success Criterion - Static VS Dynamic <mark class="alert">(Human Testable)</mark></h4>
 					<p>If you do decide to use a code generation tool, consider using a Static Site Generator in preference to a bulky content management system. Because <abbr title="Static Site Generators">SSGs</abbr> often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Expandability Considerations</h4>
+					<h4>Success Criterion - Expandability Considerations <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD21-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Plugins, extensions, and themes have been carefully reviewed and selected to maximize interoperability, accessibility, and performance. They are regularly audited over time to ensure continued compatibility.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Interface Impact</h4>
+					<h4>Success Criterion - Interface Impact <mark class="alert">(Human Testable)</mark></h4>
 					<p>Make sure all the components of the user-interface are the subject of special attention in terms of its sustainability impact while respecting accessibility and the performance of such components.</p>
 				</section>
 				<section class="notoc">
@@ -5222,11 +5225,11 @@
 				<h3>Use the Latest Stable Language Version</h3>
 				<p>Languages evolve regularly, and it's important for security and performance reasons to keep on top of the technology stack you are using. It's also important to consider whether the language you are using is appropriate or optimized for the task you wish to use it for.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Versioning</h4>
+					<h4>Success Criterion - Versioning <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD22-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Use the latest build of your chosen syntax language and its coupled framework.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Language Choice</h4>
+					<h4>Success Criterion - Language Choice <mark class="alert">(Human Testable)</mark></h4>
 					<p>Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact ESG factors such as the well-being of those involved or become too cost prohibitive.</p>
 				</section>
 				<section class="notoc">
@@ -5283,7 +5286,7 @@
 				<h3>Take Advantage of Native Features</h3>
 				<p>Ensuring that your code is free of redundancy by using pre-existing functionality provided by the web browser is important as it will help you to reduce the amount of time wasted, re-creating the same components, this offers obvious sustainability benefits in terms of time in front of the screen.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Native Over Custom</h4>
+					<h4>Success Criterion - Native Over Custom <a href="https://w3c.github.io/sustyweb/drafts/star.html#WD23-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Use native functions, APIs, and features over writing your own.</p>
 				</section>
 				<section class="notoc">
@@ -5357,7 +5360,7 @@
 				<h3>Run Fewer, Simpler Queries As Possible</h3>
 				<p>Making multiple requests whether HTTP or within a database has a carbon cost as infrastructure has to send that information back and forth. As such, managing how you store and use data locally for a visitor will help reduce wasted cycles.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Database Queries</h4>
+					<h4>Success Criterion - Database Queries <mark class="alert">(Human Testable)</mark></h4>
 					<p>If you need information that is stored in a database, and you require it (or it's likely to be requested) more than once in your code, access the database only once, and store the data locally for subsequent processing. Also, avoid reliance on framework helpers that might defer filtering to later on in the process.</p>
 				</section>
 				<section class="notoc">
@@ -5426,23 +5429,23 @@
 				<h3>Choose a Sustainable Hosting Provider</h3>
 				<p>In addition to reducing the environmental impacts of a website, choose a hosting service that mitigates the remaining impacts. To make sure of this, there are many criteria to look for.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Monitor Metrics</h4>
+					<h4>Success Criterion - Monitor Metrics <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS01-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>To assess the environmental impacts of hosting and detect overconsumption, some indicators should be monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators could be used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (<abbr title="Power Usage Effectiveness">PUE</abbr>), Water Usage Effectiveness (<abbr title="Water Usage Effectiveness">WUE</abbr>), and Carbon Usage Effectiveness (<abbr title="Carbon Usage Effectiveness">CUE</abbr>). They could be displayed to visitors for transparency and monitoring reasons.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Equipment Longevity</h4>
+					<h4>Success Criterion - Equipment Longevity <mark class="alert">(Human Testable)</mark></h4>
 					<p>Manage equipment responsibly by keeping them as long as possible, using them as efficiently as possible, making sure they are certified, and purchasing long-lifespan products.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Recycling Waste</h4>
+					<h4>Success Criterion - Recycling Waste <mark class="alert">(Human Testable)</mark></h4>
 					<p>Recover, recycle, and upcycle waste including equipment.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Renewable Electricity</h4>
+					<h4>Success Criterion - Renewable Electricity <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS01-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Electricity comes entirely from sources with the lowest possible carbon intensity (ideally generated by wind or solar rather than from non-renewable sources). For example, Renewable Energy Credits (<abbr title="Renewable Energy Credits">RECs</abbr>) can help verify the source, or, ideally, prove that electricity comes directly from renewable sources.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Remaining Emissions</h4>
+					<h4>Success Criterion - Remaining Emissions <mark class="alert">(Human Testable)</mark></h4>
 					<p>Compensate remaining emissions, keeping in mind that the priority should be to avoid then reduce them and only compensate for them if they cannot be avoided. Carbon credits may not be sustainable, therefore the effectiveness of an offset solution must be verified, shown to be both environmentally viable and sustainable, and part of a longer-term strategy to eliminate emissions entirely from a chain, benefitting the wider ecosystem.</p>
 				</section>
 				<section class="notoc">
@@ -5565,11 +5568,11 @@
 				<h3>Optimize Browser Caching</h3>
 				<p>Browser caching reduces the requirement for files to need to be constantly reloaded from the server, and in certain situations, it can even allow for files to be viewed offline (or in the case of a reverse proxy, send immediate recurring requests without additional calculation or computation from the server). As such, this will have sustainability and performance benefits (for instance by greatly reducing Time-To-First-Byte).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Server-side Caching</h4>
+					<h4>Success Criterion - Server-side Caching <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS02-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>If using a CMS, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control HTTP header. If using a language or framework that generates pages on request, cache responses for static pages so that they can be reused for future visitors.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Offline Access</h4>
+					<h4>Success Criterion - Offline Access <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS02-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (<abbr title="Application Programming Interface">API</abbr>s), or cookies (if necessary) to reduce friction in the user-journey. For example, through the use of a PWA (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility.</p>
 				</section>
 				<section class="notoc">
@@ -5661,11 +5664,11 @@
 				<h3>Compress Your Files</h3>
 				<p>Every file will take up a certain amount of room on a server's hard drive, and this data will need to be sent across the wire to each visitor. Doing so will consume resources, but by using compression algorithms you can shrink each file to make its journey less impactful.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Server-side Compression</h4>
+					<h4>Success Criterion - Server-side Compression <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS03-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>If using a CMS, install an applicable plugin to enable on-the-fly server-side compression, such as Brotli or GZIP. Otherwise, use the provided server configuration files to include and tweak the performance-related features to the requirements.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Media Compression</h4>
+					<h4>Success Criterion - Media Compression <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS03-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Compress your various images, fonts, audio, and video; by reducing the quality and offering different resolutions / dimensions (sizes) before uploading to a server or content management system.</p>
 				</section>
 				<section class="notoc">
@@ -5763,11 +5766,11 @@
 				<h3>Use Error Pages and Redirects Carefully</h3>
 				<p>Navigation errors lead to mistakes, which lead to visitors wasting time trying to resolve them, or abandoning a website altogether. Anything that can be done to interject, predict, and way-find around potential problems will reduce emissions over time.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Error Pages</h4>
+					<h4>Success Criterion - Error Pages <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS04-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Maintain sites by ensuring links are correct, and if errors occur, provide suitable way-finding within optimized pages for each error type to ensure resources can be identified to help visitors complete the task they started.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Redirection</h4>
+					<h4>Success Criterion - Redirection <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS04-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Redirect websites, subdomains, and pages only when necessary. Proactively seek broken or outdated links and fix them. A redirect or search will often help reduce the number of pages a visitor needs to load.</p>
 				</section>
 				<section class="notoc">
@@ -5834,7 +5837,7 @@
 				<h3>Limit Usage of Additional Environments</h3>
 				<p>Decommission or switch off additional environments, such as testing / <abbr title="Quality Assurance">QA</abbr> (Quality Assurance) / re-production and other such environments when they are not useful.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Unused Environments</h4>
+					<h4>Success Criterion - Unused Environments <mark class="alert">(Human Testable)</mark></h4>
 					<p>Ensure no unused environment is available, balancing the cost of deploying an environment with the cost of keeping it online while unused.</p>
 				</section>
 				<section class="notoc">
@@ -5887,19 +5890,19 @@
 				<h3>Automate To Fit the Needs</h3>
 				<p>Any tasks, especially repetitive, that can be automated should be automated (compilation, deployment, tests, etc.) to reduce time at the computer being wasted by people.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Automate Tasks</h4>
+					<h4>Success Criterion - Automate Tasks <mark class="alert">(Human Testable)</mark></h4>
 					<p>Every recurring task, such as deployment, testing, or compilation, can be run automatically, as recommended by continuous integration / continuous delivery best practices.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Necessitate Tasks</h4>
+					<h4>Success Criterion - Necessitate Tasks <mark class="alert">(Human Testable)</mark></h4>
 					<p>To reduce wasted processing cycles, every automated task is only run when needed.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Automated Scaling</h4>
+					<h4>Success Criterion - Automated Scaling <mark class="alert">(Human Testable)</mark></h4>
 					<p>Use automated scaling infrastructure to automatically increase the capacity of the web server and implement buffering / throttling to respond to visitor demand.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Security Tooling</h4>
+					<h4>Success Criterion - Security Tooling <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS06-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Web browsing from bots has been steadily increasing in recent years. As such, it is a growing concern for security, performance, and sustainability. Use security tools that automatically block bad actors and minimize bad behavior. This results in substantially less load on the server, fewer logs, less data, less effect due to compromise, and more. The result of compromised websites is a large increase in HTTP, email, and other traffic as malicious code attempts to infiltrate other resources and exfiltrate data. Compromised websites are typically identified by anomalous patterned behavior.</p>
 				</section>
 				<section class="notoc">
@@ -5977,7 +5980,7 @@
 				<h3>Maintain a Relevant Refresh Frequency</h3>
 				<p>Only send data from the server when the visitor needs it. As much as possible, you can rely on client-side or server-side cache and client-side / local storage. Rather than refreshing data on a given frequency, it might be up to the visitor to manually ask for a refresh.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Refresh Frequency</h4>
+					<h4>Success Criterion - Refresh Frequency <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS07-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The frequency for refresh (of both the cache, locally stored data, and the page) is defined depending on visitor needs.</p>
 				</section>
 				<section class="notoc">
@@ -6031,7 +6034,7 @@
 				<h3>Be Mindful of Duplicate Data</h3>
 				<p>For security reasons and in accordance with a Service-Level Agreement (<abbr title="Service-Level Agreement">SLA</abbr>), it is often recommended to duplicate data to make sure it remains available if a problem occurs. This should be balanced with the cost of such duplication. Not all data is critical and, rather than overcompensating with multiple saves, duplication should be designed with efficiency in mind.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Data Backups</h4>
+					<h4>Success Criterion - Data Backups <mark class="alert">(Human Testable)</mark></h4>
 					<p>Backups of system and user data are both incremental and secure.</p>
 				</section>
 				<section class="notoc">
@@ -6088,15 +6091,15 @@
 				<h3>Enable Asynchronous Processing and Communication</h3>
 				<p>Depending on carbon intensity, some processes and communications should be delayed and sometimes batched. This could also be a way to reduce the workload on a server or Virtual Machine (<abbr title="Virtual Machine">VM</abbr>). In such cases, visitors should be warned that the process is asynchronous and notified when it is over.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Batch Processing</h4>
+					<h4>Success Criterion - Batch Processing <mark class="alert">(Human Testable)</mark></h4>
 					<p>By default, non-critical processes and communications are batched and launched only when carbon intensity is under a given threshold.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Protocol Usage</h4>
+					<h4>Success Criterion - Protocol Usage <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS09-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Ensure the communication protocols are relevant to the visitor's needs and data transferred. Avoid using insecure protocols (HTTP, <abbr title="File Transfer Protocol">FTP</abbr>), and prioritize more efficient and privacy-aware data routes for visitors (<abbr title="Hypertext Transfer Protocol (Secure)">HTTPS</abbr>, <abbr title="Secure Shell">SSH</abbr>).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Event-Driven Architecture</h4>
+					<h4>Success Criterion - Event-Driven Architecture <mark class="alert">(Human Testable)</mark></h4>
 					<p>When creating products or services that utilize state changes (without triggering a complete refresh), consider if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the ESG variables involved) than traditional APIs in handling the server-side workload of your solution.</p>
 				</section>
 				<section class="notoc">
@@ -6162,23 +6165,23 @@
 				<h3>Consider <abbr title="Content Delivery Networks">CDNs</abbr> and Edge Caching</h3>
 				<p>Edge caching and CDN delivery can help optimize the sustainable delivery of digital services by optimizing how your website's traffic is transferred over the internet.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Content Delivery Networks (CDNs)</h4>
+					<h4>Success Criterion - Content Delivery Networks (CDNs) <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS10-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>When building for a globally distributed audience, use a <abbr title="Content Delivery Network">CDN</abbr> to store and serve simple read-only, pre-generated resources in a fast and efficient manner. Although they definitely can increase performance, it is also another layer of infrastructure that needs to be considered for sustainability.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Sustainability Commitment</h4>
+					<h4>Success Criterion - Sustainability Commitment <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS10-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Check the CDN to verify that it provides a commitment to sustainability.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Local Servers</h4>
+					<h4>Success Criterion - Local Servers <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS10-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Choose a hosting provider with servers located close to the visitor.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Avoid Caching Inappropriate Resources</h4>
+					<h4>Success Criterion - Avoid Caching Inappropriate Resources <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS10-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>Avoid using the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (<abbr title="Cross-origin resource sharing">CORS</abbr>), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect <abbr title="JavaScript Object Notation">JSON</abbr> or other static assets.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Process Data Close to the Source</h4>
+					<h4>Success Criterion - Process Data Close to the Source <mark class="alert">(Human Testable)</mark></h4>
 					<p>All information passed between the layers of an application incurs a cost, both in terms of data transferred, and CPU cycles for (de)serialization. Wherever possible, data transformations should be performed close to the source to reduce these costs and avoid processing data that will later be discarded.</p>
 				</section>
 				<section class="notoc">
@@ -6265,7 +6268,7 @@
 				<h3>Use the Lowest Infrastructure Tier Meeting Business Requirements</h3>
 				<p>Select infrastructure with minimal specifications meeting business requirements of performance, availability, etc.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Lowest Requirements</h4>
+					<h4>Success Criterion - Lowest Requirements <mark class="alert">(Human Testable)</mark></h4>
 					<p>Select infrastructure elements with the lowest requirements tier, meeting your service-level agreements. Avoid over-provisioning multi-datacenter, multi-zone, or distributed deployments if standalone instances meet the requirements. Also avoid provisioning infrastructure that will be under-utilized by provisioning for established average loads, ensuring reasonable resource utilization and autoscaling occurs as needed. Avoid provisioning for peak loads.</p>
 				</section>
 				<section class="notoc">
@@ -6323,27 +6326,27 @@
 				<h3>Store Data According to Visitor Needs</h3>
 				<p>Optimize storage of data according to what is most important, relevant, and required in service to visitors. This will help to avoid unnecessary storage of data that may not be useful or valuable, which will reduce required infrastructure, power, and data transfer.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Reduce Redundancy</h4>
+					<h4>Success Criterion - Reduce Redundancy <mark class="alert">(Human Testable)</mark></h4>
 					<p>Remove unnecessary and redundant data from your servers, whether it is single-use (dark data) or abandoned.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Expiration Dates</h4>
+					<h4>Success Criterion - Expiration Dates <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS12-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Create data with an expiration date. Excess data is a form of technical debt, and routinely cleaning up old data needs to be normalized.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Classify And Tag</h4>
+					<h4>Success Criterion - Classify And Tag <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS12-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Use a data classification / tagging policy to make it easier to find, handle, and remove.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Justify Storage</h4>
+					<h4>Success Criterion - Justify Storage <mark class="alert">(Human Testable)</mark></h4>
 					<p>Store data only when it is difficult to recreate.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Optimize Logging</h4>
+					<h4>Success Criterion - Optimize Logging <a href="https://w3c.github.io/sustyweb/drafts/star.html#HIS12-5"><mark>(Machine Testable)</mark></a></h4>
 					<p>Optimize log collection, storage (off-site), and rotation; scheduling during low-activity hours and using carbon-neutral backup providers.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Asset Downloads</h4>
+					<h4>Success Criterion - Asset Downloads <mark class="alert">(Human Testable)</mark></h4>
 					<p>Ensure long-term assets, especially those of a large size, are made available for download.</p>
 				</section>
 				<section class="notoc">
@@ -6444,27 +6447,27 @@
 				<h3>Have an Ethical and Sustainability Product Strategy</h3>
 				<p>Create a publicly available statement in an easy-to-find location on your website that outlines a clear commitment to prioritize ethics and sustainability ESG standards that align with the organization's mission, vision, and values and include statements specific to digital products, services, policies, and programs. This should be done while actively promoting such efforts (with evidence) using social channels.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Statement Availability</h4>
+					<h4>Success Criterion - Statement Availability <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM01-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has published a publicly available Code of Ethics, Product Guidelines, Sustainability, or ESG Statement that includes language specific to digital products, services, policies, and programs.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Achievements And Compliance</h4>
+					<h4>Success Criterion - Achievements And Compliance <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM01-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>List achievements, features, compliance, and anything beyond the scope of these guidelines and publish it in a sustainability section of your product or service.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Governance Over Time</h4>
+					<h4>Success Criterion - Governance Over Time <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization can show how it effectively governs implemented digital sustainability, climate policies, and related ESG practices over time.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Onboarding New Members</h4>
+					<h4>Success Criterion - Onboarding New Members <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has training decks and workshops it uses to onboard new team members on how it implements more sustainable product strategies.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Documentation</h4>
+					<h4>Success Criterion - Documentation <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM01-5"><mark>(Machine Testable)</mark></a></h4>
 					<p>Raise awareness with your visitors by documenting your methodology, through impact storytelling, documentation, and helping individuals make more informed decisions.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Renewable Showcasing</h4>
+					<h4>Success Criterion - Renewable Showcasing <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM01-6"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization can show how it powers digital products and services with renewable energy.</p>
 				</section>
 				<section class="notoc">
@@ -6559,7 +6562,7 @@
 				<h3>Assign a Sustainability Representative</h3>
 				<p>Having someone within an organization who represents sustainability as a core agenda makes good sense due to the accessibility, performance, financial, and other benefits that can occur from following best practices.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Ecological Referee</h4>
+					<h4>Success Criterion - Ecological Referee <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM02-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Choose and assign an ecological referee (with specific digital expertise) for the product or service within your organization.</p>
 				</section>
 				<section class="notoc">
@@ -6616,11 +6619,11 @@
 				<h3>Raise Awareness and Inform</h3>
 				<p>Businesses should not only reference their own materials showcasing how they are working towards becoming sustainable but cite existing sustainability best practices to help others looking to make similar changes within their own work or personal environments.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Inform And Train</h4>
+					<h4>Success Criterion - Inform And Train <mark class="alert">(Human Testable)</mark></h4>
 					<p>Make sure that all project stakeholders, including product teams, colleagues, and organizational decision-makers (managers and clients) are informed about and trained in your business's use of sustainable technology.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Active Participation</h4>
+					<h4>Success Criterion - Active Participation <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM03-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Encourages stakeholders to actively reduce their environmental impact by providing resources on sustainable design, practices, and concepts.</p>
 				</section>
 				<section class="notoc">
@@ -6679,7 +6682,7 @@
 				<h3>Communicate the Ecological Impact of User Choices</h3>
 				<p>Allowing the visitor to take action to reduce their emissions is key to helping them play a part in becoming more sustainable. By helping them identify when choices they make could have an environmental impact (and by how much) and then providing them with the tooling choices to reduce their footprint, you can empower them to make a lasting difference.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Impact Communication</h4>
+					<h4>Success Criterion - Impact Communication <mark class="alert">(Human Testable)</mark></h4>
 					<p>Clearly communicate the ecological implications of visitor choices and allow visitors to configure settings based on those choices.</p>
 				</section>
 				<section class="notoc">
@@ -6733,15 +6736,15 @@
 				<h3>Estimate a Product or Service's Environmental Impact</h3>
 				<p>Being able to identify key issues with your website or application is essential, and while not a foolproof method, using tooling can help you achieve an overall idea about the state of your product or service's environmental state (as such tools can do for accessibility).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Life-cycle Analysis</h4>
+					<h4>Success Criterion - Life-cycle Analysis <mark class="alert">(Human Testable)</mark></h4>
 					<p>Conduct a full life-cycle Analysis based on the functional unit defined in Guideline 5.15.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Competitor Analysis</h4>
+					<h4>Success Criterion - Competitor Analysis <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM05-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Estimate the environmental impact of your or your competitor's current service to inform decision-making (as a potential target goal).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Tooling Impact</h4>
+					<h4>Success Criterion - Tooling Impact <mark class="alert">(Human Testable)</mark></h4>
 					<p>When identifying the environmental impact of your product or service, be sure to include the impact (or estimates of) of any tooling used to create the product or service along with any third-party solutions utilized in the pipeline. While not created by you, the emissions they generate from production to maintenance are considered integral to your overall solution.</p>
 				</section>
 				<section class="notoc">
@@ -6804,7 +6807,7 @@
 				<h3>Define Clear Organizational Sustainability Goals and Metrics</h3>
 				<p>Define sustainability goals for the organization to meet and incorporate into its business model. Pair each goal with at least one clear, achievable metric or Key Performance Indicator (<abbr title="Key Performance Indicator">KPI</abbr>).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Sustainability Goals</h4>
+					<h4>Success Criterion - Sustainability Goals <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM06-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has defined and published a clear set of sustainability goals. It publicly communicates how it will meet these goals, including which performance metrics are important to help the organization and its various stakeholders thrive.</p>
 				</section>
 				<section class="notoc">
@@ -6859,11 +6862,11 @@
 				<h3>Verify Your Efforts Using Established Third-Party Business Certifications</h3>
 				<p>Business certifications can fill the gaps left by incomplete sustainability legislation. Ensuring a business complies with third-party certifications will help verify and apply an objective level of rigor to an organization's sustainability efforts.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Certification Achievement</h4>
+					<h4>Success Criterion - Certification Achievement <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM07-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has achieved one or more business sustainability certifications and incorporated operational policies and practices to support them.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Certification Maintenance</h4>
+					<h4>Success Criterion - Certification Maintenance <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization maintains its certification through evolving policies and practices over time.</p>
 				</section>
 				<section class="notoc">
@@ -6923,15 +6926,15 @@
 				<h3>Implement Sustainability Onboarding Guidelines</h3>
 				<p>The organization has clear onboarding and training processes that include ESG policies and practices with explicit references to digital sustainability and responsibility. Ensure that onboarding utilizes a "green by default" process and avoids being an opt-in procedure. This applies equally at an organizational level and to visitors and consumers of your products and services.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Training Materials</h4>
+					<h4>Success Criterion - Training Materials <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has dedicated training manuals, workshops, and materials that outline the ESG policies and practices it follows and how to implement them. While managing and maintaining these materials over time, adapting them as new policies and practices arise.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Progress Incentivisation</h4>
+					<h4>Success Criterion - Progress Incentivisation <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization incentivizes leadership, teams, and stakeholders to make progress toward the goals outlined in their training, including time for sustainability activities, recognition for completion, and so on.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Negative Variables</h4>
+					<h4>Success Criterion - Negative Variables <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization anticipates and maps potential negative external variables on the service, and acts to minimize their overall impact.</p>
 				</section>
 				<section class="notoc">
@@ -6994,19 +6997,19 @@
 				<h3>Support Mandatory Disclosures and Reporting</h3>
 				<p>The organization discloses and reports its ESG impact on at least an annual basis.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Policies And Practices</h4>
+					<h4>Success Criterion - Policies And Practices <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM09-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has created and published policies and practices for disclosing the social and environmental impacts of its products, services, policies, and programs in line with existing reporting standards such as GRI Performance, <abbr title="Sustainability Accounting Standards Board">SASB</abbr>, etc.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Impact Report</h4>
+					<h4>Success Criterion - Impact Report <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM09-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization produces a publicly available impact report outlining its progress against previous reports on social and environmental goals at least once per year.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Standards And Policies</h4>
+					<h4>Success Criterion - Standards And Policies <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM09-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization publicly and transparently follows existing or emerging environmental standards and legislative policy that promotes mandatory disclosures and reporting for emissions. This is done alongside other social and environmental criteria in its impact reporting, maintaining these practices over time for future reports.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Impact Reduction</h4>
+					<h4>Success Criterion - Impact Reduction <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization clearly identifies how it reduces its environmental impact, avoiding double accounting, greenwashing, excluded data, or other manipulative techniques.</p>
 				</section>
 				<section class="notoc">
@@ -7072,7 +7075,7 @@
 				<h3>Create One or More Impact Business Models</h3>
 				<p>An Impact Business Model enables an organization to incorporate specific impact initiatives into one or more business models for generating revenue, often making them "green by default" and folding impact initiatives into the organization's operating system. Moreover, being able to calculate the return on investment in terms of sustainability your product or service will bring is important to identifying whether it poses a net-positive or net-negative effect on the environment.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Theory Of Change</h4>
+					<h4>Success Criterion - Theory Of Change <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has completed (and operationalized) a Theory of Change process with requisite documentation to identify the impact it hopes to create, how it will generate revenue, shared, or added value from these activities, how it will measure results based on desired outcomes; or in the case of launched projects, is generating revenue, actively tracking and measuring progress against any desired outcomes.</p>
 				</section>
 				<section class="notoc">
@@ -7131,19 +7134,19 @@
 				<h3>Follow a Product Management and Maintenance Strategy</h3>
 				<p>The organization has clearly defined governance policies around how it manages and maintains digital products and services over time.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Management And Maintenance</h4>
+					<h4>Success Criterion - Management And Maintenance <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM11-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has documented policies outlining how it approaches product management and maintenance.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Planning Strategy</h4>
+					<h4>Success Criterion - Planning Strategy <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has maintenance / security plans in place for all the digital products and services it manages.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Resourcing Products</h4>
+					<h4>Success Criterion - Resourcing Products <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization appropriately resources products over time via staffing and budgeting to support refactoring code, addressing technical debt, new product features, ongoing testing, and product or service maintenance plans to continue supporting its customers, visitors, and other stakeholders.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Resource Measurement</h4>
+					<h4>Success Criterion - Resource Measurement <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization incorporates carbon and resource measurement into maintenance programs and can show measurable improvement over time.</p>
 				</section>
 				<section class="notoc">
@@ -7208,26 +7211,26 @@
 				<h3>Implement Continuous Improvement Procedures</h3>
 				<p>The organization has policies and practices in place to embrace experimentation, foster a growth mindset, support organizational agility, and provide continuous improvement. Product creators should iterate, regularly, though never at the cost of getting things done (such as working on larger, long-term features).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Continuous Improvement</h4>
+					<h4>Success Criterion - Continuous Improvement <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has created policies and practices to enable continuous improvement and has resourced the organization appropriately to support these efforts over time.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Agile Reviews</h4>
+					<h4>Success Criterion - Agile Reviews <mark class="alert">(Human Testable)</mark></h4>
 					<p>Agile sprints and update frequency must go through a review process to ensure project teams have enough time to conduct user-research, identify technical debt, and produce quality output.</p>
 				</section><section class="notoc">
-					<h4>Success Criterion - Iterative Consideration</h4>
+					<h4>Success Criterion - Iterative Consideration <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM12-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>Use (and show a track record of) continuous improvement (iteration) to analyze your website or application while also addressing the by-products and potential consequences of ongoing experimentation, such as technical debt, product performance, emissions, and related issues. Limiting analytics to only necessary features to aid with decision-making, encouraging visitor feedback, and comparing performance against business goals and visitor needs.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Functionality Decisions</h4>
+					<h4>Success Criterion - Functionality Decisions <mark class="alert">(Human Testable)</mark></h4>
 					<p>Justify and prioritize the retention of existing features, the creation of new functionality, and the decommission or elimination of unused functionality and unvisited pages through the product's life cycle.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Security Updates</h4>
+					<h4>Success Criterion - Security Updates <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM12-5"><mark>(Machine Testable)</mark></a></h4>
 					<p>Provide corrective security and policy updates during the product or service lifecycle, while distinguishing these updates from more extensive evolutionary updates.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Skills And Maintenance</h4>
+					<h4>Success Criterion - Skills And Maintenance <mark class="alert">(Human Testable)</mark></h4>
 					<p>Develop sustainable product and data strategies along with appropriate training techniques that help your team (managers, colleagues, etc) build capacity and learn new skills to manage and maintain products and services over time.</p>
 				</section>
 				<section class="notoc">
@@ -7327,7 +7330,7 @@
 				<h3>Document Future Updates and Evolutions</h3>
 				<p>Products or services are updated regularly. Ensure that additions, changes, deprecations, removals, fixes, or security patches are documented in an easy-to-read document with details that showcase how such changes affect the visitor (or how they can take advantage of new features).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Feature Changes</h4>
+					<h4>Success Criterion - Feature Changes <mark class="alert">(Human Testable)</mark></h4>
 					<p>The user-experience considers possible changes to the product or service such as adding, updating, or removing features.</p>
 				</section>
 				<section class="notoc">
@@ -7386,7 +7389,7 @@
 					<details>
 						<summary>Show / Hide citations and available resources.</summary>
 						<ul class="resources">
-							<li><a href="https://common-changelog.org/">Common Changelog</li>
+							<li><a href="https://common-changelog.org/">Common Changelog</a></li>
 							<li><a href="https://eco-conception.designersethiques.org/guide/fr/content/7-maintenir.html#preparer-evolution">Digital Eco-Design: Préparer l'évolution du service et des contenus</a> (<em>French</em>)</li>
 							<li><a>[*]<span class="hidden">5.13</span></a> [[GR491]]<ul>
 								<li><a href="https://gr491.isit-europe.org/en/crit.php?id=6-3040-uxui-a-digital-service-has-a-lifespan-that">6-3040</a> - Changing Features</li>
@@ -7401,19 +7404,19 @@
 				<h3>Establish if a Digital Product or Service Is Necessary</h3>
 				<p>Ensure that the product or service you are creating offers value to visitors and doesn't duplicate existing functionality (without bringing something new to the table) as this redundancy wastes digital and physical resources.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Sustainable Development Goals</h4>
+					<h4>Success Criterion - Sustainable Development Goals <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM14-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Review and identify whether your product or service aligns with one of the <abbr title="United Nations">U.N.</abbr> (<abbr title="Sustainable Development Goals">SDG</abbr>s).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Creation Evaluation</h4>
+					<h4>Success Criterion - Creation Evaluation <mark class="alert">(Human Testable)</mark></h4>
 					<p>Evaluate the desirability, feasibility, and viability of the digital product or service they wish to create to ascertain whether it is necessary.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Avoid Duplication</h4>
+					<h4>Success Criterion - Avoid Duplication <mark class="alert">(Human Testable)</mark></h4>
 					<p>Determine that no existing digital product or service offers the same value. They have conducted an analysis to understand whether a new product or service is necessary.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Obstacle Consideration</h4>
+					<h4>Success Criterion - Obstacle Consideration <mark class="alert">(Human Testable)</mark></h4>
 					<p>Consider any obstacles to using a product or service, such as accessibility, equality, technical, or territorial.</p>
 				</section>
 				<section class="notoc">
@@ -7482,7 +7485,7 @@
 				<h3>Determine the Functional Unit</h3>
 				<p>The functional unit of a product is a quantified description of the performance requirements that the product fulfills. Ensure you identify the requirements of your product before development.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Life-cycle Assessment</h4>
+					<h4>Success Criterion - Life-cycle Assessment <mark class="alert">(Human Testable)</mark></h4>
 					<p>Consider and conduct a life-cycle Assessment (<abbr title="life-cycle assessment">LCA</abbr>) to define the requirements of your product's function throughout its lifecycle.</p>
 				</section>
 				<section class="notoc">
@@ -7537,15 +7540,15 @@
 				<h3>Create a Supplier Standards of Practice</h3>
 				<p>The organization collaborates with suppliers, authors, clients, and other partners on initiatives that are both mutually beneficial and create positive social and environmental outcomes.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Vetting Potential Partners</h4>
+					<h4>Success Criterion - Vetting Potential Partners <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM16-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has created specific policies to vet potential partners in its supply chain based on ESG principles.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Collaborative Measurement</h4>
+					<h4>Success Criterion - Collaborative Measurement <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has partnered with suppliers to create, track, and measure collective impact on issues that impact their stakeholders.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Informative Partner Promotion</h4>
+					<h4>Success Criterion - Informative Partner Promotion <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM16-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization promotes its partnerships in a publicly available place, along with information on how the partnership creates a collective impact.</p>
 				</section>
 				<section class="notoc">
@@ -7601,19 +7604,19 @@
 				<h3>Share Economic Benefits</h3>
 				<p>The organization shares the economic benefits of its digital products, services, policies, and programs.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Living Wage</h4>
+					<h4>Success Criterion - Living Wage <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM17-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization publicly commits to paying employees, contractors, and other stakeholders a living wage.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Incentivisation</h4>
+					<h4>Success Criterion - Incentivisation <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has policies and practices in place to incentivize stakeholders, such as workers and contractors, to meet its impact goals.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Employee Benefits</h4>
+					<h4>Success Criterion - Employee Benefits <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM17-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization provides benefits to employees in accordance with its resources, including, where relevant, healthcare, retirement planning, flex time, profit sharing, and so on.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Legislation Advocation</h4>
+					<h4>Success Criterion - Legislation Advocation <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization advocates for responsible legislation that supports employment rights, transparency, and accountability related to sharing economic benefits.</p>
 				</section>
 				<section class="notoc">
@@ -7677,7 +7680,7 @@
 				<h3>Share Decision-Making Power With Appropriate Stakeholders</h3>
 				<p>Ensuring that everyone has a seat at the table is important to promoting voices who may not otherwise have their voices heard, and potentially getting useful ideas from fresh sources.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Decision-Making</h4>
+					<h4>Success Criterion - Decision-Making <mark class="alert">(Human Testable)</mark></h4>
 					<p>Ensure that the project team's goals are aligned with key business objectives, and project stakeholders (for example, project managers) have the power and autonomy to make key decisions on the organization's behalf.</p>
 				</section>
 				<section class="notoc">
@@ -7729,23 +7732,23 @@
 				<h3>Use Justice, Equity, Diversity, Inclusion (<abbr title="Justice, Equity, Diversity, Inclusion">JEDI</abbr>) Practices</h3>
 				<p>The organization has public policies and practices supporting racial justice, inclusion, equity, and diversity in hiring and operations.</p>
 				<section class="notoc">
-					<h4>Success Criterion - JEDI Practices</h4>
+					<h4>Success Criterion - JEDI Practices <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has documented its commitment to JEDI practices with clear policies on how it prioritizes marginalized or otherwise underserved communities, including Black, Indigenous, People of Color, LGBTQIA+, Women, Disabled, Veterans, Seniors, and so on.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Accessibility Policy</h4>
+					<h4>Success Criterion - Accessibility Policy <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM19-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has an accessibility policy for digital products and services and can show this via a verified accessible website, application, product, or service.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - JEDI Training</h4>
+					<h4>Success Criterion - JEDI Training <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has JEDI-related training materials and schedules ongoing workshops related to how this topic manifests itself in digital products and services (algorithmic bias, digital divide, gig economy work, mis / disinformation, etc).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - JEDI Improvements</h4>
+					<h4>Success Criterion - JEDI Improvements <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization can show measurable JEDI improvement over time in its hiring, leadership, and operations.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - JEDI Legislation</h4>
+					<h4>Success Criterion - JEDI Legislation <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization advocates for responsible legislation relating to JEDI practices, especially as related to digital products and services.</p>
 				</section>
 				<section class="notoc">
@@ -7812,15 +7815,15 @@
 				<h3>Promote Responsible Data Practices</h3>
 				<p>The organization has devised and implemented a responsible data strategy that prioritizes data privacy and promotes more ethical uses of data, including disposal and data sustainability practices.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Privacy Policy</h4>
+					<h4>Success Criterion - Privacy Policy <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM20-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has a public-facing privacy policy in place and supports existing privacy laws such as the General Data Protection Regulation (GDPR), California Consumer Privacy Act (<abbr title="California Consumer Privacy Act">CCPA</abbr>), and so on. This policy must be accessible for all visitors, including those with accessibility and reading comprehension needs, and abide by plain English best practices to avoid jargon, technical language, and legalese.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Data Ownership</h4>
+					<h4>Success Criterion - Data Ownership <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization can show measurable progress over time on how it respects data privacy and ownership, including a visitor's "right to be forgotten" and provides the ability to export data.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Data Protection</h4>
+					<h4>Success Criterion - Data Protection <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization supports new and emerging legislation related to data privacy, data sustainability, and responsible data practices.</p>
 				</section>
 				<section class="notoc">
@@ -7883,11 +7886,11 @@
 				<h3>Implement Appropriate Data Management Procedures</h3>
 				<p>Expired or unused data has a cost, takes up space, and requires maintenance. As such, the ability for customers to manage their own data and for service providers to manage older website material which no longer applies but might still have use will be a carbon benefit.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Outdated Content</h4>
+					<h4>Success Criterion - Outdated Content <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM21-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>Outdated or otherwise expired product content and data are archived and deleted via automated expiration dates and scheduled product audits. Create an archiving schedule with a lighter version of the old searchable content available.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Data Controllers</h4>
+					<h4>Success Criterion - Data Controllers <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM21-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Enable users to control, manage, and delete their data, subscriptions, and accounts.</p>
 				</section>
 				<section class="notoc">
@@ -7965,23 +7968,23 @@
 				<h3>Promote and Implement Responsible Emerging Technology Practices</h3>
 				<p>The organization has devised and implemented responsible policies related to artificial intelligence, the Internet of Things (<abbr title="Internet of Things">IoT</abbr>), Web3 (Decentralized Web, blockchain, etc), and related emerging technologies.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Emerging Technologies</h4>
+					<h4>Success Criterion - Emerging Technologies <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM22-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has public-facing policies in place for emerging technologies, and all such technologies are ethically sourced, screened, validated, and implemented in a non-discriminatory, responsible manner.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Disruptive Technology</h4>
+					<h4>Success Criterion - Disruptive Technology <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization can show how it up-skills workers as new technologies and practices potentially disrupt its business model.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Technology Legislation</h4>
+					<h4>Success Criterion - Technology Legislation <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization supports responsible legislation related to automation and emerging technologies.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Environmental Responsibilities</h4>
+					<h4>Success Criterion - Environmental Responsibilities <mark class="alert">(Human Testable)</mark></h4>
 					<p>Organizations must consider, audit, and account for any environmental considerations that may derive from the use of emerging technologies they wish to either promote or implement within a chosen setting. Also note that this should include third-party choices, the "expense" (in terms of waste or emissions) of the utilization of the technology to create a desired result and consequential issues to the environment that may arise from its deployment.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Quantum Resilience</h4>
+					<h4>Success Criterion - Quantum Resilience <mark class="alert">(Human Testable)</mark></h4>
 					<p>Don't roll out post-quantum encryption for high-traffic services that don't need resilience against harvest now, decrypt later.</p>
 				</section>
 				<section class="notoc">
@@ -8057,11 +8060,11 @@
 				<h3>Include Responsible Financial Policies</h3>
 				<p>The organization implements responsible finance strategies, including divesting from fossil fuels and appropriately resourcing digital products and services to account for long-term care and maintenance.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Fuel Divestment</h4>
+					<h4>Success Criterion - Fuel Divestment <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM23-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has divested from fossil fuels and moved its banking, sponsorship, and other affiliations to more responsible partners.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Responsible Finance</h4>
+					<h4>Success Criterion - Responsible Finance <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization engages in flexible financing and responsible budgeting for its digital products and services to accommodate long-term care and maintenance.</p>
 				</section>
 				<section class="notoc">
@@ -8119,11 +8122,11 @@
 				<h3>Include Organizational Philanthropy Policies</h3>
 				<p>For-profit organizations have clear philanthropy policies and practices in place to help non-profit organizations build digital capacity and acumen while also engaging their own teams in meaningful work that promotes shared learning and stretch goals.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Philanthropy Policy</h4>
+					<h4>Success Criterion - Philanthropy Policy <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM24-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has a clear corporate giving policy and creates philanthropic partnerships with strategically aligned organizations.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Voluntary Work</h4>
+					<h4>Success Criterion - Voluntary Work <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization engages in free or volunteer projects, which help its team learn new tools and tactics, while also helping charities and non-profit organizations build capacity.</p>
 				</section>
 				<section class="notoc">
@@ -8175,7 +8178,7 @@
 				<h3>Plan for a Digital Product or Service's Care and End-of-Life</h3>
 				<p>Everything ends at some point, planning for if and when a product or service is finalized makes good ethical sense to ensure customers can be transitioned toward a replacement rather than losing access to their data.</p>
 				<section class="notoc">
-					<h4>Success Criterion - End-of-life Care</h4>
+					<h4>Success Criterion - End-of-life Care <mark class="alert">(Human Testable)</mark></h4>
 					<p>Establish clear, documented end-of-life guidelines that include data disposal, archiving, file deletion, and so on.</p>
 				</section>
 				<section class="notoc">
@@ -8233,19 +8236,19 @@
 				<h3>Include E-Waste, Right-To-Repair, and Recycling Policies</h3>
 				<p>The organization addresses e-waste, right-to-repair, recycling, and related practices in its operations.</p>
 				<section class="notoc">
-					<h4>Success Criterion - E-Waste Policy</h4>
+					<h4>Success Criterion - E-Waste Policy <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has specific policies in place to recycle e-waste and repair owned technology products whenever possible.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Recycling And Repairing</h4>
+					<h4>Success Criterion - Recycling And Repairing <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has formed relationships with local partners for e-waste recycling and repair.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Refurbishment Strategy</h4>
+					<h4>Success Criterion - Refurbishment Strategy <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization buys refurbished equipment whenever possible.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Right-to-Repair</h4>
+					<h4>Success Criterion - Right-to-Repair <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization should allow consumers to repair (to the best of their ability) the consumables they purchase, offering (if possible at cost) replacement components and clear instructions to resolve faults that occur.</p>
 				</section>
 				<section class="notoc">
@@ -8306,23 +8309,23 @@
 				<h3>Define Performance and Environmental Budgets</h3>
 				<p>Setting targets and limits regarding your product or service is important for keeping a sustainable mindset. Using budgets, you can declare the remits of which you will work within to ensure your emissions do not fall outside (and monitor your progress through development).</p>
 				<section class="notoc">
-					<h4>Success Criterion - Environmental Budget</h4>
+					<h4>Success Criterion - Environmental Budget <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM27-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The product team has defined, baselined, and documented clear sustainability and environmental budget criteria that cover the page, user-journey, and digital service levels and metrics (such as a CO2.js score) that are approved by relevant product stakeholders.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Performance Budget</h4>
+					<h4>Success Criterion - Performance Budget <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM27-2"><mark>(Machine Testable)</mark></a></h4>
 					<p>Use tools such as a performance budget to determine the maximum size (goals) your app or website can weigh to reduce the data transfer and HTTP request impact (using metrics like Google Lighthouse).</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Human Budget</h4>
+					<h4>Success Criterion - Human Budget <mark class="alert">(Human Testable)</mark></h4>
 					<p>Define KPIs around engineering hours, development time, or sprints keeping the health and wellbeing of your workers paramount. Consideration should be taken around optimizing your workflow sustainably to allow all tasks to be performed with care.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Measurable Improvements</h4>
+					<h4>Success Criterion - Measurable Improvements <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM27-4"><mark>(Machine Testable)</mark></a></h4>
 					<p>The product team can measurably show how much the budgeting process improved performance and reduced emissions.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Capacity And Maintenance</h4>
+					<h4>Success Criterion - Capacity And Maintenance <mark class="alert">(Human Testable)</mark></h4>
 					<p>The product team invests in resources to build capacity and maintain the budgets over time.</p>
 				</section>
 				<section class="notoc">
@@ -8430,15 +8433,15 @@
 				<h3>Use Open Source Tools</h3>
 				<p>The organization has clear policies about using open source tools, including how it gives back to the community and responsibly manages code repositories to reduce waste.</p>
 				<section class="notoc">
-					<h4>Success Criterion - Open Source Policy</h4>
+					<h4>Success Criterion - Open Source Policy <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM28-1"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization has a clear open source policy in place that outlines how it uses open source tools and the practices it supports surrounding open source development.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Collaboration</h4>
+					<h4>Success Criterion - Collaboration <mark class="alert">(Human Testable)</mark></h4>
 					<p>The organization has a track record of collaboration and community-building around open source principles.</p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Contribution</h4>
+					<h4>Success Criterion - Contribution <a href="https://w3c.github.io/sustyweb/drafts/star.html#BSPM28-3"><mark>(Machine Testable)</mark></a></h4>
 					<p>The organization regularly contributes to open source community-based projects.</p>
 				</section>
 				<section class="notoc">
