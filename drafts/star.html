@@ -1663,9 +1663,35 @@
 							</div>
 						</details>
 					</li>
-					<li> <!-- UX23-3: Provide Document Details Including a URL Within a Page -->
+					<li> <!-- UX23-3: Provide Pre-Generated Copies of Repeat-Use Physical Assets -->
 						<details>
-							<summary>UX23-3: Provide Document Details Including a <abbr title="Uniform Resource Locator">URL</abbr> Within a Page</summary>
+							<summary>UX23-3: Provide Pre-Generated Copies of Repeat-Use Physical Assets</summary>
+							<div class="note" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#reduce-the-impact-of-downloadable-or-physical-documents">2.23 Reduce the Impact of Downloadable or Physical Documents</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>Ensure that any document that is likely to be requested by visitors on multiple occasions is already compiled and generated at the source and available for download rather than generating a brand new asset upon each user request. This will reduce the emissions of having to repeat the same task over and over for unchanging content or materials that have little interaction potential.</p>
+								<p>For machine testability, identifying that large web assets are available from a static address such as a CDN is one method of meeting the Success Criteria, another would be to scan through scripts for generative code that creates web assets to determine if such content could be better served through recompilation. If this is the case, warnings and remedial action should be issued.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://goalkicker.com/">GoalKicker</a> provides a range of free Notes on various programming languages, each of which is precompiled to PDF format and therefore not generated on the server-side. This optimizes their delivery to the visitor.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check that existing web assets are pre-generated for repeat-use.</li>
+									<li>Check code for asset compilation to identify if pre-generation would be better.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
+					<li> <!-- UX23-4: Provide Document Details Including a URL Within a Page -->
+						<details>
+							<summary>UX23-4: Provide Document Details Including a <abbr title="Uniform Resource Locator">URL</abbr> Within a Page</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#reduce-the-impact-of-downloadable-or-physical-documents">2.23 Reduce the Impact of Downloadable or Physical Documents</a>.</p>
