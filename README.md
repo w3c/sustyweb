@@ -22,7 +22,7 @@ Our publishing process has two channels.
 
 The first channel is the **stable** specification which is versioned with all changes documented in the [release notes](https://github.com/w3c/sustyweb/releases). Links to the stable specification and its supplements can be found above (at the top of this README document).
 
-The second channel is the **unstable** or living edition specification in which issue resolutions, pull requests, new supplements, and community edits are immediately available before that version is finalized. The "drafts" folder contains all of the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [laws & policies](https://w3c.github.io/sustyweb/drafts/policies.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [STAR](https://w3c.github.io/sustyweb/drafts/star.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json), and other supplements.
+The second channel is the **unstable** or living edition specification in which issue resolutions, pull requests, new supplements, and community edits are immediately available before that version is finalized. The "drafts" folder contains all of the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [laws & policies](https://w3c.github.io/sustyweb/drafts/policies.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [STAR](https://w3c.github.io/sustyweb/drafts/star.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json), [Test Suite](https://github.com/w3c/sustyweb/tree/main/drafts/test-suite), and other supplements.
 
 ---
 
@@ -35,3 +35,17 @@ This document is reachable via GitHub pages and can be queried using JavaScript 
 The structure of the API is identical to that of the specification in its numbering scheme:
 
 `category[1][0].guideline = "Undertake Systemic Impacts Mapping"`
+
+---
+
+## Test Suite
+
+We have a (draft) [Test Suite](https://github.com/w3c/sustyweb/tree/main/drafts/test-suite) which is used to showcase machine testability for the Web Sustainability Guidelines. The template structure for the file uses common W3C conventions for test cases in order to maintain interoperability for tooling that wish to align our work with their own.
+
+Key concepts of note include:
+- Each title element contains a short identifier for the test.
+- The rel="author" link element contains details of who created that test.
+- The rel="help" link element links to the WSG guideline it relates to.
+- The name="flags" meta element identifies any requirements the test may have such as an external file (**asset**), scripting (**javascript**), user-involvement (**interaction**), or if its trying to disprove something (**invalid**).
+- The name="assert" meta tag explains which **STAR** technique it relates to by title.
+- The conditions of passing are what requirements are necessary to pass the technique (and thus the success criteria).
