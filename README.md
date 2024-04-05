@@ -40,7 +40,7 @@ The structure of the API is identical to that of the specification in its number
 
 ## Test Suite
 
-We have a (draft) [Test Suite](https://github.com/w3c/sustyweb/tree/main/drafts/test-suite) which is used to showcase machine testability for the Web Sustainability Guidelines. The template structure for the file uses common W3C conventions for test cases in order to maintain interoperability for tooling that wish to align our work with their own.
+We have a (draft) [Test Suite](https://github.com/w3c/sustyweb/tree/main/drafts/test-suite) which is used to showcase machine testability (as denoted in [STAR](https://w3c.github.io/sustyweb/drafts/star.html)) for the Web Sustainability Guidelines (WSGs). The template structure for the file uses common W3C conventions for test cases in order to maintain interoperability for tooling that wish to align our work with their own.
 
 Key concepts of note include:
 - Each title element contains a short identifier for the test.
