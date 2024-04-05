@@ -1,0 +1,19 @@
+[
+  {
+    "resourceSizes": [],
+    "timings": [
+      {
+        "metric": "largest-contentful-paint",
+        "budget": 2500
+      },
+      {
+        "metric": "max-potential-fid",
+        "budget": 100
+      },
+      {
+        "metric": "cumulative-layout-shift",
+        "budget": 0.1
+      }
+    ]
+  }
+]
