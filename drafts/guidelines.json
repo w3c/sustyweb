@@ -2925,7 +2925,7 @@
 						{
 							"title": "Carbon Aware Design",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/drafts/star.html#WD14-3)",
-							"description": "To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques."
+							"description": "To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques. This should include using situational design to reduce the codebase or functionality during high-intensity periods or adapting the user-interface to perform better in situations where scaling hardware resources can be avoided to reduce emissions."
 						},
 						{
 							"title": "Alternative Browsing",
