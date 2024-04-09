@@ -552,7 +552,6 @@
 								<ol>
 									<li><a href="https://www.apple.com/newsroom/">Apple has a newsroom</a> that is very minimalistic yet it contains all that you would expect from a news category from a major website. It has grouped stories with useful headlines, dates, categories, and a picture. Having something similar for your website can help visitors find new material quickly and reduce churn digging through archives.</li>
 									<li><a href="https://www.w3.org/blog/feed/">Syndication feeds</a> come in multiple different formats but the most common is the <a href="https://www.rssboard.org/rss-specification"><abbr title="Really Simple Syndication">RSS</abbr> format</a>. They are compatible with readers on every platform and can be a useful way to get news to subscribers quickly. While these make regular requests to websites, they request less data and result in visitors spending less time browsing overall which is an emissions-positive event.</li>
-									<li><a href="https://www.githubstatus.com/">System status pages</a> can be a useful customer metric for keeping up-to-date with ongoing issues and reducing the burden of customer support if something widespread happens to a product or service. It does produce reliance on a third-party but its sustainability benefits relate to the business governance and the data from the product can feed into improving ideation which can include improving all-round sustainability.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -563,7 +562,6 @@
 									<li>Check the syndication feed has been updated within 12 months.</li>
 									<li>Check for other syndicated events (podcasts, <abbr title="Outline Processor Markup Language">OPML</abbr>, etc).</li>
 									<li>Check the syndication feed is semantically correct.</li>
-									<li>Check for a system status page and that everything is running correctly.</li>
 								</ol>
 								<p>Expected Results</p>
 								<ol>
@@ -4673,6 +4671,33 @@
 							</div>
 						</details>
 					</li>
+					<li> <!-- BSPM29-2: Maintain Transparent Communication When Problems Occur -->
+						<details>
+							<summary>BSPM29-2: Maintain Transparent Communication When Problems Occur</summary>
+							<div class="note" id="BSPM29-2" title="About This Technique">
+								<p><strong>Applicability</strong></p>
+								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#create-a-business-continuity-and-disaster-recovery-plan">5.29 Create a Business Continuity and Disaster Recovery Plan</a>.</p>
+								<p><strong>Description</strong></p>
+								<p>During downtime or when issues occur, it's critical that visitors or users can understand what is happening to the product or service, why it is happening (if known), and when the service is likely to be restored. This will help ensure continuity of service and if a backup or alternative can be offered, provide a way of reducing wasted resources attempting to keep reloading the non-functioning feature.</p>
+								<p>Machine testing for how visitors are kept informed and provided with alternative methods of interacting with the product or service could be through the use of a third-party provider that takes the slack when the first-party becomes unavailable, the use of archived material (identified by the content) could also be an indicator or the content provided on some kind of automatically updating channel that lists ongoing issues.</p>
+								<p><strong>Examples</strong></p>
+								<ol>
+									<li><a href="https://www.githubstatus.com/">System status pages</a> can be a useful customer metric for keeping up-to-date with ongoing issues and reducing the burden of customer support if something widespread happens to a product or service. It does produce reliance on a third-party but its sustainability benefits relate to the business governance and the data from the product can feed into improving ideation which can include improving all-round sustainability.</li>
+								</ol>
+								<p><strong>Tests</strong></p>
+								<p>Procedure</p>
+								<ol>
+									<li>Check for backups that are stored in a read-only, recoverable state (internal access).</li>
+									<li>Check for a public-facing policy relating to disaster recovery and continuity.</li>
+									<li>Check for a system status page and that everything is running correctly.</li>
+								</ol>
+								<p>Expected Results</p>
+								<ol>
+									<li>All checks above are true.</li>
+								</ol>
+							</div>
+						</details>
+					</li>
 				</ol>
 			</section>
 		</section>
@@ -5565,8 +5590,8 @@
 								<td></td>
 								<td></td>
 								
-								<td></td>
-								<td></td>
+								<td class="red">FAIL</td>
+								<td><a href="https://w3c.github.io/sustyweb/drafts/test-suite/BSPM29-2.html">PASS</a></td>
 								<td></td>
 								<td></td>
 								<td></td>

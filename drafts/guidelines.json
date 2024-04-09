@@ -6187,6 +6187,60 @@
 						}
 					],
 					"tags": ["Social Equity", "UI", "Ideation", "Assets", "Software"]
+				},
+				{
+					"id": "29",
+					"url": "https://w3c.github.io/sustyweb/#create-a-business-continuity-and-disaster-recovery-plan",
+					"guideline": "Create a Business Continuity and Disaster Recovery Plan",
+					"description": "Resilience of the product or service in case of a disaster or emergency should be ensured to restore and maintain operations in case of disruptions.",
+					"criteria": [
+						{
+							"title": "Plan of Action",
+							"testable": "Human Testable",
+							"description": "The organization has created a plan of action that is regularly reviewed and occasionally tested to determine readiness in case of an incident and has procedures to quickly recover from such issues."
+						},
+						{
+							"title": "Audience Awareness",
+							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/drafts/star.html#BSPM29-2)",
+							"description": "The organization regularly maintains transparent communication with its audience regarding issues that may affect service delivery or user data."
+						}
+					],
+					"impact": "Low",
+					"effort": "Medium",
+					"benefits": [
+						{
+							"Operations": "Transparency around digital resilience procedures will encourage trust that a product or service can be depended upon for critical use.",
+							"Economic": "This will ensure limiting the extent of the disruption to the website or application.",
+							"Social": "Users will have access to potentially vital online services in case of a disaster or emergency."
+						}
+					],
+					"GRI": [
+						{
+							"materials": "Low",
+							"energy": "Low",
+							"water": "Low",
+							"emissions": "Low"
+						}
+					],
+					"example": [
+						{
+							"content": "IBM provides some great examples of [disaster recovery planning](https://www.ibm.com/docs/en/i/7.5?topic=system-example-disaster-recovery-plan) for a range of different situations."
+						}
+					],
+					"resources": [
+						{
+							"Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation": "https://sdgs.un.org/goals/goal9",
+							"Disaster risk reduction": "https://sdgs.un.org/topics/disaster-risk-reduction",
+							"[GR491] 2-6010 - SLA and QoS": "https://gr491.isit-europe.org/en/crit.php?id=2-6010-architecture-the-state-of-the-art-technology-tends",
+							"How to Improve Your Digital Resilience": "https://www.mightybytes.com/blog/digital-resilience/",
+							"ISO 22301:2019 - Security and resilience": "https://www.iso.org/standard/75106.html",
+							"Make cities and human settlements inclusive, safe, resilient and sustainable": "https://sdgs.un.org/goals/goal11",
+							"Resilience for sustainable, inclusive growth": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/resilience-for-sustainable-inclusive-growth",
+							"Sustainability and business continuity share a common goal": "https://www.techtarget.com/searchdisasterrecovery/tip/Sustainability-and-business-continuity-share-a-common-goal",
+							"The Digital Resilience Guide": "https://www.splunk.com/en_us/blog/learn/digital-resilience.html"
+						}
+					],
+					"tags": ["Security", "Governance", "Strategy"]
 				}
 			]
 		}
