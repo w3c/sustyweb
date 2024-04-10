@@ -450,7 +450,7 @@
 							"Reducing Cognitive Overload": "https://www.lionandmason.com/ux-blog/reducing-cognitive-overload-declutter-your-design-for-better-ux/",
 							"Simple icon systems using SVG sprites": "https://oliverjam.es/articles/svg-sprites",
 							"Simplify Your UX Through Reduction": "https://www.uxmatters.com/mt/archives/2015/07/simplify-your-ux-through-reduction.php",
-							"The Website Obesity Crisis": "https://webdirections.org/blog/the-website-obesity-crisis/",
+							"The Website Obesity Crisis": "https://idlewords.com/talks/website_obesity.htm",
 							"Use fewer web fonts": "https://web.dev/articles/font-best-practices?hl=en"
 						}
 					],
@@ -1915,7 +1915,7 @@
 					],
 					"example": [
 						{
-							"content": "Usability testing [templates](https://www.usability.gov/how-to-and-tools/resources/templates.html)."
+							"content": "Here is a great usability testing [starter kit](https://digital.gov/resources/digitalgov-user-experience-resources/digitalgov-user-experience-program-usability-starter-kit/) that includes templates."
 						}
 					],
 					"resources": [
@@ -3697,7 +3697,6 @@
 							"Revealed: more than 90% of rainforest carbon offsets by biggest certifier are worthless, analysis shows": "https://www.theguardian.com/environment/2023/jan/18/revealed-forest-carbon-offsets-biggest-provider-worthless-verra-aoe",
 							"Sustainability Guide: Product": "https://sustainabilityguide.eu/ecodesign/product/",
 							"Sustainability Guide: Use": "https://sustainabilityguide.eu/ecodesign/use/",
-							"The circular design guide": "https://www.circulardesignguide.com/",
 							"The circular economy in detail: Deep dive": "https://www.ellenmacarthurfoundation.org/the-circular-economy-in-detail-deep-dive",
 							"The environmental footprint of the digital world (PDF)": "https://www.greenit.fr/wp-content/uploads/2019/11/GREENIT_EENM_etude_EN_accessible.pdf",
 							"The real climate and transformative impact of ICT": "https://www.sciencedirect.com/science/article/pii/S2666389921001884",
@@ -5078,8 +5077,7 @@
 							"Technical Debt, Agile, and Sustainability": "https://www.mightybytes.com/blog/technical-debt-agile-and-sustainability/",
 							"The Key Sustainability Priorities for Technology Product Managers": "https://www.gartner.com/en/articles/sustainability-priorities-for-technology-product-managers",
 							"The Ultimate Guide to Product Management": "https://www.productplan.com/learn/what-is-product-management/",
-							"Web security": "https://developer.mozilla.org/en-US/docs/Web/Security",
-							"You've built your digital product, now what?": "https://scaffold.digital/youve-built-your-digital-product-now-what/"
+							"Web security": "https://developer.mozilla.org/en-US/docs/Web/Security"
 						}
 					],
 					"tags": ["Compatibility", "Strategy"]
