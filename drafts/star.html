@@ -154,9 +154,75 @@
 			</section>
 			<section> <!-- Evaluation Procedure -->
 				<h3>Evaluation Procedure</h3>
-				<p class="ednote" title="Awaiting Content">
-					This will contain our version of [[WCAG-EM]] Evaluation Procedure.
-				</p>
+				<p>This section describes the stages and activities of an evaluation procedure. The stages are not necessarily sequential. Also the exact sequence of the activities carried out during the evaluation stages depends on the type of application or website, the purpose of the evaluation, and the process used by the evaluator. Some of the activities can overlap or may be carried out in parallel.</p>
+				<p>There are five sequential steps defined in this section:</p>
+				<ol>
+					<li>Define the Evaluation Scope;</li>
+					<li>Explore the Target Website;</li>
+					<li>Test or Sample the Website;</li>
+					<li>Audit the Selected Pages;</li>
+					<li>Report the Evaluation Findings.</li>
+				</ol>
+				<p>Evaluators should proceed from one step to the next, and may return to any preceding step in the process as new information is revealed to them during the evaluation process.</p>
+				<section class="notoc"> <!-- Internal Knowledge -->
+					<h4>Internal Knowledge</h4>
+					<p>Due to the requirements of sustainability reporting and the success criteria contained within the WSGs, in order to conform to certain aspects of the specification it may be required to obtain or have access to internal knowledge of the website or application or a business behind the product or service. If such access is possible, this knowledge should be used by evaluators in accordance to any policies in-place regarding data use. If access however is not available or cannot be provided, the use of publicly available data may serve as a general estimation of comparability; though the accuracy of results may be in question. In addition, in cases where no replacement for data can be found, conformance evaluators should aim to identify other methods of meeting success criteria or identify the lack of knowledge as a failure point (until such a time that the organization can disclose the information publicly).</p>
+				</section>
+				<section class="notoc"> <!-- Machine Testability -->
+					<h4>Machine Testability</h4>
+					<p>While many of the success criteria in the WSGs will withstand machine testing (automation) without human intervention, others cannot be reproduced without manual examination. In such cases, to assist with a large volume of pages, rather than sampling a subset of the website or application (which could bias the results due to the potential for missing important pages), creating a semi-automated structure around human testability to assist with such tasks through tooling (such as the use of a wizard interface) may help reduce pinch points in the evaluation process.</p>
+				</section>
+				<section class="notoc"> <!-- Step 1: Define the Evaluation Scope -->
+					<h4>Step 1: Define the Evaluation Scope</h4>
+					<p>During this step the overall scope of the evaluation is defined. It is an important step as initial exploration of the target application or website may be necessary to better know specifics (and to ensure common expectations) of the product or service and the required evaluation.</p>
+					<ol>
+						<li><strong>Define the Scope of the Website:</strong> During this step the web pages (and states) that are in scope of the evaluation are defined. To avoid later mismatches of expectations between the evaluator, commissioner, and readers of the resulting evaluation report, it is important to define unambiguously what aspects of the website or application are within its scope. Documentation of URIs are recommended where possible and to list aspects of the website that support its identification such as third-party content and services, or content that may have a different web address but is still considered to be part of the target website.</li>
+						<li><strong>Define the Target:</strong> Because the WSGs favor a progress-over-perfection approach to conformance, it does not use any strict levels for compliance in meeting the guidelines. As such, during the evaluation process, evaluators should set defined targets based on a level they believe is achievable between client and the workers involved in making the website or application sustainable.</li>
+						<li><strong>Define a Sustainability Support Baseline:</strong> Depending on the type of website or application being developed, it may not always be possible to implement every aspect of the WSGs (or they may not always be applicable to every situation). WSG 1.0 does not pre-define which combinations of features and technologies must be supported as this depends on the particular context of the website or application, the web technologies that are used to create the content, and the user agents currently available. During this step the evaluator in consultation with the website owner (and or commissioner) and developer determines the minimum level of sustainability implementations or improvements to be established over a given period (or as a starting point in first-cases). It should be noted that setting a baseline doesn't imply that such expectations cannot be exceeded with new goals and including further targets to reach.</li>
+						<li><strong>Define Additional Evaluation Requirements (Optional):</strong> An evaluator or commissioner may be interested in additional information beyond what is needed to determine the extent of compliance to WSG 1.0. This may include submitted reports of issues, analysis of use-cases or interactions, descriptions of solutions beyond the scope of the evaluation, or reporting templates. Such additional requirements should be clarified early on and documented, and reported as such in any resulting report that is produced.</li>
+					</ol>
+				</section>
+				<section class="notoc"> <!-- Step 2: Explore the Target Website -->
+					<h4>Step 2: Explore the Target Website</h4>
+					<p>During this step the evaluator explores the target website or application to be evaluated, to develop an initial understanding of the product or service and its use, purpose, and functionality. Much of this will not be immediately apparent to evaluators, in particular to those from outside the development team. In some cases it is also not possible to exhaustively identify and list all functionality, types of web pages, and technologies used to realize the website and its applications. The initial exploration carried out in this step is typically refined in the later steps as the evaluator learns more about the target website. Involvement of website owners and website developers can help evaluators make their explorations more effective.</p>
+					<div class="note">
+						<p>Carrying out initial cursory checks during this step helps identify web pages that are relevant for more detailed evaluation later on. For example, an evaluator may identify web pages that seem to be lacking sustainable features and note them down for more detailed evaluation later on.</p>
+						<p>To carry out this step it is also critical that the evaluator has access to all the relevant parts of the website. For example, it may be necessary to create accounts or otherwise provide access to restricted areas of a website that are part of the evaluation. Granting evaluators such internal access may require particular security and privacy precautions.</p>
+					</div>
+					<ol>
+						<li><strong>Identify Web Pages of the Website:</strong> Explore the target website to identify its web pages, which will also include any states in web applications. The outcome of this step is a list of all web pages of the target website or application.</li>
+						<li><strong>Identify the Variety of Web Page Types:</strong> Web pages and web page states with varying styles, layouts, structures, and functionality often have varying support for sustainability. They are often generated by different templates and scripts, or authored by different people. They may appear differently, behave differently, and contain different content depending on the particular website user and context. During this step the evaluator explores the target website to identify the different <em>types</em> of web pages and web page states. The outcome of this step is a list of noteworthy variables that may have a baring on the results on any sustainability auditing that can be used when evaluating web pages.</li>
+						<li><strong>Identify Web Technologies Relied Upon:</strong> During this step, the web technologies relied upon within the website or applications technology stack should be identified. This includes base web technologies such as HTML and CSS, auxiliary web technologies such as JavaScript and WAI-ARIA, as well as specific web technologies such as SVG and PDF. The outcome of this step is a list of technologies that may contain sustainability issues of their own, or contribute towards overarching goals. Where possible, any content management system, libraries, components, or frameworks should also be mentioned as these can have sustainability implications that may need to be addressed during the evaluation process.</li>
+						<li><strong>Identify Other Relevant Web Pages:</strong> Some web pages and web page states including features that are specifically relevant for improving the sustainability of your website or application. The outcome of this step is a list (with relevant explanations and information) regarding how such implementations benefit a product or service's visitors and users.</li>
+					</ol>
+				</section>
+				<section class="notoc"> <!-- Step 3: Test or Sample the Website -->
+					<h4>Step 3: Test or Sample the Website</h4>
+					<p>In cases where it is feasible to evaluate all web pages and web page states of a website, which is highly recommended for websites under 1,000 pages, the "selected sample" in the remaining steps of this evaluation process is the entire website. In some cases, such as for small websites, this sampling procedure may result in selecting all web pages and web page states of a website.</p>
+					<p>In cases where over 1,000 pages exist and the number of pages exceeds the ability to physically test every instance (or in cases where increased complexity reduces the capability to audit pages effectively), the evaluator selects a sample of web pages and web page states that is representative of the target website or application to be evaluated. The purpose of this selection is to ensure that the evaluation results reflect the sustainability of the product or service with reasonable confidence.</p>
+					<ul>
+						<li>In such samples, it must be structured in a way to include all assets and content relating to the selected web page or web page state.</li>
+						<li>The sample selected should be randomly chosen (a blind method such as script selection could be used as an example) to avoid bias and should be comprised of <strong>10-20%</strong> of the total website or applications structure (for example, a website comprised of 2,000 pages could test 400 pages).</li>
+					</ul>
+				</section>
+				<section class="notoc"> <!-- Step 4: Audit the Selected Pages -->
+					<h4>Step 4: Audit the Selected Pages</h4>
+					<p>During this step the evaluator audits (detailed evaluation of) all of the web pages and web page states selected. Carrying out this step requires the expertise described in section Required Expertise.</p>
+					<ol>
+						<li><strong>Check All Initial Web Pages:</strong> For each web page and web page state, check its conformance with each of the defined success criteria in WSG 1.0 as denoted in <em>Step 1</em>. This includes all components of the web page or web page state, including any functionality and interactions that may affect the sustainability or state of the web page. Remember to include third-parties where necessary in processing and account for infrastructural and internal access requirements as the processing to meet success criteria requests to identify sustainability solutions occurs.</li>
+						<li><strong>Non-Interfering Verification:</strong> Ensure that any existing implementations or solutions being utilized are non-interfering. This requires that remedies do not cause compatibility issues or problems with other critical aspects such as accessibility that may otherwise prevent the page from loading or being able to be understood.</li>
+					</ol>
+					<p class="note">There are typically several ways to determine whether WSG Success Criteria have been met or not met. One example includes the set of (non-normative) <strong>Techniques</strong> for WSG provided within STAR that documents ways of meeting particular WSG Success Criteria using testable statements that will either be true or false when applied to specific web content. While evaluators can use such documented guidance to check whether particular web content meets or fails to meet WSG Success Criteria (and include this within reports), it is not required and evaluators may use other approaches to evaluate whether WSG Success Criteria have been met or not met.</p>
+				</section>
+				<section class="notoc"> <!-- Step 5: Report the Evaluation Findings -->
+					<h4>Step 5: Report the Evaluation Findings</h4>
+					<p>While evaluation findings are reported at the end of the process, documenting them is carried out throughout the evaluation process to ensure verifiable outcomes. The documentation typically has varying levels of confidentiality. For example, documenting the specific methods used to evaluate individual requirements might remain limited to the evaluator while reports about the outcomes from these checks are typically made available to the evaluation commissioner. Website or application owners might further choose to make public statements about the outcomes from evaluation according to this methodology.</p>
+					<ol>
+						<li><strong>Document the Outcomes of Each Step:</strong> Documenting the outcomes for each of the previous steps (including all sub-sections) is essential to ensure transparency of the evaluation process, replicability of the evaluation results, and justification for any statements made based on this evaluation. Evaluation reports should include names of evaluators, dates of the evaluation, the scope and requirements (of sustainability), the pages and state being tested along with any technologies being identified and relied upon, plus the results of sustainability issues identified and any key factors that have contributed to meeting (or failing to meet) targets in the WSG success criteria. In certain instances, it may be useful to offer a list of every failure occurrence for every web page and web page state for transparency reporting along with the causes and repair suggestions to remedy the failures.</li>
+						<li><strong>Record the Evaluation Specifics (Optional):</strong> While optional, it is good practice for evaluators to keep record of the evaluation specifics, for example to support conflict resolution in the case of dispute. This includes archiving the web pages and web page states audited, and recording the evaluation tools, web browsers, other software, and methods used to audit them. A table or grid may be useful to record what was used for the different web pages and web page states audited. When such records contain sensitive information, they need particular security and privacy precautions. Records could include copies of files, assets, and resources of the web pages stated, screenshots (screen grabs), descriptions of the path to locate a page or state during a process (or information to use when testing interactive components), names and versions of tooling; or methods, procedures, and techniques used to evaluate conformance to WSG 1.0.</li>
+						<li><strong>Provide an Evaluation Statement (Optional):</strong> In the majority of situations, using this methodology alone does not result in WSG 1.0 conformance claims for the target websites. Website owners may wish to make public statements about the outcomes from evaluations following this methodology. If they wish to do so, they should follow the advisory guidance provided in the WSG conformance section in order to provide a statement relating to the level of sustainability they have achieved.</li>
+					</ol>
+				</section>
 			</section>
 		</section>
 		<section class="informative"> <!-- WSG Techniques -->
@@ -5652,9 +5718,41 @@
 		<section class="informative"> <!-- Glossary -->
 			<h2>Glossary</h2>
 			<dl id="terms">
+				<dt>Commissioner</dt>
+				<dd>
+					<p>The person, team of people, organization, in-house department, or other entity that commissioned the evaluation. In many cases the evaluation commissioner may be the website owner or website developer, in other cases it may be another entity.</p>
+				</dd>
+				<dt>Conformance</dt>
+				<dd>
+					<p>Satisfying all the requirements of a given standard, guideline or specification.</p>
+				</dd>
+				<dt>Evaluator</dt>
+				<dd>
+					<p>The person, team of people, organization, in-house department, or other entity responsible for carrying out the evaluation.</p>
+				</dd>
 				<dt><dfn>Interoperability</dfn></dt>
 				<dd>
 					<p>Interoperability is the ability of two or more systems or components to exchange information and to use the information that has been exchanged.</p>
+				</dd>
+				<dt>Web page</dt>
+				<dd>
+					<p>A non-embedded resource obtained from a single URI using HTTP plus any other resources that are used in the rendering or intended to be rendered together with it by a user agent.</p>
+				</dd>
+				<dt>Web page state</dt>
+				<dd>
+					<p>Dynamically generated web pages sometimes provide significantly different content, functionality, and appearance depending on the user, interaction, device, and other parameters. In the context of this methodology such web page states can be treated as ancillary to web pages (recorded as an additional state of a web page in a web page sample) or as individual web pages.</p>
+				</dd>
+				<dt>Website</dt>
+				<dd>
+					<p>A coherent collection of one or more related web pages that together provide common use or functionality. It includes static web pages, dynamically generated web pages, and mobile websites and applications.</p>
+				</dd>
+				<dt>Website developer</dt>
+				<dd>
+					<p>The person, team of people, organization, in-house department, or other entity that is involved in the website development process including but not limited to content authors, designers, front-end developers, back-end programmers, quality assurance testers, and project managers.</p>
+				</dd>
+				<dt>Website owner</dt>
+				<dd>
+					<p>The person, team of people, organization, in-house department, or other entity that is responsible for the website.</p>
 				</dd>
 			</dl>
 		</section>
