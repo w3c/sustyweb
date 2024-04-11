@@ -1,16 +1,16 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 34.4.0">
+<meta name="generator" content="ReSpec 34.5.0">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 dfn{cursor:pointer}
-.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
+.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
 .dfn-panel:not(.docked)>.caret{position:absolute;top:-9px}
-.dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;top:0}
-.dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1}
+.dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;border-bottom-color:var(--indextable-hover-bg,#fff);top:0}
+.dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1;border-bottom-color:var(--indextable-hover-bg,#a2a9b1)}
 .dfn-panel *{margin:0}
-.dfn-panel b{display:block;color:#000;margin-top:.25em}
-.dfn-panel ul a[href]{color:#333}
+.dfn-panel b{display:block;color:#000;color:var(--text,#000);margin-top:.25em}
+.dfn-panel ul a[href]{color:#333;color:var(--text,#333)}
 .dfn-panel>div{display:flex}
 .dfn-panel a.self-link{font-weight:700;margin-right:auto}
 .dfn-panel .marker{padding:.1em;margin-left:.5em;border-radius:.2em;text-align:center;white-space:nowrap;font-size:90%;color:#040b1c}
@@ -50,7 +50,6 @@ cite .bibref{font-style:normal}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 .toc a,.tof a{text-decoration:none}
-a .figno,a .secno{color:#000}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
 table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}
@@ -86,12 +85,12 @@ dd{margin-left:0}
 .removeOnSave{display:none}
 }
 </style>
-<meta name="description" content="This document provides an introduction to the subject of Web Sustainability, acting as the &quot;what&quot; and &quot;why&quot; element to the &quot;how&quot; provided by the Web Sustainability Guidelines (WSG) 1.0 specification.">
+<meta name="description" content="This document provides an introduction to the subject of Web Sustainability, acting as the &quot;what&quot; and &quot;why&quot; elements to the &quot;how&quot; provided by the Web Sustainability Guidelines (WSG) 1.0 specification.">
 <style>
 var{position:relative;cursor:pointer}
 var[data-type]::after,var[data-type]::before{position:absolute;left:50%;top:-6px;opacity:0;transition:opacity .4s;pointer-events:none}
-var[data-type]::before{content:"";transform:translateX(-50%);border-width:4px 6px 0 6px;border-style:solid;border-color:transparent;border-top-color:#000}
-var[data-type]::after{content:attr(data-type);transform:translateX(-50%) translateY(-100%);background:#000;text-align:center;font-family:"Dank Mono","Fira Code",monospace;font-style:normal;padding:6px;border-radius:3px;color:#daca88;text-indent:0;font-weight:400}
+var[data-type]::before{content:"";transform:translateX(-50%);border-width:4px 6px 0 6px;border-style:solid;border-color:transparent;border-top-color:#222}
+var[data-type]::after{content:attr(data-type);transform:translateX(-50%) translateY(-100%);background:#222;text-align:center;font-family:"Dank Mono","Fira Code",monospace;font-style:normal;padding:6px;border-radius:3px;color:#daca88;text-indent:0;font-weight:400}
 var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </style>
 <script id="initialUserConfig" type="application/json">{
@@ -118,7 +117,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "date": "05 January 2023",
       "href": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
       "status": "Informational",
-      "publisher": "European Comission",
+      "publisher": "European Commission",
       "id": "csrd"
     },
     "GRI": {
@@ -144,8 +143,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "specStatus": "CG-DRAFT",
-  "publishISODate": "2024-02-25T00:00:00.000Z",
-  "generatedSubtitle": "Draft Community Group Report 25 February 2024"
+  "publishISODate": "2024-04-11T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 11 April 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
 	<body class="h-entry informative"><div class="head">
@@ -153,7 +152,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <h1 id="title" class="title">Introduction to Web Sustainability</h1> 
     <p id="w3c-state">
       <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
-      <time class="dt-published" datetime="2024-02-25">25 February 2024</time>
+      <time class="dt-published" datetime="2024-04-11">11 April 2024</time>
     </p>
     <dl>
       
@@ -197,9 +196,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <hr title="Separator for header">
   </div>
 		<section id="abstract" class="introductory"><h2>Abstract</h2> 
-			<p>This document provides an introduction to the subject of Web Sustainability, acting as the "what" and "why" element to the "how" provided by the <a href="https://w3c.github.io/sustyweb/">Web Sustainability Guidelines</a> (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 specification.</p>
-			<p>It aims to be a helpful entry-point for individuals and stakeholders who have an interest in digital sustainability and the work undertaken by the <a href="https://www.w3.org/groups/cg/sustyweb">Sustainable Web Design Community Group</a>.</p>
-			<p>This is a supplementary document created to showcase the need for such guidance, helping individuals and organizations better understand the current Web landscape and how it is affected by sustainability issues. It also provides answers to common questions which may help those looking to become more environmentally friendly utilize the <abbr title="Web Sustainability Guidelines">WSGs</abbr>, and gain a broader awareness of the subject and its relevance to the Internet.</p>
+			<p>This document provides an introduction to the subject of Web Sustainability, acting as the "what" and "why" elements to the "how" provided by the <a href="https://w3c.github.io/sustyweb/">Web Sustainability Guidelines</a> (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 specification.</p>
+			<p>It aims to be a helpful entry point for individuals and stakeholders who have an interest in digital sustainability and the work undertaken by the <a href="https://www.w3.org/groups/cg/sustyweb">Sustainable Web Design Community Group</a>.</p>
+			<p>This is a supplementary document created to showcase the need for such guidance, helping individuals and organizations better understand the current Web landscape and how it is affected by sustainability issues. It also provides answers to common questions which may help those looking to become more environmentally friendly utilize the <abbr title="Web Sustainability Guidelines">WSGs</abbr> and gain a broader awareness of the subject and its relevance to the Internet.</p>
 			<p>Help improve this page by sharing your ideas, suggestions, or comments via <a href="https://github.com/w3c/sustyweb/issues/">GitHub issues</a>.</p>
 		</section>
 		<section id="sotd" class="override introductory"></section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Abstract</a></li><li class="tocline"><a class="tocxref" href="#what-is-web-sustainability"><bdi class="secno">1. </bdi>What is Web Sustainability?</a></li><li class="tocline"><a class="tocxref" href="#the-importance-of-web-sustainability"><bdi class="secno">2. </bdi>The Importance of Web Sustainability</a></li><li class="tocline"><a class="tocxref" href="#emissions-vs-esg"><bdi class="secno">3. </bdi>Emissions vs. <abbr title="Environmental, Social, Governance">ESG</abbr></a></li><li class="tocline"><a class="tocxref" href="#the-current-landscape"><bdi class="secno">4. </bdi>The Current Landscape</a></li><li class="tocline"><a class="tocxref" href="#the-web-sustainability-guidelines"><bdi class="secno">5. </bdi>The Web Sustainability Guidelines</a></li><li class="tocline"><a class="tocxref" href="#incorporating-the-guidelines-into-your-work"><bdi class="secno">6. </bdi>Incorporating the Guidelines Into Your Work</a></li><li class="tocline"><a class="tocxref" href="#resources"><bdi class="secno">7. </bdi>Resources</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>References</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informative-references"><bdi class="secno">A.1 </bdi>Informative references</a></li></ol></li></ol></nav> 
@@ -235,7 +234,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 		</section>
 		<section id="the-current-landscape"><div class="header-wrapper"><h2 id="x4-the-current-landscape"><bdi class="secno">4. </bdi>The Current Landscape</h2><a class="self-link" href="#the-current-landscape" aria-label="Permalink for Section 4."></a></div> 
 			
-			<p>Every part of the Internet has some sort of environmental impact—from the developer's machine, to web service providers, to the physical infrastructure that carries data, right through to hosting and consumer devices. Aiming to reduce the impact of these different mechanisms, where possible, is as much a part of an individual or organization's responsibility as driving sales or improving customer service.</p>
+			<p>Every part of the Internet has some sort of environmental impact from the developer's machine, to web service providers, to the physical infrastructure that carries data, right through to hosting and consumer devices. Aiming to reduce the impact of these different mechanisms, where possible, is as much a part of an individual or organization's responsibility as driving sales or improving customer service.</p>
 			<p>Increasingly, through awareness of green issues, the public and press have placed pressure upon industries to become more ethically aware and push for sustainable change. With several governments seeking regulatory enforcement in this area, the need to make our products and services match such a requirement will increase.</p>
 			<p>Whether you work in hosting, back-end development, front-end development, user-experience design, information architecture, content authoring, user-interface design, run a business, manage a product or service, or have another role, there are many opportunities to create meaningful change: performance optimizations, waste reduction techniques, emissions measurement, impact reporting practices, or other as yet unknown tactics, to name just a few.</p>
 			<p>We need champions within industries and organizations to spearhead web sustainability practices and meet these challenges head-on.</p>
@@ -284,13 +283,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				<details>
 					<summary>Show / Hide available resources.</summary>
 					<ul class="resources">
-						<li><a href="https://www.apc.org/sites/default/files/Community_networks_-_the_Internet_by_the_people_for_the_people_0.pdf">Community networks: The internet by the people, for the people</a></li>
+						<li><a href="https://www.oreilly.com/library/view/building-green-software/9781098150617/">Building Green Software</a></li>
+						<li><a href="https://www.apc.org/sites/default/files/Community_networks_-_the_Internet_by_the_people_for_the_people_0.pdf">Community networks: The internet by the people, for the people</a> (<em>PDF</em>)</li>
 						<li><a href="https://decarbonise.digital/">Decarbonise Digital</a></li>
 						<li><a href="https://designaftercapitalism.org/">Design after Capitalism</a></li>
 						<li><a href="https://rosenfeldmedia.com/books/design-is-the-problem/">Design Is the Problem</a></li>
 						<li><a href="https://nathan.com/design-is-the-solution/">Design is the Solution</a></li>
 						<li><a href="https://www.oreilly.com/library/view/designing-for-sustainability/9781491935767/">Designing for Sustainability</a></li>
-						<li><a href="https://royalsociety.org/-/media/policy/projects/digital-technology-and-the-planet/digital-technology-and-the-planet-report.pdf">Digital technology and the planet</a></li>
+						<li><a href="https://royalsociety.org/-/media/policy/projects/digital-technology-and-the-planet/digital-technology-and-the-planet-report.pdf">Digital technology and the planet</a> (<em>PDF</em>)</li>
 						<li><a href="https://ecoconceptionweb.com/">Ecoconception web: les 115 bonnes pratiques</a> (<em>French</em>)</li>
 						<li><a href="https://altreconomia.it/prodotto/ecologia-digitale/">Ecologia digitale</a> (<em>Italian</em>)</li>
 						<li><a href="https://link.springer.com/book/10.1007/978-3-642-19322-4">Energy-Efficient Computing and Networking</a></li>
@@ -302,11 +302,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<li><a href="https://link.springer.com/book/10.1007/978-3-658-41093-3">Nachhaltige Websites</a> (<em>German</em>)</li>
 						<li><a href="https://www.wiley.com/en-us/Packaging+Sustainability%3A+Tools%2C+Systems+and+Strategies+for+Innovative+Package+Design-p-9781119103868">Packaging Sustainability</a></li>
 						<li><a href="https://www.amazon.co.uk/Rare-Metals-War-transition-technologies/dp/1912854260">Rare Metals War: the dark side of clean energy and digital technologies</a></li>
-						<li><a href="https://www.usability.gov/sites/default/files/documents/guidelines_book.pdf">Research-Based Web Design and Usability Guidelines</a></li>
+						<li><a href="https://webarchive.library.unt.edu/eot2008/20080916072444/http://www.usability.gov/pdfs/guidelines.html">Research-Based Web Design and Usability Guidelines</a></li>
 						<li><a href="https://theecommmanager.com/sustainable-ecommerce-handbook/">Sustainable Ecommerce Handbook</a></li>
 						<li><a href="https://www.wiley.com/en-us/Sustainable+Graphic+Design%3A+Tools%2C+Systems+and+Strategies+for+Innovative+Print+Design+-p-9780470640272">Sustainable Graphic Design</a></li>
 						<li><a href="https://abookapart.com/products/sustainable-web-design">Sustainable Web Design</a></li>
-						<li><a href="https://sustainablewww.org/sustainable-web-design-in-20-lessons">Sustainable Web Design - In 20 Lessons</a></li>
 						<li><a href="https://link.springer.com/book/10.1007/978-1-4614-7714-3">Sustainable Web Ecosystem Design</a></li>
 						<li><a href="https://gerrymcgovern.com/books/world-wide-waste/buy-the-book/">World Wide Waste</a></li>
 					</ul>
@@ -321,6 +320,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<li><a href="https://www.wholegraindigital.com/curiously-green/">Curiously Green</a></li>
 						<li><a href="https://greensoftware.foundation/">Green Software</a></li>
 						<li><a href="https://greeningdigital.substack.com/">Greening Digital</a></li>
+						<li><a href="https://spectrum.ieee.org/green-software">IEEE Spectrum</a> (Article)</li>
 						<li><a href="https://www.ietf.org/mailman/listinfo/e-impact">IETF E-Impact Discussion</a></li>
 					</ul>
 				</details>
@@ -338,6 +338,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<li><a href="https://www.hmntycntrd.com/self-paced-masterclass">Humanity-Centered Masterclass</a></li>
 						<li><a href="https://web.dev/learn/accessibility/">Learn Accessibility</a></li>
 						<li><a href="https://web.dev/learn/performance">Learn Performance</a></li>
+						<li><a href="https://sdgacademy.org/masters-pathway-in-foundations-of-sustainable-development/">SDG Masters Pathway</a></li>
 						<li><a href="https://online.unschools.co/collections/sustainability">Sustainability</a></li>
 						<li><a href="https://www.isit-academy.org/">Sustainable IT MOOC</a></li>
 						<li><a href="https://www.tomorrow.university/bachelors/product-management/b-a-sustainable-product-management">Sustainable Product Management (BA)</a></li>
@@ -349,7 +350,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				<details>
 					<summary>Show / Hide available resources.</summary>
 					<ul class="resources">
-						<li><a href="https://bits-und-baeume.org/en/">Bits &amp; Bäume</a></li>
+						<li><a href="https://bits-und-baeume.org/">Bits &amp; Bäume</a></li>
 						<li><a href="https://ieee-sustech.org/">IEEE Sustech</a></li>
 						<li><a href="https://computingwithinlimits.org/">Limits</a></li>
 					</ul>
@@ -366,16 +367,18 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://www.youtube.com/watch?v=P-d3d8DgqVA">Future Ethics with Cennydd Bowles at SustainableUX</a></li>
 							<li><a href="https://www.youtube.com/watch?v=quLFLH36Lro">How to be a djangonaut in a climate emergency</a></li>
 							<li><a href="https://www.youtube.com/watch?v=9dLmecsuwEY">How to make digital services more sustainable</a></li>
+							<li><a href="https://www.youtube.com/watch?v=VL8qpr9P4nE">Save Our World with Progressive Enhancement &amp; Accessibility</a></li>
 							<li><a href="https://www.youtube.com/watch?v=qW75oJszcws">Sustainability and the Web: Are We Tweeting Our Way to a Warmer Planet?</a></li>
 							<li><a href="https://www.youtube.com/watch?v=o-eE6qKGeIE">Understanding Sustainable Web Design</a></li>
 						</ul></li>
 						<li><strong>Podcast</strong><ul>
 							<li><a href="https://podcast.greensoftware.foundation/">Environment Variables</a></li>
-							<li><a href="https://dev.to/green-io">Green I/O Podcast</a></li>
+							<li><a href="https://greenio.gaelduez.com">Green IO Podcast</a></li>
 							<li><a href="https://greentheweb.com/podcast/">Green The Web</a></li>
 							<li><a href="https://sustainwp.com/">Sustain WP</a></li>
 							<li><a href="https://www.greenelement.co.uk/podcasts/">Sustainability Solved</a></li>
 							<li><a href="https://podcasters.spotify.com/pod/show/suxpodcast">Sustainable UX</a></li>
+							<li><a href="https://dr-beyer.de/news/podcast.php">Web, But Green!</a> (<em>German</em>)</li>
 						</ul></li>
 						<li><strong>Episode</strong><ul>
 							<li><a href="https://mattreport.com/can-wordpress-save-the-planet/">Can WordPress save the planet?</a></li>
@@ -386,6 +389,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://irlpodcast.org/season5/episode3/">Internet's Carbon Footprint</a></li>
 							<li><a href="https://talkingdrupal.com/373">Performance, Privacy, and the Open Web</a></li>
 							<li><a href="https://talkingdrupal.com/348">Website's Carbon Footprint</a></li>
+							<li><a href="https://shoptalkshow.com/606/">Web Sustainability with Michelle Barker</a></li>
 							<li><a href="https://insidedatacentre.buzzsprout.com/1223072/9954954-john-booth-carbon3it-ltd-what-is-sustainability">What is sustainability?</a></li>
 							<li><a href="https://podcasters.spotify.com/pod/show/tech-tip-tuesdays/episodes/Why-should-you-care-about-your-digital-carbon-footprint-eubdok">Why should you care about your digital carbon footprint?</a></li>
 							<li><a href="https://play.acast.com/s/climate-podcast/yourdigitshaveafootprint">Your digits have a footprint</a></li>
@@ -421,6 +425,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<li><a href="https://gerrymcgovern.com/">Gerry McGovern</a></li>
 						<li><a href="https://www.greendesign.io/">Green Design</a></li>
 						<li><a href="https://thegreenpages.bima.co.uk/">Green Pages</a></li>
+						<li><a href="https://linktr.ee/digitalfuturestold">Green Software Carbon Hack 24</a></li>
 						<li><a href="https://greentheweb.com/">Green The Web</a></li>
 						<li><a href="https://climate-tech.getoutline.com/s/2f3c5ad4-fee5-490b-8ecc-740c6f048ac8">Greener Design</a></li>
 						<li><a href="https://www.england.nhs.uk/greenernhs/">Greener NHS</a></li>
@@ -437,7 +442,6 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<li><a href="https://sdialliance.org/roadmap/">SDIA Roadmap</a></li>
 						<li><a href="https://sustainableuxmanifesto.com/">Sustainable UX Playbook</a></li>
 						<li><a href="https://sustainablevirtualdesign.wordpress.com/">Sustainable Virtual Design</a></li>
-						<li><a href="https://sustainablewww.org/">Sustainable WWW</a></li>
 						<li><a href="https://tomjarrett.earth/">Tom Jarrett</a></li>
 						<li><a href="https://www.wholegraindigital.com/blog/">Wholegrain Digital</a></li>
 					</ul>
@@ -454,6 +458,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://digitalbeacon.co/">Beacon</a></li>
 							<li><a href="https://builtwith.com/">Built With</a></li>
 							<li><a href="https://carbonneutralwebsite.org/">Carbon Neutral Website</a></li>
+							<li><a href="https://github.com/lfwa/carbontracker">Carbon Tracker</a></li>
 							<li><a href="https://www.cloudcarbonfootprint.org/">Cloud Carbon Footprint</a></li>
 							<li><a href="https://www.thegreenwebfoundation.org/co2-js/">Co2.js</a></li>
 							<li><a href="https://codecarbon.io/">Code Carbon</a></li>
@@ -472,6 +477,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://if.greensoftware.foundation/">Impact Framework</a></li>
 							<li><a href="https://kastor.green/">Kastor</a></li>
 							<li><a href="https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk">Lighthouse</a></li>
+							<li><a href="https://mlco2.github.io/impact/">ML Co2 Impact</a></li>
 							<li><a href="https://www.privacytools.io/">Privacy Tools</a></li>
 							<li><a href="https://readabilityformulas.com/readability-scoring-system.php">Readability Checker</a></li>
 							<li><a href="https://www.webfx.com/tools/read-able/">Readable</a></li>
@@ -482,12 +488,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<li><a href="https://webhint.io/">WebHint</a></li>
 							<li><a href="https://www.webpagetest.org/">WebPageTest</a></li>
 							<li><a href="https://www.websitecarbon.com/">Website Carbon</a></li>
-							<li><a href="https://www.website-footprint.com/en/">Website Footprint</a></li>
 						</ul></li>
 						<li><strong>Utilities</strong><ul>
 							<li><a href="https://opensustain.tech/">Open Sustainable Technology</a></li>
-							<li><a href="https://github.com/thegreenwebfoundation/carbon.txt">Carbon.txt</a></li>
-							<li><a href="https://datavizta.boavizta.org/manufacturerdata">Datavizta</a></li>
+							<li><a href="https://github.com/Boavizta/cloud-scanner">Cloud Scanner</a></li>
+							<li><a href="https://datavizta.boavizta.org/">Datavizta</a></li>
 							<li><a href="https://www.ecosia.org/">Ecosia</a></li>
 							<li><a href="https://app.electricitymaps.com/map?solar=false&amp;remote=true&amp;wind=false">Electricity Maps</a></li>
 							<li><a href="https://github.com/Boavizta/Energizta">Energizta</a></li>
@@ -528,7 +533,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <section id="references" class="appendix"><div class="header-wrapper"><h2 id="a-references"><bdi class="secno">A. </bdi>References</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix A."></a></div><section id="informative-references"><div class="header-wrapper"><h3 id="a-1-informative-references"><bdi class="secno">A.1 </bdi>Informative references</h3><a class="self-link" href="#informative-references" aria-label="Permalink for Appendix A.1"></a></div>
     
     <dl class="bibliography"><dt id="bib-csrd">[CSRD]</dt><dd>
-      <a href="https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en"><cite>Corporate sustainability reporting</cite></a>.  European Comission. 05 January 2023. Informational. URL: <a href="https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en">https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en</a>
+      <a href="https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en"><cite>Corporate sustainability reporting</cite></a>.  European Commission. 05 January 2023. Informational. URL: <a href="https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en">https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en</a>
     </dd><dt id="bib-gri">[GRI]</dt><dd>
       <a href="https://www.globalreporting.org/standards/"><cite>Global Reporting Initiative</cite></a>.  GRI. Informational. URL: <a href="https://www.globalreporting.org/standards/">https://www.globalreporting.org/standards/</a>
     </dd><dt id="bib-manifesto">[MANIFESTO]</dt><dd>

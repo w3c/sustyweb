@@ -1,16 +1,16 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 34.4.0">
+<meta name="generator" content="ReSpec 34.5.0">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 dfn{cursor:pointer}
-.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
+.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
 .dfn-panel:not(.docked)>.caret{position:absolute;top:-9px}
-.dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;top:0}
-.dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1}
+.dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;border-bottom-color:var(--indextable-hover-bg,#fff);top:0}
+.dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1;border-bottom-color:var(--indextable-hover-bg,#a2a9b1)}
 .dfn-panel *{margin:0}
-.dfn-panel b{display:block;color:#000;margin-top:.25em}
-.dfn-panel ul a[href]{color:#333}
+.dfn-panel b{display:block;color:#000;color:var(--text,#000);margin-top:.25em}
+.dfn-panel ul a[href]{color:#333;color:var(--text,#333)}
 .dfn-panel>div{display:flex}
 .dfn-panel a.self-link{font-weight:700;margin-right:auto}
 .dfn-panel .marker{padding:.1em;margin-left:.5em;border-radius:.2em;text-align:center;white-space:nowrap;font-size:90%;color:#040b1c}
@@ -50,7 +50,6 @@ cite .bibref{font-style:normal}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 .toc a,.tof a{text-decoration:none}
-a .figno,a .secno{color:#000}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
 table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}
@@ -90,8 +89,8 @@ dd{margin-left:0}
 <style>
 var{position:relative;cursor:pointer}
 var[data-type]::after,var[data-type]::before{position:absolute;left:50%;top:-6px;opacity:0;transition:opacity .4s;pointer-events:none}
-var[data-type]::before{content:"";transform:translateX(-50%);border-width:4px 6px 0 6px;border-style:solid;border-color:transparent;border-top-color:#000}
-var[data-type]::after{content:attr(data-type);transform:translateX(-50%) translateY(-100%);background:#000;text-align:center;font-family:"Dank Mono","Fira Code",monospace;font-style:normal;padding:6px;border-radius:3px;color:#daca88;text-indent:0;font-weight:400}
+var[data-type]::before{content:"";transform:translateX(-50%);border-width:4px 6px 0 6px;border-style:solid;border-color:transparent;border-top-color:#222}
+var[data-type]::after{content:attr(data-type);transform:translateX(-50%) translateY(-100%);background:#222;text-align:center;font-family:"Dank Mono","Fira Code",monospace;font-style:normal;padding:6px;border-radius:3px;color:#daca88;text-indent:0;font-weight:400}
 var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </style>
 <script id="initialUserConfig" type="application/json">{
@@ -138,7 +137,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "date": "18 October 2022",
       "href": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229",
       "status": "Informational",
-      "publisher": "EU Comission",
+      "publisher": "EU Commission",
       "id": "euc"
     },
     "ICT-IMPACT": {
@@ -167,8 +166,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "specStatus": "CG-DRAFT",
-  "publishISODate": "2024-02-25T00:00:00.000Z",
-  "generatedSubtitle": "Draft Community Group Report 25 February 2024"
+  "publishISODate": "2024-04-11T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 11 April 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
 	<body class="h-entry informative"><div class="head">
@@ -176,7 +175,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <h1 id="title" class="title">Web Sustainability Guidelines (WSG) 1.0 at a Glance</h1> 
     <p id="w3c-state">
       <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
-      <time class="dt-published" datetime="2024-02-25">25 February 2024</time>
+      <time class="dt-published" datetime="2024-04-11">11 April 2024</time>
     </p>
     <dl>
       
@@ -223,15 +222,15 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   </div>
 		<section id="abstract" class="introductory"><h2>Abstract</h2> 
 			<p>This page provides a paraphrased summary of the Web Sustainability Guidelines (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0. For the normative technical specification, see <a href="https://w3c.github.io/sustyweb/">https://w3c.github.io/sustyweb/</a>.</p>
-			<p>It aims to be a helpful entry-point for individuals and stakeholders who have an interest in digital sustainability and the work undertaken by the <a href="https://www.w3.org/groups/cg/sustyweb">Sustainable Web Design Community Group</a>.</p>
-			<p>While this document does provide a quick summary of numerous key aspects of the <abbr title="Web Sustainability Guidelines">WSG</abbr> specification, it must be established that it in no way should be used as a replacement for following the guidelines and success criteria as laid out in the complete, long-form specification. Reasons for this include that this summary is neither intended to be in-depth nor feature complete. Therefore, its role as an overview to help orientate stakeholders to the specification's purpose in no way provides conformance to Web Sustainability criteria.</p>
+			<p>It aims to be a helpful entry point for individuals and stakeholders who have an interest in digital sustainability and the work undertaken by the <a href="https://www.w3.org/groups/cg/sustyweb">Sustainable Web Design Community Group</a>.</p>
+			<p>While this document does provide a quick summary of numerous key aspects of the <abbr title="Web Sustainability Guidelines">WSG</abbr> specification, it must be established that it in no way should be used as a replacement for following the guidelines and success criteria as laid out in the complete, long-form specification. Reasons for this include that this summary is neither intended to be in-depth nor feature-complete. Therefore, its role as an overview to help orientate stakeholders to the specification's purpose in no way provides conformance to Web Sustainability criteria.</p>
 			<p>Help improve this page by sharing your ideas, suggestions, or comments via <a href="https://github.com/w3c/sustyweb/issues/">GitHub issues</a>.</p>
 		</section>
 		<section class="informative" id="introduction"><div class="header-wrapper"><h2 id="x1-introduction"><bdi class="secno">1. </bdi>Introduction</h2><a class="self-link" href="#introduction" aria-label="Permalink for Section 1."></a></div><p><em>This section is non-normative.</em></p> 
 			
 			<section id="context"><div class="header-wrapper"><h3 id="x1-1-context"><bdi class="secno">1.1 </bdi>Context</h3><a class="self-link" href="#context" aria-label="Permalink for Section 1.1"></a></div> 
 				
-				<p>The digital industry is now responsible for between 2-5% of global emissions [<cite><a class="bibref" data-link-type="biblio" href="#bib-ict-impact" title="The real climate and transformative impact of ICT: A critique of estimates, trends, and regulations">ICT-IMPACT</a></cite>] [<cite><a class="bibref" data-link-type="biblio" href="#bib-euc" title="Questions and Answers: EU action plan on digitalising the energy system">EUC</a></cite>], more than that of the aviation industry. And since the Paris Agreement, average web page sizes have increased by over 70% on desktop and 140% on mobile [<cite><a class="bibref" data-link-type="biblio" href="#bib-page-weight" title="Page Weight">PAGE-WEIGHT</a></cite>]. Between 2015 and 2021, internet visitors increased 60%, whilst internet traffic increased by 440% [<cite><a class="bibref" data-link-type="biblio" href="#bib-data" title="Data Centres and Data Transmission Networks">DATA</a></cite>]. In essence, if the Internet were a country it would be one of the top five polluters. [<cite><a class="bibref" data-link-type="biblio" href="#bib-country" title="Internet - growing to surpass television - should be powered with clean energy">COUNTRY</a></cite>]</p>
+				<p>The digital industry is now responsible for between 2-5% of global emissions [<cite><a class="bibref" data-link-type="biblio" href="#bib-ict-impact" title="The real climate and transformative impact of ICT: A critique of estimates, trends, and regulations">ICT-IMPACT</a></cite>] [<cite><a class="bibref" data-link-type="biblio" href="#bib-euc" title="Questions and Answers: EU action plan on digitalising the energy system">EUC</a></cite>], more than that of the aviation industry. Since the Paris Agreement, average web page sizes have increased by over 70% on desktop and 140% on mobile [<cite><a class="bibref" data-link-type="biblio" href="#bib-page-weight" title="Page Weight">PAGE-WEIGHT</a></cite>]. Between 2015 and 2021, internet visitors increased by 60%, whilst internet traffic increased by 440% [<cite><a class="bibref" data-link-type="biblio" href="#bib-data" title="Data Centres and Data Transmission Networks">DATA</a></cite>]. In essence, if the Internet were a country it would be one of the top five polluters. [<cite><a class="bibref" data-link-type="biblio" href="#bib-country" title="Internet - growing to surpass television - should be powered with clean energy">COUNTRY</a></cite>]</p>
 			</section>
 			<section id="summary"><div class="header-wrapper"><h3 id="x1-2-summary"><bdi class="secno">1.2 </bdi>Summary</h3><a class="self-link" href="#summary" aria-label="Permalink for Section 1.2"></a></div> 
 				
@@ -242,7 +241,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				<p>Knowing where to start, especially with a document as long and dense as the WSGs is quite a challenge. You may wish to scan through a supplement such as our <a href="https://w3c.github.io/sustyweb/quickref.html">quick reference</a> which provides a checklist-based overview of every guideline. Or if you just want a couple of important tasks you can dive right into them. If so, consider the below as a few of our highlights (though please note, that this doesn't reduce the importance of the others).</p>
 				<details>
 					<summary>Show / Hide highlights by category.</summary>
-					<p>The below will have a high impact upon your product or services digital sustainability:</p>
+					<p>The below will have a high impact on your product or service's digital sustainability:</p>
 					<dl>
 						<dt>User Experience Design</dt>
 						<dd><ul>
@@ -283,21 +282,21 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					<summary>Show / Hide available guidance.</summary>
 					<p>In relation to <strong>research and ideation</strong>, make sure you:</p>
 					<ul>
-						<li>Map all areas your digital product <a href="https://w3c.github.io/sustyweb/#undertake-systemic-impacts-mapping">could impact people and the planet</a>.</li>
+						<li>Map all areas where your digital product <a href="https://w3c.github.io/sustyweb/#undertake-systemic-impacts-mapping">could impact people and the planet</a>.</li>
 						<li>Assess all <a href="https://w3c.github.io/sustyweb/#account-for-stakeholder-issues">stakeholder issues</a> as well as <a href="https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs">visitor</a> and <a href="https://w3c.github.io/sustyweb/#research-non-visitor-s-needs">non-visitor</a> needs; then define appropriate <a href="https://w3c.github.io/sustyweb/#create-a-stakeholder-focused-testing-prototyping-policy">test policies</a>.</li>
-						<li>Consider the use of <a href="https://w3c.github.io/sustyweb/#consider-sustainability-in-early-ideation">low carbon tools during ideation</a>.</li>
+						<li>Consider the use of <a href="https://w3c.github.io/sustyweb/#consider-sustainability-in-early-ideation">low-carbon tools during ideation</a>.</li>
 					</ul>
 					<p>In relation to <strong>journey design</strong>, make sure you:</p>
 					<ul>
-						<li>Create a <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">frictionless, lightweight experience</a>, using <a href="https://w3c.github.io/sustyweb/#use-recognized-design-patterns">recognized design patterns</a> which ensure navigation and way-finding <a href="https://w3c.github.io/sustyweb/#ensure-navigation-and-way-finding-are-well-structured">is well-structured</a>, the visitor's <a href="https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention">attention is respected</a> and <a href="https://w3c.github.io/sustyweb/#avoid-manipulative-patterns">visitors aren't manipulated</a>.</li>
-						<li>Implement forms which are <a href="https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms">usable, accessible, and minimal</a> and <a href="https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input">assist visitors with errors</a>.</li>
+						<li>Create a <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">frictionless, lightweight experience</a>, using <a href="https://w3c.github.io/sustyweb/#use-recognized-design-patterns">recognized design patterns</a> that ensure navigation and way-finding <a href="https://w3c.github.io/sustyweb/#ensure-navigation-and-way-finding-are-well-structured">are well-structured</a>, the visitor's <a href="https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention">attention is respected</a> and <a href="https://w3c.github.io/sustyweb/#avoid-manipulative-patterns">visitors aren't manipulated</a>.</li>
+						<li>Implement forms that are <a href="https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms">usable, accessible, and minimal</a> and <a href="https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input">assist visitors with errors</a>.</li>
 						<li>Only implement <a href="https://w3c.github.io/sustyweb/#provide-useful-notifications-to-improve-the-visitor-s-journey">useful notifications</a> that improve the visitor's experience.</li>
 					</ul>
 					<p>In relation to <strong>content and assets</strong>, make sure you:</p>
 					<ul>
 						<li>Avoid <a href="https://w3c.github.io/sustyweb/#avoid-unnecessary-or-an-overabundance-of-assets">unnecessary assets</a>, but when they are needed, take a sustainable approach to <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-image-assets">images</a>, <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-media-assets">media</a>, <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-animation">animations</a>, <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-typefaces">typefaces</a>, and <a href="https://w3c.github.io/sustyweb/#reduce-the-impact-of-downloadable-or-physical-documents">documents</a>.</li>
 						<li>Provide <a href="https://w3c.github.io/sustyweb/#provide-suitable-alternatives-to-web-assets">alternatives to visual and audio content</a>, as well as facilitate <a href="https://w3c.github.io/sustyweb/#support-non-graphic-ways-to-interact-with-content">speech-based browsing</a> of your content.</li>
-						<li><a href="https://w3c.github.io/sustyweb/#write-with-purpose-in-an-accessible-easy-to-understand-format">Write with purpose, in an accessible, easy to understand format</a>.</li>
+						<li><a href="https://w3c.github.io/sustyweb/#write-with-purpose-in-an-accessible-easy-to-understand-format">Write with purpose, in an accessible, easy-to-understand format</a>.</li>
 					</ul>
 					<p>In relation to <strong>quality assurance</strong>, make sure you:</p>
 					<ul>
@@ -317,13 +316,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</ul>
 					<p>In relation to <strong>code minimization</strong>, make sure you:</p>
 					<ul>
-						<li>Focus on removing bottlenecks and reducing compute load on a visitor's device by <a href="https://w3c.github.io/sustyweb/#resolve-render-blocking-content">removing rendering blockages</a>, using <a href="https://w3c.github.io/sustyweb/#use-code-splitting-within-projects">code splitting</a>, <a href="https://w3c.github.io/sustyweb/#manage-dependencies-appropriately">managing dependencies</a>, taking advantage of <a href="https://w3c.github.io/sustyweb/#take-advantage-of-native-features">native features</a>, rigorously assessing <a href="https://w3c.github.io/sustyweb/#rigorously-assess-third-party-services">third-party code</a> / services and <a href="https://w3c.github.io/sustyweb/#minify-your-html-css-and-javascript">minifying everything</a>.</li>
+						<li>Focus on removing bottlenecks and reducing compute load on a visitor's device by <a href="https://w3c.github.io/sustyweb/#resolve-render-blocking-content">removing rendering blockages</a>, using <a href="https://w3c.github.io/sustyweb/#use-code-splitting-within-projects">code splitting</a>, <a href="https://w3c.github.io/sustyweb/#manage-dependencies-appropriately">managing dependencies</a>, taking advantage of <a href="https://w3c.github.io/sustyweb/#take-advantage-of-native-features">native features</a>, rigorously assessing <a href="https://w3c.github.io/sustyweb/#rigorously-assess-third-party-services">third-party code</a> / services, and <a href="https://w3c.github.io/sustyweb/#minify-your-html-css-and-javascript">minifying everything</a>.</li>
 						<li>Hunt out valueless code by <a href="https://w3c.github.io/sustyweb/#apply-tree-shaking-to-code">tree shaking your code</a>, <a href="https://w3c.github.io/sustyweb/#avoid-code-duplication">avoiding duplication</a>, <a href="https://w3c.github.io/sustyweb/#run-fewer-simpler-queries-as-possible">fewer and simpler queries</a>, and (sparingly) <a href="https://w3c.github.io/sustyweb/#use-beneficial-javascript-and-its-api-s">using the latest JavaScript and APIs</a>.</li>
 					</ul>
 					<p>In relation to <strong>code coherence</strong>, make sure you:</p>
 					<ul>
-						<li>Enable other tools to interpret your code by using <a href="https://w3c.github.io/sustyweb/#use-html-elements-correctly">HTML</a> and <a href="https://w3c.github.io/sustyweb/#use-metadata-correctly">metadata</a> correctly, adhering to <a href="https://w3c.github.io/sustyweb/#ensure-your-solutions-are-accessible">accessibility standards</a>, enabling <a href="https://w3c.github.io/sustyweb/#provide-code-based-way-finding-mechanisms">code based way-finding</a>, avoiding <a href="https://w3c.github.io/sustyweb/#avoid-using-deprecated-or-proprietary-code">deprecated or proprietary code</a>, <a href="https://w3c.github.io/sustyweb/#include-files-that-are-automatically-expected">providing expected files</a> and using the latest standards in relation to website assets.</li>
-						<li>Facilitate your visitor's low carbon choices by using a <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">mobile first layout</a> and <a href="https://w3c.github.io/sustyweb/#adapt-to-user-preferences">adapt to user preferences</a>.</li>
+						<li>Enable other tools to interpret your code by using <a href="https://w3c.github.io/sustyweb/#use-html-elements-correctly">HTML</a> and <a href="https://w3c.github.io/sustyweb/#use-metadata-correctly">metadata</a> correctly, adhering to <a href="https://w3c.github.io/sustyweb/#ensure-your-solutions-are-accessible">accessibility standards</a>, enabling <a href="https://w3c.github.io/sustyweb/#provide-code-based-way-finding-mechanisms">code-based way-finding</a>, avoiding <a href="https://w3c.github.io/sustyweb/#avoid-using-deprecated-or-proprietary-code">deprecated or proprietary code</a>, <a href="https://w3c.github.io/sustyweb/#include-files-that-are-automatically-expected">providing expected files</a>, and using the latest standards in relation to website assets.</li>
+						<li>Facilitate your visitor's low-carbon choices by using a <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">mobile-first layout</a> and <a href="https://w3c.github.io/sustyweb/#adapt-to-user-preferences">adapting to user preferences</a>.</li>
 					</ul>
 					<p>In relation to <strong>code security</strong>, make sure you:</p>
 					<ul>
@@ -356,11 +355,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</ul>
 					<p>In relation to <strong>organizational level strategy and policies</strong>, make sure you:</p>
 					<ul>
-						<li>Have <a href="https://w3c.github.io/sustyweb/#create-one-or-more-impact-business-models">business models</a> based on positive impact, which <a href="https://w3c.github.io/sustyweb/#share-decision-making-power-with-appropriate-stakeholders">actively listen to all stakeholders</a>, and ensure <a href="https://w3c.github.io/sustyweb/#share-economic-benefits">economic benefits are shared</a> with employees, suppliers and wider society.</li>
+						<li>Have <a href="https://w3c.github.io/sustyweb/#create-one-or-more-impact-business-models">business models</a> based on positive impact, which <a href="https://w3c.github.io/sustyweb/#share-decision-making-power-with-appropriate-stakeholders">actively listen to all stakeholders</a>, and ensure <a href="https://w3c.github.io/sustyweb/#share-economic-benefits">economic benefits are shared</a> with employees, suppliers, and wider society.</li>
 						<li>Define and implement policies for <a href="https://w3c.github.io/sustyweb/#use-justice-equity-diversity-inclusion-jedi-practices">Justice, Equity, Diversity and Inclusion</a>, ethical and responsible <a href="https://w3c.github.io/sustyweb/#include-responsible-financial-policies">finance / investments</a>, <a href="https://w3c.github.io/sustyweb/#include-organizational-philanthropy-policies">philanthropy</a>, working with suppliers who <a href="https://w3c.github.io/sustyweb/#create-a-supplier-standards-of-practice">align with your values</a>, <a href="https://w3c.github.io/sustyweb/#include-e-waste-right-to-repair-and-recycling-policies">reduction of e-waste</a>, <a href="https://w3c.github.io/sustyweb/#promote-responsible-data-practices">data privacy</a>, appropriate <a href="https://w3c.github.io/sustyweb/#implement-appropriate-data-management-procedures">data management</a>, and considered use of <a href="https://w3c.github.io/sustyweb/#promote-responsible-emerging-technology-practices">emerging technologies</a>.</li>
 						<li>Fully <a href="https://w3c.github.io/sustyweb/#implement-sustainability-onboarding-guidelines">induct your employees</a> on all of the above.</li>
 					</ul>
-					<p>In relation to <strong>product or website level strategy policies</strong>, make sure you:</p>
+					<p>In relation to <strong>product or website-level strategy policies</strong>, make sure you:</p>
 					<ul>
 						<li>Establish <a href="https://w3c.github.io/sustyweb/#establish-if-a-digital-product-or-service-is-necessary">if the product or website is needed</a>; if it is, then <a href="https://w3c.github.io/sustyweb/#determine-the-functional-unit">define its requirements</a>, design an ethical and sustainable <a href="https://w3c.github.io/sustyweb/#have-an-ethical-and-sustainability-product-strategy">product strategy</a> to guide it, <a href="https://w3c.github.io/sustyweb/#estimate-a-product-or-service-s-environmental-impact">estimate its emissions</a>, put <a href="https://w3c.github.io/sustyweb/#define-performance-and-environmental-budgets">budgets around those emissions</a>, and <a href="https://w3c.github.io/sustyweb/#communicate-the-ecological-impact-of-user-choices">communicate to visitors</a> the impact their decisions will have.</li>
 						<li>Once live, follow a <a href="https://w3c.github.io/sustyweb/#follow-a-product-management-and-maintenance-strategy">product management and maintenance strategy</a> to keep efficient, <a href="https://w3c.github.io/sustyweb/#implement-continuous-improvement-procedures">continuously improve it</a>, openly and honestly <a href="https://w3c.github.io/sustyweb/#document-future-updates-and-evolutions">communicate the changes you've made</a>, and <a href="https://w3c.github.io/sustyweb/#plan-for-a-digital-product-or-service-s-care-and-end-of-life">plan for its end of life</a>.</li>
@@ -377,7 +376,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     </dd><dt id="bib-data">[DATA]</dt><dd>
       <a href="https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks"><cite>Data Centres and Data Transmission Networks</cite></a>.  IEA. 11 July 2023. Informational. URL: <a href="https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks">https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks</a>
     </dd><dt id="bib-euc">[EUC]</dt><dd>
-      <a href="https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229"><cite>Questions and Answers: EU action plan on digitalising the energy system</cite></a>.  EU Comission. 18 October 2022. Informational. URL: <a href="https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229">https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229</a>
+      <a href="https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229"><cite>Questions and Answers: EU action plan on digitalising the energy system</cite></a>.  EU Commission. 18 October 2022. Informational. URL: <a href="https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229">https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229</a>
     </dd><dt id="bib-ict-impact">[ICT-IMPACT]</dt><dd>
       <a href="https://www.cell.com/patterns/pdfExtended/S2666-3899(21)00188-4"><cite>The real climate and transformative impact of ICT: A critique of estimates, trends, and regulations</cite></a>.  Charlotte Freitag, Mike Berners-Lee, Kelly Widdicks, Bran Knowles, Gordon S. Blair, and Adrian Friday. 10 September 2021. Informational. URL: <a href="https://www.cell.com/patterns/pdfExtended/S2666-3899(21)00188-4">https://www.cell.com/patterns/pdfExtended/S2666-3899(21)00188-4</a>
     </dd><dt id="bib-manifesto">[MANIFESTO]</dt><dd>

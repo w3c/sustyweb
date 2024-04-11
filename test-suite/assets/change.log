@@ -1,0 +1,28 @@
+# Changelog - BSPM12-5
+
+## [Unreleased]
+- N/A
+
+## 1.0.0 - 2023-03-03
+### Added
+- change.log File with transparent version tracking.
+- .htaccess File with Headers, Rewrites, Security, & Performance modules.
+- index.html & error.html File with metadata & content.
+- Licensed SVG images along with any generated external JPEG & PNG.
+- style.css with Base, RWD, Animate, Modes, Print, A11y & Quirks sheets.
+- Roboto Typeface from Google Fonts (self hosted).
+- humans.txt File with Website creation credits.
+- security.txt File with contact information.
+- robots.txt File with integrated sitemap link.
+- favicon.ico File with PNG's for iOS, Android, etc.
+- site.webmanifest File & browserconfig.xml for PWA's.
+- sitemap.xml File with page listings and IA for site.
+- script.js File with linted, minified JavaScript.
+
+## [Guide]
+- Added: New features.
+- Changed: Altered functionality.
+- Deprecated: Disappearing features.
+- Removed: Eliminated features.
+- Fixed: Bugs patched.
+- Security: Solved vulnerabilities.

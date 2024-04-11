@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Sustainability Metrics</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#choose-a-sustainable-hosting-provider">
+		<meta name="flags" content="">
+		<meta name="assert" content="Test Checks: Publicly Disclose Relevant Sustainability Metrics to Visitors">
+		<style>
+
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<h1>Metrics Dashboard</h1>
+		<form>
+			<fieldset>
+				<label>Datacenter Metrics</label>
+				<label for="cpu">CPU Load:</label><progress id="cpu" max="100" value="70">70%</progress>
+				<label for="gpu">GPU Load:</label><progress id="gpu" max="100" value="30">30%</progress>
+				<label for="ram">RAM Usage (GB):</label><progress id="ram" max="4000" value="2000">50%</progress>
+				<label for="data">Data Usage (GB):</label><progress id="data" max="40" value="10">25%</progress>
+			</fieldset>
+			<fieldset>
+				<p><strong>PUE:</strong> 1.2</p>
+				<p><strong>WUE:</strong> 1.1</p>
+				<p><strong>CUE:</strong> 1.4</p>
+				<p><strong>Note:</strong> History logs for our metrics and sustainability data are <a href="#">freely available here</a>.</p>
+			</fieldset>
+		</form>
+		<p>Test passes if the metrics page exists, load and sustainability metric tracking is provided, and logging of historical data is freely available.</p>
+	</body>
+</html>

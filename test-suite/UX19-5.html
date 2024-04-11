@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Closed Captions</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#provide-suitable-alternatives-to-web-assets">
+		<meta name="flags" content="asset">
+		<meta name="assert" content="Test Checks: Include WebVTT Closed Captions, Subtitles, and Sign Language Support">
+		<style>
+
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<video controls src="assets/flower.webm">
+			<track default src="assets/cues.vtt" />
+		</video>
+		<p>Test passes if closed captions are available within a video file.</p>
+	</body>
+</html>

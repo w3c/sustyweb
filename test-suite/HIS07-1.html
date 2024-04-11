@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Expiration Dates</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#maintain-a-relevant-refresh-frequency">
+		<meta name="flags" content="">
+		<meta name="assert" content="Test Checks: Ensure That Stored Data Has a Defined and Reasonable Expiry Date">
+		<style>
+
+		</style>
+		<script>
+		document.cookie = "yummy_cookie=choco";
+		document.cookie = "tasty_cookie=strawberry";
+		console.log(document.cookie);
+		</script>
+	</head>
+	<body>
+		<h1>Data Retention Policy</h1>
+		<p>We don't want to hold onto more data than is otherwise necessary, which is why we set expiry tags to store information that is not being actively used so that it may be purged within 90 days. If data is being actively used, it will be verified that the information is still relevant to retain at 6 monthly intervals and if it is no longer useful to retain, that information will be removed within 30 days (with notice given to consumers).</p>
+		<p>Test passes if the policy mentioned is put into action and data with an expiration date is purged.</p>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+/* ----------------------- */
+/* Product Website Credits */
+/* ----------------------- */
+
+
+/* TEAM */
+
+Title: Name
+Position: Job Title
+Site: https://domain.com
+Twitter: @TwitterID
+Location: Region, Country
+Contact: email@domain.com
+
+
+/* THANKS */
+
+
+Title: Name
+License: https://domain.com/license.txt
+
+
+/* You for visiting this website! */
+
+
+/* SITE */
+
+Language: English (US)
+Standards: TXT, HTML, CSS, JS
+Components: None
+Software: None
+Services: Font (Typeface), Name (Icons), Hosting, Domains
+Testing: Chrome (Mac/PC), Firefox (Mac/PC), Safari (Mac/iOS), IE (11+)
+Updated: 2024-04-08 12:02:36

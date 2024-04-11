@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Friction Data Entry</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms">
+		<meta name="flags" content="interaction">
+		<meta name="assert" content="Test Checks: Reduce Friction Within Data Entry With Automatic Assistance Settings">
+		<style>
+
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<form>
+			<label for="username">Email or Username</label><input type="text" id="username" autocomplete required aria-invalid="false" /><br>
+			<label for="password">Password</label><input type="password" id="password" autocomplete required aria-invalid="false"/><br>
+			<button id="login" class="login">Login</button>
+		</form>
+		<p>Test passes if autocomplete is enabled for login dialogs for data entry assistance.</p>
+	</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Print-Friendly Layout</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#reduce-the-impact-of-downloadable-or-physical-documents">
+		<meta name="flags" content="">
+		<meta name="assert" content="Test Checks: Add a Print-Friendly Media Query or Stylesheet">
+		<style>
+			@media print {
+				* {
+					margin: 0;
+					padding: 0; }
+				body {
+					background-color: #ffffff;
+					color: #000000;
+					font-family: Constantia, Palatino, 'Book Antiqua', 'Palatino Linotype', serif;
+					line-height: 1.5; }
+				blockquote code {
+					border: 0; }
+				blockquote, code, kbd, pre {
+					border: 1px solid grey; }
+				table, td, th {
+					border-bottom: 1px solid black; }
+				abbr[title], acronym[title] {
+					border-bottom: 1px dotted grey; }
+				table {
+					border-collapse: collapse; }
+				aside {
+					border-left: 2px solid grey;
+					padding-left: 1em; }
+				del, s {
+					color: grey; }
+				a, canvas, img {
+					color: inherit; }
+				blockquote:after {
+					content: attr(cite); }
+				dt:after {
+					content: ":"; }
+				abbr:after, acronym:after {
+					content: " (" attr(title) ")"; }
+				data:after {
+					content: " (" attr(value) ")"; }
+				time:after {
+					content: " (" attr(datetime) ")"; }
+				q:after {
+					content: "\201D" " (" attr(cite) ")"; }
+				canvas, html:after, img, picture {
+					display: block; }
+				applet, audio, blink, dialog, embed, form, iframe, map, map + img, marquee, menu, nav, object, video {
+					display: none; }
+				code, kbd, pre, samp, tt, var {
+					font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+					font-size: 0.8em; }
+				h1 {
+					font-size: 3rem; }
+				h2 {
+					font-size: 2rem; }
+				h3 {
+					font-size: 1.75rem; }
+				h4 {
+					font-size: 1.5rem; }
+				h5 {
+					font-size: 1.25rem; }
+				h6 {
+					font-size: 1rem; }
+				blockquote:after, q:after {
+					font-size: 0.75em; }
+				caption, figcaption {
+					font-style: italic; }
+				dt {
+					font-weight: bold; }
+				pre {
+					height: auto;
+					hyphens: auto;
+					overflow: auto;
+					-webkit-hyphens: auto; }
+				h1, h2, h3, h4, h5, h6 {
+					margin: 1rem 0;
+					page-break-after: avoid; }
+				canvas, img, svg {
+					margin: 1em auto; }
+				address, blockquote, details, dl, figure, ol, p, pre, ruby, table, ul {
+					margin: 1em 0; }
+				dd, ul, ol {
+					margin-left: 2em; }
+				blockquote p {
+					margin-top: 0; }
+				img {
+					border: 0;
+					max-width: 50vw; }
+				p, pre, table {
+					orphans: 4;
+					widows: 4; }
+				td, th {
+					padding: 0.1em 0.2em; }
+				code, kbd {
+					padding: 0.2em 0.3em; }
+				blockquote, pre {
+					padding: 0.5em 1em; }
+				html {
+					padding: 2em 4em; }
+				article {
+					page-break-before: always; }
+				a, blockquote, canvas, details, dl, figure, img, ol, picture, svg, table, ul {
+					break-inside: avoid;
+					page-break-inside: avoid; }
+				canvas, figure, h1, html:after, img, picture, svg, table {
+					text-align: center; }
+				a, abbr, acronym, ins {
+					text-decoration: none; }
+				u {
+					text-decoration-style: wavy; }
+				table {
+					width: 100%; }
+				a, blockquote:after, pre, q:after {
+					word-wrap: break-word; }
+			}
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<p>Test passes if the print-friendly layout is rendered during export to a physical medium.</p>
+	</body>
+</html>

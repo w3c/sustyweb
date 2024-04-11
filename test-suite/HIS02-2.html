@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Low Friction Features</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#optimize-browser-caching">
+		<meta name="flags" content="javascript">
+		<meta name="assert" content="Test Checks: Identify the Potential for PWAs and Other Low-Friction Features">
+		<link rel="manifest" href="assets/site.webmanifest">
+		<style>
+
+		</style>
+		<script>
+		
+		</script>
+	</head>
+	<body>
+		<p>Test passes if the ServiceWorker is available (and if not, at least a basic web application is offered).</p>
+	</body>
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('assets/sw.js');
+		}
+	</script>
+</html>

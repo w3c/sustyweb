@@ -1,0 +1,22 @@
+{
+	"short_name": "Name",
+	"name": "Name - Details",
+	"start_url": "/",
+	"icons": [
+	{
+		"src": "/images/x192.png",
+		"sizes": "192x192",
+		"type": "image/png"
+	},
+	{
+		"src": "/images/x512.png",
+		"sizes": "512x512",
+		"type": "image/png"
+	}
+	],
+	"background_color": "#ffffff",
+	"theme_color": "#ffffff",
+	"description": "Description.",
+	"display": "standalone",
+	"display_override": "browser"
+}

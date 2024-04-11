@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Third-Party Friction</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input">
+		<meta name="flags" content="invalid">
+		<meta name="assert" content="Test Checks: Reduce Friction Within Data Entry With Manual Third-Party Content">
+		<style>
+
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<textarea onpaste="return false;">Sorry, no pasting here!</textarea>
+		<p>Test passes if the friction-causing code is detected and flagged for removal.</p>
+	</body>
+</html>

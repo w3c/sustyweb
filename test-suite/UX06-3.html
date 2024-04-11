@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Obscuring Material</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">
+		<meta name="flags" content="interaction">
+		<meta name="assert" content="Test Checks: Check for Content Obscuring Materials That Occur Upon PageLoad">
+		<style>
+
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<h1>Welcome to this page about the zoo</h1>
+		<p>At our zoo, we have lots of animals including lions, tigers, penguins, and even a giraffe! They all have their own habitat where they live out their days and choose to spend their time and we feed them regularly. If you want to come and visit them you are more than welcome to. They like seeing new faces, especially friendly ones!</p>
+		<p>We have different tickets available including family passes which are discounted to enable larger groups to be able to join us, please choose a date that is convenient for you though remember that the summer months tend to be the busiest.</p>
+		<form>
+			<input type="button" value="Purchase Ticket (Single)" onmousedown="alert('Added to Basket!')"><br>
+			<input type="button" value="Purchase Ticket (Family)" onmousedown="alert('Added to Basket!')">
+		</form>
+		<p>Test passes if no content is obscured or clipped without a scrollbar, all links and buttons function and all disclosing materials function upon user-request and can be removed.</p>
+	</body>
+</html>

@@ -19,7 +19,7 @@ The structure of the repository has been created to ensure ease of maintenance. 
 ```
 
 /wg/charter.html			- Working Group Draft Charter
-/drafts/test-suite/			- Test Suite & Assets
+/drafts/test-suite/			- Test Suite & Assets (Source)
 /drafts/checklist.pages			- PDF Checklist (Source)
 /drafts/glance.html			- At-A-Glance (Source)
 /drafts/guidelines.json			- WSG JSON API (Source)
@@ -29,12 +29,15 @@ The structure of the repository has been created to ensure ease of maintenance. 
 /drafts/quickref.html			- Quick Reference (Source)
 /drafts/star.html			- STAR (Source)
 
+/test-suite/			- READ ONLY - Test Suite & Assets (Public)
 checklist.pdf				- READ ONLY - PDF Checklist (Public)
 glance.html				- READ ONLY - At-A-Glance (Public)
 guidelines.json				- READ ONLY - WSG JSON API (Public)
 index.html				- READ ONLY - WSG Specification (Public)
 intro.html				- READ ONLY - Introduction (Public)
+policies.html			- READ ONLY - Laws & Policies (Public)
 quickref.html				- READ ONLY - Quick Reference (Public)
+star.html			- READ ONLY - STAR (Public)
 TPAC_Slides.pdf				- READ ONLY - W3C TPAC Slides
 Web_Sustainability_GRI_Impact_est.ipynb	- READ ONLY - GRI Impact Calculator
 ```

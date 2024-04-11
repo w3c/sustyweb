@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Content Validation</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input">
+		<meta name="flags" content="interaction">
+		<meta name="assert" content="Test Checks: Ensure That Form Inputs Correctly Match and Validate Content Expectations">
+		<style>
+
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<form>
+			<label for="email">Email</label><input type="email" name="email" id="email" required>
+			<button type="submit">Submit</button>
+		</form>
+		<p>Test passes if input type is validated against the content upon submission.</p>
+	</body>
+</html>

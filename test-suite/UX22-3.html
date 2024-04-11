@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Error Handling</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#provide-useful-notifications-to-improve-the-visitor-s-journey">
+		<meta name="flags" content="interaction">
+		<meta name="assert" content="Test Checks: Provide Error Detection When User Input Is Required">
+		<style>
+
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<form autocomplete="off" spellcheck="false">
+			<div class="group">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" pattern="^[a-zA-Z][a-zA-Z0-9_]{4,20}$" required />
+			</div>
+			<div class="group">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" required>
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+		<p>Test passes if invalid data entry is responded to at the client-side with an error upon submission.</p>
+	</body>
+</html>

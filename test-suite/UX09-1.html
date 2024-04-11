@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Interaction Permissions</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention">
+		<meta name="flags" content="javascript">
+		<meta name="assert" content="Test Checks: Request Permission for Invasive Access To Interact With Content">
+		<style>
+			
+		</style>
+		<script>
+			function getLocation() {
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(showPosition);
+				} else { 
+					document.getElementById("demo").innerHTML = "Geolocation is not supported by this browser.";
+				}
+			}
+			function showPosition(position) {
+				document.getElementById("demo").innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+			}
+		</script>
+	</head>
+	<body onload="getLocation()">
+		<p id="demo"></p>
+		<p>Test passes if permissions are requested and if so, can be blocked or a user-invoked alternative is provided.</p>
+	</body>
+</html>

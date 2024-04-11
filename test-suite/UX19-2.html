@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Font Stack</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#provide-suitable-alternatives-to-web-assets">
+		<meta name="flags" content="asset">
+		<meta name="assert" content="Test Checks: Provide a Suitable Font Stack When Custom Typefaces Are Used">
+		<link rel="preload" as="font" type="font/woff2" crossorigin href="assets/Roboto.woff2">
+		<style>
+			@font-face {
+				font-family:"Roboto";
+				src:url("assets/Roboto.woff2") format("woff2");
+				font-style:normal;
+				font-weight:400;
+			}
+			body { font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<p>Test passes if multiple fallback fonts are provided in the CSS stylesheet.</p>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Image Formats</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-image-assets">
+		<meta name="flags" content="asset">
+		<meta name="assert" content="Test Checks: Implement a Range of Images of the Appropriate Format and Size">
+		<style>
+
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<picture>
+			<source srcset="assets/city.avif" />
+			<img src="assets/city.jpg" alt="Tower Blocks" />
+		</picture>
+		<p>Test passes if alternative image formats can be provided (where compatible).</p>
+	</body>
+</html>

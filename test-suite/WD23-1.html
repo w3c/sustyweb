@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Native APIs</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#take-advantage-of-native-features">
+		<meta name="flags" content="interaction">
+		<meta name="assert" content="Test Checks: Replace Code That Can Instead Use More Efficient Native APIs">
+		<style>
+
+		</style>
+		<script>
+			function getLocation() {
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(showPosition);
+				} else { 
+					document.getElementById("demo").innerHTML = "Geolocation is not supported by this browser.";
+				}
+			}
+			function showPosition(position) {
+				document.getElementById("demo").innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+			}
+		</script>
+	</head>
+	<body onload="getLocation()">
+		<p id="demo"></p>
+		<p>Test passes if native APIs are used in place of custom, complex solutions to achieve a task.</p>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Interactive Instruction</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#have-an-ethical-and-sustainability-product-strategy">
+		<meta name="flags" content="interaction">
+		<meta name="assert" content="Test Checks: Provided Interactive Instructions for a Product or Service">
+		<style>
+			section:target { background-color: white; display: block; height: 100%; position: absolute; width: 100%; }
+			section { display: none; }
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<section id="part1">
+			<h2>Part 1</h2>
+			<p>This section talks about how you can use a particular part of a product or service.</p>
+			<p><a href="#">Start</a></p>
+			<p><a href="#part2">Next</a></p>
+		</section>
+		<section id="part2">
+			<h2>Part 2</h2>
+			<p>This section talks about why the product or service exists.</p>
+			<p><a href="#part2">Previous</a></p>
+			<p><a href="#part3">Next</a></p>
+		</section>
+		<section id="part3">
+			<h2>Part 3</h2>
+			<p>This section talks about the useful new features added to the product or service.</p>
+			<p><a href="#part3">Previous</a></p>
+			<p><a href="#part4">Next</a></p>
+		</section>
+		<section id="part4">
+			<h2>Part 4</h2>
+			<p>This section talks about how you can get involved in the active community.</p>
+			<p><a href="#part4">Previous</a></p>
+			<p><a href="#">Finish</a></p>
+		</section>
+		<p>Test passes if the interactive tour is detected and is displayed appropriately.</p>
+		<p><a href="#part1">Start</a></p>
+	</body>
+</html>

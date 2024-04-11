@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Title</title>
+		<link>https://example.com/</link>
+		<description>Description.</description>
+		<atom:link rel="self" href="https://example.com/rss.xml" type="application/rss+xml" />
+		<item>
+			<title>Title</title>
+			<description>Description.</description>
+			<link>https://example.com/article.html</link>
+		</item>
+	</channel>
+</rss>

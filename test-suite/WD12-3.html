@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WSG Test: Semantic Markup</title>
+		<link rel="author" title="Alexander Dawson" href="https://alexanderdawson.com/">
+		<link rel="help" href="https://w3c.github.io/sustyweb/#use-metadata-correctly">
+		<meta name="flags" content="">
+		<meta name="assert" content="Test Checks: Ensure Content Is Structured Using Microdata">
+		<style>
+
+		</style>
+		<script>
+
+		</script>
+	</head>
+	<body>
+		<div itemscope itemtype="https://schema.org/Person">
+			<span itemprop="name">Jane Doe</span>
+			<span itemprop="jobTitle">Professor</span>
+			<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+				<span itemprop="streetAddress">
+				20341 Whitworth Institute
+				405 N. Whitworth
+				</span>
+				<span itemprop="addressLocality">Seattle</span>,
+				<span itemprop="addressRegion">WA</span>
+				<span itemprop="postalCode">98052</span>
+			</div>
+			<span itemprop="telephone">(425) 123-4567</span>
+			<a href="mailto:jane-doe@xyz.edu" itemprop="email">
+				jane-doe@xyz.edu</a>
+		</div>
+		<p>Test passes if Microdata is identified and marked up correctly.</p>
+	</body>
+</html>
