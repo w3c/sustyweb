@@ -9,13 +9,14 @@
 			Fix for Definition Cross-Linking Usage In: https://github.com/w3c/sustyweb/issues/21
 			Fix for Visited Link Issue: https://github.com/w3c/sustyweb/issues/26
 			Fix for Specification Readability: https://github.com/w3c/sustyweb/issues/92
+			Fix for Printing The Specification: https://github.com/w3c/sustyweb/issues/92
 		-->
 		<style>
 			@media screen and (max-width: 550px) { #title { margin-top: 4em; } }
 			.alert { background-color: #ff9fae; }
 			.hidden { display: none; visibility: hidden; }
 			.resources a:visited:not(.bibref) { color: #717171; }
-
+			@media print { section section:last-child h4, section section:last-child .self-link, section section:last-child summary { display: none; } body { margin-left: 1.6em !important; padding-left: 1.6em !important; } }
 			.note pre { background-color: #fafafa;}
 			.note .subtitle { margin-top: 2.5em; }
 			.note .rating, .note .reporting { display: flex; }
