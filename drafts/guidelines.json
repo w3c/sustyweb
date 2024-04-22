@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Sixth Draft",
-	"lastModified": "2024-04-11",
+	"lastModified": "2024-04-22",
 	"category": [
 		{
 			"id": "1",
@@ -132,6 +132,7 @@
 							"6 Powerful User Research Methods to Boost Hypothesis Validation": "https://uxplanet.org/6-powerful-user-research-methods-to-boost-hypothesis-validation-58c491461075",
 							"9 bogus reasons why some designers claim UX Research is a waste": "https://uxdesign.cc/9-bogus-reasons-why-some-designers-claim-ux-research-is-a-waste-5ddf3d030851",
 							"[AFNOR] Spec 5.1.1 & 5.1.2 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
+							"Creating And Maintaining A Voice Of Customer Program": "https://www.smashingmagazine.com/2023/11/creating-maintaining-voice-customer-program/",
 							"Design Justice Network Principles": "https://designjustice.org/read-the-principles",
 							"Deceptive Patterns": "https://www.deceptive.design/",
 							"Digital Eco-Design: Define the must haves and eliminate the non-essential": "https://eco-conception.designersethiques.org/guide/en/content/1-define-need.html",
@@ -697,6 +698,7 @@
 					"resources": [
 						{
 							"48 Cart Abandonment Rate Statistics 2023": "https://baymard.com/lists/cart-abandonment-rate",
+							"An empirical study on the performance and energy costs of ads and analytics in mobile web apps": "https://www.sciencedirect.com/science/article/pii/S0950584923002252",
 							"Biased By Design": "https://biasedbydesign.com/",
 							"Climate change SEO survey": "https://searchengineland.com/climate-change-seo-survey-making-web-more-sustainable-438209",
 							"Dark pattern": "https://en.wikipedia.org/wiki/Dark_pattern",
@@ -2017,6 +2019,7 @@
 							"How web bloat impacts users with slow devices": "https://danluu.com/slow-device/",
 							"Introducing Web Vitals": "https://blog.chromium.org/2020/05/introducing-web-vitals-essential-metrics.html",
 							"Investigating the correlation between performance scores and energy consumption of mobile web apps (PDF)": "https://www.ivanomalavolta.com/files/papers/EASE_2020.pdf",
+							"iOS 404": "https://ios404.com/",
 							"Learn Testing": "https://web.dev/learn/testing?hl=en",
 							"Microsoft Green Design Principles (PDF)": "https://wxcteam.microsoft.com/download/Microsoft-Green-Design-Principles.pdf",
 							"Mise à jour logicielle : il est urgent de légiférer (French)": "https://www.greenit.fr/2019/03/19/mise-a-jour-logicielle-il-est-urgent-de-legiferer/",
@@ -2459,6 +2462,7 @@
 					"resources": [
 						{
 							"AdGreen": "https://weareadgreen.org/",
+							"An empirical study on the performance and energy costs of ads and analytics in mobile web apps": "https://www.sciencedirect.com/science/article/pii/S0950584923002252",
 							"Building for sustainability with WordPress": "https://sustywp.com/",
 							"Cookies, Pixels, and Tags": "https://www.osano.com/articles/privacy-cookies-pixels-and-tags",
 							"Digital Eco-Design: Plugins and widgets": "https://eco-conception.designersethiques.org/guide/en/content/5-5-widget.html",
@@ -4954,6 +4958,7 @@
 							"How to Write a Sustainability Report": "https://esgthereport.com/what-is-esg/the-g-in-esg/how-to-write-a-sustainability-report/",
 							"Impact Reporting": "https://www.sopact.com/guides/impact-reporting",
 							"More than values: The value-based sustainability reporting that investors want": "https://www.mckinsey.com/capabilities/sustainability/our-insights/more-than-values-the-value-based-sustainability-reporting-that-investors-want",
+							"Our Digital Greenwashing Guide": "https://www.mightybytes.com/blog/digital-greenwashing-guide/",
 							"Sustainability Accounting Standards Board": "https://sasb.org/",
 							"Sustainability Regulations for Business": "https://greenbusinessbureau.com/blog/sustainability-regulations-for-business-a-brief-review/",
 							"Sustainability Reporting tips (PDF)": "https://www.pwc.com/gx/en/audit-services/corporate-reporting/sustainability-reporting/assets/pwc-sustainability-reporting-tips-private-sector.pdf",
