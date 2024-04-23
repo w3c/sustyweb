@@ -19,15 +19,15 @@ The structure of the repository has been created to ensure ease of maintenance. 
 ```
 
 /wg/charter.html			- Working Group Draft Charter
-/drafts/test-suite/			- Test Suite & Assets (Source)
+/drafts/test-suite/				- Test Suite & Assets (Source)
 /drafts/checklist.pages			- PDF Checklist (Source)
 /drafts/glance.html			- At-A-Glance (Source)
 /drafts/guidelines.json			- WSG JSON API (Source)
 /drafts/index.html			- WSG Specification (Source)
 /drafts/intro.html			- Introduction (Source)
-/drafts/policies.html			- Laws & Policies (Source)
+/drafts/policies.html				- Laws & Policies (Source)
 /drafts/quickref.html			- Quick Reference (Source)
-/drafts/star.html			- STAR (Source)
+/drafts/star.html				- STAR (Source)
 
 /test-suite/			- READ ONLY - Test Suite & Assets (Public)
 checklist.pdf				- READ ONLY - PDF Checklist (Public)
