@@ -393,7 +393,7 @@
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs">2.2 Assess and Research Visitor Needs</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Go beyond the remit of <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> and accessibility by default and to encourage designers and developers of products to test their creations against a range of specific named types of disabilities to both better understand the conditions and to be able to more structurally and sustainably better test for the unique issues each disability brings to technology in terms of adaptation.</p>
-								<p>It is strongly encouraged that teams work with individuals with disabilities when attempting this task as they will have the lived experience to help you better adapt your products and services to their needs. If this isn't possible or you wish to theorize against certain pre-built profiles, you can refer to established medical texts to identify potential symptoms and refer these against issues that may cause technology friction, building solutions, and / or simulators (see color blindness) to help test for issues along the creation process.</p>
+								<p>It is strongly encouraged that teams work with individuals with disabilities when attempting this task as they will have the lived experience to help you better adapt your products and services to their needs. If this isn't possible or you wish to theorize against certain pre-built profiles, you can refer to established medical texts to identify potential symptoms and refer these against issues that may cause technology issues, building solutions, and / or simulators (see color blindness) to help test for issues along the creation process.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>The use of a color-blind filter such as the one built into browser DevTools or another <a href="https://github.com/interaktivarum/rgblind?tab=readme-ov-file">third-party solution</a> potentially helps to identify contrast issues that might not otherwise be detected within an existing website.</li>
@@ -402,7 +402,7 @@
 								<p>Procedure</p>
 								<ol>
 									<li>Identify visitors or individuals with disabilities who can help you become more accessible.</li>
-									<li>Create testable profiles from symptom / issue lists that cause friction.</li>
+									<li>Create testable profiles from symptom / issue lists that cause issues.</li>
 									<li>Check that potential solutions don't interfere with existing functionality.</li>
 									<li>Create and implement newly calibrated accessibility features.</li>
 									<li>Check that the features work as implemented against all existing functionality.</li>
@@ -450,7 +450,7 @@
 							<summary id="UX06-1">UX06-1: Measure Interaction Cost To Reach Every Page in the Information Architecture</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6 Create a Frictionless Lightweight Experience by Default</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6 Create a Lightweight Experience by Default</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Reduce the cognitive load for visitors between the initial visit to a website or application and reaching their final destination where the information they are seeking is located. The path to locating such information can be routed through multiple interactions such as a search mechanism, hyperlinks, form controls (where appropriate), and progressive disclosure features (reducing the complexity involved in reaching a destination will reduce the rendering load leading to sustainability benefits).</p>
 								<p>While there is no hard and fast rule regarding the number of clicks required to meet a visitor's expectations, including clear way-finding (breadcrumbs can be machine-identified as can landing page regions to guide visitors along the path). It is therefore a sensible precaution to ensure that the steps required are well documented to avoid overwhelming a visitor. If required, click-through testing can be measured to identify bottlenecks in complex applications.</p>
@@ -480,7 +480,7 @@
 							<summary id="UX06-3">UX06-3: Check for Content Obscuring Materials That Occur Upon PageLoad</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6 Create a Frictionless Lightweight Experience by Default</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6 Create a Lightweight Experience by Default</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Ensure that visitors can read the materials produced for your website or application and click on interactive content (such as links or buttons) that would otherwise be impaired by other content that due to positioning obscures the material by preventing the page from functioning correctly (wasted clicks, especially if JavaScript functions monitor them could lead to emission costs so its best to avoid unnecessary actions).</p>
 								<p>There will be occasions when content should be obscured to progressively disclose additional content, but for unintentional overlapping, obscuring deliberately for attention (unnecessary), and all cases where the visitor did not ask to be impacted, the visibility of the content should be assured (either manually or mechanically through identifying object locations and dimensions plus where conflicts arise, issue remedial advice).</p>
@@ -509,7 +509,7 @@
 							<summary id="UX06-4">UX06-4: Break Large Pieces of Content Down Using Progressive Disclosure</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6 Create a Frictionless Lightweight Experience by Default</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6 Create a Lightweight Experience by Default</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Help increase the readability of content within a website or application by breaking down larger pieces of content into smaller constituent pieces. In the same way that a book is broken down into chapters, using progressive disclosure you can reveal sections when the reader is ready, avoiding information overload (the same can be done with long tasks).</p>
 								<p>For machine testability, identification of such progressive disclosure markers can be found using the HTML details or dialog element, the CSS target selector (and its accompanying HTML ID attributes), the CSS checkbox hack, the use of JavaScript HashBangs, and also the use of state (and content) changes through various frameworks. Each of these can build a picture of how content displays on-screen during the user-experience, and some can load content only when it is requested which can reduce data transfer and rendering requests leading to sustainability improvements.</p>
@@ -538,9 +538,9 @@
 							<summary id="UX06-5">UX06-5: Remove Any Non-User Initiated Pop-Up or Model Windows</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6 Create a Frictionless Lightweight Experience by Default</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6 Create a Lightweight Experience by Default</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Reduce friction within the user-experience and help reduce the number of dark patterns which might occur onLoad and during the interaction process as these can cause considerable sustainability issues as a result of wasted emissions. By ensuring that the visitor remains in control of the interface and that websites and applications work as expected, a more ethical and optimized product or service is likely to result.</p>
+								<p>Reduce problematic friction within the user-experience and help reduce the number of dark patterns which might occur onLoad and during the interaction process as these can cause considerable sustainability issues as a result of wasted emissions. By ensuring that the visitor remains in control of the interface and that websites and applications work as expected, a more ethical and optimized product or service is likely to result.</p>
 								<p>Machine testing can analyze JavaScript for the use of popup events, the appearance of "_blank" within hyperlinks or frames, or other functionality that exists that may produce overlays. It's important to question the acceptability of such usage for example, opening links in new windows may be acceptable for non-web formats like PDF, otherwise, it's best to advise against its use.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -710,9 +710,9 @@
 							</div>
 						</details>
 					</li>
-					<li> <!-- UX09-2: Encourage Features That Reduce the Friction When Achieving Tasks -->
+					<li> <!-- UX09-2: Encourage Features That Help Visitors Achieve Tasks -->
 						<details>
-							<summary id="UX09-2">UX09-2: Encourage Features That Reduce the Friction When Achieving Tasks</summary>
+							<summary id="UX09-2">UX09-2: Encourage Features That Help Visitors Achieve Tasks</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention">2.9 Respect the Visitor's Attention</a>.</p>
@@ -747,7 +747,7 @@
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention">2.9 Respect the Visitor's Attention</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Allow the visitor to achieve the task they initially set out to do and not trigger unnecessary friction in the user-experience which would undermine their ability to complete the said task. Issues such as infinite scrolling can promote a need for continued browsing (which can load excessive data and have a sustainability impact on rendering) and loading overlays that deviate visitors from their path will have wider societal impacts on ESG targets which need to be considered.</p>
+								<p>Allow the visitor to achieve the task they initially set out to do and not trigger unnecessary issues in the user-experience which would undermine their ability to complete the said task. Issues such as infinite scrolling can promote a need for continued browsing (which can load excessive data and have a sustainability impact on rendering) and loading overlays that deviate visitors from their path will have wider societal impacts on ESG targets which need to be considered.</p>
 								<p>Within this technique, machine testability can be considered by examining if common link pagination landmarks (previous, next, &lt;numbers&gt;, etc) exist within category listings and if overlays or attention-keeping features are detected for common patterns (such as those mentioned in the examples below). If screen addition mechanisms are determined to be in use within a website, this should be considered a failing mark against the related success criteria.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -806,7 +806,7 @@
 								<p>Machine testability for deceptive patterns will vary based on the type in use however the potential to integrate artificial intelligence to assist with more subtle uses of manipulation within tooling could be used. More obvious issues derided from code injection can be flagged and reported as problematic.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li>Disabling interface functionality such as the ability to highlight / select the text, right-click on content, copy the content to the clipboard, print, or paste passwords from management software can cause significant friction.</li>
+									<li>Disabling interface functionality such as the ability to highlight / select the text, right-click on content, copy the content to the clipboard, print, or paste passwords from management software can cause significant problematic friction.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -997,7 +997,7 @@
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#write-with-purpose-in-an-accessible-easy-to-understand-format">2.14 Write With Purpose, in an Accessible, Easy To Understand Format</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Make the content within your website or application more legible to individuals who may struggle with more technical language. Techniques such as lowering the reading age, removing industry terms (or clearly defining them), and having translations for international audiences can help get your message across and reduce on-page friction.</p>
+								<p>Make the content within your website or application more legible to individuals who may struggle with more technical language. Techniques such as lowering the reading age, removing industry terms (or clearly defining them), and having translations for international audiences can help get your message across.</p>
 								<p>This technique is most useful when dealing with a large body of content that the visitor has to wade through to complete a task. Being able to reduce screen time by improving the ease at which visitors can comprehend a topic will ultimately allow for an experience that feels faster and discriminates less against individuals who may struggle with highly technical content.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -1434,9 +1434,9 @@
 							</div>
 						</details>
 					</li>
-					<li> <!-- UX18-2: Provide Only WOFF Custom Typefaces Within a Set Limit -->
+					<li> <!-- UX18-2: Use Modern, Efficient Custom Typefaces Within a Set Limit -->
 						<details>
-							<summary id="UX18-2">UX18-2: Provide Only <abbr title="Web Open Font Format">WOFF</abbr> Custom Typefaces Within a Set Limit</summary>
+							<summary id="UX18-2">UX18-2: Use Modern, Efficient Custom Typefaces Within a Set Limit</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-typefaces">2.18 Take a More Sustainable Approach to Typefaces</a>.</p>
@@ -1453,7 +1453,7 @@
 									<li>Check that the number of custom typefaces does not exceed five.</li>
 									<li>Check that fonts are preloaded within the head of the HTML document.</li>
 									<li>Check that no obsolete font formats are listed (such as <abbr title="Embedded OpenType">EOT</abbr>, <abbr title="TrueType Font">TTF</abbr>, <abbr title="Scalable Vector Graphic">SVG</abbr>).</li>
-									<li>Check that fonts are only provided using <abbr title="Web Open Font Format 2.0">WOFF2</abbr> or WOFF as a fallback.</li>
+									<li>Check that fonts are only provided using <abbr title="Web Open Font Format 2.0">WOFF2</abbr> or <abbr title="Web Open Font Format">WOFF</abbr> as a fallback.</li>
 									<li>Check that if a custom font is variable enabled (refer to font a preferred), remove other references (bold, italic, etc).</li>
 								</ol>
 								<p>Expected Results</p>
@@ -1585,7 +1585,7 @@
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li><a href="https://meryl.net/webvtt/">Meryl Evans has a great example</a> with some basic code (and links to further materials on using the WebVTT format for providing essential captioning for your videos. It's covered in <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API">more depth on MDN</a>.</li>
-									<li>Paying for a sign language interpreter for your videos can offer added value to your content. It can be easier to understand than written content, reduces accessibility friction, and increases satisfaction levels.</li>
+									<li>Paying for a sign language interpreter for your videos can offer added value to your content. It can be easier to understand than written content, reduces accessibility issues, and increases satisfaction levels.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -1607,8 +1607,8 @@
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms">2.20 Provide Accessible, Usable, Minimal Web Forms</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Reduce the amount of friction that occurs when information is required to be entered on a form control within a user-interface. By identifying how many elements must be filled out (and those which are not mandatory being eliminated), clearly labeling how such components need to be filled out (and how many steps there are), plus having links to data collection policies, this friction can be substantially reduced.</p>
-								<p>Reducing form friction can lead to less unnecessary data transmission which is not only beneficial in terms of privacy and security (the social component of ESG) but also having fewer form elements or steps to render will have an emissions reduction due to the lower amount of individual elements to render to the screen (and the visitor will spend less time on-screen filling the forms in).</p>
+								<p>Reduce the amount of inteference that occurs when information is required to be entered on a form control within a user-interface. Identify how many elements must be filled out (and those which are not mandatory being eliminated), clearly label how such components need to be filled out (and how many steps there are), plus have links to data collection policies.</p>
+								<p>Such actions can lead to less unnecessary data transmission which is not only beneficial in terms of privacy and security (the social component of ESG) but also having fewer form elements or steps to render will have an emissions reduction due to the lower amount of individual elements to render to the screen (and the visitor will spend less time on-screen filling the forms in).</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>Domain Registrar <a href="https://iwantmyname.com/support">iWantMyName</a> takes form filling to the most minimal extent possible on their contact page, only providing three essential fields to deal with requests, each of which is clearly labeled.</li>
@@ -1630,14 +1630,14 @@
 							</div>
 						</details>
 					</li>
-					<li> <!-- UX20-2: Reduce Friction Within Data Entry With Automatic Assistance Settings -->
+					<li> <!-- UX20-2: Allow For Data Entry With Automatic Assistance Settings -->
 						<details>
-							<summary id="UX20-2">UX20-2: Reduce Friction Within Data Entry With Automatic Assistance Settings</summary>
+							<summary id="UX20-2">UX20-2: Allow For Data Entry With Automatic Assistance Settings</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms">2.20 Provide Accessible, Usable, Minimal Web Forms</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Provide a mechanism within forms to reduce friction that might occur during necessary data entry. Such data entry will cause visitors to spend time onscreen and as such will generate emissions in addition to frustration from failed attempts leading to potential escalation of such emissions being triggered (while also conserving bandwidth).</p>
+								<p>Provide a mechanism within forms during necessary data entry to allow automated tooling to provide necessary assistance. Such data entry will cause visitors to spend less time onscreen and as such will generate fewer emissions in addition to less frustration from failed attempts that would otherwise lead to potential escalation of such emissions being triggered (while also conserving bandwidth).</p>
 								<p>For machine testability, the autocomplete attribute should be disabled in all form inputs outside of those likely to be utilized / assisted by a password manager (this is especially true where the suggestions do not come from a visitor device but a third-party and additional bandwidth or rendering processes are likely to be endured). A list of such inputs can be identified from a common password manager and marked against each form for correctness.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -1693,8 +1693,8 @@
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#provide-useful-notifications-to-improve-the-visitor-s-journey">2.22 Provide Useful Notifications To Improve The Visitor's Journey</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Provide a mechanism to notify the visitor if an issue has occurred during the form-filling process that may be remedied either before or after the submission process has occurred to resolve the issue before it reaches its intended location. Providing error detection and assistance can reduce friction and screen time searching for answers.</p>
-								<p>Machine testability for error detection would require the submission of dummy data (incorrectly) into a form of required elements to test the durability of the process to see if instructional recommendations are given. Such prompts that either correct or guide the visitor can be deemed to pass the Success Criteria. If no guidance is offered or if forms are incorrectly labeled, leading to errors, this would qualify as a failure as visitor friction will occur.</p>
+								<p>Provide a mechanism to notify the visitor if an issue has occurred during the form-filling process that may be remedied either before or after the submission process has occurred to resolve the issue before it reaches its intended location. Providing error detection and assistance can reduce screen time searching for answers.</p>
+								<p>Machine testability for error detection would require the submission of dummy data (incorrectly) into a form of required elements to test the durability of the process to see if instructional recommendations are given. Such prompts that either correct or guide the visitor can be deemed to pass the Success Criteria. If no guidance is offered or if forms are incorrectly labeled, leading to errors, this would qualify as a failure.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>This <a href="https://www.w3.org/WAI/WCAG22/working-examples/script-form-validation-2/index.php">example of client-side form validation</a> based on <a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR32.html">WCAG Technique SCR32</a> showcases a classic example of error handling and how providing a response to the user input when failure occurs is important.</li>
@@ -2035,7 +2035,7 @@
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#incorporate-compatibility-testing-into-each-release-cycle">2.29 Incorporate Compatibility Testing Into Each Release-Cycle</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism for introducing visitors to new features and capabilities within websites and applications upon a major release being triggered. This would include compatibility changes, any alterations that affect workflow, and bugs that have been resolved. It applies equally to both applications on upgrade paths and website redesigns.</p>
-								<p>The importance of re-orientating users around breaking changes is crucial as modifications made could lead to errors in usage, increases in technical support, friction in usability or accessibility, or introduction of issues that may lead to multiple impacting ESG factors that could be resolved through training, answered questions, and well-signposted information architecture.</p>
+								<p>The importance of re-orientating users around breaking changes is crucial as modifications made could lead to errors in usage, increases in technical support, problematic friction in usability or accessibility, or introduction of issues that may lead to multiple impacting ESG factors that could be resolved through training, answered questions, and well-signposted information architecture.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>Using <a href="https://semver.org/">Semantic Versioning</a>, providers through their release notes (which if publicly available could be machine tested against), could easily identify a major (breakable significant), against a minor (non-breaking) release.</li>
@@ -2745,7 +2745,7 @@
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input">3.11 Validate Form Errors and External Input</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Ensure that input types correctly match the type of content being placed within them, that content types like passwords are handled in a way that visitors can easily reveal them, and that the patterns attribute is used correctly to help reduce errors during data entry. In doing so, friction encountered during form filling can be reduced as can erroneous submissions.</p>
+								<p>Ensure that input types correctly match the type of content being placed within them, that content types like passwords are handled in a way that visitors can easily reveal them, and that the patterns attribute is used correctly to help reduce errors during data entry. In doing so, problematic friction encountered during form filling can be reduced as can erroneous submissions.</p>
 								<p>Machine testability for this criteria will involve analyzing the components of forms to ensure they are well formed and that (for example) any regular expressions used in patterns will not produce an erroneous result. It is also important that functionality within forms perform well on mobile devices as well as desktop so consideration must be given to the choice of input for tasks.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -2792,9 +2792,9 @@
 							</div>
 						</details>
 					</li>
-					<li> <!-- WD11-3: Reduce Friction Within Data Entry With Manual Third-Party Content -->
+					<li> <!-- WD11-3: Reduce Issues Within Data Entry With Manual Third-Party Content -->
 						<details>
-							<summary id="WD11-3">WD11-3: Reduce Friction Within Data Entry With Manual Third-Party Content</summary>
+							<summary id="WD11-3">WD11-3: Reduce Issues Within Data Entry With Manual Third-Party Content</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input">3.11 Validate Form Errors and External Input</a>.</p>
@@ -3475,14 +3475,14 @@
 							</div>
 						</details>
 					</li>
-					<li> <!-- HIS02-2: Identify the Potential for PWAs and Other Low-Friction Features -->
+					<li> <!-- HIS02-2: Identify the Potential for PWAs and Other Useful Features -->
 						<details>
-							<summary id="HIS02-2">HIS02-2: Identify the Potential for <abbr title="Progressive Web Applications">PWAs</abbr> and Other Low-Friction Features</summary>
+							<summary id="HIS02-2">HIS02-2: Identify the Potential for <abbr title="Progressive Web Applications">PWAs</abbr> and Other Useful Features</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#optimize-browser-caching">4.2 Optimize Browser Caching</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Identify if techniques could be used to reduce friction within the user-experience. Examples of this could include identifying if cookies could (and should) be used within an interface or if the website or application could be transformed into a progressive web application to provide advantages (project-wide) such as offline availability.</p>
+								<p>Identify if techniques could be used to increase the performance within the user-experience. Examples of this could include identifying if cookies could (and should) be used within an interface or if the website or application could be transformed into a progressive web application to provide advantages (project-wide) such as offline availability.</p>
 								<p>Machine testability to identify existing features is relatively straightforward as it simply requires identifying through the source code where cookies, local database requests, service, or web workers are implemented and ensuring that they are both proportionate and correctly marked up. If these don't exist it will require analyzing the page (or components) for potential opportunities for use.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -3839,7 +3839,7 @@
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs">4.12 Store Data According to Visitor Needs</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Increase findability within content by offering mechanisms within the page for visitors to filter the results of potential content they are seeking by category, tag, or other variables. How this feature is presented to visitors can differ between implementations as there are several well-defined patterns, but they can reduce friction in the user-experience.</p>
+								<p>Increase findability within content by offering mechanisms within the page for visitors to filter the results of potential content they are seeking by category, tag, or other variables. How this feature is presented to visitors can differ between implementations as there are several well-defined patterns, but they can reduce problematic friction in the user-experience.</p>
 								<p>Machine testability for such features will involve examining the page's source code to identify repeating patterns across several pages (if correctly labeled, patterns such as tags or categories may be semantically easy to find). The sustainability of such implementations must account for the impact it has upon rendering across each page, against the benefit it has to the visitor experience.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -3959,7 +3959,7 @@
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#have-an-ethical-and-sustainability-product-strategy">5.1 Have an Ethical and Sustainability Product Strategy</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Go beyond extensive documentation for a website or application and to offer optional interactive tuition for your product or service. This can take the form of guided tours, in-app assistance, or even video tutorials. The important thing is that visitors can acquaint themselves with the environment you provide and reduce unnecessary friction. Learning how to use a project quickly can also reduce wasted hardware utilization.</p>
+								<p>Go beyond extensive documentation for a website or application and to offer optional interactive tuition for your product or service. This can take the form of guided tours, in-app assistance, or even video tutorials. The important thing is that visitors can acquaint themselves with the environment you provide and reduce problematic friction. Learning how to use a project quickly can also reduce wasted hardware utilization.</p>
 								<p>Unlike documentation, instructional material that is integrated within a product or service will be harder to machine test against (as it will be tightly merged into a codebase), however, being able to identify the settings to enable such features should be achievable (as input boxes can be read), or if such instruction is provided on a dedicated subdomain, locating that resource.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
