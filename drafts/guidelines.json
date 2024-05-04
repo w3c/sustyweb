@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Sixth Draft",
-	"lastModified": "2024-05-03",
+	"lastModified": "2024-05-04",
 	"category": [
 		{
 			"id": "1",
@@ -1682,7 +1682,6 @@
 							"A Complete Guide to Usability Testing": "https://www.uxmatters.com/mt/archives/2023/05/a-complete-guide-to-usability-testing.php",
 							"A Comprehensive Guide To User Testing": "https://www.smashingmagazine.com/2018/03/guide-user-testing/",
 							"A comprehensive list of UX design methods & deliverables": "https://uxdesign.cc/a-comprehensive-list-of-ux-design-methods-deliverables-2021-2feb3e70e168",
-							"Inclusive Design Principles": "https://inclusivedesignprinciples.org/",
 							"Learn Accessibility": "https://web.dev/learn/accessibility?hl=en",
 							"Little Book of Accessibility": "https://uxdesign.cc/the-little-book-of-accessibility-a9b59d82b412",
 							"Microsoft Inclusive Design": "https://inclusive.microsoft.design/",
@@ -1756,7 +1755,6 @@
 							"Hacksplaning": "https://www.hacksplaining.com/lessons",
 							"High Performance Browser Networking": "https://hpbn.co/",
 							"How UX design can help tackle climate change": "https://www.cyber-duck.co.uk/insights/how-sustainable-design-can-help-climate-change",
-							"Inclusive Design Principles": "https://inclusivedesignprinciples.org/",
 							"Learn Accessibility": "https://web.dev/learn/accessibility?hl=en",
 							"Learn Performance": "https://web.dev/learn/performance?hl=en",
 							"Measuring Web Performance in 2024: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance/",
