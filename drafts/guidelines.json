@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Sixth Draft",
-	"lastModified": "2024-05-17",
+	"lastModified": "2024-06-17",
 	"category": [
 		{
 			"id": "1",
@@ -6276,10 +6276,10 @@
 					],
 					"GRI": [
 						{
-							"materials": "High",
-							"energy": "High",
-							"water": "High",
-							"emissions": "High"
+							"materials": "Medium",
+							"energy": "Medium",
+							"water": "Medium",
+							"emissions": "Medium"
 						}
 					],
 					"example": [
