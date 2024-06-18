@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Sixth Draft",
-	"lastModified": "2024-06-17",
+	"lastModified": "2024-06-18",
 	"category": [
 		{
 			"id": "1",
@@ -5577,7 +5577,7 @@
 							"How to Motivate People Toward Sustainability": "https://nbs.net/how-to-motivate-people-toward-sustainability/",
 							"Living Wage Network": "https://www.livingwagenetwork.org/",
 							"Sustainability innovations and firm competitiveness": "https://www.sciencedirect.com/science/article/pii/S0959652620347594",
-							"The Real Living Wage Is A Core Part Of Any ESG Agenda": "https://www.livingwage.org.uk/news/real-living-wage-core-part-any-esg-agenda",
+							"The Real Living Wage Is A Core Part Of Any ESG Agenda": "https://livingwage.org.uk/news/real-living-wage-core-part-any-esg-agenda",
 							"What is an Accessibility Advocate?": "https://medium.com/@a11ycompass/what-is-an-accessibility-advocate-8cbbac0d6c6c",
 							"What's the best way to incentivize supplier sustainability?": "https://www.greenbiz.com/article/whats-best-way-incentivize-supplier-sustainability"
 						}
@@ -6212,7 +6212,6 @@
 							"Audits d'écoconception - conclusion (French)": "https://ldevernay.github.io/green/2020/07/05/audits-conclusion.html",
 							"Browser Rendering Optimization": "https://www.udacity.com/course/browser-rendering-optimization--ud860",
 							"Can You Afford It?: Real-world Web Performance Budgets": "https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/",
-							"CO2 emissions on the web": "https://www.dannyvankooten.com/blog/2020/website-carbon-emissions/",
 							"CO2.js": "https://www.thegreenwebfoundation.org/co2-js/",
 							"Core Web Vitals For SEOs & Developers": "https://ahrefs.com/blog/core-web-vitals/",
 							"Fast Load Times: Set performance budgets": "https://web.dev/explore/fast?hl=en#set-performance-budgets",
