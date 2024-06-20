@@ -3404,17 +3404,18 @@
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#choose-a-sustainable-hosting-provider">4.1 Choose a Sustainable Hosting Provider</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Ensure that anyone who wishes to compile an impact statement (as a consumer of your services) based on conditions such as <abbr title="Power Usage Effectiveness">PUE</abbr>, <abbr title="Water Usage Effectiveness">WUE</abbr>, and <abbr title="Carbon Usage Effectiveness">CUE</abbr> can calculate the necessary energy utilization of a provider using the available data. Making important metrics publicly visible to both customers and visitors, increases awareness, reduces the potential for greenwashing, and allows service providers to report with proof of compliance.</p>
-								<p>For machine testability, this would require each customer account (of a hosting provider) to be equipped with a publicly visible stats page indicating resource utilization, including useful information on variables like CPU, GPU, RAM, and data usage, plus a calculation on equivalent water or other consumable resource utilization. This can be linked to from within the service status page.</p>
+								<p>Ensure that anyone who wishes to compile an impact statement (as a consumer of your services) based on conditions such as <abbr title="Power Usage Effectiveness">PUE</abbr>, <abbr title="Water Usage Effectiveness">WUE</abbr>, and <abbr title="Carbon Usage Effectiveness">CUE</abbr> can calculate the necessary energy utilization of a provider using each of the available data based upon any variables required. Making important metrics publicly visible to both customers and visitors, increases awareness, reduces the potential for greenwashing, and allows service providers to report with proof of compliance.</p>
+								<p>For machine testability, this would require each customer account (of a hosting provider) to be equipped with a publicly visible stats page indicating resource utilization, including useful information on variables like CPU, GPU, RAM, and data usage, plus a calculation on equivalent water or other consumable resource utilization. This can be linked to from within the service status page. In addition, the methodology behind the calculations should also be provided in a centralized location.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
+									<li><a href="https://corporate.ovhcloud.com/en/sustainability/environment/">OVHCloud</a> and <a href="https://pue.dc5.scaleway.com/en/">Scaleway</a> both showcase different ways of displaying data about their environmental impact and notably, the variables that make up that number (with calculations and individual metrics provided). Both dashboards and sustainability panels are equally useful tools for showcasing such information.</li>
 									<li>A service provider could make the internal resource usage stats page that comes with many hosting packages publicly visible (upon request of the website or application provider), and include sustainability data within.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
 								<ol>
 									<li>Check that the provider has made available relevant hosting metrics publicly.</li>
-									<li>Check that the PUE, WUE, and CUE are listed for each data center.</li>
+									<li>Check that the PUE, WUE, and CUE are each listed for each data center.</li>
 									<li>Check that individual servers provide live CPU, GPU, RAM, and data use tracking.</li>
 									<li>Check that logging of past values over time is provided for calculating emissions.</li>
 								</ol>
@@ -3516,7 +3517,7 @@
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#compress-your-files">4.3 Compress Your Files</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism to serve content correctly using a recognized encoding method to reduce the payload size of websites and applications. While this means there will be an additional rendering effort on the client-side (decoding the file), the increased speed in loading such files has an ESG benefit that justifies the added effort.</p>
-								<p>For machine testability, identifying content encoding methods for file formats can be done by checking the content-encoding headers for various files as they are requested from the server. If the content is not being encoded (unless it has been encoded at the source and no further optimization can be made), recommendations can be made to use a compatible compression technique.</p>
+								<p>For machine testability, identifying content encoding methods for file formats can be done by checking the content-encoding headers for various files as they are requested from the server. This can be achieved on an individual basis or through server configuration files. If the content is not being encoded (unless it has been encoded at the source and no further optimization can be made), recommendations can be made to use a compatible compression technique.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>The <a href="https://www.solidchocolateco.com/">Solid Chocolate Company</a> serves all of their content using GZIP compression headers ensuring that data gets to the visitor as quickly as possible (in addition to compressing image and media assets at source).</li>
@@ -3525,6 +3526,7 @@
 								<p>Procedure</p>
 								<ol>
 									<li>Check all text assets for content-encoding headers to verify compression takes place.</li>
+									<li>Check content-encoding headers work for not in-use formats for forward-compatibility efforts.</li>
 									<li>Check if the compression method used is the most optimal type available.</li>
 								</ol>
 								<p>Expected Results</p>
@@ -3552,6 +3554,7 @@
 								<p>Procedure</p>
 								<ol>
 									<li>Check that all assets are optimized for the web in size, format, and quality before publication.</li>
+									<li>If assets have been altered prior to publication, check users are pre-warned of any changes.</li>
 									<li>Check that the files published are the optimized versions (more than one may be necessary).</li>
 									<li>Check if a CMS will be necessary or useful and if so, ensure static assets are uploaded there.</li>
 								</ol>
@@ -3582,6 +3585,7 @@
 									<li>Check that the website or application has a custom set of pages to respond to errors.</li>
 									<li>Check that each error status type has its own page and unique situation handling.</li>
 									<li>Check that such pages provide signposting to resolve the error they encountered.</li>
+									<li>Check that existing links to navigation related pages remain fully functional.</li>
 									<li>Check that links to customer support are provided when solutions do not work.</li>
 								</ol>
 								<p>Expected Results</p>
@@ -3740,8 +3744,7 @@
 								<p>For machine testability, providers should have information about sustainability offered within a sustainability statement along with details of compliance being met plus any sustainability features they provide that enhance their service. If this information is publicly available (and uses recognized sources), it could be parsed by machine, otherwise, a sustainable provider list should be sourced.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li><a href="https://blog.cloudflare.com/a-carbon-neutral-north-america/">CloudFlare</a> has already made great progress towards becoming carbon neutral. However like with any hosting provider, they still have a long journey to make to be entirely free of emissions throughout their digital services.</li>
-									<li><a href="https://www.akamai.com/site/en/documents/akamai/akamai-2022-esg-impact-report.pdf">Akamai</a> (<em>PDF</em>) provides a yearly ESG report that showcases and documents all of the changes they have made towards becoming more sustainable. While they have not fully become carbon neutral, they are getting there.</li>
+									<li><a href="https://www.akamai.com/site/en/documents/akamai/akamai-2022-esg-impact-report.pdf">Akamai</a> (<em>PDF</em>) provides a yearly ESG report that showcases and documents all of the changes they have made towards becoming more sustainable. While they have not fully become sustainable, they are getting there.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -3863,15 +3866,15 @@
 							</div>
 						</details>
 					</li>
-					<li> <!-- HIS12-5: Ensure That Backup Providers Are Classified As Carbon-Neutral -->
+					<li> <!-- HIS12-5: Ensure That Backup Providers Are Classified As Sustainable -->
 						<details>
-							<summary id="HIS12-5">HIS12-5: Ensure That Backup Providers Are Classified As Carbon-Neutral</summary>
+							<summary id="HIS12-5">HIS12-5: Ensure That Backup Providers Are Classified As Sustainable</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs">4.12 Store Data According to Visitor Needs</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Ensure that any third-party backup service provider is examined for sustainability impacts. This will involve examining the impact they have simply in hosting your data, but also how sustainable their platform is, as well as their business. If their model meets any obligations laid out and aligns well against the WSGs, it may meet success criteria.</p>
-								<p>To identify how carbon-neutral a service is, a list of recommended sustainable backup providers would be an ideal source to utilize (assuming that one exists and it is itself reputable). If no list exists, checking providers' claims, sustainability statements, and measuring their service against criteria such as the WSGs can be helpful to some extent, though utilizing established standards like the <abbr title="Global Reporting Initiative">GRI</abbr> and recommendations around infrastructure will also help.</p>
+								<p>To identify how sustainable a service is, a list of recommended sustainable backup providers would be an ideal source to utilize (assuming that one exists and it is itself reputable). If no list exists, checking providers' claims, sustainability statements, and measuring their service against criteria such as the WSGs can be helpful to some extent, though utilizing established standards like the <abbr title="Global Reporting Initiative">GRI</abbr> and recommendations around infrastructure will also help.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>An application producing large numbers of logs that need to be rotated on a regular cycle could backup those logs to an external sustainable source and remove them from the origin host to eliminate existing emissions.</li>
@@ -3995,7 +3998,7 @@
 								<p>For machine testability, metrics data could be used to validate such claims if the research has been provided in the public domain. If a testing tool has been used to make the claim, these can be validated by the accuracy of the said tool and its methodology. If it is based on just first-party information, scan for artifacts that may help verify sources such as research, carbon.txt files, etc.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li>A website hires an independent third-party sustainability consultant to measure the carbon neutrality of its products and services. Upon completion, a report is produced citing evidence that verifies their status.</li>
+									<li>A website hires an independent third-party sustainability consultant to measure the carbon impact of its products and services. Upon completion, a report is produced citing evidence that verifies their status.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
