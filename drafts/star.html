@@ -130,7 +130,7 @@
 				</section>
 				<section class="notoc"> <!-- Particular Types of Websites -->
 					<h4>Particular Types of Websites</h4>
-					<p>This methodology This methodology applies to a broad variety of website and application types. The following provides considerations for particular situations, noting that products and services may combine several aspects. Thus the following list is non-exclusive and non-exhaustive:</p>
+					<p>This methodology applies to a broad variety of website and application types. The following provides considerations for particular situations, noting that products and services may combine several aspects. Thus the following list is non-exclusive and non-exhaustive:</p>
 					<ul>
 						<li><strong>Small Websites:</strong> Small websites that are comprised of fewer pages place a lot of their sustainability impacts upon fewer pages. Some examples of this include personal portfolios, blogs, fan sites, and project websites. Small websites may be connected to a larger website, but treated as an individual and separable entity for evaluation.</li>
 						<li><strong>Web Applications:</strong> Web applications are generally composed of dynamically generated content and functionality (see web page states). Web applications tend to be more complex and interactive. Some examples of web applications include webmail clients, document editors, and online shops. Web applications may be part of a larger website but can also constitute a website of their own in the context of this methodology. That is an individual and separable entity for evaluation. Due to the many possibilities of generating content and functionality in web applications, it is sometimes not feasible to exhaustively identify every possible web page, web page state, and functionality. Web applications will typically require more time and effort to evaluate, and they will typically need larger web page samples to reflect the different types of content, functionality, and processes.</li>
@@ -363,7 +363,7 @@
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs">2.2 Assess and Research Visitor Needs</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism so that websites and applications can offer contingency processes for visitors who have constraints such as an older device, an out-of-date operating system, an unusual or out-of-date browser, or a slow Internet connection. Other contingencies exist (such as geo-blocking or mobile data costs) and these can also be taken into account if detection is possible. Each of these issues can burden the user-experience and cause added conflict along the pipeline in terms of emissions.</p>
-								<p>Once the constraint has been detected, it will often be up to the developer to create a solution that will involve compatibility features or reducing the load on the visitor's device to increase ease of access. If there are questions regarding the potential compatibility or availability of services due to a certain configuration, seek the manufacturer's advice for further guidance.</p>
+								<p>If detection is not available (such as in cases where the Internet is unavailable), Non-digital investigation should be conducted where possible (such as through the use of mail or telephone feedback). Once the constraint has been detected, it will often be up to the developer to create a solution that will involve compatibility features or reducing the load on the visitor's device to increase ease of access. If there are questions regarding the potential compatibility or availability of services due to a certain configuration, seek the manufacturer's advice for further guidance.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent">Using</a> <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent">UserAgent</a> to identify visitor characteristics that might impact their experience when using your product or service such as an issue of compatibility or performance.</li>
@@ -487,6 +487,7 @@
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>Advertising is often a cause of content that temporarily overlaps content with the intent of requesting clicks or attention-grabbing to monetize the material on the website or application. While such actions may be financially reasoned, they are rarely sustainably minded.</li>
+									<li>Consent managers are an example of obscuring materials for the good as they ensure that visitors to the page authorize potentially invasive technologies before they become active. An example of this is the cookie consent banner that asks for their allowance before they can be used to store sensitive information on the visitor's machine.</li>
 									<li>Scrollable content in which the scrollbar has been obscured, replaced (with a non-functional, obscured, or hidden replacement), or hidden entirely making it impossible to detect where additional content may occur beyond just the window (such as in overflowing boxes) will be unavailable to visitors making its use of hardware to render a waste of resources.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
@@ -839,6 +840,7 @@
 								<ol>
 									<li>Check to determine if an analytics script is being used within the page.</li>
 									<li>Check against a list of suppliers of software to determine viable alternatives.</li>
+									<li>Check to determine if data being gathered complies with GDPR and other privacy legislation.</li>
 									<li>If no viable alternative exists and it still performs poorly, recommend removal.</li>
 								</ol>
 								<p>Expected Results</p>
@@ -1096,6 +1098,7 @@
 									<li>Check the image density of the page and flag pages over a certain image count.</li>
 									<li>Check for older image format usage (<abbr title="Bitmap">BMP</abbr> / <abbr title="Tagged Image File Format">TIFF</abbr>) and require replacement.</li>
 									<li>Check for PNG and JPEG images and flag potential upgrades to AVIF or WebP.</li>
+									<li>Provide fallbacks using the picture element on newer image formats to ensure compatibility.</li>
 									<li>Check for GIF and flag static image upgrade to AVIF or WebP, or animated images to mp4.</li>
 								</ol>
 								<p>Expected Results</p>
@@ -1122,7 +1125,7 @@
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
 								<ol>
-									<li>Check for compression potential against every available image asset.</li>
+									<li>Check for <a href="https://webspeedtest.cloudinary.com/">compression potential</a> against every available image asset.</li>
 									<li>Check CSS media or container queries to recreate different breakpoints in the design to identify and create the sizes of images required.</li>
 									<li>Check for the use of the sizes attribute to provide responsive images.</li>
 									<li>Provide optimized solutions if image problems have been detected.</li>
@@ -1143,7 +1146,7 @@
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-image-assets">2.15 Take a More Sustainable Approach to Image Assets</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Prevent image assets included within a website or application that are either visually below the fold or hidden due to progressive disclosure from being loaded until they appear in view of the visitor's screen. This can save bandwidth and the resulting processing of the image at the client-side which otherwise would occur and may not even be used if the visitor chooses to click elsewhere or close before reaching it.</p>
-								<p>While it is preferable that only links below the fold have lazy-loading attached to them, there does not appear to be a penalty for including it within all images so if machine testing cannot differentiate this shouldn't be discriminated against as a failing point. Additionally, the point of the fold can change based on the type of device being used so it's worth considering this into processes.</p>
+								<p>While it is preferable that only links below the fold have HTML lazy-loading attributes attached to them, there does not appear to be a penalty for including it within all images so if machine testing cannot differentiate this shouldn't be discriminated against as a failing point. Additionally, the point of the fold can change based on the type of device being used so it's worth considering this into processes.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li><a href="https://mathiasbynens.be/demo/img-loading-lazy">Mathias Bynens</a> created a <a href="https://web.dev/articles/browser-level-image-lazy-loading?hl=en">lazy-loading</a> demonstration that showcases the technique being used in the wild. As you scroll down the page of the website, more of the images will be loaded on demand.</li>
@@ -1152,8 +1155,8 @@
 								<p>Procedure</p>
 								<ol>
 									<li>Check for the position of the fold on the smallest screen size visitors use.</li>
-									<li>Check for lazy loading attributes against all images falling outside these dimensions.</li>
-									<li>Check for lazy loading attributes against all images in progressive disclosure boxes.</li>
+									<li>Check for HTML lazy loading attributes against all images falling outside these dimensions.</li>
+									<li>Check for HTML lazy loading attributes against all images in progressive disclosure boxes.</li>
 								</ol>
 								<p>Expected Results</p>
 								<ol>
@@ -1181,7 +1184,7 @@
 								<ol>
 									<li>Check if an in-page "Lo-Fi" or "Eco mode" option exists, if by choice, recommend by default.</li>
 									<li>Check for a low-fidelity / text-only / lightweight subdomain or path.</li>
-									<li>Check that the low-fidelity option is at least 75% lighter than the main website.</li>
+									<li>Check that the low-fidelity option is an agreed upon percentage lighter than the main website.</li>
 								</ol>
 								<p>Expected Results</p>
 								<ol>
@@ -1272,14 +1275,14 @@
 							</div>
 						</details>
 					</li>
-					<li> <!-- UX16-3: Provide Facades for Streaming Media and Animated GIFs -->
+					<li> <!-- UX16-3: Provide Facades for Media, Animated GIFs, and Third-Party Content -->
 						<details>
-							<summary id="UX16-3">UX16-3: Provide Facades for Streaming Media and Animated GIFs</summary>
+							<summary id="UX16-3">UX16-3: Provide Facades for Media, Animated GIFs, and Third-Party Content</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-media-assets">2.16 Take a More Sustainable Approach to Media Assets</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Provide a mechanism that ensures visitors remain in control of when highly impactful (in terms of emissions) media begins to transmit to their devices. By having a static facade that upon clicking begins the render (and not simply hiding the video or audio element behind the static image), you ensure that the content has a lazy-load effect even if autoplay is not active (as pre-buffering may occur during the render process).</p>
+								<p>Provide a mechanism that ensures visitors remain in control of when highly impactful (in terms of emissions) media or third-party materials begin to transmit to their devices. By having a static facade that upon clicking begins the render (and not simply hiding the video, audio or interactive element behind the static image), you ensure that the content has a lazy-load effect even if autoplay or the interaction is not active (as pre-buffering may occur during the render process).</p>
 								<p>Because there is no browser default method for facades (at the time of publication), identification of such events for machine testability will come down to them being clearly labeled using ID or class attributes (or through heuristic testing for an image that is either anchor linked or has a button attached with a JavaScript event handler to process the content switch).</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -1290,6 +1293,7 @@
 								<ol>
 									<li>Check that no video or audio elements trigger content upon the page load.</li>
 									<li>Check that any uses of the GIF extension are not animated by default.</li>
+									<li>Check that no impactful third-party content activate upon the page load.</li>
 								</ol>
 								<p>Expected Results</p>
 								<ol>
