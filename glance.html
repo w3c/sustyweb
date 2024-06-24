@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 34.5.0">
+<meta name="generator" content="ReSpec 35.1.1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 dfn{cursor:pointer}
@@ -34,8 +34,6 @@ dfn{cursor:pointer}
 25%{transform:scale(1.25,1.25);opacity:.75}
 100%{transform:scale(1,1)}
 }
-:is(h1,h2,h3,h4,h5,h6,a) abbr{border:none}
-dfn{font-weight:700}
 a.internalDFN{color:inherit;border-bottom:1px solid #99c;text-decoration:none}
 a.externalDFN{color:inherit;border-bottom:1px dotted #ccc;text-decoration:none}
 a.bibref{text-decoration:none}
@@ -49,19 +47,8 @@ a.bibref{text-decoration:none}
 cite .bibref{font-style:normal}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
-.toc a,.tof a{text-decoration:none}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
-table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}
-.simple th{background:#005a9c;color:#fff;padding:3px 5px;text-align:left}
-.simple th a{color:#fff;padding:3px 5px;text-align:left}
-.simple th[scope=row]{background:inherit;color:inherit;border-top:1px solid #ddd}
-.simple td{padding:3px 10px;border-top:1px solid #ddd}
-.simple tr:nth-child(even){background:#f0f6ff}
-.section dd>p:first-child{margin-top:0}
-.section dd>p:last-child{margin-bottom:0}
-.section dd{margin-bottom:1em}
-.section dl.attrs dd,.section dl.eldef dd{margin-bottom:0}
 #issue-summary>ul{column-count:2}
 #issue-summary li{list-style:none;display:inline-block}
 details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
@@ -85,6 +72,7 @@ dd{margin-left:0}
 .removeOnSave{display:none}
 }
 </style>
+<meta name="color-scheme" content="light">
 <meta name="description" content="This page provides a paraphrased summary of the Web Sustainability Guidelines (WSG) 1.0. For the normative technical specification, see https://w3c.github.io/sustyweb/.">
 <style>
 var{position:relative;cursor:pointer}
@@ -116,6 +104,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "group": "sustyweb",
   "latestVersion": "https://w3c.github.io/sustyweb/glance.html",
   "localBiblio": {
+    "8BT": {
+      "title": "Carbon Footprint of the Internet Over Time Since 1990",
+      "date": "18 March 2024",
+      "href": "https://8billiontrees.com/carbon-offsets-credits/carbon-footprint-of-the-internet/",
+      "status": "Informational",
+      "publisher": "Georgette Kilgore",
+      "id": "8bt"
+    },
     "COUNTRY": {
       "title": "Internet - growing to surpass television - should be powered with clean energy",
       "date": "05 August 2013",
@@ -139,6 +135,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "status": "Informational",
       "publisher": "EU Commission",
       "id": "euc"
+    },
+    "HUMANE": {
+      "title": "Manifesto for a Humane Web",
+      "date": "13 May 2024",
+      "href": "https://humanewebmanifesto.com/",
+      "status": "Informational",
+      "publisher": "Michelle Barker",
+      "id": "humane"
     },
     "ICT-IMPACT": {
       "title": "The real climate and transformative impact of ICT: A critique of estimates, trends, and regulations",
@@ -166,8 +170,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "specStatus": "CG-DRAFT",
-  "publishISODate": "2024-04-11T00:00:00.000Z",
-  "generatedSubtitle": "Draft Community Group Report 11 April 2024"
+  "publishISODate": "2024-05-17T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 17 May 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
 	<body class="h-entry informative"><div class="head">
@@ -175,7 +179,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <h1 id="title" class="title">Web Sustainability Guidelines (WSG) 1.0 at a Glance</h1> 
     <p id="w3c-state">
       <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
-      <time class="dt-published" datetime="2024-04-11">11 April 2024</time>
+      <time class="dt-published" datetime="2024-05-17">17 May 2024</time>
     </p>
     <dl>
       
@@ -230,11 +234,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 			
 			<section id="context"><div class="header-wrapper"><h3 id="x1-1-context"><bdi class="secno">1.1 </bdi>Context</h3><a class="self-link" href="#context" aria-label="Permalink for Section 1.1"></a></div> 
 				
-				<p>The digital industry is now responsible for between 2-5% of global emissions [<cite><a class="bibref" data-link-type="biblio" href="#bib-ict-impact" title="The real climate and transformative impact of ICT: A critique of estimates, trends, and regulations">ICT-IMPACT</a></cite>] [<cite><a class="bibref" data-link-type="biblio" href="#bib-euc" title="Questions and Answers: EU action plan on digitalising the energy system">EUC</a></cite>], more than that of the aviation industry. Since the Paris Agreement, average web page sizes have increased by over 70% on desktop and 140% on mobile [<cite><a class="bibref" data-link-type="biblio" href="#bib-page-weight" title="Page Weight">PAGE-WEIGHT</a></cite>]. Between 2015 and 2021, internet visitors increased by 60%, whilst internet traffic increased by 440% [<cite><a class="bibref" data-link-type="biblio" href="#bib-data" title="Data Centres and Data Transmission Networks">DATA</a></cite>]. In essence, if the Internet were a country it would be one of the top five polluters. [<cite><a class="bibref" data-link-type="biblio" href="#bib-country" title="Internet - growing to surpass television - should be powered with clean energy">COUNTRY</a></cite>]</p>
+				<p>The digital industry is now responsible for between 2-5% of global emissions [<cite><a class="bibref" data-link-type="biblio" href="#bib-ict-impact" title="The real climate and transformative impact of ICT: A critique of estimates, trends, and regulations">ICT-IMPACT</a></cite>] [<cite><a class="bibref" data-link-type="biblio" href="#bib-euc" title="Questions and Answers: EU action plan on digitalising the energy system">EUC</a></cite>] [<cite><a class="bibref" data-link-type="biblio" href="#bib-8bt" title="Carbon Footprint of the Internet Over Time Since 1990">8BT</a></cite>], more than that of the aviation industry. Since the Paris Agreement, average web page sizes have increased by over 70% on desktop and 140% on mobile [<cite><a class="bibref" data-link-type="biblio" href="#bib-page-weight" title="Page Weight">PAGE-WEIGHT</a></cite>]. Between 2015 and 2021, internet visitors increased by 60%, whilst internet traffic increased by 440% [<cite><a class="bibref" data-link-type="biblio" href="#bib-data" title="Data Centres and Data Transmission Networks">DATA</a></cite>]. In essence, if the Internet were a country it would be one of the top five polluters. [<cite><a class="bibref" data-link-type="biblio" href="#bib-country" title="Internet - growing to surpass television - should be powered with clean energy">COUNTRY</a></cite>]</p>
 			</section>
 			<section id="summary"><div class="header-wrapper"><h3 id="x1-2-summary"><bdi class="secno">1.2 </bdi>Summary</h3><a class="self-link" href="#summary" aria-label="Permalink for Section 1.2"></a></div> 
 				
-				<p>The Web Sustainability Guidelines (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 explains how to design and implement digital products and services that put people and the planet first. The guidelines are best practices based on measurable, evidence-based research; aimed at end-users, website creators, product owners, stakeholders, tool authors, educators, and policymakers. The guidelines are in line with the Sustainable Web Manifesto [<cite><a class="bibref" data-link-type="biblio" href="#bib-manifesto" title="Sustainable Web Manifesto">MANIFESTO</a></cite>].</p>
+				<p>The Web Sustainability Guidelines (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 explains how to design and implement digital products and services that put people and the planet first. The guidelines are best practices based on measurable, evidence-based research; aimed at end-users, website creators, product owners, stakeholders, tool authors, educators, and policymakers. The guidelines are in line with both the Sustainable Web Manifesto [<cite><a class="bibref" data-link-type="biblio" href="#bib-manifesto" title="Sustainable Web Manifesto">MANIFESTO</a></cite>] and Manifesto for a Humane Web [<cite><a class="bibref" data-link-type="biblio" href="#bib-humane" title="Manifesto for a Humane Web">HUMANE</a></cite>].</p>
 			</section>
 			<section id="highlights"><div class="header-wrapper"><h3 id="x1-3-highlights"><bdi class="secno">1.3 </bdi>Highlights</h3><a class="self-link" href="#highlights" aria-label="Permalink for Section 1.3"></a></div> 
 				
@@ -246,7 +250,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<dt>User Experience Design</dt>
 						<dd><ul>
 							<li><a href="https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs">2.2</a> - Assess and Research Visitor Needs</li>
-							<li><a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6</a> - Create a Frictionless Lightweight Experience by Default</li>
+							<li><a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6</a> - Create a Lightweight Experience by Default</li>
 							<li><a href="https://w3c.github.io/sustyweb/#incorporate-compatibility-testing-into-each-release-cycle">2.29</a> - Incorporate Compatibility Testing Into Each Release-Cycle</li>
 						</ul></dd>
 						<dt>Web Development</dt>
@@ -371,12 +375,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 	
 <section id="references" class="appendix"><div class="header-wrapper"><h2 id="a-references"><bdi class="secno">A. </bdi>References</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix A."></a></div><section id="informative-references"><div class="header-wrapper"><h3 id="a-1-informative-references"><bdi class="secno">A.1 </bdi>Informative references</h3><a class="self-link" href="#informative-references" aria-label="Permalink for Appendix A.1"></a></div>
     
-    <dl class="bibliography"><dt id="bib-country">[COUNTRY]</dt><dd>
+    <dl class="bibliography"><dt id="bib-8bt">[8BT]</dt><dd>
+      <a href="https://8billiontrees.com/carbon-offsets-credits/carbon-footprint-of-the-internet/"><cite>Carbon Footprint of the Internet Over Time Since 1990</cite></a>.  Georgette Kilgore. 18 March 2024. Informational. URL: <a href="https://8billiontrees.com/carbon-offsets-credits/carbon-footprint-of-the-internet/">https://8billiontrees.com/carbon-offsets-credits/carbon-footprint-of-the-internet/</a>
+    </dd><dt id="bib-country">[COUNTRY]</dt><dd>
       <a href="https://www.greenpeace.org/usa/internet-growing-to-suprass-television-should-be-powered-with-clean-energy/"><cite>Internet - growing to surpass television - should be powered with clean energy</cite></a>.  David Pomerantz. 05 August 2013. Informational. URL: <a href="https://www.greenpeace.org/usa/internet-growing-to-suprass-television-should-be-powered-with-clean-energy/">https://www.greenpeace.org/usa/internet-growing-to-suprass-television-should-be-powered-with-clean-energy/</a>
     </dd><dt id="bib-data">[DATA]</dt><dd>
       <a href="https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks"><cite>Data Centres and Data Transmission Networks</cite></a>.  IEA. 11 July 2023. Informational. URL: <a href="https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks">https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks</a>
     </dd><dt id="bib-euc">[EUC]</dt><dd>
       <a href="https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229"><cite>Questions and Answers: EU action plan on digitalising the energy system</cite></a>.  EU Commission. 18 October 2022. Informational. URL: <a href="https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229">https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_6229</a>
+    </dd><dt id="bib-humane">[HUMANE]</dt><dd>
+      <a href="https://humanewebmanifesto.com/"><cite>Manifesto for a Humane Web</cite></a>.  Michelle Barker. 13 May 2024. Informational. URL: <a href="https://humanewebmanifesto.com/">https://humanewebmanifesto.com/</a>
     </dd><dt id="bib-ict-impact">[ICT-IMPACT]</dt><dd>
       <a href="https://www.cell.com/patterns/pdfExtended/S2666-3899(21)00188-4"><cite>The real climate and transformative impact of ICT: A critique of estimates, trends, and regulations</cite></a>.  Charlotte Freitag, Mike Berners-Lee, Kelly Widdicks, Bran Knowles, Gordon S. Blair, and Adrian Friday. 10 September 2021. Informational. URL: <a href="https://www.cell.com/patterns/pdfExtended/S2666-3899(21)00188-4">https://www.cell.com/patterns/pdfExtended/S2666-3899(21)00188-4</a>
     </dd><dt id="bib-manifesto">[MANIFESTO]</dt><dd>

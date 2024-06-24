@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 34.5.0">
+<meta name="generator" content="ReSpec 35.1.1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -56,8 +56,6 @@ dfn{cursor:pointer}
 25%{transform:scale(1.25,1.25);opacity:.75}
 100%{transform:scale(1,1)}
 }
-:is(h1,h2,h3,h4,h5,h6,a) abbr{border:none}
-dfn{font-weight:700}
 a.internalDFN{color:inherit;border-bottom:1px solid #99c;text-decoration:none}
 a.externalDFN{color:inherit;border-bottom:1px dotted #ccc;text-decoration:none}
 a.bibref{text-decoration:none}
@@ -71,19 +69,8 @@ a.bibref{text-decoration:none}
 cite .bibref{font-style:normal}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
-.toc a,.tof a{text-decoration:none}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
-table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}
-.simple th{background:#005a9c;color:#fff;padding:3px 5px;text-align:left}
-.simple th a{color:#fff;padding:3px 5px;text-align:left}
-.simple th[scope=row]{background:inherit;color:inherit;border-top:1px solid #ddd}
-.simple td{padding:3px 10px;border-top:1px solid #ddd}
-.simple tr:nth-child(even){background:#f0f6ff}
-.section dd>p:first-child{margin-top:0}
-.section dd>p:last-child{margin-bottom:0}
-.section dd{margin-bottom:1em}
-.section dl.attrs dd,.section dl.eldef dd{margin-bottom:0}
 #issue-summary>ul{column-count:2}
 #issue-summary li{list-style:none;display:inline-block}
 details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
@@ -107,6 +94,7 @@ dd{margin-left:0}
 .removeOnSave{display:none}
 }
 </style>
+<meta name="color-scheme" content="light">
 <meta name="description" content="Sustainable Tooling And Reporting (STAR) 1.0 provides information, examples, and metrics data to complement the Web Sustainability Guidelines (WSG) 1.0 specification. Within this supplementary document, you will find implementation advice (for external groups wishing to incorporate sustainability in their work), an evaluation methodology (for testing conformance), a categorized series of techniques (potential implementations and case studies), and a test suite (metrics data on impact and machine automation capability).">
 <style>
 var{position:relative;cursor:pointer}
@@ -143,8 +131,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "specStatus": "CG-DRAFT",
-  "publishISODate": "2024-04-11T00:00:00.000Z",
-  "generatedSubtitle": "Draft Community Group Report 11 April 2024"
+  "publishISODate": "2024-06-20T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 20 June 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
 	<body class="h-entry informative"><div class="head">
@@ -152,7 +140,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <h1 id="title" class="title">Sustainable Tooling And Reporting (STAR) 1.0</h1> 
     <p id="w3c-state">
       <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
-      <time class="dt-published" datetime="2024-04-11">11 April 2024</time>
+      <time class="dt-published" datetime="2024-06-20">20 June 2024</time>
     </p>
     <dl>
       
@@ -280,7 +268,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				</section>
 				<section class="notoc"><div class="header-wrapper"><h4 id="particular-types-of-websites">Particular Types of Websites</h4><a class="self-link" href="#particular-types-of-websites" aria-label="Permalink for this Section"></a></div> 
 					
-					<p>This methodology This methodology applies to a broad variety of website and application types. The following provides considerations for particular situations, noting that products and services may combine several aspects. Thus the following list is non-exclusive and non-exhaustive:</p>
+					<p>This methodology applies to a broad variety of website and application types. The following provides considerations for particular situations, noting that products and services may combine several aspects. Thus the following list is non-exclusive and non-exhaustive:</p>
 					<ul>
 						<li><strong>Small Websites:</strong> Small websites that are comprised of fewer pages place a lot of their sustainability impacts upon fewer pages. Some examples of this include personal portfolios, blogs, fan sites, and project websites. Small websites may be connected to a larger website, but treated as an individual and separable entity for evaluation.</li>
 						<li><strong>Web Applications:</strong> Web applications are generally composed of dynamically generated content and functionality (see web page states). Web applications tend to be more complex and interactive. Some examples of web applications include webmail clients, document editors, and online shops. Web applications may be part of a larger website but can also constitute a website of their own in the context of this methodology. That is an individual and separable entity for evaluation. Due to the many possibilities of generating content and functionality in web applications, it is sometimes not feasible to exhaustively identify every possible web page, web page state, and functionality. Web applications will typically require more time and effort to evaluate, and they will typically need larger web page samples to reflect the different types of content, functionality, and processes.</li>
@@ -513,7 +501,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs">2.2 Assess and Research Visitor Needs</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism so that websites and applications can offer contingency processes for visitors who have constraints such as an older device, an out-of-date operating system, an unusual or out-of-date browser, or a slow Internet connection. Other contingencies exist (such as geo-blocking or mobile data costs) and these can also be taken into account if detection is possible. Each of these issues can burden the user-experience and cause added conflict along the pipeline in terms of emissions.</p>
-								<p>Once the constraint has been detected, it will often be up to the developer to create a solution that will involve compatibility features or reducing the load on the visitor's device to increase ease of access. If there are questions regarding the potential compatibility or availability of services due to a certain configuration, seek the manufacturer's advice for further guidance.</p>
+								<p>If detection is not available (such as in cases where the Internet is unavailable), Non-digital investigation should be conducted where possible (such as through the use of mail or telephone feedback). Once the constraint has been detected, it will often be up to the developer to create a solution that will involve compatibility features or reducing the load on the visitor's device to increase ease of access. If there are questions regarding the potential compatibility or availability of services due to a certain configuration, seek the manufacturer's advice for further guidance.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent">Using</a> <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent">UserAgent</a> to identify visitor characteristics that might impact their experience when using your product or service such as an issue of compatibility or performance.</li>
@@ -543,7 +531,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#assess-and-research-visitor-needs">2.2 Assess and Research Visitor Needs</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Go beyond the remit of <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> and accessibility by default and to encourage designers and developers of products to test their creations against a range of specific named types of disabilities to both better understand the conditions and to be able to more structurally and sustainably better test for the unique issues each disability brings to technology in terms of adaptation.</p>
-								<p>It is strongly encouraged that teams work with individuals with disabilities when attempting this task as they will have the lived experience to help you better adapt your products and services to their needs. If this isn't possible or you wish to theorize against certain pre-built profiles, you can refer to established medical texts to identify potential symptoms and refer these against issues that may cause technology friction, building solutions, and / or simulators (see color blindness) to help test for issues along the creation process.</p>
+								<p>It is strongly encouraged that teams work with individuals with disabilities when attempting this task as they will have the lived experience to help you better adapt your products and services to their needs. If this isn't possible or you wish to theorize against certain pre-built profiles, you can refer to established medical texts to identify potential symptoms and refer these against issues that may cause technology issues, building solutions, and / or simulators (see color blindness) to help test for issues along the creation process.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>The use of a color-blind filter such as the one built into browser DevTools or another <a href="https://github.com/interaktivarum/rgblind?tab=readme-ov-file">third-party solution</a> potentially helps to identify contrast issues that might not otherwise be detected within an existing website.</li>
@@ -552,7 +540,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Procedure</p>
 								<ol>
 									<li>Identify visitors or individuals with disabilities who can help you become more accessible.</li>
-									<li>Create testable profiles from symptom / issue lists that cause friction.</li>
+									<li>Create testable profiles from symptom / issue lists that cause issues.</li>
 									<li>Check that potential solutions don't interfere with existing functionality.</li>
 									<li>Create and implement newly calibrated accessibility features.</li>
 									<li>Check that the features work as implemented against all existing functionality.</li>
@@ -600,7 +588,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<summary id="UX06-1">UX06-1: Measure Interaction Cost To Reach Every Page in the Information Architecture</summary>
 							<div class="note" role="note" id="issue-container-generatedID-8"><div role="heading" class="note-title marker" id="h-note-8" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6 Create a Frictionless Lightweight Experience by Default</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6 Create a Lightweight Experience by Default</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Reduce the cognitive load for visitors between the initial visit to a website or application and reaching their final destination where the information they are seeking is located. The path to locating such information can be routed through multiple interactions such as a search mechanism, hyperlinks, form controls (where appropriate), and progressive disclosure features (reducing the complexity involved in reaching a destination will reduce the rendering load leading to sustainability benefits).</p>
 								<p>While there is no hard and fast rule regarding the number of clicks required to meet a visitor's expectations, including clear way-finding (breadcrumbs can be machine-identified as can landing page regions to guide visitors along the path). It is therefore a sensible precaution to ensure that the steps required are well documented to avoid overwhelming a visitor. If required, click-through testing can be measured to identify bottlenecks in complex applications.</p>
@@ -630,13 +618,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<summary id="UX06-3">UX06-3: Check for Content Obscuring Materials That Occur Upon PageLoad</summary>
 							<div class="note" role="note" id="issue-container-generatedID-9"><div role="heading" class="note-title marker" id="h-note-9" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6 Create a Frictionless Lightweight Experience by Default</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6 Create a Lightweight Experience by Default</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Ensure that visitors can read the materials produced for your website or application and click on interactive content (such as links or buttons) that would otherwise be impaired by other content that due to positioning obscures the material by preventing the page from functioning correctly (wasted clicks, especially if JavaScript functions monitor them could lead to emission costs so its best to avoid unnecessary actions).</p>
 								<p>There will be occasions when content should be obscured to progressively disclose additional content, but for unintentional overlapping, obscuring deliberately for attention (unnecessary), and all cases where the visitor did not ask to be impacted, the visibility of the content should be assured (either manually or mechanically through identifying object locations and dimensions plus where conflicts arise, issue remedial advice).</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>Advertising is often a cause of content that temporarily overlaps content with the intent of requesting clicks or attention-grabbing to monetize the material on the website or application. While such actions may be financially reasoned, they are rarely sustainably minded.</li>
+									<li>Consent managers are an example of obscuring materials for the good as they ensure that visitors to the page authorize potentially invasive technologies before they become active. An example of this is the cookie consent banner that asks for their allowance before they can be used to store sensitive information on the visitor's machine.</li>
 									<li>Scrollable content in which the scrollbar has been obscured, replaced (with a non-functional, obscured, or hidden replacement), or hidden entirely making it impossible to detect where additional content may occur beyond just the window (such as in overflowing boxes) will be unavailable to visitors making its use of hardware to render a waste of resources.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
@@ -659,7 +648,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<summary id="UX06-4">UX06-4: Break Large Pieces of Content Down Using Progressive Disclosure</summary>
 							<div class="note" role="note" id="issue-container-generatedID-10"><div role="heading" class="note-title marker" id="h-note-10" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6 Create a Frictionless Lightweight Experience by Default</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6 Create a Lightweight Experience by Default</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Help increase the readability of content within a website or application by breaking down larger pieces of content into smaller constituent pieces. In the same way that a book is broken down into chapters, using progressive disclosure you can reveal sections when the reader is ready, avoiding information overload (the same can be done with long tasks).</p>
 								<p>For machine testability, identification of such progressive disclosure markers can be found using the <abbr title="Hypertext Markup Language">HTML</abbr> details or dialog element, the <abbr title="Cascading Stylesheets">CSS</abbr> target selector (and its accompanying <abbr title="Hypertext Markup Language">HTML</abbr> ID attributes), the <abbr title="Cascading Stylesheets">CSS</abbr> checkbox hack, the use of JavaScript HashBangs, and also the use of state (and content) changes through various frameworks. Each of these can build a picture of how content displays on-screen during the user-experience, and some can load content only when it is requested which can reduce data transfer and rendering requests leading to sustainability improvements.</p>
@@ -688,9 +677,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<summary id="UX06-5">UX06-5: Remove Any Non-User Initiated Pop-Up or Model Windows</summary>
 							<div class="note" role="note" id="issue-container-generatedID-11"><div role="heading" class="note-title marker" id="h-note-11" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6 Create a Frictionless Lightweight Experience by Default</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6 Create a Lightweight Experience by Default</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Reduce friction within the user-experience and help reduce the number of dark patterns which might occur onLoad and during the interaction process as these can cause considerable sustainability issues as a result of wasted emissions. By ensuring that the visitor remains in control of the interface and that websites and applications work as expected, a more ethical and optimized product or service is likely to result.</p>
+								<p>Reduce problematic friction within the user-experience and help reduce the number of dark patterns which might occur onLoad and during the interaction process as these can cause considerable sustainability issues as a result of wasted emissions. By ensuring that the visitor remains in control of the interface and that websites and applications work as expected, a more ethical and optimized product or service is likely to result.</p>
 								<p>Machine testing can analyze JavaScript for the use of popup events, the appearance of "_blank" within hyperlinks or frames, or other functionality that exists that may produce overlays. It's important to question the acceptability of such usage for example, opening links in new windows may be acceptable for non-web formats like <abbr title="Portable Document Format">PDF</abbr>, otherwise, it's best to advise against its use.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -862,7 +851,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</li>
 					<li> 
 						<details>
-							<summary id="UX09-2">UX09-2: Encourage Features That Reduce the Friction When Achieving Tasks</summary>
+							<summary id="UX09-2">UX09-2: Encourage Features That Help Visitors Achieve Tasks</summary>
 							<div class="note" role="note" id="issue-container-generatedID-17"><div role="heading" class="note-title marker" id="h-note-17" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention">2.9 Respect the Visitor's Attention</a>.</p>
@@ -897,7 +886,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#respect-the-visitor-s-attention">2.9 Respect the Visitor's Attention</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Allow the visitor to achieve the task they initially set out to do and not trigger unnecessary friction in the user-experience which would undermine their ability to complete the said task. Issues such as infinite scrolling can promote a need for continued browsing (which can load excessive data and have a sustainability impact on rendering) and loading overlays that deviate visitors from their path will have wider societal impacts on <abbr title="Environment, Social, and Governance">ESG</abbr> targets which need to be considered.</p>
+								<p>Allow the visitor to achieve the task they initially set out to do and not trigger unnecessary issues in the user-experience which would undermine their ability to complete the said task. Issues such as infinite scrolling can promote a need for continued browsing (which can load excessive data and have a sustainability impact on rendering) and loading overlays that deviate visitors from their path will have wider societal impacts on <abbr title="Environment, Social, and Governance">ESG</abbr> targets which need to be considered.</p>
 								<p>Within this technique, machine testability can be considered by examining if common link pagination landmarks (previous, next, &lt;numbers&gt;, etc) exist within category listings and if overlays or attention-keeping features are detected for common patterns (such as those mentioned in the examples below). If screen addition mechanisms are determined to be in use within a website, this should be considered a failing mark against the related success criteria.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -956,7 +945,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Machine testability for deceptive patterns will vary based on the type in use however the potential to integrate artificial intelligence to assist with more subtle uses of manipulation within tooling could be used. More obvious issues derided from code injection can be flagged and reported as problematic.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li>Disabling interface functionality such as the ability to highlight / select the text, right-click on content, copy the content to the clipboard, print, or paste passwords from management software can cause significant friction.</li>
+									<li>Disabling interface functionality such as the ability to highlight / select the text, right-click on content, copy the content to the clipboard, print, or paste passwords from management software can cause significant problematic friction.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -989,6 +978,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<ol>
 									<li>Check to determine if an analytics script is being used within the page.</li>
 									<li>Check against a list of suppliers of software to determine viable alternatives.</li>
+									<li>Check to determine if data being gathered complies with <abbr title="General Data Protection Regulation">GDPR</abbr> and other privacy legislation.</li>
 									<li>If no viable alternative exists and it still performs poorly, recommend removal.</li>
 								</ol>
 								<p>Expected Results</p>
@@ -1147,7 +1137,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#write-with-purpose-in-an-accessible-easy-to-understand-format">2.14 Write With Purpose, in an Accessible, Easy To Understand Format</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Make the content within your website or application more legible to individuals who may struggle with more technical language. Techniques such as lowering the reading age, removing industry terms (or clearly defining them), and having translations for international audiences can help get your message across and reduce on-page friction.</p>
+								<p>Make the content within your website or application more legible to individuals who may struggle with more technical language. Techniques such as lowering the reading age, removing industry terms (or clearly defining them), and having translations for international audiences can help get your message across.</p>
 								<p>This technique is most useful when dealing with a large body of content that the visitor has to wade through to complete a task. Being able to reduce screen time by improving the ease at which visitors can comprehend a topic will ultimately allow for an experience that feels faster and discriminates less against individuals who may struggle with highly technical content.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -1246,6 +1236,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 									<li>Check the image density of the page and flag pages over a certain image count.</li>
 									<li>Check for older image format usage (<abbr title="Bitmap">BMP</abbr> / <abbr title="Tagged Image File Format">TIFF</abbr>) and require replacement.</li>
 									<li>Check for <abbr title="Portable Network Graphics">PNG</abbr> and <abbr title="Joint Photographic Experts Group">JPEG</abbr> images and flag potential upgrades to <abbr title="AV1 Image File Format">AVIF</abbr> or WebP.</li>
+									<li>Provide fallbacks using the picture element on newer image formats to ensure compatibility.</li>
 									<li>Check for <abbr title="Graphics Interchange Format">GIF</abbr> and flag static image upgrade to <abbr title="AV1 Image File Format">AVIF</abbr> or WebP, or animated images to mp4.</li>
 								</ol>
 								<p>Expected Results</p>
@@ -1272,7 +1263,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
 								<ol>
-									<li>Check for compression potential against every available image asset.</li>
+									<li>Check for <a href="https://webspeedtest.cloudinary.com/">compression potential</a> against every available image asset.</li>
 									<li>Check <abbr title="Cascading Stylesheets">CSS</abbr> media or container queries to recreate different breakpoints in the design to identify and create the sizes of images required.</li>
 									<li>Check for the use of the sizes attribute to provide responsive images.</li>
 									<li>Provide optimized solutions if image problems have been detected.</li>
@@ -1293,7 +1284,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-image-assets">2.15 Take a More Sustainable Approach to Image Assets</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Prevent image assets included within a website or application that are either visually below the fold or hidden due to progressive disclosure from being loaded until they appear in view of the visitor's screen. This can save bandwidth and the resulting processing of the image at the client-side which otherwise would occur and may not even be used if the visitor chooses to click elsewhere or close before reaching it.</p>
-								<p>While it is preferable that only links below the fold have lazy-loading attached to them, there does not appear to be a penalty for including it within all images so if machine testing cannot differentiate this shouldn't be discriminated against as a failing point. Additionally, the point of the fold can change based on the type of device being used so it's worth considering this into processes.</p>
+								<p>While it is preferable that only links below the fold have <abbr title="Hypertext Markup Language">HTML</abbr> lazy-loading attributes attached to them, there does not appear to be a penalty for including it within all images so if machine testing cannot differentiate this shouldn't be discriminated against as a failing point. Additionally, the point of the fold can change based on the type of device being used so it's worth considering this into processes.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li><a href="https://mathiasbynens.be/demo/img-loading-lazy">Mathias Bynens</a> created a <a href="https://web.dev/articles/browser-level-image-lazy-loading?hl=en">lazy-loading</a> demonstration that showcases the technique being used in the wild. As you scroll down the page of the website, more of the images will be loaded on demand.</li>
@@ -1302,8 +1293,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Procedure</p>
 								<ol>
 									<li>Check for the position of the fold on the smallest screen size visitors use.</li>
-									<li>Check for lazy loading attributes against all images falling outside these dimensions.</li>
-									<li>Check for lazy loading attributes against all images in progressive disclosure boxes.</li>
+									<li>Check for <abbr title="Hypertext Markup Language">HTML</abbr> lazy loading attributes against all images falling outside these dimensions.</li>
+									<li>Check for <abbr title="Hypertext Markup Language">HTML</abbr> lazy loading attributes against all images in progressive disclosure boxes.</li>
 								</ol>
 								<p>Expected Results</p>
 								<ol>
@@ -1331,7 +1322,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<ol>
 									<li>Check if an in-page "Lo-Fi" or "Eco mode" option exists, if by choice, recommend by default.</li>
 									<li>Check for a low-fidelity / text-only / lightweight subdomain or path.</li>
-									<li>Check that the low-fidelity option is at least 75% lighter than the main website.</li>
+									<li>Check that the low-fidelity option is an agreed upon percentage lighter than the main website.</li>
 								</ol>
 								<p>Expected Results</p>
 								<ol>
@@ -1424,12 +1415,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</li>
 					<li> 
 						<details>
-							<summary id="UX16-3">UX16-3: Provide Facades for Streaming Media and Animated <abbr title="Graphic Interchange Format">GIFs</abbr></summary>
+							<summary id="UX16-3">UX16-3: Provide Facades for Media, Animated <abbr title="Graphic Interchange Format">GIFs</abbr>, and Third-Party Content</summary>
 							<div class="note" role="note" id="issue-container-generatedID-37"><div role="heading" class="note-title marker" id="h-note-37" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-media-assets">2.16 Take a More Sustainable Approach to Media Assets</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Provide a mechanism that ensures visitors remain in control of when highly impactful (in terms of emissions) media begins to transmit to their devices. By having a static facade that upon clicking begins the render (and not simply hiding the video or audio element behind the static image), you ensure that the content has a lazy-load effect even if autoplay is not active (as pre-buffering may occur during the render process).</p>
+								<p>Provide a mechanism that ensures visitors remain in control of when highly impactful (in terms of emissions) media or third-party materials begin to transmit to their devices. By having a static facade that upon clicking begins the render (and not simply hiding the video, audio or interactive element behind the static image), you ensure that the content has a lazy-load effect even if autoplay or the interaction is not active (as pre-buffering may occur during the render process).</p>
 								<p>Because there is no browser default method for facades (at the time of publication), identification of such events for machine testability will come down to them being clearly labeled using ID or class attributes (or through heuristic testing for an image that is either anchor linked or has a button attached with a JavaScript event handler to process the content switch).</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -1440,6 +1431,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<ol>
 									<li>Check that no video or audio elements trigger content upon the page load.</li>
 									<li>Check that any uses of the <abbr title="Graphics Interchange Format">GIF</abbr> extension are not animated by default.</li>
+									<li>Check that no impactful third-party content activate upon the page load.</li>
 								</ol>
 								<p>Expected Results</p>
 								<ol>
@@ -1586,7 +1578,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</li>
 					<li> 
 						<details>
-							<summary id="UX18-2">UX18-2: Provide Only <abbr title="Web Open Font Format">WOFF</abbr> Custom Typefaces Within a Set Limit</summary>
+							<summary id="UX18-2">UX18-2: Use Modern, Efficient Custom Typefaces Within a Set Limit</summary>
 							<div class="note" role="note" id="issue-container-generatedID-43"><div role="heading" class="note-title marker" id="h-note-43" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#take-a-more-sustainable-approach-to-typefaces">2.18 Take a More Sustainable Approach to Typefaces</a>.</p>
@@ -1651,7 +1643,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Machine testing for suitable typefaces will involve a list of Websafe fonts for each platform to ensure a high probability of compatibility. Statistics about the usage of each platform can be gathered from analytics packages and used to determine which operating systems require support, from there, using a list of pre-installed fonts listed as web-safe will help you define a sustainable stack.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li><a href="https://www.apaddedcell.com/web-fonts/">This guide</a> provides a solid overview of Websafe typefaces across a multitude of platforms and includes common software packages such as Microsoft Office (early versions) and even some versions of iOS.</li>
+									<li><a href="https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS">This guide</a> provides a solid overview of Websafe typefaces across macOS, <a href="https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows">this guide</a> provides coverage of Microsoft Windows and includes typefaces within Microsoft Office, and <a href="https://developer.apple.com/fonts/system-fonts/">this guide</a> showcases typefaces across all of Apples platforms.</li>
 									<li><a href="https://www.cssfontstack.com/"><abbr title="Cascading Stylesheets">CSS</abbr> Font Stack</a> gives a list (with statistics) of Windows and Mac typefaces including their availability. It's particularly useful as it groups them based on the relative font family the typeface relates to.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
@@ -1735,7 +1727,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li><a href="https://meryl.net/webvtt/">Meryl Evans has a great example</a> with some basic code (and links to further materials on using the WebVTT format for providing essential captioning for your videos. It's covered in <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API">more depth on <abbr title="Mozilla Developer Network">MDN</abbr></a>.</li>
-									<li>Paying for a sign language interpreter for your videos can offer added value to your content. It can be easier to understand than written content, reduces accessibility friction, and increases satisfaction levels.</li>
+									<li>Paying for a sign language interpreter for your videos can offer added value to your content. It can be easier to understand than written content, reduces accessibility issues, and increases satisfaction levels.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -1757,8 +1749,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms">2.20 Provide Accessible, Usable, Minimal Web Forms</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Reduce the amount of friction that occurs when information is required to be entered on a form control within a user-interface. By identifying how many elements must be filled out (and those which are not mandatory being eliminated), clearly labeling how such components need to be filled out (and how many steps there are), plus having links to data collection policies, this friction can be substantially reduced.</p>
-								<p>Reducing form friction can lead to less unnecessary data transmission which is not only beneficial in terms of privacy and security (the social component of <abbr title="Environment, Social, and Governance">ESG</abbr>) but also having fewer form elements or steps to render will have an emissions reduction due to the lower amount of individual elements to render to the screen (and the visitor will spend less time on-screen filling the forms in).</p>
+								<p>Reduce the amount of inteference that occurs when information is required to be entered on a form control within a user-interface. Identify how many elements must be filled out (and those which are not mandatory being eliminated), clearly label how such components need to be filled out (and how many steps there are), plus have links to data collection policies.</p>
+								<p>Such actions can lead to less unnecessary data transmission which is not only beneficial in terms of privacy and security (the social component of <abbr title="Environment, Social, and Governance">ESG</abbr>) but also having fewer form elements or steps to render will have an emissions reduction due to the lower amount of individual elements to render to the screen (and the visitor will spend less time on-screen filling the forms in).</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>Domain Registrar <a href="https://iwantmyname.com/support">iWantMyName</a> takes form filling to the most minimal extent possible on their contact page, only providing three essential fields to deal with requests, each of which is clearly labeled.</li>
@@ -1782,12 +1774,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</li>
 					<li> 
 						<details>
-							<summary id="UX20-2">UX20-2: Reduce Friction Within Data Entry With Automatic Assistance Settings</summary>
+							<summary id="UX20-2">UX20-2: Allow For Data Entry With Automatic Assistance Settings</summary>
 							<div class="note" role="note" id="issue-container-generatedID-50"><div role="heading" class="note-title marker" id="h-note-50" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#provide-accessible-usable-minimal-web-forms">2.20 Provide Accessible, Usable, Minimal Web Forms</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Provide a mechanism within forms to reduce friction that might occur during necessary data entry. Such data entry will cause visitors to spend time onscreen and as such will generate emissions in addition to frustration from failed attempts leading to potential escalation of such emissions being triggered (while also conserving bandwidth).</p>
+								<p>Provide a mechanism within forms during necessary data entry to allow automated tooling to provide necessary assistance. Such data entry will cause visitors to spend less time onscreen and as such will generate fewer emissions in addition to less frustration from failed attempts that would otherwise lead to potential escalation of such emissions being triggered (while also conserving bandwidth).</p>
 								<p>For machine testability, the autocomplete attribute should be disabled in all form inputs outside of those likely to be utilized / assisted by a password manager (this is especially true where the suggestions do not come from a visitor device but a third-party and additional bandwidth or rendering processes are likely to be endured). A list of such inputs can be identified from a common password manager and marked against each form for correctness.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -1843,8 +1835,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#provide-useful-notifications-to-improve-the-visitor-s-journey">2.22 Provide Useful Notifications To Improve The Visitor's Journey</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Provide a mechanism to notify the visitor if an issue has occurred during the form-filling process that may be remedied either before or after the submission process has occurred to resolve the issue before it reaches its intended location. Providing error detection and assistance can reduce friction and screen time searching for answers.</p>
-								<p>Machine testability for error detection would require the submission of dummy data (incorrectly) into a form of required elements to test the durability of the process to see if instructional recommendations are given. Such prompts that either correct or guide the visitor can be deemed to pass the Success Criteria. If no guidance is offered or if forms are incorrectly labeled, leading to errors, this would qualify as a failure as visitor friction will occur.</p>
+								<p>Provide a mechanism to notify the visitor if an issue has occurred during the form-filling process that may be remedied either before or after the submission process has occurred to resolve the issue before it reaches its intended location. Providing error detection and assistance can reduce screen time searching for answers.</p>
+								<p>Machine testability for error detection would require the submission of dummy data (incorrectly) into a form of required elements to test the durability of the process to see if instructional recommendations are given. Such prompts that either correct or guide the visitor can be deemed to pass the Success Criteria. If no guidance is offered or if forms are incorrectly labeled, leading to errors, this would qualify as a failure.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>This <a href="https://www.w3.org/WAI/WCAG22/working-examples/script-form-validation-2/index.php">example of client-side form validation</a> based on <a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR32.html"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Technique SCR32</a> showcases a classic example of error handling and how providing a response to the user input when failure occurs is important.</li>
@@ -2185,7 +2177,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#incorporate-compatibility-testing-into-each-release-cycle">2.29 Incorporate Compatibility Testing Into Each Release-Cycle</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism for introducing visitors to new features and capabilities within websites and applications upon a major release being triggered. This would include compatibility changes, any alterations that affect workflow, and bugs that have been resolved. It applies equally to both applications on upgrade paths and website redesigns.</p>
-								<p>The importance of re-orientating users around breaking changes is crucial as modifications made could lead to errors in usage, increases in technical support, friction in usability or accessibility, or introduction of issues that may lead to multiple impacting <abbr title="Environment, Social, and Governance">ESG</abbr> factors that could be resolved through training, answered questions, and well-signposted information architecture.</p>
+								<p>The importance of re-orientating users around breaking changes is crucial as modifications made could lead to errors in usage, increases in technical support, problematic friction in usability or accessibility, or introduction of issues that may lead to multiple impacting <abbr title="Environment, Social, and Governance">ESG</abbr> factors that could be resolved through training, answered questions, and well-signposted information architecture.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>Using <a href="https://semver.org/">Semantic Versioning</a>, providers through their release notes (which if publicly available could be machine tested against), could easily identify a major (breakable significant), against a minor (non-breaking) release.</li>
@@ -2399,7 +2391,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li><a href="https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking?hl=en">This article by Jeremy Wagner</a> showcases the importance of tree shaking within projects, including the history behind it and how it functions, in addition, it provides a few useful code examples.</li>
-									<li>You can identify unused code within a project using Google Developer Tools in the <a href="https://developer.chrome.com/docs/devtools/coverage">Coverage Panel</a>. While there are a few gotchas (such as identifying inactive pseudo selectors), it's a useful way to weed <abbr title="Cascading Stylesheets">CSS</abbr>.</li>
+									<li>You can identify unused code within a project using Google Developer Tools in the <a href="https://developer.chrome.com/docs/devtools/coverage?hl=en-us">Coverage Panel</a>. While there are a few gotchas (such as identifying inactive pseudo selectors), it's a useful way to weed <abbr title="Cascading Stylesheets">CSS</abbr>.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -2732,7 +2724,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>In the past, it was necessary to provide specific coding techniques (known as hacks) to ensure web browser compatibility. <a href="http://browserhacks.com/">Browser Hacks</a>, lists the various patterns used that could be solutions fit for removal.</li>
-									<li>When testing new features, browsers had a habit of <a href="https://shouldiprefix.com/">prefixing their code</a> in the past behind flags to avoid breaking existing code. Lists of such prefixes can be found online as well as archaic proprietary <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Stylesheets">CSS</abbr>.</li>
+									<li>When <a href="https://ios404.com/">testing new features</a>, browsers had a habit of <a href="https://shouldiprefix.com/">prefixing their code</a> in the past <a href="https://webstatus.dev/">behind flags</a> to avoid breaking existing code. Lists of such prefixes can be found online as well as archaic proprietary <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Stylesheets">CSS</abbr>.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -2812,7 +2804,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>The <a href="https://small-tech.org">Small Tech Foundation</a> ensures that their content can be easily identified by third parties by providing metadata, open graph data, and microdata within the document header (that is easily machine-readable).</li>
-									<li>Many social networks take advantage of the <a href="https://ogp.me/">OpenGraph Protocol</a> including <a href="https://developers.facebook.com/docs/sharing/webmasters">Facebook</a> and <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup">X (formally Twitter)</a> in the <abbr title="Hypertext Markup Language">HTML</abbr> head. <a href="https://joinmastodon.org/verification">Mastodon</a> uses the rel="me" attribute to identify websites with owners.</li>
+									<li>Many social networks take advantage of the <a href="https://ogp.me/">OpenGraph Protocol</a> including <a href="https://developers.facebook.com/docs/sharing/webmasters">Facebook</a> and <a href="https://developer.x.com/en/docs/twitter-for-websites/cards/overview/markup">X (formally Twitter)</a> in the <abbr title="Hypertext Markup Language">HTML</abbr> head. <a href="https://joinmastodon.org/verification">Mastodon</a> uses the rel="me" attribute to identify websites with owners.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -2895,7 +2887,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input">3.11 Validate Form Errors and External Input</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Ensure that input types correctly match the type of content being placed within them, that content types like passwords are handled in a way that visitors can easily reveal them, and that the patterns attribute is used correctly to help reduce errors during data entry. In doing so, friction encountered during form filling can be reduced as can erroneous submissions.</p>
+								<p>Ensure that input types correctly match the type of content being placed within them, that content types like passwords are handled in a way that visitors can easily reveal them, and that the patterns attribute is used correctly to help reduce errors during data entry. In doing so, problematic friction encountered during form filling can be reduced as can erroneous submissions.</p>
 								<p>Machine testability for this criteria will involve analyzing the components of forms to ensure they are well formed and that (for example) any regular expressions used in patterns will not produce an erroneous result. It is also important that functionality within forms perform well on mobile devices as well as desktop so consideration must be given to the choice of input for tasks.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -2944,7 +2936,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</li>
 					<li> 
 						<details>
-							<summary id="WD11-3">WD11-3: Reduce Friction Within Data Entry With Manual Third-Party Content</summary>
+							<summary id="WD11-3">WD11-3: Reduce Issues Within Data Entry With Manual Third-Party Content</summary>
 							<div class="note" role="note" id="issue-container-generatedID-91"><div role="heading" class="note-title marker" id="h-note-91" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#validate-form-errors-and-external-input">3.11 Validate Form Errors and External Input</a>.</p>
@@ -3550,17 +3542,18 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#choose-a-sustainable-hosting-provider">4.1 Choose a Sustainable Hosting Provider</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Ensure that anyone who wishes to compile an impact statement (as a consumer of your services) based on conditions such as <abbr title="Power Usage Effectiveness">PUE</abbr>, <abbr title="Water Usage Effectiveness">WUE</abbr>, and <abbr title="Carbon Usage Effectiveness">CUE</abbr> can calculate the necessary energy utilization of a provider using the available data. Making important metrics publicly visible to both customers and visitors, increases awareness, reduces the potential for greenwashing, and allows service providers to report with proof of compliance.</p>
-								<p>For machine testability, this would require each customer account (of a hosting provider) to be equipped with a publicly visible stats page indicating resource utilization, including useful information on variables like <abbr title="Central Processing Unit">CPU</abbr>, <abbr title="Graphics Processing Unit">GPU</abbr>, <abbr title="Random Access Memory">RAM</abbr>, and data usage, plus a calculation on equivalent water or other consumable resource utilization. This can be linked to from within the service status page.</p>
+								<p>Ensure that anyone who wishes to compile an impact statement (as a consumer of your services) based on conditions such as <abbr title="Power Usage Effectiveness">PUE</abbr>, <abbr title="Water Usage Effectiveness">WUE</abbr>, and <abbr title="Carbon Usage Effectiveness">CUE</abbr> can calculate the necessary energy utilization of a provider using each of the available data based upon any variables required. Making important metrics publicly visible to both customers and visitors, increases awareness, reduces the potential for greenwashing, and allows service providers to report with proof of compliance.</p>
+								<p>For machine testability, this would require each customer account (of a hosting provider) to be equipped with a publicly visible stats page indicating resource utilization, including useful information on variables like <abbr title="Central Processing Unit">CPU</abbr>, <abbr title="Graphics Processing Unit">GPU</abbr>, <abbr title="Random Access Memory">RAM</abbr>, and data usage, plus a calculation on equivalent water or other consumable resource utilization. This can be linked to from within the service status page. In addition, the methodology behind the calculations should also be provided in a centralized location.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
+									<li><a href="https://corporate.ovhcloud.com/en/sustainability/environment/">OVHCloud</a> and <a href="https://pue.dc5.scaleway.com/en/">Scaleway</a> both showcase different ways of displaying data about their environmental impact and notably, the variables that make up that number (with calculations and individual metrics provided). Both dashboards and sustainability panels are equally useful tools for showcasing such information.</li>
 									<li>A service provider could make the internal resource usage stats page that comes with many hosting packages publicly visible (upon request of the website or application provider), and include sustainability data within.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
 								<ol>
 									<li>Check that the provider has made available relevant hosting metrics publicly.</li>
-									<li>Check that the <abbr title="Power Usage Effectiveness">PUE</abbr>, <abbr title="Water Usage Effectiveness">WUE</abbr>, and <abbr title="Carbon Usage Effectiveness">CUE</abbr> are listed for each data center.</li>
+									<li>Check that the <abbr title="Power Usage Effectiveness">PUE</abbr>, <abbr title="Water Usage Effectiveness">WUE</abbr>, and <abbr title="Carbon Usage Effectiveness">CUE</abbr> are each listed for each data center.</li>
 									<li>Check that individual servers provide live <abbr title="Central Processing Unit">CPU</abbr>, <abbr title="Graphics Processing Unit">GPU</abbr>, <abbr title="Random Access Memory">RAM</abbr>, and data use tracking.</li>
 									<li>Check that logging of past values over time is provided for calculating emissions.</li>
 								</ol>
@@ -3627,12 +3620,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</li>
 					<li> 
 						<details>
-							<summary id="HIS02-2">HIS02-2: Identify the Potential for <abbr title="Progressive Web Applications">PWAs</abbr> and Other Low-Friction Features</summary>
+							<summary id="HIS02-2">HIS02-2: Identify the Potential for <abbr title="Progressive Web Applications">PWAs</abbr> and Other Useful Features</summary>
 							<div class="note" role="note" id="issue-container-generatedID-116"><div role="heading" class="note-title marker" id="h-note-116" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#optimize-browser-caching">4.2 Optimize Browser Caching</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Identify if techniques could be used to reduce friction within the user-experience. Examples of this could include identifying if cookies could (and should) be used within an interface or if the website or application could be transformed into a progressive web application to provide advantages (project-wide) such as offline availability.</p>
+								<p>Identify if techniques could be used to increase the performance within the user-experience. Examples of this could include identifying if cookies could (and should) be used within an interface or if the website or application could be transformed into a progressive web application to provide advantages (project-wide) such as offline availability.</p>
 								<p>Machine testability to identify existing features is relatively straightforward as it simply requires identifying through the source code where cookies, local database requests, service, or web workers are implemented and ensuring that they are both proportionate and correctly marked up. If these don't exist it will require analyzing the page (or components) for potential opportunities for use.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -3662,7 +3655,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#compress-your-files">4.3 Compress Your Files</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism to serve content correctly using a recognized encoding method to reduce the payload size of websites and applications. While this means there will be an additional rendering effort on the client-side (decoding the file), the increased speed in loading such files has an <abbr title="Environment, Social, and Governance">ESG</abbr> benefit that justifies the added effort.</p>
-								<p>For machine testability, identifying content encoding methods for file formats can be done by checking the content-encoding headers for various files as they are requested from the server. If the content is not being encoded (unless it has been encoded at the source and no further optimization can be made), recommendations can be made to use a compatible compression technique.</p>
+								<p>For machine testability, identifying content encoding methods for file formats can be done by checking the content-encoding headers for various files as they are requested from the server. This can be achieved on an individual basis or through server configuration files. If the content is not being encoded (unless it has been encoded at the source and no further optimization can be made), recommendations can be made to use a compatible compression technique.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>The <a href="https://www.solidchocolateco.com/">Solid Chocolate Company</a> serves all of their content using GZIP compression headers ensuring that data gets to the visitor as quickly as possible (in addition to compressing image and media assets at source).</li>
@@ -3671,6 +3664,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Procedure</p>
 								<ol>
 									<li>Check all text assets for content-encoding headers to verify compression takes place.</li>
+									<li>Check content-encoding headers work for not in-use formats for forward-compatibility efforts.</li>
 									<li>Check if the compression method used is the most optimal type available.</li>
 								</ol>
 								<p>Expected Results</p>
@@ -3698,6 +3692,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Procedure</p>
 								<ol>
 									<li>Check that all assets are optimized for the web in size, format, and quality before publication.</li>
+									<li>If assets have been altered prior to publication, check users are pre-warned of any changes.</li>
 									<li>Check that the files published are the optimized versions (more than one may be necessary).</li>
 									<li>Check if a <abbr title="Content Management System">CMS</abbr> will be necessary or useful and if so, ensure static assets are uploaded there.</li>
 								</ol>
@@ -3728,6 +3723,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 									<li>Check that the website or application has a custom set of pages to respond to errors.</li>
 									<li>Check that each error status type has its own page and unique situation handling.</li>
 									<li>Check that such pages provide signposting to resolve the error they encountered.</li>
+									<li>Check that existing links to navigation related pages remain fully functional.</li>
 									<li>Check that links to customer support are provided when solutions do not work.</li>
 								</ol>
 								<p>Expected Results</p>
@@ -3886,8 +3882,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>For machine testability, providers should have information about sustainability offered within a sustainability statement along with details of compliance being met plus any sustainability features they provide that enhance their service. If this information is publicly available (and uses recognized sources), it could be parsed by machine, otherwise, a sustainable provider list should be sourced.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li><a href="https://blog.cloudflare.com/a-carbon-neutral-north-america/">CloudFlare</a> has already made great progress towards becoming carbon neutral. However like with any hosting provider, they still have a long journey to make to be entirely free of emissions throughout their digital services.</li>
-									<li><a href="https://www.akamai.com/site/en/documents/akamai/akamai-2022-esg-impact-report.pdf">Akamai</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>) provides a yearly <abbr title="Environment, Social, and Governance">ESG</abbr> report that showcases and documents all of the changes they have made towards becoming more sustainable. While they have not fully become carbon neutral, they are getting there.</li>
+									<li><a href="https://www.akamai.com/site/en/documents/akamai/akamai-2022-esg-impact-report.pdf">Akamai</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>) provides a yearly <abbr title="Environment, Social, and Governance">ESG</abbr> report that showcases and documents all of the changes they have made towards becoming more sustainable. While they have not fully become sustainable, they are getting there.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -3989,7 +3984,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs">4.12 Store Data According to Visitor Needs</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Increase findability within content by offering mechanisms within the page for visitors to filter the results of potential content they are seeking by category, tag, or other variables. How this feature is presented to visitors can differ between implementations as there are several well-defined patterns, but they can reduce friction in the user-experience.</p>
+								<p>Increase findability within content by offering mechanisms within the page for visitors to filter the results of potential content they are seeking by category, tag, or other variables. How this feature is presented to visitors can differ between implementations as there are several well-defined patterns, but they can reduce problematic friction in the user-experience.</p>
 								<p>Machine testability for such features will involve examining the page's source code to identify repeating patterns across several pages (if correctly labeled, patterns such as tags or categories may be semantically easy to find). The sustainability of such implementations must account for the impact it has upon rendering across each page, against the benefit it has to the visitor experience.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -4011,13 +4006,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</li>
 					<li> 
 						<details>
-							<summary id="HIS12-5">HIS12-5: Ensure That Backup Providers Are Classified As Carbon-Neutral</summary>
+							<summary id="HIS12-5">HIS12-5: Ensure That Backup Providers Are Classified As Sustainable</summary>
 							<div class="note" role="note" id="issue-container-generatedID-130"><div role="heading" class="note-title marker" id="h-note-130" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#store-data-according-to-visitor-needs">4.12 Store Data According to Visitor Needs</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Ensure that any third-party backup service provider is examined for sustainability impacts. This will involve examining the impact they have simply in hosting your data, but also how sustainable their platform is, as well as their business. If their model meets any obligations laid out and aligns well against the <abbr title="Web Sustainability Guidelines">WSGs</abbr>, it may meet success criteria.</p>
-								<p>To identify how carbon-neutral a service is, a list of recommended sustainable backup providers would be an ideal source to utilize (assuming that one exists and it is itself reputable). If no list exists, checking providers' claims, sustainability statements, and measuring their service against criteria such as the <abbr title="Web Sustainability Guidelines">WSGs</abbr> can be helpful to some extent, though utilizing established standards like the <abbr title="Global Reporting Initiative">GRI</abbr> and recommendations around infrastructure will also help.</p>
+								<p>To identify how sustainable a service is, a list of recommended sustainable backup providers would be an ideal source to utilize (assuming that one exists and it is itself reputable). If no list exists, checking providers' claims, sustainability statements, and measuring their service against criteria such as the <abbr title="Web Sustainability Guidelines">WSGs</abbr> can be helpful to some extent, though utilizing established standards like the <abbr title="Global Reporting Initiative">GRI</abbr> and recommendations around infrastructure will also help.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>An application producing large numbers of logs that need to be rotated on a regular cycle could backup those logs to an external sustainable source and remove them from the origin host to eliminate existing emissions.</li>
@@ -4109,7 +4104,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#have-an-ethical-and-sustainability-product-strategy">5.1 Have an Ethical and Sustainability Product Strategy</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Go beyond extensive documentation for a website or application and to offer optional interactive tuition for your product or service. This can take the form of guided tours, in-app assistance, or even video tutorials. The important thing is that visitors can acquaint themselves with the environment you provide and reduce unnecessary friction. Learning how to use a project quickly can also reduce wasted hardware utilization.</p>
+								<p>Go beyond extensive documentation for a website or application and to offer optional interactive tuition for your product or service. This can take the form of guided tours, in-app assistance, or even video tutorials. The important thing is that visitors can acquaint themselves with the environment you provide and reduce problematic friction. Learning how to use a project quickly can also reduce wasted hardware utilization.</p>
 								<p>Unlike documentation, instructional material that is integrated within a product or service will be harder to machine test against (as it will be tightly merged into a codebase), however, being able to identify the settings to enable such features should be achievable (as input boxes can be read), or if such instruction is provided on a dedicated subdomain, locating that resource.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -4141,7 +4136,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>For machine testability, metrics data could be used to validate such claims if the research has been provided in the public domain. If a testing tool has been used to make the claim, these can be validated by the accuracy of the said tool and its methodology. If it is based on just first-party information, scan for artifacts that may help verify sources such as research, carbon.txt files, etc.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li>A website hires an independent third-party sustainability consultant to measure the carbon neutrality of its products and services. Upon completion, a report is produced citing evidence that verifies their status.</li>
+									<li>A website hires an independent third-party sustainability consultant to measure the carbon impact of its products and services. Upon completion, a report is produced citing evidence that verifies their status.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -4250,7 +4245,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<ol>
 									<li>Sportswear firm Adidas has a page that showcases their <a href="https://www.adidas-group.com/en/sustainability/focus-on-sustainability/our-targets">sustainability goals for the coming year</a> in short, well-defined paragraphs, along with links to previous reports and other sustainability-related information.</li>
 									<li>Computing giant Dell has a <a href="https://www.dell.com/en-us/dt/corporate/social-impact/reporting/goals.htm">dedicated page to sustainability</a> showcasing its commitments towards <abbr title="Environment, Social, and Governance">ESG</abbr> targets and providing specific year-based deadlines to achieve them along with report links and their related blog.</li>
-									<li>United States Mega-brand Walmart <a href="https://corporate.walmart.com/purpose/sustainability">has an extremely well crafted</a> sustainability hub and sub-section of their corporate website that provides interactive information on their challenge to become sustainable.</li>
+									<li>United States Mega-brand Walmart <a href="https://corporate.walmart.com/content/corporate/en_us/purpose/sustainability.html/">has an extremely well crafted</a> sustainability hub and sub-section of their corporate website that provides interactive information on their challenge to become sustainable.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -4552,7 +4547,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Heuristic testing by examining the source code of a document on the employee benefits (pay grades) on a website would be able to identify whether that business is a living wage employer, as would comparing any existing job openings with pay grades against living wage rates. If these are not available, a living wage badge may be an indicator but evidence will need to back the claim.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li>The <a href="https://www.livingwage.org.uk/accredited-living-wage-employers">Living Wage website</a> provides a search service to allow individuals to find businesses and employers who provide a Living Wage. This can be broken down by sector, region, industry, and even service type.</li>
+									<li>The <a href="https://livingwage.org.uk/accredited-living-wage-employers">Living Wage website</a> provides a search service to allow individuals to find businesses and employers who provide a Living Wage. This can be broken down by sector, region, industry, and even service type.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -4580,8 +4575,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Machine testing for such benefits can be difficult as there isn't a universal list of what can be offered, however, there is a commonality between the types of things that workplaces often provide. As such, analyzing words in job openings or culture / workplace pages on websites can identify these benefits and weigh the value (potentially) based on their impact (sustainably or otherwise).</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li><a href="https://careers.jacobs.com/life-at-jacobs/">Jacobs is a great example</a> of a careers / life at work page done well that showcases the benefits that will be gained from working within the organization and also the benefits that will be gained outside of payment.</li>
-									<li>Rocketmakers provide information <a href="https://rocketmakers.com/careers/">about their values</a> (the benefits they hope to get from workers) as well as the benefits they offer (outside of the wage). It's a visually striking layout as well which helps sell the appeal.</li>
+									<li><a href="https://www.fatbeehive.com/join-our-team/">Fat Beehive is a great example</a> of a careers / life at work page done well that showcases the benefits that will be gained from working within the organization and also the benefits that will be gained outside of payment.</li>
+									<li>Rocketmakers provide information <a href="https://www.rocketmakers.com/careers">about their values</a> (the benefits they hope to get from workers) as well as the benefits they offer (outside of the wage). It's a visually striking layout as well which helps sell the appeal.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -5861,7 +5856,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						</tbody>
 					</table>
 				</details>
-				<p>If attempting to create a test to include within or expand the test suite, remember to follow these <a href="https://web-platform-tests.org/reviewing-tests/checklist.html">review guidelines</a> and be considerate that our tests follow the <a href="https://wiki.csswg.org/test/format">formatting structure</a> of tests created for the <abbr title="Cascading Stylesheets">CSS</abbr> Working Group (for interoperability as well as convenience). For an indication of how tests should be structured, use our documented <a href="https://github.com/w3c/sustyweb/tree/main/test-suite/_template.html">template test</a> as a starting point.</p>
+				<p>If attempting to create a test to include within or expand the test suite, remember to follow these <a href="https://web-platform-tests.org/reviewing-tests/checklist.html">review guidelines</a> and be considerate that our tests follow the <a href="https://wiki.csswg.org/test/format">formatting structure</a> of tests created for the <abbr title="Cascading Stylesheets">CSS</abbr> Working Group (for interoperability as well as convenience). For an indication of how tests should be structured, use our documented <a href="https://github.com/w3c/sustyweb/blob/main/test-suite/_template.html">template test</a> as a starting point.</p>
 				<p>Also, be sure to remember that qualitative as well as quantitative tests are equally valuable as long as they can be tested by machine (and thus automated in some way). As tests will provide a means of identifying whether Success Criteria can offer Automated testing over Manual interventions, notifications of this potential attribute (and methods) will be referenced within the main specification.</p>
 			</section>
 		</section>

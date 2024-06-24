@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 34.5.0">
+<meta name="generator" content="ReSpec 35.1.1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 dfn{cursor:pointer}
@@ -42,8 +42,6 @@ dfn{cursor:pointer}
 25%{transform:scale(1.25,1.25);opacity:.75}
 100%{transform:scale(1,1)}
 }
-:is(h1,h2,h3,h4,h5,h6,a) abbr{border:none}
-dfn{font-weight:700}
 a.internalDFN{color:inherit;border-bottom:1px solid #99c;text-decoration:none}
 a.externalDFN{color:inherit;border-bottom:1px dotted #ccc;text-decoration:none}
 a.bibref{text-decoration:none}
@@ -57,19 +55,8 @@ a.bibref{text-decoration:none}
 cite .bibref{font-style:normal}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
-.toc a,.tof a{text-decoration:none}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
-table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}
-.simple th{background:#005a9c;color:#fff;padding:3px 5px;text-align:left}
-.simple th a{color:#fff;padding:3px 5px;text-align:left}
-.simple th[scope=row]{background:inherit;color:inherit;border-top:1px solid #ddd}
-.simple td{padding:3px 10px;border-top:1px solid #ddd}
-.simple tr:nth-child(even){background:#f0f6ff}
-.section dd>p:first-child{margin-top:0}
-.section dd>p:last-child{margin-bottom:0}
-.section dd{margin-bottom:1em}
-.section dl.attrs dd,.section dl.eldef dd{margin-bottom:0}
 #issue-summary>ul{column-count:2}
 #issue-summary li{list-style:none;display:inline-block}
 details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
@@ -93,6 +80,7 @@ dd{margin-left:0}
 .removeOnSave{display:none}
 }
 </style>
+<meta name="color-scheme" content="light">
 <meta name="description" content="This document provides a quick reference to the Web Sustainability Guidelines (WSG) 1.0 specification. The content is laid out in a table, with Success Criteria, Impact, Effort, and GRI ratings noted for each guideline. Checkboxes are provided for those individuals or groups wishing to work through the list (note your progress will not be saved), and a print-friendly (PDF) version is also available to audit your work as part of an exercise.">
 <style>
 var{position:relative;cursor:pointer}
@@ -120,8 +108,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "group": "sustyweb",
   "latestVersion": "https://w3c.github.io/sustyweb/quickref.html",
   "specStatus": "CG-DRAFT",
-  "publishISODate": "2024-04-11T00:00:00.000Z",
-  "generatedSubtitle": "Draft Community Group Report 11 April 2024"
+  "publishISODate": "2024-06-17T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 17 June 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
 	<body class="h-entry informative"><div class="head">
@@ -129,7 +117,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <h1 id="title" class="title">Quick Reference for Web Sustainability Guidelines (WSG) 1.0</h1> 
     <p id="w3c-state">
       <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
-      <time class="dt-published" datetime="2024-04-11">11 April 2024</time>
+      <time class="dt-published" datetime="2024-06-17">17 June 2024</time>
     </p>
     <dl>
       
@@ -290,8 +278,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
 					</tr>
 					<tr class="highlight">
-						<td><a href="https://w3c.github.io/sustyweb/#create-a-frictionless-lightweight-experience-by-default">2.6</a></td>
-						<td colspan="5">Create a Frictionless Lightweight Experience by Default</td>
+						<td><a href="https://w3c.github.io/sustyweb/#create-a-lightweight-experience-by-default">2.6</a></td>
+						<td colspan="5">Create a Lightweight Experience by Default</td>
 					</tr>
 					<tr>
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
@@ -1442,7 +1430,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="4.2a"></td><td colspan="5"><label for="4.2a">If using a <abbr title="Content Management System">CMS</abbr>, install an applicable plugin to enable on-the-fly server-side caching. Otherwise, use the provided server configuration files to include and tweak the file-type cache expiration using expires, bfcache, or cache-control <abbr title="Hypertext Transfer Protocol">HTTP</abbr> header. If using a language or framework that generates pages on request, cache responses for static pages so that they can be reused for future visitors.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="4.2b"></td><td colspan="5"><label for="4.2b">Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (APIs), or cookies (if necessary) to reduce friction in the user-journey. For example, through the use of a <abbr title="Progressive Web Application">PWA</abbr> (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility.</label></td>
+						<td><input type="checkbox" id="4.2b"></td><td colspan="5"><label for="4.2b">Client-side JavaScript uses a combination of ServiceWorkers, WebWorkers, storage Application Programming Interfaces (APIs), or cookies (if necessary) to streamline the user-journey. For example, through the use of a <abbr title="Progressive Web Application">PWA</abbr> (Progressive Web Application) to ensure that an offline version is available and accessible at all times to reduce inequality and improve accessibility.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>
@@ -2345,7 +2333,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</tr>
 					<tr>
 						<td></td><td><strong><abbr title="Global Reporting Initiative">GRI</abbr></strong></td>
-						<td>High</td><td>High</td><td>High</td><td>High</td>
+						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
 					</tr>
 					<tr class="highlight">
 						<td><a href="https://w3c.github.io/sustyweb/#create-a-business-continuity-and-disaster-recovery-plan">5.29</a></td>
