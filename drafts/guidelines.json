@@ -1,8 +1,8 @@
 {
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
-	"edition": "Seventh Draft",
-	"lastModified": "2024-06-24",
+	"edition": "Eighth Draft",
+	"lastModified": "2024-08-12",
 	"category": [
 		{
 			"id": "1",
@@ -62,6 +62,7 @@
 							"IBM Design For Sustainability (PDF)": "https://www.ibm.com/design/practices/design-for-sustainability/",
 							"Learn Performance": "https://web.dev/learn/performance?hl=en",
 							"Nachhaltige Websites? (German)": "https://www.websiteboosting.com/magazin/75/nachhaltige-websites-wie-wir-alle-mehr-fuer-die-umwelt-tun-koennen.html",
+							"Network energy use not directly proportional to data volume": "https://onlinelibrary.wiley.com/doi/10.1111/jiec.13512",
 							"Opquast Web Quality Assurance Checklist (PDF)": "https://checklists.opquast.com/en/web-quality-assurance/download/",
 							"Reduce the weight of a web page: which elements have the greatest impact?": "https://greenspector.com/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
 							"Scope 3 Emissions in Your Digital Supply Chain": "https://www.mightybytes.com/blog/scope-3-emissions-in-your-digital-supply-chain/",
@@ -711,7 +712,9 @@
 							"An empirical study on the performance and energy costs of ads and analytics in mobile web apps": "https://www.sciencedirect.com/science/article/pii/S0950584923002252",
 							"Biased By Design": "https://biasedbydesign.com/",
 							"Climate change SEO survey": "https://searchengineland.com/climate-change-seo-survey-making-web-more-sustainable-438209",
+							"Dark Design Patterns Catalog": "https://www.uxtigers.com/post/dark-design",
 							"Dark pattern": "https://en.wikipedia.org/wiki/Dark_pattern",
+							"Dark Patterns Hall of Shame": "https://hallofshame.design/",
 							"Dark patterns in UX: how designers should be responsible for their actions": "https://uxdesign.cc/dark-patterns-in-ux-design-7009a83b233c",
 							"Dealing with Ads in 2020": "https://schepp.dev/posts/ad-integration-in-2020/",
 							"Deceptive Patterns": "https://www.deceptive.design/",
@@ -1008,6 +1011,7 @@
 							"Fast load times: Optimize Your Images": "https://web.dev/explore/fast?hl=en#optimize-your-images",
 							"Favor CSS over images": "http://www.ecometer.org/rules/favor-css-over-images.html",
 							"Focus Mode": "https://www.greendesign.io/focus-mode",
+							"Greening The Web: A Study On Low-Carbon Image Formats": "https://michaelandersen93.substack.com/p/greening-the-web-a-study-on-low-carbon?r=3dzajs",
 							"[GPFEDS] 1.9 - Strategy (Interoperable Technologies) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 4.1 - UX and UI (Autoplay) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 4.7 - UX and UI (Media Choices) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -1838,7 +1842,9 @@
 						{
 							"Addy Osmani's 18-Point Web Performance Checklist": "https://dev.to/ben/addy-osmanis-18-point-web-performance-checklist-2e1",
 							"Awesome Page Speed Metrics": "https://github.com/csabapalfi/awesome-pagespeed-metrics",
+							"Blazing Fast Websites with Speculation Rules": "https://www.debugbear.com/blog/speculation-rules",
 							"Browser Rendering Optimization": "https://www.udacity.com/course/browser-rendering-optimization--ud860",
+							"The Three Cs": "https://csswizardry.com/2023/10/the-three-c-concatenate-compress-cache/",
 							"Fast load times": "https://web.dev/explore/fast?hl=en",
 							"Front-End Performance Checklist 2021": "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/",
 							"Getting started with Web Performance": "https://www.htmhell.dev/adventcalendar/2023/14/",
@@ -1851,6 +1857,7 @@
 							"PageSpeed Insights": "https://pagespeed.web.dev/",
 							"The Almost-Complete Guide to Cumulative Layout Shift": "https://jessbpeck.com/posts/completecls/",
 							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
+							"Psychology of Speed": "https://calibreapp.com/blog/perceived-performance",
 							"WebPageTest": "https://www.webpagetest.org/",
 							"What Are Core Web Vitals (CWVs) & How To Improve Them": "https://ahrefs.com/blog/core-web-vitals/",
 							"Why does speed matter?": "https://web.dev/learn/performance/why-speed-matters?hl=en",
@@ -2113,6 +2120,7 @@
 					],
 					"resources": [
 						{
+							"15 page speed optimizations that sites ignore (at their own risk)": "https://www.speedcurve.com/blog/15-neglected-page-speed-optimizations/",
 							"Does not compute: Avoiding pitfalls assessing the Internet's energy and carbon impacts": "https://www.cell.com/joule/fulltext/S2542-4351(21)00211-7",
 							"Electronics Goes Green (PDF)": "https://online.electronicsgoesgreen.org/wp-content/uploads/2020/10/Proceedings_EGG2020_v2.pdf",
 							"Equations relating total annual energy consumption and chips energy efficiency": "https://www.researchgate.net/publication/371938289_Equations_relating_total_annual_energy_consumption_and_chips_energy_efficiency",
@@ -2339,6 +2347,8 @@
 							"Accessible Rich Internet Applications": "https://www.w3.org/TR/wai-aria-1.2/",
 							"ARIA, the good parts": "https://talks.hiddedevries.nl/hDiDOG/aria-the-good-parts",
 							"Bridging Web Accessibility and Sustainability for a Better Digital Future": "https://dodonut.com/blog/bridging-web-accessibility-and-sustainability/",
+							"Continuous Accessibility": "https://continuousaccessibility.com/",
+							"Disability and Health": "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
 							"[GPFEDS] 1.4 - Strategy (Regular Reviews) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 3-3018 - Electronicism": "https://gr491.isit-europe.org/en/crit.php?id=3-3018-uxui-diminishing-inequalities-of-access-to-digital-service",
 							"[GR491] 3-3019 - The Digital Gap": "https://gr491.isit-europe.org/en/crit.php?id=3-3019-uxui-dealing-with-cases-of-digital-exclusion-is",
@@ -2483,7 +2493,7 @@
 					],
 					"resources": [
 						{
-							"AdGreen": "https://weareadgreen.org/",
+							"AdGreen": "https://www.weareadgreen.org/",
 							"An empirical study on the performance and energy costs of ads and analytics in mobile web apps": "https://www.sciencedirect.com/science/article/pii/S0950584923002252",
 							"Building for sustainability with WordPress": "https://sustywp.com/",
 							"Cookies, Pixels, and Tags": "https://www.osano.com/articles/privacy-cookies-pixels-and-tags",
@@ -2525,6 +2535,7 @@
 							"Web Video Text Tracks Format": "https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API",
 							"What could the sustainability initiative do for WordPress?": "https://oursustainablewp.org/",
 							"What is a tracking pixel, and how does it work?": "https://nordvpn.com/blog/what-is-a-tracking-pixel/",
+							"You don't need JavaScript for that": "https://www.htmhell.dev/adventcalendar/2023/2/",
 							"You Might Not Need": "https://youmightnotneed.com/"
 						}
 					],
@@ -3016,6 +3027,7 @@
 							"List of sovereign states by Internet connection speeds": "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_Internet_connection_speeds",
 							"Mobile-First CSS: Is It Time for a Rethink?": "https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/",
 							"Mobile First Design and Sustainability": "https://www.mightybytes.com/blog/mobile-first-sustainability/",
+							"Mobile-First Design Complete Guide 2024": "https://uxplanet.org/mobile-first-design-guide-2023-fdd597455d",
 							"Mobile Gender Gap Report (PDF)": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/wp-content/uploads/2020/05/GSMA-The-Mobile-Gender-Gap-Report-2020.pdf",
 							"Progressive Enhancement": "https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement",
 							"Progressive Enhancement: What It Is, And How To Use It?": "https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/",
@@ -3092,6 +3104,7 @@
 							"[GPFEDS] 6.6 - Front-End (Sensor Requests) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"How Web Content Can Affect Power Usage": "https://webkit.org/blog/8970/how-web-content-can-affect-power-usage/",
 							"Internet censorship and surveillance by country": "https://en.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country",
+							"Optimizing Javascript for fun and for profit": "https://romgrk.com/posts/optimizing-javascript",
 							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"W3C Web Performance Working Group": "https://www.w3.org/webperf/",
 							"WebAssembly versus JavaScript: Energy and Runtime Performance (PDF)": "https://repositorio.inesctec.pt/server/api/core/bitstreams/0870fb76-d463-456b-9e34-5b33bb7c0dd1/content"
@@ -3975,6 +3988,7 @@
 							"How to create great error pages": "https://uxdesign.cc/how-to-create-great-error-pages-b2de5e5daca8",
 							"How to Redirect a Web Page": "https://css-tricks.com/redirect-web-page/",
 							"HTTP response status codes": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+							"When Online Content Disappears": "https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/",
 							"Why You Should Constantly Check for Broken Links in WordPress": "https://www.greengeeks.com/tutorials/why-you-should-constantly-check-for-broken-links-in-wordpress/",
 							"Why you should be testing your 404 pages web performance": "https://nooshu.com/blog/2020/08/25/you-should-be-testing-your-404-pages-web-performance/"
 						}
@@ -5558,7 +5572,7 @@
 							"Bridging Digital and Environmental Goals (PDF)": "https://www3.weforum.org/docs/WEF_Bridging_Digital_and_Environmental_Goals_2021.pdf",
 							"Employee Benefits In 2023: The Ultimate Guide": "https://www.forbes.com/advisor/business/employee-benefits/",
 							"[GR491] 2-8019 - Employee Salary Conditions": "https://gr491.isit-europe.org/en/crit.php?id=2-8019-hosting-the-24/7-supervision-needs-of-data-centers",
-							"How effective is sustainability advocacy?": "https://www.greenbiz.com/article/how-effective-sustainability-advocacy",
+							"How effective is sustainability advocacy?": "https://trellis.net/article/whats-best-way-incentivize-supplier-sustainability/",
 							"How to Ensure a Living Wage for All Employees, Globally and Regionally": "https://unglobalcompact.org/academy/how-to-ensure-a-living-wage-for-all-employees",
 							"How to Make Employee Benefits More Sustainable": "https://www.corporatewellnessmagazine.com/article/how-to-make-employee-benefits-more-sustainable",
 							"How to Motivate People Toward Sustainability": "https://nbs.net/how-to-motivate-people-toward-sustainability/",
@@ -5566,7 +5580,7 @@
 							"Sustainability innovations and firm competitiveness": "https://www.sciencedirect.com/science/article/pii/S0959652620347594",
 							"The Real Living Wage Is A Core Part Of Any ESG Agenda": "https://livingwage.org.uk/news/real-living-wage-core-part-any-esg-agenda",
 							"What is an Accessibility Advocate?": "https://medium.com/@a11ycompass/what-is-an-accessibility-advocate-8cbbac0d6c6c",
-							"What's the best way to incentivize supplier sustainability?": "https://www.greenbiz.com/article/whats-best-way-incentivize-supplier-sustainability"
+							"What's the best way to incentivize supplier sustainability?": "https://trellis.net/article/whats-best-way-incentivize-supplier-sustainability/"
 						}
 					],
 					"tags": ["Social Equity", "Governance"]
@@ -5845,7 +5859,7 @@
 						{
 							"title": "Technology Legislation",
 							"testable": "Human Testable",
-							"description": "The organization supports responsible legislation related to automation and emerging technologies."
+							"description": "The organization supports and complies with responsible legislation related to automation and emerging technologies (such as the EU AI Act)."
 						},
 						{
 							"title": "Environmental Responsibilities",
@@ -5886,6 +5900,7 @@
 							"AI and crypto mining are driving up data centers' energy use": "https://www.theverge.com/2024/1/24/24049047/data-center-ai-crypto-bitcoin-mining-electricity-report-iea",
 							"AI Environmental Equity": "https://themarkup.org/hello-world/2023/07/08/ai-environmental-equity-its-not-easy-being-green",
 							"AI Regulation Around The World": "https://www.taylorwessing.com/en/interface/2023/ai---are-we-getting-the-balance-between-regulation-and-innovation-right/ai-regulation-around-the-world",
+							"AI's Climate Impact Goes beyond Its Emissions": "https://www.scientificamerican.com/article/ais-climate-impact-goes-beyond-its-emissions/",
 							"Are harvest now, decrypt later cyberattacks actually happening?": "https://techmonitor.ai/hardware/quantum/harvest-now-decrypt-later-cyberattack-quantum-computer",
 							"Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models": "https://arxiv.org/abs/2007.03051",
 							"Crypto and blockchain must accept they have a problem, then lead in sustainability": "",
@@ -5894,6 +5909,7 @@
 							"Digital education: The unique learning ecosystem TechUcation": "https://www.ottogroup.com/en/stories/story/story-techucation.php",
 							"Dismantling the Quantum Threat": "https://www.researchgate.net/publication/367205680_Dismantling_the_Quantum_Threat",
 							"Ecological Awareness for the Decentralized Web": "https://blog.archive.org/2021/09/20/ecological-awareness-for-the-decentralized-web/",
+							"EU Artificial Intelligence Act": "https://artificialintelligenceact.eu/the-act/",
 							"Generating AI Images Uses as Much Energy as Charging Your Phone, Study Finds": "https://gizmodo.com/ai-images-as-much-energy-as-charging-phone-hugging-face-1851065091",
 							"[GPFEDS] 1.7 - Strategy (Encryption) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 7.4 - Back-End (Consensus Mechanism) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
