@@ -50,8 +50,9 @@ You will notice duplication within the content of our work (as the JSON API for 
 
 If you would like to contribute towards this specification, our primary method is through Pull Requests (PRs).
 
-If you are not the sole contributor to a contribution (pull request), please identify all
-contributors in the pull request comment.
+Pull requests (PRs) should be made against the main branch.
+
+If you are not the sole contributor to a contribution (pull request), please identify all contributors in the pull request comment.
 
 To add a contributor (other than yourself, that's automatic), mark them one per line as follows:
 
@@ -65,12 +66,11 @@ If you added a contributor by mistake, you can remove them in a comment with:
 -@github_username
 ```
 
-If you are making a pull request on behalf of someone else but you had no part in designing the
-feature, you can remove yourself with the above syntax.
+If you are making a pull request on behalf of someone else but you had no part in designing the feature, you can remove yourself with the above syntax.
 
 ## Issues
 
-If you cannot submit a pull request, or if you cannot provide a direct solution, the preferred method is to create a [new issue](https://github.com/w3c/sustyweb/issues) with your comments. You could provide comments on technical errors (bugs) you have uncovered, new guidelines or success criteria you believe should be added, questions you have about existing or future content or an idea for a direction or feature we could utilize.
+If you cannot submit a pull request, or if you cannot provide a direct solution, the preferred method is to create a [new issue](https://github.com/w3c/sustyweb/issues/new) with your public comments. You can also comment on any issue threads on [Github Issues](https://github.com/w3c/sustyweb/issues/). You could provide comments on technical errors (bugs) you have uncovered, new guidelines or success criteria you believe should be added, questions you have about existing or future content or an idea for a direction or feature we could utilize.
 
 Please check that your question hasn't already been posted first, and provide as much detail as possible (if you have a solution or content to add, it would be very helpful). We're all volunteers so please keep this in mind and try to be civil when commenting about our work.
 
