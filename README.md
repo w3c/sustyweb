@@ -24,8 +24,6 @@ The first channel is the **stable** specification which is versioned with all ch
 
 The second channel is the **unstable** or living edition specification in which issue resolutions, pull requests, new supplements, and community edits are immediately available before that version is finalized. The "drafts" folder contains all of the living editions of the [specification](https://w3c.github.io/sustyweb/drafts/), [STAR](https://w3c.github.io/sustyweb/drafts/star.html), [at-a-glance](https://w3c.github.io/sustyweb/drafts/glance.html), [introduction](https://w3c.github.io/sustyweb/drafts/intro.html), [laws & policies](https://w3c.github.io/sustyweb/drafts/policies.html), [quick reference](https://w3c.github.io/sustyweb/drafts/quickref.html), [JSON API](https://w3c.github.io/sustyweb/drafts/guidelines.json), [Test Suite](https://github.com/w3c/sustyweb/tree/main/drafts/test-suite), and other supplements.
 
-Work is planned in our [milestones](https://github.com/w3c/sustyweb/milestones). Each milestone corresponds to a draft or [release](https://github.com/w3c/sustyweb/releases) published.
-
 ---
 
 ## JSON API
