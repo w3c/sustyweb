@@ -12,7 +12,10 @@ If you would like a brief introduction to both our group and our specification, 
 
 If you would like to contribute towards this specification, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) document for details. It contains detailed information on pull requests (PRs), submitting issues, and other methods of feedback in relation to this repository.
 
-**Note:** Please make your pull requests (including any changes or edits) against files **ONLY** located within the "drafts" or "wg" folders.
+**Note:** Please make your pull requests (including any changes or edits) against files **ONLY** located within the "drafts" or "wg" folders. Also, to make substantive contributions,
+you must join the [CG](https://www.w3.org/community/sustyweb/).
+
+You can also contribute at our monthly meetings. For details, see our [calendar](https://www.w3.org/groups/cg/sustyweb/calendar/) and be sure to check our [meeting minutes](https://docs.google.com/document/d/1nrdxfB076c-91GEDFnZF3wb73QqjJ7rmCVVQiKRNnuY/edit).
 
 ---
 
