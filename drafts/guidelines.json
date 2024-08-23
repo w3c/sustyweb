@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Eighth Draft",
-	"lastModified": "2024-08-12",
+	"lastModified": "2024-08-23",
 	"category": [
 		{
 			"id": "1",
@@ -1818,7 +1818,7 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Alongside the device longevity which inherently comes with having a performant product or service, it can also help you meet the social aspect of ESG targets.",
+							"Environmental": "Alongside the device longevity which inherently comes with having a performant product or service, it can also help you meet the societal impacts of PPP targets.",
 							"Performance": "Faster pages that load less data improve performance, as there will be less for rendering engines within browsers to process. Additionally, as the pages are smaller, they will reach the visitor quicker based on their connection speed.",
 							"Economic": "Less data stored and transferred also reduces costs for those hosting content and those who own websites and applications.",
 							"Conversion": "Page load speed can measurably improve conversion rates, as visitors will be less likely to abandon a product or service if the content appears instantaneously."
@@ -3494,7 +3494,7 @@
 						{
 							"title": "Language Choice",
 							"testable": "Human Testable",
-							"description": "Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact ESG factors such as the well-being of those involved or become too cost prohibitive."
+							"description": "Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact PPP factors such as the well-being of those involved or become too cost prohibitive."
 						}
 					],
 					"impact": "Medium",
@@ -4233,7 +4233,7 @@
 						{
 							"title": "Event-Driven Architecture",
 							"testable": "Human Testable",
-							"description": "When creating products or services that utilize state changes (without triggering a complete refresh), consider if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the ESG variables involved) than traditional APIs in handling the server-side workload of your solution."
+							"description": "When creating products or services that utilize state changes (without triggering a complete refresh), consider if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the PPP variables involved) than traditional APIs in handling the server-side workload of your solution."
 						}
 					],
 					"impact": "Medium",
@@ -4524,12 +4524,12 @@
 					"id": "1",
 					"url": "https://w3c.github.io/sustyweb/#have-an-ethical-and-sustainability-product-strategy",
 					"guideline": "Have an Ethical and Sustainability Product Strategy",
-					"description": "Create a publicly available statement in an easy-to-find location on your website that outlines a clear commitment to prioritize ethics and sustainability ESG standards that align with the organization's mission, vision, and values and include statements specific to digital products, services, policies, and programs. This should be done while actively promoting such efforts (with evidence) using social channels.",
+					"description": "Create a publicly available statement in an easy-to-find location on your website that outlines a clear commitment to prioritize ethics and sustainability PPP standards that align with the organization's mission, vision, and values and include statements specific to digital products, services, policies, and programs. This should be done while actively promoting such efforts (with evidence) using social channels.",
 					"criteria": [
 						{
 							"title": "Statement Availability",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM01-1)",
-							"description": "The organization has published a publicly available Code of Ethics, Product Guidelines, Sustainability, or ESG Statement that includes language specific to digital products, services, policies, and programs."
+							"description": "The organization has published a publicly available Code of Ethics, Product Guidelines, Sustainability, or PPP Statement that includes language specific to digital products, services, policies, and programs."
 						},
 						{
 							"title": "Achievements And Compliance",
@@ -4539,7 +4539,7 @@
 						{
 							"title": "Governance Over Time",
 							"testable": "Human Testable",
-							"description": "The organization can show how it effectively governs implemented digital sustainability, climate policies, and related ESG practices over time."
+							"description": "The organization can show how it effectively governs implemented digital sustainability, climate policies, and related PPP practices over time."
 						},
 						{
 							"title": "Onboarding New Members",
@@ -4935,12 +4935,12 @@
 					"id": "8",
 					"url": "https://w3c.github.io/sustyweb/#implement-sustainability-onboarding-guidelines",
 					"guideline": "Implement Sustainability Onboarding Guidelines",
-					"description": "The organization has clear onboarding and training processes that include ESG policies and practices with explicit references to digital sustainability and responsibility. Ensure that onboarding utilizes a \"green by default\" process and avoids being an opt-in procedure. This applies equally at an organizational level and to visitors and consumers of your products and services.",
+					"description": "The organization has clear onboarding and training processes that include PPP policies and practices with explicit references to digital sustainability and responsibility. Ensure that onboarding utilizes a \"green by default\" process and avoids being an opt-in procedure. This applies equally at an organizational level and to visitors and consumers of your products and services.",
 					"criteria": [
 						{
 							"title": "Training Materials",
 							"testable": "Human Testable",
-							"description": "The organization has dedicated training manuals, workshops, and materials that outline the ESG policies and practices it follows and how to implement them. While managing and maintaining these materials over time, adapting them as new policies and practices arise."
+							"description": "The organization has dedicated training manuals, workshops, and materials that outline the PPP policies and practices it follows and how to implement them. While managing and maintaining these materials over time, adapting them as new policies and practices arise."
 						},
 						{
 							"title": "Progress Incentivisation",
@@ -4997,7 +4997,7 @@
 					"id": "9",
 					"url": "https://w3c.github.io/sustyweb/#support-mandatory-disclosures-and-reporting",
 					"guideline": "Support Mandatory Disclosures and Reporting",
-					"description": "The organization discloses and reports its ESG impact on at least an annual basis.",
+					"description": "The organization discloses and reports its PPP impact on at least an annual basis.",
 					"criteria": [
 						{
 							"title": "Policies And Practices",
@@ -5468,7 +5468,7 @@
 						{
 							"title": "Vetting Potential Partners",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM16-1)",
-							"description": "The organization has created specific policies to vet potential partners in its supply chain based on ESG principles."
+							"description": "The organization has created specific policies to vet potential partners in its supply chain based on PPP principles."
 						},
 						{
 							"title": "Collaborative Measurement",
