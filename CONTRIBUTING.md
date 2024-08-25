@@ -18,7 +18,7 @@ The structure of the repository has been created to ensure ease of maintenance. 
 
 ```
 
-/wg/charter.html			- Working Group Draft Charter
+/ig/charter.html			- Working Group Draft Charter
 /drafts/test-suite/			- Test Suite & Assets (Source)
 /drafts/checklist.pages			- PDF Checklist (Source)
 /drafts/glance.html			- At-A-Glance (Source)
