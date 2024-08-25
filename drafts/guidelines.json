@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Eighth Draft",
-	"lastModified": "2024-08-23",
+	"lastModified": "2024-08-25",
 	"category": [
 		{
 			"id": "1",
@@ -22,7 +22,7 @@
 						{
 							"title": "External Variables",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX01-1)",
-							"description": "List the negative external variables and identify where your product's sustainable impact can be diminished (systemic design)."
+							"description": "Any negative external variables affecting a product or service are displayed in a publicly available resource, identifying where your product's sustainable impact can be diminished (systemic design)."
 						}
 					],
 					"impact": "Medium",
@@ -87,7 +87,7 @@
 						{
 							"title": "Visitor Constraints",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX02-2)",
-							"description": "Potential visitor constraints like the device age, operating system version, browser, and connection speeds are considered when designing user-experiences."
+							"description": "Potential visitor constraints like the device age, operating system version, browser, and connection speeds are accounted for when designing user-experiences."
 						},
 						{
 							"title": "Barriers And Access",
@@ -97,12 +97,12 @@
 						{
 							"title": "Barrier Removal",
 							"testable": "Human Testable",
-							"description": "In the user-research, identify with your visitors if some barriers should be removed (pain points or dark / deceptive design patterns)."
+							"description": "Barriers to access (pain points or dark / deceptive design patterns) have been identified in the user-research with visitors for removal."
 						},
 						{
 							"title": "Seat At The Table",
 							"testable": "Human Testable",
-							"description": "When undertaking research, identifying needs, or conducting iterative design work, ensure that all stakeholders including your visitors have an equitable role in the decision-making process."
+							"description": "All stakeholders including your visitors have been assigned an equitable role in the decision-making process when undertaking research, identifying needs, or conducting iterative design work."
 						}
 					],
 					"impact": "Medium",
@@ -171,7 +171,7 @@
 						{
 							"title": "Non-Human Impact",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX03-1)",
-							"description": "Consider and work with non-users and other stakeholders who might be passively impacted by a digital product or service, such as neighbors accepting parcels, traffic jams due to deliveries, etc. Research their needs and understand how they might be affected."
+							"description": "A plan of action has been established for non-users and other stakeholders who might be passively impacted by a digital product or service, such as neighbors accepting parcels, traffic jams due to deliveries, etc. Research their needs and understand how they might be affected."
 						}
 					],
 					"impact": "Medium",
@@ -220,12 +220,12 @@
 						{
 							"title": "Wireframes And Prototypes",
 							"testable": "Human Testable",
-							"description": "Utilize wireframes, and rapid prototyping to quickly build consensus, reduce risk, and lower the number of resources needed to build features."
+							"description": "Wireframes, and rapid prototyping are utilized to quickly build consensus, reduce risk, and lower the number of resources needed to build features."
 						},
 						{
 							"title": "Participation And Testing",
 							"testable": "Human Testable",
-							"description": "Involve your users within the iteration and design process using participatory design, and when conducting user-testing reach out to your community to help improve your product by allowing them to apply their knowledge and experience to your product or service."
+							"description": "Users are involved within the iteration and design process using participatory design, and when conducting user-testing reach out to your community to help improve your product by allowing them to apply their knowledge and experience to your product or service."
 						}
 					],
 					"impact": "Low",
@@ -273,12 +273,12 @@
 						{
 							"title": "Human-Centered Brainstorming",
 							"testable": "Human Testable",
-							"description": "In the brainstorming process, consider all stakeholders using a human-centered approach."
+							"description": "All stakeholders have been considered using a human-centered approach during the brainstorming process."
 						},
 						{
 							"title": "Ecological Brainstorming",
 							"testable": "Human Testable",
-							"description": "In the brainstorming process, take the planetary needs and ecological boundaries into account."
+							"description": "The planetary needs and ecological boundaries of a project have been taken into account during the brainstorming process."
 						}
 					],
 					"impact": "Medium",
@@ -329,7 +329,7 @@
 						{
 							"title": "Patterns For Efficiency",
 							"testable": "Human Testable",
-							"description": "Make your user-journey (when browsing an accessed website or service) as smooth as possible. User-research is key, as is building on established design patterns that people already understand."
+							"description": "The users journey (when browsing an accessed website or service) should be as smooth as possible. User-research is key, as is building on established design patterns that people already understand."
 						},
 						{
 							"title": "Distraction-Free Design",
@@ -481,12 +481,12 @@
 						{
 							"title": "Navigable Sitemaps",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX08-2)",
-							"description": "Implementing an efficient (human-readable) sitemap that is organized and regularly updated helps search engines better index website content, which helps visitors more quickly find what they are looking for."
+							"description": "Implement an efficient (human-readable) sitemap that is organized and is regularly updated. This helps search engines better index website content, which helps visitors more quickly find what they are looking for."
 						},
 						{
 							"title": "New Content",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX08-3)",
-							"description": "Provide a way for visitors to find out about new content and services."
+							"description": "Implement a way for visitors to find out about new content and services."
 						}
 					],
 					"impact": "Low",
@@ -540,12 +540,12 @@
 						{
 							"title": "Respecting Attention",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX09-1)",
-							"description": "Respect a visitor's attention by allowing them to easily control how (and when) they receive information."
+							"description": "The visitor can easily control how (and when) they receive information to both improve attention and respect with the visitor."
 						},
 						{
 							"title": "Avoid Distraction",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX09-2)",
-							"description": "Prioritize features that don't distract people or unnecessarily lengthen the time they spend using the product or service."
+							"description": "Features that don't distract people or unnecessarily lengthen the time they spend using the product or service have a higher priority than others."
 						},
 						{
 							"title": "Avoid Attention-keeping",
@@ -678,7 +678,7 @@
 						{
 							"title": "Search Engine Optimization",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX11-4)",
-							"description": "Optimization for search engines, social networks, and third-party services should be organically led with good coding practices and user-experience being the focus, not manipulating the services to gain greater priority through obfuscating content, pages, websites, or applications with redundancy or non-useful and optimized (to the visitor) material."
+							"description": "Optimization for search engines, social networks, and third-party services are organically led with good coding practices with user-experience the focus, not manipulating the services to gain greater priority through obfuscating content, pages, websites, or applications with redundancy or non-useful and optimized (to the visitor) material."
 						}
 					],
 					"impact": "High",
@@ -766,7 +766,7 @@
 						{
 							"title": "Deliverables Readability",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX12-3)",
-							"description": "Ensure that developers have access to code comments and other View Source affordances which can reduce the burden to access, understand, maintain, and utilize production-ready code as this will reduce redundancy and foster an open source culture."
+							"description": "Developers have access to code comments and other View Source affordances which can reduce the burden to access, understand, maintain, and utilize production-ready code as this will reduce redundancy and foster an open source culture."
 						}
 					],
 					"impact": "Medium",
@@ -816,7 +816,7 @@
 						{
 							"title": "Design System",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX13-1)",
-							"description": "Employ a design system based on web standards and recognizable patterns to mutualize interface components and provide a consistent experience for visitors."
+							"description": "A design system is employed based on web standards and recognizable patterns to mutualize interface components and provide a consistent experience for visitors."
 						}
 					],
 					"impact": "Low",
@@ -877,17 +877,17 @@
 						{
 							"title": "Write Clearly",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX14-1)",
-							"description": "Write clearly, using plain, inclusive language delivered at an easy-to-understand reading level considering accessibility and internationalization inclusions as required (for example, dyslexia)."
+							"description": "Content is written clearly, using plain, inclusive language delivered at an easy-to-understand reading level considering accessibility and internationalization inclusions as required (for example, dyslexia)."
 						},
 						{
 							"title": "Content Formatting",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX14-2)",
-							"description": "Deliver content formatted in ways that support how people read online, including a clear document structure, visual hierarchy, headings, bulleted lists, line spacing, and so on."
+							"description": "Content is formatted to support how people read online, including a clear document structure, visual hierarchy, headings, bulleted lists, line spacing, and so on."
 						},
 						{
 							"title": "Search Engine Optimization (SEO)",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX14-3)",
-							"description": "Prioritize SEO at early design stages and throughout a product or service's lifecycle to improve content findability."
+							"description": "SEO has been prioritized from the early design stages and throughout a product or service's lifecycle to improve content findability."
 						}
 					],
 					"impact": "Low",
@@ -954,7 +954,7 @@
 						{
 							"title": "Need For Images",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX15-1)",
-							"description": "Assess the need for images considering the quantity, format, and size necessary for implementation."
+							"description": "The need for images has been determined considering the quantity, format, and size necessary for implementation."
 						},
 						{
 							"title": "Optimize Images",
@@ -1065,22 +1065,22 @@
 						{
 							"title": "Need For Media",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX16-1)",
-							"description": "Assess the need for video or sound usage (including only when they add visitor value), and ban non-informative media (background media) including autoplaying functionality."
+							"description": "The need for video or sound usage (including only when they add visitor value) has been determined, and non-informative media (background media) including autoplaying functionality has been banned or removed."
 						},
 						{
 							"title": "Optimize Media",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX16-2)",
-							"description": "Choose the right media to display by compressing according to the visitor's requirements, selecting the appropriate format, ensuring it works across browsers, and avoiding embedded player plugins."
+							"description": "Compress the media according to the visitor's requirements, select the appropriate format, ensure it works across browsers, and avoid embedded player plugins."
 						},
 						{
 							"title": "Lazy Loading",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX16-3)",
-							"description": "Media requiring a lot of data to be downloaded on the client side (including the media itself) must be loaded via a facade (a non-functional, static, representational element)."
+							"description": "Any media requiring a lot of data to be downloaded on the client side (including the media itself) has been loaded behind a facade (a non-functional, static, representational element)."
 						},
 						{
 							"title": "Labels And Choice",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX16-4)",
-							"description": "Increase visitor awareness and control by informing them of the length, format, and weight of the media; allowing media deactivation, and giving a choice of resolutions; all while providing alternative resolutions and formats."
+							"description": "Let the visitor control media deactivation, giving a choice of resolutions; all while providing alternative resolutions and formats. Also increase visitor awareness by informing them of the length, format, and weight of the media."
 						},
 						{
 							"title": "Management And Usage",
@@ -1245,7 +1245,7 @@
 						{
 							"title": "Font Optimization",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX18-2)",
-							"description": "Ensure the number of fonts, and the variants within typefaces (such as weight and characters) are limited within a project, using the most performant file format available."
+							"description": "The number of fonts, and the variants within typefaces (such as weight and characters) are limited within a project, using the most performant file format available."
 						}
 					],
 					"impact": "Medium",
@@ -1310,27 +1310,27 @@
 						{
 							"title": "Open Formats",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX19-1)",
-							"description": "All proprietary file formats (such as PDF) should also be offered in HTML for accessibility and to ensure future availability."
+							"description": "All proprietary file formats (such as PDF) are offered in HTML for accessibility and to ensure future availability."
 						},
 						{
 							"title": "Font Subsetting",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX19-2)",
-							"description": "All custom typefaces (using font-display) should be subsetted and offered as part of a font stack with a system font as a backup."
+							"description": "All custom typefaces (using font-display) are subsetted and offered as part of a font stack with a system font as a backup."
 						},
 						{
 							"title": "Alternative Text",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX19-3)",
-							"description": "All images should provide meaningful alternative text for screen reader users (or when images fail to load) accessibility."
+							"description": "All images provide meaningful alternative text for screen reader users (or when images fail to load) accessibility."
 						},
 						{
 							"title": "Audio Alternatives",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX19-4)",
-							"description": "Audio should provide text transcripts of conversations as an alternative to playing the media."
+							"description": "Audio provides text transcripts of conversations as an alternative to playing the media."
 						},
 						{
 							"title": "Video Alternatives",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX19-5)",
-							"description": "Video should provide text transcripts (at minimum), subtitles (using WebVTT), and for accessibility best practice, offer closed captions and sign language options."
+							"description": "Video provides text transcripts (at minimum), subtitles (using WebVTT), and for accessibility best practice, offer closed captions and sign language options."
 						}
 					],
 					"impact": "Medium",
@@ -1402,7 +1402,7 @@
 						{
 							"title": "Form Simplicity",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX20-1)",
-							"description": "Assess the need for forms and reduce form content to the bare minimum necessary to meet the visitor's needs and the organization's business goals. Clearly communicate why a form is necessary, what its value proposition is, how many steps it will take to complete, and what an organization will do with collected data (informed consent)."
+							"description": "Remove unnecessary forms and reduce form content to the bare minimum necessary to meet the visitor's needs and the organization's business goals. Clearly communicate why a form is necessary, what its value proposition is, how many steps it will take to complete, and what an organization will do with collected data (informed consent)."
 						},
 						{
 							"title": "Form Functionality",
@@ -1519,7 +1519,7 @@
 						{
 							"title": "Prompts And Responses",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX22-3)",
-							"description": "Help visitors manage expectations by clearly explaining the result of a potential input through helpful prompts and messages that explain errors, next steps, and so on."
+							"description": "Clearly explain the result of a potential input through helpful prompts and messages that explain errors, next steps, and so on. This will help manage their expectations."
 						}
 					],
 					"impact": "Low",
@@ -1576,12 +1576,12 @@
 						{
 							"title": "Printing Documents",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX23-1)",
-							"description": "Design documents to limit the printing impact. If the production of paper documents is essential, it should be designed to limit its impact to the lowest possible. Create a CSS Print stylesheet and test it with different types of content. Ensure PDF printing is encouraged over paper-based storage."
+							"description": "If the production of paper documents is essential, it should be designed to limit its impact to the lowest possible. Create a CSS Print stylesheet and test it with different types of content. Ensure PDF printing is encouraged over paper-based storage."
 						},
 						{
 							"title": "Optimize Documents",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX23-2)",
-							"description": "Offer optimized, compressed documents in a variety of accessible file formats."
+							"description": "Provide all downloadable documents in a state of being optimized, compressed, and in a variety of accessible file formats."
 						},
 						{
 							"title": "Optimize Delivery",
@@ -1729,7 +1729,7 @@
 						{
 							"title": "Regular Issue Testing",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX25-1)",
-							"description": "Check your codebase for bugs, identify any performance issues, and account for accessibility or security problems at either monthly or quarterly timeframes (depending on your scheduling allowance)."
+							"description": "The codebase has been checked for bugs, performance issues hav been identified, and accessibility or security problems have been accounted for at either monthly or quarterly timeframes (depending on your scheduling allowance)."
 						},
 						{
 							"title": "Non-Regression Tests",
@@ -1739,7 +1739,7 @@
 						{
 							"title": "Regression Tests",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX25-3)",
-							"description": "Incorporate regression testing into each release cycle to ensure that new features don't introduce bugs or otherwise conflict with existing software functionality."
+							"description": "Regression testing has been incorporated into each release cycle to ensure that new features don't introduce bugs or otherwise conflict with existing software functionality."
 						}
 					],
 					"impact": "Medium",
@@ -1806,12 +1806,12 @@
 						{
 							"title": "Performance Testing",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX26-1)",
-							"description": "Regularly measure with each release-cycle (using tooling or through research and auditing) the performance of a website or application to identify and resolve bottlenecks or issues in the underlying code or infrastructure which could ultimately impact the sustainability of a website or application."
+							"description": "The performance of a website or application, to identify and resolve bottlenecks or issues in the underlying code or infrastructure which could ultimately impact the sustainability of a website or application, are regularly measured with each release-cycle (using tooling or through research and auditing)."
 						},
 						{
 							"title": "Measurement And Compliance",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX26-2)",
-							"description": "Only collect the data required to provide a streamlined and effective user-journey, put policies in place to ensure strict adherence, and comply with relevant accessibility policies and privacy laws, such as the General Data Protection Regulation (GDPR)."
+							"description": "Only data required to provide a streamlined and effective user-journey, put policies in place to ensure strict adherence, and comply with relevant accessibility policies and privacy laws, such as the General Data Protection Regulation (GDPR) are collected."
 						}
 					],
 					"impact": "Medium",
@@ -1875,7 +1875,7 @@
 						{
 							"title": "Usage Changes",
 							"testable": "Human Testable",
-							"description": "Consider visitor feedback and monitor adoption and churn rates of product or service features, incorporating insights into future releases."
+							"description": "Visitor feedback, adoption, and churn rates are monitored of product or service features and their insights incorporated into future releases."
 						}
 					],
 					"impact": "Medium",
@@ -1923,7 +1923,7 @@
 						{
 							"title": "Usability Testing",
 							"testable": "Human Testable",
-							"description": "Incorporate usability testing into product cycles and measure the impact of these tests for future releases."
+							"description": "Usability testing has been incorporated into product cycles and the impact of these tests is routinely measured for future releases."
 						}
 					],
 					"impact": "Medium",
@@ -1972,27 +1972,27 @@
 						{
 							"title": "Compatibility Policy",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX29-1)",
-							"description": "Establish a policy for compatibility with obsolete devices and software versions, listing the supported devices brands, operating systems, and browsers (including versions)."
+							"description": "A compatibility policy with obsolete devices and software versions, listing the supported devices brands, operating systems, and browsers (including versions) has been established."
 						},
 						{
 							"title": "Maintaining Compatibility",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX29-2)",
-							"description": "Avoid planned obsolescence in software updates, striving to maintain compatibility for as long as possible and clearly communicating whether an update is evolutionary (large updates that can significantly reduce performance) or corrective (smaller updates that fix bugs or improve security)."
+							"description": "Planned obsolescence in software updates is routinely avoided, striving to maintain compatibility for as long as possible and clearly communicating whether an update is evolutionary (large updates that can significantly reduce performance) or corrective (smaller updates that fix bugs or improve security)."
 						},
 						{
 							"title": "Frequent Testing",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX29-3)",
-							"description": "Regularly test the product or service with weak connections, old browsers, and devices older than five years to ensure compatibility."
+							"description": "The product or service regularly tests with weak connections, old browsers, and devices older than five years to ensure compatibility."
 						},
 						{
 							"title": "Mobile Friendly",
 							"testable": "Human Testable",
-							"description": "Prototype your interfaces using mobile-first methods to ensure progressive enhancement, content prioritization, and improved accessibility."
+							"description": "Mobile-first methods and interfaces are prototyped to ensure progressive enhancement, content prioritization, and improved accessibility."
 						},
 						{
 							"title": "Progressive Web Applications (PWAs)",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX29-5)",
-							"description": "Consider whether a PWA will be more sustainable and compatible over a native mobile application."
+							"description": "A PWA has been either chosen or rejected based on whether it be more sustainable and compatible over a native mobile application."
 						}
 					],
 					"impact": "High",
@@ -2088,7 +2088,7 @@
 						{
 							"title": "Performance Goals",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD01-1)",
-							"description": "Set goals that impact the environment and performance of the service, for example, HTTP requests, or the amount of DOM elements that need to be rendered."
+							"description": "Explicit goals that impact the environment and performance of the service, for example, HTTP requests, or the amount of DOM elements that need to be rendered are both set and met."
 						},
 						{
 							"title": "Accountancy Types",
@@ -2379,7 +2379,7 @@
 						{
 							"title": "Remove Or Simplify",
 							"testable": "Human Testable",
-							"description": "Don't be afraid to remove or simplify (through rewriting for performance) your code to focus on essential features and have a cleaner, less redundant product (and codebase)."
+							"description": "Remove or simplify (through rewriting for performance) your code to focus on essential features and have a cleaner, less redundant product (and codebase)."
 						},
 						{
 							"title": "Iteration Over Recreation",
@@ -2440,7 +2440,7 @@
 						{
 							"title": "Assess Third-Parties",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD07-1)",
-							"description": "Assess third-party services (including plugins, widgets, feeds, maps, carousels, etc) as early in the ideation or creation process as possible and use as few as possible to reduce the product or service's overall ecological impact, including Scope 3 emissions."
+							"description": "Third-party services (including plugins, widgets, feeds, maps, carousels, etc) have been assessed as early in the ideation or creation process as possible and as few of them are used as possible to reduce the product or service's overall ecological impact, including Scope 3 emissions."
 						},
 						{
 							"title": "Third-party Implementation",
@@ -2450,22 +2450,22 @@
 						{
 							"title": "Libraries And Frameworks",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD07-3)",
-							"description": "Large CSS libraries and JavaScript frameworks should only be used if a more performant alternative that achieves the same goal cannot be used instead."
+							"description": "Large CSS libraries and JavaScript frameworks are only be used if a more performant alternative that achieves the same goal cannot be used instead."
 						},
 						{
 							"title": "Self-Hosting",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD07-4)",
-							"description": "Prioritize self-hosted content over embedded content from third-party services."
+							"description": "Self-hosted content has been prioritized over embedded content from third-party services."
 						},
 						{
 							"title": "Avoiding Dependency",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD07-5)",
-							"description": "Create your own clickable icons and widgets, rather than relying on third-party services to host or allow embedding within your product or service."
+							"description": "Your own clickable icons and widgets have been created, rather than relying on third-party services to host or allow embedding within your product or service."
 						},
 						{
 							"title": "Third-party Preferences",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD07-6)",
-							"description": "Third-party products, services, libraries, and frameworks are often a source of sustainability issues that cannot be controlled or managed by the first-party provider of a service. While many do provide benefits to a website, the need to justify their inclusion should be made not only by those creating the product or service but also be able to be controlled by the consumer. As showcased with cookies, websites or applications should provide a similar mechanism of disabling or refusing non-first-party features (with explanations of their purpose) - unless such features can be proven as critical for functionality."
+							"description": "Third-party products, services, libraries, and frameworks are often a source of sustainability issues that cannot be controlled or managed by the first-party provider of a service. While many do provide benefits to a website, the need to justify their inclusion must be made not only by those creating the product or service but also be able to be controlled by the consumer. As showcased with cookies, websites or applications can provide a similar mechanism of disabling or refusing non-first-party features (with explanations of their purpose) - unless such features can be proven as critical for functionality."
 						}
 					],
 					"impact": "High",
@@ -2550,12 +2550,12 @@
 						{
 							"title": "Semantic Code",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD08-1)",
-							"description": "Ensure content is marked up semantically using the right HTML element for the right job."
+							"description": "Content must be marked up semantically using the right HTML element for the right job."
 						},
 						{
 							"title": "Optional Features",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD08-2)",
-							"description": "Consider removing optional HTML tags (which aren't required for rendering), attribute quotes, or attributes that are set to their default value."
+							"description": "Remove optional HTML tags (which aren't required for rendering), attribute quotes, or attributes that are set to their default value."
 						},
 						{
 							"title": "Avoid Non-standard Code",
@@ -2632,12 +2632,12 @@
 						{
 							"title": "Asynchronous Code",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD09-1)",
-							"description": "All external assets should be deferred or set to async (unless required) to avoid Flash Of Unstyled Content (FOUC)."
+							"description": "All external assets have been deferred or set to async (unless required) to avoid Flash Of Unstyled Content (FOUC)."
 						},
 						{
 							"title": "Priority Loading",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD09-2)",
-							"description": "If external resources are required on load, ensure their priorities (delivery route) are set correctly."
+							"description": "If external resources are required on load, their priorities (delivery route) are set correctly."
 						}
 					],
 					"impact": "Medium",
@@ -2690,17 +2690,17 @@
 						{
 							"title": "Metadata And Microdata",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD10-1)",
-							"description": "Optimize your metadata and microdata for search engines and social media."
+							"description": "Metadata and microdata for search engines and social media have been optimized."
 						},
 						{
 							"title": "Search Engines",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD10-2)",
-							"description": "Assist search engines, while blocking any ill-intentioned robots and scripts."
+							"description": "Search engines are not obstructed, while ill-intentioned robots and scripts are blocked."
 						},
 						{
 							"title": "Accessibility Aids",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD10-3)",
-							"description": "Offer accessibility and usability aids to find content, such as skip links and signposts."
+							"description": "Accessibility and usability aids are provided to find content, such as skip links and signposts."
 						}
 					],
 					"impact": "Low",
@@ -2762,12 +2762,12 @@
 						{
 							"title": "Error Validation",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD11-1)",
-							"description": "Errors should be identified through live validation as well as upon submission."
+							"description": "Errors are identified through live validation as well as upon submission."
 						},
 						{
 							"title": "Label Elements",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD11-2)",
-							"description": "Required elements should be clearly identified and labeled (for the benefit of voice tools such as screen readers and virtual assistants), and optional elements (if unnecessary) removed."
+							"description": "Required elements are clearly identified and labeled (for the benefit of voice tools such as screen readers and virtual assistants), and optional elements (if unnecessary) removed."
 						},
 						{
 							"title": "Allow Paste",
@@ -2893,7 +2893,7 @@
 						{
 							"title": "Media and Preference Queries",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD13-1)",
-							"description": "Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, prefers-reduced-transparency, and prefers-reduced-motion CSS preference queries if they will benefit your website or application. Also, consider the print & scripting CSS media queries if they will improve the sustainability of your website."
+							"description": "Apply the monochrome, prefers-contrast, prefers-color-scheme, prefers-reduced-data, prefers-reduced-transparency, and prefers-reduced-motion CSS preference queries if they will benefit your website or application. Use the print & scripting CSS media queries if they will improve the sustainability of your website."
 						}
 					],
 					"impact": "Medium",
@@ -2976,7 +2976,7 @@
 						{
 							"title": "Alternative Browsing",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD14-4)",
-							"description": "Consider supporting other indirect methods of interaction such as voice (speech), code (QR, etc), reader view (browser, application, or RSS), or connected technology (watch, appliance, transport, etc)."
+							"description": "Support other indirect methods of interaction such as voice (speech), code (QR, etc), reader view (browser, application, or RSS), or connected technology (watch, appliance, transport, etc)."
 						}
 					],
 					"impact": "Medium",
@@ -3176,7 +3176,7 @@
 						{
 							"title": "Dependency Necessity",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD17-2)",
-							"description": "Reduce the amount of JavaScript that has to be downloaded and parsed by the browser by only using libraries where necessary. Consider whether you can use a native JavaScript API instead. Check the package size, and whether individual modules can be installed and imported rather than the whole library."
+							"description": "Only use libraries where necessary as this will reduce the amount of JavaScript that has to be downloaded and parsed by the browser. Consider whether you can use a native JavaScript API instead. Check the package size, and whether individual modules can be installed and imported rather than the whole library."
 						},
 						{
 							"title": "Dependency Updates",
@@ -3236,7 +3236,7 @@
 						{
 							"title": "Expected File Formats",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD18-1)",
-							"description": "Take advantage of the favicon.ico, robots.txt, opensearch.xml, site.webmanifest, and sitemap.xml documents."
+							"description": "Include the favicon.ico, robots.txt, opensearch.xml, site.webmanifest, and sitemap.xml documents."
 						}
 					],
 					"impact": "Low",
@@ -3290,7 +3290,7 @@
 						{
 							"title": "Beneficial File Formats",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD19-1)",
-							"description": "Utilize standards such as ads.txt, carbon.txt, humans.txt, security.txt and robots.txt."
+							"description": "Include standards such as ads.txt, carbon.txt, humans.txt, security.txt and robots.txt."
 						}
 					],
 					"impact": "Low",
@@ -3342,7 +3342,7 @@
 						{
 							"title": "Deprecated Code",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD20-1)",
-							"description": "Upgrading or avoiding deprecated formats is important, the only exception being if consumer support demands maintaining older standards to provide a functional product."
+							"description": "Exclude deprecated formats and standards, the only exception being if consumer support demands maintaining older standards to provide a functional product."
 						},
 						{
 							"title": "Outdated Code",
@@ -3403,17 +3403,17 @@
 						{
 							"title": "Identify Requirements",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD21-1)",
-							"description": "List (and choose carefully) the requirements of the product or service. A simpler technological implementation may use more human resources but could have a smaller footprint. A prebuilt solution may use more system resources (and thereby produce more emissions upon render) but have a faster build-time (emitting less carbon during development)."
+							"description": "Identify the requirements and from this, choose the implementation of the product or service. A simpler technological implementation may use more human resources but could have a smaller footprint. A prebuilt solution may use more system resources (and thereby produce more emissions upon render) but have a faster build-time (emitting less carbon during development)."
 						},
 						{
 							"title": "Optimized Methodology",
 							"testable": "Human Testable",
-							"description": "As a general rule, coding from scratch is the best-performing methodology (though if an existing solution is actively maintained, it may be better optimized than what you could produce). Therefore, prefer native components and file systems to a WYSIWYG editor or heavy framework, and be considerate of the impact of third-party solutions."
+							"description": "As a general rule, coding from scratch is the best-performing methodology (though if an existing solution is actively maintained, it may be better optimized than what you could produce). Therefore, use native components and file systems to a WYSIWYG editor or heavy framework, and be considerate of the impact of third-party solutions."
 						},
 						{
 							"title": "Static VS Dynamic",
 							"testable": "Human Testable",
-							"description": "If you do decide to use a code generation tool, consider using a Static Site Generator in preference to a bulky content management system. Because SSGs often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries."
+							"description": "If choosing a code generation tool, use a Static Site Generator in preference to a bulky content management system. Because SSGs often start using a minimalist content entry format (like markdown) and all of the compilation is done before the website is uploaded, the emissions benefit comes from the server not having to place as much effort into serving pages (as they are static) for each visitor. In the case of a CMS, the dynamic nature of a site will involve additional computation (server-side processing) and bulkier libraries."
 						},
 						{
 							"title": "Expandability Considerations",
@@ -3423,7 +3423,7 @@
 						{
 							"title": "Interface Impact",
 							"testable": "Human Testable",
-							"description": "Make sure all the components of the user-interface are the subject of special attention in terms of its sustainability impact while respecting accessibility and the performance of such components."
+							"description": "All the components of the user-interface are the subject of special attention in terms of its sustainability impact while respecting accessibility and the performance of such components."
 						}
 					],
 					"impact": "Medium",
@@ -3494,7 +3494,7 @@
 						{
 							"title": "Language Choice",
 							"testable": "Human Testable",
-							"description": "Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact PPP factors such as the well-being of those involved or become too cost prohibitive."
+							"description": "Use the most appropriate programming language for a task. Many tools and programming languages are optimized for performing particular tasks, and utilizing those most appropriate to the problem, especially if there is a reasonable visitor base involved justifies the time and effort, as long as it doesn't impact PPP factors such as the well-being of those involved or become too cost prohibitive."
 						}
 					],
 					"impact": "Medium",
@@ -3652,17 +3652,17 @@
 						{
 							"title": "Monitor Metrics",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#HIS01-1)",
-							"description": "To assess the environmental impacts of hosting and detect overconsumption, some indicators should be monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators could be used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (PUE), Water Usage Effectiveness (WUE), and Carbon Usage Effectiveness (CUE). They could be displayed to visitors for transparency and monitoring reasons."
+							"description": "To assess the environmental impacts of hosting and detect overconsumption, some indicators are monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators are be used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (PUE), Water Usage Effectiveness (WUE), and Carbon Usage Effectiveness (CUE). They are displayed to visitors for transparency and monitoring reasons."
 						},
 						{
 							"title": "Equipment Longevity",
 							"testable": "Human Testable",
-							"description": "Manage equipment responsibly by keeping them as long as possible, using them as efficiently as possible, making sure they are certified, and purchasing long-lifespan products."
+							"description": "Equipment is managed responsibly by keeping it as long as possible, using it as efficiently as possible, making sure it is certified, and purchasing long-lifespan products."
 						},
 						{
 							"title": "Recycling Waste",
 							"testable": "Human Testable",
-							"description": "Recover, recycle, and upcycle waste including equipment."
+							"description": "Waste (including equipment) is recovered, recycled, and upcycled."
 						},
 						{
 							"title": "Renewable Electricity",
@@ -3672,7 +3672,7 @@
 						{
 							"title": "Remaining Emissions",
 							"testable": "Human Testable",
-							"description": "Compensate remaining emissions, keeping in mind that the priority should be to avoid then reduce them and only compensate for them if they cannot be avoided. Carbon credits may not be sustainable, therefore the effectiveness of an offset solution must be verified, shown to be both environmentally viable and sustainable, and part of a longer-term strategy to eliminate emissions entirely from a chain, benefitting the wider ecosystem."
+							"description": "Remaining emissions are compensated, keeping in mind that the priority should be to avoid then reduce them and only compensate for them if they cannot be avoided. Carbon credits may not be sustainable, therefore the effectiveness of an offset solution must be verified, shown to be both environmentally viable and sustainable, and part of a longer-term strategy to eliminate emissions entirely from a chain, benefitting the wider ecosystem."
 						}
 					],
 					"impact": "High",
@@ -4047,7 +4047,7 @@
 						{
 							"title": "Automate Tasks",
 							"testable": "Human Testable",
-							"description": "Every recurring task, such as deployment, testing, or compilation, can be run automatically, as recommended by continuous integration / continuous delivery best practices."
+							"description": "Every recurring task, such as deployment, testing, or compilation, is run automatically, as recommended by continuous integration / continuous delivery best practices."
 						},
 						{
 							"title": "Necessitate Tasks",
@@ -4057,7 +4057,7 @@
 						{
 							"title": "Automated Scaling",
 							"testable": "Human Testable",
-							"description": "Use automated scaling infrastructure to automatically increase the capacity of the web server and implement buffering / throttling to respond to visitor demand."
+							"description": "Automated scaling infrastructure is used to automatically increase the capacity of the web server and buffering / throttling is implemented to respond to visitor demand."
 						},
 						{
 							"title": "Security Tooling",
@@ -4228,12 +4228,12 @@
 						{
 							"title": "Protocol Usage",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#HIS09-2)",
-							"description": "Ensure the communication protocols are relevant to the visitor's needs and data transferred. Avoid using insecure protocols (HTTP, FTP), and prioritize more efficient and privacy-aware data routes for visitors (HTTPS, SSH)."
+							"description": "The communication protocols used are relevant to the visitor's needs and data transferred. Avoid using insecure protocols (HTTP, FTP), and prioritize more efficient and privacy-aware data routes for visitors (HTTPS, SSH)."
 						},
 						{
 							"title": "Event-Driven Architecture",
 							"testable": "Human Testable",
-							"description": "When creating products or services that utilize state changes (without triggering a complete refresh), consider if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the PPP variables involved) than traditional APIs in handling the server-side workload of your solution."
+							"description": "When creating products or services that utilize state changes (without triggering a complete refresh), if the utilization of Event-Driven Architecture and Microservices will be more environmentally friendly (based on the PPP variables involved) than traditional APIs in handling the server-side workload of your solution, use it."
 						}
 					],
 					"impact": "Medium",
@@ -4294,22 +4294,22 @@
 						{
 							"title": "Sustainability Commitment",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#HIS10-2)",
-							"description": "Check the CDN to verify that it provides a commitment to sustainability."
+							"description": "Verify that the CDN provides a commitment to sustainability."
 						},
 						{
 							"title": "Local Servers",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#HIS10-3)",
-							"description": "Choose a hosting provider with servers located close to the visitor."
+							"description": "A hosting provider was chosen with servers located close to the visitor."
 						},
 						{
 							"title": "Avoid Caching Inappropriate Resources",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#HIS10-4)",
-							"description": "Avoid using the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (CORS), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect JSON or other static assets."
+							"description": "Don't use the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (CORS), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect JSON or other static assets."
 						},
 						{
 							"title": "Process Data Close to the Source",
 							"testable": "Human Testable",
-							"description": "All information passed between the layers of an application incurs a cost, both in terms of data transferred, and CPU cycles for (de)serialization. Wherever possible, data transformations should be performed close to the source to reduce these costs and avoid processing data that will later be discarded."
+							"description": "All information passed between the layers of an application incurs a cost, both in terms of data transferred, and CPU cycles for (de)serialization. Wherever possible, data transformations must be performed close to the source to reduce these costs and avoid processing data that will later be discarded."
 						}
 					],
 					"impact": "Medium",
@@ -4534,22 +4534,22 @@
 						{
 							"title": "Achievements And Compliance",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM01-2)",
-							"description": "List achievements, features, compliance, and anything beyond the scope of these guidelines and publish it in a sustainability section of your product or service."
+							"description": "Achievements, features, compliance, and anything beyond the scope of these guidelines are published within a sustainability section of your product or service."
 						},
 						{
 							"title": "Governance Over Time",
 							"testable": "Human Testable",
-							"description": "The organization can show how it effectively governs implemented digital sustainability, climate policies, and related PPP practices over time."
+							"description": "Evidence is provided by the organization showing how it effectively governs implemented digital sustainability, climate policies, and related PPP practices over time."
 						},
 						{
 							"title": "Onboarding New Members",
 							"testable": "Human Testable",
-							"description": "The organization has training decks and workshops it uses to onboard new team members on how it implements more sustainable product strategies."
+							"description": "Training decks and workshops are provided by the organization for onboarding new team members on how it implements more sustainable product strategies."
 						},
 						{
 							"title": "Documentation",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM01-5)",
-							"description": "Raise awareness with your visitors by documenting your methodology, through impact storytelling, documentation, and helping individuals make more informed decisions."
+							"description": "Your methodology has been documented through impact storytelling, documentation, and helping individuals make more informed decisions in order to raise awareness with your visitors."
 						},
 						{
 							"title": "Renewable Showcasing",
@@ -4633,7 +4633,7 @@
 						{
 							"title": "Ecological Referee",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM02-1)",
-							"description": "Choose and assign an ecological referee (with specific digital expertise) for the product or service within your organization."
+							"description": "An ecological referee (with specific digital expertise) for the product or service within your organization has been assigned."
 						}
 					],
 					"impact": "Medium",
@@ -4679,12 +4679,12 @@
 						{
 							"title": "Inform And Train",
 							"testable": "Human Testable",
-							"description": "Make sure that all project stakeholders, including product teams, colleagues, and organizational decision-makers (managers and clients) are informed about and trained in your business's use of sustainable technology."
+							"description": "All project stakeholders, including product teams, colleagues, and organizational decision-makers (managers and clients) are informed about and trained in your business's use of sustainable technology."
 						},
 						{
 							"title": "Active Participation",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM03-2)",
-							"description": "Encourages stakeholders to actively reduce their environmental impact by providing resources on sustainable design, practices, and concepts."
+							"description": "Stakeholders have been actively encouraged to reduce their environmental impact and resources on sustainable design, practices, and concepts are provided to assist with this task."
 						}
 					],
 					"impact": "Medium",
@@ -4733,7 +4733,7 @@
 						{
 							"title": "Impact Communication",
 							"testable": "Human Testable",
-							"description": "Clearly communicate the ecological implications of visitor choices and allow visitors to configure settings based on those choices."
+							"description": "The ecological implications of visitor choices have been clearly communicated and visitors can configure settings based on those choices."
 						}
 					],
 					"impact": "Medium",
@@ -4776,17 +4776,17 @@
 						{
 							"title": "Life-cycle Analysis",
 							"testable": "Human Testable",
-							"description": "Conduct a full life-cycle Analysis based on the functional unit defined in Guideline 5.15."
+							"description": "A full life-cycle Analysis based on the functional unit defined in Guideline 5.15 has been conducted."
 						},
 						{
 							"title": "Competitor Analysis",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM05-2)",
-							"description": "Estimate the environmental impact of your or your competitor's current service to inform decision-making (as a potential target goal)."
+							"description": "The environmental impact of your or your competitor's current service to inform decision-making (as a potential target goal) has been calculated."
 						},
 						{
 							"title": "Tooling Impact",
 							"testable": "Human Testable",
-							"description": "When identifying the environmental impact of your product or service, be sure to include the impact (or estimates of) of any tooling used to create the product or service along with any third-party solutions utilized in the pipeline. While not created by you, the emissions they generate from production to maintenance are considered integral to your overall solution."
+							"description": "When identifying the environmental impact of your product or service, you must include the impact (or estimates of) of any tooling used to create the product or service along with any third-party solutions utilized in the pipeline. While not created by you, the emissions they generate from production to maintenance are considered integral to your overall solution."
 						}
 					],
 					"impact": "Medium",
@@ -5202,27 +5202,27 @@
 						{
 							"title": "Agile Reviews",
 							"testable": "Human Testable",
-							"description": "Agile sprints and update frequency must go through a review process to ensure project teams have enough time to conduct user-research, identify technical debt, and produce quality output."
+							"description": "Agile sprints and update frequency have gone through a review process to ensure project teams have enough time to conduct user-research, identify technical debt, and produce quality output."
 						},
 						{
 							"title": "Iterative Consideration",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM12-3)",
-							"description": "Use (and show a track record of) continuous improvement (iteration) to analyze your website or application while also addressing the by-products and potential consequences of ongoing experimentation, such as technical debt, product performance, emissions, and related issues. Limiting analytics to only necessary features to aid with decision-making, encouraging visitor feedback, and comparing performance against business goals and visitor needs."
+							"description": "A track record of continuous improvement (iteration) usage to analyze your website or application while also addressing the by-products and potential consequences of ongoing experimentation, such as technical debt, product performance, emissions, and related issues is clearly visible. Analytics are limited to only necessary features to aid with decision-making, encouraging visitor feedback, and comparing performance against business goals and visitor needs."
 						},
 						{
 							"title": "Functionality Decisions",
 							"testable": "Human Testable",
-							"description": "Justify and prioritize the retention of existing features, the creation of new functionality, and the decommission or elimination of unused functionality and unvisited pages through the product's life cycle."
+							"description": "The retention of existing features, the creation of new functionality, and the decommission or elimination of unused functionality, and unvisited pages through the product's life cycle have been justified and prioritized on a case by case basis."
 						},
 						{
 							"title": "Security Updates",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM12-5)",
-							"description": "Provide corrective security and policy updates during the product or service lifecycle, while distinguishing these updates from more extensive evolutionary updates."
+							"description": "Corrective security and policy updates during the product or service lifecycle are provided, while such improvements are distinguished from more extensive evolutionary updates."
 						},
 						{
 							"title": "Skills And Maintenance",
 							"testable": "Human Testable",
-							"description": "Develop sustainable product and data strategies along with appropriate training techniques that help your team (managers, colleagues, etc) build capacity and learn new skills to manage and maintain products and services over time."
+							"description": "Sustainable product and data strategies have been developed with appropriate training techniques. These should help your team (managers, colleagues, etc) build capacity and learn new skills to manage and maintain products and services over time."
 						}
 					],
 					"impact": "High",
@@ -5304,7 +5304,7 @@
 						{
 							"title": "Feature Changes",
 							"testable": "Human Testable",
-							"description": "The user-experience considers possible changes to the product or service such as adding, updating, or removing features."
+							"description": "Adding, updating, or removing features are considered where appropriate to the user-experience of the product or service."
 						}
 					],
 					"impact": "Low",
@@ -5352,22 +5352,22 @@
 						{
 							"title": "Sustainable Development Goals",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM14-1)",
-							"description": "Review and identify whether your product or service aligns with one of the U.N. (SDGs)."
+							"description": "The product or service identifies within a sustainability statement where it aligns with one of the U.N. (SDGs) and its appropriate targets."
 						},
 						{
 							"title": "Creation Evaluation",
 							"testable": "Human Testable",
-							"description": "Evaluate the desirability, feasibility, and viability of the digital product or service they wish to create to ascertain whether it is necessary."
+							"description": "The product or service has been determined as necessary based upon desirability, feasibility, and viability factors."
 						},
 						{
 							"title": "Avoid Duplication",
 							"testable": "Human Testable",
-							"description": "Determine that no existing digital product or service offers the same value. They have conducted an analysis to understand whether a new product or service is necessary."
+							"description": "No existing digital product or service offers the same value. An analysis has been conducted if necessary to understand the market for this requirement."
 						},
 						{
 							"title": "Obstacle Consideration",
 							"testable": "Human Testable",
-							"description": "Consider any obstacles to using a product or service, such as accessibility, equality, technical, or territorial."
+							"description": "Any obstacles to using a product or service, such as accessibility, equality, technical, or territorial have been overcome."
 						}
 					],
 					"impact": "High",
@@ -5420,7 +5420,7 @@
 						{
 							"title": "Life-cycle Assessment",
 							"testable": "Human Testable",
-							"description": "Consider and conduct a life-cycle Assessment (LCA) to define the requirements of your product's function throughout its lifecycle."
+							"description": "A life-cycle Assessment (LCA) has been conducted to define the requirements of your product's function throughout its lifecycle."
 						}
 					],
 					"impact": "Medium",
@@ -5478,7 +5478,7 @@
 						{
 							"title": "Informative Partner Promotion",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM16-3)",
-							"description": "The organization promotes its partnerships in a publicly available place, along with information on how the partnership creates a collective impact."
+							"description": "The organization has promoted its partnerships in a publicly available place, along with information on how the partnership creates a collective impact."
 						}
 					],
 					"impact": "High",
@@ -5526,7 +5526,7 @@
 						{
 							"title": "Living Wage",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM17-1)",
-							"description": "The organization publicly commits to paying employees, contractors, and other stakeholders a living wage."
+							"description": "The organization is publicly committed to paying employees, contractors, and other stakeholders a living wage."
 						},
 						{
 							"title": "Incentivisation",
@@ -5594,7 +5594,7 @@
 						{
 							"title": "Decision-Making",
 							"testable": "Human Testable",
-							"description": "Ensure that the project team's goals are aligned with key business objectives, and project stakeholders (for example, project managers) have the power and autonomy to make key decisions on the organization's behalf."
+							"description": "The project team's goals are aligned with key business objectives, and project stakeholders (for example, project managers) have the power and autonomy to make key decisions on the organization's behalf."
 						}
 					],
 					"impact": "Low",
@@ -5781,12 +5781,12 @@
 						{
 							"title": "Outdated Content",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM21-1)",
-							"description": "Outdated or otherwise expired product content and data are archived and deleted via automated expiration dates and scheduled product audits. Create an archiving schedule with a lighter version of the old searchable content available."
+							"description": "Outdated or otherwise expired product content and data are archived and deleted via automated expiration dates and scheduled product audits. An archiving schedule with a lighter version of the old searchable content is made available."
 						},
 						{
 							"title": "Data Controllers",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM21-2)",
-							"description": "Enable users to control, manage, and delete their data, subscriptions, and accounts."
+							"description": "Users can control, manage, and delete their data, subscriptions, and accounts."
 						}
 					],
 					"impact": "Low",
@@ -5854,7 +5854,7 @@
 						{
 							"title": "Disruptive Technology",
 							"testable": "Human Testable",
-							"description": "The organization can show how it up-skills workers as new technologies and practices potentially disrupt its business model."
+							"description": "The organization shows how it up-skills workers as new technologies and practices potentially disrupt its business model."
 						},
 						{
 							"title": "Technology Legislation",
@@ -6042,7 +6042,7 @@
 						{
 							"title": "End-of-life Care",
 							"testable": "Human Testable",
-							"description": "Establish clear, documented end-of-life guidelines that include data disposal, archiving, file deletion, and so on."
+							"description": "Clear, documented end-of-life guidelines exist that include data disposal, archiving, file deletion, etc guidance."
 						}
 					],
 					"impact": "Medium",
@@ -6106,7 +6106,7 @@
 						{
 							"title": "Right-to-Repair",
 							"testable": "Human Testable",
-							"description": "The organization should allow consumers to repair (to the best of their ability) the consumables they purchase, offering (if possible at cost) replacement components and clear instructions to resolve faults that occur."
+							"description": "The organization allows consumers to repair (to the best of their ability) the consumables they purchase, offering (if possible at cost) replacement components and provides clear instructions to resolve faults that occur."
 						}
 					],
 					"impact": "High",
@@ -6164,12 +6164,12 @@
 						{
 							"title": "Performance Budget",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM27-2)",
-							"description": "Use tools such as a performance budget to determine the maximum size (goals) your app or website can weigh to reduce the data transfer and HTTP request impact (using metrics like Google Lighthouse)."
+							"description": "Tools such as a performance budget exist to determine the maximum size (goals) your app or website can weigh to reduce the data transfer and HTTP request impact (using metrics like Google Lighthouse)."
 						},
 						{
 							"title": "Human Budget",
 							"testable": "Human Testable",
-							"description": "Define KPIs around engineering hours, development time, or sprints keeping the health and wellbeing of your workers paramount. Consideration should be taken around optimizing your workflow sustainably to allow all tasks to be performed with care."
+							"description": "KPIs are defined around engineering hours, development time, or sprints keeping the health and wellbeing of your workers paramount. Consideration has been taken around optimizing your workflow sustainably to allow all tasks to be performed with care."
 						},
 						{
 							"title": "Measurable Improvements",
