@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Eighth Draft",
-	"lastModified": "2024-08-25",
+	"lastModified": "2024-08-26",
 	"category": [
 		{
 			"id": "1",
@@ -67,6 +67,9 @@
 							"Reduce the weight of a web page: which elements have the greatest impact?": "https://greenspector.com/en/reduce-the-weight-of-a-web-page-which-elements-have-the-greatest-impact/",
 							"Scope 3 Emissions in Your Digital Supply Chain": "https://www.mightybytes.com/blog/scope-3-emissions-in-your-digital-supply-chain/",
 							"The Fog of Enactment": "https://www.thegreenwebfoundation.org/publications/report-fog-of-enactment/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"Variables of Web Sustainability (PDF)": "https://websitesustainability.com/cache/files/variables.pdf",
 							"Why your internet habits are not as clean as you think": "https://www.bbc.com/future/article/20200305-why-your-internet-habits-are-not-as-clean-as-you-think"
 						}
@@ -156,6 +159,11 @@
 							"Precisely specify the need": "http://www.ecometer.org/rules/precisely-specify-the-need.html",
 							"Shaping Europe's digital future": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/shaping-europes-digital-future_en",
 							"Six Dark Patterns to Avoid On Your Website": "https://www.mightybytes.com/blog/6-dark-patterns-to-avoid-on-your-website/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 9 (Infrastructure)": "https://sdgs.un.org/goals/goal9#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
 							"The UX Cookbook": "https://theuxcookbook.com/",
 							"UX: Best Practices For Developers": "https://blog.openreplay.com/ux-best-practices-for-developers/"
 						}
@@ -206,7 +214,11 @@
 							"Stakeholder Mapping": "https://www.mightybytes.com/blog/stakeholder-mapping/",
 							"Sustainability Guide: Distribution": "https://sustainabilityguide.eu/ecodesign/distribution/",
 							"Sustainability Guide: Manufacturing": "https://sustainabilityguide.eu/ecodesign/manufacturing/",
-							"The power of good design": "https://www.vitsoe.com/rw/about/good-design"
+							"The power of good design": "https://www.vitsoe.com/rw/about/good-design",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 9 (Infrastructure)": "https://sdgs.un.org/goals/goal9#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators"
 						}
 					],
 					"tags": ["Social Equity", "Ideation", "Research", "Usability", "Hardware", "E-Waste", "Reporting", "KPIs", "Marketing"]
@@ -310,6 +322,7 @@
 							"[GR491] 1-3003 - Planet Centric Design": "https://gr491.isit-europe.org/en/crit.php?id=1-3003-uxui-every-design-decision-has-an-impact.-if",
 							"Planetary Boundaries": "https://sustainabilityguide.eu/sustainability/planetary-boundaries/",
 							"Sustainable UX is more than reducing your website's footprint": "https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability"
 						}
 					],
@@ -402,6 +415,7 @@
 							"Remove non-essential features": "http://www.ecometer.org/rules/remove-non-essential-features.html",
 							"Sustainable UX is more than reducing your website's footprint": "https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f",
 							"UI Tools": "https://designsustainably.eu/uitools/",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
 							"Using UX Design to Build a Sustainable Future": "https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future",
 							"UX: Best Practices For Developers": "https://blog.openreplay.com/ux-best-practices-for-developers/",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
@@ -462,6 +476,7 @@
 							"Simple icon systems using SVG sprites": "https://oliverjam.es/articles/svg-sprites",
 							"Simplify Your UX Through Reduction": "https://www.uxmatters.com/mt/archives/2015/07/simplify-your-ux-through-reduction.php",
 							"The Website Obesity Crisis": "https://idlewords.com/talks/website_obesity.htm",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
 							"Use fewer web fonts": "https://web.dev/articles/font-best-practices?hl=en"
 						}
 					],
@@ -596,7 +611,8 @@
 							"Society Centered Design": "https://societycentered.design/",
 							"Social sustainability": "https://sustainabilityguide.eu/sustainability/social-sustainability/",
 							"The Potentially Dangerous Non-Accessibility Of Cookie Notices": "https://www.smashingmagazine.com/2023/04/potentially-dangerous-non-accessibility-cookie-notices/",
-							"The snake that eats its tail": "https://uxdesign.cc/the-snake-that-eats-its-tail-3656b31fd0f9"
+							"The snake that eats its tail": "https://uxdesign.cc/the-snake-that-eats-its-tail-3656b31fd0f9",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators"
 						}
 					],
 					"tags": ["UI", "Patterns", "Usability", "Assets"]
@@ -740,7 +756,9 @@
 							"Six Dark Patterns to Avoid On Your Website": "https://www.mightybytes.com/blog/6-dark-patterns-to-avoid-on-your-website/",
 							"Society Centered Design": "https://societycentered.design/",
 							"The Calm Web": "https://calibreapp.com/blog/calm-web",
-							"Tracking Protection in Firefox For Privacy and Performance": "https://www.ieee-security.org/TC/SPW2015/W2SP/papers/W2SP_2015_submission_32.pdf",
+							"Tracking Protection in Firefox For Privacy and Performance (PDF)": "https://www.ieee-security.org/TC/SPW2015/W2SP/papers/W2SP_2015_submission_32.pdf",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
 							"Why People Block Ads (And What It Means for Marketers and Advertisers)": "https://blog.hubspot.com/marketing/why-people-block-ads-and-what-it-means-for-marketers-and-advertisers",
 							"Why you should stop using Google Analytics on your website": "https://plausible.io/blog/remove-google-analytics"
 						}
@@ -802,7 +820,8 @@
 							"Society Centered Design": "https://societycentered.design/",
 							"System design": "https://sustainabilityguide.eu/methods/system-design/",
 							"System Design: The complete course": "https://kps.hashnode.dev/system-design-the-complete-course",
-							"System Design in Software Development": "https://medium.com/the-andela-way/system-design-in-software-development-f360ce6fcbb9"
+							"System Design in Software Development": "https://medium.com/the-andela-way/system-design-in-software-development-f360ce6fcbb9",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators"
 						}
 					],
 					"tags": ["Content", "Patterns", "Education", "Assets", "Software"]
@@ -862,6 +881,8 @@
 							"Laws Of UX": "https://lawsofux.com/",
 							"OpQuast 133 - Links of the same nature have identical colors, shapes and behaviors on all pages.": "https://checklists.opquast.com/en/web-quality-assurance/hyperlinks-of-the-same-nature-have-identical-colors-shapes-and-behaviors-on-all-pages",
 							"The Anatomy of a Design System": "https://sparkbox.com/foundry/design_system_makeup_design_system_layers_parts_of_a_design_system",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
 							"What is a Design System?": "https://www.mightybytes.com/blog/what-is-a-design-system/",
 							"Why digital isn't always greener or fairer": "https://www.southampton.ac.uk/blog/digitalteam/2021/03/03/why-digital-isnt-always-greener-or-fairer/"
 						}
@@ -938,6 +959,9 @@
 							"Stop Writing Web Copy That Over Explains Everything": "https://www.mightybytes.com/blog/stop-writing-web-copy-that-over-explains/",
 							"Sustainable SEO: How to focus on a lasting SEO strategy": "https://yoast.com/sustainable-seo/",
 							"The digital butterfly effect: Sustainable websites and SEO": "https://www.the-future-of-commerce.com/2022/03/01/sustainable-websites/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
 							"WCAG 2.2 Understanding Docs: Reading Level": "https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
 							"Why Heading Tags and Content Structure Matter": "https://www.mightybytes.com/blog/why-heading-tags-and-structure-matter/"
@@ -1382,6 +1406,7 @@
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
 							"The performance cost of custom web fonts, and how to solve it": "https://www.wholegraindigital.com/blog/performant-web-fonts/",
 							"Tips for creating a transcript file": "https://support.google.com/youtube/answer/2734799",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
 							"Video Captions": "https://www.w3.org/WAI/perspective-videos/captions/",
 							"W3C Web Accessibility Initiative: Transcripts": "https://www.w3.org/WAI/media/av/transcripts/",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
@@ -1448,6 +1473,8 @@
 							"GreenIT (French) 004 - Préférer la saisie assistée à l'autocomplétion": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_004_fr.md",
 							"How Web Content Accessibility Guidelines Improve Digital Products": "https://www.mightybytes.com/blog/web-content-accessibility-guidelines/",
 							"Reducing the impact of autocompletion": "https://greenspector.com/en/reducing-the-impact-of-autocompletion/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
 							"Use input help instead of autocomplete": "http://www.ecometer.org/rules/use-input-help-instead-of-autocomplete.html"
 						}
 					],
@@ -1495,6 +1522,7 @@
 							"[GR491] 6-3042 - Interface Free Solutions": "https://gr491.isit-europe.org/en/crit.php?id=6-3042-uxui-an-interface-is-not-just-about-the",
 							"IBM Design For Sustainability (PDF)": "https://www.ibm.com/design/practices/design-for-sustainability/",
 							"Sustainable Web Design": "https://alistapart.com/article/sustainable-web-design/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability"
 						}
 					],
@@ -1640,6 +1668,8 @@
 							"OpQuast 191 - The content of each page can be printed without printing the navigation blocks.": "https://checklists.opquast.com/en/web-quality-assurance/the-content-of-each-page-can-be-printed-without-navigation-blocks",
 							"Optimize PDFs": "http://www.ecometer.org/rules/optimize-pdfs.html",
 							"UI Tools": "https://designsustainably.eu/uitools/",
+							"United Nations [SDGS] Goal 11 (Human Habitats)": "https://sdgs.un.org/goals/goal11#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
 							"Using UX Design to Build a Sustainable Future": "https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future"
 						}
 					],
@@ -1711,6 +1741,9 @@
 							"The Beginner's Guide to Usability Testing": "https://blog.hubspot.com/marketing/usability-testing",
 							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"The Ultimate Guide to Accessibility Testing": "https://info.usablenet.com/accessibility-testing",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
 							"Usability Testing 101": "https://www.nngroup.com/articles/usability-testing-101/",
 							"Web Accessibility": "https://www.udacity.com/course/web-accessibility--ud891",
 							"Web Accessibility Checklist": "https://www.webaccessibilitychecklist.com/",
@@ -1788,6 +1821,9 @@
 							"The Basics of Web Application Security": "https://martinfowler.com/articles/web-security-basics.html",
 							"The Simple and Complete Guide on Non-Regression Testing": "https://testgrid.io/blog/non-regression-testing/",
 							"Top 10 Web Application Security Risks": "https://owasp.org/www-project-top-ten/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
 							"W3C Web Content Accessibility Guidelines": "https://www.w3.org/TR/WCAG22/",
 							"Web performance": "https://developer.mozilla.org/en-US/docs/Web/Performance",
 							"Web security": "https://developer.mozilla.org/en-US/docs/Web/Security",
@@ -1858,6 +1894,7 @@
 							"The Almost-Complete Guide to Cumulative Layout Shift": "https://jessbpeck.com/posts/completecls/",
 							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"Psychology of Speed": "https://calibreapp.com/blog/perceived-performance",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
 							"WebPageTest": "https://www.webpagetest.org/",
 							"What Are Core Web Vitals (CWVs) & How To Improve Them": "https://ahrefs.com/blog/core-web-vitals/",
 							"Why does speed matter?": "https://web.dev/learn/performance/why-speed-matters?hl=en",
@@ -1956,6 +1993,9 @@
 							"GreenIT (French) 4014 - S'assurer que les parcours utilisateurs permettent de réaliser leur action prévue": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_4014_fr.md",
 							"Research-Based Web Design and Usability Guidelines (PDF)": "https://web.archive.org/web/20130112215348/http://www.usability.gov/guidelines/guidelines_book.pdf",
 							"Sustainable UX is more than reducing your website's footprint": "https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
 							"Usability testing": "https://en.wikipedia.org/wiki/Usability_testing",
 							"Usability Testing 101": "https://www.nngroup.com/articles/usability-testing-101/",
 							"UX: Best Practices For Developers": "https://blog.openreplay.com/ux-best-practices-for-developers/"
@@ -2063,6 +2103,9 @@
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
 							"The State Of Mobile And Why Mobile Web Testing Matters": "https://www.smashingmagazine.com/2021/03/mobile-app-web-testing/",
 							"The state of the art in measurement-based experiments on the mobile web": "https://www.sciencedirect.com/science/article/pii/S095058492200091X",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 9 (Infrastructure)": "https://sdgs.un.org/goals/goal9#targets_and_indicators",
 							"Using UX Design to Build a Sustainable Future": "https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
 							"Web Platform Status": "https://webstatus.dev/",
@@ -2137,6 +2180,9 @@
 							"Rethinking Allocation in High-Baseload Systems (PDF)": "https://research-information.bris.ac.uk/ws/portalfiles/portal/348324297/Schien_rethinking_allocation.pdf",
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
 							"UI Tools": "https://designsustainably.eu/uitools/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability"
 						}
 					],
@@ -2363,6 +2409,12 @@
 							"The Little Book of Accessibility": "https://uxdesign.cc/the-little-book-of-accessibility-a9b59d82b412",
 							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"This Is WCAG": "https://thisiswcag.com/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
+							"United Nations [SDGS] Goal 17 (Global Partnership)": "https://sdgs.un.org/goals/goal17#targets_and_indicators",
 							"W3C Web Content Accessibility Guidelines": "https://www.w3.org/TR/WCAG22/",
 							"Web Accessibility": "https://www.udacity.com/course/web-accessibility--ud891",
 							"What is the law on accessibility?": "https://info.webusability.co.uk/blog/what-is-the-law-on-accessibility"
@@ -2426,6 +2478,7 @@
 							"DRY CSS: How to Use Declarations Just Once, Effectively": "https://meiert.com/en/blog/dry-css/",
 							"Organizing your CSS": "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing#css_methodologies",
 							"Stop Redesigning And Start Tuning Your website Instead": "https://www.smashingmagazine.com/2012/05/stop-redesigning-start-tuning-your-site/",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability"
 						}
 					],
@@ -2531,6 +2584,8 @@
 							"The Cost of Javascript Frameworks": "https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/",
 							"The User Experience of Chatbots": "https://www.nngroup.com/articles/chatbots/",
 							"Tracking pixel security": "https://jscrambler.com/blog/tracking-pixel-security",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
 							"Use as few plugins as possible": "http://www.ecometer.org/rules/limit-plugins.html",
 							"Web Video Text Tracks Format": "https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API",
 							"What could the sustainability initiative do for WordPress?": "https://oursustainablewp.org/",
@@ -2611,6 +2666,7 @@
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
 							"The history of deprecated and changed HTML tags": "https://msandrini.medium.com/the-history-of-deprecated-and-changed-html-tags-47cdfd2c427e",
 							"Understanding why Semantic HTML is important, as told by TypeScript": "https://medium.com/@mandy.michael/understanding-why-semantic-html-is-important-as-told-by-typescript-bd71ad41e6c4",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
 							"W3C Validator": "https://validator.w3.org/",
 							"Web Accessibility Lawsuits": "https://www.levelaccess.com/blog/web-accessibility-lawsuits-2022-recap-and-what-to-expect-in-2023/",
 							"Web Components Basics and Performance Benefits": "https://medium.com/@spkamboj/web-components-basics-and-performance-benefits-f7537c908075",
@@ -2809,6 +2865,7 @@
 							"Let them paste passwords": "https://www.ncsc.gov.uk/blog-post/let-them-paste-passwords",
 							"The \"Cobra Effect\" that is disabling paste on password fields": "https://www.troyhunt.com/the-cobra-effect-that-is-disabling/",
 							"The Label element": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
 							"WCAG 2.2 Understanding Docs: Error Identification": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html",
 							"Validating Input": "https://www.w3.org/WAI/tutorials/forms/validation/",
 							"Web Form Validation: Best Practices and Tutorials": "https://www.smashingmagazine.com/2009/07/web-form-validation-best-practices-and-tutorials/"
@@ -2947,6 +3004,7 @@
 							"Sustainable UX is more than reducing your website's footprint": "https://uxdesign.cc/sustainable-ux-and-ui-design-is-more-than-reducing-your-website-s-footprint-a99c336c151f",
 							"The complete guide to CSS media queries": "https://polypane.app/blog/the-complete-guide-to-css-media-queries/",
 							"The dark side of green web design": "https://www.wholegraindigital.com/blog/dark-colour-web-design/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
 							"User preference media features client hints headers": "https://web.dev/articles/user-preference-media-features-headers?hl=en"
 						}
 					],
@@ -3042,6 +3100,7 @@
 							"RSS Specification": "https://www.rssboard.org/rss-specification",
 							"Smartphone Ownership Is Growing Rapidly Around the World, but Not Always Equally": "https://www.pewresearch.org/global/2019/02/05/smartphone-ownership-is-growing-rapidly-around-the-world-but-not-always-equally/",
 							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
+							"United Nations [SDGS] Goal 9 (Infrastructure)": "https://sdgs.un.org/goals/goal9#targets_and_indicators",
 							"Vampire Energy: Essential Answer": "https://stanfordmag.org/contents/vampire-energy-essential-answer",
 							"What is Mobile First Design?": "https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00"
 						}
@@ -3151,10 +3210,14 @@
 						{
 							"5 Ways to Keep Your website from Getting Hacked": "https://www.mightybytes.com/blog/5-ways-to-keep-site-from-getting-hacked/",
 							"Content Security Policy Reference": "https://content-security-policy.com/",
+							"Frontend Security Checklist": "https://www.trevorlasn.com/blog/frontend-security-checklist/",
 							"[GPFEDS] 1.7 - Strategy (Encryption) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 1-7020 - Data Security": "https://gr491.isit-europe.org/en/crit.php?id=1-7020-backend-the-gdpr-requires-the-implementation-of-a",
 							"OWASP Top Ten": "https://owasp.org/www-project-top-ten/",
 							"The OWASP Top 10": "https://www.freecodecamp.org/news/technical-dive-into-owasp/",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
+							"United Nations [SDGS] Goal 17 (Global Partnership)": "https://sdgs.un.org/goals/goal17#targets_and_indicators",
 							"Web security": "https://developer.mozilla.org/en-US/docs/Web/Security",
 							"Website security": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security",
 							"WordPress Security: How to Protect Your website from Attacks and Hackers": "https://www.mightybytes.com/blog/wordpress-security/"
@@ -3222,6 +3285,7 @@
 							"Pkg-Size": "https://pkg-size.dev/",
 							"Should Developers Use Third-Party Libraries?": "https://www.scalablepath.com/back-end/third-party-libraries",
 							"Uninstalling packages and dependencies": "https://docs.npmjs.com/uninstalling-packages-and-dependencies",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
 							"Up To Date": "https://up-to.date/"
 						}
 					],
@@ -3770,6 +3834,12 @@
 							"The circular economy in detail: Deep dive": "https://www.ellenmacarthurfoundation.org/the-circular-economy-in-detail-deep-dive",
 							"The environmental footprint of the digital world (PDF)": "https://www.greenit.fr/wp-content/uploads/2019/11/GREENIT_EENM_etude_EN_accessible.pdf",
 							"The real climate and transformative impact of ICT": "https://www.sciencedirect.com/science/article/pii/S2666389921001884",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 6 (Water & Sanitation)": "https://sdgs.un.org/goals/goal6#targets_and_indicators",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 9 (Infrastructure)": "https://sdgs.un.org/goals/goal9#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"Web Hosting: Renewable Energy & RECs": "https://www.mightybytes.com/blog/web-hosting-renewable-energy/",
 							"What Are Renewable Energy Credits?": "https://www.inspirecleanenergy.com/blog/clean-energy-101/what-are-renewable-energy-credits",
 							"What is a circular economy?": "https://www.ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview",
@@ -4033,7 +4103,9 @@
 							"AWS WAF: SUS02-BP03": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a4.html",
 							"[GPFEDS] 3.7 - Architecture (Optimized Testing) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 3-8026 - Not In Use Equipment": "https://gr491.isit-europe.org/en/crit.php?id=3-8026-hosting-the-network-infrastructure-is-at-the-heart",
-							"Toward sustainable software engineering": "https://increment.com/containers/containers-for-sustainable-software-engineering/"
+							"Toward sustainable software engineering": "https://increment.com/containers/containers-for-sustainable-software-engineering/",
+							"United Nations [SDGS] Goal 6 (Water & Sanitation)": "https://sdgs.un.org/goals/goal6#targets_and_indicators",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators"
 						}
 					],
 					"tags": ["Performance", "Hardware", "Software", "Networking"]
@@ -4372,6 +4444,12 @@
 							"Reporting requirements on the energy performance and sustainability of data centres for the Energy Efficiency Directive": "https://op.europa.eu/en/publication-detail/-/publication/d9404897-7221-11ee-9220-01aa75ed71a1/language-en",
 							"Subresource Integrity": "https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity",
 							"The Hosting Server Location & What It Means For Website SEO": "https://www.linkedin.com/pulse/hosting-server-location-what-means-website-seo-ernest-ekwoge-metuge/",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 6 (Water & Sanitation)": "https://sdgs.un.org/goals/goal6#targets_and_indicators",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 9 (Infrastructure)": "https://sdgs.un.org/goals/goal9#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"What are dual-use data centers and how they drive energy efficiency": "https://venturebeat.com/data-infrastructure/what-are-dual-use-data-centers-and-how-they-drive-energy-efficiency/",
 							"What is a Content Delivery Network - A Beginner's Guide": "https://imagekit.io/blog/what-is-content-delivery-network-cdn-guide/"
 						}
@@ -4421,7 +4499,11 @@
 							"[GPFEDS] 3.2 - Architecture (Resource Tailoring) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"Measuring the Emissions & Energy Footprint of the ICT Sector": "https://documents1.worldbank.org/curated/en/099121223165540890/pdf/P17859712a98880541a4b71d57876048abb.pdf",
 							"Optimizing your AWS Infrastructure for Sustainability, Part I: Compute": "https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute/",
-							"Study on the practical application of the new framework methodology for measuring the environmental impact of your equipment": "https://op.europa.eu/en/publication-detail/-/publication/ef17c01f-ea7c-49e0-91aa-878f16ba6361"
+							"Study on the practical application of the new framework methodology for measuring the environmental impact of your equipment": "https://op.europa.eu/en/publication-detail/-/publication/ef17c01f-ea7c-49e0-91aa-878f16ba6361",
+							"United Nations [SDGS] Goal 6 (Water & Sanitation)": "https://sdgs.un.org/goals/goal6#targets_and_indicators",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 9 (Infrastructure)": "https://sdgs.un.org/goals/goal9#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators"
 						}
 					],
 					"tags": ["Performance", "Hardware", "E-Waste"]
@@ -4618,6 +4700,14 @@
 							"Sustainable Web Development Strategies Within An Organization": "https://www.smashingmagazine.com/2022/10/sustainable-web-development-strategies-organization/",
 							"The carbon.txt Proposed Standard": "https://carbontxt.org/",
 							"The Carbon Impact of Web Standards (PDF)": "https://websitesustainability.com/cache/files/research23.pdf",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 5 (Gender Equality)": "https://sdgs.un.org/goals/goal5#targets_and_indicators",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
 							"Website Carbon": "https://www.websitecarbon.com/",
 							"Why sustainability is crucial for corporate strategy": "https://www.weforum.org/agenda/2022/06/why-sustainability-is-crucial-for-corporate-strategy/"
 						}
@@ -4665,7 +4755,11 @@
 							"Chief sustainability officer": "https://en.wikipedia.org/wiki/Chief_sustainability_officer",
 							"Does Your Organization Need a Chief Sustainability Officer?": "https://www.gartner.com/en/articles/does-your-organization-need-a-chief-sustainability-officer",
 							"[GPFEDS] 1.3 - Strategy (Ecodesign Supervisor) [PDF]": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
-							"Organizing for sustainability success": "https://www.mckinsey.com/capabilities/sustainability/our-insights/organizing-for-sustainability-success-where-and-how-leaders-can-start"
+							"Organizing for sustainability success": "https://www.mckinsey.com/capabilities/sustainability/our-insights/organizing-for-sustainability-success-where-and-how-leaders-can-start",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators"
 						}
 					],
 					"tags": ["Social Equity", "Ideation", "Education", "Marketing"]
@@ -4719,7 +4813,11 @@
 							"[GR491] 2-3015 - Reference Materials": "https://gr491.isit-europe.org/en/crit.php?id=2-3015-uxui-users-posture-remains-one-of-the-points",
 							"How to amplify your sustainability efforts through your user experience": "https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/creativity/sustainability-user-experience/",
 							"Make Sustainability Part of Everybody's Job": "https://techcommunity.microsoft.com/t5/green-tech-blog/make-sustainability-part-of-everybody-s-job/ba-p/3146718",
-							"Sustainable Web Development Strategies Within An Organization": "https://www.smashingmagazine.com/2022/10/sustainable-web-development-strategies-organization/"
+							"Sustainable Web Development Strategies Within An Organization": "https://www.smashingmagazine.com/2022/10/sustainable-web-development-strategies-organization/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators"
 						}
 					],
 					"tags": ["Content", "Education", "Reporting", "Marketing"]
@@ -4762,6 +4860,10 @@
 						{
 							"[GPFEDS] 4.15 - UX and UI (Dark Patterns) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 6-3039 - Software or Hardware Configurations": "https://gr491.isit-europe.org/en/crit.php?id=6-3039-uxui-users-equipement-is-increasingly-more-efficient-and",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability"
 						}
 					],
@@ -4824,7 +4926,10 @@
 							"GreenIT: Behind the Figures (PDF)": "https://www.greenit.fr/wp-content/uploads/2021/12/EU-Study-Final-Behind-the-figures-EN_compressed.pdf",
 							"GreenIT: Digital Technologies in Europe (PDF)": "https://www.greenit.fr/wp-content/uploads/2021/12/EU-Study-LCA-7-DEC-EN.pdf",
 							"Principles for Designing Sustainable Services": "https://medium.com/wearesnook/principles-for-designing-sustainable-services-bbf3f3948ac2",
-							"Understanding Digital life-cycle Assessments": "https://www.mightybytes.com/blog/digital-life-cycle-assessment/"
+							"Understanding Digital life-cycle Assessments": "https://www.mightybytes.com/blog/digital-life-cycle-assessment/",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators"
 						}
 					],
 					"tags": ["Social Equity", "Ideation", "Research", "Strategy", "KPIs"]
@@ -4870,7 +4975,10 @@
 							"Implementing the Sustainable Development Goals": "https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)",
 							"Science Based Targets": "https://sciencebasedtargets.org/",
 							"Sustainable Development Goals": "https://sdgs.un.org/goals",
-							"United Nations Global Impact": "https://unglobalcompact.org/"
+							"United Nations Global Impact": "https://unglobalcompact.org/",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators"
 						}
 					],
 					"tags": ["Social Equity", "Ideation", "Research", "Governance", "KPIs"]
@@ -4988,6 +5096,9 @@
 							"Tarot Cards of Tech": "https://tarotcardsoftech.artefactgroup.com/",
 							"Team Sustainability Retrospective": "https://miro.com/miroverse/team-sustainability-retrospective/",
 							"The power of green defaults": "https://www.sciencedirect.com/science/article/pii/S0921800919317975",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"Variables of Web Sustainability (PDF)": "https://websitesustainability.com/cache/files/variables.pdf"
 						}
 					],
@@ -5060,6 +5171,12 @@
 							"Sustainability Regulations for Business": "https://greenbusinessbureau.com/blog/sustainability-regulations-for-business-a-brief-review/",
 							"Sustainability Reporting tips (PDF)": "https://www.pwc.com/gx/en/audit-services/corporate-reporting/sustainability-reporting/assets/pwc-sustainability-reporting-tips-private-sector.pdf",
 							"Task Force on Climate-related Financial Disclosures": "https://www.fsb-tcfd.org/",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
+							"United Nations [SDGS] Goal 17 (Global Partnership)": "https://sdgs.un.org/goals/goal17#targets_and_indicators",
 							"Web Accessibility Laws & Policies": "https://www.w3.org/WAI/policies/",
 							"What is Greenwashing? How to Spot It and Stop it": "https://medium.com/disruptive-design/what-is-greenwashing-how-to-spot-it-and-stop-it-c44f3d130d5"
 						}
@@ -5109,6 +5226,10 @@
 							"Models of Impact": "https://www.modelsofimpact.co/",
 							"Profits with purpose": "https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Sustainability/Our%20Insights/Profits%20with%20purpose/Profits%20with%20Purpose.ashx",
 							"Sustainability innovations and firm competitiveness": "https://www.sciencedirect.com/science/article/pii/S0959652620347594",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"United Nations Theory of Change (PDF)": "https://unsdg.un.org/sites/default/files/UNDG-UNDAF-Companion-Pieces-7-Theory-of-Change.pdf"
 						}
 					],
@@ -5183,6 +5304,7 @@
 							"Technical Debt, Agile, and Sustainability": "https://www.mightybytes.com/blog/technical-debt-agile-and-sustainability/",
 							"The Key Sustainability Priorities for Technology Product Managers": "https://www.gartner.com/en/articles/sustainability-priorities-for-technology-product-managers",
 							"The Ultimate Guide to Product Management": "https://www.productplan.com/learn/what-is-product-management/",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
 							"Web security": "https://developer.mozilla.org/en-US/docs/Web/Security"
 						}
 					],
@@ -5260,6 +5382,7 @@
 							"Cradle to Cradle": "https://sustainabilityguide.eu/methods/cradle-to-cradle/",
 							"Demystifying digital dark matter": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/demystifying-digital-dark-matter-a-new-standard-to-tame-technical-debt",
 							"Digital Eco-Design: Test, assess and maintain": "https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html",
+							"The Design Process": "https://sustainabilityguide.eu/methods/the-design-process/",
 							"[GPFEDS] 1.4 - Strategy (Regular Reviews) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 2.6 - Specifications (Design Review) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 3.1 - Architecture (Impact Reduction) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -5278,15 +5401,16 @@
 							"Growth Driven Design": "https://www.growthdrivendesign.com/",
 							"How B Corp Certification Guides Rituals on a Journey of Continuous Improvement": "https://bthechange.com/how-b-corp-certification-helped-rituals-embark-on-a-journey-of-continuous-improvement-87fe8fbfd8d9",
 							"How to Design a Sustainable Data Strategy": "https://www.mightybytes.com/blog/design-a-sustainable-data-strategy/",
+							"The Impact Of Agile Methodologies On Code Quality": "https://www.smashingmagazine.com/2023/05/impact-agile-methodologies-code-quality/",
 							"Measuring Web Performance": "https://www.keycdn.com/blog/measuring-web-performance",
 							"Measuring Web Performance in 2024: The Definitive Guide": "https://requestmetrics.com/web-performance/measure-web-performance/",
 							"Sustainability debt: A metaphor to support Sustainability design decisions": "https://www.researchgate.net/publication/282889658_Sustainability_debt_A_metaphor_to_support_Sustainability_design_decisions",
 							"SCRUM Guide": "https://scrumguides.org/scrum-guide.html",
 							"Sprint length in Scrum": "https://www.knowledgehut.com/blog/agile/5-reasons-to-have-fixed-length-sprints",
 							"Technical Debt, Agile, and Sustainability": "https://www.mightybytes.com/blog/technical-debt-agile-and-sustainability/",
-							"The Design Process": "https://sustainabilityguide.eu/methods/the-design-process/",
 							"The overlooked environmental footprint of increasing Internet use": "https://www.sciencedirect.com/science/article/abs/pii/S0921344920307072",
-							"The Impact Of Agile Methodologies On Code Quality": "https://www.smashingmagazine.com/2023/05/impact-agile-methodologies-code-quality/",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
 							"Using UX Design to Build a Sustainable Future": "https://uxmag.com/articles/using-ux-design-to-build-a-sustainable-future",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
 							"What Is Continuous Improvement? The Complete Guide": "https://businessmap.io/lean-management/improvement/what-is-continuous-improvement",
@@ -5338,7 +5462,8 @@
 							"[GPFEDS] 3.5 - Architecture (Patch Updates) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 3.6 - Architecture (Incremental Updates) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 6-3040 - Changing Features": "https://gr491.isit-europe.org/en/crit.php?id=6-3040-uxui-a-digital-service-has-a-lifespan-that",
-							"Semantic Versioning": "https://semver.org/"
+							"Semantic Versioning": "https://semver.org/",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators"
 						}
 					],
 					"tags": ["Content", "Education", "Usability", "Compatibility"]
@@ -5512,6 +5637,12 @@
 							"Stakeholder Mapping: The Complete Guide to Stakeholder Maps": "https://www.interaction-design.org/literature/article/map-the-stakeholders",
 							"Sustainability Methods": "https://sustainabilitymethods.org/index.php/Main_Page",
 							"Sustainable Marketing: Key Principles and How to Leverage It": "https://blog.hubspot.com/marketing/sustainable-marketing",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 5 (Gender Equality)": "https://sdgs.un.org/goals/goal5#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"Your Supply Chain Needs a Sustainability Strategy": "https://www.bcg.com/publications/2020/supply-chain-needs-sustainability-strategy"
 						}
 					],
@@ -5579,6 +5710,12 @@
 							"Living Wage Network": "https://www.livingwagenetwork.org/",
 							"Sustainability innovations and firm competitiveness": "https://www.sciencedirect.com/science/article/pii/S0959652620347594",
 							"The Real Living Wage Is A Core Part Of Any ESG Agenda": "https://livingwage.org.uk/news/real-living-wage-core-part-any-esg-agenda",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 5 (Gender Equality)": "https://sdgs.un.org/goals/goal5#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
 							"What is an Accessibility Advocate?": "https://medium.com/@a11ycompass/what-is-an-accessibility-advocate-8cbbac0d6c6c",
 							"What's the best way to incentivize supplier sustainability?": "https://trellis.net/article/whats-best-way-incentivize-supplier-sustainability/"
 						}
@@ -5621,7 +5758,9 @@
 						{
 							"Give the planet a seat at the table": "https://methods.co.uk/blog/give-the-planet-a-seat-at-the-table/",
 							"Giving nature a seat on the board is a powerful way to make sure businesses protect our environment": "https://greenallianceblog.org.uk/2022/09/22/giving-nature-a-seat-on-the-board-is-a-powerful-way-to-make-sure-businesses-protect-our-environment/",
-							"[GR491] 1-3007 - Management Alignment": "https://gr491.isit-europe.org/en/crit.php?id=1-3007-uxui-for-the-sustainable-it-issue-to-be"
+							"[GR491] 1-3007 - Management Alignment": "https://gr491.isit-europe.org/en/crit.php?id=1-3007-uxui-for-the-sustainable-it-issue-to-be",
+							"United Nations [SDGS] Goal 5 (Gender Equality)": "https://sdgs.un.org/goals/goal5#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators"
 						}
 					],
 					"tags": ["Social Equity", "Ideation", "Strategy"]
@@ -5698,6 +5837,12 @@
 							"The Performance Inequality Gap": "https://infrequently.org/series/performance-inequality/",
 							"Understanding Social Digital Responsibility": "https://www.mightybytes.com/blog/social-digital-responsibility/",
 							"Unequal America: Ten insights on the state of economic opportunity": "https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth/unequal-america-ten-insights-on-the-state-of-economic-opportunity",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 5 (Gender Equality)": "https://sdgs.un.org/goals/goal5#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
+							"United Nations [SDGS] Goal 17 (Global Partnership)": "https://sdgs.un.org/goals/goal17#targets_and_indicators",
 							"Web Content Accessibility Guidelines": "https://www.w3.org/TR/WCAG22/",
 							"WebHint": "https://webhint.io/"
 						}
@@ -5767,7 +5912,11 @@
 							"State Of GDPR Part 1": "https://www.smashingmagazine.com/2021/02/state-gdpr-2021-key-updates/",
 							"State Of GDPR Part 2": "https://www.smashingmagazine.com/2021/03/state-gdpr-2021-cookie-consent-designers-developers/",
 							"The environmental benefits of privacy-focussed web design": "https://rootwebdesign.studio/articles/the-environmental-benefits-of-privacy-focussed-web-design/",
-							"Ultimate CCPA Compliance Checklist": "https://securiti.ai/blog/ccpa-compliance-checklist/"
+							"Ultimate CCPA Compliance Checklist": "https://securiti.ai/blog/ccpa-compliance-checklist/",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
+							"United Nations [SDGS] Goal 17 (Global Partnership)": "https://sdgs.un.org/goals/goal17#targets_and_indicators"
 						}
 					],
 					"tags": ["Social Equity", "Content", "Privacy", "Governance"]
@@ -5835,6 +5984,7 @@
 							"OpQuast 19 - Accounts and subscriptions opened online can be closed online by the same method.": "https://checklists.opquast.com/en/web-quality-assurance/accounts-and-subscriptions-opened-online-can-be-closed-online",
 							"Privacy UX: Privacy-Aware Design Framework": "https://www.smashingmagazine.com/2019/04/privacy-ux-aware-design-framework/",
 							"Should You Update, Rewrite or Delete Outdated Content?": "https://www.greenmellenmedia.com/should-you-update-rewrite-or-delete-outdated-content/",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
 							"Your right to get your data deleted": "https://ico.org.uk/for-the-public/your-right-to-get-your-data-deleted/"
 						}
 					],
@@ -5921,6 +6071,10 @@
 							"The growing energy footprint of artificial intelligence": "https://www.cell.com/joule/abstract/S2542-4351(23)00365-3)",
 							"The role of artificial intelligence in achieving the Sustainable Development Goals": "https://www.nature.com/articles/s41467-019-14108-y",
 							"The Wholegrain guide to ethical use of AI": "https://www.wholegraindigital.com/blog/ethical-ai-guidelines/",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
+							"United Nations [SDGS] Goal 17 (Global Partnership)": "https://sdgs.un.org/goals/goal17#targets_and_indicators",
 							"Web3 and Sustainability": "https://www.lcx.com/web3-and-sustainability/",
 							"Web3 and sustainability: Benefits and risks": "https://www.techtarget.com/sustainability/feature/Web3-and-sustainability-Benefits-and-risks",
 							"What is the environmental impact of Web3?": "https://venturebeat.com/business/what-is-the-environmental-impact-of-web3/",
@@ -5980,6 +6134,9 @@
 							"Resilience for sustainable, inclusive growth": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/resilience-for-sustainable-inclusive-growth",
 							"The Digital Resilience Guide": "https://www.splunk.com/en_us/blog/learn/digital-resilience.html",
 							"Top Tips For A Sustainable Sponsorship": "https://www.sponsorship-awards.co.uk/top-tips-sustainable-sponsorship",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 10 (Inequality)": "https://sdgs.un.org/goals/goal10#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"What Is Fossil Fuel Divestment": "https://gofossilfree.org/divestment/what-is-fossil-fuel-divestment/"
 						}
 					],
@@ -6028,6 +6185,11 @@
 							"1% For The Planet": "https://www.onepercentfortheplanet.org/",
 							"7 business benefits of employee volunteering": "https://www.sage.com/en-gb/blog/benefits-volunteer-days-employee-engagement/",
 							"Side Project Programs Can Have Major Benefits for Employers": "https://builtin.com/software-engineering-perspectives/20-percent-time",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators",
 							"What is Chicago Cause?": "https://www.orbitmedia.com/about/chicago-cause/"
 						}
 					],
@@ -6144,8 +6306,13 @@
 							"How Your Business Can Unpack and Prioritize Sustainability Through Recycling": "https://www.entrepreneur.com/green-entrepreneur/how-your-business-can-unpack-the-importance-of-recycling/438815",
 							"Materials & Parts": "https://sustainabilityguide.eu/ecodesign/materials-parts/",
 							"Reduce, reuse, recycle": "https://www.green.earth/blog/reduce-reuse-recycle-7-ways-for-businesses-to-reduce-waste",
+							"Sources and Streams of Electronic Waste": "https://www.cell.com/one-earth/fulltext/S2590-3322(20)30307-9",
 							"To Green the Internet, We Need RIPE": "https://labs.ripe.net/author/michael_oghia/to-green-the-internet-we-need-ripe/",
-							"Sources and Streams of Electronic Waste": "https://www.cell.com/one-earth/fulltext/S2590-3322(20)30307-9"
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
+							"United Nations [SDGS] Goal 11 (Human Habitats)": "https://sdgs.un.org/goals/goal11#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 13 (Climate Change)": "https://sdgs.un.org/goals/goal13#targets_and_indicators"
 						}
 					],
 					"tags": ["Social Equity", "Content", "Ideation", "Hardware", "E-Waste", "Governance"]
@@ -6238,6 +6405,7 @@
 							"Sustainable Practices": "https://www.the-public-good.com/web-development/sustainable-practices",
 							"Sustainable Web Design": "https://alistapart.com/article/sustainable-web-design/",
 							"The overlooked environmental footprint of increasing Internet use": "https://www.sciencedirect.com/science/article/abs/pii/S0921344920307072",
+							"United Nations [SDGS] Goal 7 (Sustainable Energy)": "https://sdgs.un.org/goals/goal7#targets_and_indicators",
 							"Use Lighthouse for performance budgets": "https://web.dev/articles/use-lighthouse-for-performance-budgets?hl=en",
 							"Web Almanac: Sustainability": "https://almanac.httparchive.org/en/2022/sustainability",
 							"Why Your Website Should Be Under 14KB In Size": "https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/"
@@ -6304,7 +6472,12 @@
 							"How to Contribute to Open Source Projects: A Beginner's Guide": "https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/",
 							"Open Source Employee Handbook": "https://handbook.gitlab.com/",
 							"The open source way": "https://opensource.com/open-source-way",
-							"Todo: Open Source Community": "https://todogroup.org/"
+							"Todo: Open Source Community": "https://todogroup.org/",
+							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
+							"United Nations [SDGS] Goal 8 (Economics & Work)": "https://sdgs.un.org/goals/goal8#targets_and_indicators",
+							"United Nations [SDGS] Goal 9 (Infrastructure)": "https://sdgs.un.org/goals/goal9#targets_and_indicators",
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
+							"United Nations [SDGS] Goal 17 (Global Partnership)": "https://sdgs.un.org/goals/goal17#targets_and_indicators"
 						}
 					],
 					"tags": ["Social Equity", "UI", "Ideation", "Assets", "Software"]
@@ -6357,7 +6530,10 @@
 							"ISO 22301:2019 - Security and resilience": "https://www.iso.org/standard/75106.html",
 							"Resilience for sustainable, inclusive growth": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/resilience-for-sustainable-inclusive-growth",
 							"Sustainability and business continuity share a common goal": "https://www.techtarget.com/searchdisasterrecovery/tip/Sustainability-and-business-continuity-share-a-common-goal",
-							"The Digital Resilience Guide": "https://www.splunk.com/en_us/blog/learn/digital-resilience.html"
+							"The Digital Resilience Guide": "https://www.splunk.com/en_us/blog/learn/digital-resilience.html",
+							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
+							"United Nations [SDGS] Goal 3 (Health & Well-being)": "https://sdgs.un.org/goals/goal3#targets_and_indicators",
+							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators"
 						}
 					],
 					"tags": ["Security", "Governance", "Strategy"]
