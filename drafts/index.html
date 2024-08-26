@@ -3,20 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Web Sustainability Guidelines (WSG) 1.0</title>
-		<!-- 
-			Fix for Small Screen Overflow Issue: https://github.com/w3c/sustyweb/issues/18
-			Fix for Testability Highlight Color Palette: https://github.com/w3c/sustyweb/issues/29
-			Fix for Definition Cross-Linking Usage In: https://github.com/w3c/sustyweb/issues/21
-			Fix for Visited Link Issue: https://github.com/w3c/sustyweb/issues/26
-			Fix for Specification Readability: https://github.com/w3c/sustyweb/issues/92
-			Fix for Printing The Specification: https://github.com/w3c/sustyweb/issues/92
-		-->
 		<style>
+			/* Fix for Small Screen Overflow Issue: https://github.com/w3c/sustyweb/issues/18 */
 			@media screen and (max-width: 550px) { #title { margin-top: 4em; } }
-			.alert { background-color: #ff9fae; }
+			/* Fix for Definition Cross-Linking Usage In: https://github.com/w3c/sustyweb/issues/21 */
 			.hidden { display: none; visibility: hidden; }
+			/* Fix for Visited Link Issue: https://github.com/w3c/sustyweb/issues/26 */
 			.resources a:visited:not(.bibref) { color: #717171; }
-			@media print { section section:last-child h4, section section:last-child .self-link, section section:last-child summary { display: none; } body { margin-left: 1.6em !important; padding-left: 1.6em !important; } }
+			/* Fix for Testability Highlight Color Palette: https://github.com/w3c/sustyweb/issues/29 */
+			.alert { background-color: #ff9fae; }
+			/* Fix for Specification Readability: https://github.com/w3c/sustyweb/issues/92 */
 			.note pre { background-color: #fafafa;}
 			.note .subtitle { margin-top: 2.5em; }
 			.note .rating, .note .reporting { display: flex; }
@@ -24,6 +20,10 @@
 			.note .rating dt { flex-shrink: 0; } .note .rating dd { flex-basis: 50%; }
 			.note .reporting dt { width: 85px; } .note .reporting dd { flex-basis: calc(50% - 85px); margin: 0; }
 			@media screen and (max-width: 500px) { .note .reporting dd { flex-basis: calc(100% - 85px); } }
+			/* Fix for Printing The Specification: https://github.com/w3c/sustyweb/issues/92 */
+			@media print { section section:last-child h4, section section:last-child .self-link, section section:last-child summary, .summary { display: none; } body { margin-left: 1.6em !important; padding-left: 1.6em !important; } }
+			/* Fix for Showcasing Plain English Summaries: https://github.com/w3c/sustyweb/issues/114 */
+			.summary details { background-color: #F3F3F3; border: medium solid #d9d9d9; padding: 1em; }
 		</style>
 		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer>
 		</script>
@@ -1030,6 +1030,17 @@
 		</section>
 		<section class="informative"> <!-- Introduction -->
 			<h2>Introduction</h2>
+			<div class="summary">
+				<details>
+					<summary>Plain language summary of <q>Introduction</q></summary>
+					<ul>
+						<li>The Web Sustainability Guidelines (WSGs) promote good sustainability best practices based on the latest evidence and research.</li>
+						<li>WSGs apply to applications, websites, and other Internet-related products and services.</li>
+						<li>The guidelines feature Success Criteria you MUST comply with, and provide other features that can help with decision-making and implementation.</li>
+						<li>Digital sustainability is a complex topic, so the best guidance may change over time, and other considerations (such as non-digital factors) should be taken into account.</li>
+					</ul>
+				</details>
+			</div>
 			<section> <!-- Background -->
 				<h3>Background on WSG</h3>
 				<p>In 1999, Web Content Accessibility Guidelines [[WCAG22]] defined a set of baseline guidance for Web content developers and creators of authoring tools, with the primary goal of promoting Web accessibility through the adoption of inclusive strategies. Through a similar methodology, the Web Sustainability Guidelines promote planetary, people, and prosperity best practices based on measurable, evidence-based research; aimed at end-users, website or application creators, product owners, stakeholders, tool authors, educators, and policymakers, with the primary goal of reducing harm to the wider ecosystem (regarding people and the planet) through sustainable strategy adoption.</p>
@@ -1162,6 +1173,19 @@
 				<li>Ensure assets are suitable and of the lowest footprint required.</li>
 			</ul>
 			<p>By adhering to the below guidelines, individuals can make a significant difference in the reduction of front-end sustainability impacts.</p>
+			<div class="summary">
+				<details>
+					<summary>Plain language summary of <q>User-Experience Design</q></summary>
+					<ul>
+						<li>Identify and account for the issues affecting your service, visitors, and non-users.</li>
+						<li>Keep the experience lightweight with well-written content and optimized assets with alternatives.</li>
+						<li>Maintain a beneficial navigation system and layout using recognized (non-negative) patterns.</li>
+						<li>Ideate, document, share, and use design systems to reduce redundancy.</li>
+						<li>Allow for accessible interaction and use forms only when necessary.</li>
+						<li>Audit, Test, and Prototype regularly in the project Release-Cycle.</li>
+					</ul>
+				</details>
+			</div>
 			<section> <!-- Undertake Systemic Impacts Mapping -->
 				<h3>Undertake Systemic Impacts Mapping</h3>
 				<p>Many variables can impact the user-experience, and a bunch of these can impact how sustainable your website will be. Attempting to identify where you can make a difference to the visitor and give them a more sustainable experience will be beneficial.</p>
@@ -3549,6 +3573,20 @@
 				<li>Provide technical features that increase digital sustainability.</li>
 			</ul>
 			<p>By adhering to the below guidelines, individuals can make a significant difference in the reduction of front-end and back-end sustainability impacts.</p>
+			<div class="summary">
+				<details>
+					<summary>Plain language summary of <q>Web Development</q></summary>
+					<ul>
+						<li>Optimize your codebase by minifying code-splitting, tree shaking, and avoiding duplication.</li>
+						<li>Ensure your project is accessible, meets sustainability targets, and contains way-finding microdata.</li>
+						<li>Assess third-party services, dependencies, and first-party code for issues (and value).</li>
+						<li>Resolve incorrect HTML, render blocking, form validation, script security, and deprecation.</li>
+						<li>Provide a mobile-first layout that adapts to user preferences.</li>
+						<li>Include useful micro-files that may be expected by browsers or search engines.</li>
+						<li>Use the latest version of tooling and aim to use native features where possible.</li>
+					</ul>
+				</details>
+			</div>
 			<section> <!-- Identify Relevant Technical Indicators -->
 				<h3>Identify Relevant Technical Indicators</h3>
 				<p>Performance is a key part of the sustainability mindset as reductions in loading times can have a considerable impact on energy loads within <abbr title="Central Processing Unit">CPU</abbr>, <abbr title="Graphics Processing Unit">GPU</abbr>, <abbr title="Random Access Memory">RAM</abbr>, and hard drive caching (among other variables), as such ensuring a performant product is essential.</p>
@@ -5394,6 +5432,17 @@
 				<li>Tasks can be handled optimally by having good processes in place.</li>
 			</ul>
 			<p>By adhering to the below guidelines, individuals can make a significant difference in the reduction of back-end sustainability impacts.</p>
+			<div class="summary">
+				<details>
+					<summary>Plain language summary of <q>Hosting, Infrastructure and Systems</q></summary>
+					<ul>
+						<li>Pick a green host, on a plan you need that scales and is where you require it.</li>
+						<li>Optimize your files, remembering to handle file errors appropriately.</li>
+						<li>Automate services you can.</li>
+						<li>Manage and allow processing and storing data with care.</li>
+					</ul>
+				</details>
+			</div>
 			<section> <!-- Choose a Sustainable Hosting Provider -->
 				<h3>Choose a Sustainable Hosting Provider</h3>
 				<p>In addition to reducing the environmental impacts of a website, choose a hosting service that mitigates the remaining impacts. To make sure of this, there are many criteria to look for.</p>
@@ -6426,6 +6475,19 @@
 				<li>You can impact change within a business and within its workers to meet PPP targets.</li>
 			</ul>
 			<p>By adhering to the below guidelines, individuals can make a significant difference in the reduction of non-technical sustainability impacts.</p>
+			<div class="summary">
+				<details>
+					<summary>Plain language summary of <q>Business Strategy and Product Management</q></summary>
+					<ul>
+						<li>Plan and have policies and statements in place to cover sustainability events.</li>
+						<li>Have someone in charge of sustainability. Inform and train everyone others.</li>
+						<li>Understand your impact. Set goals and targets. Report, verify, and disclose your progress.</li>
+						<li>If a project is necessary, document its evolution and manage its long-term life cycle.</li>
+						<li>Share benefits with your workers. Share decision-making with everyone.</li>
+						<li>Be ethical with sensitive materials like data or emerging technology (like AI).</li>
+						<li>Be an inclusive workplace. Also, give back to good causes and open source.</li>
+				</details>
+			</div>
 			<section> <!-- Have an Ethical and Sustainability Product Strategy -->
 				<h3>Have an Ethical and Sustainability Product Strategy</h3>
 				<p>Create a publicly available statement in an easy-to-find location on your website that outlines a clear commitment to prioritize ethics and sustainability PPP standards that align with the organization's mission, vision, and values and include statements specific to digital products, services, policies, and programs. This should be done while actively promoting such efforts (with evidence) using social channels.</p>
