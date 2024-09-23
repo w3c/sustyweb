@@ -1,8 +1,8 @@
 {
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
-	"edition": "Eighth Draft",
-	"lastModified": "2024-08-26",
+	"edition": "Ninth Draft",
+	"lastModified": "2024-09-23",
 	"category": [
 		{
 			"id": "1",
@@ -53,7 +53,6 @@
 							"[AFNOR] Spec 5.1.6 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Are my third parties green?": "https://aremythirdpartiesgreen.com/",
 							"ATOS Ecobranding Report (PDF)": "https://atos.net/wp-content/uploads/2021/07/atos-ecobranding-report.pdf",
-							"Digital Eco-Design: Assess and measure": "https://eco-conception.designersethiques.org/guide/en/content/2-evaluate.html",
 							"[GPFEDS] 1.1 - Strategy (Assessment & Impact) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 1.5 - Strategy (Impact Goals) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 2.1 - Specifications (Hardware Profiles) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -143,7 +142,6 @@
 							"Creating And Maintaining A Voice Of Customer Program": "https://www.smashingmagazine.com/2023/11/creating-maintaining-voice-customer-program/",
 							"Design Justice Network Principles": "https://designjustice.org/read-the-principles",
 							"Deceptive Patterns": "https://www.deceptive.design/",
-							"Digital Eco-Design: Define the must haves and eliminate the non-essential": "https://eco-conception.designersethiques.org/guide/en/content/1-define-need.html",
 							"[GPFEDS] 1.2 - Strategy (Target Users) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 2.2 - Specifications (Older Device) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 2.3 - Specifications (Connection Issues) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -392,8 +390,6 @@
 							"Customer Experience Mapping": "https://www.startupgrind.com/blog/customer-experience-mapping-what-is-it-and-how-to-do-it/",
 							"Design patterns": "https://ui-patterns.com/patterns",
 							"Design Principles": "https://principles.design/",
-							"Digital Eco-Design: Default options": "https://eco-conception.designersethiques.org/guide/en/content/5-9-options.html",
-							"Digital Eco-Design: Define the must haves and eliminate the non-essential": "https://eco-conception.designersethiques.org/guide/en/content/1-define-need.html",
 							"[GPFEDS] 3.1 - Architecture (Impact Reduction) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 2-7033 - Lighter Framework / Library": "https://gr491.isit-europe.org/en/crit.php?id=2-7033-backend-for-an-equal-functional-scope-several-technical",
 							"[GR491] 4-5030 - Older Equipment or Limited Network Access": "https://gr491.isit-europe.org/en/crit.php?id=4-5030-frontend-the-more-components-the-service-implements-that",
@@ -533,7 +529,6 @@
 							"An Excellent Beginner's Guide to Information Architecture": "https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/",
 							"Build and submit a sitemap": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=en",
 							"Building Accessible Menu Systems": "https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/",
-							"Digital Eco-Design: Eco-Conception: Content": "https://eco-conception.designersethiques.org/guide/en/content/5-6-content.html",
 							"Find And Add Your Sitemap": "https://accessibleweb.com/user-guide/finding-and-adding-your-sitemap/",
 							"[GPFEDS] 4.3 - UX and UI (Optimized Clickstream) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"GreenIT (French) 4008 - Mettre en place un sitemap efficient": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_4008_fr.md",
@@ -598,7 +593,6 @@
 							"4 practices for eco-friendly online purchase journeys": "https://www.bunnyfoot.com/2023/09/sustainable-ux-4-practices-for-eco-friendly-online-purchase-journeys/",
 							"Deceptive Patterns": "https://www.deceptive.design/",
 							"Design Justice Network Principles": "https://designjustice.org/read-the-principles",
-							"Digital Eco-Design: Interactions": "https://eco-conception.designersethiques.org/guide/en/content/5-7-interaction.html",
 							"Design for Sustainable Behaviour": "https://sustainabilityguide.eu/methods/design-sustainable-behaviour/",
 							"[GPFEDS] 4.2 - UX and UI (Infinite Scroll) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 8-5057 - Attention Capturing": "https://gr491.isit-europe.org/en/crit.php?id=8-5057-frontend-the-attention-of-the-user-is-a",
@@ -933,14 +927,12 @@
 					],
 					"example": [
 						{
-							"content": "CodePen's plain English [terms of service](https://blog.codepen.io/documentation/terms-of-service/) agreement are easy to read."
+							"content": "CodePen's plain English [terms of service](https://blog.codepen.io/legal/terms-of-service/) agreement are easy to read."
 						}
 					],
 					"resources": [
 						{
 							"Adapt text for the web": "http://www.ecometer.org/rules/adapt-text-for-the-web.html",
-							"Digital Eco-Design: Content": "https://eco-conception.designersethiques.org/guide/en/content/5-6-content.html",
-							"Digital Eco-Design: Le contenu": "https://eco-conception.designersethiques.org/guide/fr/content/6-6-contenu.html",
 							"[GR491] 1-4002 - Sustainable Commitment": "https://gr491.isit-europe.org/en/crit.php?id=1-4002-contents-many-elements-are-produced-externally-it-would",
 							"[GR491] 1-4003 - Verified Sources": "https://gr491.isit-europe.org/en/crit.php?id=1-4003-contents-the-information-transmitted-can-be-controversial-and",
 							"[GR491] 1-4004 - Facts and Opinions": "https://gr491.isit-europe.org/en/crit.php?id=1-4004-contents-when-the-information-provided-is-not-deemed",
@@ -1030,7 +1022,6 @@
 						{
 							"20 ways to make your website more energy efficient": "https://www.wholegraindigital.com/blog/website-energy-efficiency/",
 							"Avoid using bitmap images for the interface": "http://www.ecometer.org/rules/avoid-using-bitmap-for-the-interface.html",
-							"Digital Eco-Design: Images": "https://eco-conception.designersethiques.org/guide/en/content/5-1-images.html",
 							"Dithering Images": "https://www.greendesign.io/dithering-images",
 							"Fast load times: Optimize Your Images": "https://web.dev/explore/fast?hl=en#optimize-your-images",
 							"Favor CSS over images": "http://www.ecometer.org/rules/favor-css-over-images.html",
@@ -1235,8 +1226,6 @@
 						{
 							"Climate Change Implications of Gaming Products and Services (PDF)": "https://openresearch.surrey.ac.uk/discovery/delivery/44SUR_INST:ResearchRepository/99512335802346#13140594990002346",
 							"Equations relating total annual energy consumption and chips energy efficiency": "https://www.researchgate.net/publication/371938289_Equations_relating_total_annual_energy_consumption_and_chips_energy_efficiency",
-							"Digital Eco-Design: Animation": "https://eco-conception.designersethiques.org/guide/en/content/5-3-animation.html",
-							"Digital Eco-Design: Interaction": "https://eco-conception.designersethiques.org/guide/en/content/5-7-interaction.html",
 							"[GPFEDS] 4.1 - UX and UI (Autoplay) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 4.6 - UX and UI (Informational Media) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 7-5051 - Animation Frequency": "https://gr491.isit-europe.org/en/crit.php?id=7-5051-frontend-the-presentation-of-operations-on-the-front",
@@ -1302,7 +1291,6 @@
 							"Best practices for fonts": "https://web.dev/articles/font-best-practices?hl=en",
 							"Complete Guide to Pre-Installed Fonts in Linux, Mac, and Windows": "https://apaddedcell.com/wp-content/uploads/2022/04/web-fonts.png",
 							"CSS Fonts": "https://www.cssfontstack.com/",
-							"Digital Eco-Design: Fonts": "https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html",
 							"Font style matcher": "https://meowni.ca/font-style-matcher/",
 							"[GPFEDS] 4.7 - UX and UI (Media Choices) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 4.8 - UX and UI (Font Limits) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -1389,9 +1377,6 @@
 							"Alternative Text": "https://webaim.org/techniques/alttext/",
 							"Creating font subsets": "https://markoskon.com/creating-font-subsets/",
 							"CSS Font Stack (Web-Safe)": "https://www.cssfontstack.com/",
-							"Digital Eco-Design: Downloadable documents": "https://eco-conception.designersethiques.org/guide/en/content/5-8-downloadable-documents.html",
-							"Digital Eco-Design: Fonts": "https://eco-conception.designersethiques.org/guide/en/content/5-4-fonts.html",
-							"Digital Eco-Design: Video and sound": "https://eco-conception.designersethiques.org/guide/en/content/5-2-video.html",
 							"Fast Load Times: Optimize WebFonts": "https://web.dev/explore/fast?hl=en#optimize-webfonts",
 							"[GPFEDS] 3.1 - Architecture (Impact Reduction) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 4.6 - UX and UI (Informational Media) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -1463,7 +1448,6 @@
 						{
 							"Best Practices For Mobile Form Design": "https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/",
 							"Designing Efficient Web Forms": "https://www.smashingmagazine.com/2017/06/designing-efficient-web-forms/",
-							"Digital Eco-Design: Interactions": "https://eco-conception.designersethiques.org/guide/en/content/5-7-interaction.html",
 							"Form design: from zero to hero all in one blog post": "https://adamsilver.io/blog/form-design-from-zero-to-hero-all-in-one-blog-post/",
 							"Form Design for Complex Applications": "https://coyleandrew.medium.com/form-design-for-complex-applications-d8a1d025eba6",
 							"Form UX: How to Design a User-Friendly Form": "https://blog.hubspot.com/marketing/form-ux",
@@ -1579,7 +1563,6 @@
 							"Carbon Footprint of Email Spam Report (PDF)": "https://twosidesna.org/wp-content/uploads/sites/16/2018/05/McAfee_and_ICF_The_Carbon_Footprint_of_Email_Spam_Report_2009.pdf",
 							"Creating Error Messages": "https://uxdesign.cc/creating-error-messages-best-practice-in-ux-design-cda3be0f5e16",
 							"Designing Better Error Messages UX": "https://www.smashingmagazine.com/2022/08/error-messages-ux-design/",
-							"Digital Eco-Design: Interactions": "https://eco-conception.designersethiques.org/guide/en/content/5-7-interaction.html",
 							"Error-Message Guidelines": "https://www.nngroup.com/articles/error-message-guidelines/",
 							"[GPFEDS] 4.13 - UX and UI (Notifications) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 6.6 - Front-End (Sensor Requests) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -1650,7 +1633,6 @@
 							"Changing Paper Consumption": "http://www.greenschools.net/article.php-id=75.html",
 							"Compress documents": "http://www.ecometer.org/rules/compress-documents.html",
 							"CSS Design: Going to Print": "https://alistapart.com/article/goingtoprint/",
-							"Digital Eco-Design: Downloadable documents": "https://eco-conception.designersethiques.org/guide/en/content/5-8-downloadable-documents.html",
 							"[GPFEDS] 4.11 - UX and UI (Inform Users) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 5-4052 - Downloadable Documents": "https://gr491.isit-europe.org/en/crit.php?id=5-4052-contents-the-documents-available-to-the-user-in",
 							"[GR491] 5-4053 - PDF Documents": "https://gr491.isit-europe.org/en/crit.php?id=5-4053-contents-large-documents-are-rarely-read-completely-by",
@@ -1988,7 +1970,6 @@
 						{
 							"A Comprehensive Guide To User Testing": "https://www.smashingmagazine.com/2018/03/guide-user-testing/",
 							"[AFNOR] Spec 5.4.6 and 5.4.7 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
-							"Digital Eco-Design: Test, assess and maintain": "https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html",
 							"[GPFEDS] 1.4 - Strategy (Regular Reviews) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"GreenIT (French) 4014 - S'assurer que les parcours utilisateurs permettent de réaliser leur action prévue": "https://github.com/cnumr/best-practices/blob/main/chapters/BP_4014_fr.md",
 							"Research-Based Web Design and Usability Guidelines (PDF)": "https://web.archive.org/web/20130112215348/http://www.usability.gov/guidelines/guidelines_book.pdf",
@@ -2068,9 +2049,6 @@
 							"Building a resilient frontend using progressive enhancement": "https://www.gov.uk/service-manual/technology/using-progressive-enhancement",
 							"Can I Stop?": "https://canistop.net/",
 							"Climate-friendly software: don't fight the wrong battle": "https://blog.ltgt.net/climate-friendly-software/",
-							"Digital Eco-Design: Concevoir en \"mobile first\" (French)": "https://eco-conception.designersethiques.org/guide/fr/content/4-mobile-first.html",
-							"Digital Eco-Design: Start with mobile first design": "https://eco-conception.designersethiques.org/guide/en/content/4-mobile-first.html",
-							"Digital Eco-Design: Test, assess and maintain": "https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html",
 							"Ecoconception Presentation (French) (PDF)": "https://ecoresponsable.numerique.gouv.fr/docs/2021/formation-ecoconception-2021-12-16.pdf",
 							"Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps (PDF)": "https://www.ivanomalavolta.com/files/papers/MOBILESoft_Caching_PWA_2020.pdf",
 							"[GPFEDS] 1.4 - Strategy (Regular Reviews) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -2550,7 +2528,6 @@
 							"An empirical study on the performance and energy costs of ads and analytics in mobile web apps": "https://www.sciencedirect.com/science/article/pii/S0950584923002252",
 							"Building for sustainability with WordPress": "https://sustywp.com/",
 							"Cookies, Pixels, and Tags": "https://www.osano.com/articles/privacy-cookies-pixels-and-tags",
-							"Digital Eco-Design: Plugins and widgets": "https://eco-conception.designersethiques.org/guide/en/content/5-5-widget.html",
 							"Effectively loading ads without impacting page speed": "https://web.dev/articles/loading-ads-page-speed?hl=en",
 							"Electricity Intensity of Internet Data Transmission": "https://onlinelibrary.wiley.com/doi/full/10.1111/jiec.12630",
 							"Environmental impact assessment of online advertising": "https://www.sciencedirect.com/science/article/pii/S0195925517303505",
@@ -2674,7 +2651,7 @@
 							"Web Standards: The What, The Why, And The How": "https://www.smashingmagazine.com/2019/01/web-standards-guide/",
 							"What is page bloat?": "https://www.speedcurve.com/blog/page-bloat-web-performance/",
 							"Why Do Some HTML Elements Become Deprecated?": "https://css-tricks.com/why-do-some-html-elements-become-deprecated/",
-							"Why Web Components?": "https://www.fast.design/docs/resources/why-web-components/"
+							"Why Web Components?": "https://fast.design/docs/resources/why-web-components/"
 						}
 					],
 					"tags": ["Social Equity", "Accessibility", "Content", "Usability", "Compatibility", "HTML"]
@@ -2987,10 +2964,9 @@
 							"CSS Design: Going to Print": "https://alistapart.com/article/goingtoprint/",
 							"CSS-Based Fingerprinting": "https://css-tricks.com/css-based-fingerprinting/",
 							"Dark mode can save battery, but only if your device has an OLED screen": "https://www.businessinsider.com/guides/tech/does-dark-mode-save-battery?r=US&IR=T",
-							"Dark mode may not save your phone's battery life as much as you think, but there are a few silver linings": "https://www.purdue.edu/newsroom/releases/2021/Q3/dark-mode-may-not-save-your-phones-battery-life-as-much-as-you-think,-but-there-are-a-few-silver-linings.html",
+							"Dark mode may not save your phone's battery life as much as you think, but there are a few silver linings": "https://www.purdue.edu/newsroom/archive/releases/2021/Q3/dark-mode-may-not-save-your-phones-battery-life-as-much-as-you-think,-but-there-are-a-few-silver-linings.html",
 							"Dark Mode Can Improve Text Readability — But Not for Everyone": "https://www.boia.org/blog/dark-mode-can-improve-text-readability-but-not-for-everyone",
 							"Demo: Disabling JavaScript Won't Save You from Fingerprinting": "https://fingerprint.com/blog/disabling-javascript-wont-stop-fingerprinting/",
-							"Digital Eco-Design: Animations": "https://eco-conception.designersethiques.org/guide/en/content/5-3-animation.html",
 							"Energy efficient color palette ideas": "https://greentheweb.com/energy-efficient-color-palette-ideas/",
 							"Google: Here's why dark mode massively extends your OLED phone's battery life": "https://www.zdnet.com/article/google-heres-why-dark-mode-massively-extends-your-oled-phones-battery-life/",
 							"[GPFEDS] 2.5 - Specifications (Adaptive Design) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -3068,8 +3044,6 @@
 							"Carbon Aware Computing: Next Green Breakthrough or New Greenwashing?": "https://hackernoon.com/carbon-aware-computing-next-green-breakthrough-or-new-greenwashing",
 							"Carbon-Aware vs. Carbon-Efficient Applications": "https://devblogs.microsoft.com/sustainable-software/carbon-aware-vs-carbon-efficient-applications/",
 							"Design for Carbon-Aware Digital Experiences": "https://branch.climateaction.tech/issues/issue-1/design-for-carbon-aware-digital-experiences/",
-							"Digital Eco-Design: Start with mobile first design": "https://eco-conception.designersethiques.org/guide/en/content/4-mobile-first.html",
-							"Digital Eco-Design: Test, assess and maintain": "https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html",
 							"Everything You Want To Know About Creating Voice User Interfaces": "https://www.smashingmagazine.com/2022/02/voice-user-interfaces-guide/",
 							"Front-End Performance Checklist 2021": "https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/",
 							"[GPFEDS] 2.2 - Specifications (Older Device) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -3521,7 +3495,6 @@
 							"[AFNOR] Spec 5.3.3 & 5.2.2 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Are Content Management Systems Sustainable?": "https://sustainablevirtualdesign.wordpress.com/2016/01/13/are-content-management-systems-cms-sustainable/",
 							"Creating a Low Carbon Umbraco Website": "https://www.etive-mor.com/blog/creating-a-low-carbon-umbraco-website",
-							"Digital Eco-Design: Choisir sa solution: website statique ou CMS (French)": "https://eco-conception.designersethiques.org/guide/fr/content/5-choisir-solution.html",
 							"[GPFEDS] 1.5 - Strategy (Impact Goals) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 3.1 - Architecture (Impact Reduction) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 3-5021 - Functionality VS Native": "https://gr491.isit-europe.org/en/crit.php?id=3-5021-frontend-some-features-are-available-in-several-forms.",
@@ -3901,7 +3874,6 @@
 							"Apache Configuration: .htaccess": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Apache_Configuration_htaccess",
 							"Back/forward cache": "https://web.dev/articles/bfcache?hl=en",
 							"Client-side storage": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage",
-							"Digital Eco-Design: Go further in the approach": "https://eco-conception.designersethiques.org/guide/en/content/7-go-further.html",
 							"Front-End Performance 2021: Build Optimizations": "https://www.smashingmagazine.com/2021/01/front-end-performance-build-optimizations/",
 							"Future trends of Green All Optical Networks and ICT Infrastructure in a large context": "https://www.researchgate.net/publication/368690756_Future_trends_of_Green_All_Optical_Networks_and_ICT_Infrastructure_in_a_large_context_-_trends_to_2050",
 							"[GPFEDS] 2.3 - Specifications (Connection Issues) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -3976,7 +3948,6 @@
 							"Apache Configuration: .htaccess": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Apache_Configuration_htaccess",
 							"Audacity": "https://www.audacityteam.org/",
 							"Cost of living: Impact of rising costs on disabled people": "https://lordslibrary.parliament.uk/cost-of-living-impact-of-rising-costs-on-disabled-people/",
-							"Digital Eco-Design": "https://eco-conception.designersethiques.org/guide/en/content/5-1-images.html",
 							"Does GZIP Save CO2?": "https://www.green-coding.io/case-studies/does-gzip-save-co2/",
 							"Digital sustainability audits: a de facto standard for the Internet carbon footprint": "https://www.researchgate.net/publication/343041330_Digital_sustainability_audits_a_de_facto_standard_for_the_Internet_carbon_footprint",
 							"Fast Load Times: Optimize your images": "https://web.dev/explore/fast?hl=en#optimize-your-images",
@@ -4179,7 +4150,7 @@
 							"[GR491] 3-8029 - CPU Usage": "https://gr491.isit-europe.org/en/crit.php?id=3-8029-hosting-the-cpu-resources-available-to-virtual-machines",
 							"[GR491] 3-8031 - Unused CPU Cores": "https://gr491.isit-europe.org/en/crit.php?id=3-8031-hosting-hosted-services-do-not-always-have-the",
 							"[GR491] 3-8036 - Provisioning and Deprovisionning": "https://gr491.isit-europe.org/en/crit.php?id=3-8036-hosting-when-hosting-a-service-each-component-part",
-							"How AI and automation make data centers greener and more sustainable": "https://www.ey.com/en_in/technology/how-ai-and-automation-make-data-centers-greener-and-more-sustainable",
+							"How AI and automation make data centers greener and more sustainable": "https://www.ey.com/en_in/insights/technology/how-ai-and-automation-make-data-centers-greener-and-more-sustainable",
 							"How and Why To Prevent Bots From Crawling Your Site": "https://www.searchenginejournal.com/prevent-bot-crawling/450430/",
 							"How Crawl Optimization Improves Website Sustainability": "https://www.mightybytes.com/blog/how-crawl-optimization-improves-website-sustainability/",
 							"How Green is Your Data Center?": "https://www.readyworks.com/blog/how-green-is-your-data-center-use-automation-to-simplify-esg-reporting",
@@ -4678,8 +4649,6 @@
 							"Climate Product Management Playbook": "https://climateproductleaders.myflodesk.com/",
 							"Creating a company's first sustainability report": "https://www.governance-intelligence.com/esg/creating-companys-first-sustainability-report",
 							"Defining ESG vs. Sustainability": "https://www.brightest.io/esg-sustainability-difference",
-							"Digital Eco-Design: L'intérêt de communiquer (French)": "https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#communiquer-sans-greenwashing",
-							"Digital Eco-Design: Sensibiliser les utilisateurs (French)": "https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html#Sensibiliser-utilisateurs",
 							"Does ESG really matter—and why?": "https://www.mckinsey.com/capabilities/sustainability/our-insights/does-esg-really-matter-and-why",
 							"EcoGrader": "https://ecograder.com/",
 							"[GPFEDS] 1.1 - Strategy (Assessment & Impact) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -4806,7 +4775,6 @@
 						{
 							"[AFNOR] Spec 5.5.1 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Climate Voice": "https://climatevoice.org/",
-							"Digital Eco-Design: Convaincre et diffuser (French)": "https://eco-conception.designersethiques.org/guide/fr/content/8-convaincre.html",
 							"Five Dimensions of Sustainable Software Engineering and How Education Can Help!": "https://luiscruz.github.io/2022/01/01/sustainable-se-intro.html",
 							"[GPFEDS] 4.15 - UX and UI (Dark Patterns) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 2-3011 - Stakeholder Awareness": "https://gr491.isit-europe.org/en/crit.php?id=2-3011-uxui-to-accede-you-have-to-understand.-sustainable",
@@ -4917,7 +4885,6 @@
 					"resources": [
 						{
 							"[AFNOR] Spec 5.1.3 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
-							"Digital Eco-Design: Assess and measure": "https://eco-conception.designersethiques.org/guide/en/content/2-evaluate.html",
 							"ETSI ES 203 199 (PDF)": "https://www.etsi.org/deliver/etsi_es/203100_203199/203199/01.03.01_60/es_203199v010301p.pdf",
 							"[GPFEDS] 1.1 - Strategy (Assessment & Impact) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 1.5 - Strategy (Impact Goals) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -5154,7 +5121,7 @@
 					],
 					"resources": [
 						{
-							"2020 Impact Reports That Impacted Us": "https://unitofimpact.com/2021/06/2020-impact-reports-that-impacted-us/",
+							"2020 Impact Reports That Impacted Us": "https://unitofimpact.com/2020-impact-reports-that-impacted-us/",
 							"CDP (Global Disclosure System)": "https://www.cdp.net/en",
 							"EU Corporate Sustainability Reporting Directive": "https://www.sidley.com/en/insights/newsupdates/2022/08/eu-corporate-sustainability-reporting-directive-what-do-uk-us-headquartered-companies-need-to-know",
 							"European Digital Rights and Principles": "https://digital-strategy.ec.europa.eu/en/policies/digital-principles",
@@ -5168,7 +5135,6 @@
 							"More than values: The value-based sustainability reporting that investors want": "https://www.mckinsey.com/capabilities/sustainability/our-insights/more-than-values-the-value-based-sustainability-reporting-that-investors-want",
 							"Our Digital Greenwashing Guide": "https://www.mightybytes.com/blog/digital-greenwashing-guide/",
 							"Sustainability Accounting Standards Board": "https://sasb.ifrs.org/",
-							"Sustainability Regulations for Business": "https://greenbusinessbureau.com/blog/sustainability-regulations-for-business-a-brief-review/",
 							"Sustainability Reporting tips (PDF)": "https://www.pwc.com/gx/en/audit-services/corporate-reporting/sustainability-reporting/assets/pwc-sustainability-reporting-tips-private-sector.pdf",
 							"Task Force on Climate-related Financial Disclosures": "https://www.fsb-tcfd.org/",
 							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
@@ -5381,7 +5347,6 @@
 							"Best Practices for Material Updates to Your Privacy Policy": "https://www.termsfeed.com/blog/best-practices-material-updates-privacy-policy/",
 							"Cradle to Cradle": "https://sustainabilityguide.eu/methods/cradle-to-cradle/",
 							"Demystifying digital dark matter": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/demystifying-digital-dark-matter-a-new-standard-to-tame-technical-debt",
-							"Digital Eco-Design: Test, assess and maintain": "https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html",
 							"The Design Process": "https://sustainabilityguide.eu/methods/the-design-process/",
 							"[GPFEDS] 1.4 - Strategy (Regular Reviews) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 2.6 - Specifications (Design Review) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -5458,7 +5423,6 @@
 					"resources": [
 						{
 							"Common Changelog": "https://common-changelog.org/",
-							"Digital Eco-Design: Préparer l'évolution du service et des contenus (French)": "https://eco-conception.designersethiques.org/guide/fr/content/7-maintenir.html#preparer-evolution",
 							"[GPFEDS] 3.5 - Architecture (Patch Updates) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 3.6 - Architecture (Incremental Updates) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 6-3040 - Changing Features": "https://gr491.isit-europe.org/en/crit.php?id=6-3040-uxui-a-digital-service-has-a-lifespan-that",
@@ -5524,7 +5488,6 @@
 							"[AFNOR] Spec 5.1.5 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Competitor Analysis: What It Is and How to Conduct One": "https://mailchimp.com/resources/what-is-competitor-analysis/",
 							"Digital divide": "https://en.wikipedia.org/wiki/Digital_divide",
-							"Digital Eco-Design: Go further in the approach": "https://eco-conception.designersethiques.org/guide/en/content/7-go-further.html",
 							"[GR491] 3-2017 - Technological Obstacles": "https://gr491.isit-europe.org/en/crit.php?id=3-3017-uxui-in-order-to-be-responsible-digital-technology",
 							"Society Centered Design": "https://societycentered.design/",
 							"Sustainability Innovation Framework": "https://www.figma.com/community/file/1198811753322710709/sustainability-innovation-framework-climatesprint",
@@ -5888,7 +5851,7 @@
 					],
 					"example": [
 						{
-							"content": "The Airbnb [Privacy Policy](https://www.airbnb.ca/help/article/3175) includes compliance with [emerging legislation](https://www.airbnb.ca/help/article/2855/), [data ownership](https://www.airbnb.ca/help/article/2273), and measurable progress through [previous versions](https://www.airbnb.ca/help/article/2859/). The Telegram [Privacy Policy](https://telegram.org/privacy) includes detailed data practices, references to local legislation, and shows change over time. The [Slack Trust](https://slack.com/intl/en-gb/trust) section is inclusive of [privacy](https://slack.com/intl/en-gb/trust/data-management/privacy-principles), security, compliance, ownership, and more; including a description of how data informs [search, Machine Language, and Artificial Intelligence](https://slack.com/intl/en-gb/trust/data-management/privacy-principles). Finally, CodePen has a beautifully structured [terms of service](https://blog.codepen.io/documentation/terms-of-service/) agreement, written in plain English, and is easy to understand."
+							"content": "The Airbnb [Privacy Policy](https://www.airbnb.ca/help/article/3175) includes compliance with [emerging legislation](https://www.airbnb.ca/help/article/2855/), [data ownership](https://www.airbnb.ca/help/article/2273), and measurable progress through [previous versions](https://www.airbnb.ca/help/article/2859/). The Telegram [Privacy Policy](https://telegram.org/privacy) includes detailed data practices, references to local legislation, and shows change over time. The [Slack Trust](https://slack.com/intl/en-gb/trust) section is inclusive of [privacy](https://slack.com/intl/en-gb/trust/data-management/privacy-principles), security, compliance, ownership, and more; including a description of how data informs [search, Machine Language, and Artificial Intelligence](https://slack.com/intl/en-gb/trust/data-management/privacy-principles). Finally, CodePen has a beautifully structured [terms of service](https://blog.codepen.io/legal/terms-of-service/) agreement, written in plain English, and is easy to understand."
 						}
 					],
 					"resources": [
@@ -5964,7 +5927,6 @@
 					"resources": [
 						{
 							"[AFNOR] Spec 5.2.4 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
-							"Digital Eco-Design: Test, assess and maintain": "https://eco-conception.designersethiques.org/guide/en/content/6-maintain.html",
 							"EU Cyber Resilience Act": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
 							"Evergreen Content is More Sustainable": "https://www.mightybytes.com/blog/content-governance-evergreen-content/",
 							"[GPFEDS] 1.6 - Strategy (Data Collection) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -6051,7 +6013,7 @@
 							"AI Environmental Equity": "https://themarkup.org/hello-world/2023/07/08/ai-environmental-equity-its-not-easy-being-green",
 							"AI Regulation Around The World": "https://www.taylorwessing.com/en/interface/2023/ai---are-we-getting-the-balance-between-regulation-and-innovation-right/ai-regulation-around-the-world",
 							"AI's Climate Impact Goes beyond Its Emissions": "https://www.scientificamerican.com/article/ais-climate-impact-goes-beyond-its-emissions/",
-							"Are harvest now, decrypt later cyberattacks actually happening?": "https://techmonitor.ai/hardware/quantum/harvest-now-decrypt-later-cyberattack-quantum-computer",
+							"Are harvest now, decrypt later cyberattacks actually happening?": "https://www.techmonitor.ai/hardware/quantum/harvest-now-decrypt-later-cyberattack-quantum-computer",
 							"Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models": "https://arxiv.org/abs/2007.03051",
 							"Crypto and blockchain must accept they have a problem, then lead in sustainability": "",
 							"Cryptocurrency's Dirty Secret: Energy Consumption": "https://techcrunch.com/2021/05/16/crypto-and-blockchain-must-accept-they-have-a-problem-then-lead-in-sustainability/",
