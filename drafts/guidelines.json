@@ -3739,7 +3739,7 @@
 						{
 							"title": "Monitor Metrics",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#HIS01-1)",
-							"description": "To assess the environmental impacts of hosting and detect overconsumption, some indicators are monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators are be used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (PUE), Water Usage Effectiveness (WUE), and Carbon Usage Effectiveness (CUE). They are displayed to visitors for transparency and monitoring reasons."
+							"description": "To assess the environmental impacts of hosting and detect overconsumption, some indicators are monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators are be used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (PUE), Water Usage Effectiveness (WUE), and Carbon Usage Effectiveness (CUE). They are displayed to visitors for transparency and monitoring reasons. If possible (to reduce redundancy) the ability to scale packages based on usage requirements is made available (manually or automatically) to reduce wasted resources."
 						},
 						{
 							"title": "Equipment Longevity",
@@ -4397,12 +4397,12 @@
 						{
 							"title": "Local Servers",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#HIS10-3)",
-							"description": "A hosting provider was chosen with servers located close to the visitor."
+							"description": "A hosting provider was chosen with servers located close to the visitor, considering that if you only serve a local audience, the need for distributed content (CDNs) that duplicate your materials globally may not be worthwhile."
 						},
 						{
 							"title": "Avoid Caching Inappropriate Resources",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#HIS10-4)",
-							"description": "Don't use the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (CORS), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect JSON or other static assets."
+							"description": "Don't use the service to host dynamic / regularly changing resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (CORS), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect JSON or other static assets."
 						},
 						{
 							"title": "Process Data Close to the Source",

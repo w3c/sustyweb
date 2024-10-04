@@ -5492,7 +5492,7 @@
 				<p>In addition to reducing the environmental impacts of a website, choose a hosting service that mitigates the remaining impacts. To make sure of this, there are many criteria to look for.</p>
 				<section class="notoc">
 					<h4>Success Criterion - Monitor Metrics <a href="https://w3c.github.io/sustyweb/star.html#HIS01-1"><mark>(Machine Testable)</mark></a></h4>
-					<p>To assess the environmental impacts of hosting and detect overconsumption, some indicators are monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators are used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (<abbr title="Power Usage Effectiveness">PUE</abbr>), Water Usage Effectiveness (<abbr title="Water Usage Effectiveness">WUE</abbr>), and Carbon Usage Effectiveness (<abbr title="Carbon Usage Effectiveness">CUE</abbr>). They are displayed to visitors for transparency and monitoring reasons.</p>
+					<p>To assess the environmental impacts of hosting and detect overconsumption, some indicators are monitored: energy / water usage, CPU / Memory usage, allocation of servers and CPU cores, etc. These indicators are used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (<abbr title="Power Usage Effectiveness">PUE</abbr>), Water Usage Effectiveness (<abbr title="Water Usage Effectiveness">WUE</abbr>), and Carbon Usage Effectiveness (<abbr title="Carbon Usage Effectiveness">CUE</abbr>). They are displayed to visitors for transparency and monitoring reasons. If possible (to reduce redundancy) the ability to scale packages based on usage requirements is made available (manually or automatically) to reduce wasted resources.</p>
 				</section>
 				<section class="notoc">
 					<h4>Success Criterion - Equipment Longevity <mark class="alert">(Human Testable)</mark></h4>
@@ -6241,11 +6241,11 @@
 				</section>
 				<section class="notoc">
 					<h4>Success Criterion - Local Servers <a href="https://w3c.github.io/sustyweb/star.html#HIS10-3"><mark>(Machine Testable)</mark></a></h4>
-					<p>A hosting provider was chosen with servers located close to the visitor.</p>
+					<p>A hosting provider was chosen with servers located close to the visitor, considering that if you only serve a local audience, the need for distributed content (CDNs) that duplicate your materials globally may not be worthwhile.</p>
 				</section>
 				<section class="notoc">
 					<h4>Success Criterion - Avoid Caching Inappropriate Resources <a href="https://w3c.github.io/sustyweb/star.html#HIS10-4"><mark>(Machine Testable)</mark></a></h4>
-					<p>Don't use the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (<abbr title="Cross-origin resource sharing">CORS</abbr>), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect <abbr title="JavaScript Object Notation">JSON</abbr> or other static assets.</p>
+					<p>Don't use the service to host dynamic / regularly changing resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (<abbr title="Cross-origin resource sharing">CORS</abbr>), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect <abbr title="JavaScript Object Notation">JSON</abbr> or other static assets.</p>
 				</section>
 				<section class="notoc">
 					<h4>Success Criterion - Process Data Close to the Source <mark class="alert">(Human Testable)</mark></h4>
