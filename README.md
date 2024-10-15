@@ -4,7 +4,7 @@ Welcome to the repository for the [Sustainable Web Design Community Group](https
 
 In this hub, you will find the draft specification for our [Web Sustainability Guidelines](https://w3c.github.io/sustyweb/) and any supplementary documentation, including [Sustainable Tooling And Reporting (STAR)](https://w3c.github.io/sustyweb/star.html), our [at-a-glance](https://w3c.github.io/sustyweb/glance.html) overview, our [introduction](https://w3c.github.io/sustyweb/intro.html) to Web Sustainability, our sustainability [laws & policies](https://w3c.github.io/sustyweb/policies.html) guide, our [quick reference](https://w3c.github.io/sustyweb/quickref.html) sheet, our [PDF checklist](https://w3c.github.io/sustyweb/checklist.pdf), our [JSON API](https://w3c.github.io/sustyweb/guidelines.json), and our [Test Suite](https://github.com/w3c/sustyweb/tree/main/test-suite). We also have a living implementation of the specification under active development called [Sustainable Web Design](https://sustainablewebdesign.org/).
 
-If you would like a brief introduction to both our group and our specification, you may find [the slides](https://w3c.github.io/sustyweb/TPAC_Slides.pdf) from the presentation we gave at [TPAC 2023](https://www.w3.org/2023/09/breakouts/recording-32.html) useful. To learn more about our group, its goals, and our progress, check out our [wiki](https://www.w3.org/community/sustyweb/wiki/Main_Page), and [frequently asked questions](https://www.w3.org/community/sustyweb/wiki/Frequently_Asked_Questions) page. You may also find our draft [Interest Group charter](https://w3c.github.io/sustyweb/ig/charter.html) of interest.
+If you would like a brief introduction to both our group and our specification, you may find [the slides](https://w3c.github.io/sustyweb/TPAC_Slides.pdf) from the presentation we gave at [TPAC 2023](https://www.w3.org/2023/09/breakouts/recording-32.html) useful. To learn more about our group, its goals, and our progress, check out our [wiki](https://www.w3.org/community/sustyweb/wiki/Main_Page), and [frequently asked questions](https://www.w3.org/community/sustyweb/wiki/Frequently_Asked_Questions) page.
 
 ---
 
@@ -15,10 +15,9 @@ Work is planned in accordance with our [overview](https://w3c.github.io/sustyweb
 **Note:** W3C member feedback on our initial [proposed Working Group charter](https://w3c.github.io/sustyweb/ig/wg-charter.html) has lead to many [proposed and planned](https://docs.google.com/presentation/d/1dcuSMLcAF8jTHNCovOfs31zrjCr3rtrwzTXRLSy3lAk/edit?usp=sharing) updates.
 
 View current Interest Group chartering efforts:
-* AC Poll: https://www.w3.org/2002/09/wbs/33280/SustyWeb/
-* Proposed charter: https://www.w3.org/2024/09/sustyweb-charter-202409.html
-* Latest editor’s draft of charter: https://w3c.github.io/sustyweb/ig/charter.html
-* Diff: from proposed charter to latest editor's draft: https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2024%2F09%2Fsustyweb-charter-202409.html&doc2=https%3A%2F%2Fw3c.github.io%2Fsustyweb%2Fig%2Fcharter.html
+* Current [AC Poll](https://www.w3.org/2002/09/wbs/33280/SustyWeb/). (W3C Members Only)
+* Our [Proposed charter](https://www.w3.org/2024/09/sustyweb-charter-202409.html).
+* Latest [editor's draft](https://w3c.github.io/sustyweb/ig/charter.html) of charter. ([changes](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2024%2F09%2Fsustyweb-charter-202409.html&doc2=https%3A%2F%2Fw3c.github.io%2Fsustyweb%2Fig%2Fcharter.html))
 
 ---
 
