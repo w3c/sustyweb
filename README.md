@@ -12,7 +12,13 @@ If you would like a brief introduction to both our group and our specification, 
 
 Work is planned in accordance with our [overview](https://w3c.github.io/sustyweb/overview.pdf) of the [issues](https://github.com/w3c/sustyweb/issues) requiring resolution. Each [milestone](https://github.com/w3c/sustyweb/milestones) corresponds to a [release](https://github.com/w3c/sustyweb/releases) published.
 
-**Note:** W3C member feedback on our initial [charter](https://w3c.github.io/sustyweb/ig/wg-charter.html) has lead to many [proposed and planned](https://docs.google.com/presentation/d/1dcuSMLcAF8jTHNCovOfs31zrjCr3rtrwzTXRLSy3lAk/edit?usp=sharing) updates.
+**Note:** W3C member feedback on our initial [proposed Working Group charter](https://w3c.github.io/sustyweb/ig/wg-charter.html) has lead to many [proposed and planned](https://docs.google.com/presentation/d/1dcuSMLcAF8jTHNCovOfs31zrjCr3rtrwzTXRLSy3lAk/edit?usp=sharing) updates.
+
+View current Interest Group chartering efforts:
+* AC Poll: https://www.w3.org/2002/09/wbs/33280/SustyWeb/
+* Proposed charter: https://www.w3.org/2024/09/sustyweb-charter-202409.html
+* Latest editor’s draft of charter: https://w3c.github.io/sustyweb/ig/charter.html
+* Diff: from proposed charter to latest editor's draft: https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2024%2F09%2Fsustyweb-charter-202409.html&doc2=https%3A%2F%2Fw3c.github.io%2Fsustyweb%2Fig%2Fcharter.html
 
 ---
 
