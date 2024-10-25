@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Ninth Draft",
-	"lastModified": "2024-10-04",
+	"lastModified": "2024-10-25",
 	"category": [
 		{
 			"id": "1",
@@ -52,7 +52,6 @@
 						{
 							"[AFNOR] Spec 5.1.6 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
 							"Are my third parties green?": "https://aremythirdpartiesgreen.com/",
-							"ATOS Ecobranding Report (PDF)": "https://atos.net/wp-content/uploads/2021/07/atos-ecobranding-report.pdf",
 							"[GPFEDS] 1.1 - Strategy (Assessment & Impact) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 1.5 - Strategy (Impact Goals) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GPFEDS] 2.1 - Specifications (Hardware Profiles) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
@@ -5112,7 +5111,6 @@
 						{
 							"An Introduction to Corporate Sustainability Training": "https://blog.nexioprojects.com/an-introduction-to-corporate-sustainability-training",
 							"EcoCards Game Workshop Toolkit": "https://www.figma.com/community/file/1197230942511819987/ecocards-jeu-de-cartes-decoconception-web-web-ecodesign-card-game",
-							"ESG Policy - the Why, the What the How": "https://esgthereport.com/esg-policy-the-why-the-what-the-how/",
 							"[GR491] 1-4002 - Sustainable Commitment": "https://gr491.isit-europe.org/en/crit.php?id=1-4002-contents-many-elements-are-produced-externally-it-would",
 							"Green by Default": "https://screenspan.net/blog/green-by-default/",
 							"Green Upskilling": "https://2030.builders/green-upskilling-why-companies-need-to-train-employees-to-meet-the-demand-of-a-sustainable-economy/",
@@ -5176,7 +5174,7 @@
 					],
 					"example": [
 						{
-							"content": "[Kinaxis](https://www.kinaxis.com/en/resources/content/company/2023-kinaxis-esg-report-pdf?xs=536361#page=1) (PDF) and [Pinterest](https://s23.q4cdn.com/958601754/files/doc_downloads/2023/02/pinterest-2021-esg-impact-report_inspiring-a-better-future.pdf) (PDF) have published their global impact reports."
+							"content": "[Kinaxis](https://www.kinaxis.com/en/resources/content/company/2023-kinaxis-esg-report-pdf?xs=536361#page=1) (PDF) and [Pinterest](https://downloads.ctfassets.net/2pyx8rwuvz6x/73MnH9ns5snM3M3mXQ8X1o/e5158bccc8005e156588e2c3263bbe7b/Pinterest2024-ESG-Report-7.9.24-v1_en-GB.pdf) (PDF) have published their global impact reports."
 						}
 					],
 					"resources": [
