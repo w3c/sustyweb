@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Ninth Draft",
-	"lastModified": "2024-10-25",
+	"lastModified": "2024-10-31",
 	"category": [
 		{
 			"id": "1",
@@ -289,7 +289,7 @@
 						{
 							"title": "Ecological Brainstorming",
 							"testable": "Human Testable",
-							"description": "The planetary needs and ecological boundaries of a project have been taken into account during the brainstorming process."
+							"description": "The planetary needs and ecological boundaries of a project have been taken into account during the brainstorming process. This can include creating non-users, non-human (animal, planet) personas, or climate-specific user stories and sprints."
 						}
 					],
 					"impact": "Medium",
@@ -3044,7 +3044,7 @@
 						{
 							"title": "Carbon Aware Design",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD14-3)",
-							"description": "To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques. This should include using situational design to reduce the codebase or functionality during high-intensity periods or adapting the user-interface to perform better in situations where scaling hardware resources can be avoided to reduce emissions."
+							"description": "To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques. This should include using situational design to reduce the codebase disable non-essential functionality during high-intensity periods or adapting the user-interface to perform better in situations where scaling hardware resources can be avoided to reduce emissions. It can also include designing algorithms that can auto-disable features based on set thresholds."
 						},
 						{
 							"title": "Alternative Browsing",
@@ -4745,12 +4745,12 @@
 					"id": "2",
 					"url": "https://w3c.github.io/sustyweb/#assign-a-sustainability-representative",
 					"guideline": "Assign a Sustainability Representative",
-					"description": "Having someone within an organization who represents sustainability as a core agenda makes good sense due to the accessibility, performance, financial, and other benefits that can occur from following best practices.",
+					"description": "Having someone within an organization who represents sustainability as a core agenda makes good sense due to the accessibility, performance, financial, and other benefits that can occur from following best practices. If the resources are available, a climate Working Group with willing participants could also be established.",
 					"criteria": [
 						{
 							"title": "Ecological Referee",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM02-1)",
-							"description": "An ecological referee (with specific digital expertise) for the product or service within your organization has been assigned."
+							"description": "An ecological referee (with specific digital expertise) for the product or service within your organization has been assigned and empowered with the tools they require (resources, budget, time, etc.) to achieve their stated goals."
 						}
 					],
 					"impact": "Medium",
@@ -4780,6 +4780,7 @@
 					"resources": [
 						{
 							"Chief sustainability officer": "https://en.wikipedia.org/wiki/Chief_sustainability_officer",
+							"Climate Product Management Playbook": "https://climateproductleaders.myflodesk.com/",
 							"Does Your Organization Need a Chief Sustainability Officer?": "https://www.gartner.com/en/articles/does-your-organization-need-a-chief-sustainability-officer",
 							"[GPFEDS] 1.3 - Strategy (Ecodesign Supervisor) [PDF]": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"Organizing for sustainability success": "https://www.mckinsey.com/capabilities/sustainability/our-insights/organizing-for-sustainability-success-where-and-how-leaders-can-start",
@@ -4798,14 +4799,19 @@
 					"description": "Businesses should not only reference their own materials showcasing how they are working towards becoming sustainable but cite existing sustainability best practices to help others looking to make similar changes within their own work or personal environments.",
 					"criteria": [
 						{
-							"title": "Inform And Train",
+							"title": "Inform And Aware",
 							"testable": "Human Testable",
-							"description": "All project stakeholders, including product teams, colleagues, and organizational decision-makers (managers and clients) are informed about and trained in your business's use of sustainable technology."
+							"description": "All project stakeholders, including product teams, colleagues, and organizational decision-makers (managers and clients) are informed about and trained in both general and digital climate literacy, including your business's use of sustainable technology."
+						},
+						{
+							"title": "Trained And Prepared",
+							"testable": "Human Testable",
+							"description": "Active and routine training is delivered where possible to develop, establish, and refresh skills in sustainability. This can be undertaken through in-house training, courses, workshops, events, webinars, meetups, or other ongoing or on-demand methods to empower your team to deliver on sustainability objectives."
 						},
 						{
 							"title": "Active Participation",
-							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM03-2)",
-							"description": "Stakeholders have been actively encouraged to reduce their environmental impact and resources on sustainable design, practices, and concepts are provided to assist with this task."
+							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM03-3)",
+							"description": "Stakeholders have been actively encouraged to reduce their environmental impact, share climate and sustainable initiatives and ideas, and resources on sustainable design, best practices, and concepts are provided to assist with this task."
 						}
 					],
 					"impact": "Medium",
@@ -4832,13 +4838,16 @@
 					"resources": [
 						{
 							"[AFNOR] Spec 5.5.1 (French)": "https://www.boutique.afnor.org/en-gb/standard/afnor-spec-2201//fa203506/323315",
+							"Climate Product Management Playbook": "https://climateproductleaders.myflodesk.com/",
 							"Climate Voice": "https://climatevoice.org/",
 							"Five Dimensions of Sustainable Software Engineering and How Education Can Help!": "https://luiscruz.github.io/2022/01/01/sustainable-se-intro.html",
 							"[GPFEDS] 4.15 - UX and UI (Dark Patterns) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 2-3011 - Stakeholder Awareness": "https://gr491.isit-europe.org/en/crit.php?id=2-3011-uxui-to-accede-you-have-to-understand.-sustainable",
 							"[GR491] 2-3015 - Reference Materials": "https://gr491.isit-europe.org/en/crit.php?id=2-3015-uxui-users-posture-remains-one-of-the-points",
+							"Green Software Practitioner": "https://learn.greensoftware.foundation/",
 							"How to amplify your sustainability efforts through your user experience": "https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/creativity/sustainability-user-experience/",
 							"Make Sustainability Part of Everybody's Job": "https://techcommunity.microsoft.com/t5/green-tech-blog/make-sustainability-part-of-everybody-s-job/ba-p/3146718",
+							"Product For Net Zero": "https://productfornetzero.com/",
 							"Sustainable Web Development Strategies Within An Organization": "https://www.smashingmagazine.com/2022/10/sustainable-web-development-strategies-organization/",
 							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
 							"United Nations [SDGS] Goal 4 (Education)": "https://sdgs.un.org/goals/goal4#targets_and_indicators",
@@ -4884,6 +4893,7 @@
 					],
 					"resources": [
 						{
+							"Climate Product Management Playbook": "https://climateproductleaders.myflodesk.com/",
 							"[GPFEDS] 4.15 - UX and UI (Dark Patterns) (PDF)": "https://www.arcep.fr/uploads/tx_gspublication/general_policy_framework_for_the_ecodesign_of_digital_services_version_2024.pdf",
 							"[GR491] 6-3039 - Software or Hardware Configurations": "https://gr491.isit-europe.org/en/crit.php?id=6-3039-uxui-users-equipement-is-increasingly-more-efficient-and",
 							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
@@ -4907,9 +4917,9 @@
 							"description": "A full life-cycle Analysis based on the functional unit defined in Guideline 5.15 has been conducted."
 						},
 						{
-							"title": "Competitor Analysis",
+							"title": "Competitor Impact",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#BSPM05-2)",
-							"description": "The environmental impact of your or your competitor's current service to inform decision-making (as a potential target goal) has been calculated."
+							"description": "The environmental impact of your or a competitor's current service to inform decision-making (as a potential target goal) has been calculated."
 						},
 						{
 							"title": "Tooling Impact",
@@ -4937,7 +4947,7 @@
 					],
 					"example": [
 						{
-							"content": "Use an online carbon website footprint-checking tool such as [EcoGrader](https://ecograder.com/), [EcoPing](https://ecoping.earth/), [FootSprint](https://calculator.footsprint.co/), [Sitigreen](https://www.sitigreen.it/), or [Website Carbon](https://www.websitecarbon.com/)."
+							"content": "Use an online carbon website footprint-checking tool such as [EcoGrader](https://ecograder.com/), [FootSprint](https://calculator.footsprint.co/), [Sitigreen](https://www.sitigreen.it/), or [Website Carbon](https://www.websitecarbon.com/)."
 						}
 					],
 					"resources": [
@@ -4996,7 +5006,9 @@
 					],
 					"resources": [
 						{
+							"13 SMART Goals Examples for Environmental Sustainability": "https://successindepth.com/smart-goals-for-sustainability/",
 							"B Corperation Standards": "https://www.bcorporation.net/en-us/standards/",
+							"Climate Product Management Playbook": "https://climateproductleaders.myflodesk.com/",
 							"Corporate Digital Responsibility": "https://corporatedigitalresponsibility.net/cdr-manifesto",
 							"Implementing the Sustainable Development Goals": "https://www.gov.uk/government/publications/implementing-the-sustainable-development-goals/implementing-the-sustainable-development-goals--2)",
 							"Science Based Targets": "https://sciencebasedtargets.org/",
@@ -5049,10 +5061,12 @@
 					],
 					"resources": [
 						{
+							"Are My Third Parties Green?": "https://aremythirdpartiesgreen.com/",
 							"A Complete Guide to Starting a B Corp": "https://www.uschamber.com/co/start/strategy/b-corp-advantages-and-requirements",
 							"B Corperation Certification": "https://www.bcorporation.net/en-us/certification/",
 							"B Corperation Standards": "https://www.bcorporation.net/en-us/standards/",
 							"Blue Angel (German)": "https://www.blauer-engel.de/en",
+							"Built With": "https://builtwith.com/",
 							"Improving your BIA score": "https://bcorporation.uk/b-corp-certification/the-certification-process/improving-your-score/",
 							"ISO 14000 Family - Environmental management": "https://www.iso.org/standards/popular/iso-14000-family",
 							"ISO 14067:2018 - Greenhouse gases": "https://www.iso.org/standard/71206.html",
@@ -5284,6 +5298,11 @@
 							"title": "Resource Measurement",
 							"testable": "Human Testable",
 							"description": "The organization incorporates carbon and resource measurement into maintenance programs and can show measurable improvement over time."
+						},
+						{
+							"title": "Failure Indicators",
+							"testable": "Human Testable",
+							"description": "The organization has both identified and documented Key Failure Indicators (KFIs) and implements resolutions to prevent non-acceptable sustainability impacts from occurring."
 						}
 					],
 					"impact": "High",
@@ -5404,6 +5423,7 @@
 							"6 stages of continuous improvement and why it is important": "https://www.betterup.com/blog/continuous-improvement",
 							"An Introduction to Growth Driven Design (PDF)": "https://cdn2.hubspot.net/hubfs/124445/docs/ebook-growth.pdf?t=1488562926580",
 							"Best Practices for Material Updates to Your Privacy Policy": "https://www.termsfeed.com/blog/best-practices-material-updates-privacy-policy/",
+							"Climate Product Management Playbook": "https://climateproductleaders.myflodesk.com/",
 							"Cradle to Cradle": "https://sustainabilityguide.eu/methods/cradle-to-cradle/",
 							"Demystifying digital dark matter": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/demystifying-digital-dark-matter-a-new-standard-to-tame-technical-debt",
 							"The Design Process": "https://sustainabilityguide.eu/methods/the-design-process/",
