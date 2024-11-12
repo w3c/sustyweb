@@ -9,7 +9,21 @@
 			.flow td, .flow th { border: 1px solid #000000; text-align: center; }
 			.red { color: #FF0000; }
 		</style>
-		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer>
+		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
+		<script class="remove">
+			/* Chairs Listing */
+			function addChairs() {
+				document.querySelectorAll("div.head dt").forEach(function (node) {
+					if (node.textContent.trim() == "Authors:")
+						node.textContent = "Chairs:";
+				});
+			}
+			function fixContributors() {
+				document.querySelectorAll("#gh-contributors li a").forEach(function (node) {
+					if (node.textContent.indexOf("[bot]") > 0)
+						node.parentElement.parentElement.removeChild(node.parentElement);
+				});
+			}
 		</script>
 		<script class="remove">
 		var respecConfig = {
@@ -19,6 +33,9 @@
 					url: "https://alexanderdawson.com/",
 					w3cid: 49702,
 				},
+				
+			],
+			authors: [
 				{
 					name: "Ines Akrap",
 					url: "https://inesakrap.com/",
@@ -35,6 +52,7 @@
 					company: "Mightybytes",
 					w3cid: 62394,
 				},
+				
 			],
 			edDraftURI: "https://w3c.github.io/sustyweb/star.html",
 			github: "https://github.com/w3c/sustyweb/",
@@ -49,6 +67,7 @@
 				}
 			},
 			specStatus: "CG-DRAFT",
+			postProcess: [addChairs],
 		}
 		</script>
 	</head>
