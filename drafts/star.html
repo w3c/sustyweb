@@ -2964,7 +2964,7 @@
 							<summary id="WD14-1">WD14-1: Test Against Network Speeds and Visual Resolution Breakpoints</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14 Develop a Mobile-First Layout</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout">3.14 Develop a Device-Adaptable Layout</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Ensure that your product or service can be classified as mobile-first and responsively designed to hopefully assure the widest remit of device types, and at least some degree of visual compatibility with your website or application. While there are many ways to approach this task, this technique is focused on connection speeds and the potential window size.</p>
 								<p>Because connection speeds can vary based on a whole range of factors (and cannot be aligned with averages due to location, mobile vs home, connection quality, etc), multiple speed ranges should be machine tested against. The same can be said for window sizes as while resolutions are common to certain devices, browsers can be resized, and unusual device types do also exist therefore CSS fluid scaling and visual breakpoints should be utilized.</p>
@@ -2991,7 +2991,7 @@
 							<summary id="WD14-2">WD14-2: Provide Progressive Enhancement Feature Testing Within Projects</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14 Develop a Mobile-First Layout</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout">3.14 Develop a Device-Adaptable Layout</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism for providing features within your product or service only if they are supported and if not, providing alternatives. This can be done using feature detection and progressive enhancement which should be used as a priority over graceful degradation (as it is better to add useful extras rather than patch-critical - but broken content).</p>
 								<p>Machine testability for feature testing should identify any code within the product or service that relies upon newer functionality lacking a level of web browser support (either in competing products or older versions), testing should occur and errors should be handled. Furthermore, if technologies are not supported, the fallback mechanism should allow a basic project to run.</p>
@@ -3019,7 +3019,7 @@
 							<summary id="WD14-3">WD14-3: Configure Your Project Around Carbon-Aware Situations</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14 Develop a Mobile-First Layout</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout">3.14 Develop a Device-Adaptable Layout</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism for identifying when the project might be at its most resource or energy-intensive (either at the consumer level or the system level - or both), and then decision make to delay or alter when a heavy script or operation occurs to perform it when there are fewer visitors or when the user is causing less hardware intensive activity.</p>
 								<p>For machine testability, this could be particularly tricky to implement as it will rely on data to which the project owner will need to gain access such as when visitor numbers are at their lowest (or when the task can be achieved at its quickest). This may require internal access, but if granted the use of such data could allow for redesigning the site to perform better during busy periods.</p>
@@ -3045,7 +3045,7 @@
 							<summary id="WD14-4">WD14-4: Provide Low-Impact, Possibly Delayed Methods of Interaction</summary>
 							<div class="note" title="About This Technique">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14 Develop a Mobile-First Layout</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout">3.14 Develop a Device-Adaptable Layout</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism for interacting with a website or application using more usual methods, but methods that often will have a reduced overall impact (such as having a reduced energy requirement). These indirect methods such as syndication feeds or the browser reader view can even eliminate the heavy impact of rendering that can affect hardware.</p>
 								<p>This technique is most useful when it can be easily recognized by visitors and can be used instead of having to visit the main website or application. In terms of machine testability, if these low-impact techniques use a common pattern and that pattern can be easily identified within the source code then naturally it can be identified as such and can be marked as meeting the criteria.</p>

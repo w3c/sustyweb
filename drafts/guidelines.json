@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Ninth Draft",
-	"lastModified": "2024-10-31",
+	"lastModified": "2024-11-13",
 	"category": [
 		{
 			"id": "1",
@@ -2016,7 +2016,7 @@
 						{
 							"title": "Frequent Testing",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#UX29-3)",
-							"description": "The product or service regularly tests with weak connections, old browsers, and devices older than five years to ensure compatibility."
+							"description": "The product or service regularly tests with weak, unstable, and slow connections, old browsers, and devices older than five years to ensure compatibility."
 						},
 						{
 							"title": "Mobile Friendly",
@@ -3027,19 +3027,19 @@
 				},
 				{
 					"id": "14",
-					"url": "https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout",
-					"guideline": "Develop a Mobile-First Layout",
-					"description": "Visitors approach our products and services on a wide variety of devices these days. Ensuring that your device works on the widest range of devices and differing screen resolutions ensures that you will have a compatible website or application. As such, visitors can actively choose to browse on devices that emit less carbon if they wish.",
+					"url": "https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout",
+					"guideline": "Develop a Device-Adaptable Layout",
+					"description": "Visitors approach our products and services on a wide variety of devices these days. Ensuring that your device works on the widest range of devices and differing screen resolutions ensures that you will have a compatible website or application. A Device-Adaptable approach goal is to provide a consistent, adaptable experience across a full range of devices by considering all screen sizes and resolutions from the start, rather than primarily focusing on mobile scaling upward.",
 					"criteria": [
 						{
 							"title": "Mobile-First",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD14-1)",
-							"description": "Allow a website or app to work on mobile devices primarily (testing with various connection speeds), expanding to accommodate larger displays thereafter (mobile-first). It is much more effective to do the hard work to ensure that it works well on a mobile device and then scale it up to larger interfaces."
+							"description": "Allow a website or app to work and adapt seamlessly across a variety of devices and screen sizes, including mobile, desktop, smart TVs, and other emerging platforms. Ensures that content and functionality are accessible and optimized on both smaller mobile screens and larger displays without limiting accessibility, usability or design on any specific device type. It is essential to implement robust fallback strategies to ensure that the website or application will not fail if it encounters unsupported technologies."
 						},
 						{
-							"title": "Responsive Design",
+							"title": "Progressive Enhancement",
 							"testable": "[Machine Testable](https://w3c.github.io/sustyweb/star.html#WD14-2)",
-							"description": "Utilize progressive enhancement and responsive web design to ensure that your work accommodates a device's capabilities, different screen sizes, and will not fail if it meets an unsupported technology."
+							"description": "Regardless of the approach or combination of approaches used, such as Adaptive Design, Mobile-First Design, or Dynamic Serving, it's essential to ensure overall sustainability through progressive enhancement."
 						},
 						{
 							"title": "Carbon Aware Design",
@@ -3056,9 +3056,9 @@
 					"effort": "Low",
 					"benefits": [
 						{
-							"Environmental": "Mobile-first and responsive design interfaces reduce energy use by improving performance and providing a streamlined experience for visitors. Additionally, smaller devices are often more underpowered than larger devices. Using less energy to power screens (and potentially other hardware).",
+							"Environmental": "Image optimization, minification, and efficient resource loading can improve performance and provide a streamlined experience for visitors. Additionally, smaller devices are often more underpowered than larger devices, so any hardware optimization could benefit both the user and the environment. Using less energy to power screens, for example, by adopting \"Dark Mode or Dark Background,\" can also offer many benefits.",
 							"Social Equity": "Low-powered devices are frequently used in developing nations, but ensuring that content works for older devices is paramount.",
-							"Accessibility": "Mobile-first websites usually incorporate large, touch-friendly buttons, simplified navigation menus, and clear readable fonts. This often makes it easier for individuals with visual or motor impairments to interact with than a traditional desktop layout and could prove to be beneficial for certain visitors to take advantage of.",
+							"Accessibility": "Mobile-first websites usually incorporate large, touch-friendly buttons, simplified navigation menus, and clear readable fonts. This often makes it easier for individuals with visual or motor impairments to interact with than a traditional desktop layout and could prove to be beneficial for certain visitors to take advantage of. A device-adaptable strategy (considering approach limitations) maximizes accessibility and usability across all devices, enhancing accessibility and ensuring an optimized experience by reducing the need for users to adapt their experience to device-specific limitations.",
 							"Performance": "Using lazy-loading and other delayed rendering techniques can boost website speed for small visual capacity devices.",
 							"Economic": "Ensuring that your website or application works across not only desktop devices but also smartphones and other unique screen resolutions can benefit you financially as it allows individuals to make purchases while on the move (which can be more convenient), while potentially using little or no screen.",
 							"Conversion": "Products and services that work well across a wider range of platforms and devices can encourage a wider audience to use your website or application not only in one situation but in many you might not have envisaged."
