@@ -49,7 +49,7 @@
 					url: "https://alexanderdawson.com/",
 					w3cid: 49702,
 				},
-				
+
 			],
 			authors: [
 				{
@@ -68,7 +68,7 @@
 					company: "Mightybytes",
 					w3cid: 62394,
 				},
-				
+
 			],
 			github: "https://github.com/w3c/sustyweb",
 			group: "sustyweb",
@@ -4670,16 +4670,26 @@
 					</details>
 				</section>
 			</section>
-			<section> <!-- Develop a Mobile-First Layout -->
-				<h3>Develop a Mobile-First Layout</h3>
-				<p>Visitors approach our products and services on a wide variety of devices these days. Ensuring that your device works on the widest range of devices and differing screen resolutions ensures that you will have a compatible website or application. As such, visitors can actively choose to browse on devices that emit less carbon if they wish.</p>
+			<section> <!-- Develop a Device-Adaptable Layout -->
+				<h3>Develop a Device-Adaptable Layout</h3>
+				<p>
+          Visitors approach our products and services on a wide variety of devices these days.
+          Ensuring that your device works on the widest range of devices and differing screen resolutions ensures that you will have a compatible website or application.
+          A Device-Adaptable approach goal is to provide a consistent, adaptable experience across a full range of devices by considering all screen sizes and resolutions from the start, rather than primarily focusing on mobile scaling upward.
+        </p>
 				<section class="notoc">
-					<h4>Success Criterion - Mobile-First <a href="https://w3c.github.io/sustyweb/star.html#WD14-1"><mark>(Machine Testable)</mark></a></h4>
-					<p>Allow a website or app to work on mobile devices primarily (testing with various connection speeds), expanding to accommodate larger displays thereafter (mobile-first). It is much more effective to do the hard work to ensure that it works well on a mobile device and then scale it up to larger interfaces.</p>
+					<h4>Success Criterion - Device-Adaptable <a href="https://w3c.github.io/sustyweb/star.html#WD14-1"><mark>(Machine Testable)</mark></a></h4>
+					<p>
+            Allow a website or app to work and adapt seamlessly across a variety of devices and screen sizes, including mobile, desktop, smart TVs, and other emerging platforms.
+            Ensures that content and functionality are accessible and optimized on both smaller mobile screens and larger displays without limiting accessibility, usability or design on any specific device type.
+            It is essential to implement robust fallback strategies to ensure that the website or application will not fail if it encounters unsupported technologies.
+          </p>
 				</section>
 				<section class="notoc">
-					<h4>Success Criterion - Responsive Design <a href="https://w3c.github.io/sustyweb/star.html#WD14-2"><mark>(Machine Testable)</mark></a></h4>
-					<p>Utilize progressive enhancement and responsive web design to ensure that your work accommodates a device's capabilities, different screen sizes, and will not fail if it meets an unsupported technology.</p>
+          <h4>Success Criterion - Device-Adaptable sustainability <a href="https://w3c.github.io/sustyweb/star.html#WD14-2"><mark>(Machine Testable)</mark></a></h4>
+					<p>
+            Regardless of the approach or combination of approaches used, such as Adaptive Design, Mobile-First Design, or Dynamic Serving, it's essential to ensure overall sustainability of the solution or solutions adopted.
+          </p>
 				</section>
 				<section class="notoc">
 					<h4>Success Criterion - Carbon Aware Design <a href="https://w3c.github.io/sustyweb/star.html#WD14-3"><mark>(Machine Testable)</mark></a></h4>
@@ -4701,9 +4711,29 @@
 							</dl>
 							<p class="subtitle"><strong>Benefits</strong></p>
 							<ul class="benefits">
-								<li><strong>Environmental:</strong> Mobile-first and responsive design interfaces reduce energy use by improving performance and providing a streamlined experience for visitors. Additionally, smaller devices are often more underpowered than larger devices. Using less energy to power screens (and potentially other hardware).</li>
+                <!-- I cannot find evidence that "Mobile-first and responsive design interfaces reduce energy use".
+                     Areas for improvement, such as image optimization, minification, and efficient resource
+                     loading are general web performance best practices, they are not exclusive to mobile-first approaches.
+                     Moreover, we could argue that due the abuse of classes in elements, modern mobile-first
+                     and responsive design are more worse than Dynamic Serving.
+
+                     The sentence "Using less energy to power screens (and potentially other hardware)."
+                     seems related to the use of "dark mode" or "dark theme", which is not a mobile-first exclusive feature.
+                     I suggest to reword the Environmental: as is -->
+								<li><strong>Environmental:</strong>
+                  Image optimization, minification, and efficient resource loading can improve performance and provide a streamlined experience for visitors.
+                  Additionally, smaller devices are often more underpowered than larger devices, so any hardware optimization could benefit both the user and the environment.
+                  Using less energy to power screens, for example, by adopting "Dark Mode or Dark Background," can offer many benefits, such as saving battery life on OLED and AMOLED screens.
+                  However, the latter cannot be used as the sole solution because, in terms of user experience, light mode is more readable than dark mode in well-lit environments.
+                </li>
 								<li><strong>Social Equity:</strong> Low-powered devices are frequently used in developing nations, but ensuring that content works for older devices is paramount.</li>
-								<li><strong>Accessibility:</strong> Mobile-first websites usually incorporate large, touch-friendly buttons, simplified navigation menus, and clear readable fonts. This often makes it easier for individuals with visual or motor impairments to interact with than a traditional desktop layout and could prove to be beneficial for certain visitors to take advantage of.</li>
+								<li>
+                  <strong>Accessibility:</strong>
+                  Mobile-first websites usually incorporate large, touch-friendly buttons, simplified navigation menus, and clear readable fonts.
+                  This often makes it easier for individuals with visual or motor impairments to interact with than a traditional desktop layout and could prove to be beneficial for certain visitors to take advantage of.
+                  However, a strict mobile-first strategy may limit adaptability on larger screens, leading to issues such as layouts that fail to fully utilize the additional space available, fonts to small, or excessive scrolling due to the mobile-first emphasis on vertical orientation.
+                  A device-adaptable strategy maximizes accessibility and usability across all devices, enhancing accessibility and ensuring an optimized experience by reducing the need for users to adapt their experience to device-specific limitations.
+                </li>
 								<li><strong>Performance:</strong> Using lazy-loading and other delayed rendering techniques can boost website speed for small visual capacity devices.</li>
 								<li><strong>Economic:</strong> Ensuring that your website or application works across not only desktop devices but also smartphones and other unique screen resolutions can benefit you financially as it allows individuals to make purchases while on the move (which can be more convenient), while potentially using little or no screen.</li>
 								<li><strong>Conversion:</strong> Products and services that work well across a wider range of platforms and devices can encourage a wider audience to use your website or application not only in one situation but in many you might not have envisaged.</li>
