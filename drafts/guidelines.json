@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Ninth Draft",
-	"lastModified": "2024-11-13",
+	"lastModified": "2024-11-14",
 	"category": [
 		{
 			"id": "1",
@@ -1810,7 +1810,7 @@
 							"Regression Testing: A Detailed Guide": "https://www.browserstack.com/guide/regression-testing",
 							"Software and Data Integrity Failures": "https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/",
 							"Software regression testing": "https://www.rainforestqa.com/blog/software-regression-testing",
-							"Test automation": "https://web.dev/explore/test-automation",
+							"Test automation": "https://web.dev/explore/test-automation?hl=en",
 							"The Basics of Web Application Security": "https://martinfowler.com/articles/web-security-basics.html",
 							"The Simple and Complete Guide on Non-Regression Testing": "https://testgrid.io/blog/non-regression-testing/",
 							"Top 10 Web Application Security Risks": "https://owasp.org/www-project-top-ten/",
@@ -4736,7 +4736,7 @@
 							"United Nations [SDGS] Goal 16 (Sustainable Society)": "https://sdgs.un.org/goals/goal16#targets_and_indicators",
 							"UX/UI Product Design Roadmap": "https://product-design-roadmap.com/",
 							"Website Carbon": "https://www.websitecarbon.com/",
-							"Why sustainability is crucial for corporate strategy": "https://www.weforum.org/agenda/2022/06/why-sustainability-is-crucial-for-corporate-strategy/"
+							"Why sustainability is crucial for corporate strategy": "https://www.weforum.org/stories/2022/06/why-sustainability-is-crucial-for-corporate-strategy/"
 						}
 					],
 					"tags": ["Social Equity", "Ideation", "Research", "Education", "Strategy", "KPIs"]
@@ -4846,7 +4846,7 @@
 							"[GR491] 2-3015 - Reference Materials": "https://gr491.isit-europe.org/en/crit.php?id=2-3015-uxui-users-posture-remains-one-of-the-points",
 							"Green Software Practitioner": "https://learn.greensoftware.foundation/",
 							"How to amplify your sustainability efforts through your user experience": "https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/creativity/sustainability-user-experience/",
-							"Make Sustainability Part of Everybody's Job": "https://techcommunity.microsoft.com/t5/green-tech-blog/make-sustainability-part-of-everybody-s-job/ba-p/3146718",
+							"Make Sustainability Part of Everybody's Job": "https://techcommunity.microsoft.com/blog/greentechblog/make-sustainability-part-of-everybodys-job/3146718",
 							"Product For Net Zero": "https://productfornetzero.com/",
 							"Sustainable Web Development Strategies Within An Organization": "https://www.smashingmagazine.com/2022/10/sustainable-web-development-strategies-organization/",
 							"United Nations [SDGS] Goal 1 (Poverty)": "https://sdgs.un.org/goals/goal1#targets_and_indicators",
