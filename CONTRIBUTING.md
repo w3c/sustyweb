@@ -1,5 +1,5 @@
 > [!WARNING]
-> This Community Group's activities are now under the direction of the [W3C Sustainable Web Interest Group](https://www.w3.org/groups/ig/sustainableweb/). This includes the curation of the [Web Sustainability Guidelines](https://w3c.github.io/sustyweb/). Thankyou for supporting us as we reached this stage in our journey and we hope you will continue to support our work as it develops at our new home (where you are welcome to get involved).
+> This Community Group's activities are now under the direction of the [W3C Sustainable Web Interest Group](https://www.w3.org/groups/ig/sustainableweb/). This includes the curation of the [Web Sustainability Guidelines](https://w3c.github.io/sustyweb/). Thank you for supporting us as we reached this stage in our journey and we hope you will continue to support our work as it develops at our new home (where you are welcome to get involved).
 
 # Contributing
 
