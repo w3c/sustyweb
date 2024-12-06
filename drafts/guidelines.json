@@ -2,7 +2,7 @@
 	"title": "Web Sustainability Guidelines",
 	"version": "1.0",
 	"edition": "Ninth Draft",
-	"lastModified": "2024-11-14",
+	"lastModified": "2024-12-06",
 	"category": [
 		{
 			"id": "1",
@@ -3306,8 +3306,7 @@
 							"Pkg-Size": "https://pkg-size.dev/",
 							"Should Developers Use Third-Party Libraries?": "https://www.scalablepath.com/back-end/third-party-libraries",
 							"Uninstalling packages and dependencies": "https://docs.npmjs.com/uninstalling-packages-and-dependencies",
-							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators",
-							"Up To Date": "https://up-to.date/"
+							"United Nations [SDGS] Goal 12 (Consumption & Production)": "https://sdgs.un.org/goals/goal12#targets_and_indicators"
 						}
 					],
 					"tags": ["Patterns", "JavaScript", "Performance", "Software", "Security"]
@@ -4713,7 +4712,6 @@
 							"Green Web Checker": "https://www.thegreenwebfoundation.org/green-web-check/",
 							"How to amplify your sustainability efforts through your user-experience": "https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/creativity/sustainability-user-experience/",
 							"How to Build Effective Sustainability Governance Structures": "https://www.bsr.org/en/blog/how-to-build-effective-sustainability-governance-structures",
-							"How To Create Your Own Code of Ethics (With Examples)": "https://www.indeed.com/career-advice/career-development/create-code-of-ethics",
 							"How To Write a Code of Ethics: 5 Steps to Follow": "https://www.contractscounsel.com/b/how-to-write-a-code-of-ethics",
 							"How to Write an Effective Product Requirements Documents": "https://www.jamasoftware.com/requirements-management-guide/writing-requirements/how-to-write-an-effective-product-requirements-document",
 							"Mitigating our impact on the planet through service design": "https://uxdesign.cc/mitigating-our-impact-on-the-planet-through-services-474859a5b6be",
