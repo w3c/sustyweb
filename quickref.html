@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 35.1.1">
+<meta name="generator" content="ReSpec 35.2.0">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 dfn{cursor:pointer}
@@ -28,11 +28,14 @@ dfn{cursor:pointer}
 		
 		
 		
+		
 <style>
 
 			table { border-collapse: collapse; border-spacing: 0; }
 			table tr { border: black solid 1px; padding: 0.5em 0.25em; }
 			.highlight { background-color: #fffe65; }
+			/* Sticky Deprecation Notice for Interest Group */
+			.sticky { background-color: #fddfdd; border: 5px solid red; border-radius: 15px; padding: 1em 2em; position: sticky; top: 1em; z-index: 999; }
 		
 </style>
 	
@@ -95,7 +98,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "name": "Alexander Dawson",
       "url": "https://alexanderdawson.com/",
       "w3cid": 49702
-    },
+    }
+  ],
+  "authors": [
     {
       "name": "Ines Akrap",
       "url": "https://inesakrap.com/",
@@ -118,8 +123,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "group": "sustyweb",
   "latestVersion": "https://w3c.github.io/sustyweb/quickref.html",
   "specStatus": "CG-DRAFT",
-  "publishISODate": "2024-08-25T00:00:00.000Z",
-  "generatedSubtitle": "Draft Community Group Report 25 August 2024"
+  "postProcess": [
+    null
+  ],
+  "publishISODate": "2024-12-06T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 06 December 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
 	<body class="h-entry informative"><div class="head">
@@ -127,7 +135,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <h1 id="title" class="title">Quick Reference for Web Sustainability Guidelines (WSG) 1.0</h1> 
     <p id="w3c-state">
       <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
-      <time class="dt-published" datetime="2024-08-25">25 August 2024</time>
+      <time class="dt-published" datetime="2024-12-06">06 December 2024</time>
     </p>
     <dl>
       
@@ -139,17 +147,17 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       
       
       
-      <dt>Editors:</dt><dd class="editor p-author h-card vcard" data-editor-id="49702">
+      <dt>Editor:</dt><dd class="editor p-author h-card vcard" data-editor-id="49702">
     <a class="u-url url p-name fn" href="https://alexanderdawson.com/">Alexander Dawson</a>
-  </dd><dd class="editor p-author h-card vcard">
+  </dd>
+      
+      <dt>Chairs:</dt><dd class="editor p-author h-card vcard">
     <a class="u-url url p-name fn" href="https://inesakrap.com/">Ines Akrap</a> (<span class="p-org org h-org">Storyblok</span>)
   </dd><dd class="editor p-author h-card vcard">
     <a class="u-url url p-name fn" href="https://civicactions.com/">Mike Gifford</a> (<span class="p-org org h-org">CivicActions</span>)
   </dd><dd class="editor p-author h-card vcard" data-editor-id="62394">
     <a class="u-url url p-name fn" href="https://www.mightybytes.com/">Tim Frick</a> (<span class="p-org org h-org">Mightybytes</span>)
   </dd>
-      
-      
       <dt>Feedback:</dt><dd>
         <a href="https://github.com/w3c/sustyweb/">GitHub w3c/sustyweb</a>
         (<a href="https://github.com/w3c/sustyweb/pulls/">pull requests</a>,
@@ -174,6 +182,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </p>
     <hr title="Separator for header">
   </div>
+		<div class="sticky"> 
+			<p><strong>Note:</strong> Several sections of this specification have been superseded. Please refer to the <a href="https://www.w3.org/groups/ig/sustainableweb/">Sustainable Web Interest Group</a> who are developing the latest version of the <a href="https://w3c.github.io/sustainableweb-wsg/">Web Sustainability Guidelines</a>.</p>
+		</div>
 		<section id="abstract" class="introductory"><h2>Abstract</h2> 
 			<p>This document provides a quick reference to the <a href="https://w3c.github.io/sustyweb/">Web Sustainability Guidelines</a> (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 specification. The content is laid out in a table, with Success Criteria, Impact, Effort, and <abbr title="Global Reporting Initiative">GRI</abbr> ratings noted for each guideline. Checkboxes are provided for those individuals or groups wishing to work through the list (note your progress will not be saved), and a <a href="https://w3c.github.io/sustyweb/checklist.pdf">print-friendly</a> (<abbr title="Portable Document Format">PDF</abbr>) version is also available to audit your work as part of an exercise.</p>
 			<p>Help improve this page by sharing your ideas, suggestions, or comments via <a href="https://github.com/w3c/sustyweb/issues/">GitHub issues</a>.</p>
@@ -281,7 +292,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="2.5a"></td><td colspan="5"><label for="2.5a">All stakeholders have been considered using a human-centered approach during the brainstorming process.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="2.5b"></td><td colspan="5"><label for="2.5b">The planetary needs and ecological boundaries of a project have been taken into account during the brainstorming process.</label></td>
+						<td><input type="checkbox" id="2.5b"></td><td colspan="5"><label for="2.5b">The planetary needs and ecological boundaries of a project have been taken into account during the brainstorming process. This can include creating non-users, non-human (animal, planet) personas, or climate-specific user stories and sprints.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>
@@ -845,10 +856,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="2.29b"></td><td colspan="5"><label for="2.29b">Planned obsolescence in software updates is routinely avoided, striving to maintain compatibility for as long as possible and clearly communicating whether an update is evolutionary (large updates that can significantly reduce performance) or corrective (smaller updates that fix bugs or improve security).</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="2.29c"></td><td colspan="5"><label for="2.29c">The product or service regularly tests with weak connections, old browsers, and devices older than five years to ensure compatibility.</label></td>
+						<td><input type="checkbox" id="2.29c"></td><td colspan="5"><label for="2.29c">The product or service regularly tests with weak, unstable, and slow connections, old browsers, and devices older than five years to ensure compatibility.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="2.29d"></td><td colspan="5"><label for="2.29d">Mobile-first methods and interfaces are prototyped to ensure progressive enhancement, content prioritization, and improved accessibility.</label></td>
+						<td><input type="checkbox" id="2.29d"></td><td colspan="5"><label for="2.29d">Device-adaptable methods (such as responsive design) are utilized and interfaces are prototyped to ensure progressive enhancement, content prioritization, and improved accessibility.</label></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="2.29e"></td><td colspan="5"><label for="2.29e">A <abbr title="Progressive Web Application">PWA</abbr> has been either chosen or rejected based on whether it be more sustainable and compatible over a native mobile application.</label></td>
@@ -1163,20 +1174,20 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td>
 					</tr>
 					<tr class="highlight">
-						<td><a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14</a></td>
-						<td colspan="5">Develop a Mobile-First Layout</td>
+						<td><a href="https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout">3.14</a></td>
+						<td colspan="5">Develop a Device-Adaptable Layout</td>
 					</tr>
 					<tr>
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="3.14a"></td><td colspan="5"><label for="3.14a">Allow a website or app to work on mobile devices primarily (testing with various connection speeds), expanding to accommodate larger displays thereafter (mobile-first). It is much more effective to do the hard work to ensure that it works well on a mobile device and then scale it up to larger interfaces.</label></td>
+						<td><input type="checkbox" id="3.14a"></td><td colspan="5"><label for="3.14a">Allow a website or app to work and adapt seamlessly across a variety of devices and screen sizes, including mobile, desktop, smart TVs, and other emerging platforms. Ensures that content and functionality are accessible and optimized on both smaller mobile screens and larger displays without limiting accessibility, usability or design on any specific device type. It is essential to implement robust fallback strategies to ensure that the website or application will not fail if it encounters unsupported technologies.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="3.14b"></td><td colspan="5"><label for="3.14b">Utilize progressive enhancement and responsive web design to ensure that your work accommodates a device's capabilities, different screen sizes, and will not fail if it meets an unsupported technology.</label></td>
+						<td><input type="checkbox" id="3.14b"></td><td colspan="5"><label for="3.14b">Regardless of the approach or combination of approaches used, such as Adaptive Design, Mobile-First Design, or Dynamic Serving, it's essential to ensure overall sustainability through progressive enhancement.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="3.5d"></td><td colspan="5"><label for="3.5d">To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques. This should include using situational design to reduce the codebase or functionality during high-intensity periods or adapting the user-interface to perform better in situations where scaling hardware resources can be avoided to reduce emissions.</label></td>
+						<td><input type="checkbox" id="3.5d"></td><td colspan="5"><label for="3.5d">To maximize the use of renewable energy, adapt your website or service to electricity availability using carbon-aware design techniques. This should include using situational design to reduce the codebase disable non-essential functionality during high-intensity periods or adapting the user-interface to perform better in situations where scaling hardware resources can be avoided to reduce emissions. It can also include designing algorithms that can auto-disable features based on set thresholds.</label></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="3.14c"></td><td colspan="5"><label for="3.14c">Support other indirect methods of interaction such as voice (speech), code (QR, etc), reader view (browser, application, or <abbr title="Really Simple Syndication">RSS</abbr>), or connected technology (watch, appliance, transport, etc).</label></td>
@@ -1411,7 +1422,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="4.1a"></td><td colspan="5"><label for="4.1a">To assess the environmental impacts of hosting and detect overconsumption, some indicators are monitored: energy / water usage, <abbr title="Central Processing Unit">CPU</abbr> / Memory usage, allocation of servers and <abbr title="Central Processing Unit">CPU</abbr> cores, etc. These indicators are used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (<abbr title="Power Usage Effectiveness">PUE</abbr>), Water Usage Effectiveness (<abbr title="Water Usage Effectiveness">WUE</abbr>), and Carbon Usage Effectiveness (<abbr title="Carbon Usage Effectiveness">CUE</abbr>). They are displayed to visitors for transparency and monitoring reasons.</label></td>
+						<td><input type="checkbox" id="4.1a"></td><td colspan="5"><label for="4.1a">To assess the environmental impacts of hosting and detect overconsumption, some indicators are monitored: energy / water usage, <abbr title="Central Processing Unit">CPU</abbr> / Memory usage, allocation of servers and <abbr title="Central Processing Unit">CPU</abbr> cores, etc. These indicators are used to calculate metrics directly related to environmental impacts, such as Power Usage Effectiveness (<abbr title="Power Usage Effectiveness">PUE</abbr>), Water Usage Effectiveness (<abbr title="Water Usage Effectiveness">WUE</abbr>), and Carbon Usage Effectiveness (<abbr title="Carbon Usage Effectiveness">CUE</abbr>). They are displayed to visitors for transparency and monitoring reasons. If possible (to reduce redundancy) the ability to scale packages based on usage requirements is made available (manually or automatically) to reduce wasted resources.</label></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="4.1b"></td><td colspan="5"><label for="4.1b">Equipment is managed responsibly by keeping it as long as possible, using it as efficiently as possible, making sure it is certified, and purchasing long-lifespan products.</label></td>
@@ -1615,10 +1626,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="4.10b"></td><td colspan="5"><label for="4.10b">Verify that the <abbr title="Content Delivery Network">CDN</abbr> provides a commitment to sustainability.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="4.10c"></td><td colspan="5"><label for="4.10c">A hosting provider was chosen with servers located close to the visitor.</label></td>
+						<td><input type="checkbox" id="4.10c"></td><td colspan="5"><label for="4.10c">A hosting provider was chosen with servers located close to the visitor, considering that if you only serve a local audience, the need for distributed content (CDNs) that duplicate your materials globally may not be worthwhile.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="4.10d"></td><td colspan="5"><label for="4.10d">Don't the service to host dynamic resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (<abbr title="Cross-Origin Resource Sharing">CORS</abbr>), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect <abbr title="JavaScript Object Notation">JSON</abbr> or other static assets.</label></td>
+						<td><input type="checkbox" id="4.10d"></td><td colspan="5"><label for="4.10d">Don't use the service to host dynamic / regularly changing resources or JavaScript (unless through a first-party host) as due to cache partitioning, cross-origin resource sharing (<abbr title="Cross-Origin Resource Sharing">CORS</abbr>), and other browser mechanics, any benefits are negated by weaker performance, the inability to cache or interact, and the potential introduction of security and privacy issues to be introduced. This doesn't affect <abbr title="JavaScript Object Notation">JSON</abbr> or other static assets.</label></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="4.10e"></td><td colspan="5"><label for="4.10e">All information passed between the layers of an application incurs a cost, both in terms of data transferred, and <abbr title="Central Processing Unit">CPU</abbr> cycles for (de)serialization. Wherever possible, data transformations must be performed close to the source to reduce these costs and avoid processing data that will later be discarded.</label></td>
@@ -1730,7 +1741,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="5.2a"></td><td colspan="5"><label for="5.2a">An ecological referee (with specific digital expertise) for the product or service within your organization has been assigned.</label></td>
+						<td><input type="checkbox" id="5.2a"></td><td colspan="5"><label for="5.2a">An ecological referee (with specific digital expertise) for the product or service within your organization has been assigned and empowered with the tools they require (resources, budget, time, etc.) to achieve their stated goals.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>
@@ -1748,10 +1759,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td></td><td colspan="5"><strong>Success Criterion</strong></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="5.3a"></td><td colspan="5"><label for="5.3a">All project stakeholders, including product teams, colleagues, and organizational decision-makers (managers and clients) are informed about and trained in your business's use of sustainable technology.</label></td>
+						<td><input type="checkbox" id="5.3a"></td><td colspan="5"><label for="5.3a">All project stakeholders, including product teams, colleagues, and organizational decision-makers (managers and clients) are informed about and trained in both general and digital climate literacy, including your business's use of sustainable technology.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="5.3b"></td><td colspan="5"><label for="5.3b">Stakeholders have been actively encouraged to reduce their environmental impact and resources on sustainable design, practices, and concepts are provided to assist with this task.</label></td>
+						<td><input type="checkbox" id="5.3b"></td><td colspan="5"><label for="5.3b">Active and routine training is delivered where possible to develop, establish, and refresh skills in sustainability. This can be undertaken through in-house training, courses, workshops, events, webinars, meetups, or other ongoing or on-demand methods to empower your team to deliver on sustainability objectives.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.3c"></td><td colspan="5"><label for="5.3c">Stakeholders have been actively encouraged to reduce their environmental impact, share climate and sustainable initiatives and ideas, and resources on sustainable design, best practices, and concepts are provided to assist with this task.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>
@@ -1790,7 +1804,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<td><input type="checkbox" id="5.5a"></td><td colspan="5"><label for="5.5a">A full life-cycle Analysis based on the functional unit defined in Guideline 5.15 has been conducted.</label></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" id="5.5b"></td><td colspan="5"><label for="5.5b">The environmental impact of your or your competitor's current service to inform decision-making (as a potential target goal) has been calculated.</label></td>
+						<td><input type="checkbox" id="5.5b"></td><td colspan="5"><label for="5.5b">The environmental impact of your or a competitor's current service to inform decision-making (as a potential target goal) has been calculated.</label></td>
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="5.5c"></td><td colspan="5"><label for="5.5c">When identifying the environmental impact of your product or service, you must include the impact (or estimates of) of any tooling used to create the product or service along with any third-party solutions utilized in the pipeline. While not created by you, the emissions they generate from production to maintenance are considered integral to your overall solution.</label></td>
@@ -1929,6 +1943,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</tr>
 					<tr>
 						<td><input type="checkbox" id="5.11d"></td><td colspan="5"><label for="5.11d">The organization incorporates carbon and resource measurement into maintenance programs and can show measurable improvement over time.</label></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="5.11e"></td><td colspan="5"><label for="5.11e">The organization has both identified and documented Key Failure Indicators (<abbr title="Key Failure Indicators">KFIs</abbr>) and implements resolutions to prevent non-acceptable sustainability impacts from occurring.</label></td>
 					</tr>
 					<tr>
 						<td></td><td><strong>Impact &amp; Effort</strong></td>

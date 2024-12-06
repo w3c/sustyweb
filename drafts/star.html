@@ -8,6 +8,8 @@
 			.flow table { border-collapse:collapse; border-spacing:0; white-space: nowrap; }
 			.flow td, .flow th { border: 1px solid #000000; text-align: center; }
 			.red { color: #FF0000; }
+			/* Sticky Deprecation Notice for Interest Group */
+			.sticky { background-color: #fddfdd; border: 5px solid red; border-radius: 15px; padding: 1em 2em; position: sticky; top: 1em; z-index: 999; }
 		</style>
 		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
 		<script class="remove">
@@ -72,6 +74,9 @@
 		</script>
 	</head>
 	<body>
+		<div class="sticky"> <!-- Deprecation -->
+			<p><strong>Note:</strong> Several sections of this specification have been superseded. Please refer to the <a href="https://www.w3.org/groups/ig/sustainableweb/">Sustainable Web Interest Group</a> who are developing the latest version of the <a href="https://w3c.github.io/sustainableweb-wsg/">Web Sustainability Guidelines</a>.</p>
+		</div>
 		<section id="abstract"> <!-- Abstract -->
 			<p>Sustainable Tooling And Reporting (<abbr title="Sustainable Tooling And Reporting">STAR</abbr>) 1.0 provides information, examples, and metrics data to complement the Web Sustainability Guidelines (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 specification. Within this supplementary document, you will find implementation advice (for external groups wishing to incorporate sustainability in their work), an evaluation methodology (for testing conformance), a categorized series of techniques (potential implementations and case studies), and a test suite (metrics data on impact and machine automation capability).</p>
 			<p>As with the <abbr title="Web Sustainability Guidelines">WSGs</abbr>, these features have been inspired by the work of the Web Accessibility Initiative ([[WAI]]). They have also been curated with a Web sustainability methodology, with the goal of better understanding the digital landscape's role in reducing harm to the wider ecosystem (regarding people and the planet).</p>

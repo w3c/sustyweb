@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 35.1.1">
+<meta name="generator" content="ReSpec 35.2.0">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -39,14 +39,17 @@ dfn{cursor:pointer}
 		
 <title>Sustainable Tooling And Reporting (STAR) 1.0</title>
 		
-		
 <style>
 
+			/* Fix for ReSpec table layout and overflow issue. */
 			.flow table { border-collapse:collapse; border-spacing:0; white-space: nowrap; }
 			.flow td, .flow th { border: 1px solid #000000; text-align: center; }
 			.red { color: #FF0000; }
+			/* Sticky Deprecation Notice for Interest Group */
+			.sticky { background-color: #fddfdd; border: 5px solid red; border-radius: 15px; padding: 1em 2em; position: sticky; top: 1em; z-index: 999; }
 		
 </style>
+		
 		
 		
 	
@@ -109,7 +112,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "name": "Alexander Dawson",
       "url": "https://alexanderdawson.com/",
       "w3cid": 49702
-    },
+    }
+  ],
+  "authors": [
     {
       "name": "Ines Akrap",
       "url": "https://inesakrap.com/",
@@ -141,8 +146,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "specStatus": "CG-DRAFT",
-  "publishISODate": "2024-08-23T00:00:00.000Z",
-  "generatedSubtitle": "Draft Community Group Report 23 August 2024"
+  "postProcess": [
+    null
+  ],
+  "publishISODate": "2024-12-06T00:00:00.000Z",
+  "generatedSubtitle": "Draft Community Group Report 06 December 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/cg-draft"></head>
 	<body class="h-entry informative"><div class="head">
@@ -150,7 +158,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <h1 id="title" class="title">Sustainable Tooling And Reporting (STAR) 1.0</h1> 
     <p id="w3c-state">
       <a href="https://www.w3.org/standards/types#reports">Draft Community Group Report</a>
-      <time class="dt-published" datetime="2024-08-23">23 August 2024</time>
+      <time class="dt-published" datetime="2024-12-06">06 December 2024</time>
     </p>
     <dl>
       
@@ -162,17 +170,17 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       
       
       
-      <dt>Editors:</dt><dd class="editor p-author h-card vcard" data-editor-id="49702">
+      <dt>Editor:</dt><dd class="editor p-author h-card vcard" data-editor-id="49702">
     <a class="u-url url p-name fn" href="https://alexanderdawson.com/">Alexander Dawson</a>
-  </dd><dd class="editor p-author h-card vcard">
+  </dd>
+      
+      <dt>Chairs:</dt><dd class="editor p-author h-card vcard">
     <a class="u-url url p-name fn" href="https://inesakrap.com/">Ines Akrap</a> (<span class="p-org org h-org">Storyblok</span>)
   </dd><dd class="editor p-author h-card vcard">
     <a class="u-url url p-name fn" href="https://civicactions.com/">Mike Gifford</a> (<span class="p-org org h-org">CivicActions</span>)
   </dd><dd class="editor p-author h-card vcard" data-editor-id="62394">
     <a class="u-url url p-name fn" href="https://www.mightybytes.com/">Tim Frick</a> (<span class="p-org org h-org">Mightybytes</span>)
   </dd>
-      
-      
       <dt>Feedback:</dt><dd>
         <a href="https://github.com/w3c/sustyweb/">GitHub w3c/sustyweb</a>
         (<a href="https://github.com/w3c/sustyweb/pulls/">pull requests</a>,
@@ -197,6 +205,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         </p>
     <hr title="Separator for header">
   </div>
+		<div class="sticky"> 
+			<p><strong>Note:</strong> Several sections of this specification have been superseded. Please refer to the <a href="https://www.w3.org/groups/ig/sustainableweb/">Sustainable Web Interest Group</a> who are developing the latest version of the <a href="https://w3c.github.io/sustainableweb-wsg/">Web Sustainability Guidelines</a>.</p>
+		</div>
 		<section id="abstract" class="introductory"><h2>Abstract</h2> 
 			<p>Sustainable Tooling And Reporting (<abbr title="Sustainable Tooling And Reporting">STAR</abbr>) 1.0 provides information, examples, and metrics data to complement the Web Sustainability Guidelines (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 specification. Within this supplementary document, you will find implementation advice (for external groups wishing to incorporate sustainability in their work), an evaluation methodology (for testing conformance), a categorized series of techniques (potential implementations and case studies), and a test suite (metrics data on impact and machine automation capability).</p>
 			<p>As with the <abbr title="Web Sustainability Guidelines">WSGs</abbr>, these features have been inspired by the work of the Web Accessibility Initiative ([<cite><a class="bibref" data-link-type="biblio" href="#bib-wai" title="Web Accessibility Initiative">WAI</a></cite>]). They have also been curated with a Web sustainability methodology, with the goal of better understanding the digital landscape's role in reducing harm to the wider ecosystem (regarding people and the planet).</p>
@@ -985,7 +996,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>This should take into consideration the need for analytics in other success criteria (for research metrics) before recommending removal and identifying low-carbon options for third-party solutions (where data exists). Additional criteria based on <abbr title="Planet, People, and Prosperity">PPP</abbr> values (such as privacy and security) should also be considered.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li>Some <a href="https://dodonut.com/blog/best-ga4-alternatives-for-2023/">analytics providers</a> have made steps to become more sustainable which would potentially make them a better replacement for bulkier, more intrusive packages.</li>
+									<li>Some <a href="https://bejamas.io/blog/best-ga4-alternatives-for-2023">analytics providers</a> have made steps to become more sustainable which would potentially make them a better replacement for bulkier, more intrusive packages.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -2259,7 +2270,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 									<li>Check if the existing application already utilizes a ServiceWorker.</li>
 									<li>If so, check the <abbr title="Progressive Web Application">PWA</abbr> JavaScript and <abbr title="JavaScript Object Notation">JSON</abbr> are well formed, and the icon exists.</li>
 									<li>If not calculate the sustainability impact of becoming a <abbr title="Progressive Web Application">PWA</abbr>.</li>
-									<li>Check that no native application already exists (<a href="https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners">meta tag smart banner</a>).</li>
+									<li>Check that no native application already exists (<a href="https://developer.apple.com/documentation/webkit/promoting-apps-with-smart-app-banners">meta tag smart banner</a>).</li>
 									<li>If so use that, otherwise calculate the sustainability impact of building an application.</li>
 									<li>If cost-efficient sustainability-wise, implement a <abbr title="Progressive Web Application">PWA</abbr> or / and a native application.</li>
 								</ol>
@@ -2655,7 +2666,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>Cookie banners are a classic example of personalization from the point of the page load and they can dictate the functionality of a website or application based on the choices made <a href="https://www.optimizely.com/">as shown in this example</a>.</li>
-									<li>Being able to log into to a product allows customers to trigger decisions regarding their experience. <a href="https://music.apple.com/us/browse">Apple Music</a> (for example) uses the details of the visitor to make decisions based on their prior browsing habits.</li>
+									<li>Being able to log into to a product allows customers to trigger decisions regarding their experience. <a href="https://music.apple.com/us/new">Apple Music</a> (for example) uses the details of the visitor to make decisions based on their prior browsing habits.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -2738,7 +2749,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>In the past, it was necessary to provide specific coding techniques (known as hacks) to ensure web browser compatibility. <a href="http://browserhacks.com/">Browser Hacks</a>, lists the various patterns used that could be solutions fit for removal.</li>
-									<li>When <a href="https://ios404.com/">testing new features</a>, browsers had a habit of <a href="https://shouldiprefix.com/">prefixing their code</a> in the past <a href="https://webstatus.dev/">behind flags</a> to avoid breaking existing code. Lists of such prefixes can be found online as well as archaic proprietary <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Stylesheets">CSS</abbr>.</li>
+									<li>When <a href="https://ios404.com/">testing new features</a>, browsers had a habit of <a href="https://shouldiprefix.com/">prefixing their code</a> in the past <a href="https://webstatus.dev/">behind flags</a> to avoid breaking existing code. Lists of such prefixes can be found online as well as archaic proprietary <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Stylesheets">CSS</abbr>. Websites like <a href="https://bcd-watch.igalia.com/">BCD Watch</a>, <a href="https://css-triggers.com/"><abbr title="Cascading Stylesheets">CSS</abbr> Triggers</a>, <a href="https://runtime-compat.unjs.io/">Runtime compatibility?</a>, and <a href="https://web-platform-dx.github.io/web-features-explorer/">Web features explorer</a> can help with compatibility testing.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -2818,7 +2829,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>The <a href="https://small-tech.org">Small Tech Foundation</a> ensures that their content can be easily identified by third parties by providing metadata, open graph data, and microdata within the document header (that is easily machine-readable).</li>
-									<li>Many social networks take advantage of the <a href="https://ogp.me/">OpenGraph Protocol</a> including <a href="https://developers.facebook.com/docs/sharing/webmasters">Facebook</a> and <a href="https://developer.x.com/en/docs/twitter-for-websites/cards/overview/markup">X (formally Twitter)</a> in the <abbr title="Hypertext Markup Language">HTML</abbr> head. <a href="https://joinmastodon.org/verification">Mastodon</a> uses the rel="me" attribute to identify websites with owners.</li>
+									<li>Many social networks take advantage of the <a href="https://ogp.me/">OpenGraph Protocol</a> including <a href="https://developers.facebook.com/docs/sharing/webmasters">Facebook</a> and <a href="https://developer.x.com/en/docs/x-for-websites/cards/overview/markup">X (formally Twitter)</a> in the <abbr title="Hypertext Markup Language">HTML</abbr> head. <a href="https://joinmastodon.org/verification">Mastodon</a> uses the rel="me" attribute to identify websites with owners.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -3089,9 +3100,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<summary id="WD14-1">WD14-1: Test Against Network Speeds and Visual Resolution Breakpoints</summary>
 							<div class="note" role="note" id="issue-container-generatedID-96"><div role="heading" class="note-title marker" id="h-note-96" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14 Develop a Mobile-First Layout</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout">3.14 Develop a Device-Adaptable Layout</a>.</p>
 								<p><strong>Description</strong></p>
-								<p>Ensure that your product or service can be classified as mobile-first and responsively designed to hopefully assure the widest remit of device types, and at least some degree of visual compatibility with your website or application. While there are many ways to approach this task, this technique is focused on connection speeds and the potential window size.</p>
+								<p>Ensure that your product or service can be classified as device-adaptable (responsively designed) to hopefully assure the widest remit of device types, and at least some degree of visual compatibility with your website or application. While there are many ways to approach this task, this technique is focused on connection speeds and the potential window size.</p>
 								<p>Because connection speeds can vary based on a whole range of factors (and cannot be aligned with averages due to location, mobile vs home, connection quality, etc), multiple speed ranges should be machine tested against. The same can be said for window sizes as while resolutions are common to certain devices, browsers can be resized, and unusual device types do also exist therefore <abbr title="Cascading Stylesheets">CSS</abbr> fluid scaling and visual breakpoints should be utilized.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
@@ -3116,7 +3127,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<summary id="WD14-2">WD14-2: Provide Progressive Enhancement Feature Testing Within Projects</summary>
 							<div class="note" role="note" id="issue-container-generatedID-97"><div role="heading" class="note-title marker" id="h-note-97" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14 Develop a Mobile-First Layout</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout">3.14 Develop a Device-Adaptable Layout</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism for providing features within your product or service only if they are supported and if not, providing alternatives. This can be done using feature detection and progressive enhancement which should be used as a priority over graceful degradation (as it is better to add useful extras rather than patch-critical - but broken content).</p>
 								<p>Machine testability for feature testing should identify any code within the product or service that relies upon newer functionality lacking a level of web browser support (either in competing products or older versions), testing should occur and errors should be handled. Furthermore, if technologies are not supported, the fallback mechanism should allow a basic project to run.</p>
@@ -3144,7 +3155,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<summary id="WD14-3">WD14-3: Configure Your Project Around Carbon-Aware Situations</summary>
 							<div class="note" role="note" id="issue-container-generatedID-98"><div role="heading" class="note-title marker" id="h-note-98" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14 Develop a Mobile-First Layout</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout">3.14 Develop a Device-Adaptable Layout</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism for identifying when the project might be at its most resource or energy-intensive (either at the consumer level or the system level - or both), and then decision make to delay or alter when a heavy script or operation occurs to perform it when there are fewer visitors or when the user is causing less hardware intensive activity.</p>
 								<p>For machine testability, this could be particularly tricky to implement as it will rely on data to which the project owner will need to gain access such as when visitor numbers are at their lowest (or when the task can be achieved at its quickest). This may require internal access, but if granted the use of such data could allow for redesigning the site to perform better during busy periods.</p>
@@ -3170,7 +3181,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<summary id="WD14-4">WD14-4: Provide Low-Impact, Possibly Delayed Methods of Interaction</summary>
 							<div class="note" role="note" id="issue-container-generatedID-99"><div role="heading" class="note-title marker" id="h-note-99" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
-								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-mobile-first-layout">3.14 Develop a Mobile-First Layout</a>.</p>
+								<p>This technique is <strong>Advisory</strong> to meet <em>Success Criteria</em> within <a href="https://w3c.github.io/sustyweb/#develop-a-device-adaptable-layout">3.14 Develop a Device-Adaptable Layout</a>.</p>
 								<p><strong>Description</strong></p>
 								<p>Provide a mechanism for interacting with a website or application using more usual methods, but methods that often will have a reduced overall impact (such as having a reduced energy requirement). These indirect methods such as syndication feeds or the browser reader view can even eliminate the heavy impact of rendering that can affect hardware.</p>
 								<p>This technique is most useful when it can be easily recognized by visitors and can be used instead of having to visit the main website or application. In terms of machine testability, if these low-impact techniques use a common pattern and that pattern can be easily identified within the source code then naturally it can be identified as such and can be marked as meeting the criteria.</p>
@@ -3643,7 +3654,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Machine testability to identify existing features is relatively straightforward as it simply requires identifying through the source code where cookies, local database requests, service, or web workers are implemented and ensuring that they are both proportionate and correctly marked up. If these don't exist it will require analyzing the page (or components) for potential opportunities for use.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li><a href="https://www.google.com/intl/en_us/gmail/about/">Gmail</a> makes sense as a progressive web application because if the Internet connection is lost (at any point), being able to continue using certain features without losing your progress is critical to functionality.</li>
+									<li><a href="https://workspace.google.com/intl/en_us/gmail/">Gmail</a> makes sense as a progressive web application because if the Internet connection is lost (at any point), being able to continue using certain features without losing your progress is critical to functionality.</li>
 									<li><a href="https://www.npmjs.com/login">NPM</a> saves information about your membership login locally (as do many other providers) to avoid needing to re-enter your details repeatedly. This is a useful feature as it increases a product's perceived performance.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
@@ -3896,7 +3907,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>For machine testability, providers should have information about sustainability offered within a sustainability statement along with details of compliance being met plus any sustainability features they provide that enhance their service. If this information is publicly available (and uses recognized sources), it could be parsed by machine, otherwise, a sustainable provider list should be sourced.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li><a href="https://www.akamai.com/site/en/documents/akamai/akamai-2022-esg-impact-report.pdf">Akamai</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>) provides a yearly <abbr title="Planet, People, and Prosperity">PPP</abbr> report that showcases and documents all of the changes they have made towards becoming more sustainable. While they have not fully become sustainable, they are getting there.</li>
+									<li><a href="https://www.akamai.com/site/en/documents/akamai/2024/akamai-2023-esg-impact-report.pdf">Akamai</a> (<em><abbr title="Portable Document Format">PDF</abbr></em>) provides a yearly <abbr title="Planet, People, and Prosperity">PPP</abbr> report that showcases and documents all of the changes they have made towards becoming more sustainable. While they have not fully become sustainable, they are getting there.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -3929,6 +3940,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
 								<ol>
+									<li>Check if you only serve a local (single country) audience, if so, avoid <abbr title="Content Delivery Network">CDN</abbr> usage.</li>
 									<li>Check using analytics the average distribution of your product or service's visitors.</li>
 									<li>Check a hosting or <abbr title="Content Delivery Network">CDN</abbr> provider's locations to match as closely to your customers.</li>
 								</ol>
@@ -4193,7 +4205,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					</li>
 					<li> 
 						<details>
-							<summary id="BSPM03-2">BSPM03-2: Produce Awareness Raising Resources on Sustainability</summary>
+							<summary id="BSPM03-3">BSPM03-3: Produce Awareness Raising Resources on Sustainability</summary>
 							<div class="note" role="note" id="issue-container-generatedID-136"><div role="heading" class="note-title marker" id="h-note-136" aria-level="4"><span>Note</span><span class="issue-label">: About This Technique</span></div><div class="">
 								<p><strong>Applicability</strong></p>
 								<p>This technique is <strong>Advisory</strong> to meet <a href="https://w3c.github.io/sustyweb/#raise-awareness-and-inform">5.3 Raise Awareness and Inform</a>.</p>
@@ -4316,7 +4328,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p><strong>Examples</strong></p>
 								<ol>
 									<li>The <a href="https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-english-language/">Global Reporting Initiative</a> is a recognized standard that individuals may choose to use because of the lack of cost attached to access. It's also widely respected and can be used for conformance with legislation.</li>
-									<li>The <a href="https://www.iso.org/sdgs.html">International Standards Organization</a> has provided several standards that can help with disclosure reporting and alignment with conformance to the United Nations Sustainable Development Goals.</li>
+									<li>The <a href="https://www.iso.org/sdg">International Standards Organization</a> has provided several standards that can help with disclosure reporting and alignment with conformance to the United Nations Sustainable Development Goals.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -4561,7 +4573,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>Heuristic testing by examining the source code of a document on the employee benefits (pay grades) on a website would be able to identify whether that business is a living wage employer, as would comparing any existing job openings with pay grades against living wage rates. If these are not available, a living wage badge may be an indicator but evidence will need to back the claim.</p>
 								<p><strong>Examples</strong></p>
 								<ol>
-									<li>The <a href="https://livingwage.org.uk/accredited-living-wage-employers">Living Wage website</a> provides a search service to allow individuals to find businesses and employers who provide a Living Wage. This can be broken down by sector, region, industry, and even service type.</li>
+									<li>The <a href="https://www.livingwage.org.uk/accredited-living-wage-employers">Living Wage website</a> provides a search service to allow individuals to find businesses and employers who provide a Living Wage. This can be broken down by sector, region, industry, and even service type.</li>
 								</ol>
 								<p><strong>Tests</strong></p>
 								<p>Procedure</p>
@@ -5107,8 +5119,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<td></td>
 								
 								<td class="red">FAIL</td>
-								<td><a href="https://w3c.github.io/sustyweb/test-suite/BSPM03-2.html">PASS</a></td>
-								<td></td>
+								<td class="red">FAIL</td>
+								<td><a href="https://w3c.github.io/sustyweb/test-suite/BSPM03-3.html">PASS</a></td>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -5342,7 +5354,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<td class="red">FAIL</td>
 								<td class="red">FAIL</td>
 								<td class="red">FAIL</td>
-								<td></td>
+								<td class="red">FAIL</td>
 								<td></td>
 							</tr>
 							<tr>

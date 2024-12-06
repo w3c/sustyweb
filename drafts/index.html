@@ -24,6 +24,8 @@
 			@media print { section section:last-child h4, section section:last-child .self-link, section section:last-child summary, .summary { display: none; } body { margin-left: 1.6em !important; padding-left: 1.6em !important; } }
 			/* Fix for Showcasing Plain English Summaries: https://github.com/w3c/sustyweb/issues/114 */
 			.summary details { background-color: #F3F3F3; border: medium solid #d9d9d9; padding: 1em; }
+			/* Sticky Deprecation Notice for Interest Group */
+			.sticky { background-color: #fddfdd; border: 5px solid red; border-radius: 15px; padding: 1em 2em; position: sticky; top: 1em; z-index: 999; }
 		</style>
 		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer>
 		</script>
@@ -1056,6 +1058,9 @@
 		</script>
 	</head>
 	<body>
+		<div class="sticky"> <!-- Deprecation -->
+			<p><strong>Note:</strong> Several sections of this specification have been superseded. Please refer to the <a href="https://www.w3.org/groups/ig/sustainableweb/">Sustainable Web Interest Group</a> who are developing the latest version of the <a href="https://w3c.github.io/sustainableweb-wsg/">Web Sustainability Guidelines</a>.</p>
+		</div>
 		<section id="abstract"> <!-- Abstract -->
 			<p>Web Sustainability Guidelines (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 covers a wide range of recommendations for making websites and products more sustainable. Following these guidelines which utilize planetary, people, and prosperity (<abbr title="Planet, People, and Prosperity">PPP</abbr>) principles throughout the decision-making processes, you can minimize your environmental impact through a mixture of user-centered design, performant web development, renewable infrastructure, sustainable business strategy, and (with metrics) various combinations of those mentioned. It should be noted that these guidelines will not address every possible mechanism or strategy to become sustainable, as such, these guidelines (which are notably Web orientated and focused) should be seen as a starting point in a sustainability journey (coverage does not extend for example to manufacturing or shipping of physical products). Following these guidelines will often make Web content more accessible, usable, and performant as a by-product.</p>
 			<p>To use these guidelines, it is highly recommended that you take a methodical approach. Rather than working through the entire document and broadly attempting to apply everything held within to your project or service, scroll through the table of contents to find a guideline that appeals to either your skill set or that you (based upon the impact / effort rating) feel comfortable in attempting to tackle. Sustainable change is measured in progress over perfection and by breaking down the specification into achievable goals based upon guidelines or even success criteria, you can more easily progress toward long-term targets. Guideline examples and resources may also provide implementation guidance while benefits can help justify their usage to management.</p>
