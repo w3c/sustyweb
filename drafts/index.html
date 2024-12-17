@@ -26,6 +26,8 @@
 			.summary details { background-color: #F3F3F3; border: medium solid #d9d9d9; padding: 1em; }
 			/* Sticky Deprecation Notice for Interest Group */
 			.sticky { background-color: #fddfdd; border: 5px solid red; border-radius: 15px; padding: 1em 2em; position: sticky; top: 1em; z-index: 999; }
+			.sticky form { text-align: center; }
+			.sticky button { padding: 0.5em 1em; }
 		</style>
 		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer>
 		</script>
@@ -1060,6 +1062,7 @@
 	<body>
 		<div class="sticky"> <!-- Deprecation -->
 			<p><strong>Note:</strong> Several sections of this specification have been superseded. Please refer to the <a href="https://www.w3.org/groups/ig/sustainableweb/">Sustainable Web Interest Group</a> who are developing the latest version of the <a href="https://w3c.github.io/sustainableweb-wsg/">Web Sustainability Guidelines</a>.</p>
+			<form><button type="button" onclick="parentNode.parentNode.remove()">Hide me</button></form>
 		</div>
 		<section id="abstract"> <!-- Abstract -->
 			<p>Web Sustainability Guidelines (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 covers a wide range of recommendations for making websites and products more sustainable. Following these guidelines which utilize planetary, people, and prosperity (<abbr title="Planet, People, and Prosperity">PPP</abbr>) principles throughout the decision-making processes, you can minimize your environmental impact through a mixture of user-centered design, performant web development, renewable infrastructure, sustainable business strategy, and (with metrics) various combinations of those mentioned. It should be noted that these guidelines will not address every possible mechanism or strategy to become sustainable, as such, these guidelines (which are notably Web orientated and focused) should be seen as a starting point in a sustainability journey (coverage does not extend for example to manufacturing or shipping of physical products). Following these guidelines will often make Web content more accessible, usable, and performant as a by-product.</p>

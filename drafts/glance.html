@@ -6,6 +6,8 @@
 		<style>
 			/* Sticky Deprecation Notice for Interest Group */
 			.sticky { background-color: #fddfdd; border: 5px solid red; border-radius: 15px; padding: 1em 2em; position: sticky; top: 1em; z-index: 999; }
+			.sticky form { text-align: center; }
+			.sticky button { padding: 0.5em 1em; }
 		</style>
 		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
 		<script class="remove">
@@ -122,6 +124,7 @@
 	<body>
 		<div class="sticky"> <!-- Deprecation -->
 			<p><strong>Note:</strong> Several sections of this specification have been superseded. Please refer to the <a href="https://www.w3.org/groups/ig/sustainableweb/">Sustainable Web Interest Group</a> who are developing the latest version of the <a href="https://w3c.github.io/sustainableweb-wsg/">Web Sustainability Guidelines</a>.</p>
+			<form><button type="button" onclick="parentNode.parentNode.remove()">Hide me</button></form>
 		</div>
 		<section id="abstract"> <!-- Abstract -->
 			<p>This page provides a paraphrased summary of the Web Sustainability Guidelines (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0. For the normative technical specification, see <a href="https://w3c.github.io/sustyweb/">https://w3c.github.io/sustyweb/</a>.</p>

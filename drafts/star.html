@@ -10,6 +10,8 @@
 			.red { color: #FF0000; }
 			/* Sticky Deprecation Notice for Interest Group */
 			.sticky { background-color: #fddfdd; border: 5px solid red; border-radius: 15px; padding: 1em 2em; position: sticky; top: 1em; z-index: 999; }
+			.sticky form { text-align: center; }
+			.sticky button { padding: 0.5em 1em; }
 		</style>
 		<script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
 		<script class="remove">
@@ -76,6 +78,7 @@
 	<body>
 		<div class="sticky"> <!-- Deprecation -->
 			<p><strong>Note:</strong> Several sections of this specification have been superseded. Please refer to the <a href="https://www.w3.org/groups/ig/sustainableweb/">Sustainable Web Interest Group</a> who are developing the latest version of the <a href="https://w3c.github.io/sustainableweb-wsg/">Web Sustainability Guidelines</a>.</p>
+			<form><button type="button" onclick="parentNode.parentNode.remove()">Hide me</button></form>
 		</div>
 		<section id="abstract"> <!-- Abstract -->
 			<p>Sustainable Tooling And Reporting (<abbr title="Sustainable Tooling And Reporting">STAR</abbr>) 1.0 provides information, examples, and metrics data to complement the Web Sustainability Guidelines (<abbr title="Web Sustainability Guidelines">WSG</abbr>) 1.0 specification. Within this supplementary document, you will find implementation advice (for external groups wishing to incorporate sustainability in their work), an evaluation methodology (for testing conformance), a categorized series of techniques (potential implementations and case studies), and a test suite (metrics data on impact and machine automation capability).</p>
