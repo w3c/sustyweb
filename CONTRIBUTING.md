@@ -1,5 +1,7 @@
 > [!WARNING]
 > This Community Group's activities are now under the direction of the [W3C Sustainable Web Interest Group](https://www.w3.org/groups/ig/sustainableweb/). This includes the curation of the [Web Sustainability Guidelines](https://w3c.github.io/sustainableweb-wsg/). Thank you for supporting us as we reached this stage in our journey and we hope you will continue to support our work as it develops at our new home (where you are welcome to get involved).
+> 
+> **Note:** If you are seeking an archived draft of our CG reports, please go to our [releases](https://github.com/w3c/sustyweb/releases) page and download the Source code (zip archive) for the assets of a particular version you wish to see.
 
 # Contributing
 
