@@ -19,7 +19,7 @@ We welcome content from individuals as well as group efforts and understand that
 
 ## File Structure
 
-The structure of the repository has been created to ensure ease of maintenance. The base directory contains links to all of the compiled files that are public facing such as the [specification](https://w3c.github.io/sustainableweb-wsg/), [at-a-glance](https://w3c.github.io/sustainableweb-wsg/glance.html), [introduction](https://w3c.github.io/sustainableweb-wsg/intro.html), [laws & policies](https://w3c.github.io/sustainableweb-wsg/policies.html), [quick reference](https://w3c.github.io/sustainableweb-wsg/quickref.html), [STAR](https://w3c.github.io/sustainableweb-wsg/star.html), [JSON API](https://w3c.github.io/sustainableweb-wsg/guidelines.json) and other supplements such as our draft Test Suite.
+The structure of the repository has been created to ensure ease of maintenance. The base directory contains links to all of the compiled files that are public facing such as the [specification](https://w3c.github.io/sustainableweb-wsg/), [at-a-glance](https://w3c.github.io/sustainableweb-wsg/glance.html), [overview](https://w3c.github.io/sustainableweb-wsg/overview.html), [laws & policies](https://w3c.github.io/sustainableweb-wsg/policies.html), [quick reference](https://w3c.github.io/sustainableweb-wsg/quickref.html), [STAR](https://w3c.github.io/sustainableweb-wsg/star.html), [JSON API](https://w3c.github.io/sustainableweb-wsg/guidelines.json) and other supplements such as our draft Test Suite.
 
 ```
 
