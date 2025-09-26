@@ -26,7 +26,7 @@ The structure of the repository has been created to ensure ease of maintenance. 
 /ig/charter.html			- Working Group Draft Charter
 glance.html				- READ ONLY - At-A-Glance (Public)
 index.html				- READ ONLY - WSG Specification (Public)
-intro.html				- READ ONLY - Introduction (Public)
+intro.html				- READ ONLY - Summary (Public)
 overview.pdf				- READ ONLY - Project Progress Tracker (Public)
 policies.html				- READ ONLY - Laws & Policies (Public)
 quickref.html				- READ ONLY - Quick Reference (Public)
