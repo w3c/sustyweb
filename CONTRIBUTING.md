@@ -1,5 +1,5 @@
 > [!WARNING]
-> This Community Group's activities are now under the direction of the [W3C Sustainable Web Interest Group](https://www.w3.org/groups/ig/sustainableweb/). This includes the curation of the [Web Sustainability Guidelines](https://w3c.github.io/sustainableweb-wsg/). Thank you for supporting us as we reached this stage in our journey and we hope you will continue to support our work as it develops at our new home (where you are welcome to get involved).
+> This Community Group's activities are now under the direction of the [W3C Sustainable Web Interest Group](https://www.w3.org/groups/ig/sustainableweb/). This includes the curation of the [Web Sustainability Guidelines](https://www.w3.org/TR/web-sustainability-guidelines/). Thank you for supporting us as we reached this stage in our journey and we hope you will continue to support our work as it develops at our new home (where you are welcome to get involved).
 > 
 > **Note:** If you are seeking an archived draft of our CG reports, please go to our [releases](https://github.com/w3c/sustyweb/releases) page and download the Source code (zip archive) for the assets of a particular version you wish to see.
 
@@ -19,7 +19,7 @@ We welcome content from individuals as well as group efforts and understand that
 
 ## File Structure
 
-The structure of the repository has been created to ensure ease of maintenance. The base directory contains links to all of the compiled files that are public facing such as the [specification](https://w3c.github.io/sustainableweb-wsg/), [at-a-glance](https://w3c.github.io/sustainableweb-wsg/glance.html), [overview](https://w3c.github.io/sustainableweb-wsg/overview.html), [laws & policies](https://w3c.github.io/sustainableweb-wsg/policies.html), [quick reference](https://w3c.github.io/sustainableweb-wsg/quickref.html), [STAR](https://w3c.github.io/sustainableweb-wsg/star.html), [JSON API](https://w3c.github.io/sustainableweb-wsg/guidelines.json) and other supplements such as our draft Test Suite.
+The structure of the repository has been created to ensure ease of maintenance. The base directory contains links to all of the compiled files that are public facing such as the [specification](https://www.w3.org/TR/web-sustainability-guidelines/), [at-a-glance](https://w3c.github.io/sustainableweb-wsg/glance.html), [overview](https://w3c.github.io/sustainableweb-wsg/overview.html), [laws & policies](https://w3c.github.io/sustainableweb-wsg/policies.html), [quick reference](https://w3c.github.io/sustainableweb-wsg/quickref.html), [STAR](https://w3c.github.io/sustainableweb-wsg/star.html), [JSON API](https://w3c.github.io/sustainableweb-wsg/guidelines.json) and other supplements such as our draft Test Suite.
 
 ```
 
